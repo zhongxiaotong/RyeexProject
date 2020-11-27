@@ -1,41 +1,11 @@
 [ {
-  "uid" : "40e74c7b4d772e2f",
-  "name" : "test_bind_device001",
+  "uid" : "d602fbc9a3e6a240",
+  "name" : "test_about_smoke",
   "time" : {
-    "start" : 1598425635228,
-    "stop" : 1598425636090,
-    "duration" : 862
+    "start" : 1605272087043,
+    "stop" : 1605272182949,
+    "duration" : 95906
   },
   "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "a629ad93c473fc1e",
-  "name" : "test_unbind_device001",
-  "time" : {
-    "start" : 1598425636105,
-    "stop" : 1598425640428,
-    "duration" : 4323
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "2cda431e538bf2ae",
-  "name" : "test_unbind_device001",
-  "time" : {
-    "start" : 1598517347520,
-    "stop" : 1598517351749,
-    "duration" : 4229
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "37d219a217a2f139",
-  "name" : "test_bind_device001",
-  "time" : {
-    "start" : 1598517346373,
-    "stop" : 1598517347506,
-    "duration" : 1133
-  },
-  "status" : "passed",
-  "severity" : "blocker"
+  "severity" : "critical"
 } ]

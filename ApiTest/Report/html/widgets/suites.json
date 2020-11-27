@@ -1,26 +1,15 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "ee79ae265a842e48c4df30f006daaf4e",
-    "name" : "TestCase",
+    "uid" : "b1077acf9d98f0fd747bb4d5d6d9f8b0",
+    "name" : "AppUiTestcase",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1bb8f4d43a47eae7dbcd78afc31ab232",
-    "name" : "Testcase",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   } ]
 }

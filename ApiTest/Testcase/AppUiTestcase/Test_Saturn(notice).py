@@ -17,6 +17,7 @@ from selenium.webdriver.common.by import By
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
+
 @allure.feature('模拟设备端业务流程')
 @allure.description('验证Saturn设备操作场景')
 class TestClass:
@@ -44,7 +45,7 @@ class TestClass:
     def test_wyzewatch_smoke(self):
         self.driver = self.app.open_app()
         time.sleep(1)
-        self.app.devices_click('SATURN_设备')
+        self.app.devices_click('SATURN_APP')
         time.sleep(1)
         while self.app.object_exist(self.wyzeband_mac + "  正在连接...") :
             time.sleep(1)
@@ -68,57 +69,25 @@ class TestClass:
             self.driver.keyevent(4)
             self.app.devices_click('SATURN_设备')
         time.sleep(1)
-        self.app.device_upslide()
-        self.log.debug(u"向上滑动")
-        for i in range(83, 250):
+        count = 1
+        for i in range(1, 1000):
             try:
-                # self.log.debug(str(i))
-                # self.app.device_upslide()
-                # self.app.saturn_inputslide("160", "40", "160", "10")
-                # self.app.saturn_inputclick("80", "315", "80", "315")
-                # self.app.assert_getdevicepagename("sports")
-                # self.app.device_upslide()
-                # self.app.saturn_inputclick("160", "160", "160", "160")
-                # time.sleep(200)
-                # self.app.device_home()
-                # self.app.device_home()
-                # self.app.saturn_inputclick("80", "160", "80", "160")
-                # self.app.saturn_inputclick("160", "300", "160", "300")
-                # self.app.device_home()
-                # self.app.device_home()
-                #
-                # self.app.device_upslide()
-                # self.app.saturn_inputslide("160", "40", "160", "10")
-                # self.app.saturn_inputclick("80", "315", "80", "315")
-                # self.app.assert_getdevicepagename("sports")
-                # self.app.device_upslide()
-                # self.app.saturn_inputclick("160", "300", "160", "300")
-                # time.sleep(200)
-                # self.app.device_home()
-                # self.app.device_home()
-                # self.app.saturn_inputclick("80", "160", "80", "160")
-                # self.app.saturn_inputclick("160", "300", "160", "300")
-                # self.app.device_home()
-                # self.app.device_home()
-
                 self.log.debug(str(i))
-                self.app.saturn_inputclick("240", "80", "240", "80")
-                self.app.assert_getdevicepagename("hrm")
-                self.log.debug(u"进入心率功能")
-                time.sleep(5)
-                self.app.device_home()
-                self.log.debug(u'点击home回到上级页面')
-                self.app.saturn_inputclick("80", "240", "80", "240")
-                self.app.assert_getdevicepagename("spo2")
-                self.log.debug(u"进入血氧功能")
-                time.sleep(5)
-                self.app.device_home()
-                self.log.debug(u'点击home回到上级页面')
+                self.app.tv_send_notification('{"telephony": {"contact": "reeyx' + str(i) + '", "number": ' + str(i) + ', "status": "RINGING_UNANSWERABLE"}, "type": "TELEPHONY"}')
+                self.driver.keyevent(4)
+                self.app.devices_click('SATURN_设备')
+                self.app.assert_getdevicepagename('remind')
+                self.app.saturn_inputclick("240", "240", "240", "240")
+                self.driver.keyevent(4)
+                self.app.devices_click('SATURN_APP')
             except:
-                self.log.error(str(i))
+                count = 1 + count
+                self.log.error(str(count))
                 self.app.device_home()
                 self.app.device_home()
-                self.app.device_upslide()
+                self.driver.keyevent(4)
+                self.app.devices_click('SATURN_APP')
+                time.sleep(3)
 
 if __name__ == '__main__':
      pytest.main()

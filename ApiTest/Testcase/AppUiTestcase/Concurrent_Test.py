@@ -13,124 +13,152 @@ from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from selenium.webdriver.common.by import By
-import appium
-import threading
+import multiprocessing
 
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
+log = MyLog()
+def initdata():
+    log.info(u'初始化测试数据')
+    log.info(t1.name)
+    log.info(t2.name)
 
-@allure.feature('模拟设备端业务流程')
-@allure.description('验证Wyzewatch设备操作场景')
-class TestClass:
-    def setup(self):
-        print("Test Start")
-        self.log = MyLog()
-        desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
-        desired_caps2 = Yamlc(yaml_path).get_yaml_data(3, "Model", "desired_caps")
-        self.wyzeband_mac1 = "9C:F6:DD:38:1A:F5"
-        # self.wyzeband_mac = "9C:F6:DD:38:15:E7"
-        self.wyzeband_mac2 = "9C:F6:DD:38:19:59"
-        # self.wyzeband_mac = "9C:F6:DD:38:18:75"
-        self.desired_caps = desired_caps
-        self.app = App(desired_caps)
-        self.app_setting = App(desired_caps2)
-        self.log.debug(u'初始化测试数据')
 
-    def teardown(self):
-        # self.app.close_app()                                                                                           #关闭App
-        print("Test End")
-
-    @allure.story("模拟Saturn设备端操作验证")
-    @allure.severity('blocker')
-    @pytest.mark.smoke
-    def test_smoke1(self):
-        # App.start_appium(4723, 4724, "468207dd")
-        self.driver = self.app.open_application('4723')
+def smoke1():
+    info1 = "Process-1"
+    desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
+    app = App(desired_caps)
+    wyzeband_mac1 = "9C:F6:DD:38:1B:81"
+    # App.start_appium(4723, 4724, "468207dd")
+    driver = app.open_application('4723')
+    time.sleep(1)
+    app.devices_click('SATURN_设备')
+    time.sleep(1)
+    while app.object_exist(wyzeband_mac1 + "  正在连接...") :
         time.sleep(1)
-        self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='SATURN_设备']").click()
-        time.sleep(1)
-        while self.app.object_exist(self.wyzeband_mac1 + "  正在连接...") :
+    if app.object_exist(wyzeband_mac1 + "  已连接") == False:
+        app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
+        app.click_prompt_box()
+        if (app.object_exist("realme Watch Saturn") or app.object_exist("WYZE") or app.object_exist("hey+")) == False:
+            app.close_app()
+            # self.app_setting.restart_bluetooth()                                                                       #重启蓝牙
+            driver = app.open_app()
+            app.devices_click('SATURN_设备')
+            app.devices_click('解绑')
+        while app.object_exist(wyzeband_mac1) == False:
             time.sleep(1)
-        if self.app.object_exist(self.wyzeband_mac1 + "  已连接") == False:
-            self.app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-            self.app.click_prompt_box()
-            if (self.app.object_exist("realme Watch Saturn") or self.app.object_exist("WYZE") or self.app.object_exist("hey+")) == False:
-                self.app.close_app()
-                self.app_setting.restart_bluetooth()                                                                       #重启蓝牙
-                self.driver = self.app.open_app()
-                self.app.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-                self.app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-            while self.app.object_exist(self.wyzeband_mac1) == False:
-                time.sleep(1)
-            self.app.find_elementby(By.XPATH, "//*[@text='" + self.wyzeband_mac1 + "']").click()
-            while self.app.object_exist("请在设备上点击确认") == False:
-                time.sleep(1)
-            # self.driver.keyevent(4)
-            # self.driver.keyevent(4)
-            self.app.find_elementby(By.XPATH, "//*[@text='完成']").click()
-            self.app.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-            self.app.saturn_inputclick("160", "240", "160", "240")
-            self.driver.keyevent(4)
-            self.app.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-            # self.app.find_elementby(By.XPATH, "//@text='" + self.wyzeband_mac1 + " 已连接']")
-        # else:
-        #     self.driver.keyevent(4)
-        #     self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='SATURN_APP']").click()
-        time.sleep(1)
-        for i in range(1, 2):
-            self.log.debug(str(i))
-            self.app.device_upslide()
-            self.app.device_home()
-            self.app.device_longhome()
-            self.app.device_home()
-    def test_smoke2(self):
-        # App.start_appium(4725, 4726, "HDP9K19128907088")
-        self.driver1 = self.app_setting.open_application('4725')
-        time.sleep(1)
-        self.app_setting.find_elementby(By.XPATH, "//android.widget.Button[@text='SATURN_设备']").click()
-        time.sleep(1)
-        while self.app_setting.object_exist(self.wyzeband_mac2 + "  正在连接...") :
+        app.devices_click(wyzeband_mac1)
+        while app.object_exist(wyzeband_mac1) == False:
             time.sleep(1)
-        if self.app_setting.object_exist(self.wyzeband_mac2 + "  已连接") == False:
-            self.app_setting.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-            self.app_setting.click_prompt_box()
-            if (self.app_setting.object_exist("realme Watch Saturn") or self.app_setting.object_exist("WYZE") or self.app_setting.object_exist("hey+")) == False:
-                self.app_setting.close_app()
-                # self.app_setting.restart_bluetooth()                                                                       #重启蓝牙
-                self.driver = self.app_setting.open_app()
-                self.app_setting.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-                self.app_setting.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-            while self.app_setting.object_exist(self.wyzeband_mac2) == False:
-                time.sleep(1)
-            self.app_setting.find_elementby(By.XPATH, "//*[@text='" + self.wyzeband_mac2 + "']").click()
-            while self.app_setting.object_exist("请在设备上点击确认") == False:
-                time.sleep(1)
-            # self.driver.keyevent(4)
-            # self.driver.keyevent(4)
-            self.app_setting.find_elementby(By.XPATH, "//*[@text='完成']").click()
-            self.app_setting.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-            self.app_setting.saturn_inputclick("160", "240", "160", "240")
-            self.driver.keyevent(4)
-            self.app_setting.find_elementby(By.XPATH, "//*[@text='SATURN_设备']").click()
-            # self.app_setting.find_elementby(By.XPATH, "//@text='" + self.wyzeband_mac2 + " 已连接']")
-        # else:
-        #     self.driver.keyevent(4)
-        #     self.app_setting.find_elementby(By.XPATH, "//android.widget.Button[@text='SATURN_APP']").click()
+            app.devices_click('完成')
+            app.devices_click('SATURN_设备')
+            app.saturn_inputclick("160", "240", "160", "240")
+            driver.keyevent(4)
+            app.devices_click('SATURN_设备')
+    time.sleep(1)
+    app.device_upslide()
+    for i in range(1, 50):
+        try:
+            log.debug(info1 + u'血氧心率运行次数：' + str(i))
+            app.saturn_inputclick("240", "80", "240", "80")
+            log.debug(info1 + u"点击心率icon成功")
+            app.assert_getdevicepagename("hrm")
+            log.debug(info1 + u"进入心率功能成功")
+            time.sleep(3)
+            app.device_home()
+            log.debug(info1 + u"home键返回上级页面成功（心率-上级页面）")
+            app.saturn_inputclick("80", "240", "80", "240")
+            log.debug(info1 + u"点击血氧icon成功")
+            app.assert_getdevicepagename("spo2")
+            log.debug(info1 + u"进入血氧功能成功")
+            time.sleep(3)
+            app.device_home()
+            log.debug(info1 + u"home键返回上级页面成功（血氧-上级页面）")
+        except:
+            log.error(info1 + u'血氧心率在第N次运行失败：' + str(i))
+            app.device_home()
+            app.device_home()
+            app.device_upslide()
+            log.debug(info1 + u"回到主页面")
+def smoke2():
+    info2 = "Process-2"
+    desired_caps2 = Yamlc(yaml_path).get_yaml_data(3, "Model", "desired_caps")
+    app1 = App(desired_caps2)
+    wyzeband_mac2 = "9C:F6:DD:38:1B:78"
+    # App.start_appium(4725, 4726, "HDP9K19128907088")
+    driver1 = app1.open_application('4725')
+    size = driver1.get_window_size()
+    time.sleep(1)
+    app1.devices_click('SATURN_设备')
+    time.sleep(1)
+    while app1.object_exist(wyzeband_mac2 + "  正在连接...") :
         time.sleep(1)
-        for i in range(1, 2):
-            self.log.debug(str(i))
-            self.app_setting.device_upslide()
-            self.app_setting.device_home()
-            self.app_setting.device_longhome()
-            self.app_setting.device_home()
+    if app1.object_exist(wyzeband_mac2 + "  已连接") == False:
+        app1.devices_click('解绑')
+        app1.click_prompt_box()
+        if (app1.object_exist("realme Watch 2") or app1.object_exist("WYZE") or app1.object_exist("hey+")) == False:
+            app1.close_app()
+            # app1.restart_bluetooth()                                                                       #重启蓝牙
+            driver1 = app1.open_app()
+            app1.devices_click('SATURN_设备')
+            app1.devices_click('解绑')
+        while app1.object_exist(wyzeband_mac2) == False:
+            time.sleep(1)
+        app1.devices_click(wyzeband_mac2)
+        while app1.object_exist("请在设备上点击确认") == False:
+            time.sleep(1)
+        driver1.keyevent(4)
+        driver1.keyevent(4)
+        app1.devices_click('完成')
+        app1.devices_click('SATURN_设备')
+        app1.saturn_inputclick("160", "240", "160", "240")
+        driver1.keyevent(4)
+        app1.devices_click('SATURN_设备')
+    time.sleep(1)
+    app1.swpe(size['width']*0.25, size['height']*0.95, size['width']*0.25, size['height']*0.25)
+    for i in range(1, 50):
+        try:
+            log.info(info2 + u'滑动/点击运行次数：' + str(i))
+            app1.device_downslide()
+            log.debug(info2 + u"向下滑动成功")
+            app1.device_upslide()
+            log.debug(info2 + u"向上滑动成功")
+            app1.device_leftslide()
+            log.debug(info2 + u"向左滑动成功")
+            app1.device_leftslide()
+            log.debug(info2 + u"向左滑动成功")
+            app1.device_leftslide()
+            log.debug(info2 + u"向左滑动成功")
+            app1.device_leftslide()
+            log.debug(info2 + u"向左滑动成功")
+            app1.device_rightslide()
+            log.debug(info2 + u"向右滑动成功")
+            app1.device_home()
+            log.debug(info2 + u"按home键成功")
+            app1.device_longpress()
+            log.debug(info2 + u"长按成功")
+            app1.assert_getdevicepagename("face_pick_page")
+            log.debug(info2 + u"进入切换表盘页面成功")
+            app1.device_leftslide()
+            log.debug(info2 + u"向左滑动成功")
+            app1.device_rightslide()
+            log.debug(info2 + u"向右滑动成功")
+            app1.device_home()
+            log.debug(info2 + u"home键成功")
+            app1.assert_getdevicepagename("home_page")
+            log.debug(info2 + u"退出切换表盘页面成功")
+        except:
+            log.error(info2 + u'滑动/点击在第N次运行失败：' + str(i))
+            app1.device_home()
+            log.debug(info2 + u"回到主页面")
 
-# if __name__ == '__main__':
-threads = []
-t1 = threading.Thread(target=TestClass().test_smoke1)
-threads.append(t1)
-t2 = threading.Thread(target=TestClass().test_smoke2)
-threads.append(t2)
-for t in threads:
-    t.start()
-    # pytest.main()
+
+
+
+if __name__ == '__main__':
+    t1 = multiprocessing.Process(target=smoke1)
+    t2 = multiprocessing.Process(target=smoke2)
+    t1.start()
+    t2.start()
+    initdata()

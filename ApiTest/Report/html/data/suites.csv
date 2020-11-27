@@ -1,5 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"passed","TestCase.Test_Bind_Device.TestClass#test_bind_device001","862","验证不同场景绑定手环"
-"passed","TestCase.Test_Unbind_Device.TestClass#test_unbind_device001","4323","验证不同场景解除绑定手环"
-"passed","Testcase.Test_Unbind_Device.TestClass#test_unbind_device001","4229","验证不同场景解除绑定手环"
-"passed","Testcase.Test_Bind_Device.TestClass#test_bind_device001","1133","验证不同场景绑定手环"
+"passed","AppUiTestcase.Test_Saturn(slide).TestClass#test_about_smoke","95906","重复测试about功能（1000次）"
