@@ -13,7 +13,9 @@ import time
 import allure
 from appium.webdriver.common.touch_action import TouchAction
 import random
+import os
 import json
+import commands
 
 
 class App(object):
@@ -28,11 +30,28 @@ class App(object):
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
         return self.driver
 
+    @allure.step("打开app")
+    def open_application(self, port):
+        self.driver = webdriver.Remote('http://localhost:' + str(port) + '/wd/hub', self.desired_caps)
+        return self.driver
+
     #不同的driver
     @allure.step("打开Setting")
     def open_setting(self):
         self.driver2 = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
         return self.driver2
+
+    @staticmethod
+    def start_appium(port, bootstrap, udid):
+        a = os.popen('netstat -ano | findstr "%s" ' % port)
+        time.sleep(2)
+        t1 = a.read()
+        if "LISTENING" not in t1:
+            os.system("start /b appium -a 127.0.0.1 -p %s -bp %s -U %s" % (port, bootstrap, udid))
+
+    @staticmethod
+    def stop_appium(self):  # 关闭所有的appium进程
+        os.system("start /b taskkill /F /t /IM Appium.exe")
 
     @allure.step("结束app进程")
     def close_app(self):
@@ -58,21 +77,21 @@ class App(object):
     # 重写元素定位方法
     def find_elementby(self, *loc):
         try:
-            WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element(*loc).is_displayed())             #隐式等待
+            WebDriverWait(self.driver, 120).until(lambda driver: driver.find_element(*loc).is_displayed())             #隐式等待
             sleep(0.5)
             return self.driver.find_element(*loc)
         except:
-            self.log.error(u"%s 未能找到 %s 元素" % loc)
+            self.log.error(u'app页面未能找到该元素%s' % loc[1])
             return False
 
     # 重写元素定位方法（不同的driver）
     def find_elementby2(self, *loc):
         try:
-            WebDriverWait(self.driver2, 10).until(lambda driver: driver.find_element(*loc).is_displayed())            #隐式等待
+            WebDriverWait(self.driver2, 120).until(lambda driver: driver.find_element(*loc).is_displayed())            #隐式等待
             sleep(0.5)
             return self.driver2.find_element(*loc)
         except:
-            self.log.error(u"%s 未能找到 %s 元素" % loc)
+            self.log.error(u'app页面未能找到该元素%s' % loc[1])
             return False
 
     def swpe(self, start_x, start_y, end_x, end_y):
@@ -91,26 +110,82 @@ class App(object):
 
     def assert_notin_text(self, expecttext='BleError'):
         time.sleep(1)
-        text = self.driver.find_element_by_xpath("//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
-        try:
-            assert str(expecttext) not in str(text)
-        except:
-            self.log.error(u'App页面Response验证失败%s' % text)
+        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        # text = self.driver.find_element_by_xpath("//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        if len(text) != 0:
+            try:
+                assert str(expecttext) not in str(text)
+            except:
+                self.log.error(u'App页面Response验证失败%s' % text)
+                raise
+        else:
+            self.log.error(u'设备回调为空值')
             raise
 
     def assert_in_text(self, expecttext):
         time.sleep(1)
-        text = self.driver.find_element_by_xpath("//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
-        print expecttext
-        print text
-        try:
-            assert expecttext in text
-        except:
-            self.log.error(u'App页面Response验证失败%s' % text)
+        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        if len(text) != 0:
+            try:
+                assert expecttext in text
+            except:
+                self.log.error(u'Response验证失败,实际返回结果%s，预期返回结果%s' % (text, expecttext))
+                raise
+        else:
+            self.log.error(u'设备回调为空值')
+            raise
+
+    def assert_getdevicedeltams(self):
+        if self.getdevice():
+            delta_ms = self.getdevice()[0]
+            try:
+                assert(int(delta_ms) <= 2000)
+            except:
+                self.log.warning(u'设备响应时间超时%s' % delta_ms)
+                # raise
+        else:
+            self.log.error(u'delta_ms为空')
+
+
+    def assert_getdevicepagename(self, target_pagename):
+        if self.getdevice():
+            page_name = self.getdevice()[1]
+            try:
+                assert(target_pagename == page_name)
+            except:
+                self.log.error(u'验证失败：当前页面为%s.预期页面为%s' %(page_name, target_pagename))
+                raise
+        else:
+            self.log.error(u'page_name为空')
+
+    def getdevice(self):
+        time.sleep(1)
+        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        if len(text) != 0:
+            delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
+            page_name = text.split(',')[3].split(':')[1]
+            # if page_name == 'remind':                                                                                 #退出提醒页面
+            #     self.device_home()
+            return delta_ms, page_name
+        else:
+            self.log.error(u'设备回调为空值')
+            raise
+
+    def assert_connect_status(self):
+        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
+        if len(text.encode("utf-8")) != 0:
+            state = text[-3:]
+            try:
+                assert(state == u'已连接')
+            except:
+                self.log.error(u'设备已断开连接%s' % text)
+                raise
+        else:
+            self.log.error(u'设备回调为空值')
             raise
 
     def object_exist(self, text):
-        loc = '//*[@text="' + text + '"]'''
+        loc = '//*[@text="' + text + '"]'
         flag = True
         try:
             WebDriverWait(self.driver, 5).until(lambda driver: driver.find_element(By.XPATH, loc).is_displayed())
@@ -140,6 +215,53 @@ class App(object):
             M.append(str(d))
         S = ''.join(M)
         return S
+
+    def getdevices_uuid(self):
+        try:
+            r = os.popen("adb devices")
+            text = r.read()
+            r.close()
+            if len(text.split('\n')) == 3:
+                self.log.error(u"设备列表为空")
+            # num = len(text.split('\n'))
+            if len(text.split('\n')) == 4:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                return devices1
+            if len(text.split('\n')) == 5:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                return devices1, devices2
+            if len(text.split('\n')) == 6:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                return devices1, devices2, devices3
+            if len(text.split('\n')) == 7:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                return devices1, devices2, devices3, devices4
+            if len(text.split('\n')) == 8:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5
+        except:
+            self.log.error(u"请检查设备是否成功连接电脑")
+            raise
+
+    def getdevice_version(self, uuid):
+        try:
+            r = os.popen('"adb -P 5037 -s ' + uuid + 'shell getprop ro.build.version.release"')
+            text = r.read()
+            r.close()
+            return text
+        except:
+            self.log.error(u"请检查设备是否成功连接电脑")
+            raise
 
 
     # def bind_devices(self):
@@ -177,32 +299,101 @@ class App(object):
         self.close_setting()
 
 ###-------------------------------------------------------------------业务脚本----------------------------------------------------------------------###
+    @allure.step("saturn坐标输入")
     def saturn_inputclick(self, sx, sy, ex, ey):
+        # self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+
+    @allure.step("saturn坐标滑动")
+    def saturn_inputslide(self, sx, sy, ex, ey):
+        # self.assert_connect_status()
+        self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"2000","interval":"50"}')
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
+        self.clear_text()
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+
 
 
     def brandy_inputclick(self, x, y):
+        # self.assert_connect_status()
         self.input_data('{"id": ' + self.getid() + ', "method": "touch", "gesture": "click", "pos": {"x": "' + x + '", "y": "'+ y + '"}}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
+        self.assert_in_text(expecttext='ok')
 
+    @allure.step("点击上滑")
     def device_upslide(self):
+        self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='上滑']").click()
-        time.sleep(1)
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        # self.log.debug(u'向上滑动成功')
 
+    @allure.step("点击下滑")
     def device_downslide(self):
+        self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='下滑']").click()
-        time.sleep(1)
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        # self.log.debug(u'向下滑动成功')
 
+    @allure.step("点击左滑")
     def device_leftslide(self):
+        self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='左滑']").click()
-        time.sleep(1)
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        # self.log.debug(u'向左滑动成功')
 
+    @allure.step("点击右滑")
     def device_rightslide(self):
+        self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='右滑']").click()
-        time.sleep(1)
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        # self.log.debug(u'向右滑动成功')
+
+
+    @allure.step("点击HOME")
+    def device_home(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='HOME']").click()
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        # self.log.debug(u'HOME键成功')
+
+    @allure.step("点击LONG HOME")
+    def device_longhome(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='LONG HOME']").click()
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        self.assert_getdevicepagename("power")
+        # self.log.debug(u'长按HOME键成功')
+
+    @allure.step("点击长按")
+    def device_longpress(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='长按']").click()
+        self.assert_in_text(expecttext='ok')
+        self.device_clickDID()
+        self.assert_getdevicepagename("face_pick_page")
+        # self.log.debug(u'长按')
+
+    @allure.step("点击获取设备标识")
+    def device_clickDID(self):
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='获取设备标识']").click()
+        self.assert_getdevicedeltams()
+
+
+    def devices_click(self, text):
+        self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
+
 
     @allure.step("登录wyze")
     def login_wyze(self, email_address, password):
@@ -320,7 +511,7 @@ class App(object):
 
     @allure.step("发送通知")
     def tv_send_notification(self, value):
-        value = json.dumps(value)
+        # value = json.dumps(value)
         self.input_data(value)
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="发送通知"]').click()
         self.assert_notin_text()
