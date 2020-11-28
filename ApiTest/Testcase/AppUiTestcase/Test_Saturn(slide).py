@@ -39,7 +39,7 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("设备滑动点击")
+    @allure.story("模拟设备滑动点击")
     @allure.step("1:模拟设备滑动点击")
     @allure.severity('critical')
     @pytest.mark.smoke
