@@ -18,17 +18,17 @@ father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.feature('模拟Saturn设备操作场景')
-@allure.description('重复测试about功能（1000次）')
+@allure.description('重复滑动点击')
 class TestClass:
     def setup(self):
         print("Test Start")
         self.log = MyLog()
         desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
         desired_caps2 = Yamlc(yaml_path).get_yaml_data(2, "Model", "desired_caps")
-        self.wyzeband_mac = "2C:AA:8E:8F:02:32"
+        # self.wyzeband_mac = "2C:AA:8E:8F:02:32"
         # self.wyzeband_mac = "2C:AA:8E:8F:02:75"
         # self.wyzeband_mac = "9C:F6:DD:38:19:59"
-        # self.wyzeband_mac = "9C:F6:DD:38:18:75"
+        self.wyzeband_mac = "9C:F6:DD:38:1B:81"
         self.desired_caps = desired_caps
         self.app = App(desired_caps)
         self.app_setting = App(desired_caps2)
@@ -39,8 +39,8 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("点击about，成功显示设备基础信息")
-    @allure.step("1:向右滑动屏幕，点击设置图标，检查是否进入setting页面。2：向上滑动屏幕，点击about按钮，检查是否进入about页面。")
+    @allure.story("设备滑动点击")
+    @allure.step("1:模拟设备滑动点击")
     @allure.severity('critical')
     @pytest.mark.smoke
     def test_about_smoke(self):
@@ -53,7 +53,7 @@ class TestClass:
         if self.app.object_exist(self.wyzeband_mac + "  已连接") == False:
             self.app.devices_click('解绑')
             self.app.click_prompt_box()
-            if (self.app.object_exist("realme Watch Saturn") or self.app.object_exist("WYZE") or self.app.object_exist("hey+")) == False:
+            if (self.app.object_exist("realme Watch 2") or self.app.object_exist("WYZE") or self.app.object_exist("hey+")) == False:
                 self.app.close_app()
                 self.app_setting.restart_bluetooth()                                                                       #重启蓝牙
                 self.driver = self.app.open_app()
