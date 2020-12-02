@@ -44,7 +44,6 @@ class TestClass:
     def test_slide_smoke(self):
         self.driver = self.app.open_app()
         self.app.devices_bind(self.mac, self.fuction)
-        self.app.device_upslide()
         for i in range(1, 100):
             try:
                 self.log.info(u'滑动/点击运行次数：' + str(i))
