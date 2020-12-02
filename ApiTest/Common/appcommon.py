@@ -139,9 +139,9 @@ class App(object):
                 raise
         else:
             self.log.error(u'设备回调为空值')
-            self.driver.keyevent(4)
-            time.sleep(200)
-            self.devices_click('SATURN_设备')
+            # self.driver.keyevent(4)
+            # time.sleep(200)
+            # self.devices_click('SATURN_设备')
 
 
     def assert_getdevicedeltams(self):
