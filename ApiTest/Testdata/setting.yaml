@@ -1,0 +1,10 @@
+Model:
+  - Setting:                                                              # 应用程序
+    desired_caps:
+      platformName: Android
+      deviceName: 468207dd
+      platformVersion: 10
+      noReset: False
+      appPackage: com.android.settings
+      appActivity: Settings
+      newCommandTimeout: 30000

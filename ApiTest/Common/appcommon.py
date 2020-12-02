@@ -14,8 +14,14 @@ import allure
 from appium.webdriver.common.touch_action import TouchAction
 import random
 import os
+from Readyaml import Yamlc
 import json
 import commands
+
+
+current_path = os.path.abspath(__file__)
+father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "..")                                  #获取上级目录
+yaml_path_setting = father_path + "\\" + "Testdata\\setting.yaml"
 
 
 class App(object):
@@ -37,8 +43,8 @@ class App(object):
 
     #不同的driver
     @allure.step("打开Setting")
-    def open_setting(self):
-        self.driver2 = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
+    def open_setting(self, desired_caps):
+        self.driver2 = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         return self.driver2
 
     @staticmethod
@@ -133,7 +139,10 @@ class App(object):
                 raise
         else:
             self.log.error(u'设备回调为空值')
-            raise
+            self.driver.keyevent(4)
+            time.sleep(200)
+            self.devices_click('SATURN_设备')
+
 
     def assert_getdevicedeltams(self):
         if self.getdevice():
@@ -284,9 +293,8 @@ class App(object):
     #     # self.app.find_elementby(By.XPATH, '//*[@class="android.widget.Button" and @text="完成"]').click()
 
     #重启蓝牙
-    def restart_bluetooth(self,):
-        A = App(self.desired_caps)
-        self.driver2 = A.open_setting()
+    def restart_bluetooth(self, desired_caps_setting):
+        self.driver2 = App.open_setting(desired_caps_setting)
         time.sleep(1)
         self.find_elementby2(By.XPATH, '//android.widget.TextView[@text="蓝牙"]').click()
         time.sleep(1)
@@ -393,6 +401,34 @@ class App(object):
 
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
+
+    @allure.step("绑定设备")
+    def devices_bind(self, mac, selection):
+        desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
+        time.sleep(1)
+        self.devices_click(selection)
+        time.sleep(1)
+        while self.object_exist(mac + "  正在连接...") :
+            time.sleep(1)
+        if self.object_exist(mac + "  已连接") == False:
+            self.devices_click('解绑')
+            self.click_prompt_box()
+            if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
+                self.close_app()
+                self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
+                self.driver = self.open_app()
+                self.devices_click(selection)
+                self.devices_click('解绑')
+            while self.object_exist(mac) == False:
+                time.sleep(1)
+            self.devices_click(mac)
+            while self.object_exist("请在设备上点击确认") == False:
+                time.sleep(1)
+            self.devices_click('完成')
+            self.devices_click(selection)
+            self.saturn_inputclick("160", "240", "160", "240")
+            self.driver.keyevent(4)
+            self.devices_click(selection)
 
 
     @allure.step("登录wyze")

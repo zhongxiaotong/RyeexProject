@@ -4,3 +4,17 @@
 [ERROR 2020-11-27 15:16:09]滑动/点击在第N次运行失败：2
 [ERROR 2020-11-27 15:16:21]滑动/点击在第N次运行失败：3
 [ERROR 2020-11-27 23:12:13]post请求失败，请检查
+[ERROR 2020-12-02 15:29:59]app页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[ERROR 2020-12-02 15:33:03]app页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[ERROR 2020-12-02 16:24:20]app页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[ERROR 2020-12-02 17:44:26]验证失败：当前页面为home_page.预期页面为face_pick_page
+[ERROR 2020-12-02 17:44:26]滑动/点击在第N次运行失败：1
+[ERROR 2020-12-02 17:46:25]验证失败：当前页面为home_page.预期页面为face_pick_page
+[ERROR 2020-12-02 17:46:25]滑动/点击在第N次运行失败：2
+[ERROR 2020-12-02 17:48:26]验证失败：当前页面为home_page.预期页面为face_pick_page
+[ERROR 2020-12-02 17:48:26]滑动/点击在第N次运行失败：3
+[ERROR 2020-12-02 17:50:24]验证失败：当前页面为home_page.预期页面为face_pick_page
+[ERROR 2020-12-02 17:50:24]滑动/点击在第N次运行失败：4
+[ERROR 2020-12-02 17:51:01]设备回调为空值
+[ERROR 2020-12-02 17:51:01]滑动/点击在第N次运行失败：5
+[ERROR 2020-12-02 17:51:04]设备回调为空值

@@ -60,11 +60,10 @@ class TestClass:
         print("Test Start")
         self.log = MyLog()
         desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
-        desired_caps2 = Yamlc(yaml_path).get_yaml_data(2, "Model", "desired_caps")
-        self.wyzeband_mac = "9C:F6:DD:38:19:59"
+        self.mac = "9C:F6:DD:38:19:59"
+        self.fuction = 'SATURN_设备'
         self.desired_caps = desired_caps
         self.app = App(desired_caps)
-        self.app_setting = App(desired_caps2)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
@@ -76,27 +75,7 @@ class TestClass:
     @pytest.mark.smoke
     def test_appwyze_smoke(self):
         self.driver = self.app.open_app()
-        size = self.driver.get_window_size()
-        self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='BRANDY_APP']").click()
-        time.sleep(5)
-        if self.app.object_exist(self.wyzeband_mac + "  已连接") == False:
-            self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='解绑']").click()
-            self.app.click_prompt_box()
-            if self.app.object_exist_xpath("//android.view.ViewGroup[@index='0']") == False:
-                self.app.close_app()
-                self.app_setting.restart_bluetooth()                                                                       #重启蓝牙
-                self.driver = self.app.open_app()
-                self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='BRANDY_APP']").click()
-                self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='扫描']").click()
-            time.sleep(5)
-            self.app.find_elementby(By.XPATH, "//*[@text='" + self.wyzeband_mac + "']").click()
-            time.sleep(5)
-            if self.app.object_exist("请在设备上点击确认"):
-                self.driver.keyevent(4)
-                self.driver.keyevent(4)
-            self.app.brandy_inputclick("160", "300")
-            self.driver.keyevent(4)
-            self.app.find_elementby(By.XPATH, "//android.widget.Button[@text='BRANDY_APP']").click()
+        self.app.devices_bind(self.mac, self.fuction)
         self.app.tv_device_info()                                                                                      #设备信息
         self.app.tv_device_property()                                                                                  #设备电量
         self.app.tv_device_activity()                                                                                  #活动数据
@@ -106,7 +85,6 @@ class TestClass:
         self.app.tv_send_notification({"telephony": {"contact": "reeyx", "number": "1234567", "status": "RINGING_UNANSWERABLE"}, "type": "TELEPHONY"})       #发送通知
         self.app.tv_send_notification({"appMessage": {"appId": "app.facebook", "text": "ryeex text", "title": "ryeex title"}, "type": "APP_MESSAGE"})
         self.app.tv_send_notification({"sms": {"contact": "ryeex contact", "content": "ryeex content", "sender": "1234567"}, "type": "SMS"})
-
         self.app.tv_set_app_list("2,3,5,6,7,8,11,12,13,14,15")                                                                                     #设置应用排序
         self.app.tv_app_list("2, 3, 5")                                                                                         #获取应用排序
 

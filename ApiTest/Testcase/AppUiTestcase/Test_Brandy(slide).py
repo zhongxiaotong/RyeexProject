@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2020/12/2 17:35
+# @Time : 2020/11/9 15:04
 # @Author : Greey
-# @FileName: Test_Saturn(slide).py.py
-
-
+# @FileName: Test_Brandy(slide).py
 
 import pytest
 import os
@@ -27,7 +25,7 @@ class TestClass:
         self.log = MyLog()
         desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
         self.mac = "9C:F6:DD:38:1B:81"
-        self.fuction = 'SATURN_设备'
+        self.fuction = 'BRANDY_设备'
         self.desired_caps = desired_caps
         self.app = App(desired_caps)
         self.log.debug(u'初始化测试数据')
@@ -52,26 +50,10 @@ class TestClass:
                 self.log.debug(u"向上滑动成功")
                 self.app.device_downslide()
                 self.log.debug(u"向下滑动成功")
-                self.app.device_downslide()
-                self.log.debug(u"向下滑动成功")
+                self.app.device_leftslide()
+                self.log.debug(u"向左滑动成功")
                 self.app.device_upslide()
                 self.log.debug(u"向上滑动成功")
-                self.app.device_leftslide()
-                self.log.debug(u"向左滑动成功")
-                self.app.device_leftslide()
-                self.log.debug(u"向左滑动成功")
-                self.app.device_leftslide()
-                self.log.debug(u"向左滑动成功")
-                self.app.device_leftslide()
-                self.log.debug(u"向左滑动成功")
-                self.app.device_rightslide()
-                self.log.debug(u"向右滑动成功")
-                self.app.device_rightslide()
-                self.log.debug(u"向右滑动成功")
-                self.app.device_rightslide()
-                self.log.debug(u"向右滑动成功")
-                self.app.device_rightslide()
-                self.log.debug(u"向右滑动成功")
                 self.app.device_rightslide()
                 self.log.debug(u"向右滑动成功")
                 self.app.device_longpress()
@@ -80,12 +62,16 @@ class TestClass:
                 self.log.debug(u"进入切换表盘页面成功")
                 self.app.device_leftslide()
                 self.log.debug(u"向左滑动成功")
+                self.app.device_leftslide()
+                self.log.debug(u"向左滑动成功")
                 self.app.device_rightslide()
                 self.log.debug(u"向右滑动成功")
-                self.app.saturn_inputclick("160", "160", "160", "160")
-                self.log.debug(u"点击成功")
+                self.app.device_rightslide()
+                self.log.debug(u"向右滑动成功")
+                self.app.device_home()
+                self.log.debug(u"Home键返回")
                 self.app.assert_getdevicepagename("home_page")
-                self.log.debug(u"退出切换表盘页面成功")
+                self.log.debug(u"点击退出切换表盘页面成功")
             except:
                 self.log.error(u'滑动/点击在第N次运行失败：' + str(i))
                 self.app.device_home()
