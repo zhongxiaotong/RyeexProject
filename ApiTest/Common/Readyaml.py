@@ -53,6 +53,15 @@ class Yamlc(object):
         except:
             self.log.error(u'读取配置文件参数不正确,请检查传参')
 
+    def get_allyaml_data(self, var):
+        try:
+            self.var = var
+            self.yamldata = self.yaml[self.var]
+            return self.yamldata
+        except:
+            self.log.error(u'读取配置文件参数不正确,请检查传参')
+
+
 # if __name__ == "__main__":
 #     C = "C:\\Users\\EDZ\\PycharmProjects\\untitled\\ApiTest\\Testdata\\bind_device.yaml"
 #     A = Yamlc(C)

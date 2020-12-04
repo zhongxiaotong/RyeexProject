@@ -48,16 +48,16 @@ class App(object):
         return self.driver2
 
     @staticmethod
-    def start_appium(port, bootstrap, udid):
+    def start_appium(port, bootstrap):
         a = os.popen('netstat -ano | findstr "%s" ' % port)
         time.sleep(2)
         t1 = a.read()
         if "LISTENING" not in t1:
-            os.system("start /b appium -a 127.0.0.1 -p %s -bp %s -U %s" % (port, bootstrap, udid))
+            os.system("start  appium -a 127.0.0.1 -p %s -bp %s" % (port, bootstrap))
 
     @staticmethod
     def stop_appium(self):  # 关闭所有的appium进程
-        os.system("start /b taskkill /F /t /IM Appium.exe")
+        os.system("start /b taskkill /F /t /IM node.exe")
 
     @allure.step("结束app进程")
     def close_app(self):
@@ -123,10 +123,10 @@ class App(object):
                 assert str(expecttext) not in str(text)
             except:
                 self.log.error(u'App页面Response验证失败%s' % text)
-                raise
+                raise BaseException(u'App页面Response验证失败%s' % text)
         else:
             self.log.error(u'设备回调为空值')
-            raise
+            raise BaseException(u'设备回调为空值')
 
     def assert_in_text(self, expecttext):
         time.sleep(1)
@@ -136,12 +136,9 @@ class App(object):
                 assert expecttext in text
             except:
                 self.log.error(u'Response验证失败,实际返回结果%s，预期返回结果%s' % (text, expecttext))
-                raise
+                raise BaseException(u'Response验证失败,实际返回结果%s，预期返回结果%s' % (text, expecttext))
         else:
             self.log.error(u'设备回调为空值')
-            # self.driver.keyevent(4)
-            # time.sleep(200)
-            # self.devices_click('SATURN_设备')
 
 
     def assert_getdevicedeltams(self):
@@ -151,9 +148,10 @@ class App(object):
                 assert(int(delta_ms) <= 2000)
             except:
                 self.log.warning(u'设备响应时间超时%s' % delta_ms)
-                # raise
+                raise BaseException(u'设备响应时间超时%s' % delta_ms)
         else:
             self.log.error(u'delta_ms为空')
+            raise BaseException(u'delta_ms为空')
 
 
     def assert_getdevicepagename(self, target_pagename):
@@ -163,22 +161,27 @@ class App(object):
                 assert(target_pagename == page_name)
             except:
                 self.log.error(u'验证失败：当前页面为%s.预期页面为%s' %(page_name, target_pagename))
-                raise
+                raise BaseException(u'验证失败：当前页面为%s.预期页面为%s' %(page_name, target_pagename))
         else:
             self.log.error(u'page_name为空')
+            raise BaseException(u'page_name为空')
 
     def getdevice(self):
         time.sleep(1)
         text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
         if len(text) != 0:
-            delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
-            page_name = text.split(',')[3].split(':')[1]
-            # if page_name == 'remind':                                                                                 #退出提醒页面
-            #     self.device_home()
-            return delta_ms, page_name
+            try:
+                delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
+                page_name = text.split(',')[3].split(':')[1]
+                # if page_name == 'remind':                                                                                 #退出提醒页面
+                #     self.device_home()
+                return delta_ms, page_name
+            except:
+                self.log.error(u'获取delta_ms/page_name失败')
+                raise BaseException(u'获取delta_ms/page_name失败')
         else:
             self.log.error(u'设备回调为空值')
-            raise
+            raise BaseException(u'设备回调为空值')
 
     def assert_connect_status(self):
         text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
@@ -188,10 +191,10 @@ class App(object):
                 assert(state == u'已连接')
             except:
                 self.log.error(u'设备已断开连接%s' % text)
-                raise
+                raise BaseException(u'设备已断开连接%s' % text)
         else:
             self.log.error(u'设备回调为空值')
-            raise
+            raise BaseException(u'设备回调为空值')
 
     def object_exist(self, text):
         loc = '//*[@text="' + text + '"]'
@@ -224,18 +227,18 @@ class App(object):
             M.append(str(d))
         S = ''.join(M)
         return S
-
-    def getdevices_uuid(self):
+    @staticmethod
+    def getdevices_uuid():
         try:
             r = os.popen("adb devices")
             text = r.read()
             r.close()
             if len(text.split('\n')) == 3:
-                self.log.error(u"设备列表为空")
+                raise ValueError(u"设备池为空")
             # num = len(text.split('\n'))
             if len(text.split('\n')) == 4:
                 devices1 = text.split('\n')[1].split('\t')[0]
-                return devices1
+                return devices1, text                                      #text 防止只有一个设备时。取不到值
             if len(text.split('\n')) == 5:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
@@ -258,19 +261,67 @@ class App(object):
                 devices4 = text.split('\n')[4].split('\t')[0]
                 devices5 = text.split('\n')[5].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5
+            if len(text.split('\n')) == 9:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6
+            if len(text.split('\n')) == 9:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7
+            if len(text.split('\n')) == 10:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8
+            if len(text.split('\n')) == 11:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9
+            if len(text.split('\n')) == 11:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10
         except:
-            self.log.error(u"请检查设备是否成功连接电脑")
-            raise
-
-    def getdevice_version(self, uuid):
+            raise ValueError(u"请检查设备是否成功连接电脑")
+    @staticmethod
+    def getdevice_version(uuid):
         try:
-            r = os.popen('"adb -P 5037 -s ' + uuid + 'shell getprop ro.build.version.release"')
-            text = r.read()
+            r = os.popen('adb -P 5037 -s ' + str(uuid) + ' shell getprop ro.build.version.release')
+            text = r.read().strip()                                                                 #去掉首位空格
             r.close()
             return text
         except:
-            self.log.error(u"请检查设备是否成功连接电脑")
-            raise
+            raise ValueError(u"获取手机安卓版本失败")
 
 
     # def bind_devices(self):
@@ -314,7 +365,7 @@ class App(object):
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
 
     @allure.step("saturn坐标滑动")
     def saturn_inputslide(self, sx, sy, ex, ey):
@@ -323,7 +374,7 @@ class App(object):
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
 
 
 
@@ -332,14 +383,14 @@ class App(object):
         self.input_data('{"id": ' + self.getid() + ', "method": "touch", "gesture": "click", "pos": {"x": "' + x + '", "y": "'+ y + '"}}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
-        self.assert_in_text(expecttext='ok')
+        # self.assert_in_text(expecttext='ok')
 
     @allure.step("点击上滑")
     def device_upslide(self):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='上滑']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
         # self.log.debug(u'向上滑动成功')
 
     @allure.step("点击下滑")
@@ -347,7 +398,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='下滑']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
         # self.log.debug(u'向下滑动成功')
 
     @allure.step("点击左滑")
@@ -355,7 +406,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='左滑']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
         # self.log.debug(u'向左滑动成功')
 
     @allure.step("点击右滑")
@@ -363,7 +414,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='右滑']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
         # self.log.debug(u'向右滑动成功')
 
 
@@ -372,7 +423,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='HOME']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
+        # self.device_clickDID()
         # self.log.debug(u'HOME键成功')
 
     @allure.step("点击LONG HOME")
@@ -429,6 +480,86 @@ class App(object):
             self.saturn_inputclick("160", "240", "160", "240")
             self.driver.keyevent(4)
             self.devices_click(selection)
+            self.devices_init()
+
+    @allure.step("初始化设备")
+    def devices_init(self):
+        time.sleep(1)
+        self.close_remind()
+        self.device_rightslide()
+        self.log.debug(u'向右滑动')
+        self.saturn_inputclick("80", "310", "80", "310")
+        self.log.debug(u'点击设置')
+        self.saturn_inputclick("160", "180", "160", "180")
+        self.log.debug(u'点击Display')
+        self.saturn_inputclick("160", "180", "160", "180")
+        self.log.debug(u'点击Screen Timeout')
+        self.saturn_inputclick("160", "40", "160", "40")
+        self.log.debug(u'选择15秒')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击确认button')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击Raise to Wake')
+        self.device_home()
+        self.log.debug(u'点击home键')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击Notification')
+        # self.saturn_inputclick("160", "80", "160", "80")
+        # self.log.debug(u'点击Sedentary')
+        self.saturn_inputclick("160", "200", "160", "200")
+        self.log.debug(u'点击Goal achieved')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击Drink')
+        self.device_upslide()
+        self.log.debug(u'向上滑动')
+        self.saturn_inputclick("160", "120", "160", "120")
+        self.log.debug(u'点击Meditating')
+        self.saturn_inputclick("160", "200", "160", "200")
+        self.log.debug(u'点击HeartRate')
+        self.device_home()
+        self.log.debug(u'点击home键')
+        # self.saturn_inputslide("160", "160", "160", "40")
+        # self.log.debug(u'向上滑动一段距离')
+        # self.saturn_inputclick("160", "300", "160", "300")
+        # self.log.debug(u'点击Do Not Disturb')
+        # self.saturn_inputslide("160", "160", "160", "40")
+        # self.log.debug(u'向上滑动一段距离')
+        # self.saturn_inputclick("160", "200", "160", "200")
+        # self.log.debug(u'点击Smart mode')
+        # self.device_home()
+        # self.log.debug(u'点击home键')
+        self.device_home()
+        self.log.debug(u'点击home键')
+        self.device_home()
+        self.log.debug(u'点击home键')
+        self.log.debug(u'---------------------设备初始化成功------------------------')
+
+    @allure.step("关闭异常提醒页面")
+    def close_remind(self, mac):
+        self.device_clickDID()
+        if self.assert_getdevicepagename("remind"):
+            self.device_home()                                                                       #防止息屏，唤醒屏幕
+            self.device_home()
+
+
+    @allure.step("异常处理")
+    def call_back(self, mac, selection):
+        self.device_clickDID()
+        if self.getdevice():                                                                            #防止设备本来未断开重连。且不在表盘页面
+            self.log.debug(u'设备未卡死，返回主页面继续执行')
+            if self.assert_getdevicepagename('home_page') == False:
+                self.device_home()
+                self.device_home()
+            self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
+        else:                                                                                           #设备卡死重连
+            self.log.debug(u'设备卡死，等待5分钟设备重启，重洗绑定')
+            self.driver.keyevent(4)
+            self.close_app()
+            time.sleep(300)
+            self.open_app()
+            self.devices_bind(mac, selection)
+
+
 
 
     @allure.step("登录wyze")

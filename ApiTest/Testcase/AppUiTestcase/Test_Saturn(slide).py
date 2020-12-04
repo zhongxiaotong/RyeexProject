@@ -30,6 +30,8 @@ class TestClass:
         self.fuction = 'SATURN_设备'
         self.desired_caps = desired_caps
         self.app = App(desired_caps)
+        A = self.app.getdevices_uuid()
+        print(A)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
