@@ -38,26 +38,34 @@ class App(object):
 
     @allure.step("打开app")
     def open_application(self, port):
-        self.driver = webdriver.Remote('http://localhost:' + str(port) + '/wd/hub', self.desired_caps)
+        self.driver = webdriver.Remote('http://127.0.0.1:' + str(port) + '/wd/hub', self.desired_caps)
         return self.driver
 
     #不同的driver
     @allure.step("打开Setting")
     def open_setting(self, desired_caps):
-        self.driver2 = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+        self.driver2 = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         return self.driver2
 
     @staticmethod
-    def start_appium(port, bootstrap):
+    def start_appium(port, bootstrap, uuid):
         a = os.popen('netstat -ano | findstr "%s" ' % port)
         time.sleep(2)
         t1 = a.read()
         if "LISTENING" not in t1:
-            os.system("start  appium -a 127.0.0.1 -p %s -bp %s" % (port, bootstrap))
+            os.system("start  appium -a 127.0.0.1 -p %s -bp %s -U %s" % (port, bootstrap, uuid))
+            print(u'启动appium')
+        print(u'appium已启动')
 
-    @staticmethod
-    def stop_appium(self):  # 关闭所有的appium进程
-        os.system("start /b taskkill /F /t /IM node.exe")
+    def stop_appium(self, port):  # 关闭所有的appium进程
+        a = os.popen('netstat -ano | findstr "%s" ' % port)
+        time.sleep(2)
+        t1 = a.read()
+        pidport = t1.split('LISTENING')[1].split('\n')[0].strip()
+        os.system("taskkill /PID %s -F -T" % pidport)
+
+    def stop_cmds(self):
+        os.system("taskkill /f /im cmd.exe")
 
     @allure.step("结束app进程")
     def close_app(self):
@@ -83,22 +91,32 @@ class App(object):
     # 重写元素定位方法
     def find_elementby(self, *loc):
         try:
-            WebDriverWait(self.driver, 120).until(lambda driver: driver.find_element(*loc).is_displayed())             #隐式等待
-            sleep(0.5)
+            WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element(*loc).is_displayed())             #隐式等待
+            count = 1
+            while len(self.driver.find_element(*loc).text) == 0:
+                sleep(0.5)
+                count = count + 1
+                if count >= 20:                                         #超过10秒退出循环
+                    break
             return self.driver.find_element(*loc)
         except:
-            self.log.error(u'app页面未能找到该元素%s' % loc[1])
-            return False
+            self.log.error(u'app页面未能找到该元素' + loc[1])
+            raise BaseException(u'app页面未能找到该元素' + loc[1])
 
     # 重写元素定位方法（不同的driver）
     def find_elementby2(self, *loc):
         try:
-            WebDriverWait(self.driver2, 120).until(lambda driver: driver.find_element(*loc).is_displayed())            #隐式等待
-            sleep(0.5)
+            WebDriverWait(self.driver2, 10).until(lambda driver: driver.find_element(*loc).is_displayed())            #隐式等待
+            count = 1
+            while len(self.driver.find_element(*loc).text) == 0:
+                sleep(0.5)
+                count = count + 1
+                if count >= 20:                                         #超过10秒退出循环
+                    break
             return self.driver2.find_element(*loc)
         except:
-            self.log.error(u'app页面未能找到该元素%s' % loc[1])
-            return False
+            self.log.error(u'app页面未能找到该元素' + loc[1])
+            # raise BaseException(u'app页面未能找到该元素%s' % loc[1])
 
     def swpe(self, start_x, start_y, end_x, end_y):
         '''
@@ -115,8 +133,7 @@ class App(object):
         #     self.driver.swipe(start_x, start_y, end_x, end_y, 1000)
 
     def assert_notin_text(self, expecttext='BleError'):
-        time.sleep(1)
-        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
         # text = self.driver.find_element_by_xpath("//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
         if len(text) != 0:
             try:
@@ -129,8 +146,8 @@ class App(object):
             raise BaseException(u'设备回调为空值')
 
     def assert_in_text(self, expecttext):
-        time.sleep(1)
-        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
+        text = text.encode("utf-8")
         if len(text) != 0:
             try:
                 assert expecttext in text
@@ -139,6 +156,21 @@ class App(object):
                 raise BaseException(u'Response验证失败,实际返回结果%s，预期返回结果%s' % (text, expecttext))
         else:
             self.log.error(u'设备回调为空值')
+            raise BaseException('设备回调为空值')
+
+    def call_back_assert(self, expecttext):                                                                         #不抛出异常，让设备进入重启继续运行
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
+        text = text.encode("utf-8")
+        if len(text) != 0:
+            try:
+                assert expecttext in text
+                return True
+            except:
+                self.log.error(u'异常处理----Response验证失败,实际返回结果%s，预期返回结果%s' % (text, expecttext))
+                return False
+        else:
+            self.log.error(u'异常处理----设备回调为空值')
+            return False
 
 
     def assert_getdevicedeltams(self):
@@ -148,7 +180,6 @@ class App(object):
                 assert(int(delta_ms) <= 2000)
             except:
                 self.log.warning(u'设备响应时间超时%s' % delta_ms)
-                raise BaseException(u'设备响应时间超时%s' % delta_ms)
         else:
             self.log.error(u'delta_ms为空')
             raise BaseException(u'delta_ms为空')
@@ -166,9 +197,11 @@ class App(object):
             self.log.error(u'page_name为空')
             raise BaseException(u'page_name为空')
 
+
+
     def getdevice(self):
-        time.sleep(1)
-        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
+        text = text.encode("utf-8")
         if len(text) != 0:
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
@@ -177,8 +210,8 @@ class App(object):
                 #     self.device_home()
                 return delta_ms, page_name
             except:
-                self.log.error(u'获取delta_ms/page_name失败')
-                raise BaseException(u'获取delta_ms/page_name失败')
+                self.log.error(u'获取delta_ms/page_name失败' + text)
+                raise BaseException(u'获取delta_ms/page_name失败' + text)
         else:
             self.log.error(u'设备回调为空值')
             raise BaseException(u'设备回调为空值')
@@ -360,16 +393,24 @@ class App(object):
 ###-------------------------------------------------------------------业务脚本----------------------------------------------------------------------###
     @allure.step("saturn坐标输入")
     def saturn_inputclick(self, sx, sy, ex, ey):
-        # self.assert_connect_status()
+        self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
         self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
 
+
+    def devices_inputclick(self, sx, sy, ex, ey):
+        self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
+        self.clear_text()
+        # self.assert_in_text(expecttext='ok')
+        # self.device_clickDID()
+
     @allure.step("saturn坐标滑动")
     def saturn_inputslide(self, sx, sy, ex, ey):
-        # self.assert_connect_status()
+        self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"2000","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
@@ -379,7 +420,7 @@ class App(object):
 
 
     def brandy_inputclick(self, x, y):
-        # self.assert_connect_status()
+        self.assert_connect_status()
         self.input_data('{"id": ' + self.getid() + ', "method": "touch", "gesture": "click", "pos": {"x": "' + x + '", "y": "'+ y + '"}}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
@@ -447,8 +488,7 @@ class App(object):
     @allure.step("点击获取设备标识")
     def device_clickDID(self):
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='获取设备标识']").click()
-        self.assert_getdevicedeltams()
-
+        # self.assert_getdevicedeltams()
 
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
@@ -456,11 +496,9 @@ class App(object):
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection):
         desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
-        time.sleep(1)
         self.devices_click(selection)
-        time.sleep(1)
         while self.object_exist(mac + "  正在连接...") :
-            time.sleep(1)
+            time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
@@ -470,54 +508,91 @@ class App(object):
                 self.driver = self.open_app()
                 self.devices_click(selection)
                 self.devices_click('解绑')
+            count = 0
             while self.object_exist(mac) == False:
                 time.sleep(1)
+                count += 1
+                if count >= 5:
+                    self.driver.keyevent(4)
+                    self.driver.keyevent(4)
+                    self.devices_click(selection)
+                    self.devices_click("解綁")
+                    time.sleep(2)
+                    if self.object_exist(mac) == False:
+                        raise(u'扫描页面第一个页没有找到设备')
             self.devices_click(mac)
             while self.object_exist("请在设备上点击确认") == False:
                 time.sleep(1)
             self.devices_click('完成')
             self.devices_click(selection)
-            self.saturn_inputclick("160", "240", "160", "240")
+            self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
+            time.sleep(15)
             self.devices_click(selection)
             self.devices_init()
 
+
     @allure.step("初始化设备")
     def devices_init(self):
-        time.sleep(1)
         self.close_remind()
         self.device_rightslide()
         self.log.debug(u'向右滑动')
-        self.saturn_inputclick("80", "310", "80", "310")
+        # self.close_remind()
+        self.saturn_inputclick("200", "270", "200", "270")
         self.log.debug(u'点击设置')
+        # self.close_remind()
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(u'点击Display')
+        # self.close_remind()
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(u'点击Screen Timeout')
+        # self.close_remind()
         self.saturn_inputclick("160", "40", "160", "40")
         self.log.debug(u'选择15秒')
+        # self.close_remind()
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(u'点击确认button')
+        # self.close_remind()
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(u'点击Raise to Wake')
+        # self.close_remind()
         self.device_home()
         self.log.debug(u'点击home键')
+        # self.close_remind()
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(u'点击Notification')
+        # self.close_remind()
         # self.saturn_inputclick("160", "80", "160", "80")
         # self.log.debug(u'点击Sedentary')
         self.saturn_inputclick("160", "200", "160", "200")
         self.log.debug(u'点击Goal achieved')
+        # self.close_remind()
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(u'点击Drink')
+        # self.close_remind()
         self.device_upslide()
         self.log.debug(u'向上滑动')
+        # self.close_remind()
         self.saturn_inputclick("160", "120", "160", "120")
         self.log.debug(u'点击Meditating')
+        # self.close_remind()
         self.saturn_inputclick("160", "200", "160", "200")
         self.log.debug(u'点击HeartRate')
+        # self.close_remind()
         self.device_home()
         self.log.debug(u'点击home键')
+        self.device_upslide()
+        self.log.debug(u'向上滑动')
+        self.device_upslide()
+        self.log.debug(u'向上滑动')
+        self.saturn_inputclick("160", "160", "160", "160")
+        self.log.debug(u'点击General')
+        self.saturn_inputclick("160", "120", "160", "120")
+        self.log.debug(u'点击App View')
+        self.saturn_inputclick("160", "100", "160", "100")
+        self.log.debug(u'点击Grid')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击确认button')
         # self.saturn_inputslide("160", "160", "160", "40")
         # self.log.debug(u'向上滑动一段距离')
         # self.saturn_inputclick("160", "300", "160", "300")
@@ -532,32 +607,88 @@ class App(object):
         self.log.debug(u'点击home键')
         self.device_home()
         self.log.debug(u'点击home键')
+        self.device_home()
+        self.log.debug(u'点击home键')
         self.log.debug(u'---------------------设备初始化成功------------------------')
 
-    @allure.step("关闭异常提醒页面")
-    def close_remind(self, mac):
+
+    @allure.step("异常处理-回连初始化设备")
+    def call_back_devices_init(self):
+        self.close_remind()
+        self.device_rightslide()
+        self.log.debug(u'向右滑动')
+        # self.close_remind()
+        self.saturn_inputclick("80", "310", "80", "310")
+        self.log.debug(u'点击设置')
+        # self.close_remind()
+        self.saturn_inputclick("160", "180", "160", "180")
+        self.log.debug(u'点击Display')
+        # self.close_remind()
+        self.saturn_inputclick("160", "180", "160", "180")
+        self.log.debug(u'点击Screen Timeout')
+        # self.close_remind()
+        self.saturn_inputclick("160", "40", "160", "40")
+        self.log.debug(u'选择15秒')
+        # self.close_remind()
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'点击确认button')
+        # self.close_remind()
+        self.device_home()
+        self.log.debug(u'点击home键')
+        self.device_home()
+        self.log.debug(u'点击home键')
+        self.log.debug(u'---------------------回连初始化设备成功------------------------')
+
+    @allure.step("关闭提醒页面")
+    def close_remind(self):
         self.device_clickDID()
-        if self.assert_getdevicepagename("remind"):
-            self.device_home()                                                                       #防止息屏，唤醒屏幕
+        time.sleep(2)
+        if self.getdevice()[1] == 'remind':
+            self.device_home()                                                                          #防止息屏，唤醒屏幕
             self.device_home()
 
 
     @allure.step("异常处理")
-    def call_back(self, mac, selection):
+    def call_back(self, mac, selection, port, uuid):
+        if self.object_exist(selection):
+            time.sleep(60)
+            self.log.debug(u'异常处理---设备重启等待60秒')
+            self.devices_click(selection)
+        while self.object_exist(mac + "  正在连接...") :
+            time.sleep(0.5)
         self.device_clickDID()
-        if self.getdevice():                                                                            #防止设备本来未断开重连。且不在表盘页面
-            self.log.debug(u'设备未卡死，返回主页面继续执行')
-            if self.assert_getdevicepagename('home_page') == False:
+        self.log.debug(u'异常处理---获取设备标识')
+        if self.call_back_assert('page_name'):                                                        #判断设备是否卡死
+            self.log.debug(u'-------------------设备(UI)未卡死，返回主页面继续执行-----------------------')
+            if self.getdevice()[1] == 'home_page':                                                     #防止设备本来未断开重连。且不在表盘页面
                 self.device_home()
+                self.log.debug(u'异常处理---home键返回')
                 self.device_home()
+                self.log.debug(u'异常处理---home键返回')
+                self.device_home()
+                self.log.debug(u'异常处理---home键返回')
             self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
+            self.log.debug(u'异常处理---home键返回')
+            self.device_home()
+            self.log.debug(u'异常处理---home键返回')
         else:                                                                                           #设备卡死重连
-            self.log.debug(u'设备卡死，等待5分钟设备重启，重洗绑定')
-            self.driver.keyevent(4)
+            self.log.debug(u'-------------------设备卡死，等待5分钟设备重启，重新绑定--------------------------')
+            # self.driver.keyevent(4)
             self.close_app()
+            self.log.debug(u'异常处理---关闭IDT')
+            # self.stop_appium(port)
+            # self.log.debug(u'异常处理---关闭appium')
             time.sleep(300)
-            self.open_app()
+            self.log.debug(u'异常处理---等待300秒')
+            self.start_appium(port, int(port) + 1, uuid)
+            self.log.debug(u'异常处理---启动appium')
+            self.open_application(port)
+            self.log.debug(u'异常处理---打开IDT')
+            time.sleep(2)
             self.devices_bind(mac, selection)
+            self.log.debug(u'异常处理---绑定设备')
+            self.call_back_devices_init()
+            self.log.debug(u'异常处理---回连初始化设备')
 
 
 
@@ -609,7 +740,6 @@ class App(object):
         TouchAction(self.driver).tap(x=360, y=92).perform()
         self.find_elementby(By.XPATH, '//android.widget.EditText[@text="Please select the targeted version"]').send_keys(version)
         self.find_elementby(By.XPATH, '//android.widget.TextView[@text="Ok"]').click()
-        self.find_elementby(By.XPATH, '//*[@resource-id="com.hualai:id/lottie_animation"]')
 
     @allure.step("等待升级")
     def upgrading(self):
@@ -621,9 +751,9 @@ class App(object):
 
     @allure.step("忽略提示框")
     def click_prompt_box(self):
-        if self.object_exist("总是允许") == True:
-            self.find_elementby(By.XPATH, '//*[@text="不再询问"]').click()
-            self.find_elementby(By.XPATH, '//*[@text="总是允许"]').click()
+        if self.object_exist("允许") == True:
+            # self.find_elementby(By.XPATH, '//*[@text="不再询问"]').click()
+            self.find_elementby(By.XPATH, '//*[@text="允许"]').click()
 
     def input_data(self, value):
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').click()

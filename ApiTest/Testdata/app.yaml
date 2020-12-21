@@ -6,7 +6,7 @@ Model:
       deviceName: deviceName                                                        #通过USB控制设备
 #      deviceName: 10.10.10.178:5555                                       #通过WiFi控制设备
       platformVersion: platformVersion                                                  #移动操作系统版本
-#      app: C:\Users\EDZ\PycharmProjects\untitled\ApiTest\Testdata\app-debug.apk                 # app安装路径
+#      app: C:\Users\EDZ\PycharmProjects\untitled\ApiTest\Testdata\IDT.apk                 # app安装路径
       unicodeKeyboard: True                                              #启用Unicode输入
       resetKeyboard: True                                                #使用unicodeKeyboard功能运行Unicode测试后，将键盘重置为原始状态。
       noReset: True
@@ -16,4 +16,5 @@ Model:
       newCommandTimeout: 30000                                          #设置命令超时时间，单位：秒。达到超时时间仍未接收到新的命令时 Appium 会假设客户端退出然后自动结束会话。
       #automationName : selendroid
       systemPort : systemPort
+      automationName : UiAutomator2
 
