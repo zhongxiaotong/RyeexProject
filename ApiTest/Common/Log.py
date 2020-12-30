@@ -11,6 +11,7 @@
 import logging
 import os
 import time
+import datetime
 
 LEVELS = {
     'debug': logging.DEBUG,
@@ -53,8 +54,9 @@ def get_current_time():
 
 class MyLog(object):
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_file = path + '/Log/log.log'
-    err_file = path + '/Log/err.log'
+    currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
+    log_file = path + '/Log/' + currentdate + '.log'
+    err_file = path + '/Log/' + currentdate + '_error.log'
     logger.setLevel(LEVELS.get(level, logging.NOTSET))
     create_file(log_file)
     create_file(err_file)

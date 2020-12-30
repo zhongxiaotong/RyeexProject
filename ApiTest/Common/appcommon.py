@@ -96,7 +96,7 @@ class App(object):
             while len(self.driver.find_element(*loc).text) == 0:
                 sleep(0.5)
                 count = count + 1
-                if count >= 20:                                         #超过10秒退出循环
+                if count >= 40:                                         #超过20秒退出循环
                     break
             return self.driver.find_element(*loc)
         except:
@@ -111,12 +111,12 @@ class App(object):
             while len(self.driver.find_element(*loc).text) == 0:
                 sleep(0.5)
                 count = count + 1
-                if count >= 20:                                         #超过10秒退出循环
+                if count >= 40:                                         #超过20秒退出循环
                     break
             return self.driver2.find_element(*loc)
         except:
             self.log.error(u'app页面未能找到该元素' + loc[1])
-            # raise BaseException(u'app页面未能找到该元素%s' % loc[1])
+            raise BaseException(u'app页面未能找到该元素%s' % loc[1])
 
     def swpe(self, start_x, start_y, end_x, end_y):
         '''
@@ -186,6 +186,8 @@ class App(object):
 
 
     def assert_getdevicepagename(self, target_pagename):
+        self.device_clickDID()
+        self.log.debug(u"获取设备标识")
         if self.getdevice():
             page_name = self.getdevice()[1]
             try:
@@ -196,7 +198,6 @@ class App(object):
         else:
             self.log.error(u'page_name为空')
             raise BaseException(u'page_name为空')
-
 
 
     def getdevice(self):
@@ -269,32 +270,32 @@ class App(object):
             if len(text.split('\n')) == 3:
                 raise ValueError(u"设备池为空")
             # num = len(text.split('\n'))
-            if len(text.split('\n')) == 4:
+            elif len(text.split('\n')) == 4:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 return devices1, text                                      #text 防止只有一个设备时。取不到值
-            if len(text.split('\n')) == 5:
+            elif len(text.split('\n')) == 5:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 return devices1, devices2
-            if len(text.split('\n')) == 6:
+            elif len(text.split('\n')) == 6:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
                 return devices1, devices2, devices3
-            if len(text.split('\n')) == 7:
+            elif len(text.split('\n')) == 7:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
                 devices4 = text.split('\n')[4].split('\t')[0]
                 return devices1, devices2, devices3, devices4
-            if len(text.split('\n')) == 8:
+            elif len(text.split('\n')) == 8:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
                 devices4 = text.split('\n')[4].split('\t')[0]
                 devices5 = text.split('\n')[5].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5
-            if len(text.split('\n')) == 9:
+            elif len(text.split('\n')) == 9:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
@@ -302,7 +303,7 @@ class App(object):
                 devices5 = text.split('\n')[5].split('\t')[0]
                 devices6 = text.split('\n')[6].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5, devices6
-            if len(text.split('\n')) == 9:
+            elif len(text.split('\n')) == 10:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
@@ -311,7 +312,7 @@ class App(object):
                 devices6 = text.split('\n')[6].split('\t')[0]
                 devices7 = text.split('\n')[7].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5, devices6, devices7
-            if len(text.split('\n')) == 10:
+            elif len(text.split('\n')) == 11:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
@@ -321,7 +322,7 @@ class App(object):
                 devices7 = text.split('\n')[7].split('\t')[0]
                 devices8 = text.split('\n')[8].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8
-            if len(text.split('\n')) == 11:
+            elif len(text.split('\n')) == 12:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
@@ -332,7 +333,7 @@ class App(object):
                 devices8 = text.split('\n')[8].split('\t')[0]
                 devices9 = text.split('\n')[9].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9
-            if len(text.split('\n')) == 11:
+            elif len(text.split('\n')) == 13:
                 devices1 = text.split('\n')[1].split('\t')[0]
                 devices2 = text.split('\n')[2].split('\t')[0]
                 devices3 = text.split('\n')[3].split('\t')[0]
@@ -344,6 +345,99 @@ class App(object):
                 devices9 = text.split('\n')[9].split('\t')[0]
                 devices10 = text.split('\n')[10].split('\t')[0]
                 return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10
+            elif len(text.split('\n')) == 14:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11
+            elif len(text.split('\n')) == 15:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                devices12 = text.split('\n')[12].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12
+            elif len(text.split('\n')) == 16:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                devices12 = text.split('\n')[12].split('\t')[0]
+                devices13 = text.split('\n')[13].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12, devices13
+            elif len(text.split('\n')) == 17:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                devices12 = text.split('\n')[12].split('\t')[0]
+                devices13 = text.split('\n')[13].split('\t')[0]
+                devices14 = text.split('\n')[14].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12, devices13, devices14
+            elif len(text.split('\n')) == 18:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                devices12 = text.split('\n')[12].split('\t')[0]
+                devices13 = text.split('\n')[13].split('\t')[0]
+                devices14 = text.split('\n')[14].split('\t')[0]
+                devices15 = text.split('\n')[15].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12, devices13, devices14, devices15
+            elif len(text.split('\n')) == 19:
+                devices1 = text.split('\n')[1].split('\t')[0]
+                devices2 = text.split('\n')[2].split('\t')[0]
+                devices3 = text.split('\n')[3].split('\t')[0]
+                devices4 = text.split('\n')[4].split('\t')[0]
+                devices5 = text.split('\n')[5].split('\t')[0]
+                devices6 = text.split('\n')[6].split('\t')[0]
+                devices7 = text.split('\n')[7].split('\t')[0]
+                devices8 = text.split('\n')[8].split('\t')[0]
+                devices9 = text.split('\n')[9].split('\t')[0]
+                devices10 = text.split('\n')[10].split('\t')[0]
+                devices11 = text.split('\n')[11].split('\t')[0]
+                devices12 = text.split('\n')[12].split('\t')[0]
+                devices13 = text.split('\n')[13].split('\t')[0]
+                devices14 = text.split('\n')[14].split('\t')[0]
+                devices15 = text.split('\n')[15].split('\t')[0]
+                devices16 = text.split('\n')[16].split('\t')[0]
+                return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12, devices13, devices14, devices15, devices16
         except:
             raise ValueError(u"请检查设备是否成功连接电脑")
     @staticmethod
@@ -509,17 +603,17 @@ class App(object):
                 self.devices_click(selection)
                 self.devices_click('解绑')
             count = 0
+            size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
                 time.sleep(1)
+                self.driver.keyevent(4)
+                self.devices_click("解綁")
                 count += 1
                 if count >= 5:
-                    self.driver.keyevent(4)
-                    self.driver.keyevent(4)
-                    self.devices_click(selection)
-                    self.devices_click("解綁")
-                    time.sleep(2)
-                    if self.object_exist(mac) == False:
-                        raise(u'扫描页面第一个页没有找到设备')
+                    self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
+                    time.sleep(3)
+                elif count == 10:
+                    raise(u'扫描页面没有找到设备')
             self.devices_click(mac)
             while self.object_exist("请在设备上点击确认") == False:
                 time.sleep(1)
@@ -536,63 +630,55 @@ class App(object):
     def devices_init(self):
         self.close_remind()
         self.device_rightslide()
-        self.log.debug(u'向右滑动')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
-        self.log.debug(u'点击设置')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击设置')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug(u'点击Display')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Display')
+        self.saturn_inputclick("160", "80", "160", "80")
+        self.log.debug(u'设备初始化-点击Brightness')
+        self.saturn_inputslide("160", "40", "160", "160")
+        self.log.debug(u'设备初始化-向下滑动一段距离')
+        self.saturn_inputclick("160", "300", "160", "300")
+        self.log.debug(u'设备初始化-点击确认button')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug(u'点击Screen Timeout')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Screen Timeout')
         self.saturn_inputclick("160", "40", "160", "40")
-        self.log.debug(u'选择15秒')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-选择15秒')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(u'点击确认button')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击确认button')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(u'点击Raise to Wake')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Raise to Wake')
         self.device_home()
-        self.log.debug(u'点击home键')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击home键')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(u'点击Notification')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Notification')
         # self.saturn_inputclick("160", "80", "160", "80")
         # self.log.debug(u'点击Sedentary')
         self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug(u'点击Goal achieved')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Goal achieved')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(u'点击Drink')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Drink')
         self.device_upslide()
-        self.log.debug(u'向上滑动')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-向上滑动')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug(u'点击Meditating')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击Meditating')
         self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug(u'点击HeartRate')
-        # self.close_remind()
+        self.log.debug(u'设备初始化-点击HeartRate')
         self.device_home()
-        self.log.debug(u'点击home键')
+        self.log.debug(u'设备初始化-点击home键')
         self.device_upslide()
-        self.log.debug(u'向上滑动')
+        self.log.debug(u'设备初始化-向上滑动')
         self.device_upslide()
-        self.log.debug(u'向上滑动')
+        self.log.debug(u'设备初始化-向上滑动')
         self.saturn_inputclick("160", "160", "160", "160")
-        self.log.debug(u'点击General')
+        self.log.debug(u'设备初始化-点击General')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug(u'点击App View')
+        self.log.debug(u'设备初始化-点击App View')
         self.saturn_inputclick("160", "100", "160", "100")
-        self.log.debug(u'点击Grid')
+        self.log.debug(u'设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(u'点击确认button')
+        self.log.debug(u'设备初始化-点击确认button')
         # self.saturn_inputslide("160", "160", "160", "40")
         # self.log.debug(u'向上滑动一段距离')
         # self.saturn_inputclick("160", "300", "160", "300")
@@ -604,11 +690,11 @@ class App(object):
         # self.device_home()
         # self.log.debug(u'点击home键')
         self.device_home()
-        self.log.debug(u'点击home键')
+        self.log.debug(u'设备初始化-点击home键')
         self.device_home()
-        self.log.debug(u'点击home键')
+        self.log.debug(u'设备初始化-点击home键')
         self.device_home()
-        self.log.debug(u'点击home键')
+        self.log.debug(u'设备初始化-点击home键')
         self.log.debug(u'---------------------设备初始化成功------------------------')
 
 
@@ -617,22 +703,16 @@ class App(object):
         self.close_remind()
         self.device_rightslide()
         self.log.debug(u'向右滑动')
-        # self.close_remind()
         self.saturn_inputclick("80", "310", "80", "310")
         self.log.debug(u'点击设置')
-        # self.close_remind()
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(u'点击Display')
-        # self.close_remind()
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(u'点击Screen Timeout')
-        # self.close_remind()
         self.saturn_inputclick("160", "40", "160", "40")
         self.log.debug(u'选择15秒')
-        # self.close_remind()
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(u'点击确认button')
-        # self.close_remind()
         self.device_home()
         self.log.debug(u'点击home键')
         self.device_home()
@@ -644,27 +724,31 @@ class App(object):
         self.device_clickDID()
         time.sleep(2)
         if self.getdevice()[1] == 'remind':
-            self.device_home()                                                                          #防止息屏，唤醒屏幕
             self.device_home()
+            self.log.debug(u'退出提醒页面')
 
 
     @allure.step("异常处理")
     def call_back(self, mac, selection, port, uuid):
-        if self.object_exist(selection):
+        time.sleep(5)
+        if self.object_exist(selection):                                                               #判断设备是否重启
             time.sleep(60)
-            self.log.debug(u'异常处理---设备重启等待60秒')
-            self.devices_click(selection)
+            self.log.error(u'-------------------设备重启等待60秒-----------------------------------')
+            self.devices_bind(mac, selection)
+            self.log.debug(u'异常处理---绑定设备')
+            self.devices_init()
+            self.log.debug(u'异常处理---回连初始化设备')
+        count = 1
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
+            count += 1
+            if count >= 30:
+                raise BaseException(u'回连失败')
         self.device_clickDID()
         self.log.debug(u'异常处理---获取设备标识')
         if self.call_back_assert('page_name'):                                                        #判断设备是否卡死
             self.log.debug(u'-------------------设备(UI)未卡死，返回主页面继续执行-----------------------')
             if self.getdevice()[1] == 'home_page':                                                     #防止设备本来未断开重连。且不在表盘页面
-                self.device_home()
-                self.log.debug(u'异常处理---home键返回')
-                self.device_home()
-                self.log.debug(u'异常处理---home键返回')
                 self.device_home()
                 self.log.debug(u'异常处理---home键返回')
             self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
@@ -673,11 +757,8 @@ class App(object):
             self.log.debug(u'异常处理---home键返回')
         else:                                                                                           #设备卡死重连
             self.log.debug(u'-------------------设备卡死，等待5分钟设备重启，重新绑定--------------------------')
-            # self.driver.keyevent(4)
             self.close_app()
             self.log.debug(u'异常处理---关闭IDT')
-            # self.stop_appium(port)
-            # self.log.debug(u'异常处理---关闭appium')
             time.sleep(300)
             self.log.debug(u'异常处理---等待300秒')
             self.start_appium(port, int(port) + 1, uuid)
@@ -687,9 +768,8 @@ class App(object):
             time.sleep(2)
             self.devices_bind(mac, selection)
             self.log.debug(u'异常处理---绑定设备')
-            self.call_back_devices_init()
+            self.devices_init()
             self.log.debug(u'异常处理---回连初始化设备')
-
 
 
 
