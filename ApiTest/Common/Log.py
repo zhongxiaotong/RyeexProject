@@ -12,6 +12,9 @@ import logging
 import os
 import time
 import datetime
+import sys
+reload(sys)
+sys.setdefaultencoding("utf8")
 
 LEVELS = {
     'debug': logging.DEBUG,
@@ -57,13 +60,15 @@ class MyLog(object):
     currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
     log_file = path + '/Log/' + currentdate + '.log'
     err_file = path + '/Log/' + currentdate + '_error.log'
+    # log_file = path + '/Log/log.log'
+    # err_file = path + '/Log/err.log'
     logger.setLevel(LEVELS.get(level, logging.NOTSET))
     create_file(log_file)
     create_file(err_file)
     date = '%Y-%m-%d %H:%M:%S'
 
-    handler = logging.FileHandler(log_file, encoding='utf-8')
-    err_handler = logging.FileHandler(err_file, encoding='utf-8')
+    handler = logging.FileHandler(log_file, encoding='utf-8', mode='a')
+    err_handler = logging.FileHandler(err_file, encoding='utf-8', mode='a')
 
     @staticmethod
     def debug(log_meg):
