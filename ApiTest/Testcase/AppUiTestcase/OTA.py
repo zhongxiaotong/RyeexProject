@@ -32,16 +32,12 @@ class TestClass:
         self.systemPort = self.init_systemPort
         self.section = 'SATURN_设备'
         desired_caps = self.dictdatas[0]['desired_caps']
-        self.mac = ["9C:F6:DD:38:1F:17",
-                    "9C:F6:DD:38:1F:00",
-                    "9C:F6:DD:38:1D:19",
-                    "9C:F6:DD:38:1F:88",
-                    "9C:F6:DD:38:1D:3C",
-                    "9C:F6:DD:38:1F:BE",
-                    "9C:F6:DD:38:1D:A9",
-                    "9C:F6:DD:38:1F:52",
-                    "9C:F6:DD:38:1D:A4",
-                    "9C:F6:DD:38:1F:DF"]
+        self.mac = ["9C:F6:DD:38:1E:B3",
+                    "9C:F6:DD:38:1F:8E",
+                    "9C:F6:DD:38:1F:35",
+                    "9C:F6:DD:38:1F:5E",
+                    "9C:F6:DD:38:1D:96",
+                    "9C:F6:DD:38:1E:E2"]
         uuid = App(desired_caps).getdevices_uuid()[0]
         andriod_version = App(desired_caps).getdevice_version(uuid)
         desired_caps['deviceName'] = uuid
@@ -68,7 +64,7 @@ class TestClass:
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
-                self.app.tv_ota("1.3.0.269 269")
+                self.app.tv_ota("1.3.0.277 277")
                 text = self.app.getresult()
                 while True:
                     time.sleep(1)

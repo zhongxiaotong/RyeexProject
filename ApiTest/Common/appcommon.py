@@ -749,13 +749,25 @@ class App(object):
         self.saturn_inputclick("80", "310", "80", "310")
         self.log.debug('点击设置')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug('点击Display')
-        self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug('点击Screen Timeout')
-        self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug('选择15秒')
+        # self.log.debug('点击Display')
+        # self.saturn_inputclick("160", "180", "160", "180")
+        # self.log.debug('点击Screen Timeout')
+        # self.saturn_inputclick("160", "200", "160", "200")
+        # self.log.debug('选择15秒')
+        # self.saturn_inputclick("160", "300", "160", "300")
+        # self.log.debug('点击确认button')
+        self.device_upslide()
+        self.log.debug('设备初始化-向上滑动')
+        self.device_upslide()
+        self.log.debug('设备初始化-向上滑动')
+        self.saturn_inputclick("160", "160", "160", "160")
+        self.log.debug('设备初始化-点击General')
+        self.saturn_inputclick("160", "120", "160", "120")
+        self.log.debug('设备初始化-点击AppView')
+        self.saturn_inputclick("160", "100", "160", "100")
+        self.log.debug('设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('点击确认button')
+        self.log.debug('设备初始化-点击确认button')
         self.device_home()
         self.log.debug('点击home键')
         self.device_home()
@@ -773,36 +785,34 @@ class App(object):
     @allure.step("异常处理")
     def call_back(self, mac, selection, port, uuid):
         if self.object_exist(selection):                                                               #判断设备是否重启
-            time.sleep(60)
-            self.log.error('异常处理--------------------------直接重启---------------------------------------设备重启等待60秒成功')
-            self.devices_bind(mac, selection)
-            self.log.debug('异常处理-绑定设备')
-            self.devices_init()
-            self.log.debug('异常处理-初始化设备')
+            self.log.debug('设备断开连接，IDT返回主界面')
+            # time.sleep(60)
+            # self.log.error('异常处理--------------------------直接重启---------------------------------------设备重启等待60秒成功')
+            self.devices_click("SATURN_设备")
+            # self.log.debug('异常处理-绑定设备')
+            # self.devices_init()
+            # self.log.debug('异常处理-初始化设备')
         count = 1
-        while self.object_exist(mac + "  正在连接...") :
-            time.sleep(0.5)
+        while self.object_exist(mac + "  正在连接..."):
             count += 1
             if count >= 50:
                 self.log.error('异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
-        for i in range(1, 5):                                                                          #判断是否在重启
+        while True:
             self.device_clickDID()
             self.log.debug('异常处理-获取设备标识1')
             if "page_name" in self.getresult():
                 page_name = self.getdevice()[1]
                 if page_name == 'root':
-                    self.log.error('异常处理--------------------------断开连接后再重启---------------------------------------设备重启等待30秒成功')
+                    self.log.error('异常处理----------------------------------------------------------------设备重启等待30秒成功')
                     time.sleep(30)
                     self.devices_init()
                     self.log.debug('异常处理-初始化设备')
                     break
                 elif page_name == 'home_page':
-                    self.log.debug('异常处理-退出获取设备标识')
+                    self.log.debug('异常处理-退出获取设备标识3')
                     break
-            # else:
-            #     time.sleep(0.5)
-            #     self.log.debug('异常处理-等待1秒重新获取设备标识')
+                break
         time.sleep(2)
         self.device_clickDID()
         self.log.debug('异常处理-获取设备标识2')
@@ -812,12 +822,13 @@ class App(object):
             if page_name == 'home_page':                                                             #防止设备本来未断开重连。且不在表盘页面
                 self.device_home()
                 self.log.debug('异常处理-返回1')
-            self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
-            self.log.debug('异常处理-返回2')
-            self.device_home()
-            self.log.debug('异常处理-返回3')
-            self.device_home()
-            self.log.debug('异常处理-返回4')
+            else:
+                self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
+                self.log.debug('异常处理-返回2')
+                self.device_home()
+                self.log.debug('异常处理-返回3')
+                self.device_home()
+                self.log.debug('异常处理-返回4')
         else:                                                                                           #设备卡死重连
             self.log.error('异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
             self.close_app()
