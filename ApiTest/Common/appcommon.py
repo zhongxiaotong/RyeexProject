@@ -627,7 +627,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(15)
+            time.sleep(20)
             self.devices_click(selection)
             self.devices_init()
 
@@ -666,7 +666,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(15)
+            time.sleep(20)
             self.devices_click(selection)
 
     @allure.step("初始化设备")
@@ -792,12 +792,17 @@ class App(object):
             # self.log.debug('异常处理-绑定设备')
             # self.devices_init()
             # self.log.debug('异常处理-初始化设备')
-        count = 1
-        while self.object_exist(mac + "  正在连接..."):
+        count = 0
+        while True:
+            time.sleep(1)
             count += 1
-            if count >= 50:
+            if count >= 120:
                 self.log.error('异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
+            if self.object_exist(mac + "  已连接"):
+                self.log.error('异常处理------------------------------------------------------------------------重启成功')
+                self.devices_init()
+                break
         while True:
             self.device_clickDID()
             self.log.debug('异常处理-获取设备标识1')
@@ -821,14 +826,16 @@ class App(object):
             page_name = self.getdevice()[1]
             if page_name == 'home_page':                                                             #防止设备本来未断开重连。且不在表盘页面
                 self.device_home()
-                self.log.debug('异常处理-返回1')
+                self.log.debug('异常处理1-返回')
+                self.device_home()
+                self.log.debug('异常处理1-返回')
             else:
                 self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
-                self.log.debug('异常处理-返回2')
+                self.log.debug('异常处理2-返回')
                 self.device_home()
-                self.log.debug('异常处理-返回3')
+                self.log.debug('异常处理2-返回')
                 self.device_home()
-                self.log.debug('异常处理-返回4')
+                self.log.debug('异常处理2-返回')
         else:                                                                                           #设备卡死重连
             self.log.error('异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
             self.close_app()

@@ -34,7 +34,7 @@ class Testsmoke:
         self.mac4 = '9C:F6:DD:38:1E:E2'
         self.mac5 = '9C:F6:DD:38:1F:BE'
         self.mac6 = '9C:F6:DD:38:1F:8E'
-        # self.mac7 = '9C:F6:DD:38:1C:CC'
+        self.mac7 = '9C:F6:DD:38:1C:22'
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -62,11 +62,11 @@ class Testsmoke:
                 self.log.debug(info + "点击心率icon成功")
                 app.device_clickDID()
                 if "activity" == app.getdevice()[1]:
-                    self.log.error(info + "---------------------------------------血氧心率出现设备重置-------------------------------------------")
+                    self.log.error(info + "---------------------------------------血氧心率出现设备重启-------------------------------------------")
                     app.device_home()
                     app.device_home()
                     self.log.debug(info + "返回表盘页面成功")
-                    app.devices_init()
+                    app.call_back_devices_init()
                 else:
                     app.assert_getdevicepagename("hrm")
                     self.log.debug(info + "进入心率功能成功")
@@ -169,11 +169,11 @@ class Testsmoke:
                 self.log.debug(info + "点击血氧icon成功")
                 app.device_clickDID()
                 if "activity" == app.getdevice()[1]:
-                    self.log.error(info + "---------------------------------------血氧出现设备重置-------------------------------------------")
+                    self.log.error(info + "---------------------------------------血氧出现设备重启-------------------------------------------")
                     app.device_home()
                     app.device_home()
                     self.log.debug(info + "返回表盘页面成功")
-                    app.devices_init()
+                    app.call_back_devices_init()
                 else:
                     app.assert_getdevicepagename("spo2")
                     self.log.debug(info + "进入血氧功能成功")
@@ -223,11 +223,11 @@ class Testsmoke:
                 self.log.debug(info + "点击心率icon成功")
                 app.device_clickDID()
                 if "activity" == app.getdevice()[1]:
-                    self.log.error(info + "---------------------------------------进入各个应用出现设备重置-------------------------------------------")
+                    self.log.error(info + "---------------------------------------进入各个应用出现设备重启-------------------------------------------")
                     app.device_home()
                     app.device_home()
                     self.log.debug(info + "返回表盘页面成功")
-                    app.devices_init()
+                    app.call_back_devices_init()
                 else:
                     app.assert_getdevicepagename("hrm")
                     self.log.debug(info + "进入心率功能成功")
@@ -375,7 +375,7 @@ class Testsmoke:
         driver = app.open_application(self.port)
         app.devices_bind(self.mac4, self.section)
         i = 0
-        for i in range(1, 1000):
+        for i in range(1, 2000):
             try:
                 self.log.debug(info + '运动中发送短信/消息/电话运行次数：' + str(i))
                 app.device_upslide()
@@ -384,11 +384,11 @@ class Testsmoke:
                 self.log.debug(info + '点击运动icon成功')
                 app.device_clickDID()
                 if "hrm" == app.getdevice()[1]:
-                    self.log.error(info + "---------------------------------------运动中发消息出现设备重置-------------------------------------------")
+                    self.log.error(info + "---------------------------------------运动中发消息出现设备重启-------------------------------------------")
                     app.device_home()
                     app.device_home()
                     self.log.debug(info + "返回表盘页面成功")
-                    app.devices_init()
+                    app.call_back_devices_init()
                 else:
                     app.assert_getdevicepagename('sports')
                     self.log.debug(info + '进入运动应用成功')
@@ -418,6 +418,8 @@ class Testsmoke:
                     app.assert_getdevicepagename("sports")
                     self.log.debug(info + '退出电话震动页面成功')
                     app.device_home()
+                    # app.device_home()
+                    # app.device_home()
                     self.log.debug(info + '退出运动模式')
                     app.saturn_inputclick("80", "160", "80", "160")
                     self.log.debug(info + '点击Complete')
@@ -425,6 +427,7 @@ class Testsmoke:
                     self.log.debug(info + '点击确认')
                     app.assert_getdevicepagename("home_page")
                     self.log.debug(info + '退出运动成功')
+                    app.device_home()
                     app.device_home()
                     self.log.debug(info + "返回主页面")
             except:

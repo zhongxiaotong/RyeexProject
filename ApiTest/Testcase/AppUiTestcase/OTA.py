@@ -32,12 +32,7 @@ class TestClass:
         self.systemPort = self.init_systemPort
         self.section = 'SATURN_设备'
         desired_caps = self.dictdatas[0]['desired_caps']
-        self.mac = ["9C:F6:DD:38:1E:B3",
-                    "9C:F6:DD:38:1F:8E",
-                    "9C:F6:DD:38:1F:35",
-                    "9C:F6:DD:38:1F:5E",
-                    "9C:F6:DD:38:1D:96",
-                    "9C:F6:DD:38:1E:E2"]
+        self.mac = ["9C:F6:DD:38:1F:DE"]
         uuid = App(desired_caps).getdevices_uuid()[0]
         andriod_version = App(desired_caps).getdevice_version(uuid)
         desired_caps['deviceName'] = uuid
@@ -64,15 +59,16 @@ class TestClass:
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
-                self.app.tv_ota("1.3.0.277 277")
-                text = self.app.getresult()
+                self.app.tv_ota("1.3.0.289 289")
                 while True:
                     time.sleep(1)
                     text = self.app.getresult()
                     if text == "set success":
                         break
+                    if self.app.object_exist("SATURN_APP") == True:
+                        self.app.devices_click('SATURN_APP')
+                        break
                 self.app.devices_click('解绑')
-                # time.sleep(15)
                 while self.app.object_exist("realme Watch 2") == False:
                     time.sleep(1)
                 self.driver.keyevent(4)
