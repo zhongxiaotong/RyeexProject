@@ -37,6 +37,7 @@ class Testsmoke:
         self.mac7 = '9C:F6:DD:38:1F:88'
         self.mac8 = '9C:F6:DD:38:1D:A4'
         self.mac9 = '9C:F6:DD:38:1C:22'
+        self.mac10 = '9C:F6:DD:38:1C:22'
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -567,7 +568,7 @@ class Testsmoke:
                     app.device_longpress()
                     self.log.debug(info + "进入切换表盘页面成功")
                     app.device_leftslide()
-                    self.log.debug(info + '向左滑动成功：' + str(m))
+                    self.log.debug(info + '向左滑动成功')
                     app.saturn_inputclick("160", "160", "160", "160")
                     self.log.debug(info + "点击表盘成功")
                     app.assert_getdevicepagename("home_page")
@@ -576,7 +577,7 @@ class Testsmoke:
                     app.device_longpress()
                     self.log.debug(info + "进入切换表盘页面成功")
                     app.device_rightslide()
-                    self.log.debug(info + '向右滑动成功：' + str(n))
+                    self.log.debug(info + '向右滑动成功')
                     app.saturn_inputclick("160", "160", "160", "160")
                     self.log.debug(info + "点击表盘成功")
                     app.assert_getdevicepagename("home_page")
@@ -647,6 +648,47 @@ class Testsmoke:
                 self.log.error(info + '滑动屏幕在第N次运行失败：' + str(i))
                 app.call_back(self.mac9, self.section, self.port, self.uuid)
 
+    def smoke10(self):
+        info = "Process-10"
+        self.port = int(self.init_port) + 18
+        self.systemPort = int(self.init_systemPort) + 18
+        desired_cap = self.dictdatas[0]['desired_caps']
+        uuid = App(desired_cap).getdevices_uuid()[1]
+        self.uuid = uuid
+        andriod_version = App(desired_cap).getdevice_version(uuid)
+        print(info + "设备ID:" + uuid)
+        print(info + "安卓版本:" + andriod_version)
+        desired_cap['deviceName'] = uuid
+        desired_cap['platformVersion'] = andriod_version
+        desired_cap['systemPort'] = self.systemPort
+        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(desired_cap)
+        time.sleep(2)
+        driver = app.open_application(self.port)
+        # app.devices_bind(self.mac10, self.section)
+        for i in range(1, 1000):
+            try:
+                self.log.debug(u'绑定解绑运行次数：' + str(i))
+                app.devices_bind_ota(self.mac10, self.section)
+                self.log.debug(u'绑定成功')
+                app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
+                self.log.debug(u'解绑成功')
+                while app.object_exist("realme Watch 2") == False:
+                    time.sleep(0.5)
+                driver.keyevent(4)
+                driver.keyevent(4)
+                time.sleep(20)
+                self.log.debug(u'等待设备重启成功')
+            except:
+                self.log.error(u'绑定解绑在第N次运行失败：' + str(i))
+                if app.object_exist(self.section):
+                    self.log.debug('设备断开连接，IDT返回主界面')
+                    app.devices_click("SATURN_设备")
+                app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
+                while app.object_exist("realme Watch 2") == False:
+                    time.sleep(0.5)
+                driver.keyevent(4)
+                driver.keyevent(4)
 
 if __name__ == '__main__':
     multiprocessings = []
@@ -659,6 +701,7 @@ if __name__ == '__main__':
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     t8 = multiprocessing.Process(target=Testsmoke().smoke8)
     # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
+    t10 = multiprocessing.Process(target=Testsmoke().smoke10)
     # multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
@@ -668,6 +711,7 @@ if __name__ == '__main__':
     # multiprocessings.append(t7)
     multiprocessings.append(t8)
     # multiprocessings.append(t9)
+    multiprocessings.append(t10)
     for t in multiprocessings:
         t.start()
 

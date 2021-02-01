@@ -207,6 +207,7 @@ class App(object):
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
                 page_name = text.split(',')[3].split(':')[1]
+                # rebort_cnt = text.split(',')[4].split(':')[1]
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
                 return delta_ms, page_name
@@ -609,13 +610,14 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(1)
-                # self.driver.keyevent(4)
-                # self.devices_click("解綁")
+                time.sleep(2)
                 count += 1
-                if count >= 5:
+                if count == 1:
+                    self.driver.keyevent(4)
+                    self.devices_click("解綁")
+                if count >= 2:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
-                    time.sleep(3)
+                    time.sleep(5)
                 elif count == 10:
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
@@ -648,7 +650,7 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(5)
+                time.sleep(2)
                 count += 1
                 if count == 1:
                     self.driver.keyevent(4)
