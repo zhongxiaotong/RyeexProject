@@ -580,7 +580,6 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='长按']").click()
         self.assert_in_text(expecttext='ok')
-        self.device_clickDID()
         self.assert_getdevicepagename("face_pick_page")
         # self.log.debug(u'长按')
 
@@ -649,11 +648,12 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(2)
-                # self.driver.keyevent(4)
-                # self.devices_click("解綁")
+                time.sleep(5)
                 count += 1
-                if count >= 5:
+                if count == 1:
+                    self.driver.keyevent(4)
+                    self.devices_click("解綁")
+                if count >= 2:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
                 elif count == 10:
@@ -666,7 +666,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(20)
+            time.sleep(25)
             self.devices_click(selection)
 
     @allure.step("初始化设备")
@@ -743,12 +743,11 @@ class App(object):
 
     @allure.step("异常处理-回连初始化设备")
     def call_back_devices_init(self):
-        self.close_remind()
+        # self.close_remind()
         self.device_rightslide()
         self.log.debug('向右滑动')
-        self.saturn_inputclick("80", "310", "80", "310")
+        self.saturn_inputclick("200", "270", "200", "270")
         self.log.debug('点击设置')
-        self.saturn_inputclick("160", "180", "160", "180")
         # self.log.debug('点击Display')
         # self.saturn_inputclick("160", "180", "160", "180")
         # self.log.debug('点击Screen Timeout')
@@ -800,8 +799,9 @@ class App(object):
                 self.log.error('异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
-                self.log.error('异常处理------------------------------------------------------------------------重启成功')
-                self.devices_init()
+                # self.log.error('异常处理------------------------------------------------------------------------重启成功')
+                self.call_back_devices_init()                                               #选择网格布局
+                self.log.debug('异常处理-初始化设备（设置网格布局）')
                 break
         while True:
             self.device_clickDID()
