@@ -185,6 +185,7 @@ class App(object):
             raise BaseException(u'delta_ms为空')
 
 
+
     def assert_getdevicepagename(self, target_pagename):
         self.device_clickDID()
         self.assert_in_text(expecttext='page_name')
@@ -207,13 +208,13 @@ class App(object):
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
                 page_name = text.split(',')[3].split(':')[1]
-                # rebort_cnt = text.split(',')[4].split(':')[1]
+                rebort_cnt = text.split(',')[4].split(':')[1]
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
-                return delta_ms, page_name
+                return delta_ms, page_name, rebort_cnt
             except:
-                self.log.error(u'获取delta_ms/page_name失败%s' % text)
-                raise BaseException(u'获取delta_ms/page_name失败%s' % text)
+                self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
+                raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
         else:
             self.log.error(u'设备回调为空值')
             raise BaseException(u'设备回调为空值')
