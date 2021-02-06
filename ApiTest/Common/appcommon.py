@@ -582,6 +582,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='长按']").click()
         self.assert_in_text(expecttext='ok')
+        time.sleep(1)
         self.assert_getdevicepagename("face_pick_page")
         # self.log.debug(u'长按')
 
@@ -611,7 +612,7 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(2)
+                time.sleep(5)
                 count += 1
                 if count == 1:
                     self.driver.keyevent(4)
@@ -651,7 +652,7 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(2)
+                time.sleep(5)
                 count += 1
                 if count == 1:
                     self.driver.keyevent(4)
@@ -674,6 +675,7 @@ class App(object):
 
     @allure.step("初始化设备")
     def devices_init(self):
+        time.sleep(2)
         self.close_remind()
         self.device_rightslide()
         self.log.debug('设备初始化-向右滑动')
@@ -747,6 +749,7 @@ class App(object):
     @allure.step("异常处理-回连初始化设备")
     def call_back_devices_init(self):
         # self.close_remind()
+        time.sleep(2)
         self.device_rightslide()
         self.log.debug('向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
