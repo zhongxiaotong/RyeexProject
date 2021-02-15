@@ -594,7 +594,7 @@ class App(object):
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
 
-    @allure.step("绑定设备")
+    @allure.step("绑定Staurn设备")
     def devices_bind(self, mac, selection):
         desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
         self.devices_click(selection)
@@ -643,7 +643,7 @@ class App(object):
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
-            if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
+            if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("Wyze Watch 44")) == False:
                 self.close_app()
                 # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
@@ -817,8 +817,8 @@ class App(object):
                 if page_name == 'root':
                     self.log.error('异常处理----------------------------------------------------------------设备重启等待30秒成功')
                     time.sleep(30)
-                    self.devices_init()
-                    self.log.debug('异常处理-初始化设备')
+                    # self.devices_init()
+                    # self.log.debug('异常处理-初始化设备')
                     break
                 elif page_name == 'home_page':
                     self.log.debug('异常处理-退出获取设备标识3')
@@ -858,7 +858,57 @@ class App(object):
             self.devices_init()
             self.log.debug('异常处理-初始化设备')
 
-
+    @allure.step("异常处理-brandy")
+    def call_back_brandy(self, mac, selection, port, uuid):
+        if self.object_exist(selection):                                                               #判断设备是否重启
+            self.devices_bind(mac, selection)
+            self.log.debug('异常处理-重新绑定设备')
+        count = 0
+        while True:
+            time.sleep(1)
+            count += 1
+            if count >= 200:
+                self.log.error('异常处理------------------------------------------------------------------------回连失败')
+                raise BaseException('回连失败')
+            if self.object_exist(mac + "  已连接"):
+                # self.log.error('异常处理------------------------------------------------------------------------重启成功')
+                break
+        # for i in range(1, 5):                                                                          #判断是否在重启
+        #     self.device_clickDID()
+        #     self.log.debug('异常处理-获取设备标识1')
+        #     if "page_name" in self.getresult():
+        #         page_name = self.getdevice()[1]
+        #         if page_name == 'root':
+        #             self.log.error('异常处理--------------------------断开连接后再重启---------------------------------------设备重启等待30秒成功')
+        #             time.sleep(30)
+        #             break
+        #         elif page_name == 'home_page':
+        #             self.log.debug('异常处理-退出获取设备标识')
+        #             break
+        time.sleep(5)
+        self.device_clickDID()
+        self.log.debug('异常处理-获取设备标识2')
+        if self.call_back_assert('page_name'):                                                        #判断设备是否卡死
+            self.log.debug('异常处理-----------------------------------------------------------------------------设备未卡死，返回主页面继续执行')
+            page_name = self.getdevice()[1]
+            if page_name == 'home_page':                                                             #防止设备本来未断开重连。且不在表盘页面
+                self.device_home()
+                self.log.debug('异常处理-返回1')
+            self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
+            self.log.debug('异常处理-返回2')
+        else:                                                                                           #设备卡死重连
+            self.log.error('异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
+            self.close_app()
+            self.log.debug('异常处理-关闭IDT')
+            time.sleep(300)
+            self.log.debug('异常处理-等待300秒')
+            self.start_appium(port, int(port) + 1, uuid)
+            self.log.debug('异常处理-启动Appium')
+            self.open_application(port)
+            self.log.debug('异常处理-打开IDT')
+            time.sleep(2)
+            self.devices_bind(mac, selection)
+            self.log.debug('异常处理-绑定设备')
 
     @allure.step("登录wyze")
     def login_wyze(self, email_address, password):
