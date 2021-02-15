@@ -749,7 +749,7 @@ class App(object):
     @allure.step("异常处理-回连初始化设备")
     def call_back_devices_init(self):
         # self.close_remind()
-        time.sleep(2)
+        time.sleep(5)
         self.device_rightslide()
         self.log.debug('向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
