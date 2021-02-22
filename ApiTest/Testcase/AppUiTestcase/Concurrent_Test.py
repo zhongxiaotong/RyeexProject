@@ -68,13 +68,27 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                # count = 0
+                # while True:
+                #     if "reboot_cnt" in app.getresult():
+                #         rebort_cnts.append(app.getdevice()[2])
+                #         self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                #         break
+                #     else:
+                #         count += 1
+                #         time.sleep(1)
+                #         self.log.debug(info + "获取重启次数失败，继续获取")
+                #         if count >= 15:
+                #             raise(info + "获取重启次数超时")
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
                 else:
-                    raise BaseException(u'获取重启次数失败')
-                print(str(rebort_cnts[i])), str(rebort_cnts[i-1])
-                print(type(rebort_cnts[i])), type(rebort_cnts[i-1])
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                # print("rebort_cnts:" + str(rebort_cnts))
+                # print(str(rebort_cnts[i]))
+                # print(str(rebort_cnts[i-1]))
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -119,13 +133,15 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
                 else:
-                    raise BaseException(u'获取重启次数失败')
-                print(str(rebort_cnts[i])), str(rebort_cnts[i-1])
-                print(type(rebort_cnts[i])), type(rebort_cnts[i-1])
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                # print("rebort_cnts:" + str(rebort_cnts))
+                # print(str(rebort_cnts[i]))
+                # print(str(rebort_cnts[i-1]))
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -172,9 +188,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -344,9 +363,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -421,9 +443,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -489,9 +514,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -555,9 +583,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -622,9 +653,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -692,9 +726,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -736,7 +773,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[2]
+        uuid = App(desired_cap).getdevices_uuid()[5]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -771,15 +808,7 @@ class Testsmoke:
                 self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
-                    app.devices_click("完成")
-                if app.object_exist(self.section):
-                    self.log.debug(info + '异常处理-----进入操作页面')
-                    app.devices_click("SATURN_设备")
-                if app.object_exist("解绑"):
-                    app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-                    self.log.debug(info + '异常处理-----解绑成功')
-                    # app.implicitly_wait("realme Watch 2", 10)
-                    time.sleep(10)
+                    driver.keyevent(4)
                 self.log.debug(info + '异常处理----------')
 
 
@@ -788,7 +817,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 20
         self.systemPort = int(self.init_systemPort) + 20
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[3]
+        uuid = App(desired_cap).getdevices_uuid()[6]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -825,14 +854,7 @@ class Testsmoke:
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
                     driver.keyevent(4)
-                if app.object_exist(self.section):
-                    self.log.debug(info + '异常处理-----进入操作页面')
-                    app.devices_click("SATURN_设备")
-                if app.object_exist("解绑"):
-                    app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-                    self.log.debug(info + '异常处理-----解绑成功')
-                    time.sleep(10)
-                self.log.debug(info + '异常处理----------')
+                self.log.debug(info + '-----------异常处理----------')
 
 
     def smoke12(self):
@@ -861,9 +883,12 @@ class Testsmoke:
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
-                if app.getdevice()[2]:
+                if "reboot_cnt" in app.getresult():
                     rebort_cnts.append(app.getdevice()[2])
                     self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
@@ -1009,7 +1034,7 @@ class Testsmoke:
 if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
-    t2 = multiprocessing.Process(target=Testsmoke().smoke2)
+    # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
     # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
@@ -1017,11 +1042,11 @@ if __name__ == '__main__':
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
     # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
-    t10 = multiprocessing.Process(target=Testsmoke().smoke10)
-    t11 = multiprocessing.Process(target=Testsmoke().smoke11)
+    # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
+    # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
     multiprocessings.append(t1)
-    multiprocessings.append(t2)
+    # multiprocessings.append(t2)
     # multiprocessings.append(t3)
     # multiprocessings.append(t4)
     # multiprocessings.append(t5)
@@ -1029,8 +1054,8 @@ if __name__ == '__main__':
     # multiprocessings.append(t7)
     # multiprocessings.append(t8)
     # multiprocessings.append(t9)
-    multiprocessings.append(t10)
-    multiprocessings.append(t11)
+    # multiprocessings.append(t10)
+    # multiprocessings.append(t11)
     # multiprocessings.append(t12)
     for t in multiprocessings:
         t.start()

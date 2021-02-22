@@ -572,7 +572,7 @@ class App(object):
 
     @allure.step("点击HOME")
     def device_home(self):
-        # self.assert_connect_status()
+        self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='HOME']").click()
         self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
@@ -603,7 +603,6 @@ class App(object):
 
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
-
 
     # def bluetooth_error(self):
     #     text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
@@ -665,12 +664,15 @@ class App(object):
             self.log.debug(info + '绑定-----已返回到主页面')
         else:
             self.driver.keyevent(4)
+            self.log.debug(info + '绑定-----返回IDT主页面1')
+            time.sleep(3)
             if self.object_exist(selection):
                 self.devices_click(selection)
                 self.log.debug(info + '绑定-----已返回到主页面')
             else:
                 self.driver.keyevent(4)
-                self.log.debug(info + '绑定-----返回IDT主页面')
+                self.log.debug(info + '绑定-----返回IDT主页面2')
+                time.sleep(3)
                 if self.object_exist(selection):
                     self.devices_click(selection)
                     self.log.debug(info + '绑定-----已返回到主页面')
