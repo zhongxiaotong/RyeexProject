@@ -100,7 +100,7 @@ class App(object):
                     break
             return self.driver.find_element(*loc)
         except:
-            self.log.error(u'页面未能找到该元素')
+            self.log.error(u'页面未能找到该元素%s' % loc[1])
             raise BaseException(u'app页面未能找到该元素')
 
     # 重写元素定位方法（不同的driver）
@@ -115,7 +115,7 @@ class App(object):
                     break
             return self.driver2.find_element(*loc)
         except:
-            self.log.error(u'页面未能找到该元素')
+            self.log.error(u'页面未能找到该元素：%s' % loc[1])
             raise BaseException(u'app页面未能找到该元素')
 
     def swpe(self, start_x, start_y, end_x, end_y):
@@ -256,8 +256,17 @@ class App(object):
             flag = False
             return flag
 
+    def implicitly_wait(self, text, num):
+        count = 0
+        while self.object_exist(text) == False:
+            time.sleep(1)
+            count += 1
+            if count >= num:
+                self.log.error(u'页面未能找到该元素：%s' % text)
+                raise BaseException(u'页面未能找到该元素')
 
-    def getid(self):
+    @staticmethod
+    def getid():
         L = []
         M = []
         for i in range(5):
@@ -268,6 +277,7 @@ class App(object):
             M.append(str(d))
         S = ''.join(M)
         return S
+
     @staticmethod
     def getdevices_uuid():
         try:
@@ -455,7 +465,7 @@ class App(object):
             r.close()
             return text
         except:
-            raise ValueError(u"获取手机安卓版本失败")
+            raise ValueError(u"获取安卓手机版本失败")
 
 
     # def bind_devices(self):
@@ -562,7 +572,7 @@ class App(object):
 
     @allure.step("点击HOME")
     def device_home(self):
-        self.assert_connect_status()
+        # self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='HOME']").click()
         self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
@@ -582,7 +592,7 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='长按']").click()
         self.assert_in_text(expecttext='ok')
-        time.sleep(1)
+        time.sleep(2)
         self.assert_getdevicepagename("face_pick_page")
         # self.log.debug(u'长按')
 
@@ -594,8 +604,21 @@ class App(object):
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
 
+
+    # def bluetooth_error(self):
+    #     text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
+    #     if len(text) != 0:
+    #         try:
+    #             assert "BleError" in str(text)
+    #         except:
+    #             self.log.error(u'App页面Response验证失败%s' % text)
+    #             raise BaseException(u'App页面Response验证失败%s' % text)
+    #     else:
+    #         self.log.error(u'设备回调为空值')
+    #         raise BaseException(u'设备回调为空值')
+
     @allure.step("绑定设备")
-    def devices_bind(self, mac, selection):
+    def devices_bind(self, mac, selection, info):
         desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
         self.devices_click(selection)
         while self.object_exist(mac + "  正在连接...") :
@@ -603,6 +626,7 @@ class App(object):
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
+            time.sleep(5)
             if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
                 self.close_app()
                 self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
@@ -612,38 +636,51 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(5)
                 count += 1
-                if count == 1:
+                if count == 1 or count == 2:
                     self.driver.keyevent(4)
-                    self.devices_click("解綁")
-                if count >= 2:
+                    self.devices_click("解绑")
+                    time.sleep(5)
+                if count >= 3:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
                 elif count == 10:
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
             self.devices_click(mac)
-            while self.object_exist("请在设备上点击确认") == False:
-                time.sleep(1)
+            self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
             time.sleep(20)
             self.devices_click(selection)
-            self.devices_init()
+            self.devices_init(info)
 
     @allure.step("OTA绑定设备")
-    def devices_bind_ota(self, mac, selection):
+    def devices_bind_ota(self, mac, selection, info):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
-        self.devices_click(selection)
+        if self.object_exist(selection):
+            self.devices_click(selection)
+            self.log.debug(info + '绑定-----已返回到主页面')
+        else:
+            self.driver.keyevent(4)
+            if self.object_exist(selection):
+                self.devices_click(selection)
+                self.log.debug(info + '绑定-----已返回到主页面')
+            else:
+                self.driver.keyevent(4)
+                self.log.debug(info + '绑定-----返回IDT主页面')
+                if self.object_exist(selection):
+                    self.devices_click(selection)
+                    self.log.debug(info + '绑定-----已返回到主页面')
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
-            if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
+            time.sleep(5)
+            if (self.object_exist("realme Watch 2")) == False:
                 self.close_app()
                 # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
@@ -652,108 +689,107 @@ class App(object):
             count = 0
             size = self.driver.get_window_size()
             while self.object_exist(mac) == False:
-                time.sleep(5)
                 count += 1
-                if count == 1:
+                if count == 1 or count == 2:
                     self.driver.keyevent(4)
-                    self.devices_click("解綁")
-                if count >= 2:
+                    self.devices_click("解绑")
+                    time.sleep(5)
+                if count >= 3:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
                 elif count == 10:
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
             self.devices_click(mac)
-            while self.object_exist("请在设备上点击确认") == False:
-                time.sleep(1)
+            self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(25)
+            time.sleep(20)
             self.devices_click(selection)
 
     @allure.step("初始化设备")
-    def devices_init(self):
+    def devices_init(self, info):
         time.sleep(2)
         self.close_remind()
         self.device_rightslide()
-        self.log.debug('设备初始化-向右滑动')
+        self.log.debug(info + '设备初始化-向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
-        self.log.debug('设备初始化-点击设置')
+        self.log.debug(info + '设备初始化-点击设置')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug('设备初始化-点击Display')
+        self.log.debug(info + '设备初始化-点击Display')
         self.saturn_inputclick("160", "80", "160", "80")
-        self.log.debug('设备初始化-点击Brightness')
+        self.log.debug(info + '设备初始化-点击Brightness')
         self.saturn_inputslide("160", "40", "160", "160")
-        self.log.debug('设备初始化-向下滑动一段距离')
+        self.log.debug(info + '设备初始化-向下滑动一段距离')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击确认')
+        self.log.debug(info + '设备初始化-点击确认')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.log.debug('设备初始化-点击ScreenTimeout')
+        self.log.debug(info + '设备初始化-点击ScreenTimeout')
         # self.saturn_inputclick("160", "40", "160", "40")
         self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug('设备初始化-选择15秒')
+        self.log.debug(info + '设备初始化-选择15秒')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击确认button')
+        self.log.debug(info + '设备初始化-点击确认button')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击RaiseToWake')
+        self.log.debug(info + '设备初始化-点击RaiseToWake')
         self.device_home()
-        self.log.debug('设备初始化-返回')
+        self.log.debug(info + '设备初始化-返回')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击Notification')
+        self.log.debug(info + '设备初始化-点击Notification')
         # self.saturn_inputclick("160", "80", "160", "80")
         # self.log.debug(u'点击Sedentary')
         self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug('设备初始化-点击GoalAchieved')
+        self.log.debug(info + '设备初始化-点击GoalAchieved')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击Drink')
+        self.log.debug(info + '设备初始化-点击Drink')
         self.device_upslide()
-        self.log.debug('设备初始化-向上滑动')
+        self.log.debug(info + '设备初始化-向上滑动')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug('设备初始化-点击Meditating')
+        self.log.debug(info + '设备初始化-点击Meditating')
         self.saturn_inputclick("160", "200", "160", "200")
-        self.log.debug('设备初始化-点击HeartRate')
+        self.log.debug(info + '设备初始化-点击HeartRate')
         self.device_home()
-        self.log.debug('设备初始化-点击home键')
+        self.log.debug(info + '设备初始化-点击home键')
         self.device_upslide()
-        self.log.debug('设备初始化-向上滑动')
+        self.log.debug(info + '设备初始化-向上滑动')
         self.device_upslide()
-        self.log.debug('设备初始化-向上滑动')
+        self.log.debug(info + '设备初始化-向上滑动')
         self.saturn_inputclick("160", "160", "160", "160")
-        self.log.debug('设备初始化-点击General')
+        self.log.debug(info + '设备初始化-点击General')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug('设备初始化-点击AppView')
+        self.log.debug(info + '设备初始化-点击AppView')
         self.saturn_inputclick("160", "100", "160", "100")
-        self.log.debug('设备初始化-点击Grid')
+        self.log.debug(info + '设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击确认button')
+        self.log.debug(info + '设备初始化-点击确认button')
         # self.saturn_inputslide("160", "160", "160", "40")
-        # self.log.debug('向上滑动一段距离')
+        # self.log.debug(info + '向上滑动一段距离')
         # self.saturn_inputclick("160", "300", "160", "300")
-        # self.log.debug('点击Do Not Disturb')
+        # self.log.debug(info + '点击Do Not Disturb')
         # self.saturn_inputslide("160", "160", "160", "40")
-        # self.log.debug('向上滑动一段距离')
+        # self.log.debug(info + '向上滑动一段距离')
         # self.saturn_inputclick("160", "200", "160", "200")
-        # self.log.debug('点击Smart mode')
+        # self.log.debug(info + '点击Smart mode')
         # self.device_home()
-        # self.log.debug('返回')
+        # self.log.debug(info + '返回')
         self.device_home()
-        self.log.debug('设备初始化-返回')
+        self.log.debug(info + '设备初始化-返回')
         self.device_home()
-        self.log.debug('设备初始化-返回')
+        self.log.debug(info + '设备初始化-返回')
         self.device_home()
-        self.log.debug('异常处理-设备初始化成功')
+        self.log.debug(info + '设备初始化成功---------------------------------------------------------------------')
 
 
     @allure.step("异常处理-回连初始化设备")
-    def call_back_devices_init(self):
+    def call_back_devices_init(self, info):
         # self.close_remind()
         time.sleep(5)
         self.device_rightslide()
-        self.log.debug('向右滑动')
+        self.log.debug(info + '向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
-        self.log.debug('点击设置')
+        self.log.debug(info + '点击设置')
         # self.log.debug('点击Display')
         # self.saturn_inputclick("160", "180", "160", "180")
         # self.log.debug('点击Screen Timeout')
@@ -762,103 +798,105 @@ class App(object):
         # self.saturn_inputclick("160", "300", "160", "300")
         # self.log.debug('点击确认button')
         self.device_upslide()
-        self.log.debug('设备初始化-向上滑动')
+        self.log.debug(info + '设备初始化-向上滑动')
         self.device_upslide()
-        self.log.debug('设备初始化-向上滑动')
+        self.log.debug(info + '设备初始化-向上滑动')
         self.saturn_inputclick("160", "160", "160", "160")
-        self.log.debug('设备初始化-点击General')
+        self.log.debug(info + '设备初始化-点击General')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug('设备初始化-点击AppView')
+        self.log.debug(info + '设备初始化-点击AppView')
         self.saturn_inputclick("160", "100", "160", "100")
-        self.log.debug('设备初始化-点击Grid')
+        self.log.debug(info + '设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug('设备初始化-点击确认button')
+        self.log.debug(info + '设备初始化-点击确认button')
         self.device_home()
-        self.log.debug('点击home键')
+        self.log.debug(info + '点击home键')
         self.device_home()
-        self.log.debug('异常处理-回连设备初始化成功')
+        self.log.debug(info + '回连设备初始化成功------------------------------------------------------------------------')
 
     @allure.step("关闭提醒页面")
     def close_remind(self):
         self.device_clickDID()
         time.sleep(2)
-        if self.getdevice()[1] == 'remind':
+        if self.getdevice()[1] != 'home_page':
+            self.device_home()
             self.device_home()
             self.log.debug('退出提醒页面')
 
 
     @allure.step("异常处理")
-    def call_back(self, mac, selection, port, uuid):
+    def call_back(self, mac, selection, port, uuid, info):
         if self.object_exist(selection):                                                               #判断设备是否重启
-            self.log.debug('设备断开连接，IDT返回主界面')
-            # time.sleep(60)
-            # self.log.error('异常处理--------------------------直接重启---------------------------------------设备重启等待60秒成功')
+            self.log.debug(info + '设备断开连接，IDT返回主界面')
             self.devices_click("SATURN_设备")
-            # self.log.debug('异常处理-绑定设备')
-            # self.devices_init()
-            # self.log.debug('异常处理-初始化设备')
         count = 0
         while True:
             time.sleep(1)
             count += 1
             if count >= 120:
-                self.log.error('异常处理------------------------------------------------------------------------回连失败')
+                self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
-                # self.log.error('异常处理------------------------------------------------------------------------重启成功')
-                self.call_back_devices_init()                                               #选择网格布局
-                self.log.debug('异常处理-初始化设备（设置网格布局）')
+                self.log.debug(info + '异常处理------------------------------------------------------------------------回连成功')
                 break
         while True:
             self.device_clickDID()
-            self.log.debug('异常处理-获取设备标识1')
+            self.log.debug(info + '异常处理-获取设备标识1')
             if "page_name" in self.getresult():
                 page_name = self.getdevice()[1]
                 if page_name == 'root':
-                    self.log.error('异常处理----------------------------------------------------------------设备重启等待30秒成功')
+                    self.log.error(info + '异常处理----------------------------------------------------------------设备重启等待30秒成功')
                     time.sleep(30)
-                    self.devices_init()
-                    self.log.debug('异常处理-初始化设备')
+                    # self.devices_init()
+                    # self.log.debug('异常处理-初始化设备')
                     break
                 elif page_name == 'home_page':
-                    self.log.debug('异常处理-退出获取设备标识3')
+                    self.log.debug(info + '异常处理-退出获取设备标识')
                     break
                 break
         time.sleep(2)
         self.device_clickDID()
-        self.log.debug('异常处理-获取设备标识2')
+        self.log.debug(info + '异常处理-获取设备标识2')
         if self.call_back_assert('page_name'):                                                        #判断设备是否卡死
-            self.log.debug('异常处理-----------------------------------------------------------------------------设备未卡死，返回主页面继续执行')
+            self.log.debug(info + '异常处理-----------------------------------------------------------------------------设备未卡死，返回主页面继续执行')
             page_name = self.getdevice()[1]
             if page_name == 'home_page':                                                             #防止设备本来未断开重连。且不在表盘页面
                 self.device_home()
-                self.log.debug('异常处理1-返回')
-                self.device_home()
-                self.log.debug('异常处理1-返回')
+                self.log.debug(info + '异常处理1-返回1')
+                time.sleep(1)
+                self.device_home()                                                                    #防止出现home键没有返回
+                self.log.debug(info + '异常处理1-返回2')
+                # self.device_home()
+                # self.log.debug(info + '异常处理1-返回3')
             else:
                 self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
-                self.log.debug('异常处理2-返回')
+                self.log.debug(info + '异常处理2-返回1')
                 self.device_home()
-                self.log.debug('异常处理2-返回')
+                self.log.debug(info + '异常处理2-返回2')
                 self.device_home()
-                self.log.debug('异常处理2-返回')
+                self.log.debug(info + '异常处理2-返回3')
         else:                                                                                           #设备卡死重连
-            self.log.error('异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
+            self.log.error(info + '异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
             self.close_app()
-            self.log.debug('异常处理-关闭IDT')
+            self.log.debug(info + '异常处理-关闭IDT')
             time.sleep(300)
-            self.log.debug('异常处理-等待300秒')
+            self.log.debug(info + '异常处理-等待300秒')
             self.start_appium(port, int(port) + 1, uuid)
-            self.log.debug('异常处理-启动Appium')
+            self.log.debug(info + '异常处理-启动Appium')
             self.open_application(port)
-            self.log.debug('异常处理-打开IDT')
+            self.log.debug(info + '异常处理-打开IDT')
             time.sleep(2)
             self.devices_bind(mac, selection)
-            self.log.debug('异常处理-绑定设备')
-            self.devices_init()
-            self.log.debug('异常处理-初始化设备')
+            self.log.debug(info + '异常处理-绑定设备')
+            self.devices_init(info)
+            self.log.debug(info + '异常处理-初始化设备')
 
-
+    def restart_IDT(self, port, uuid, info):
+        self.start_appium(port, int(port) + 1, uuid)
+        self.log.debug(info + '异常处理-启动Appium')
+        self.open_application(port)
+        self.log.debug(info + '异常处理-打开IDT')
+        time.sleep(2)
 
     @allure.step("登录wyze")
     def login_wyze(self, email_address, password):
