@@ -30,14 +30,14 @@ class Testsmoke:
         self.section = 'SATURN_设备'
         self.mac1 = '9C:F6:DD:38:1F:35'
         self.mac2 = '9C:F6:DD:38:1F:5E'
-        self.mac3 = '9C:F6:DD:38:1D:96'
+        self.mac3 = '9C:F6:DD:39:29:71'
         self.mac4 = '9C:F6:DD:38:1C:22'
         self.mac5 = '9C:F6:DD:38:1F:8E'
         self.mac6 = '9C:F6:DD:38:1F:DF'
         self.mac7 = '9C:F6:DD:38:1F:88'
-        self.mac8 = '9C:F6:DD:38:1F:BE'
+        self.mac8 = '9C:F6:DD:39:2A:B2'
         self.mac9 = '9C:F6:DD:38:1D:A9'
-        self.mac10 = '9C:F6:DD:38:1D:A4'
+        self.mac10 = '9C:F6:DD:39:29:07'
         self.mac11 = '9C:F6:DD:38:1C:22'
         self.mac12 = '9C:F6:DD:38:1F:DF'
     def smoke1(self):
@@ -133,7 +133,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 4
         self.systemPort = int(self.init_systemPort) + 4
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[2]
+        uuid = App(desired_cap).getdevices_uuid()[0]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -563,7 +563,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 14
         self.systemPort = int(self.init_systemPort) + 14
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[3]
+        uuid = App(desired_cap).getdevices_uuid()[1]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -689,7 +689,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[5]
+        uuid = App(desired_cap).getdevices_uuid()[2]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -939,30 +939,30 @@ class Testsmoke:
 
 if __name__ == '__main__':
     multiprocessings = []
-    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
-    t2 = multiprocessing.Process(target=Testsmoke().smoke2)
+    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
     # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     t8 = multiprocessing.Process(target=Testsmoke().smoke8)
-    t9 = multiprocessing.Process(target=Testsmoke().smoke9)
+    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
     t10 = multiprocessing.Process(target=Testsmoke().smoke10)
-    t11 = multiprocessing.Process(target=Testsmoke().smoke11)
-    t12 = multiprocessing.Process(target=Testsmoke().smoke12)
-    multiprocessings.append(t1)
-    multiprocessings.append(t2)
+    # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
+    # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
+    # multiprocessings.append(t1)
+    # multiprocessings.append(t2)
     multiprocessings.append(t3)
     # multiprocessings.append(t4)
     # multiprocessings.append(t5)
     # multiprocessings.append(t6)
     # multiprocessings.append(t7)
     multiprocessings.append(t8)
-    multiprocessings.append(t9)
+    # multiprocessings.append(t9)
     multiprocessings.append(t10)
-    multiprocessings.append(t11)
-    multiprocessings.append(t12)
+    # multiprocessings.append(t11)
+    # multiprocessings.append(t12)
     for t in multiprocessings:
         t.start()
 
