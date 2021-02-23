@@ -810,11 +810,11 @@ class Testsmoke:
                 if app.object_exist(u"绑定失败"):
                     self.log.error(info + u'绑定失败')
                     driver.keyevent(4)
-                app.close_app()
-                self.log.error(info + '结束IDT进程')
+                driver.quit()
+                self.log.debug(info + '结束IDT进程')
                 time.sleep(5)
                 driver = app.open_application(self.port)
-                self.log.error(info + '启动IDT')
+                self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
 
 
@@ -860,11 +860,11 @@ class Testsmoke:
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
                     driver.keyevent(4)
-                app.close_app()
-                self.log.error(info + '结束IDT进程')
+                driver.quit()
+                self.log.debug(info + '结束IDT进程')
                 time.sleep(5)
                 driver = app.open_application(self.port)
-                self.log.error(info + '启动IDT')
+                self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
 
 
