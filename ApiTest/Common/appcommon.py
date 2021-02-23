@@ -657,7 +657,7 @@ class App(object):
             self.devices_init(info)
 
     @allure.step("OTA绑定设备")
-    def devices_bind_ota(self, mac, selection, info, port, uuid):
+    def devices_bind_ota(self, mac, selection, info):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
         time.sleep(10)
         if self.object_exist(selection):
@@ -677,9 +677,6 @@ class App(object):
                 if self.object_exist(selection):
                     self.devices_click(selection)
                     self.log.debug(info + '绑定-----已返回到主页面3')
-                else:
-                    self.restart_IDT(port, uuid, info)
-                    self.log.debug(info + '重启IDT')
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:

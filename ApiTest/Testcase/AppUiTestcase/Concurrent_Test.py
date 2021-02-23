@@ -64,6 +64,8 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
+        app.device_upslide()
+        self.log.debug(info + "向上滑动成功")
         for i in range(1, 1000):
             try:
                 app.device_clickDID()
@@ -86,15 +88,10 @@ class Testsmoke:
                 else:
                     rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
                     self.log.debug(info + "获取重启次数失败")
-                # print("rebort_cnts:" + str(rebort_cnts))
-                # print(str(rebort_cnts[i]))
-                # print(str(rebort_cnts[i-1]))
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
                 self.log.debug(info + '心率运行次数：' + str(i))
-                app.device_upslide()
-                self.log.debug(info + "向上滑动成功")
                 app.saturn_inputclick("160", "50", "160", "50")
                 self.log.debug(info + "点击心率icon成功")
                 app.assert_getdevicepagename("hrm")
@@ -108,6 +105,8 @@ class Testsmoke:
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
                 app.call_back(self.mac1, self.section, self.port, self.uuid, info)
+                app.device_upslide()
+                self.log.debug(info + "向上滑动成功")
     def smoke2(self):
         info = "Process-2"
         self.port = int(self.init_port) + 2
@@ -129,6 +128,8 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
+        app.device_upslide()
+        self.log.debug(info + "向上滑动成功")
         for i in range(1, 1000):
             try:
                 app.device_clickDID()
@@ -146,8 +147,6 @@ class Testsmoke:
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.call_back_devices_init(info)
                 self.log.debug(info + '血氧运行次数：' + str(i))
-                app.device_upslide()
-                self.log.debug(info + "向上滑动成功")
                 app.saturn_inputclick("270", "50", "270", "50")
                 self.log.debug(info + "点击血氧icon成功")
                 app.assert_getdevicepagename("spo2")
@@ -161,6 +160,8 @@ class Testsmoke:
             except:
                 self.log.error(info + '血氧在第N次运行失败：' + str(i))
                 app.call_back(self.mac2, self.section, self.port, self.uuid, info)
+                app.device_upslide()
+                self.log.debug(info + "向上滑动成功")
 
     def smoke3(self):
         info = "Process-3"
@@ -789,7 +790,7 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac10, self.section, info, self.port, self.uuid)
+                app.devices_bind_ota(self.mac10, self.section, info)
                 app.device_clickDID()
                 self.log.debug(info + u'获取设备标识')
                 if "page_name" in app.getresult():
@@ -806,10 +807,15 @@ class Testsmoke:
                     self.log.error(info + u'绑定失败')
             except:
                 self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
-                if app.object_exist("绑定失败"):
-                    self.log.error(info + '绑定失败')
+                if app.object_exist(u"绑定失败"):
+                    self.log.error(info + u'绑定失败')
                     driver.keyevent(4)
-                self.log.debug(info + '异常处理----------')
+                app.close_app()
+                self.log.error(info + '结束IDT进程')
+                time.sleep(5)
+                driver = app.open_application(self.port)
+                self.log.error(info + '启动IDT')
+                self.log.debug(info + '-----------异常处理结束----------')
 
 
     def smoke11(self):
@@ -833,7 +839,7 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac10, self.section, info, self.port, self.uuid)
+                app.devices_bind_ota(self.mac10, self.section, info)
                 app.device_clickDID()
                 self.log.debug(info + u'获取设备标识')
                 if "page_name" in app.getresult():
@@ -854,7 +860,12 @@ class Testsmoke:
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
                     driver.keyevent(4)
-                self.log.debug(info + '-----------异常处理----------')
+                app.close_app()
+                self.log.error(info + '结束IDT进程')
+                time.sleep(5)
+                driver = app.open_application(self.port)
+                self.log.error(info + '启动IDT')
+                self.log.debug(info + '-----------异常处理结束----------')
 
 
     def smoke12(self):
