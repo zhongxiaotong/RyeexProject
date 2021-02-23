@@ -657,25 +657,29 @@ class App(object):
             self.devices_init(info)
 
     @allure.step("OTA绑定设备")
-    def devices_bind_ota(self, mac, selection, info):
+    def devices_bind_ota(self, mac, selection, info, port, uuid):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
+        time.sleep(10)
         if self.object_exist(selection):
             self.devices_click(selection)
-            self.log.debug(info + '绑定-----已返回到主页面')
+            self.log.debug(info + '绑定-----已返回到主页面1')
         else:
             self.driver.keyevent(4)
             self.log.debug(info + '绑定-----返回IDT主页面1')
             time.sleep(3)
             if self.object_exist(selection):
                 self.devices_click(selection)
-                self.log.debug(info + '绑定-----已返回到主页面')
+                self.log.debug(info + '绑定-----已返回到主页面2')
             else:
                 self.driver.keyevent(4)
                 self.log.debug(info + '绑定-----返回IDT主页面2')
                 time.sleep(3)
                 if self.object_exist(selection):
                     self.devices_click(selection)
-                    self.log.debug(info + '绑定-----已返回到主页面')
+                    self.log.debug(info + '绑定-----已返回到主页面3')
+                else:
+                    self.restart_IDT(port, uuid, info)
+                    self.log.debug(info + '重启IDT')
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:
@@ -894,8 +898,8 @@ class App(object):
             self.log.debug(info + '异常处理-初始化设备')
 
     def restart_IDT(self, port, uuid, info):
-        self.start_appium(port, int(port) + 1, uuid)
-        self.log.debug(info + '异常处理-启动Appium')
+        # self.start_appium(port, int(port) + 1, uuid)
+        # self.log.debug(info + '异常处理-启动Appium')
         self.open_application(port)
         self.log.debug(info + '异常处理-打开IDT')
         time.sleep(2)

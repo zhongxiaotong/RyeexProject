@@ -40,7 +40,7 @@ class Testsmoke:
         self.mac7 = '9C:F6:DD:38:1F:88'
         self.mac8 = '9C:F6:DD:38:1F:BE'
         self.mac9 = '9C:F6:DD:38:1D:A9'
-        self.mac10 = '9C:F6:DD:38:1F:88'
+        self.mac10 = '9C:F6:DD:38:1E:E2'
         self.mac11 = '9C:F6:DD:38:1D:A4'
         self.mac12 = '9C:F6:DD:38:1F:DF'
     def smoke1(self):
@@ -773,7 +773,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[5]
+        uuid = App(desired_cap).getdevices_uuid()[0]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -789,7 +789,7 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac10, self.section, info)
+                app.devices_bind_ota(self.mac10, self.section, info, self.port, self.uuid)
                 app.device_clickDID()
                 self.log.debug(info + u'获取设备标识')
                 if "page_name" in app.getresult():
@@ -817,7 +817,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 20
         self.systemPort = int(self.init_systemPort) + 20
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[6]
+        uuid = App(desired_cap).getdevices_uuid()[1]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -833,7 +833,7 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac11, self.section, info)
+                app.devices_bind_ota(self.mac10, self.section, info, self.port, self.uuid)
                 app.device_clickDID()
                 self.log.debug(info + u'获取设备标识')
                 if "page_name" in app.getresult():
@@ -1033,7 +1033,7 @@ class Testsmoke:
 
 if __name__ == '__main__':
     multiprocessings = []
-    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
@@ -1042,10 +1042,10 @@ if __name__ == '__main__':
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
     # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
-    # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
-    # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
+    t10 = multiprocessing.Process(target=Testsmoke().smoke10)
+    t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
-    multiprocessings.append(t1)
+    # multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
     # multiprocessings.append(t4)
@@ -1054,8 +1054,8 @@ if __name__ == '__main__':
     # multiprocessings.append(t7)
     # multiprocessings.append(t8)
     # multiprocessings.append(t9)
-    # multiprocessings.append(t10)
-    # multiprocessings.append(t11)
+    multiprocessings.append(t10)
+    multiprocessings.append(t11)
     # multiprocessings.append(t12)
     for t in multiprocessings:
         t.start()
