@@ -100,8 +100,6 @@ class Testsmoke:
                 app.device_home()
                 app.assert_getdevicepagename("home_page")
                 self.log.debug(info + "返回上级页面成功（心率-上级页面）")
-                app.device_home()
-                self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
                 app.call_back(self.mac1, self.section, self.port, self.uuid, info)
@@ -155,8 +153,6 @@ class Testsmoke:
                 app.device_home()
                 app.assert_getdevicepagename("home_page")
                 self.log.debug(info + "返回上级页面成功（血氧-上级页面）")
-                app.device_home()
-                self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '血氧在第N次运行失败：' + str(i))
                 app.call_back(self.mac2, self.section, self.port, self.uuid, info)
