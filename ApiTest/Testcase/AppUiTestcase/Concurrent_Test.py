@@ -90,7 +90,11 @@ class Testsmoke:
                     self.log.debug(info + "获取重启次数失败")
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    app.device_home()
+                    self.log.debug(info + "返回主页面成功")
                     app.call_back_devices_init(info)
+                    app.device_upslide()
+                    self.log.debug(info + "向上滑动成功")
                 self.log.debug(info + '心率运行次数：' + str(i))
                 app.saturn_inputclick("160", "50", "160", "50")
                 self.log.debug(info + "点击心率icon成功")
@@ -143,7 +147,11 @@ class Testsmoke:
                 # print(str(rebort_cnts[i-1]))
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    app.device_home()
+                    self.log.debug(info + "返回主页面成功")
                     app.call_back_devices_init(info)
+                    app.device_upslide()
+                    self.log.debug(info + "向上滑动成功")
                 self.log.debug(info + '血氧运行次数：' + str(i))
                 app.saturn_inputclick("270", "50", "270", "50")
                 self.log.debug(info + "点击血氧icon成功")
@@ -1040,7 +1048,7 @@ class Testsmoke:
 
 if __name__ == '__main__':
     multiprocessings = []
-    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
@@ -1049,10 +1057,10 @@ if __name__ == '__main__':
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
     # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
-    t10 = multiprocessing.Process(target=Testsmoke().smoke10)
-    t11 = multiprocessing.Process(target=Testsmoke().smoke11)
+    # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
+    # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
-    # multiprocessings.append(t1)
+    multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
     # multiprocessings.append(t4)
@@ -1061,8 +1069,8 @@ if __name__ == '__main__':
     # multiprocessings.append(t7)
     # multiprocessings.append(t8)
     # multiprocessings.append(t9)
-    multiprocessings.append(t10)
-    multiprocessings.append(t11)
+    # multiprocessings.append(t10)
+    # multiprocessings.append(t11)
     # multiprocessings.append(t12)
     for t in multiprocessings:
         t.start()

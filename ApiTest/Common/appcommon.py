@@ -625,7 +625,7 @@ class App(object):
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
-            time.sleep(5)
+            time.sleep(10)
             if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
                 self.close_app()
                 self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
@@ -639,7 +639,7 @@ class App(object):
                 if count == 1 or count == 2:
                     self.driver.keyevent(4)
                     self.devices_click("解绑")
-                    time.sleep(5)
+                    time.sleep(15)
                 if count >= 3:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
