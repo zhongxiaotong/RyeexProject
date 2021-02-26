@@ -52,7 +52,7 @@ class Testsmoke:
         app = App(desired_cap)
         time.sleep(2)
         app.open_application(self.port)
-        app.devices_bind_ota(self.mac1, self.section)
+        app.devices_bind_ota(self.mac1, self.section, info)
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '心率运行次数：' + str(i))
@@ -100,7 +100,7 @@ class Testsmoke:
         time.sleep(2)
         app.open_application(self.port)
         # size = driver1.get_window_size()
-        app.devices_bind_ota(self.mac2, self.section)
+        app.devices_bind_ota(self.mac2, self.section, info)
         # app1.swpe(size['width']*0.25, size['height']*0.95, size['width']*0.25, size['height']*0.25)
         # for i in range(1, 1000):
         #     try:
@@ -501,18 +501,18 @@ class Testsmoke:
 
 if __name__ == '__main__':
     multiprocessings = []
-    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
-    t5 = multiprocessing.Process(target=Testsmoke().smoke5)
+    # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
-    # multiprocessings.append(t1)
+    multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
     # multiprocessings.append(t4)
-    multiprocessings.append(t5)
+    # multiprocessings.append(t5)
     # multiprocessings.append(t6)
     # multiprocessings.append(t7)
     for t in multiprocessings:
