@@ -618,7 +618,7 @@ class App(object):
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
-        desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
+        # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
         self.devices_click(selection)
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
@@ -628,7 +628,7 @@ class App(object):
             time.sleep(10)
             if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
                 self.close_app()
-                self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
+                # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
                 self.devices_click(selection)
                 self.devices_click('解绑')
