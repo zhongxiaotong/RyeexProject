@@ -659,7 +659,7 @@ class App(object):
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
-        time.sleep(10)
+        time.sleep(15)
         if self.object_exist(selection):
             self.devices_click(selection)
             self.log.debug(info + '绑定-----已返回到主页面1')
@@ -682,7 +682,7 @@ class App(object):
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
-            time.sleep(5)
+            time.sleep(15)
             if (self.object_exist("realme Watch 2")) == False:
                 self.close_app()
                 # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙

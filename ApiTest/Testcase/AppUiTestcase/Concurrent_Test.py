@@ -789,7 +789,7 @@ class Testsmoke:
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
         time.sleep(5)
-        driver = app.open_application(self.port)
+        self.driver = app.open_application(self.port)
         # app.devices_bind(self.mac10, self.section, info)
         for i in range(1, 1000):
             try:
@@ -802,9 +802,9 @@ class Testsmoke:
                     if app.object_exist("解绑"):
                         app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
                     self.log.debug(info + u'解绑成功')
-                    app.implicitly_wait("realme Watch 2", 60)
-                    driver.keyevent(4)
-                    driver.keyevent(4)
+                    time.sleep(10)
+                    self.driver.keyevent(4)
+                    self.driver.keyevent(4)
                     time.sleep(20)
                     self.log.debug(info + u'等待设备重启成功')
                 else:
@@ -813,11 +813,11 @@ class Testsmoke:
                 self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
                 if app.object_exist(u"绑定失败"):
                     self.log.error(info + u'绑定失败')
-                    driver.keyevent(4)
-                driver.quit()
+                    self.driver.keyevent(4)
+                self.driver.quit()
                 self.log.debug(info + '结束IDT进程')
                 time.sleep(5)
-                driver = app.open_application(self.port)
+                self.driver = app.open_application(self.port)
                 self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
 
@@ -838,7 +838,7 @@ class Testsmoke:
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
         time.sleep(5)
-        driver = app.open_application(self.port)
+        self.driver = app.open_application(self.port)
         # app.devices_bind(self.mac10, self.section, info)
         for i in range(1, 1000):
             try:
@@ -853,8 +853,8 @@ class Testsmoke:
                     self.log.debug(info + u'解绑成功')
                     # app.implicitly_wait("realme Watch 2", 60)
                     time.sleep(10)
-                    driver.keyevent(4)
-                    driver.keyevent(4)
+                    self.driver.keyevent(4)
+                    self.driver.keyevent(4)
                     time.sleep(20)
                     self.log.debug(info + u'等待设备重启成功')
                 else:
@@ -863,11 +863,11 @@ class Testsmoke:
                 self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
-                    driver.keyevent(4)
-                driver.quit()
+                    self.driver.keyevent(4)
+                self.driver.quit()
                 self.log.debug(info + '结束IDT进程')
                 time.sleep(5)
-                driver = app.open_application(self.port)
+                self.driver = app.open_application(self.port)
                 self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
 
