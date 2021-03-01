@@ -779,7 +779,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[0]
+        uuid = App(desired_cap).getdevices_uuid()[9]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -815,9 +815,9 @@ class Testsmoke:
                 if app.object_exist(u"绑定失败"):
                     self.log.error(info + u'绑定失败')
                     self.driver.keyevent(4)
-                self.driver.quit()
-                self.log.debug(info + '结束IDT进程')
-                time.sleep(5)
+                # self.driver.quit()
+                # self.log.debug(info + '结束IDT进程')
+                # time.sleep(5)
                 self.driver = app.open_application(self.port)
                 self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
@@ -865,9 +865,9 @@ class Testsmoke:
                 if app.object_exist("绑定失败"):
                     self.log.error(info + '绑定失败')
                     self.driver.keyevent(4)
-                self.driver.quit()
-                self.log.debug(info + '结束IDT进程')
-                time.sleep(5)
+                # self.driver.quit()
+                # self.log.debug(info + '结束IDT进程')
+                # time.sleep(5)
                 self.driver = app.open_application(self.port)
                 self.log.debug(info + '启动IDT')
                 self.log.debug(info + '-----------异常处理结束----------')
