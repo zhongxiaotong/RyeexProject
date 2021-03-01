@@ -28,6 +28,7 @@ class Testsmoke:
         self.init_port = 4723
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
+        self.driver = None
         # self.mac1 = '9C:F6:DD:38:1F:88'
         # self.mac2 = '9C:F6:DD:38:1F:8E'
         # self.mac10 = '9C:F6:DD:38:1E:E2'

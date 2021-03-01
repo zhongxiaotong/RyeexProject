@@ -677,8 +677,12 @@ class App(object):
                 if self.object_exist(selection):
                     self.devices_click(selection)
                     self.log.debug(info + '绑定-----已返回到主页面3')
+        count = 0
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
+            count += 1
+            if count >= 300:
+                break
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
@@ -836,7 +840,7 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 300:
+            if count >= 500:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):

@@ -28,9 +28,9 @@ class Testsmoke:
         self.init_port = 4723
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
-        self.mac1 = '2C:AA:8E:8F:71:30'
-        self.mac2 = '2C:AA:8E:8F:71:30'
-        self.mac3 = '2C:AA:8E:8F:72:04'
+        self.mac1 = '2C:AA:8E:8F:11:03'
+        self.mac2 = '2C:AA:8E:8F:71:B9'
+        self.mac3 = '2C:AA:8E:8F:79:BD'
         self.mac4 = '2C:AA:8E:8F:0F:A2'
         self.mac5 = '2C:AA:8E:8F:71:30'
         self.mac6 = '2C:AA:8E:8F:71:30'
@@ -50,14 +50,25 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         app.open_application(self.port)
         app.devices_bind_ota(self.mac1, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                 self.log.debug(info + '心率运行次数：' + str(i))
-                # app.device_leftslide()
-                # self.log.debug(info + "向左滑动成功")
                 app.device_home()
                 self.log.debug(info + "home键进入菜单页面")
                 app.saturn_inputclick("80", "240", "80", "240")
@@ -68,16 +79,6 @@ class Testsmoke:
                 app.device_home()
                 app.assert_getdevicepagename("home_page")
                 self.log.debug(info + "返回表盘页面成功")
-                # app.device_home()
-                # self.log.debug(info + "home键进入菜单页面")
-                # app.saturn_inputclick("240", "240", "240", "240")
-                # self.log.debug(info + "点击血氧icon成功")
-                # app.assert_getdevicepagename("spo2")
-                # self.log.debug(info + "进入血氧功能成功")
-                # time.sleep(5)
-                # app.device_home()
-                # app.assert_getdevicepagename("home_page")
-                # self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
                 app.call_back_brandy(self.mac1, self.section, self.port, self.uuid)
@@ -97,62 +98,37 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         app.open_application(self.port)
-        # size = driver1.get_window_size()
         app.devices_bind_ota(self.mac2, self.section, info)
-        # app1.swpe(size['width']*0.25, size['height']*0.95, size['width']*0.25, size['height']*0.25)
-        # for i in range(1, 1000):
-        #     try:
-        #         self.log.debug(info + '切换表盘运行次数：' + str(i))
-        #         for m in range(1, 6):
-        #             app.device_longpress()
-        #             self.log.debug(info + "长按进入切换表盘页面成功")
-        #             app.device_leftslide()
-        #             self.log.debug(info + "向左滑动成功")
-        #             app.saturn_inputclick("160", "160", "160", "160")
-        #             self.log.debug(info + "点击表盘成功")
-        #             app.assert_getdevicepagename("home_page")
-        #             self.log.debug(info + "退出切换表盘页面成功")
-        #         for n in range(1, 6):
-        #             app.device_longpress()
-        #             self.log.debug(info + "长按进入切换表盘页面成功")
-        #             app.device_rightslide()
-        #             self.log.debug(info + "向右滑动成功")
-        #             app.saturn_inputclick("160", "160", "160", "160")
-        #             self.log.debug(info + "点击表盘成功")
-        #             app.assert_getdevicepagename("home_page")
-        #             self.log.debug(info + "退出切换表盘页面成功")
-        #     except:
-        #         self.log.error(info + '切换表盘在第N次运行失败：' + str(i))
-        #         app.call_back_brandy(self.mac2, self.section, self.port, self.uuid)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
-                self.log.debug(info + '心率运行次数：' + str(i))
-                # app.device_leftslide()
-                # self.log.debug(info + "向左滑动成功")
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                self.log.debug(info + '血氧运行次数：' + str(i))
                 app.device_home()
                 self.log.debug(info + "home键进入菜单页面")
-                app.saturn_inputclick("80", "240", "80", "240")
-                self.log.debug(info + "点击心率icon成功")
-                app.assert_getdevicepagename("hrm")
-                self.log.debug(info + "进入心率功能成功")
+                app.saturn_inputclick("240", "240", "240", "240")
+                self.log.debug(info + "点击血氧icon成功")
+                app.assert_getdevicepagename("spo2")
+                self.log.debug(info + "进入血氧功能成功")
                 time.sleep(5)
                 app.device_home()
                 app.assert_getdevicepagename("home_page")
                 self.log.debug(info + "返回表盘页面成功")
-                # app.device_home()
-                # self.log.debug(info + "home键进入菜单页面")
-                # app.saturn_inputclick("240", "240", "240", "240")
-                # self.log.debug(info + "点击血氧icon成功")
-                # app.assert_getdevicepagename("spo2")
-                # self.log.debug(info + "进入血氧功能成功")
-                # time.sleep(5)
-                # app.device_home()
-                # app.assert_getdevicepagename("home_page")
-                # self.log.debug(info + "返回表盘页面成功")
             except:
-                self.log.error(info + '心率在第N次运行失败：' + str(i))
+                self.log.error(info + '血氧在第N次运行失败：' + str(i))
                 app.call_back_brandy(self.mac2, self.section, self.port, self.uuid)
 
     def smoke3(self):
@@ -161,7 +137,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 4
         self.systemPort = int(self.init_systemPort) + 4
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[0]
+        uuid = App(desired_cap).getdevices_uuid()[2]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -171,11 +147,24 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         app.open_application(self.port)
-        app.devices_bind_ota(self.mac3, self.section)
+        app.devices_bind_ota(self.mac3, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                 self.log.debug(info + '进出各个应用运行次数：' + str(i))
                 app.device_home()
                 self.log.debug(info + "HOME键进入菜单")
@@ -296,12 +285,24 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind_ota(self.mac4, self.section)
-        i = 0
+        app.devices_bind_ota(self.mac4, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                 self.log.debug(info + '运动中发送短信/消息/电话运行次数：' + str(i))
                 app.device_home()
                 self.log.debug(info + "HOME键进入菜单")
@@ -356,11 +357,24 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind_ota(self.mac5, self.section)
+        app.devices_bind_ota(self.mac5, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                 self.log.debug(info + '查看消息运行次数：' + str(i))
                 driver.keyevent(4)
                 app.devices_click('SATURN_APP')
@@ -412,11 +426,24 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind_ota(self.mac6, self.section)
+        app.devices_bind_ota(self.mac6, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
         for i in range(1, 1000):
             try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                if "reboot_cnt" in app.getresult():
+                    rebort_cnts.append(app.getdevice()[2])
+                    self.log.debug(info + "获取重启次数：" + str(app.getdevice()[2]))
+                else:
+                    rebort_cnts.append('1000')                                                                               #防止执行失败。该轮元素轮空
+                    self.log.debug(info + "获取重启次数失败")
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                 self.log.debug(info + '进入各个倒计时次数：' + str(i))
                 app.device_home()
                 self.log.debug(info + "HOME键进入菜单")
@@ -464,9 +491,9 @@ class Testsmoke:
         desired_cap['systemPort'] = self.systemPort
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
-        time.sleep(2)
+        time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind_ota(self.mac7, self.section)
+        app.devices_bind_ota(self.mac7, self.section, info)
         for i in range(1, 2):
             try:
                 app.device_home()
@@ -502,15 +529,15 @@ class Testsmoke:
 if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
-    # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
-    # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
+    t2 = multiprocessing.Process(target=Testsmoke().smoke2)
+    t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
     # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     multiprocessings.append(t1)
-    # multiprocessings.append(t2)
-    # multiprocessings.append(t3)
+    multiprocessings.append(t2)
+    multiprocessings.append(t3)
     # multiprocessings.append(t4)
     # multiprocessings.append(t5)
     # multiprocessings.append(t6)
