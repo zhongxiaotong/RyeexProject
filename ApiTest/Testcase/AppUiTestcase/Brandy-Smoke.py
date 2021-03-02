@@ -81,7 +81,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac1, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac1, self.section, self.port, self.uuid, info)
     def smoke2(self):
         info = "Process-2"
         print(info)
@@ -129,7 +129,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '血氧在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac2, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac2, self.section, self.port, self.uuid, info)
 
     def smoke3(self):
         info = "Process-3"
@@ -267,7 +267,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '进出各个应用在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac3, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac3, self.section, self.port, self.uuid, info)
 
 
     def smoke4(self):
@@ -340,7 +340,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '运动中发送消息在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac4, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac4, self.section, self.port, self.uuid, info)
 
     def smoke5(self):
         info = "Process-5"
@@ -407,7 +407,7 @@ class Testsmoke:
                 self.log.debug(info + '退出消息页面成功')
             except:
                 self.log.error(info + '查看消息在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac5, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac5, self.section, self.port, self.uuid, info)
 
 
     def smoke6(self):
@@ -473,7 +473,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '进入各个倒计时在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac6, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac6, self.section, self.port, self.uuid, info)
 
 
     def smoke7(self):
@@ -522,7 +522,7 @@ class Testsmoke:
                 self.log.debug(info + "返回表盘页面成功")
             except:
                 self.log.error(info + '进出运动功能在第N次运行失败：' + str(i))
-                app.call_back_brandy(self.mac7, self.section, self.port, self.uuid)
+                app.call_back_brandy(self.mac7, self.section, self.port, self.uuid, info)
 
 
 
