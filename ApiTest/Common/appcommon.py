@@ -659,7 +659,7 @@ class App(object):
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
-        time.sleep(15)
+        time.sleep(10)
         if self.object_exist(selection):
             self.devices_click(selection)
             self.log.debug(info + '绑定-----已返回到主页面1')
@@ -686,8 +686,8 @@ class App(object):
         if self.object_exist(mac + "  已连接") == False:
             self.devices_click('解绑')
             self.click_prompt_box()
-            time.sleep(15)
-            if (self.object_exist("realme Watch 2")) == False:
+            time.sleep(10)
+            if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:
                 self.close_app()
                 # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
@@ -700,11 +700,11 @@ class App(object):
                 if count == 1 or count == 2:
                     self.driver.keyevent(4)
                     self.devices_click("解绑")
-                    time.sleep(5)
-                if count >= 3:
+                    time.sleep(10)
+                if count == 3 or count == 4:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
-                elif count == 10:
+                elif count == 5:
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
             self.devices_click(mac)

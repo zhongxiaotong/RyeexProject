@@ -28,13 +28,14 @@ class Testsmoke:
         self.init_port = 4723
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
-        self.mac1 = '2C:AA:8E:8F:11:03'
-        self.mac2 = '2C:AA:8E:8F:71:B9'
+        self.mac1 = '2C:AA:8E:8F:71:B9'
+        self.mac2 = '2C:AA:8E:8F:11:03'
         self.mac3 = '2C:AA:8E:8F:79:BD'
         self.mac4 = '2C:AA:8E:8F:0F:A2'
         self.mac5 = '2C:AA:8E:8F:71:30'
         self.mac6 = '2C:AA:8E:8F:71:30'
         self.mac7 = '2C:AA:8E:8F:0F:A2'
+
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
