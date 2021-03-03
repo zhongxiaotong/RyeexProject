@@ -626,7 +626,7 @@ class App(object):
             self.devices_click('解绑')
             self.click_prompt_box()
             time.sleep(10)
-            if (self.object_exist("realme Watch 2") or self.object_exist("WYZE") or self.object_exist("hey+")) == False:
+            if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:
                 self.close_app()
                 # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
@@ -639,11 +639,11 @@ class App(object):
                 if count == 1 or count == 2:
                     self.driver.keyevent(4)
                     self.devices_click("解绑")
-                    time.sleep(15)
-                if count >= 3:
+                    time.sleep(10)
+                if count == 3 or count == 4:
                     self.swpe(size['width']*0.5, size['height']*0.95, size['width']*0.5, size['height']*0.05)
                     time.sleep(5)
-                elif count == 10:
+                elif count == 5:
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
             self.devices_click(mac)
