@@ -840,7 +840,7 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 500:
+            if count >= 1000:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
@@ -905,7 +905,7 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 500:
+            if count >= 1000:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
