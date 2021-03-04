@@ -13,8 +13,9 @@ Model:
       fullReset: False                                                   #保存cookies
       appPackage: com.ryeex.sdk.demo                                     #运行的Android应用程序的Java包
       appActivity: com.ryeex.sdkband.MainActivity                        #要从包中启动的Android活动的活动名称
-      newCommandTimeout: 30000                                          #设置命令超时时间，单位：秒。达到超时时间仍未接收到新的命令时 Appium 会假设客户端退出然后自动结束会话。
+      newCommandTimeout: 60000                                          #设置命令超时时间，单位：秒。达到超时时间仍未接收到新的命令时 Appium 会假设客户端退出然后自动结束会话。
       #automationName : selendroid
+      adbExecTimeout: 40000
       systemPort : systemPort
       automationName : UiAutomator2
 

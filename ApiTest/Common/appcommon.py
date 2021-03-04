@@ -840,13 +840,16 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 1000:
+            if count >= 300:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
                 self.log.debug(info + '异常处理------------------------------------------------------------------------回连成功')
                 break
+        num = 0
         while True:
+            num += 1
+            time.sleep(1)
             self.device_clickDID()
             self.log.debug(info + '异常处理-获取设备标识1')
             if "page_name" in self.getresult():
@@ -860,6 +863,9 @@ class App(object):
                 elif page_name == 'home_page':
                     self.log.debug(info + '异常处理-退出获取设备标识')
                     break
+                break
+            if num >= 300:
+                self.log.error(info + '异常处理------------------------------------------------------------------------断开连接')
                 break
         time.sleep(2)
         self.device_clickDID()
@@ -905,13 +911,16 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 1000:
+            if count >= 300:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
                 self.log.debug(info + '异常处理------------------------------------------------------------------------回连成功')
                 break
+        num = 0
         while True:
+            num += 1
+            time.sleep(1)
             self.device_clickDID()
             self.log.debug(info + '异常处理-获取设备标识1')
             if "page_name" in self.getresult():
@@ -925,6 +934,9 @@ class App(object):
                 elif page_name == 'home_page':
                     self.log.debug(info + '异常处理-退出获取设备标识')
                     break
+                break
+            if num >= 300:
+                self.log.error(info + '异常处理------------------------------------------------------------------------断开连接')
                 break
         time.sleep(2)
         self.device_clickDID()
