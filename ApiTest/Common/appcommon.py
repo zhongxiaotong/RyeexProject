@@ -840,7 +840,7 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 300:
+            if count >= 100:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
@@ -848,8 +848,8 @@ class App(object):
                 break
         num = 0
         while True:
-            num += 1
             time.sleep(1)
+            num += 1
             self.device_clickDID()
             self.log.debug(info + '异常处理-获取设备标识1')
             if "page_name" in self.getresult():
@@ -864,7 +864,7 @@ class App(object):
                     self.log.debug(info + '异常处理-退出获取设备标识')
                     break
                 break
-            if num >= 300:
+            if num >= 100:
                 self.log.error(info + '异常处理------------------------------------------------------------------------断开连接')
                 break
         time.sleep(2)
@@ -879,8 +879,6 @@ class App(object):
                 time.sleep(1)
                 self.device_home()                                                                    #防止出现home键没有返回
                 self.log.debug(info + '异常处理1-返回2')
-                # self.device_home()
-                # self.log.debug(info + '异常处理1-返回3')
             else:
                 self.device_home()                                                                          #没有细分home_page页面。防止不在home_page主页面
                 self.log.debug(info + '异常处理2-返回1')
@@ -889,20 +887,20 @@ class App(object):
                 self.device_home()
                 self.log.debug(info + '异常处理2-返回3')
         else:                                                                                           #设备卡死重连
-            self.log.error(info + '异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
-            self.close_app()
-            self.log.debug(info + '异常处理-关闭IDT')
-            time.sleep(300)
-            self.log.debug(info + '异常处理-等待300秒')
-            self.start_appium(port, int(port) + 1, uuid)
-            self.log.debug(info + '异常处理-启动Appium')
+            self.log.error(info + '异常处理-----------------------------------------------------------------------------重新启动IDT绑定设备')
+            # self.close_app()
+            # self.log.debug(info + '异常处理-关闭IDT')
+            # self.start_appium(port, int(port) + 1, uuid)
+            # self.log.debug(info + '异常处理-启动Appium')
+            # time.sleep(10)
             self.open_application(port)
-            self.log.debug(info + '异常处理-打开IDT')
+            self.log.debug(info + '异常处理-重新启动IDT')
             time.sleep(2)
-            self.devices_bind(mac, selection)
+            self.devices_bind(mac, selection, info)
             self.log.debug(info + '异常处理-绑定设备')
             self.devices_init(info)
             self.log.debug(info + '异常处理-初始化设备')
+
     def call_back_brandy(self, mac, selection, port, uuid, info):
         time.sleep(10)
         if self.object_exist(selection):                                                               #判断设备是否重启
