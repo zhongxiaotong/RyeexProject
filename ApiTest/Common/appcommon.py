@@ -708,7 +708,7 @@ class App(object):
                     self.driver.keyevent(4)
                     raise(u'扫描页面没有找到设备')
             self.devices_click(mac)
-            self.implicitly_wait("请在设备上点击确认", 5)
+            self.implicitly_wait("请在设备上点击确认", 30)
             self.devices_click('完成')
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
@@ -904,6 +904,7 @@ class App(object):
             self.devices_init(info)
             self.log.debug(info + '异常处理-初始化设备')
     def call_back_brandy(self, mac, selection, port, uuid, info):
+        time.sleep(10)
         if self.object_exist(selection):                                                               #判断设备是否重启
             self.log.debug(info + '设备断开连接，IDT返回主界面')
             self.devices_click("SATURN_设备")

@@ -32,7 +32,7 @@ class Testsmoke:
         self.mac2 = '2C:AA:8E:8F:11:03'
         self.mac3 = '2C:AA:8E:8F:79:BD'
         self.mac4 = '2C:AA:8E:8F:0F:A2'
-        self.mac5 = '2C:AA:8E:8F:71:30'
+        self.mac5 = '2C:AA:8E:8F:79:BD'
         self.mac6 = '2C:AA:8E:8F:71:30'
         self.mac7 = '2C:AA:8E:8F:0F:A2'
 
@@ -83,6 +83,7 @@ class Testsmoke:
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
                 app.call_back_brandy(self.mac1, self.section, self.port, self.uuid, info)
+
     def smoke2(self):
         info = "Process-2"
         print(info)
@@ -348,7 +349,7 @@ class Testsmoke:
         self.port = int(self.init_port) + 8
         self.systemPort = int(self.init_systemPort) + 8
         desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[0]
+        uuid = App(desired_cap).getdevices_uuid()[2]
         self.uuid = uuid
         andriod_version = App(desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
@@ -396,8 +397,10 @@ class Testsmoke:
                 self.log.debug(info + "返回到消息页面")
                 app.saturn_inputslide("160", "20", "160", "160")
                 self.log.debug(info + '向下滑动一段距离')
+                app.saturn_inputslide("160", "20", "160", "160")
                 app.saturn_inputslide("160", "160", "160", "20")
                 self.log.debug(info + '向上滑动一段距离')
+                app.saturn_inputslide("160", "160", "160", "20")
                 app.saturn_inputclick("160", "160", "160", "160")
                 self.log.debug(info + '查看消息')
                 app.assert_getdevicepagename('notification_box_detail')
@@ -531,16 +534,16 @@ if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     t2 = multiprocessing.Process(target=Testsmoke().smoke2)
-    t3 = multiprocessing.Process(target=Testsmoke().smoke3)
+    # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
-    # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
+    t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     multiprocessings.append(t1)
     multiprocessings.append(t2)
-    multiprocessings.append(t3)
+    # multiprocessings.append(t3)
     # multiprocessings.append(t4)
-    # multiprocessings.append(t5)
+    multiprocessings.append(t5)
     # multiprocessings.append(t6)
     # multiprocessings.append(t7)
     for t in multiprocessings:
