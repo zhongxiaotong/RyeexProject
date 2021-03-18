@@ -888,11 +888,11 @@ class App(object):
                 self.log.debug(info + '异常处理2-返回3')
         else:                                                                                           #设备卡死重连
             self.log.error(info + '异常处理-----------------------------------------------------------------------------重新启动IDT绑定设备')
-            # self.close_app()
-            # self.log.debug(info + '异常处理-关闭IDT')
-            # self.start_appium(port, int(port) + 1, uuid)
-            # self.log.debug(info + '异常处理-启动Appium')
-            # time.sleep(10)
+            self.close_app()
+            self.log.debug(info + '异常处理-关闭IDT')
+            self.start_appium(port, int(port) + 1, uuid)
+            self.log.debug(info + '异常处理-启动Appium')
+            time.sleep(10)
             self.open_application(port)
             self.log.debug(info + '异常处理-重新启动IDT')
             time.sleep(2)
@@ -969,7 +969,7 @@ class App(object):
             self.open_application(port)
             self.log.debug(info + '异常处理-打开IDT')
             time.sleep(2)
-            self.devices_bind(mac, selection)
+            self.devices_bind(mac, selection, info)
             self.log.debug(info + '异常处理-绑定设备')
 
 

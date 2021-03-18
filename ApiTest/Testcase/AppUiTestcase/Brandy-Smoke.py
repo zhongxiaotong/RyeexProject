@@ -28,11 +28,11 @@ class Testsmoke:
         self.init_port = 4723
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
-        self.mac1 = '2C:AA:8E:8F:71:B9'
-        self.mac2 = '2C:AA:8E:8F:11:03'
+        self.mac1 = '2C:AA:8E:8F:79:56'
+        self.mac2 = '2C:AA:8E:8F:79:F2'
         self.mac3 = '2C:AA:8E:8F:79:BD'
         self.mac4 = '2C:AA:8E:8F:0F:A2'
-        self.mac5 = '2C:AA:8E:8F:79:BD'
+        self.mac5 = '2C:AA:8E:8F:79:06'
         self.mac6 = '2C:AA:8E:8F:71:30'
         self.mac7 = '2C:AA:8E:8F:0F:A2'
 
@@ -534,16 +534,16 @@ if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     t2 = multiprocessing.Process(target=Testsmoke().smoke2)
-    # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
+    t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
-    t5 = multiprocessing.Process(target=Testsmoke().smoke5)
+    # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     multiprocessings.append(t1)
     multiprocessings.append(t2)
-    # multiprocessings.append(t3)
+    multiprocessings.append(t3)
     # multiprocessings.append(t4)
-    multiprocessings.append(t5)
+    # multiprocessings.append(t5)
     # multiprocessings.append(t6)
     # multiprocessings.append(t7)
     for t in multiprocessings:
