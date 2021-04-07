@@ -265,6 +265,20 @@ class App(object):
                 self.log.error(u'页面未能找到该元素：%s' % text)
                 raise BaseException(u'页面未能找到该元素')
 
+    def get_rebort_cnts(self, rebort_cnts, info):
+        count = 0
+        while True:
+            if "reboot_cnt" in self.getresult():
+                rebort_cnts.append(self.getdevice()[2])
+                self.log.debug(info + "获取重启次数：" + str(self.getdevice()[2]))
+                break
+            else:
+                count += 1
+                time.sleep(1)
+                self.log.debug(info + "获取重启次数失败，继续获取")
+            if count >= 10:
+                raise(info + "获取重启次数超时")
+
     @staticmethod
     def getid():
         L = []
@@ -962,7 +976,7 @@ class App(object):
             self.log.error(info + '异常处理-----------------------------------------------------------------------------设备卡死，等待5分钟设备重启，重新绑定')
             self.close_app()
             self.log.debug(info + '异常处理-关闭IDT')
-            time.sleep(300)
+            time.sleep(10)
             self.log.debug(info + '异常处理-等待300秒')
             self.start_appium(port, int(port) + 1, uuid)
             self.log.debug(info + '异常处理-启动Appium')
