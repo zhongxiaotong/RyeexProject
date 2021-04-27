@@ -37,7 +37,7 @@ class Testsmoke:
         self.mac7 = '2C:AA:8E:8F:79:E9'
         self.mac8 = '2C:AA:8E:8F:79:06'
         self.mac9 = '2C:AA:8E:8F:79:F2'
-        # self.mac10 = '2C:AA:8E:8F:78:FB'
+        self.mac10 = '2C:AA:8E:8F:78:FB'
 
     def smoke1(self):
         info = "Process-1"

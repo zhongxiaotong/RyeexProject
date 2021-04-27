@@ -5,7 +5,7 @@ Model:
       platformName: Android                                               #使用哪个移动操作系统平台
       deviceName: deviceName                                                        #通过USB控制设备
 #      deviceName: 10.10.10.178:5555                                       #通过WiFi控制设备
-      platformVersion: platformVersion                                                  #移动操作系统版本
+      platformVersion: platformVersion                                                  #移动操作系统版
 #      app: C:\Users\EDZ\PycharmProjects\untitled\ApiTest\Testdata\IDT.apk                 # app安装路径
       unicodeKeyboard: True                                              #启用Unicode输入
       resetKeyboard: True                                                #使用unicodeKeyboard功能运行Unicode测试后，将键盘重置为原始状态。

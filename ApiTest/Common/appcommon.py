@@ -96,7 +96,7 @@ class App(object):
             while len(self.driver.find_element(*loc).text) == 0:
                 sleep(0.5)
                 count = count + 1
-                if count >= 40:                                         #超过20秒退出循环
+                if count >= 60:                                         #超过20秒退出循环
                     break
             return self.driver.find_element(*loc)
         except:
@@ -111,7 +111,7 @@ class App(object):
             while len(self.driver.find_element(*loc).text) == 0:
                 sleep(0.5)
                 count = count + 1
-                if count >= 40:                                         #超过20秒退出循环
+                if count >= 60:                                         #超过20秒退出循环
                     break
             return self.driver2.find_element(*loc)
         except:
@@ -666,7 +666,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(20)
+            time.sleep(40)
             self.devices_click(selection)
             self.devices_init(info)
 
@@ -727,7 +727,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(20)
+            time.sleep(40)
             self.devices_click(selection)
 
     @allure.step("初始化设备")
