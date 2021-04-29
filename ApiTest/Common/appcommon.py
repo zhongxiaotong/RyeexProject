@@ -666,7 +666,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(40)
+            time.sleep(60)
             self.devices_click(selection)
             self.devices_init(info)
 
@@ -727,7 +727,7 @@ class App(object):
             self.devices_click(selection)
             self.devices_inputclick("280", "280", "280", "280")
             self.driver.keyevent(4)
-            time.sleep(40)
+            time.sleep(60)
             self.devices_click(selection)
 
     @allure.step("初始化设备")
@@ -767,8 +767,8 @@ class App(object):
         self.log.debug(info + '设备初始化-点击Drink')
         self.device_upslide()
         self.log.debug(info + '设备初始化-向上滑动')
-        self.saturn_inputclick("160", "120", "160", "120")
-        self.log.debug(info + '设备初始化-点击Meditating')
+        # self.saturn_inputclick("160", "120", "160", "120")
+        # self.log.debug(info + '设备初始化-点击Meditating')
         self.saturn_inputclick("160", "200", "160", "200")
         self.log.debug(info + '设备初始化-点击HeartRate')
         self.device_home()
@@ -1209,3 +1209,15 @@ class App(object):
     @allure.step("解绑")
     def tv_unbind(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="解绑"]').click()
+
+    @allure.step("安装表盘")
+    def tv_installSurface(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="安装表盘"]').click()
+        self.assert_notin_text()
+
+    @allure.step("删除表盘")
+    def tv_deleteSurface(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
+        self.assert_in_text("set success")
+
+
