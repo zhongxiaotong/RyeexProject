@@ -784,7 +784,7 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '重启次数：' + str(i))
-                app.tv_reboot()
+                app.device_reboot()
                 time.sleep(60)
             except:
                 self.log.error(info + '重启在第N次运行失败：' + str(i))

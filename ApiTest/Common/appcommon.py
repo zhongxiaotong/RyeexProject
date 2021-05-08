@@ -618,6 +618,11 @@ class App(object):
     def devices_click(self, text):
         self.find_elementby(By.XPATH, '//*[@text="' + text + '"]').click()
 
+    @allure.step("点击重启")
+    def device_reboot(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='重启']").click()
+        self.assert_in_text(expecttext='ok')
     # def bluetooth_error(self):
     #     text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
     #     if len(text) != 0:
@@ -1115,6 +1120,14 @@ class App(object):
         self.assert_notin_text()
         self.clear_text()
 
+    def tv_send_notification1(self, value):
+        self.input_data(value)
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="发送通知"]').click()
+        self.assert_notin_text()
+
+    def tv_send_notification2(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="发送通知"]').click()
+
     @allure.step("获取应用排序")
     def tv_app_list(self, keyword):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取应用排序"]').click()
@@ -1220,7 +1233,3 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
         self.assert_in_text("set success")
 
-    @allure.step("重启")
-    def tv_reboot(self):
-        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="重启"]').click()
-        self.assert_notin_text()
