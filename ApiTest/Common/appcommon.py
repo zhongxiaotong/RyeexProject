@@ -1220,4 +1220,7 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
         self.assert_in_text("set success")
 
-
+    @allure.step("重启")
+    def tv_reboot(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="重启"]').click()
+        self.assert_notin_text()

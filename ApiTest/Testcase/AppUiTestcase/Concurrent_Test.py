@@ -779,39 +779,16 @@ class Testsmoke:
         App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(desired_cap)
         time.sleep(5)
-        self.driver = app.open_application(self.port)
-        # app.devices_bind(self.mac10, self.section, info)
+        driver = app.open_application(self.port)
+        app.devices_bind(self.mac11, self.section, info)
         for i in range(1, 1000):
             try:
-                self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac10, self.section, info)
-                app.device_clickDID()
-                self.log.debug(info + u'获取设备标识')
-                if "page_name" in app.getresult():
-                    self.log.debug(info + u'绑定成功')
-                    if app.object_exist("解绑"):
-                        app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-                    self.log.debug(info + u'解绑成功')
-                    # app.implicitly_wait("realme Watch 2", 60)
-                    time.sleep(10)
-                    self.driver.keyevent(4)
-                    self.driver.keyevent(4)
-                    time.sleep(20)
-                    self.log.debug(info + u'等待设备重启成功')
-                else:
-                    self.log.error(info + u'绑定失败')
+                self.log.debug(info + '重启次数：' + str(i))
+                app.tv_reboot()
+                time.sleep(60)
             except:
-                self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
-                if app.object_exist("绑定失败"):
-                    self.log.error(info + '绑定失败')
-                    self.driver.keyevent(4)
-                # self.driver.quit()
-                # self.log.debug(info + '结束IDT进程')
-                # time.sleep(5)
-                self.driver = app.open_application(self.port)
-                self.log.debug(info + '启动IDT')
-                self.log.debug(info + '-----------异常处理结束----------')
-
+                self.log.error(info + '重启在第N次运行失败：' + str(i))
+                app.call_back(self.mac11, self.section, self.port, self.uuid, info)
 
     def smoke12(self):
         info = "Process-12"
