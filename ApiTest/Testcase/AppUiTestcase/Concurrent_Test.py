@@ -29,9 +29,6 @@ class Testsmoke:
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
         self.driver = None
-        # self.mac1 = '9C:F6:DD:38:1F:88'
-        # self.mac2 = '9C:F6:DD:38:1F:8E'
-        # self.mac10 = '9C:F6:DD:38:1E:E2'
         self.mac1 = '9C:F6:DD:38:1F:35'
         self.mac2 = '9C:F6:DD:38:1F:5E'
         self.mac3 = '9C:F6:DD:38:1D:96'
@@ -44,21 +41,21 @@ class Testsmoke:
         self.mac10 = '9C:F6:DD:38:1E:E2'
         self.mac11 = '9C:F6:DD:38:1D:A4'
         self.mac12 = '9C:F6:DD:39:29:D6'
+        self.desired_cap = self.dictdatas[0]['desired_caps']
+        self.uuids = App(self.desired_cap).getdevices_uuid()
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
         self.systemPort = self.init_systemPort
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[0]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[0]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         app.open_application(self.port)
         app.devices_bind(self.mac1, self.section, info)
@@ -90,24 +87,23 @@ class Testsmoke:
                 self.log.debug(info + "返回上级页面成功（心率-上级页面）")
             except:
                 self.log.error(info + '心率在第N次运行失败：' + str(i))
-                app.call_back(self.mac1, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac1, self.section, self.port, uuid, info)
                 app.device_upslide()
                 self.log.debug(info + "向上滑动成功")
+
     def smoke2(self):
         info = "Process-2"
         self.port = int(self.init_port) + 2
         self.systemPort = int(self.init_systemPort) + 2
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[1]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[1]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         app.open_application(self.port)
         app.devices_bind(self.mac2, self.section, info)
@@ -121,9 +117,6 @@ class Testsmoke:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
                 app.get_rebort_cnts(rebort_cnts, info)
-                # print("rebort_cnts:" + str(rebort_cnts))
-                # print(str(rebort_cnts[i]))
-                # print(str(rebort_cnts[i-1]))
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
                     app.device_home()
@@ -142,26 +135,23 @@ class Testsmoke:
                 self.log.debug(info + "返回上级页面成功（血氧-上级页面）")
             except:
                 self.log.error(info + '血氧在第N次运行失败：' + str(i))
-                app.call_back(self.mac2, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac2, self.section, self.port, uuid, info)
                 app.device_upslide()
                 self.log.debug(info + "向上滑动成功")
 
     def smoke3(self):
         info = "Process-3"
-        print(info)
         self.port = int(self.init_port) + 4
         self.systemPort = int(self.init_systemPort) + 4
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[2]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[1]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         app.open_application(self.port)
         app.devices_bind(self.mac3, self.section, info)
@@ -313,24 +303,22 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '进出各个应用在第N次运行失败：' + str(i))
-                app.call_back(self.mac3, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac3, self.section, self.port, uuid, info)
 
 
     def smoke4(self):
         info = "Process-4"
         self.port = int(self.init_port) + 6
         self.systemPort = int(self.init_systemPort) + 6
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[3]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[3]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac4, self.section, info)
@@ -351,8 +339,6 @@ class Testsmoke:
                 self.log.debug(info + '向上滑动成功')
                 app.saturn_inputclick("160", "160", "160", "160")
                 self.log.debug(info + '点击运动icon成功')
-                # app.assert_getdevicepagename('sport_list')
-                # self.log.debug(info + '进入运动应用成功')
                 app.saturn_inputclick("160", "300", "160", "300")
                 self.log.debug(info + '点击IndoorRun')
                 app.saturn_inputclick("160", "160", "160", "160")
@@ -390,23 +376,21 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '运动中发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac4, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac4, self.section, self.port, uuid, info)
 
     def smoke5(self):
         info = "Process-5"
         self.port = int(self.init_port) + 8
         self.systemPort = int(self.init_systemPort) + 8
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[4]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[4]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac5, self.section, info)
@@ -455,24 +439,22 @@ class Testsmoke:
                 self.log.debug(info + '返回主页面成功')
             except:
                 self.log.error(info + '查看消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac5, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac5, self.section, self.port, uuid, info)
+
 
     def smoke6(self):
         info = "Process-6"
-        print(info)
         self.port = int(self.init_port) + 10
         self.systemPort = int(self.init_systemPort) + 10
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[5]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[5]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac6, self.section, info)
@@ -519,24 +501,22 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '运动功能页面上下滑动在第N次运行失败：' + str(i))
-                app.call_back(self.mac6, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac6, self.section, self.port, uuid, info)
 
 
     def smoke7(self):
         info = "Process-7"
         self.port = int(self.init_port) + 12
         self.systemPort = int(self.init_systemPort) + 12
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[6]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[6]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac7, self.section, info)
@@ -585,23 +565,21 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '血氧中发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac7, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac7, self.section, self.port, uuid, info)
 
     def smoke8(self):
         info = "Process-8"
         self.port = int(self.init_port) + 14
         self.systemPort = int(self.init_systemPort) + 14
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[3]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[7]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac8, self.section, info)
@@ -639,34 +617,23 @@ class Testsmoke:
                     time.sleep(1)
                     app.assert_getdevicepagename("home_page")
                     self.log.debug(info + "退出切换表盘页面成功")
-                # app.device_upslide()
-                # self.log.debug(info + '向上滑动成功')
-                # app.saturn_inputclick("270", "50", "270", "50")
-                # self.log.debug(info + "点击血氧icon成功")
-                # app.assert_getdevicepagename("spo2")
-                # self.log.debug(info + "进入血氧功能成功")
-                # app.device_home()
-                # app.device_home()
-                # self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '切换表盘在第N次运行失败：' + str(i))
-                app.call_back(self.mac8, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac8, self.section, self.port, uuid, info)
 
     def smoke9(self):
         info = "Process-9"
         self.port = int(self.init_port) + 16
         self.systemPort = int(self.init_systemPort) + 16
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[4]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[8]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac9, self.section, info)
@@ -712,32 +679,35 @@ class Testsmoke:
                 self.log.debug(info + "向右滑动成功")
             except:
                 self.log.error(info + '滑动屏幕在第N次运行失败：' + str(i))
-                app.call_back(self.mac9, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac9, self.section, self.port, uuid, info)
 
     def smoke10(self):
         info = "Process-10"
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[9]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[9]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         self.driver = app.open_application(self.port)
-        # app.devices_bind(self.mac10, self.section, info)
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
                 app.devices_bind_ota(self.mac10, self.section, info)
-                app.device_clickDID()
-                self.log.debug(info + u'获取设备标识')
+                app.device_leftslide()
+                self.log.debug(info + "向左滑动成功")
+                app.device_leftslide()
+                self.log.debug(info + "向左滑动成功")
+                app.device_rightslide()
+                self.log.debug(info + "向右滑动成功")
+                app.device_rightslide()
+                self.log.debug(info + "向右滑动成功")
                 if "page_name" in app.getresult():
                     self.log.debug(info + u'绑定成功')
                     if app.object_exist("解绑"):
@@ -788,23 +758,21 @@ class Testsmoke:
                 time.sleep(60)
             except:
                 self.log.error(info + '重启在第N次运行失败：' + str(i))
-                app.call_back(self.mac11, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac11, self.section, self.port, uuid, info)
 
     def smoke12(self):
         info = "Process-12"
         self.port = int(self.init_port) + 22
         self.systemPort = int(self.init_systemPort) + 22
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[0]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[11]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac12, self.section, info)
@@ -827,21 +795,15 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.tv_installSurface()
-                app.tv_send_notification('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
-                self.log.debug(info + '发送消息次数' + str(i))
-                app.tv_send_notification('{"appMessage": {"appId": "app.wx", "text": "2ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
-                self.log.debug(info + '发送消息次数' + str(i))
-                app.tv_send_notification('{"sms": {"contact": "ryeex' + str(i) + '", "content": "3ryeex' + str(i) + '", "sender": ' + str(i) + '}, "type": "SMS"}')
-                self.log.debug(info + '发短信次数' + str(i))
-                # app.tv_send_notification('{"telephony": {"contact": "ryeex' + str(i) + '", "number": ' + str(i) + ', "status": "RINGING_UNANSWERABLE"}, "type": "TELEPHONY"}')
-                # self.log.debug(info + '打电话次数' + str(i))
+                app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
+                for j in range(1, 15):
+                    app.tv_send_notification2()
                 time.sleep(5)
                 app.tv_deleteSurface()
                 driver.keyevent(4)
-                app.devices_click('SATURN_设备')
             except:
                 self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac12, self.section, self.port, self.uuid, info)
+                app.call_back(self.mac12, self.section, self.port, uuid, info)
 
 if __name__ == '__main__':
     multiprocessings = []
@@ -853,7 +815,7 @@ if __name__ == '__main__':
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
-    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
+    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)，
     # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
     # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     t12 = multiprocessing.Process(target=Testsmoke().smoke12)
