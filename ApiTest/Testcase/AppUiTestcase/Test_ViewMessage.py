@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2020/10/28 19:21
+# @Time : 2021/6/11 10:46
 # @Author : Greey
-# @FileName: Test_Spo2.py
+# @FileName: Test_ViewMessage.py
 
 
 import pytest
@@ -17,9 +17,8 @@ from selenium.webdriver.common.by import By
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
-
 @allure.feature('模拟设备端业务流程')
-@allure.description('绑定设备-初始化')
+@allure.description('进出血氧')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -42,7 +41,6 @@ class TestClass:
         self.desired_cap['systemPort'] = self.init_systemPort
         App(self.desired_cap).start_appium(self.init_port, int(self.init_port) + 1, uuid)
         self.app = App(self.desired_cap)
-        time.sleep(5)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
@@ -53,10 +51,30 @@ class TestClass:
     @allure.story("模拟Saturn设备端操作验证")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_bind(self):
-        self.app.open_application(self.init_port)
+    def test_spo(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.devices_init(self.info)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx", "title": "ryeex"}, "type": "APP_MESSAGE"}')
+        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx1", "title": "ryeex2"}, "type": "APP_MESSAGE"}')
+        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx2", "title": "ryeex2"}, "type": "APP_MESSAGE"}')
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.assert_getdevicepagename('remind')
+        self.app.device_home()
+        self.app.assert_getdevicepagename("home_page")
+        self.app.device_downslide()
+        self.app.saturn_inputslide("160", "40", "160", "160")
+        self.app.saturn_inputslide("160", "160", "160", "40")
+        self.app.saturn_inputclick("160", "200", "160", "200")
+        self.app.assert_getdevicepagename('notification_box_detail')
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page')
+        self.app.device_home()
 
 if __name__ == '__main__':
      pytest.main()

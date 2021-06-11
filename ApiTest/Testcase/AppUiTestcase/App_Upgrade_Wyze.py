@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/9/25 16:30
 # @Author : Greey
-# @FileName: Test_Upgrade_Wyze.py
+# @FileName: App_Upgrade_Wyze.py
 
 
 

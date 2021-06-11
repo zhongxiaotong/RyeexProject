@@ -185,7 +185,7 @@ class App(object):
             raise BaseException(u'delta_ms为空')
 
 
-
+    @allure.step("成功进入页面{target_pagename}")
     def assert_getdevicepagename(self, target_pagename):
         self.device_clickDID()
         self.assert_in_text(expecttext='page_name')
@@ -471,6 +471,7 @@ class App(object):
                 return devices1, devices2, devices3, devices4, devices5, devices6, devices7, devices8, devices9, devices10, devices11, devices12, devices13, devices14, devices15, devices16
         except:
             raise ValueError(u"请检查设备是否成功连接电脑")
+
     @staticmethod
     def getdevice_version(uuid):
         try:
@@ -481,6 +482,27 @@ class App(object):
         except:
             raise ValueError(u"获取安卓手机版本失败")
 
+    @staticmethod
+    def get_androidstatus(uuid):
+        try:
+            r = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')
+            if "true" in r:
+                return True
+            elif "false" in r:
+                return False
+        except:
+            raise ValueError(u"获取安卓手机状态失败")
+
+    @staticmethod
+    def adb_push(uuid, filepath):
+        result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
+        try:
+            if "true" in result:
+                os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')               #解锁屏幕
+                os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')               #唤醒屏幕
+            os.system('adb -s ' + str(uuid) + 'push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/update')   #分发固件
+        except:
+            raise ValueError(u"分发新固件或资源包到手机失败")
 
     # def bind_devices(self):
     #     if self.object_exist("2C:AA:8E:00:AB:95") == False:
@@ -635,6 +657,21 @@ class App(object):
     #         self.log.error(u'设备回调为空值')
     #         raise BaseException(u'设备回调为空值')
 
+
+    @allure.step("升级设备")
+    def devices_ota(self, version, info):
+        self.devices_click("SATURN_APP")
+        self.tv_ota(version)
+        while True:
+            time.sleep(1)
+            text = self.getresult()
+            if text == "set success":
+                break
+        time.sleep(300)
+        self.assert_connect_status()
+        self.driver.keyevent(4)
+
+
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
         # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
@@ -673,7 +710,7 @@ class App(object):
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
-            self.devices_init(info)
+            # self.devices_init(info)
 
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):

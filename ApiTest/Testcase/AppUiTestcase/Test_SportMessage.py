@@ -1,9 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2020/10/28 19:21
+# @Time : 2020/11/9 15:04
 # @Author : Greey
-# @FileName: Test_Spo2.py
-
+# @FileName: Test_SportMessage.py
 
 import pytest
 import os
@@ -17,9 +16,8 @@ from selenium.webdriver.common.by import By
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
-
 @allure.feature('模拟设备端业务流程')
-@allure.description('绑定设备-初始化')
+@allure.description('进出心率')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -42,7 +40,6 @@ class TestClass:
         self.desired_cap['systemPort'] = self.init_systemPort
         App(self.desired_cap).start_appium(self.init_port, int(self.init_port) + 1, uuid)
         self.app = App(self.desired_cap)
-        time.sleep(5)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
@@ -53,10 +50,33 @@ class TestClass:
     @allure.story("模拟Saturn设备端操作验证")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_bind(self):
-        self.app.open_application(self.init_port)
+    def test_sportmessage(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.devices_init(self.info)
+        self.app.device_upslide()
+        self.app.saturn_inputclick("160", "160", "160", "160")
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.saturn_inputclick("160", "160", "160", "160")
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_send_notification('{"appMessage": {"appId": "app.wx", "text": "ryeex", "title": "ryeex"}, "type": "APP_MESSAGE"}')
+        time.sleep(3)
+        self.app.tv_send_notification('{"sms": {"contact": "ryeex", "content": "ryeex", "sender": "110"}, "type": "SMS"}')
+        time.sleep(3)
+        self.app.tv_send_notification('{"telephony": {"contact": "ryeex", "number": "110", "status": "RINGING_UNANSWERABLE"}, "type": "TELEPHONY"}')
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.assert_getdevicepagename("remind")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("sports")
+        self.app.device_home()
+        self.app.saturn_inputclick("80", "160", "80", "160")
+        self.app.saturn_inputclick("280", "280", "280", "280")
+        self.app.assert_getdevicepagename("home_page")
+        self.app.device_home()
 
 if __name__ == '__main__':
      pytest.main()
