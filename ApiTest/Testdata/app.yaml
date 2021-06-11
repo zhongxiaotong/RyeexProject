@@ -19,3 +19,6 @@ Model:
       systemPort : systemPort
       automationName : UiAutomator2
 
+
+  - DEVICES:
+    mac: 9C:F6:DD:38:1F:17

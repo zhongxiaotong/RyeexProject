@@ -25,7 +25,7 @@ class TestClass:
         print("Test Start")
         self.log = MyLog()
         self.desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
-        self.mac = "9C:F6:DD:38:1F:17"
+        self.mac = Yamlc(yaml_path).get_yaml_data(2, "Model", "mac")
         self.fuction = 'SATURN_设备'
         self.info = "Process-1"
         self.init_port = 4723
