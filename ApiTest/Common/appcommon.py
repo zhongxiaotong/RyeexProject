@@ -659,7 +659,7 @@ class App(object):
 
 
     @allure.step("升级设备")
-    def devices_ota(self, version, info):
+    def devices_ota(self, version):
         self.devices_click("SATURN_APP")
         self.tv_ota(version)
         while True:
@@ -782,12 +782,12 @@ class App(object):
         self.log.debug(info + '设备初始化-点击设置')
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(info + '设备初始化-点击Display')
-        self.saturn_inputclick("160", "80", "160", "80")
-        self.log.debug(info + '设备初始化-点击Brightness')
-        self.saturn_inputslide("160", "40", "160", "160")
-        self.log.debug(info + '设备初始化-向下滑动一段距离')
-        self.saturn_inputclick("160", "300", "160", "300")
-        self.log.debug(info + '设备初始化-点击确认')
+        # self.saturn_inputclick("160", "80", "160", "80")
+        # self.log.debug(info + '设备初始化-点击Brightness')
+        # self.saturn_inputslide("160", "40", "160", "160")
+        # self.log.debug(info + '设备初始化-向下滑动一段距离')
+        # self.saturn_inputclick("160", "300", "160", "300")
+        # self.log.debug(info + '设备初始化-点击确认')
         self.saturn_inputclick("160", "180", "160", "180")
         self.log.debug(info + '设备初始化-点击ScreenTimeout')
         # self.saturn_inputclick("160", "40", "160", "40")

@@ -18,7 +18,7 @@ current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 @allure.feature('模拟设备端业务流程')
-@allure.description('进出血氧')
+@allure.description('查看消息')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -48,19 +48,20 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("模拟Saturn设备端操作验证")
+    @allure.story("Saturn业务流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_spo(self):
+    def test_viewmessage(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.app.device_home()
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
+        # self.app.click_prompt_box()
+        # self.app.click_prompt_box()
+        # self.app.click_prompt_box()
         self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx", "title": "ryeex"}, "type": "APP_MESSAGE"}')
-        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx1", "title": "ryeex2"}, "type": "APP_MESSAGE"}')
+        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx1", "title": "ryeex1"}, "type": "APP_MESSAGE"}')
         self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx2", "title": "ryeex2"}, "type": "APP_MESSAGE"}')
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
@@ -68,8 +69,8 @@ class TestClass:
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page")
         self.app.device_downslide()
-        self.app.saturn_inputslide("160", "40", "160", "160")
-        self.app.saturn_inputslide("160", "160", "160", "40")
+        self.app.saturn_inputslide("160", "20", "160", "300")
+        self.app.saturn_inputslide("160", "300", "160", "20")
         self.app.saturn_inputclick("160", "200", "160", "200")
         self.app.assert_getdevicepagename('notification_box_detail')
         self.app.device_home()

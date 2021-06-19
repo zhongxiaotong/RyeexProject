@@ -26,7 +26,7 @@ current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 @allure.feature('模拟设备端业务流程')
-@allure.description('进出血氧')
+@allure.description('进出各个应用')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -63,7 +63,7 @@ class TestClass:
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_upslide()
-        self.saturn_inputclick("50", "50", "50", "50")
+        self.app.saturn_inputclick("50", "50", "50", "50")
         self.app.assert_getdevicepagename("activity")
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page")

@@ -72,7 +72,6 @@ class TestClass:
 
     @allure.story("设备端通过性验证")
     @allure.severity('blocker')
-    @pytest.mark.smoke
     def test_appwyze_smoke(self):
         self.driver = self.app.open_app()
         self.app.devices_bind(self.mac, self.fuction)

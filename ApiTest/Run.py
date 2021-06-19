@@ -7,6 +7,8 @@ import os
 import win32com.client
 from ApiTest.Common.Log import MyLog
 import pytest
+from ApiTest.Common.Feishu import FeiShutalkChatbot
+import datetime
 
 # C = ReadConfig()
 # on_off = C.get_configdata("EMAIL", "on_off")
@@ -24,6 +26,7 @@ class AllTest(object):
 
     def __init__(self):
         global on_off
+        on_off = 'on'
         self.log = MyLog()
         check_exsit("java.exe")
         # current_path = os.path.abspath(__file__)
@@ -33,17 +36,21 @@ class AllTest(object):
     def run(self):
         try:
             self.log.info("********TEST START** ******")
-            pytest.main()
-            # pytest.main(['--alluredir', 'C:/Users/EDZ/PycharmProjects/untitled/ApiTest/Report/xml'])
-            # os.system('allure generate C:/Users/EDZ/PycharmProjects/untitled/ApiTest/Report/xml -o C:/Users/EDZ/PycharmProjects/untitled/ApiTest/Report/html --clean')                 #将报告转换成HTML
+            pytest.main(['-m', 'smoke', '--alluredir', './Report/xml'])
+            # pytest.main(['--alluredir', './Report/xml'])
+            # os.system('allure serve ./Report/xml')
+            os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
         except:
             self.log.error(u'测试用例执行失败，请检查')
-        # finally:
-        #     self.log.info("*********TEST END*********")
-        #     # send test report by email
-        #     if on_off == u'on':
-        #         configEmail.MyEmail()
-        #
+        finally:
+            currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
+            msg = currentdate + 'CICD自动化测试报告：http://172.21.80.1:11111/index.html'
+            self.log.info("*********TEST END*********")
+            # send test report by feishu
+            if on_off == 'on':
+                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/3d927bee-4ab5-4b87-8c01-ca1374179b27"
+                FeiShutalkChatbot(webhook).send_text(msg)
+            os.system('allure serve ./Report/xml --port 11111')
         #
         #
         #     elif on_off == u'off':

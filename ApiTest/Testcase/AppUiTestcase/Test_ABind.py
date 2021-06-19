@@ -19,7 +19,7 @@ father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.feature('模拟设备端业务流程')
-@allure.description('绑定设备-初始化')
+@allure.description('绑定')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,12 +50,13 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("模拟Saturn设备端操作验证")
+    @allure.story("Saturn业务流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_bind(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        # self.app.devices_ota(version)
         self.app.devices_init(self.info)
 
 if __name__ == '__main__':

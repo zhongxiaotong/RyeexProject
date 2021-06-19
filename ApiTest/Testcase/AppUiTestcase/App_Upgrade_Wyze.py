@@ -36,7 +36,6 @@ class TestClass:
 
     @allure.story("设备升级")
     @allure.severity('blocker')
-    @pytest.mark.smoke
     def test_upgradewyze_smoke(self):
         self.driver = self.app.open_app()
         # self.app.click_prompt_box()

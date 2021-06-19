@@ -77,7 +77,6 @@ class TestClass:
         print("Test End")
     @allure.story("wyzeband通过性验证")
     @allure.severity('blocker')
-    @pytest.mark.smoke
     def test_wyzeband_smoke(self):
         self.moudle.bind()                                      #绑定手环
         self.moudle.get_token()                                 #获取设备Token(不传参)

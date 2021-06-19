@@ -91,17 +91,17 @@ class TestClass:
         Assertions().assert_code(r['code'], self.expect2['code'])
         Assertions().assert_code(r['status_code'], self.expect2['status_code'])
 
-    case_name = Yamlc(yaml_path).get_yaml_data(3, "unbind_device", "case_name")
-    @allure.story(case_name)
-    @allure.severity('blocker')
-    def test_unbind_device002(self):
-        Returndata = Moudle("Wristband_Alpha").bind()
-        #
-        self.parm3['device_token'] = Returndata[0] + 'Greey'
-        self.headers = Returndata[1]
-        r = Request().post_wirst_request(method=self.method, url=self.url, data=self.parm3, header=self.headers)
-        print(r)
-        Assertions().assert_code(r['code'], self.expect3['code'])
-        Assertions().assert_code(r['status_code'], self.expect3['status_code'])
+    # case_name = Yamlc(yaml_path).get_yaml_data(3, "unbind_device", "case_name")
+    # @allure.story(case_name)
+    # @allure.severity('blocker')
+    # def test_unbind_device002(self):
+    #     Returndata = Moudle("Wristband_Alpha").bind()
+    #     #
+    #     self.parm3['device_token'] = Returndata[0] + 'Greey'
+    #     self.headers = Returndata[1]
+    #     r = Request().post_wirst_request(method=self.method, url=self.url, data=self.parm3, header=self.headers)
+    #     print(r)
+    #     Assertions().assert_code(r['code'], self.expect3['code'])
+    #     Assertions().assert_code(r['status_code'], self.expect3['status_code'])
 if __name__ == '__main__':
      pytest.main()

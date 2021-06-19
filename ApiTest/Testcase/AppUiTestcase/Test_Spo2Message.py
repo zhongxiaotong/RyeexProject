@@ -17,7 +17,7 @@ current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 @allure.feature('模拟设备端业务流程')
-@allure.description('进出血氧')
+@allure.description('血氧中发消息')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -47,7 +47,7 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("模拟Saturn设备端操作验证")
+    @allure.story("Saturn业务流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_spo2(self):
