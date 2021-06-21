@@ -9,6 +9,7 @@ from ApiTest.Common.Log import MyLog
 import pytest
 from ApiTest.Common.Feishu import FeiShutalkChatbot
 import datetime
+import socket
 
 # C = ReadConfig()
 # on_off = C.get_configdata("EMAIL", "on_off")
@@ -29,6 +30,8 @@ class AllTest(object):
         on_off = 'on'
         self.log = MyLog()
         check_exsit("java.exe")
+        hostname = socket.gethostname()
+        self.ip = socket.gethostbyname(hostname)
         # current_path = os.path.abspath(__file__)
         # father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "..")
         # report_path = father_path + "\\" + "Config\Config.ini"
@@ -44,7 +47,7 @@ class AllTest(object):
             self.log.error(u'测试用例执行失败，请检查')
         finally:
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
-            msg = currentdate + 'CICD自动化测试报告：http://172.21.80.1:11111/index.html'
+            msg = currentdate + 'CICD自动化测试报告：http://' + self.ip + ':11111/index.html'
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':

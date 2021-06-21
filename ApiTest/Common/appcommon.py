@@ -495,8 +495,8 @@ class App(object):
 
     @staticmethod
     def adb_push(uuid, filepath):
-        result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
         try:
+            result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
             if "true" in result:
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')               #解锁屏幕
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')               #唤醒屏幕
