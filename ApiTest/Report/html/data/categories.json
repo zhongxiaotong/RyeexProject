@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "BaseException: 验证失败：当前页面为remind，预期页面为home_page",
-      "children" : [ {
-        "name" : "test_viewmessage",
-        "uid" : "3cf4503fd7041db0",
-        "parentUid" : "655b296f81f2e32be17808f9ad94688c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1624076644043,
-          "stop" : 1624076707265,
-          "duration" : 63222
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "655b296f81f2e32be17808f9ad94688c"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

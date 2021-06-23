@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/6/11 10:46
+# @Time : 2021/6/23 12:06
 # @Author : Greey
-# @FileName: Test_ViewMessage.py
+# @FileName: Test_ZGetDevicesLog.py
 
 
 import pytest
@@ -18,7 +18,7 @@ current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 @allure.feature('模拟设备端业务流程')
-@allure.description('查看消息')
+@allure.description('获取设备日志')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -33,6 +33,7 @@ class TestClass:
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
         uuid = self.uuids[0]
+        self.uuid = uuid
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(self.info + "设备ID:" + uuid)
         print(self.info + "安卓版本:" + andriod_version)
@@ -51,32 +52,22 @@ class TestClass:
     @allure.story("Saturn业务流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_viewmessage(self):
+    def test_getdeviceslog(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.device_home()
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
-        # self.app.click_prompt_box()
-        # self.app.click_prompt_box()
-        # self.app.click_prompt_box()
-        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx", "title": "ryeex"}, "type": "APP_MESSAGE"}')
-        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx1", "title": "ryeex1"}, "type": "APP_MESSAGE"}')
-        self.app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx2", "title": "ryeex2"}, "type": "APP_MESSAGE"}')
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_设备')
-        self.app.assert_getdevicepagename('remind')
-        self.app.device_home()
-        self.app.device_home()
-        self.app.assert_getdevicepagename("home_page")
-        self.app.device_downslide()
-        self.app.saturn_inputslide("160", "20", "160", "300")
-        self.app.saturn_inputslide("160", "300", "160", "20")
-        self.app.saturn_inputclick("160", "200", "160", "200")
-        self.app.assert_getdevicepagename('notification_box_detail')
-        self.app.device_home()
-        self.app.assert_getdevicepagename('home_page')
-        self.app.device_home()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_GetDevicesLog()
+        self.app.adb_pull(self.uuid)
+        filepath = self.app.getdevices_logpath()
+        allure.attach.file(filepath, name="设备日志",  attachment_type=allure.attachment_type.CSV)
+        os.remove(filepath)
+
+
+
 
 if __name__ == '__main__':
      pytest.main()

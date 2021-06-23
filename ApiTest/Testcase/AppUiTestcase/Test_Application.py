@@ -56,7 +56,7 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("模拟Saturn设备端操作验证")
+    @allure.story("Saturn业务流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_application(self):

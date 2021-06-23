@@ -500,9 +500,33 @@ class App(object):
             if "true" in result:
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')               #解锁屏幕
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')               #唤醒屏幕
-            os.system('adb -s ' + str(uuid) + 'push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/update')   #分发固件
+            os.system('adb -s ' + str(uuid) + 'push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
         except:
             raise ValueError(u"分发新固件或资源包到手机失败")
+
+    @staticmethod
+    def adb_pull(uuid):
+        try:
+            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log C:/Python27')
+            os.system("rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log")
+            os.system("rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File")
+        except:
+            raise ValueError(u"Copy文件到电脑失败")
+
+    @staticmethod
+    def getdevices_logpath():                                                                                       #仅支持一个logs_dev文件
+        filenames = os.listdir("C:\Python27")
+        for filename in filenames:
+            if "logs_dev" in filename:
+                filepath = "C:\\Python27\\" + filename
+                return filepath
+            # if len(filepathlist) == 1:
+            #     return filepathlist[0]
+            # elif len(filepathlist) == 2:
+            #     return filepathlist[1], filepathlist[2]
+
+
+
 
     # def bind_devices(self):
     #     if self.object_exist("2C:AA:8E:00:AB:95") == False:
@@ -1269,4 +1293,9 @@ class App(object):
     def tv_deleteSurface(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
         self.assert_in_text("set success")
+
+    @allure.step("获取设备日志")
+    def tv_GetDevicesLog(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取日志文件"]').click()
+        self.assert_in_text("com.ryeex.sdk.demo")
 

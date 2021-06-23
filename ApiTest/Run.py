@@ -27,7 +27,7 @@ class AllTest(object):
 
     def __init__(self):
         global on_off
-        on_off = 'on'
+        on_off = 'off'
         self.log = MyLog()
         check_exsit("java.exe")
         hostname = socket.gethostname()
@@ -40,14 +40,13 @@ class AllTest(object):
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-m', 'smoke', '--alluredir', './Report/xml'])
-            # pytest.main(['--alluredir', './Report/xml'])
-            # os.system('allure serve ./Report/xml')
+            # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
         except:
             self.log.error(u'测试用例执行失败，请检查')
         finally:
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
-            msg = currentdate + 'CICD自动化测试报告：http://' + self.ip + ':11111/index.html'
+            msg = currentdate + 'CI自动化测试报告：http://' + self.ip + ':11111/index.html'
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
