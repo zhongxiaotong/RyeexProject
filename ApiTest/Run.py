@@ -46,13 +46,13 @@ class AllTest(object):
             self.log.error(u'测试用例执行失败，请检查')
         finally:
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
-            msg = currentdate + 'CI自动化测试报告：http://' + self.ip + ':11111/index.html'
+            msg = currentdate + '------CI自动化测试报告-------：http://' + self.ip + ':22222/index.html'
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
                 webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/3d927bee-4ab5-4b87-8c01-ca1374179b27"
                 FeiShutalkChatbot(webhook).send_text(msg)
-            os.system('allure serve ./Report/xml --port 11111')
+            os.system('allure serve ./Report/xml --port 22222')
         #
         #
         #     elif on_off == u'off':

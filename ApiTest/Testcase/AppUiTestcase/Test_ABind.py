@@ -18,8 +18,9 @@ current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
+@allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('绑定')
+@allure.description('1：启动测试工具IDT，2：点击SATURN_APP，3：点击解绑，选择设备mac地址绑定，4：设备点击确认，5：等待设备加载60秒')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,7 +51,9 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("Saturn业务流程")
+
+    @allure.title("绑定设备")
+    @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_bind(self):

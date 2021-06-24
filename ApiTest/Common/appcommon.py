@@ -508,8 +508,9 @@ class App(object):
     def adb_pull(uuid):
         try:
             os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log C:/Python27')
-            os.system("rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log")
-            os.system("rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File")
+            os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
+            os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
+            os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
         except:
             raise ValueError(u"Copy文件到电脑失败")
 

@@ -17,6 +17,8 @@ from selenium.webdriver.common.by import By
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
+
+@allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
 @allure.description('解绑')
 class TestClass:
@@ -48,7 +50,8 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.story("Saturn业务流程")
+    @allure.title("解绑")
+    @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_unbind(self):
