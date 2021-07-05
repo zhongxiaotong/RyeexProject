@@ -7,15 +7,15 @@
       "name" : "Test_ABind",
       "children" : [ {
         "name" : "绑定设备",
-        "uid" : "506459d19c2ee325",
+        "uid" : "d6fd5554377d1d8d",
         "parentUid" : "40e296aaf62eb9bc451ac5ec50f9efb7",
         "status" : "passed",
         "time" : {
-          "start" : 1624519730162,
-          "stop" : 1624519975583,
-          "duration" : 245421
+          "start" : 1625122652716,
+          "stop" : 1625122891576,
+          "duration" : 238860
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "40e296aaf62eb9bc451ac5ec50f9efb7"
@@ -23,15 +23,15 @@
       "name" : "Test_Application",
       "children" : [ {
         "name" : "进出各个应用",
-        "uid" : "e6a4ba0ea44f96cd",
+        "uid" : "19329ae4a005a0c4",
         "parentUid" : "d9bc3c9131285d884092fcf74f1f5f71",
         "status" : "passed",
         "time" : {
-          "start" : 1624519977998,
-          "stop" : 1624520272049,
-          "duration" : 294051
+          "start" : 1625122894061,
+          "stop" : 1625123149215,
+          "duration" : 255154
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "d9bc3c9131285d884092fcf74f1f5f71"
@@ -39,13 +39,13 @@
       "name" : "Test_Hrm",
       "children" : [ {
         "name" : "进出心率",
-        "uid" : "c660a512fcb85542",
+        "uid" : "e836b7ff7feaa510",
         "parentUid" : "fb0397bf49052fca0cc8a80a91400ace",
         "status" : "passed",
         "time" : {
-          "start" : 1624520274482,
-          "stop" : 1624520327027,
-          "duration" : 52545
+          "start" : 1625123151638,
+          "stop" : 1625123200863,
+          "duration" : 49225
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -55,15 +55,15 @@
       "name" : "Test_InstallfaceMessage",
       "children" : [ {
         "name" : "安装表盘中发消息成功",
-        "uid" : "2449d25a088da497",
+        "uid" : "be98e422aefd0dc7",
         "parentUid" : "77209329039141f1769edbbf7e7a5f56",
         "status" : "passed",
         "time" : {
-          "start" : 1624520329551,
-          "stop" : 1624520416429,
-          "duration" : 86878
+          "start" : 1625123203277,
+          "stop" : 1625123283634,
+          "duration" : 80357
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "77209329039141f1769edbbf7e7a5f56"
@@ -71,15 +71,15 @@
       "name" : "Test_Reboot",
       "children" : [ {
         "name" : "重启",
-        "uid" : "7ca0b77f5581e6b6",
+        "uid" : "ec5120f8bbf51398",
         "parentUid" : "a5c269f21943e434a2d351290af343e7",
         "status" : "passed",
         "time" : {
-          "start" : 1624520418892,
-          "stop" : 1624520507656,
-          "duration" : 88764
+          "start" : 1625123286054,
+          "stop" : 1625123374980,
+          "duration" : 88926
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "a5c269f21943e434a2d351290af343e7"
@@ -87,13 +87,13 @@
       "name" : "Test_Spo2",
       "children" : [ {
         "name" : "进出血氧",
-        "uid" : "3d15a8c8dfe3a3c",
+        "uid" : "277bd19381baf88b",
         "parentUid" : "8a61912e9de5755b3371cb52c8ae844b",
         "status" : "passed",
         "time" : {
-          "start" : 1624520510095,
-          "stop" : 1624520563254,
-          "duration" : 53159
+          "start" : 1625123377398,
+          "stop" : 1625123428463,
+          "duration" : 51065
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -103,13 +103,13 @@
       "name" : "Test_Spo2Message",
       "children" : [ {
         "name" : "血氧中发消息",
-        "uid" : "2569ad7cf0c620a5",
+        "uid" : "8d18a05c794037c6",
         "parentUid" : "dc4e4af34ae88b27a3389c683afefdec",
         "status" : "passed",
         "time" : {
-          "start" : 1624520565657,
-          "stop" : 1624520671926,
-          "duration" : 106269
+          "start" : 1625123430841,
+          "stop" : 1625123530444,
+          "duration" : 99603
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -119,13 +119,13 @@
       "name" : "Test_SportMessage",
       "children" : [ {
         "name" : "运动中发消息",
-        "uid" : "9beff45a96f39079",
+        "uid" : "ba5366cc35a5eab1",
         "parentUid" : "ba2adebd133e3ec6843870c938799e12",
         "status" : "passed",
         "time" : {
-          "start" : 1624520674381,
-          "stop" : 1624520809170,
-          "duration" : 134789
+          "start" : 1625123532841,
+          "stop" : 1625123654234,
+          "duration" : 121393
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -135,13 +135,13 @@
       "name" : "Test_Sportlist",
       "children" : [ {
         "name" : "运动列表循环滑动",
-        "uid" : "673511a940647847",
+        "uid" : "7b15a6a44ee999fe",
         "parentUid" : "0164fe61b1b47077fe5cf14525cf83a9",
         "status" : "passed",
         "time" : {
-          "start" : 1624520811619,
-          "stop" : 1624520959607,
-          "duration" : 147988
+          "start" : 1625123656624,
+          "stop" : 1625123784362,
+          "duration" : 127738
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -151,15 +151,15 @@
       "name" : "Test_SwipeScreen",
       "children" : [ {
         "name" : "滑动屏幕",
-        "uid" : "14018cb748f06afd",
+        "uid" : "f568bb1b61b101fe",
         "parentUid" : "3be2afaf81d834515ed675fec1535efe",
         "status" : "passed",
         "time" : {
-          "start" : 1624520962025,
-          "stop" : 1624521047570,
-          "duration" : 85545
+          "start" : 1625123786757,
+          "stop" : 1625123861810,
+          "duration" : 75053
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "3be2afaf81d834515ed675fec1535efe"
@@ -167,15 +167,15 @@
       "name" : "Test_SwitchWatchface",
       "children" : [ {
         "name" : "切换表盘",
-        "uid" : "50c4d1a8519b3365",
+        "uid" : "a219e8a2d53a28f7",
         "parentUid" : "b9928fec088b3b68008046ef9dd4f33c",
         "status" : "passed",
         "time" : {
-          "start" : 1624521049988,
-          "stop" : 1624521264291,
-          "duration" : 214303
+          "start" : 1625123864255,
+          "stop" : 1625124052210,
+          "duration" : 187955
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "b9928fec088b3b68008046ef9dd4f33c"
@@ -183,15 +183,15 @@
       "name" : "Test_ViewMessage",
       "children" : [ {
         "name" : "上下滑动查看消息",
-        "uid" : "2f022412176f1f46",
+        "uid" : "11a255d7e730beb1",
         "parentUid" : "ad2325a8e36a411173de46f890645e97",
         "status" : "passed",
         "time" : {
-          "start" : 1624521266683,
-          "stop" : 1624521381536,
-          "duration" : 114853
+          "start" : 1625124054650,
+          "stop" : 1625124147991,
+          "duration" : 93341
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "ad2325a8e36a411173de46f890645e97"
@@ -199,13 +199,13 @@
       "name" : "Test_ZGetDevicesLog",
       "children" : [ {
         "name" : "获取设备日志",
-        "uid" : "b872eec1f5372ce8",
+        "uid" : "da4c90151b6a57e0",
         "parentUid" : "6505d31c9ac0d94c71dc925a5290474c",
         "status" : "passed",
         "time" : {
-          "start" : 1624521383921,
-          "stop" : 1624521443288,
-          "duration" : 59367
+          "start" : 1625124150411,
+          "stop" : 1625124209265,
+          "duration" : 58854
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -215,13 +215,13 @@
       "name" : "Test_ZUnbind",
       "children" : [ {
         "name" : "解绑",
-        "uid" : "50bd787c860d6b1a",
+        "uid" : "7c6b6201e1342422",
         "parentUid" : "1a1c4ce35e3c5c5d79933a5896804069",
         "status" : "passed",
         "time" : {
-          "start" : 1624521445737,
-          "stop" : 1624521477824,
-          "duration" : 32087
+          "start" : 1625124211677,
+          "stop" : 1625124242878,
+          "duration" : 31201
         },
         "flaky" : false,
         "parameters" : [ ]

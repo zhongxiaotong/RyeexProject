@@ -12,6 +12,7 @@ import allure
 from ApiTest.Common.appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
+from ApiTest.Common.File import *
 from selenium.webdriver.common.by import By
 
 current_path = os.path.abspath(__file__)
@@ -45,6 +46,11 @@ class TestClass:
         self.app = App(self.desired_cap)
         time.sleep(5)
         self.log.debug(u'初始化测试数据')
+        self.newfilename_mcu = File().rename_zipname()[0]
+        self.newfilename_resource = File().rename_zipname()[1]
+        self.app.wake_phonescreen(uuid)
+        self.app.adb_push(uuid, self.newfilename_mcu)
+        self.app.adb_push(uuid, self.newfilename_resource)
 
     def teardown(self):
         # self.app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
@@ -59,7 +65,7 @@ class TestClass:
     def test_bind(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        # self.app.devices_ota(version)
+        self.app.devices_ota(version)
         self.app.devices_init(self.info)
 
 if __name__ == '__main__':

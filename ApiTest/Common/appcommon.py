@@ -476,7 +476,7 @@ class App(object):
     def getdevice_version(uuid):
         try:
             r = os.popen('adb -P 5037 -s ' + str(uuid) + ' shell getprop ro.build.version.release')
-            text = r.read().strip()                                                                 #去掉首位空格
+            text = r.read().strip()                                                                                    #去掉首位空格
             r.close()
             return text
         except:
@@ -496,13 +496,20 @@ class App(object):
     @staticmethod
     def adb_push(uuid, filepath):
         try:
-            result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
-            if "true" in result:
-                os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')               #解锁屏幕
-                os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')               #唤醒屏幕
             os.system('adb -s ' + str(uuid) + 'push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
         except:
             raise ValueError(u"分发新固件或资源包到手机失败")
+
+    @staticmethod
+    def wake_phonescreen(uuid):
+        try:
+            result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
+            if "true" in result:
+                os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')                                       #解锁屏幕
+                os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')                                       #唤醒屏幕
+        except:
+            raise ValueError(u'唤醒手机失败')
+
 
     @staticmethod
     def adb_pull(uuid):
@@ -577,7 +584,7 @@ class App(object):
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
-        # self.assert_in_text(expecttext='ok')
+        self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
 
     @allure.step("saturn坐标滑动")
@@ -684,9 +691,9 @@ class App(object):
 
 
     @allure.step("升级设备")
-    def devices_ota(self, version):
+    def devices_ota(self, ota_parameter):
         self.devices_click("SATURN_APP")
-        self.tv_ota(version)
+        self.tv_ota(ota_parameter)
         while True:
             time.sleep(1)
             text = self.getresult()
@@ -1300,3 +1307,7 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取日志文件"]').click()
         self.assert_in_text("com.ryeex.sdk.demo")
 
+    @allure.step("开关蓝牙")
+    def tv_Bluetoothcontrol(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="开关蓝牙"]').click()
+        self.assert_notin_text()

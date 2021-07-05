@@ -322,7 +322,6 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac4, self.section, info)
-        i = 0
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -796,7 +795,7 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.tv_installSurface()
                 app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
-                for j in range(1, 15):
+                for j in range(1, 10):
                     app.tv_send_notification2()
                 time.sleep(5)
                 app.tv_deleteSurface()
@@ -805,9 +804,53 @@ class Testsmoke:
                 self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
                 app.call_back(self.mac12, self.section, self.port, uuid, info)
 
+    def smoke13(self):
+        info = "Process-13"
+        self.port = int(self.init_port) + 24
+        self.systemPort = int(self.init_systemPort) + 24
+        uuid = self.uuids[12]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
+        print(info + "设备ID:" + uuid)
+        print(info + "安卓版本:" + andriod_version)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
+        time.sleep(5)
+        driver = app.open_application(self.port)
+        app.devices_bind(self.mac12, self.section, info)
+        size = driver.get_window_size()
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
+        for i in range(1, 1000):
+            try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                app.get_rebort_cnts(rebort_cnts, info)
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    app.call_back_devices_init(info)
+                self.log.debug(info + '安装表盘断开蓝牙次数：' + str(i))
+                driver.keyevent(4)
+                app.devices_click('SATURN_APP')
+                app.click_prompt_box()
+                app.click_prompt_box()
+                app.click_prompt_box()
+                for i in range(1, 1000):
+                    app.tv_installSurface()
+                    app.tv_Bluetoothcontrol()
+                    app.tv_Bluetoothcontrol()
+                    time.sleep(20)
+                    app.assert_connect_status()
+            except:
+                self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
+                app.call_back(self.mac12, self.section, self.port, uuid, info)
+
 if __name__ == '__main__':
     multiprocessings = []
-    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
@@ -815,11 +858,11 @@ if __name__ == '__main__':
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
     # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
-    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)，
+    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
     # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
     # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
-    t12 = multiprocessing.Process(target=Testsmoke().smoke12)
-    # multiprocessings.append(t1)
+    # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
+    multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
     # multiprocessings.append(t4)
@@ -830,7 +873,7 @@ if __name__ == '__main__':
     # multiprocessings.append(t9)
     # multiprocessings.append(t10)
     # multiprocessings.append(t11)
-    multiprocessings.append(t12)
+    # multiprocessings.append(t12)
     for t in multiprocessings:
         t.start()
 
