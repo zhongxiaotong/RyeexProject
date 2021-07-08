@@ -819,7 +819,7 @@ class Testsmoke:
         app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind(self.mac12, self.section, info)
+        app.devices_bind(self.mac13, self.section, info)
         size = driver.get_window_size()
         rebort_cnts = []
         app.device_clickDID()
@@ -839,16 +839,22 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.tv_installSurface()
-                app.tv_Bluetoothcontrol()
                 time.sleep(5)
+                app.tv_Bluetoothcontrol()
                 app.tv_Bluetoothcontrol()
                 time.sleep(20)
                 app.assert_connect_status()
+                app.tv_installSurface()
+                time.sleep(60)
+                app.tv_deleteSurface()
+                app.device_longpress()
+                app.device_rightslide()
+                app.saturn_inputclick('160', '160', '160', '160')
                 driver.keyevent(4)
                 app.devices_click('SATURN_设备')
             except:
                 self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac12, self.section, self.port, uuid, info)
+                app.call_back(self.mac13, self.section, self.port, uuid, info)
 
 if __name__ == '__main__':
     multiprocessings = []

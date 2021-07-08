@@ -691,7 +691,8 @@ class App(object):
 
 
     @allure.step("升级设备")
-    def devices_ota(self, ota_parameter):
+    def devices_ota(self, *ota_parameter):
+        #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
         self.devices_click("SATURN_APP")
         self.tv_ota(ota_parameter)
         while True:
@@ -699,7 +700,10 @@ class App(object):
             text = self.getresult()
             if text == "set success":
                 break
-        time.sleep(300)
+        if ota_parameter[2] == 0:
+            time.sleep(300)
+        elif ota_parameter[2] == 1:
+            time.sleep(150)
         self.assert_connect_status()
         self.driver.keyevent(4)
 
@@ -742,7 +746,7 @@ class App(object):
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
-            # self.devices_init(info)
+            self.devices_init(info)
 
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):
@@ -1310,4 +1314,4 @@ class App(object):
     @allure.step("开关蓝牙")
     def tv_Bluetoothcontrol(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="开关蓝牙"]').click()
-        self.assert_notin_text()
+        # self.assert_notin_text()

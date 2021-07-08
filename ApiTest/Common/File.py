@@ -8,6 +8,8 @@
 import zipfile
 import os
 import json
+from shutil import copyfile
+import shutil
 
 
 class File(object):
@@ -16,6 +18,7 @@ class File(object):
         # self.zip_src = 'C:/runner/autotest'
 
         self.zip_src = 'D:\log'
+        self.unzip_src = self.zip_src + '\\' + os.path.splitext(self.get_pathfiles())[0]
 
 
     def get_pathfiles(self):
@@ -33,14 +36,14 @@ class File(object):
             if r:
                 fz = zipfile.ZipFile(srcfile, 'r')
                 for file in fz.namelist():
-                    fils = fz.extract(file, self.zip_src)
+                    fils = fz.extract(file, self.unzip_src)
                     list.append(fils)
             return list
         except:
             raise
 
     def get_mcuversion(self):
-        configfile = self.zip_src + "\\config.json"
+        configfile = self.unzip_src + "\\config.json"
         try:
             if configfile:
                 with open(configfile, 'r') as f:
@@ -52,29 +55,47 @@ class File(object):
 
     def rename_zipname(self):
         filepaths = self.unzip_file()
-        newfilename_mcu = self.zip_src + "\\" + self.get_mcuversion().encode('utf-8')
-        newfilename_resource = self.zip_src + "\\" + newfilename_mcu.split('.')[3]
+        newfilepath_mcu = self.unzip_src + "\\" + self.get_mcuversion().encode('utf-8')
+        newfilepath_resource = self.unzip_src + "\\" + self.get_mcuversion().encode('utf-8').split('.')[3]
         for oldfilepath in filepaths:
             if '.fw.bin' in oldfilepath:
-                os.rename(oldfilepath, newfilename_mcu)
+                os.rename(oldfilepath, newfilepath_mcu)
         for oldfilepath in filepaths:
             if '.res' in oldfilepath:
-                os.rename(oldfilepath, newfilename_resource)
-        return newfilename_mcu, newfilename_resource
+                os.rename(oldfilepath, newfilepath_resource)
+        return newfilepath_mcu, newfilepath_resource
 
     def remove_file(self, filename):
-        if self.zip_src:
-            os.remove(self.zip_src + '\\' + filename)
+            os.remove(filename)
 
-    def mkdir_file(self):
-        if self.zip_src:
-            os.mkdir(self.zip_src + '\\' + 'Recent_res')
+    def rmtree_file(self, filename):
+        shutil.rmtree(filename)
 
-    def copy_file(self):
-        if self.zip_src:
-            os.copyfile
+    def get_file(self):
+        filespath = self.zip_src + '\\' + 'Recent_res'
+        filelist = os.listdir(filespath)
+        filepath = filespath + '\\' + filelist[0]
+        return filepath
+
+    def mkdir_file(self):                         #必须有初始资源包
+        filepath = self.zip_src + '\\' + 'Recent_res'
+        if not os.path.isdir(filepath):
+            os.mkdir(filepath)
+        else:
+            self.rmdir_file(filepath)
+        return filepath
+
+    def rmdir_file(self, filepath):
+        filelist = os.listdir(filepath)
+        if filelist:
+            for f in filelist:
+                os.remove(filepath + '\\' + f)
 
 
-# if __name__ == '__main__':
-#     A = File()
-#     A.rename_zipname()
+    def copy_file(self, source, target):
+        if self.unzip_src:
+            copyfile(source, target)
+
+if __name__ == '__main__':
+    A = File()
+    A.rename_zipname()

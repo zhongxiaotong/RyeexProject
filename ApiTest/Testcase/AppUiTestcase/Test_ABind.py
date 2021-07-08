@@ -13,6 +13,7 @@ from ApiTest.Common.appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from ApiTest.Common.File import *
+from ApiTest.Common.Diff import *
 from selenium.webdriver.common.by import By
 
 current_path = os.path.abspath(__file__)
@@ -46,11 +47,28 @@ class TestClass:
         self.app = App(self.desired_cap)
         time.sleep(5)
         self.log.debug(u'初始化测试数据')
-        self.newfilename_mcu = File().rename_zipname()[0]
-        self.newfilename_resource = File().rename_zipname()[1]
+        src = File().rename_zipname()
+        self.newfilenpath_mcu = src[0]
+        self.newfilepath_resource = src[1]
+        self.log.debug(u'解压zip包')
+        filename_res = os.path.basename(self.newfilepath_resource)
+        oldfilename_res = os.path.basename(File().get_file())
+        parentfile = os.path.abspath(os.path.join(self.newfilepath_resource, ".."))
+        grandfatherfile = os.path.abspath(os.path.join(self.newfilepath_resource, "../.."))
+        self.diff_res = parentfile + '\\' + filename_res + '-' + oldfilename_res
+        diff_res(self.newfilepath_resource, File().get_file(), self.diff_res)
+        self.log.debug(u'获取差分资源包')
         self.app.wake_phonescreen(uuid)
-        self.app.adb_push(uuid, self.newfilename_mcu)
-        self.app.adb_push(uuid, self.newfilename_resource)
+        self.app.adb_push(uuid, self.newfilenpath_mcu)                          #固件包
+        self.app.adb_push(uuid, self.newfilepath_resource)                      #资源包
+        self.app.adb_push(uuid, self.diff_res)                                      #差分资源
+        self.log.debug(u'下发固件/资源到手机成功')
+        filepath = File().mkdir_file()
+        File().copy_file(self.newfilepath_resource, filepath + '\\' + filename_res)
+        self.log.debug(u'每次保存最新的资源包到Recent_res')
+        File().rmtree_file(parentfile)
+        File().remove_file(grandfatherfile + '\\' + File().get_pathfiles())
+        self.log.debug(u'删除旧的固件/资源包')
 
     def teardown(self):
         # self.app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
@@ -63,9 +81,13 @@ class TestClass:
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_bind(self):
+        filename_mcu = os.path.basename(self.newfilenpath_mcu)
+        filename_res = os.path.basename(self.newfilepath_resource)
+        diff_res = os.path.basename(self.diff_res)
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.devices_ota(version)
+        # self.app.devices_ota(filename_mcu, diff_res, 0)               #差分升级
+        self.app.devices_ota(filename_mcu, filename_res, 1)             #全资源升级
         self.app.devices_init(self.info)
 
 if __name__ == '__main__':
