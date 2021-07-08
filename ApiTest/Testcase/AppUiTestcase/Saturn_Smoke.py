@@ -819,7 +819,7 @@ class Testsmoke:
         app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind(self.mac13, self.section, info)
+        app.devices_bind_ota(self.mac13, self.section, info)
         size = driver.get_window_size()
         rebort_cnts = []
         app.device_clickDID()
@@ -845,7 +845,6 @@ class Testsmoke:
                 time.sleep(20)
                 app.assert_connect_status()
                 app.tv_installSurface()
-                time.sleep(60)
                 app.tv_deleteSurface()
                 app.device_longpress()
                 app.device_rightslide()
