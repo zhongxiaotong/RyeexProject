@@ -59,10 +59,11 @@ class TestClass:
         diff_res(self.newfilepath_resource, File().get_file(), self.diff_res)
         self.log.debug(u'获取差分资源包')
         self.app.wake_phonescreen(uuid)
+        self.log.debug(u'唤醒解锁屏幕')
         self.app.adb_push(uuid, self.newfilenpath_mcu)                          #固件包
         self.app.adb_push(uuid, self.newfilepath_resource)                      #资源包
         self.app.adb_push(uuid, self.diff_res)                                      #差分资源
-        self.log.debug(u'下发固件/资源到手机成功')
+        self.log.debug(u'下发固件/资源到手机')
         filepath = File().mkdir_file()
         File().copy_file(self.newfilepath_resource, filepath + '\\' + filename_res)
         self.log.debug(u'每次保存最新的资源包到Recent_res')

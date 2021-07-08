@@ -496,17 +496,17 @@ class App(object):
     @staticmethod
     def adb_push(uuid, filepath):
         try:
-            os.system('adb -s ' + str(uuid) + 'push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
+            os.system('adb -s ' + str(uuid) + ' push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
         except:
             raise ValueError(u"分发新固件或资源包到手机失败")
 
     @staticmethod
     def wake_phonescreen(uuid):
         try:
-            result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"')       #检查是否息屏
+            result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"').read()       #检查是否息屏
             if "true" in result:
-                os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')                                       #解锁屏幕
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')                                       #唤醒屏幕
+                os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')                                       #解锁屏幕
         except:
             raise ValueError(u'唤醒手机失败')
 
@@ -690,7 +690,7 @@ class App(object):
     #         raise BaseException(u'设备回调为空值')
 
 
-    @allure.step("升级设备")
+    @allure.step("固件升级{ota_parameter[2]}(1:全资源升级、2：差分资源升级)")
     def devices_ota(self, *ota_parameter):
         #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
         self.devices_click("SATURN_APP")
