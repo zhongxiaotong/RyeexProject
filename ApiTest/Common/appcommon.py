@@ -707,7 +707,7 @@ class App(object):
     #         raise BaseException(u'设备回调为空值')
 
 
-    @allure.step("固件升级{ota_parameter[2]}(1:全资源升级、0：差分资源升级)")
+    @allure.step("固件升级类型：{ota_parameter[2]}(1:全资源升级、0：差分资源升级)")
     def devices_ota(self, *ota_parameter):
         #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
         # self.devices_click("SATURN_APP")
