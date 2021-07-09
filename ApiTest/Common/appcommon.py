@@ -506,6 +506,7 @@ class App(object):
             result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"').read()       #检查是否息屏
             if "true" in result:
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 26')                                       #唤醒屏幕
+                # time.sleep(1)
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')                                       #解锁屏幕
         except:
             raise ValueError(u'唤醒手机失败')
@@ -690,27 +691,28 @@ class App(object):
     #         raise BaseException(u'设备回调为空值')
 
 
-    @allure.step("固件升级{ota_parameter[2]}(1:全资源升级、2：差分资源升级)")
+    @allure.step("固件升级{ota_parameter[2]}(1:全资源升级、0：差分资源升级)")
     def devices_ota(self, *ota_parameter):
         #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
-        self.devices_click("SATURN_APP")
-        self.tv_ota(ota_parameter)
+        # self.devices_click("SATURN_APP")
+        value = " ".join(ota_parameter)
+        self.tv_ota(value)
         while True:
             time.sleep(1)
             text = self.getresult()
             if text == "set success":
+                self.clear_text()
                 break
-        if ota_parameter[2] == 0:
-            time.sleep(300)
-        elif ota_parameter[2] == 1:
-            time.sleep(150)
+        if ota_parameter[2] == '0':
+            time.sleep(200)
+        elif ota_parameter[2] == '1':
+            time.sleep(400)
         self.assert_connect_status()
-        self.driver.keyevent(4)
+
 
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
-        # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
         self.devices_click(selection)
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
@@ -720,7 +722,6 @@ class App(object):
             time.sleep(10)
             if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:
                 self.close_app()
-                # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
                 self.devices_click(selection)
                 self.devices_click('解绑')
@@ -746,12 +747,10 @@ class App(object):
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
-            self.devices_init(info)
+            # self.devices_init(info)
 
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):
-        # desired_caps_setting = Yamlc(yaml_path_setting).get_yaml_data(1, "Model", "desired_caps")
-        time.sleep(10)
         if self.object_exist(selection):
             self.devices_click(selection)
             self.log.debug(info + '绑定-----已返回到主页面1')
@@ -781,7 +780,6 @@ class App(object):
             time.sleep(10)
             if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:
                 self.close_app()
-                # self.restart_bluetooth(desired_caps_setting)                                                            #重启蓝牙
                 self.driver = self.open_app()
                 self.devices_click(selection)
                 self.devices_click('解绑')
@@ -1217,8 +1215,8 @@ class App(object):
     def tv_ota(self, value):
         self.input_data(value)
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="固件升级"]').click()
-        self.assert_notin_text()
-        self.clear_text()
+        # self.assert_notin_text()
+        # self.clear_text()
 
     @allure.step("获取勿扰模式")
     def tv_getDoNotDisturb(self, keyword):
@@ -1299,7 +1297,7 @@ class App(object):
     @allure.step("安装表盘")
     def tv_installSurface(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="安装表盘"]').click()
-        self.assert_notin_text()
+        # self.assert_notin_text()
 
     @allure.step("删除表盘")
     def tv_deleteSurface(self):

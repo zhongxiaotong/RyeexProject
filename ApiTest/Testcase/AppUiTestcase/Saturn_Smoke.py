@@ -845,14 +845,15 @@ class Testsmoke:
                 time.sleep(20)
                 app.assert_connect_status()
                 app.tv_installSurface()
+                time.sleep(40)
                 app.tv_deleteSurface()
+                driver.keyevent(4)
+                app.devices_click('SATURN_设备')
                 app.device_longpress()
                 app.device_rightslide()
                 app.saturn_inputclick('160', '160', '160', '160')
-                driver.keyevent(4)
-                app.devices_click('SATURN_设备')
             except:
-                self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
+                self.log.error(info + '安装表盘断开蓝牙在第N次运行失败：' + str(i))
                 app.call_back(self.mac13, self.section, self.port, uuid, info)
 
 if __name__ == '__main__':
