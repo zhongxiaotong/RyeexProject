@@ -713,18 +713,30 @@ class App(object):
         # self.devices_click("SATURN_APP")
         value = " ".join(ota_parameter)
         self.tv_ota(value)
+        count = 1
         while True:
             time.sleep(1)
             text = self.getresult()
             if text == "set success":
                 self.clear_text()
                 break
+            if count >= 5000:
+                break
         if ota_parameter[2] == '0':
             self.connect_status()
         elif ota_parameter[2] == '1':
             self.connect_status()
 
-
+    def devices_installsurface(self):
+        self.tv_installSurface()
+        count = 1
+        while True:
+            time.sleep(1)
+            text = self.getresult()
+            if text == "set success":
+                break
+            if count >= 1000:
+                break
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
