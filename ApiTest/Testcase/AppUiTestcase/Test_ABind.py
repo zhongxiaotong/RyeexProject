@@ -60,9 +60,9 @@ class TestClass:
         # diff_res(self.newfilepath_resource, File().get_file(), self.diff_res)
         # self.log.debug(u'获取差分资源包')
         # print(u'获取差分资源包')
-        # self.app.wake_phonescreen(uuid)
-        # self.log.debug(u'唤醒解锁屏幕')
-        # print(u'唤醒解锁屏幕')
+        self.app.wake_phonescreen(uuid)
+        self.log.debug(u'唤醒解锁屏幕')
+        print(u'唤醒解锁屏幕')
         # self.app.adb_push(uuid, self.newfilenpath_mcu)                          #固件包
         # self.app.adb_push(uuid, self.newfilepath_resource)                      #资源包
         # self.app.adb_push(uuid, self.diff_res)                                      #差分资源

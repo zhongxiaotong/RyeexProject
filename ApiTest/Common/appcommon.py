@@ -237,6 +237,22 @@ class App(object):
             self.log.error(u'设备回调为空值')
             raise BaseException(u'设备回调为空值')
 
+    def connect_status(self):
+        text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
+        count = 1
+        if len(text.encode("utf-8")) != 0:
+            state = text[-3:]
+            while state != u'已连接':
+                count = count + 1
+                time.sleep(1)
+                text = self.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
+                if u'已连接' in text:
+                    break
+                if count >= 1000:
+                    break
+
+
+
     def object_exist(self, text):
         loc = '//*[@text="' + text + '"]'
         flag = True
@@ -704,10 +720,9 @@ class App(object):
                 self.clear_text()
                 break
         if ota_parameter[2] == '0':
-            time.sleep(200)
+            self.connect_status()
         elif ota_parameter[2] == '1':
-            time.sleep(400)
-        self.assert_connect_status()
+            self.connect_status()
 
 
 

@@ -41,6 +41,7 @@ class Testsmoke:
         self.mac10 = '9C:F6:DD:38:1E:E2'
         self.mac11 = '9C:F6:DD:38:1D:A4'
         self.mac12 = '9C:F6:DD:39:29:D6'
+        self.mac13 = '9C:F6:DD:39:29:D6'
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
     def smoke1(self):
@@ -842,7 +843,7 @@ class Testsmoke:
                 time.sleep(5)
                 app.tv_Bluetoothcontrol()
                 app.tv_Bluetoothcontrol()
-                time.sleep(20)
+                app.connect_status()
                 app.assert_connect_status()
                 app.tv_installSurface()
                 time.sleep(40)
