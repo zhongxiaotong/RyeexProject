@@ -52,7 +52,7 @@ class TestClass:
     @allure.title("血氧中发消息")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
+    # @pytest.mark.smoke
     def test_spo2message(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)

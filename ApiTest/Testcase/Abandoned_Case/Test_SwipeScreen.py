@@ -53,7 +53,7 @@ class TestClass:
     @allure.title("滑动屏幕")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
+    # @pytest.mark.smoke
     def test_swipescreen(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)

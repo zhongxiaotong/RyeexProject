@@ -63,7 +63,7 @@ class TestClass:
     @allure.title('进出各个应用')
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
+    # @pytest.mark.smoke
     def test_application(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)

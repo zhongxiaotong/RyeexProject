@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2020/11/9 15:04
+# @Time : 2020/10/28 19:21
 # @Author : Greey
-# @FileName: Test_SportMessage.py
+# @FileName: Test_Spo2.py
+
 
 import pytest
 import os
@@ -19,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('运动中发消息')
+@allure.description('进出心率')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -49,35 +50,18 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("运动中发消息")
+    @allure.title("进出心率")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
-    def test_sportmessage(self):
-        self.driver = self.app.open_application(self.init_port)
+    # @pytest.mark.smoke
+    def test_hrm(self):
+        self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_upslide()
-        self.app.saturn_inputclick("160", "160", "160", "160")
-        self.app.saturn_inputclick("160", "300", "160", "300")
-        self.app.saturn_inputclick("160", "160", "160", "160")
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_APP')
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.tv_send_notification('{"appMessage": {"appId": "app.wx", "text": "ryeex", "title": "ryeex"}, "type": "APP_MESSAGE"}')
-        time.sleep(3)
-        self.app.tv_send_notification('{"sms": {"contact": "ryeex", "content": "ryeex", "sender": "110"}, "type": "SMS"}')
-        time.sleep(3)
-        self.app.tv_send_notification('{"telephony": {"contact": "ryeex", "number": "110", "status": "RINGING_UNANSWERABLE"}, "type": "TELEPHONY"}')
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_设备')
-        self.app.assert_getdevicepagename("remind")
+        self.app.saturn_inputclick("160", "50", "160", "50")
+        self.app.assert_getdevicepagename("hrm")
+        time.sleep(5)
         self.app.device_home()
-        self.app.assert_getdevicepagename("sports")
-        self.app.device_home()
-        self.app.saturn_inputclick("80", "160", "80", "160")
-        self.app.saturn_inputclick("280", "280", "280", "280")
         self.app.assert_getdevicepagename("home_page")
         self.app.device_home()
 

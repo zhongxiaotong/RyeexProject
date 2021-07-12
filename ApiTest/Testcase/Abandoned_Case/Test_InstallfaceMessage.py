@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/6/11 11:29
+# @Time : 2021/6/11 12:05
 # @Author : Greey
-# @FileName: Test_SwitchWatchface.py
+# @FileName: Test_InstallfaceMessage.py
 
 
 import pytest
@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('切换表盘')
+@allure.description('安装表盘中发消息')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,25 +50,25 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("切换表盘")
+    @allure.title("安装表盘中发消息成功")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
-    def test_switchwatchface(self):
-        self.app.open_application(self.init_port)
+    # @pytest.mark.smoke
+    def test_installfacemessage(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        for i in range(1, 5):
-            self.app.device_longpress()
-            time.sleep(2)
-            self.app.device_rightslide()
-            self.app.saturn_inputclick("160", "160", "160", "160")
-            time.sleep(2)
-        for j in range(1, 5):
-            self.app.device_longpress()
-            time.sleep(2)
-            self.app.device_leftslide()
-            self.app.saturn_inputclick("160", "160", "160", "160")
-            time.sleep(2)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_installSurface()
+        self.app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "ryeex", "title": "ryeex"}, "type": "APP_MESSAGE"}')
+        for j in range(1, 10):
+            self.app.tv_send_notification2()
+        time.sleep(5)
+        self.app.tv_deleteSurface()
+
 
 if __name__ == '__main__':
      pytest.main()

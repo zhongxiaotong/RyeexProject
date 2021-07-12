@@ -842,9 +842,9 @@ class Testsmoke:
                 app.tv_installSurface()
                 self.log.debug(info + '安装表盘')
                 time.sleep(5)
-                app.tv_Bluetoothcontrol()
+                app.tv_bluetoothcontrol()
                 self.log.debug(info + '断开蓝牙')
-                app.tv_Bluetoothcontrol()
+                app.tv_bluetoothcontrol()
                 self.log.debug(info + '打开蓝牙')
                 time.sleep(10)
                 if app.object_exist('SATURN_APP'):

@@ -733,10 +733,11 @@ class App(object):
         while True:
             time.sleep(1)
             text = self.getresult()
-            if text == "set success":
+            if text == "100%":
                 break
             if count >= 1000:
                 break
+        time.sleep(10)
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
@@ -1332,11 +1333,11 @@ class App(object):
         self.assert_in_text("set success")
 
     @allure.step("获取设备日志")
-    def tv_GetDevicesLog(self):
+    def tv_getDevicesLog(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取日志文件"]').click()
         self.assert_in_text("com.ryeex.sdk.demo")
 
     @allure.step("开关蓝牙")
-    def tv_Bluetoothcontrol(self):
+    def tv_bluetoothcontrol(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="开关蓝牙"]').click()
         # self.assert_notin_text()

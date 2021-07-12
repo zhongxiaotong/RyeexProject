@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/6/11 10:55
+# @Time : 2021/6/11 12:01
 # @Author : Greey
-# @FileName: Test_Sportlist.py
+# @FileName: Test_Reboot.py
 
 
 import pytest
@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('上下滑动运动选项页面')
+@allure.description('重启')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,28 +50,17 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("运动列表循环滑动")
+    @allure.title("重启")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
-    def test_sportlist(self):
+    # @pytest.mark.smoke
+    def test_reboot(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.device_upslide()
-        self.app.saturn_inputclick("160", "160", "160", "160")
-        self.app.assert_getdevicepagename('sport_list')
-        for j in range(1, 5):
-            self.app.device_upslide()
-            self.app.device_upslide()
-            self.app.device_upslide()
-            self.app.device_upslide()
-            self.app.device_downslide()
-            self.app.device_downslide()
-            self.app.device_downslide()
-            self.app.device_downslide()
-        self.app.device_home()
-        self.app.assert_getdevicepagename('home_page')
-        self.app.device_home()
+        self.app.device_reboot()
+        time.sleep(60)
+        self.app.assert_connect_status()
+
 
 if __name__ == '__main__':
      pytest.main()

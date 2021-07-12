@@ -63,7 +63,7 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
-        self.app.tv_GetDevicesLog()
+        self.app.tv_getDevicesLog()
         self.app.adb_pull(self.uuid)
         filepath = self.app.getdevices_logpath()
         allure.attach.file(filepath, name="设备日志",  attachment_type=allure.attachment_type.CSV)
