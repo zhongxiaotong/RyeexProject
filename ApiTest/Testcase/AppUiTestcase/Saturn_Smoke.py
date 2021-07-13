@@ -866,6 +866,59 @@ class Testsmoke:
                 self.log.error(info + '安装表盘断开蓝牙在第N次运行失败：' + str(i))
                 app.call_back(self.mac13, self.section, self.port, uuid, info)
 
+    def smoke14(self):
+        info = "Process-14"
+        self.port = int(self.init_port) + 26
+        self.systemPort = int(self.init_systemPort) + 26
+        uuid = self.uuids[13]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
+        print(info + "设备ID:" + uuid)
+        print(info + "安卓版本:" + andriod_version)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
+        time.sleep(5)
+        driver = app.open_application(self.port)
+        app.devices_bind(self.mac14, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
+        for i in range(1, 1000):
+            try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                app.get_rebort_cnts(rebort_cnts, info)
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    app.call_back_devices_init(info)
+                self.log.debug(info + '进出运动（室内）次数：' + str(i))
+                app.device_upslide()
+                self.log.debug(info + '向上滑动成功')
+                app.saturn_inputclick("160", "160", "160", "160")
+                self.log.debug(info + '点击运动icon成功')
+                app.assert_getdevicepagename('sport_list')
+                self.log.debug(info + '进入运动应用成功')
+                app.saturn_inputclick("160", "300", "160", "300")
+                self.log.debug(info + '选择室内运动')
+                app.saturn_inputclick("160", "160", "160", "160")
+                self.log.debug(info + '点击Start')
+                time.sleep(200)
+                app.device_home()
+                app.saturn_inputclick("800", "160", "800", "160")
+                self.log.debug(info + '点击停止运动')
+                app.device_home()
+                app.device_home()
+                self.log.debug(info + '返回表盘页面')
+
+
+            except:
+                self.log.error(info + '运动功能页面上下滑动在第N次运行失败：' + str(i))
+                app.call_back(self.mac14, self.section, self.port, uuid, info)
+
+
+
 if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
