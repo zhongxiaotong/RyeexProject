@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/12 16:13
+# @Time : 2021/7/14 16:03
 # @Author : Greey
-# @FileName: Test_AlarmClock.py
+# @FileName: Test_Setting_DrinkWaterRemind.py
+
 
 import pytest
 import os
@@ -19,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('闹钟设置')
+@allure.description('喝水提醒')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -49,35 +50,42 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("闹钟设置")
+    @allure.title("喝水提醒")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_alarmclock(self):
-        self.app.open_application(self.init_port)
+    def test_drinkwaterremind(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        # self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_setdrinkwaterremind('{"enable":true,"endTimeHour":23,"endTimeMinute":0,"forbidEnable":true,"forbidEndTimeHour":14,"forbidEndTimeMinute":0,"forbidStartTimeHour":12,"forbidStartTimeMinute":0,"interval":2,"startTimeHour":7,"startTimeMinute":0}')
+        #设置2分钟喝水提醒
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.device_upslide()
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
-        self.app.assert_getdevicepagename('alarm')
         self.app.saturn_inputclick("160", "300", "160", "300")
-        self.app.saturn_inputslide("240", "160", "240", "40")                       #设置2分钟后的闹钟
-        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_home()
         self.app.device_clickDID()
         count = 1
         while 'remind' not in self.app.getresult():
-            time.sleep(10)
+            time.sleep(3)
             self.app.device_clickDID()
-            if count >= 60:
+            if count >= 100:
                 raise
-        self.app.saturn_inputclick("80", "300", "80", "300")
-        self.app.assert_getdevicepagename('home_page')
+        self.app.device_home()
+        self.app.device_upslide()
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
-        self.app.saturn_inputclick("160", "160", "160", "160")
-        self.app.device_upslide()
-        self.app.saturn_inputclick("160", "240", "160", "240")
-        self.app.device_home()
-        self.app.device_home()
+        self.app.saturn_inputclick("160", "300", "160", "300")
+
 
 if __name__ == '__main__':
      pytest.main()

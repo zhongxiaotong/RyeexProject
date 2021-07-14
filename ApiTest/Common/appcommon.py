@@ -1341,3 +1341,16 @@ class App(object):
     def tv_bluetoothcontrol(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="开关蓝牙"]').click()
         # self.assert_notin_text()
+
+    @allure.step("获取喝水提醒")
+    def tv_getdrinkwaterremind(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取喝水提醒"]').click()
+        self.assert_notin_text()
+
+
+    @allure.step("设置喝水提醒")
+    def tv_setdrinkwaterremind(self, value):
+        self.input_data(value)
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="设置喝水提醒"]').click()
+        self.assert_in_text("set success")
+        self.clear_text()
