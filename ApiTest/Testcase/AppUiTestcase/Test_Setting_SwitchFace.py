@@ -60,6 +60,7 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
         self.app.saturn_inputclick("160", "80", "160", "80")
+        self.app.tv_getDeviceBrightness('face_pick_page')
         self.app.device_rightslide()
         self.app.saturn_inputclick("160", "160", "160", "160")
 

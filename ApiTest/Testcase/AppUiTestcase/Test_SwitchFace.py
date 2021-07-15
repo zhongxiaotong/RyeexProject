@@ -57,9 +57,9 @@ class TestClass:
     def test_switchface(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.device_longpress()
-        self.app.device_rightslide()
-        self.app.saturn_inputclick("160", "160", "160", "160")
+        # self.app.device_longpress()
+        # self.app.device_rightslide()
+        # self.app.saturn_inputclick("160", "160", "160", "160")
         self.app.device_longpress()
         self.app.device_leftslide()
         self.app.saturn_inputclick("160", "160", "160", "160")

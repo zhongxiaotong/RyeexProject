@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('来电提醒')
+@allure.description('来电提醒-静音-挂断')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,7 +50,7 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("来电提醒")
+    @allure.title("来电提醒-静音-挂断")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke

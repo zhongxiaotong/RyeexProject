@@ -61,6 +61,7 @@ class TestClass:
         self.app.saturn_inputclick("160", "160", "160", "160")
         self.app.saturn_inputclick("160", "160", "160", "160")
         self.app.saturn_inputclick("160", "160", "160", "160")
+        self.app.device_home()
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
         self.app.click_prompt_box()

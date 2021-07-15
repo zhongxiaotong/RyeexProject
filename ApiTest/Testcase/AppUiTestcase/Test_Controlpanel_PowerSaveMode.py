@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/12 14:24
+# @Time : 2021/7/15 16:09
 # @Author : Greey
-# @FileName: Test_BluetoothSwitch.py
+# @FileName: Test_Controlpanel_PowerSaveMode.py
+
 
 import pytest
 import os
@@ -19,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('开关蓝牙')
+@allure.description('控制面板-省电模式')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -49,25 +50,26 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("开关蓝牙")
+    @allure.title("控制面板-省电模式")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_bluetoothswitch(self):
+    def test_controlpanel_brightness(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.app.device_rightslide()
+        self.app.saturn_inputclick("240", "160", "240", "160")
+        self.app.saturn_inputclick("280", "280", "280", "280")
         self.driver.keyevent(4)
-        self.app.devices_click('SATURN_APP')
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.tv_bluetoothcontrol()
-        self.app.click_prompt_box()
-        self.app.tv_bluetoothcontrol()
-        self.app.click_prompt_box()
-        time.sleep(60)
-        if self.app.object_exist('SATURN_APP'):
-            self.app.devices_click('SATURN_APP')
-        self.app.connect_status()
+        self.app.devices_click('SATURN_设备')
+        self.app.assert_getdevicepagename("saving_power")
+        self.app.devices_click('解绑')
+        time.sleep(80)
+        self.driver.keyevent(4)
+        self.driver.keyevent(4)
+        self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.app.devices_init(self.info)
+
+
 if __name__ == '__main__':
      pytest.main()

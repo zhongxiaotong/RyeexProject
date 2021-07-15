@@ -62,6 +62,8 @@ class TestClass:
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.saturn_inputslide("240", "160", "240", "40")                       #设置2分钟后的闹钟
         self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.device_home()
+        self.app.device_home()
         self.app.device_clickDID()
         count = 1
         while 'remind' not in self.app.getresult():

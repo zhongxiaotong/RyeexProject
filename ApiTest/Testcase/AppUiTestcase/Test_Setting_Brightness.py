@@ -64,12 +64,16 @@ class TestClass:
         self.app.saturn_inputclick("160", "80", "160", "80")
         self.app.saturn_inputslide("160", "160", "160", "20")
         self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_home()
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.tv_getDeviceBrightness('HIGH')
+
 
 if __name__ == '__main__':
      pytest.main()

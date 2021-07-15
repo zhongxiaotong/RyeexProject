@@ -63,6 +63,7 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.devices_installsurface()
+        time.sleep(10)
         self.app.tv_deleteSurface()
 
 if __name__ == '__main__':

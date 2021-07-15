@@ -85,6 +85,10 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
         self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_home()
 
 
 if __name__ == '__main__':

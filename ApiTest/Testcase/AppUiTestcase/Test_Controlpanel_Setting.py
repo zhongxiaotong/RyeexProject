@@ -59,6 +59,8 @@ class TestClass:
         self.app.device_rightslide()
         self.app.saturn_inputclick("200", "270", "200", "270")
         self.app.assert_getdevicepagename("setting_page")
+        self.app.device_home()
+        self.app.device_home()
 
 if __name__ == '__main__':
      pytest.main()
