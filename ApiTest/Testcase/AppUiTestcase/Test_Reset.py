@@ -55,7 +55,7 @@ class TestClass:
     @allure.severity('blocker')
     @pytest.mark.smoke
     def test_reset(self):
-        self.app.open_application(self.init_port)
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         # self.app.devices_init(self.info)
         self.app.device_upslide()
@@ -67,7 +67,7 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.saturn_inputclick("280", "280", "280", "280")
-        time.sleep(100)
+        time.sleep(80)
         self.driver.keyevent(4)
         self.driver.keyevent(4)
         self.app.devices_bind(self.mac, self.fuction, self.info)

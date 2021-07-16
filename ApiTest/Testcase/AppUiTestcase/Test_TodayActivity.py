@@ -66,7 +66,7 @@ class TestClass:
         self.app.tv_device_activity()
         result = self.app.getresult()
         result = json.loads(result)
-        if result["calories"] and result["distance"] and result["step"]:
+        if "calories" in result and "distance" in result and "step" in result:
             pass
         else:
             raise

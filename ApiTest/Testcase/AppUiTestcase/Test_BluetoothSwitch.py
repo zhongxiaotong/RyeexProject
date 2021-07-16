@@ -65,7 +65,7 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.tv_bluetoothcontrol()
         self.app.click_prompt_box()
-        time.sleep(60)
+        time.sleep(30)
         if self.app.object_exist('SATURN_APP'):
             self.app.devices_click('SATURN_APP')
         self.app.connect_status()

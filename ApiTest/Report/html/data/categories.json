@@ -7,34 +7,34 @@
       "name" : "AttributeError: TestClass instance has no attribute 'driver'",
       "children" : [ {
         "name" : "设备重置",
-        "uid" : "8a9c9907dd1f936e",
+        "uid" : "bd05149468388b89",
         "parentUid" : "5094ef1060da12b8ce20b9bf566a410a",
         "status" : "broken",
         "time" : {
-          "start" : 1626410535236,
-          "stop" : 1626410694866,
-          "duration" : 159630
+          "start" : 1626428429676,
+          "stop" : 1626428601515,
+          "duration" : 171839
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "5094ef1060da12b8ce20b9bf566a410a"
     }, {
-      "name" : "BaseException: app页面未能找到该元素",
+      "name" : "TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType",
       "children" : [ {
-        "name" : "设置-切换表盘",
-        "uid" : "7734d5afec2e3596",
-        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
+        "name" : "今日活动",
+        "uid" : "86ab2837484d53a7",
+        "parentUid" : "38282f1617bb658a1263347f299d4668",
         "status" : "broken",
         "time" : {
-          "start" : 1626415254310,
-          "stop" : 1626415322662,
-          "duration" : 68352
+          "start" : 1626429292495,
+          "stop" : 1626429347493,
+          "duration" : 54998
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
+      "uid" : "38282f1617bb658a1263347f299d4668"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

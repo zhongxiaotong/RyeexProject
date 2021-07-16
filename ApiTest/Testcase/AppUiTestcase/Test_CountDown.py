@@ -64,7 +64,6 @@ class TestClass:
         self.app.saturn_inputclick("80", "80", "80", "80")
         self.app.assert_getdevicepagename('apptmr_inprog')
         self.app.saturn_inputclick("240", "300", "240", "300")
-        time.sleep(10)
         self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.saturn_inputclick("80", "300", "80", "300")
         self.app.device_home()
