@@ -707,21 +707,19 @@ class App(object):
     #         raise BaseException(u'设备回调为空值')
 
 
-    @allure.step("固件升级类型：{ota_parameter[2]}(1:全资源升级、0：差分资源升级)")
+    @allure.step("固件升级类型：{ota_parameter[2]}(1:全资源升级、0：差分资源升级)；是否有差分资源{ota_parameter[1]}（0：无差分资源，其他：有差分资源）")
     def devices_ota(self, *ota_parameter):
         #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
         # self.devices_click("SATURN_APP")
-        value = " ".join(ota_parameter)
+        value = ",".join(ota_parameter)
         self.tv_ota(value)
-        count = 1
         while True:
-            time.sleep(1)
+            time.sleep(10)
             text = self.getresult()
             if text == "set success":
                 self.clear_text()
                 break
-            if count >= 5000:
-                break
+        time.sleep(30)
         if ota_parameter[2] == '0':
             self.connect_status()
         elif ota_parameter[2] == '1':
@@ -741,7 +739,8 @@ class App(object):
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
-        self.devices_click(selection)
+        if self.object_exist(selection):
+            self.devices_click(selection)
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:

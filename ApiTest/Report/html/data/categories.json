@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: TestClass instance has no attribute 'driver'",
+      "children" : [ {
+        "name" : "设备重置",
+        "uid" : "8a9c9907dd1f936e",
+        "parentUid" : "5094ef1060da12b8ce20b9bf566a410a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626410535236,
+          "stop" : 1626410694866,
+          "duration" : 159630
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5094ef1060da12b8ce20b9bf566a410a"
+    }, {
+      "name" : "BaseException: app页面未能找到该元素",
+      "children" : [ {
+        "name" : "设置-切换表盘",
+        "uid" : "7734d5afec2e3596",
+        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626415254310,
+          "stop" : 1626415322662,
+          "duration" : 68352
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

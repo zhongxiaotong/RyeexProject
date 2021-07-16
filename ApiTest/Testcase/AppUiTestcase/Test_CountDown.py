@@ -63,6 +63,8 @@ class TestClass:
         self.app.assert_getdevicepagename('appctr_timer')
         self.app.saturn_inputclick("80", "80", "80", "80")
         self.app.assert_getdevicepagename('apptmr_inprog')
+        self.app.device_home()
+        self.app.device_home()
 
 if __name__ == '__main__':
      pytest.main()

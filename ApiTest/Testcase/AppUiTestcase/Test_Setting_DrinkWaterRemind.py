@@ -76,9 +76,9 @@ class TestClass:
         self.app.device_clickDID()
         count = 1
         while 'remind' not in self.app.getresult():
-            time.sleep(3)
+            time.sleep(2)
             self.app.device_clickDID()
-            if count >= 100:
+            if count >= 300:
                 raise
         self.app.device_home()
         self.app.device_upslide()

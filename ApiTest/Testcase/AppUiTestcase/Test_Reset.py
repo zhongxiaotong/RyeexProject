@@ -67,7 +67,7 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.saturn_inputclick("280", "280", "280", "280")
-        time.sleep(80)
+        time.sleep(100)
         self.driver.keyevent(4)
         self.driver.keyevent(4)
         self.app.devices_bind(self.mac, self.fuction, self.info)

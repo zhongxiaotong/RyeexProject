@@ -5,11 +5,11 @@
     "name" : "Testcase.AppUiTestcase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 15
+      "total" : 20
     }
   } ]
 }

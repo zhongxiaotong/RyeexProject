@@ -55,13 +55,18 @@ class TestClass:
         oldfilename_res = os.path.basename(File().get_file())
         parentfile = os.path.abspath(os.path.join(self.newfilepath_resource, ".."))
         grandfatherfile = os.path.abspath(os.path.join(self.newfilepath_resource, "../.."))
-        self.diff_res = parentfile + '\\' + filename_res + '-' + oldfilename_res
+        self.diff_res = parentfile + '\\' + oldfilename_res + '-' + filename_res
         diff_res(self.newfilepath_resource, File().get_file(), self.diff_res)
         self.log.debug(u'获取差分资源包')
+        if os.path.getsize(self.diff_res) != 0:
+            self.res_flag = True
+        else:
+            self.res_flag = False
+        self.log.debug(u'判断是否有差分资源')
         print(u'获取差分资源包')
-        # self.app.wake_phonescreen(uuid)
-        # self.log.debug(u'唤醒解锁屏幕')
-        # print(u'唤醒解锁屏幕')
+        self.app.wake_phonescreen(uuid)
+        self.log.debug(u'唤醒解锁屏幕')
+        print(u'唤醒解锁屏幕')
         self.app.adb_push(uuid, self.newfilenpath_mcu)                          #固件包
         self.app.adb_push(uuid, self.newfilepath_resource)                      #资源包
         self.app.adb_push(uuid, self.diff_res)                                      #差分资源
@@ -92,10 +97,13 @@ class TestClass:
         diff_res = os.path.basename(self.diff_res)
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        # self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
-        self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
+        if self.res_flag:
+            self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
+        else:
+            self.app.devices_ota(filename_mcu, '0', '0')
+        # self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
         self.app.devices_init(self.info)
