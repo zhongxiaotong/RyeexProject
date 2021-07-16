@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/16 15:25
+# @Time : 2021/7/16 16:48
 # @Author : Greey
-# @FileName: Test_HeartRate.py
+# @FileName: Test_TodayActivity.py
 
 
 import pytest
@@ -21,7 +21,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('心率测试')
+@allure.description('今日活动')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -51,34 +51,25 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("心率测试")
+    @allure.title("今日活动")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_heartrate(self):
+    def test_todayactivity(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.device_upslide()
-        self.app.saturn_inputclick("160", "50", "160", "50")
-        self.app.assert_getdevicepagename("hrm")
-        time.sleep(15)
-        # self.driver.keyevent(4)
-        # self.app.devices_click('SATURN_APP')
-        # self.app.click_prompt_box()
-        # self.app.click_prompt_box()
-        # self.app.click_prompt_box()
-        # self.app.tv_device_activity()
-        # result = self.app.getresult()
-        # result = json.loads(result)
-        # if result["lastBloodOxygen"]["rate"] != 0:
-        #     pass
-        # else:
-        #     raise
-        # self.driver.keyevent(4)
-        # self.app.devices_click('SATURN_设备')
-        self.app.device_home()
-        self.app.device_home()
-        self.app.device_home()
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_device_activity()
+        result = self.app.getresult()
+        result = json.loads(result)
+        if result["calories"] and result["distance"] and result["step"]:
+            pass
+        else:
+            raise
 
 if __name__ == '__main__':
      pytest.main()
