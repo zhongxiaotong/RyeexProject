@@ -1186,9 +1186,9 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="设备电量"]').click()
         self.assert_notin_text()
 
-    @allure.step("活动数据")
+    @allure.step("获取活动")
     def tv_device_activity(self):
-        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="活动数据"]').click()
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取活动"]').click()
         self.assert_notin_text()
 
     @allure.step("数据同步")

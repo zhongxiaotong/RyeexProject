@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/13 15:11
+# @Time : 2021/7/16 15:29
 # @Author : Greey
-# @FileName: Test_CountDown.py
-
+# @FileName: Test_BloodOxygen.py
 
 import pytest
 import os
 import time
 import allure
+import json
 from ApiTest.Common.appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('倒计时')
+@allure.description('血氧测试')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,23 +50,32 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("倒计时")
+    @allure.title("血氧测试")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_unbind(self):
-        self.app.open_application(self.init_port)
+    def test_bloodoxygen(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_upslide()
-        self.app.device_upslide()
-        self.app.saturn_inputclick("50", "50", "50", "50")
-        self.app.assert_getdevicepagename('appctr_timer')
-        self.app.saturn_inputclick("80", "80", "80", "80")
-        self.app.assert_getdevicepagename('apptmr_inprog')
-        self.app.saturn_inputclick("240", "300", "240", "300")
-        time.sleep(10)
-        self.app.saturn_inputclick("240", "300", "240", "300")
-        self.app.saturn_inputclick("80", "300", "80", "300")
+        self.app.saturn_inputclick("270", "50", "270", "50")
+        self.app.assert_getdevicepagename("spo2")
+        time.sleep(15)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_device_activity()
+        result = self.app.getresult()
+        result = json.loads(result)
+        if result["lastBloodOxygen"]["value"] != 0:
+            pass
+        else:
+            raise
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.device_home()
         self.app.device_home()
         self.app.device_home()
 
