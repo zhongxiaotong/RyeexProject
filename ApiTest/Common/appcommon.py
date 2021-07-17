@@ -719,7 +719,7 @@ class App(object):
             if text == "set success":
                 self.clear_text()
                 break
-        time.sleep(30)
+        time.sleep(60)
         if ota_parameter[2] == '0':
             self.connect_status()
         elif ota_parameter[2] == '1':

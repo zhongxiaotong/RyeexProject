@@ -63,6 +63,7 @@ class TestClass:
         self.app.saturn_inputslide("240", "160", "240", "40")                       #设置2分钟后的闹钟
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.device_home()
+        self.app.assert_getdevicepagename('home_page')
         self.app.device_home()
         self.app.device_clickDID()
         count = 1
@@ -75,10 +76,12 @@ class TestClass:
         self.app.assert_getdevicepagename('home_page')
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
+        self.app.assert_getdevicepagename('alarm')
         self.app.saturn_inputclick("160", "160", "160", "160")
         self.app.device_upslide()
         self.app.saturn_inputclick("160", "240", "160", "240")
         self.app.device_home()
+        self.app.assert_getdevicepagename('home_page')
         self.app.device_home()
 
 if __name__ == '__main__':

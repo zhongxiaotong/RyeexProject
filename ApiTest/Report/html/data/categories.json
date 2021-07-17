@@ -4,37 +4,21 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "AttributeError: TestClass instance has no attribute 'driver'",
+      "name" : "BaseException: app页面未能找到该元素",
       "children" : [ {
         "name" : "设备重置",
-        "uid" : "bd05149468388b89",
-        "parentUid" : "5094ef1060da12b8ce20b9bf566a410a",
+        "uid" : "a2027c5cf5c4f42e",
+        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
         "status" : "broken",
         "time" : {
-          "start" : 1626428429676,
-          "stop" : 1626428601515,
-          "duration" : 171839
+          "start" : 1626504189341,
+          "stop" : 1626504403143,
+          "duration" : 213802
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "5094ef1060da12b8ce20b9bf566a410a"
-    }, {
-      "name" : "TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType",
-      "children" : [ {
-        "name" : "今日活动",
-        "uid" : "86ab2837484d53a7",
-        "parentUid" : "38282f1617bb658a1263347f299d4668",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626429292495,
-          "stop" : 1626429347493,
-          "duration" : 54998
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "38282f1617bb658a1263347f299d4668"
+      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

@@ -1,230 +1,230 @@
 [ {
-  "uid" : "16edbf632c806dbd",
-  "name" : "控制面板-省电模式",
-  "time" : {
-    "start" : 1626427596326,
-    "stop" : 1626427999705,
-    "duration" : 403379
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "d8dbc9146f3d1055",
-  "name" : "血氧测试",
-  "time" : {
-    "start" : 1626427075430,
-    "stop" : 1626427166520,
-    "duration" : 91090
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "42925c0533973385",
-  "name" : "设备重启",
-  "time" : {
-    "start" : 1626428603932,
-    "stop" : 1626428848163,
-    "duration" : 244231
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "86ab2837484d53a7",
-  "name" : "今日活动",
-  "time" : {
-    "start" : 1626429292495,
-    "stop" : 1626429347493,
-    "duration" : 54998
-  },
-  "status" : "broken",
-  "severity" : "blocker"
-}, {
-  "uid" : "3e24e28958066f8d",
-  "name" : "心率测试",
-  "time" : {
-    "start" : 1626428156009,
-    "stop" : 1626428228314,
-    "duration" : 72305
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "12b06b46c430df3b",
-  "name" : "控制面板-进入设置页面",
-  "time" : {
-    "start" : 1626428002105,
-    "stop" : 1626428050795,
-    "duration" : 48690
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "93151b34a16bc84a",
-  "name" : "开关蓝牙",
-  "time" : {
-    "start" : 1626427168925,
-    "stop" : 1626427300872,
-    "duration" : 131947
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "99bbe3575ec94ffc",
-  "name" : "控制面板-亮度调节",
-  "time" : {
-    "start" : 1626427381115,
-    "stop" : 1626427459574,
-    "duration" : 78459
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "5d7f0d6d70d40648",
-  "name" : "设置-切换表盘",
-  "time" : {
-    "start" : 1626429166662,
-    "stop" : 1626429240528,
-    "duration" : 73866
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "f13b991eb41cb123",
-  "name" : "倒计时",
-  "time" : {
-    "start" : 1626428053206,
-    "stop" : 1626428153591,
-    "duration" : 100385
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "cc7ad9389248c4bc",
-  "name" : "解绑",
-  "time" : {
-    "start" : 1626429423111,
-    "stop" : 1626429461001,
-    "duration" : 37890
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "24d067b24acf169",
-  "name" : "绑定设备",
-  "time" : {
-    "start" : 1626426256570,
-    "stop" : 1626426378752,
-    "duration" : 122182
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "56440168c3f40adb",
-  "name" : "来电提醒-静音-挂断",
-  "time" : {
-    "start" : 1626427303268,
-    "stop" : 1626427377469,
-    "duration" : 74201
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "419132f826da57",
-  "name" : "控制面板-勿扰开关",
-  "time" : {
-    "start" : 1626427461951,
-    "stop" : 1626427593872,
-    "duration" : 131921
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "deef771ccc0341ee",
-  "name" : "屏幕亮度",
-  "time" : {
-    "start" : 1626428850556,
-    "stop" : 1626428963621,
-    "duration" : 113065
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "bd05149468388b89",
-  "name" : "设备重置",
-  "time" : {
-    "start" : 1626428429676,
-    "stop" : 1626428601515,
-    "duration" : 171839
-  },
-  "status" : "broken",
-  "severity" : "blocker"
-}, {
-  "uid" : "6b2d9cc54bbbe246",
+  "uid" : "4d2ca2e2a05f82c5",
   "name" : "获取设备日志",
   "time" : {
-    "start" : 1626429349939,
-    "stop" : 1626429420663,
-    "duration" : 70724
+    "start" : 1626505155948,
+    "stop" : 1626505223317,
+    "duration" : 67369
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "d8280a3950c2fe12",
-  "name" : "安装表盘",
-  "time" : {
-    "start" : 1626428230697,
-    "stop" : 1626428333907,
-    "duration" : 103210
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "ae40a5b47d482a79",
+  "uid" : "3df2c6c2876b9c5a",
   "name" : "固件升级",
   "time" : {
-    "start" : 1626426394514,
-    "stop" : 1626426799193,
-    "duration" : 404679
+    "start" : 1626502136343,
+    "stop" : 1626502510857,
+    "duration" : 374514
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "5afbef4ead702b3",
+  "uid" : "da3283268eb3fd8a",
+  "name" : "血氧测试",
+  "time" : {
+    "start" : 1626502801049,
+    "stop" : 1626502899358,
+    "duration" : 98309
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "770bf20f1b97d464",
+  "name" : "心率测试",
+  "time" : {
+    "start" : 1626503904048,
+    "stop" : 1626503981804,
+    "duration" : 77756
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4721566e5cb54b6f",
+  "name" : "屏幕亮度",
+  "time" : {
+    "start" : 1626504665259,
+    "stop" : 1626504783303,
+    "duration" : 118044
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ab2c5bd15791453c",
+  "name" : "安装表盘",
+  "time" : {
+    "start" : 1626503984194,
+    "stop" : 1626504085894,
+    "duration" : 101700
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c60a079974658f9a",
+  "name" : "绑定设备",
+  "time" : {
+    "start" : 1626501997238,
+    "stop" : 1626502120853,
+    "duration" : 123615
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1e9f22855911d947",
   "name" : "喝水提醒",
   "time" : {
-    "start" : 1626428966010,
-    "stop" : 1626429164270,
-    "duration" : 198260
+    "start" : 1626504785720,
+    "stop" : 1626504955209,
+    "duration" : 169489
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "fe88ab6a142cacff",
+  "uid" : "1a53422351532270",
+  "name" : "来电提醒-静音-挂断",
+  "time" : {
+    "start" : 1626503006904,
+    "stop" : 1626503085312,
+    "duration" : 78408
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "698e2cfb243cf6de",
+  "name" : "控制面板-进入设置页面",
+  "time" : {
+    "start" : 1626503750972,
+    "stop" : 1626503801060,
+    "duration" : 50088
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "98f3b9cfe6c45fa7",
+  "name" : "倒计时",
+  "time" : {
+    "start" : 1626503803426,
+    "stop" : 1626503901659,
+    "duration" : 98233
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a2027c5cf5c4f42e",
+  "name" : "设备重置",
+  "time" : {
+    "start" : 1626504189341,
+    "stop" : 1626504403143,
+    "duration" : 213802
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "78b01acf66fbe821",
+  "name" : "设置-切换表盘",
+  "time" : {
+    "start" : 1626504957595,
+    "stop" : 1626505040736,
+    "duration" : 83141
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "19b4f781f4c53dfb",
+  "name" : "控制面板-省电模式",
+  "time" : {
+    "start" : 1626503321249,
+    "stop" : 1626503748637,
+    "duration" : 427388
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fea18fb6daa8f3e9",
   "name" : "应用消息（微信，facebook）提醒",
   "time" : {
-    "start" : 1626428336329,
-    "stop" : 1626428427250,
-    "duration" : 90921
+    "start" : 1626504088243,
+    "stop" : 1626504186964,
+    "duration" : 98721
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "892012eca6b77c7b",
+  "uid" : "e35ab793c6e89404",
+  "name" : "控制面板-亮度调节",
+  "time" : {
+    "start" : 1626503087720,
+    "stop" : 1626503174495,
+    "duration" : 86775
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "213882de58d75596",
+  "name" : "开关蓝牙",
+  "time" : {
+    "start" : 1626502901749,
+    "stop" : 1626503004503,
+    "duration" : 102754
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b0bcc912c7b8f704",
+  "name" : "控制面板-勿扰开关",
+  "time" : {
+    "start" : 1626503176920,
+    "stop" : 1626503318913,
+    "duration" : 141993
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9f12a92c5a5bcfc4",
+  "name" : "今日活动",
+  "time" : {
+    "start" : 1626505098758,
+    "stop" : 1626505153497,
+    "duration" : 54739
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e735d46f72af96cd",
+  "name" : "设备重启",
+  "time" : {
+    "start" : 1626504405659,
+    "stop" : 1626504662881,
+    "duration" : 257222
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c772ec7e26cbec19",
+  "name" : "解绑",
+  "time" : {
+    "start" : 1626505225712,
+    "stop" : 1626505262877,
+    "duration" : 37165
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5cc2022c74c8de0b",
   "name" : "闹钟设置",
   "time" : {
-    "start" : 1626426801609,
-    "stop" : 1626427073038,
-    "duration" : 271429
+    "start" : 1626502513899,
+    "stop" : 1626502798590,
+    "duration" : 284691
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "6665194cd07b344c",
+  "uid" : "795d2c53b943b45b",
   "name" : "切换表盘",
   "time" : {
-    "start" : 1626429242919,
-    "stop" : 1626429290092,
-    "duration" : 47173
+    "start" : 1626505043100,
+    "stop" : 1626505096398,
+    "duration" : 53298
   },
   "status" : "passed",
   "severity" : "blocker"

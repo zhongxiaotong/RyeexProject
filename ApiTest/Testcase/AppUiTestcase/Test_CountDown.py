@@ -66,6 +66,7 @@ class TestClass:
         self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.saturn_inputclick("80", "300", "80", "300")
+        self.app.assert_getdevicepagename('appctr_timer')
         self.app.device_home()
         self.app.device_home()
 

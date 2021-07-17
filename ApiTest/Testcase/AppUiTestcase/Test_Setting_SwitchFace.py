@@ -59,6 +59,7 @@ class TestClass:
         self.app.device_upslide()
         self.app.device_upslide()
         self.app.saturn_inputclick("50", "300", "50", "300")
+        self.app.assert_getdevicepagename("setting_page")
         self.app.saturn_inputclick("160", "80", "160", "80")
         self.app.assert_getdevicepagename("face_pick_page")
         self.app.device_rightslide()
