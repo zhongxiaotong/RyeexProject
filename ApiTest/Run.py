@@ -27,7 +27,7 @@ class AllTest(object):
 
     def __init__(self):
         global on_off
-        on_off = 'off'
+        on_off = 'on'
         self.log = MyLog()
         check_exsit("java.exe")
         hostname = socket.gethostname()

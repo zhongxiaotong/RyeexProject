@@ -64,9 +64,8 @@ class TestClass:
         self.app.devices_click('SATURN_设备')
         self.app.assert_getdevicepagename("saving_power")
         self.app.devices_click('解绑')
-        time.sleep(100)
         self.driver.keyevent(4)
-        self.driver.keyevent(4)
+        time.sleep(120)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.devices_init(self.info)
 
