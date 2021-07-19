@@ -9,279 +9,279 @@
         "name" : "正常流程",
         "children" : [ {
           "name" : "绑定设备",
-          "uid" : "c60a079974658f9a",
+          "uid" : "3f1008aa86d0ec26",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626501997238,
-            "stop" : 1626502120853,
-            "duration" : 123615
+            "start" : 1626668283890,
+            "stop" : 1626668408880,
+            "duration" : 124990
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "固件升级",
-          "uid" : "3df2c6c2876b9c5a",
+          "uid" : "515c60184c398ed2",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626502136343,
-            "stop" : 1626502510857,
-            "duration" : 374514
+            "start" : 1626668424405,
+            "stop" : 1626668873237,
+            "duration" : 448832
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "闹钟设置",
-          "uid" : "5cc2022c74c8de0b",
+          "uid" : "d29832351064954c",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626502513899,
-            "stop" : 1626502798590,
-            "duration" : 284691
+            "start" : 1626668875816,
+            "stop" : 1626669126843,
+            "duration" : 251027
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "血氧测试",
-          "uid" : "da3283268eb3fd8a",
+          "uid" : "d690ffb563429827",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1626502801049,
-            "stop" : 1626502899358,
-            "duration" : 98309
+            "start" : 1626669129413,
+            "stop" : 1626669217954,
+            "duration" : 88541
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "开关蓝牙",
-          "uid" : "213882de58d75596",
+          "uid" : "564b9f9f35809938",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626502901749,
-            "stop" : 1626503004503,
-            "duration" : 102754
+            "start" : 1626669220633,
+            "stop" : 1626669325992,
+            "duration" : 105359
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "来电提醒-静音-挂断",
-          "uid" : "1a53422351532270",
+          "uid" : "b8109e14975e3c68",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503006904,
-            "stop" : 1626503085312,
-            "duration" : 78408
+            "start" : 1626669328552,
+            "stop" : 1626669410676,
+            "duration" : 82124
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "控制面板-亮度调节",
-          "uid" : "e35ab793c6e89404",
+          "uid" : "8f583dfc0dbc8448",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503087720,
-            "stop" : 1626503174495,
-            "duration" : 86775
+            "start" : 1626669413245,
+            "stop" : 1626669502101,
+            "duration" : 88856
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "控制面板-勿扰开关",
-          "uid" : "b0bcc912c7b8f704",
+          "uid" : "c40d9ee80b0131d0",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503176920,
-            "stop" : 1626503318913,
-            "duration" : 141993
+            "start" : 1626669504630,
+            "stop" : 1626669653394,
+            "duration" : 148764
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "控制面板-省电模式",
-          "uid" : "19b4f781f4c53dfb",
+          "uid" : "1d5855209af91fbe",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503321249,
-            "stop" : 1626503748637,
-            "duration" : 427388
+            "start" : 1626669655890,
+            "stop" : 1626670178372,
+            "duration" : 522482
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "控制面板-进入设置页面",
-          "uid" : "698e2cfb243cf6de",
+          "uid" : "b53585c23a38a3fe",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503750972,
-            "stop" : 1626503801060,
-            "duration" : 50088
+            "start" : 1626670180953,
+            "stop" : 1626670239125,
+            "duration" : 58172
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "倒计时",
-          "uid" : "98f3b9cfe6c45fa7",
+          "uid" : "26177716081d7b8f",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503803426,
-            "stop" : 1626503901659,
-            "duration" : 98233
+            "start" : 1626670241647,
+            "stop" : 1626670361469,
+            "duration" : 119822
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "心率测试",
-          "uid" : "770bf20f1b97d464",
+          "uid" : "b60c9c18d9c02b55",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503904048,
-            "stop" : 1626503981804,
-            "duration" : 77756
+            "start" : 1626670363952,
+            "stop" : 1626670447418,
+            "duration" : 83466
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "安装表盘",
-          "uid" : "ab2c5bd15791453c",
+          "uid" : "4eb65abeb5adcc9b",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626503984194,
-            "stop" : 1626504085894,
-            "duration" : 101700
+            "start" : 1626670449881,
+            "stop" : 1626670550699,
+            "duration" : 100818
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "应用消息（微信，facebook）提醒",
-          "uid" : "fea18fb6daa8f3e9",
+          "uid" : "922ea49107853c2c",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626504088243,
-            "stop" : 1626504186964,
-            "duration" : 98721
+            "start" : 1626670553204,
+            "stop" : 1626670662306,
+            "duration" : 109102
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "设备重置",
-          "uid" : "a2027c5cf5c4f42e",
+          "uid" : "de9e27a60067f491",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1626504189341,
-            "stop" : 1626504403143,
-            "duration" : 213802
+            "start" : 1626670664898,
+            "stop" : 1626671240675,
+            "duration" : 575777
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "设备重启",
-          "uid" : "e735d46f72af96cd",
+          "uid" : "e51e2d4bb2b5f5cc",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1626504405659,
-            "stop" : 1626504662881,
-            "duration" : 257222
+            "start" : 1626671243187,
+            "stop" : 1626671351365,
+            "duration" : 108178
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "屏幕亮度",
-          "uid" : "4721566e5cb54b6f",
+          "uid" : "49633c8d624e6ce9",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626504665259,
-            "stop" : 1626504783303,
-            "duration" : 118044
+            "start" : 1626671353920,
+            "stop" : 1626671506230,
+            "duration" : 152310
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "喝水提醒",
-          "uid" : "1e9f22855911d947",
+          "uid" : "bd373cddb0618b8c",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626504785720,
-            "stop" : 1626504955209,
-            "duration" : 169489
+            "start" : 1626671508621,
+            "stop" : 1626674481754,
+            "duration" : 2973133
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "设置-切换表盘",
-          "uid" : "78b01acf66fbe821",
+          "uid" : "1a69c8be9d3098c3",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626504957595,
-            "stop" : 1626505040736,
-            "duration" : 83141
+            "start" : 1626674484247,
+            "stop" : 1626674583417,
+            "duration" : 99170
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "切换表盘",
-          "uid" : "795d2c53b943b45b",
+          "uid" : "848bf0cce20631f6",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626505043100,
-            "stop" : 1626505096398,
-            "duration" : 53298
+            "start" : 1626674585853,
+            "stop" : 1626674642318,
+            "duration" : 56465
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "今日活动",
-          "uid" : "9f12a92c5a5bcfc4",
+          "uid" : "fe29666ae39d9b6b",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626505098758,
-            "stop" : 1626505153497,
-            "duration" : 54739
+            "start" : 1626674644752,
+            "stop" : 1626674702945,
+            "duration" : 58193
           },
           "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "获取设备日志",
-          "uid" : "4d2ca2e2a05f82c5",
+          "uid" : "905013c58acf9156",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626505155948,
-            "stop" : 1626505223317,
-            "duration" : 67369
+            "start" : 1626674705400,
+            "stop" : 1626674776955,
+            "duration" : 71555
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         }, {
           "name" : "解绑",
-          "uid" : "c772ec7e26cbec19",
+          "uid" : "f1a467865a04316d",
           "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
           "status" : "passed",
           "time" : {
-            "start" : 1626505225712,
-            "stop" : 1626505262877,
-            "duration" : 37165
+            "start" : 1626674779453,
+            "stop" : 1626674816382,
+            "duration" : 36929
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "3387dc62e4af2adadef8476b9075e35b"

@@ -66,7 +66,6 @@ class TestClass:
         self.app.saturn_inputclick("160", "80", "160", "80")
         self.app.assert_getdevicepagename("setting_brightness")
         self.app.saturn_inputslide("160", "160", "160", "20")
-        self.app.assert_getdevicepagename("setting_display")
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.assert_getdevicepagename("setting_display")
         self.app.device_home()

@@ -89,6 +89,7 @@ class TestClass:
         self.app.saturn_inputclick("50", "300", "50", "300")
         self.app.assert_getdevicepagename("setting_page")
         self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.assert_getdevicepagename("setting_notification")
         self.app.device_home()
         self.app.assert_getdevicepagename("setting_page")

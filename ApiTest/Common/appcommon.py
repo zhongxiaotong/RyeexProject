@@ -744,7 +744,8 @@ class App(object):
         while self.object_exist(mac + "  正在连接...") :
             time.sleep(0.5)
         if self.object_exist(mac + "  已连接") == False:
-            self.devices_click('解绑')
+            if self.object_exist('解绑'):
+                self.devices_click('解绑')
             self.click_prompt_box()
             time.sleep(10)
             if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:

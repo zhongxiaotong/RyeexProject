@@ -5,9 +5,9 @@
     "name" : "Testcase.AppUiTestcase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 22,
+      "passed" : 21,
       "unknown" : 0,
       "total" : 23
     }

@@ -4,21 +4,37 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "BaseException: app页面未能找到该元素",
+      "name" : "TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType",
       "children" : [ {
-        "name" : "设备重置",
-        "uid" : "a2027c5cf5c4f42e",
-        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
+        "name" : "血氧测试",
+        "uid" : "d690ffb563429827",
+        "parentUid" : "38282f1617bb658a1263347f299d4668",
         "status" : "broken",
         "time" : {
-          "start" : 1626504189341,
-          "stop" : 1626504403143,
-          "duration" : 213802
+          "start" : 1626669129413,
+          "stop" : 1626669217954,
+          "duration" : 88541
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
+      "uid" : "38282f1617bb658a1263347f299d4668"
+    }, {
+      "name" : "BaseException: Response验证失败，实际返回结果BleError{code=2, bleCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果ok",
+      "children" : [ {
+        "name" : "设备重启",
+        "uid" : "e51e2d4bb2b5f5cc",
+        "parentUid" : "d848194e0ae3adbdc0ce0851666f4dd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626671243187,
+          "stop" : 1626671351365,
+          "duration" : 108178
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d848194e0ae3adbdc0ce0851666f4dd9"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

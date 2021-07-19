@@ -70,8 +70,7 @@ class TestClass:
         self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.assert_getdevicepagename("setting_reset_realme")
         self.app.saturn_inputclick("280", "280", "280", "280")
-        self.driver.keyevent(4)
-        time.sleep(120)
+        time.sleep(100)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.devices_init(self.info)
 
