@@ -66,6 +66,7 @@ class TestClass:
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
         self.app.assert_getdevicepagename("remind")
+        self.app.saturn_inputclick("80", "240", "80", "240")
         self.app.saturn_inputclick("240", "240", "240", "240")
         self.app.assert_getdevicepagename("home_page")
 
