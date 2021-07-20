@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/13 15:11
+# @Time : 2021/7/19 17:54
 # @Author : Greey
-# @FileName: Test_CountDown.py
+# @FileName: Test_Weather.py
 
 
 import pytest
@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('倒计时')
+@allure.description('查看天气')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -35,6 +35,7 @@ class TestClass:
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
         uuid = self.uuids[0]
+        self.uuid = uuid
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(self.info + "设备ID:" + uuid)
         print(self.info + "安卓版本:" + andriod_version)
@@ -50,27 +51,35 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("倒计时")
+    @allure.title("查看天气")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_unbind(self):
-        self.app.open_application(self.init_port)
+    def test_weather(self):
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_updateweather()
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.device_upslide()
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.assert_getdevicepagename("weather")
         self.app.device_upslide()
         self.app.device_upslide()
-        self.app.saturn_inputclick("50", "50", "50", "50")
-        self.app.assert_getdevicepagename('appctr_timer')
-        self.app.saturn_inputclick("80", "80", "80", "80")
-        self.app.assert_getdevicepagename('apptmr_inprog')
-        self.app.saturn_inputclick("240", "300", "240", "300")
-        self.app.saturn_inputclick("240", "300", "240", "300")
-        time.sleep(60)
-        self.app.saturn_inputclick("80", "300", "80", "300")
-        self.app.assert_getdevicepagename('appctr_timer')
+        self.app.device_upslide()
+        self.app.device_downslide()
+        self.app.device_downslide()
+        self.app.device_downslide()
         self.app.device_home()
-        self.app.assert_getdevicepagename('home_page')
         self.app.device_home()
+
+
+
 
 if __name__ == '__main__':
      pytest.main()

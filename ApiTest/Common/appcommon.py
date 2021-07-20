@@ -1365,3 +1365,8 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="设置喝水提醒"]').click()
         self.assert_in_text("set success")
         self.clear_text()
+
+    @allure.step("更新天气信息")
+    def tv_updateweather(self):
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="更新天气信息"]').click()
+        self.assert_notin_text()

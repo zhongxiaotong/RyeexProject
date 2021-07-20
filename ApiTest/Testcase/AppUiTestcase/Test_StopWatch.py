@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/13 15:11
+# @Time : 2021/7/20 11:34
 # @Author : Greey
-# @FileName: Test_CountDown.py
+# @FileName: Test_StopWatch.py
 
 
 import pytest
@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('倒计时')
+@allure.description('秒表')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -50,7 +50,7 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("倒计时")
+    @allure.title("秒表")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
@@ -58,16 +58,14 @@ class TestClass:
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_upslide()
-        self.app.device_upslide()
-        self.app.saturn_inputclick("50", "50", "50", "50")
-        self.app.assert_getdevicepagename('appctr_timer')
-        self.app.saturn_inputclick("80", "80", "80", "80")
-        self.app.assert_getdevicepagename('apptmr_inprog')
+        self.app.saturn_inputclick("300", "300", "300", "300")
+        self.app.assert_getdevicepagename('appctr_stopwatch')
+        self.app.saturn_inputclick("160", "300", "160", "300")
         self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.saturn_inputclick("240", "300", "240", "300")
-        time.sleep(60)
+        self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.saturn_inputclick("80", "300", "80", "300")
-        self.app.assert_getdevicepagename('appctr_timer')
+        self.app.saturn_inputclick("240", "300", "240", "300")
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page')
         self.app.device_home()
