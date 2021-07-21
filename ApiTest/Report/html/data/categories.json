@@ -4,21 +4,37 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "BaseException: 设备回调为空值",
+      "name" : "TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType",
       "children" : [ {
-        "name" : "查看天气",
-        "uid" : "aefae2f0f95e684e",
-        "parentUid" : "bdc2674f30aed5c8199cb618ae047db2",
+        "name" : "血氧测试",
+        "uid" : "2cd29f1e926a3eca",
+        "parentUid" : "38282f1617bb658a1263347f299d4668",
         "status" : "broken",
         "time" : {
-          "start" : 1626695724585,
-          "stop" : 1626695834804,
-          "duration" : 110219
+          "start" : 1626781389837,
+          "stop" : 1626781471793,
+          "duration" : 81956
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "bdc2674f30aed5c8199cb618ae047db2"
+      "uid" : "38282f1617bb658a1263347f299d4668"
+    }, {
+      "name" : "BaseException: app页面未能找到该元素",
+      "children" : [ {
+        "name" : "开关蓝牙",
+        "uid" : "60efa564aa898d66",
+        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626781474249,
+          "stop" : 1626781587875,
+          "duration" : 113626
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

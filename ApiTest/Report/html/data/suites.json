@@ -9,13 +9,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "绑定设备",
-          "uid" : "2ada613807a559b1",
+          "uid" : "982d0f3dc5b58d92",
           "parentUid" : "0cbe2e6dbca5c3567dae52f2af5cf0df",
           "status" : "passed",
           "time" : {
-            "start" : 1626692270755,
-            "stop" : 1626692296904,
-            "duration" : 26149
+            "start" : 1626780512837,
+            "stop" : 1626780634671,
+            "duration" : 121834
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -29,13 +29,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "固件升级",
-          "uid" : "ab1136b6e4dff235",
+          "uid" : "40188d4b00164956",
           "parentUid" : "f8f20f74fe453d1f822f215d94f34bbe",
           "status" : "passed",
           "time" : {
-            "start" : 1626692321830,
-            "stop" : 1626692800269,
-            "duration" : 478439
+            "start" : 1626780651155,
+            "stop" : 1626781115114,
+            "duration" : 463959
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -49,13 +49,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "闹钟设置",
-          "uid" : "60d2a2fd60260b1e",
+          "uid" : "8cf6ade562fc5af9",
           "parentUid" : "173af843c172d9f490cc6147f181a8be",
           "status" : "passed",
           "time" : {
-            "start" : 1626692802792,
-            "stop" : 1626693071119,
-            "duration" : 268327
+            "start" : 1626781117612,
+            "stop" : 1626781387462,
+            "duration" : 269850
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -69,13 +69,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "血氧测试",
-          "uid" : "af9122942fed4003",
+          "uid" : "2cd29f1e926a3eca",
           "parentUid" : "a7ec5b004c009780ce4fb76590a8dfc5",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1626693073526,
-            "stop" : 1626693172993,
-            "duration" : 99467
+            "start" : 1626781389837,
+            "stop" : 1626781471793,
+            "duration" : 81956
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -89,13 +89,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "开关蓝牙",
-          "uid" : "eb05720678f0a4fa",
+          "uid" : "60efa564aa898d66",
           "parentUid" : "b971f3e20b5933b8002e7b6ae66939c9",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1626693175364,
-            "stop" : 1626693281436,
-            "duration" : 106072
+            "start" : 1626781474249,
+            "stop" : 1626781587875,
+            "duration" : 113626
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -109,13 +109,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "来电提醒-静音-挂断",
-          "uid" : "4398c87720fca0f6",
+          "uid" : "af8eae944248010d",
           "parentUid" : "d605082a0e2e9ad240eb995b8f5b0ee3",
           "status" : "passed",
           "time" : {
-            "start" : 1626693283862,
-            "stop" : 1626693366976,
-            "duration" : 83114
+            "start" : 1626781590340,
+            "stop" : 1626781674878,
+            "duration" : 84538
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -129,13 +129,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "控制面板-亮度调节",
-          "uid" : "fa0f720280d4e967",
+          "uid" : "d05d70a6ce87ce27",
           "parentUid" : "f9b03e4d5ddce56df48f485bb0a7f7a9",
           "status" : "passed",
           "time" : {
-            "start" : 1626693369393,
-            "stop" : 1626693454569,
-            "duration" : 85176
+            "start" : 1626781677231,
+            "stop" : 1626781757666,
+            "duration" : 80435
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -149,13 +149,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "控制面板-勿扰开关",
-          "uid" : "8b46a3da726e23e8",
+          "uid" : "dc5e96174fafeeda",
           "parentUid" : "9a37d4d4e9ead5f04ec3242a2ad464cc",
           "status" : "passed",
           "time" : {
-            "start" : 1626693456952,
-            "stop" : 1626693595587,
-            "duration" : 138635
+            "start" : 1626781760030,
+            "stop" : 1626781896108,
+            "duration" : 136078
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -169,13 +169,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "控制面板-省电模式",
-          "uid" : "10b228c343b1e781",
+          "uid" : "6882c92bdb0f94f9",
           "parentUid" : "b6c12dd593c8e2b8880e577eb0ac03a7",
           "status" : "passed",
           "time" : {
-            "start" : 1626693597979,
-            "stop" : 1626694069443,
-            "duration" : 471464
+            "start" : 1626781898459,
+            "stop" : 1626782357259,
+            "duration" : 458800
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -189,13 +189,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "控制面板-进入设置页面",
-          "uid" : "272b2da407d6b554",
+          "uid" : "d0d7873fa83fffc4",
           "parentUid" : "74a381ccafc2d990c79ec6af8e3ec924",
           "status" : "passed",
           "time" : {
-            "start" : 1626694071859,
-            "stop" : 1626694126593,
-            "duration" : 54734
+            "start" : 1626782359643,
+            "stop" : 1626782409616,
+            "duration" : 49973
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -209,13 +209,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "倒计时",
-          "uid" : "f39c14f144a5c4d8",
+          "uid" : "f37fa176cb8d680f",
           "parentUid" : "9abc5046646130f27911cde4c620d549",
           "status" : "passed",
           "time" : {
-            "start" : 1626694128977,
-            "stop" : 1626694228762,
-            "duration" : 99785
+            "start" : 1626782411981,
+            "stop" : 1626782568640,
+            "duration" : 156659
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -229,13 +229,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "心率测试",
-          "uid" : "ebe871423be77fb0",
+          "uid" : "bd7037616432b728",
           "parentUid" : "4e07d8ed7df0eeab10959d8b875e6ec2",
           "status" : "passed",
           "time" : {
-            "start" : 1626694231166,
-            "stop" : 1626694303769,
-            "duration" : 72603
+            "start" : 1626782571006,
+            "stop" : 1626782643533,
+            "duration" : 72527
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -249,13 +249,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "安装表盘",
-          "uid" : "eb2f67dd97e05d7a",
+          "uid" : "66658dacb64868ca",
           "parentUid" : "f52da5ba49313658703dcf91b54f847f",
           "status" : "passed",
           "time" : {
-            "start" : 1626694306174,
-            "stop" : 1626694404548,
-            "duration" : 98374
+            "start" : 1626782645896,
+            "stop" : 1626782744358,
+            "duration" : 98462
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -269,13 +269,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "应用消息（微信，facebook）提醒",
-          "uid" : "14241e5982aa8735",
+          "uid" : "bf912b86ddde75cf",
           "parentUid" : "1cfc8063371a7679737dea8af8810520",
           "status" : "passed",
           "time" : {
-            "start" : 1626694406929,
-            "stop" : 1626694503531,
-            "duration" : 96602
+            "start" : 1626782746718,
+            "stop" : 1626782839416,
+            "duration" : 92698
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -289,13 +289,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "设备重置",
-          "uid" : "432235450c228649",
+          "uid" : "ff1a1195ef1f1948",
           "parentUid" : "8a07366fb82c5b62ddbcaf8cb3cd96d8",
           "status" : "passed",
           "time" : {
-            "start" : 1626694505956,
-            "stop" : 1626695014885,
-            "duration" : 508929
+            "start" : 1626782841772,
+            "stop" : 1626783336538,
+            "duration" : 494766
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -309,13 +309,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "设备重启",
-          "uid" : "f322768ea2c8921a",
+          "uid" : "71a027cd1d683a2e",
           "parentUid" : "79d58030bd8ac1407defd3de0d836a25",
           "status" : "passed",
           "time" : {
-            "start" : 1626695017297,
-            "stop" : 1626695172806,
-            "duration" : 155509
+            "start" : 1626783338902,
+            "stop" : 1626783491276,
+            "duration" : 152374
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -329,13 +329,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "屏幕亮度",
-          "uid" : "a856631f2aea8032",
+          "uid" : "b86ef04c7f249f44",
           "parentUid" : "ddd113c66022d07ffe13c8197b40f7ee",
           "status" : "passed",
           "time" : {
-            "start" : 1626695175214,
-            "stop" : 1626695308001,
-            "duration" : 132787
+            "start" : 1626783493636,
+            "stop" : 1626783622298,
+            "duration" : 128662
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -349,13 +349,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "喝水提醒",
-          "uid" : "821b06685aa0fefd",
+          "uid" : "830501da03f16bc4",
           "parentUid" : "cde6ef71791ed044414dd1654278289f",
           "status" : "passed",
           "time" : {
-            "start" : 1626695310413,
-            "stop" : 1626695527990,
-            "duration" : 217577
+            "start" : 1626783624655,
+            "stop" : 1626783839453,
+            "duration" : 214798
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -369,13 +369,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "设置-切换表盘",
-          "uid" : "c10df17aa12ba547",
+          "uid" : "b555cac1a3bd8623",
           "parentUid" : "3cd8a56b44e4e89eaeba959e40283f3b",
           "status" : "passed",
           "time" : {
-            "start" : 1626695530447,
-            "stop" : 1626695609852,
-            "duration" : 79405
+            "start" : 1626783841874,
+            "stop" : 1626783925006,
+            "duration" : 83132
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -384,18 +384,38 @@
       } ],
       "uid" : "15eae4ea9288e50eead1f2ec619ba4aa"
     }, {
+      "name" : "Test_StopWatch",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "秒表",
+          "uid" : "8423db78977448a3",
+          "parentUid" : "0fd5fb5802152b179bc3eebc61920617",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626783927378,
+            "stop" : 1626784030666,
+            "duration" : 103288
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0fd5fb5802152b179bc3eebc61920617"
+      } ],
+      "uid" : "d6eeb92ce64339aa534a2198f616f902"
+    }, {
       "name" : "Test_SwitchFace",
       "children" : [ {
         "name" : "TestClass",
         "children" : [ {
           "name" : "切换表盘",
-          "uid" : "d80b0cbfe3b7be3d",
+          "uid" : "db603634ab487452",
           "parentUid" : "84dc374bb29f451e9dc2cdb23db04ce0",
           "status" : "passed",
           "time" : {
-            "start" : 1626695612262,
-            "stop" : 1626695664354,
-            "duration" : 52092
+            "start" : 1626784033037,
+            "stop" : 1626784082273,
+            "duration" : 49236
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -409,13 +429,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "今日活动",
-          "uid" : "d922195f4eb7c715",
+          "uid" : "8e134162ba44c46b",
           "parentUid" : "95c106c73bfee54b7e9f59c7f7c04787",
           "status" : "passed",
           "time" : {
-            "start" : 1626695666748,
-            "stop" : 1626695722216,
-            "duration" : 55468
+            "start" : 1626784084718,
+            "stop" : 1626784137617,
+            "duration" : 52899
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -429,15 +449,15 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "查看天气",
-          "uid" : "aefae2f0f95e684e",
+          "uid" : "6f452861d7075eb",
           "parentUid" : "d463e4506869f1a3726f75f3cf270d6c",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1626695724585,
-            "stop" : 1626695834804,
-            "duration" : 110219
+            "start" : 1626784140037,
+            "stop" : 1626784239114,
+            "duration" : 99077
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "d463e4506869f1a3726f75f3cf270d6c"
@@ -449,13 +469,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "获取设备日志",
-          "uid" : "2217a1f41be70476",
+          "uid" : "2558035596e36405",
           "parentUid" : "3182f80244967dcdc7814359d8f86fa1",
           "status" : "passed",
           "time" : {
-            "start" : 1626695837311,
-            "stop" : 1626695906087,
-            "duration" : 68776
+            "start" : 1626784241491,
+            "stop" : 1626784305966,
+            "duration" : 64475
           },
           "flaky" : true,
           "parameters" : [ ]
@@ -469,13 +489,13 @@
         "name" : "TestClass",
         "children" : [ {
           "name" : "解绑",
-          "uid" : "e86264759b60c9d1",
+          "uid" : "abf177e3db734ad7",
           "parentUid" : "4fb833ce2d1b380c86f4dfb3e7545f3f",
           "status" : "passed",
           "time" : {
-            "start" : 1626695908464,
-            "stop" : 1626695943963,
-            "duration" : 35499
+            "start" : 1626784308342,
+            "stop" : 1626784344786,
+            "duration" : 36444
           },
           "flaky" : true,
           "parameters" : [ ]

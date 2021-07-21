@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/12 14:24
+# @Time : 2021/7/21 15:05
 # @Author : Greey
-# @FileName: Test_BluetoothSwitch.py
+# @FileName: Test_Sport_StrengthTraining.py
 
 import pytest
 import os
@@ -19,7 +19,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('开关蓝牙')
+@allure.description('运动-力量训练')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -49,26 +49,30 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("开关蓝牙")
+    @allure.title("运动-力量训练")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.smoke
-    def test_bluetoothswitch(self):
+    def test_sportstrengthtraining(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_APP')
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.click_prompt_box()
-        self.app.tv_bluetoothcontrol()
-        self.app.click_prompt_box()
-        self.app.tv_bluetoothcontrol()
-        self.app.click_prompt_box()
-        time.sleep(60)
-        if self.app.object_exist('SATURN_APP'):
-            self.app.devices_click('SATURN_APP')
-        time.sleep(5)
-        self.app.connect_status()
+        # self.app.devices_init(self.info)
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.saturn_inputclick("160", "160", "160", "160")
+        self.app.assert_getdevicepagename("sport_list")
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.saturn_inputclick("160", "80", "160", "80")
+        self.app.saturn_inputclick("160", "160", "160", "160")
+        time.sleep(3)
+        self.app.assert_getdevicepagename("sports")
+        self.app.device_home()
+        self.app.saturn_inputclick("80", "160", "80", "160")
+        self.app.device_home()
+        self.app.device_home()
+
+
+
 if __name__ == '__main__':
      pytest.main()
