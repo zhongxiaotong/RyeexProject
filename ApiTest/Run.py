@@ -8,6 +8,7 @@ import win32com.client
 from ApiTest.Common.Log import MyLog
 import pytest
 from ApiTest.Common.Feishu import FeiShutalkChatbot
+from ApiTest.Common.File import *
 import datetime
 import socket
 

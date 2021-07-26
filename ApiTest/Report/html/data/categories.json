@@ -7,34 +7,34 @@
       "name" : "TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType",
       "children" : [ {
         "name" : "血氧测试",
-        "uid" : "2cd29f1e926a3eca",
+        "uid" : "8617d7fb79254d95",
         "parentUid" : "38282f1617bb658a1263347f299d4668",
         "status" : "broken",
         "time" : {
-          "start" : 1626781389837,
-          "stop" : 1626781471793,
-          "duration" : 81956
+          "start" : 1626921129313,
+          "stop" : 1626921212445,
+          "duration" : 83132
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "38282f1617bb658a1263347f299d4668"
     }, {
-      "name" : "BaseException: app页面未能找到该元素",
+      "name" : "BaseException: 验证失败：当前页面为home_page，预期页面为remind",
       "children" : [ {
-        "name" : "开关蓝牙",
-        "uid" : "60efa564aa898d66",
-        "parentUid" : "4092f19069255e1ddf6ce5e55e7415bc",
+        "name" : "应用消息（微信，facebook）提醒",
+        "uid" : "99151bbd89ee268d",
+        "parentUid" : "60095347bee5c86cec2a214b3c61b4e4",
         "status" : "broken",
         "time" : {
-          "start" : 1626781474249,
-          "stop" : 1626781587875,
-          "duration" : 113626
+          "start" : 1626922532384,
+          "stop" : 1626922596489,
+          "duration" : 64105
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "4092f19069255e1ddf6ce5e55e7415bc"
+      "uid" : "60095347bee5c86cec2a214b3c61b4e4"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
