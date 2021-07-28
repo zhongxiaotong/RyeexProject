@@ -10,7 +10,7 @@ import pytest
 import os
 import time
 import allure
-from ApiTest.Common.appcommon import App
+from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from selenium.webdriver.common.by import By
@@ -64,7 +64,7 @@ class TestClass:
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
                 self.app.click_prompt_box()
-                self.app.tv_ota("0.2.87 87")
+                self.app.tv_ota("0.2.87,87,1")
                 while True:
                     time.sleep(1)
                     text = self.app.getresult()

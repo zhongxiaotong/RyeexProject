@@ -14,10 +14,8 @@ import shutil
 
 class File(object):
 
-    def __init__(self):
-        # self.zip_src = 'C:/runner/autotest'
-
-        self.zip_src = 'D:\log'
+    def __init__(self, zip_src='D:\log'):
+        self.zip_src = zip_src
         self.unzip_src = self.zip_src + '\\' + os.path.splitext(self.get_pathfiles())[0]
 
 

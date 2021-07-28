@@ -1,15 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2020/10/28 19:21
+# @Time : 2021/7/9 11:19
 # @Author : Greey
-# @FileName: Test_Spo2.py
-
+# @FileName: FirmwareUpdate.py
 
 import pytest
 import os
 import time
 import allure
-from ApiTest.Common.appcommon import App
+from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from ApiTest.Common.File import *
@@ -22,8 +21,8 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('1：启动测试工具IDT，2：点击SATURN_APP，3：点击解绑，选择设备mac地址绑定，4：设备点击确认，5：等待设备加载60秒')
-class TestClass:
+@allure.description('固件升级')
+class TestClass():
     def setup(self):
         print("Test Start")
         self.log = MyLog()
@@ -47,35 +46,6 @@ class TestClass:
         self.app = App(self.desired_cap)
         time.sleep(5)
         self.log.debug(u'初始化测试数据')
-        # src = File().rename_zipname()
-        # self.newfilenpath_mcu = src[0]
-        # self.newfilepath_resource = src[1]
-        # self.log.debug(u'解压zip包')
-        # print(u'解压zip包')
-        # filename_res = os.path.basename(self.newfilepath_resource)
-        # oldfilename_res = os.path.basename(File().get_file())
-        # parentfile = os.path.abspath(os.path.join(self.newfilepath_resource, ".."))
-        # grandfatherfile = os.path.abspath(os.path.join(self.newfilepath_resource, "../.."))
-        # self.diff_res = parentfile + '\\' + filename_res + '-' + oldfilename_res
-        # diff_res(self.newfilepath_resource, File().get_file(), self.diff_res)
-        # self.log.debug(u'获取差分资源包')
-        # print(u'获取差分资源包')
-        self.app.wake_phonescreen(uuid)
-        self.log.debug(u'唤醒解锁屏幕')
-        print(u'唤醒解锁屏幕')
-        # self.app.adb_push(uuid, self.newfilenpath_mcu)                          #固件包
-        # self.app.adb_push(uuid, self.newfilepath_resource)                      #资源包
-        # self.app.adb_push(uuid, self.diff_res)                                      #差分资源
-        # self.log.debug(u'下发固件/资源到手机')
-        # print(u'下发固件/资源到手机')
-        # filepath = File().mkdir_file()
-        # File().copy_file(self.newfilepath_resource, filepath + '\\' + filename_res)
-        # self.log.debug(u'每次保存最新的资源包到Recent_res')
-        # print(u'每次保存最新的资源包到Recent_res')
-        # File().rmtree_file(parentfile)
-        # File().remove_file(grandfatherfile + '\\' + File().get_pathfiles())
-        # self.log.debug(u'删除旧的固件/资源包')
-        # print(u'删除旧的固件/资源包')
 
     def teardown(self):
         # self.app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
@@ -83,13 +53,25 @@ class TestClass:
         print("Test End")
 
 
-    @allure.title("绑定设备")
+    @allure.title("固件升级")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.smoke
-    def test_bind(self):
-        self.app.open_application(self.init_port)
+    def test_firmwareupdate(self, mcu, resoure, diff):
+        filename_mcu = os.path.basename(mcu)
+        filename_res = os.path.basename(resoure)
+        diff_res = os.path.basename(diff)
+        self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_APP')
+        if os.path.getsize(diff) != 0:
+            self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
+        else:
+            self.app.devices_ota(filename_mcu, '0', '0')
+        # self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.devices_init(self.info)
 
 if __name__ == '__main__':
      pytest.main()

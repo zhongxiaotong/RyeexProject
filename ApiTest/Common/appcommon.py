@@ -510,14 +510,21 @@ class App(object):
             raise ValueError(u"获取安卓手机状态失败")
 
     @staticmethod
-    def adb_push(uuid, filepath):
+    def adb_pushuuid(uuid, filepath):
         try:
             os.system('adb -s ' + str(uuid) + ' push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
         except:
             raise ValueError(u"分发新固件或资源包到手机失败")
 
     @staticmethod
-    def wake_phonescreen(uuid):
+    def adb_push(filepath):
+        try:
+            os.system('adb push ' + str(filepath) + ' /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File')   #分发固件
+        except:
+            raise ValueError(u"分发新固件或资源包到手机失败")
+
+    @staticmethod
+    def wake_phonescreenuuid(uuid):
         try:
             result = os.popen('adb -s ' + str(uuid) + ' shell "dumpsys window policy|grep isStatusBarKeyguard"').read()       #检查是否息屏
             if "true" in result:
@@ -526,6 +533,18 @@ class App(object):
                 os.system('adb -s ' + str(uuid) + ' shell input keyevent 82')                                       #解锁屏幕
         except:
             raise ValueError(u'唤醒手机失败')
+
+    @staticmethod
+    def wake_phonescreen():
+        try:
+            result = os.popen('adb shell "dumpsys window policy|grep isStatusBarKeyguard"').read()       #检查是否息屏
+            if "true" in result:
+                os.system('adb shell input keyevent 26')                                       #唤醒屏幕
+                # time.sleep(1)
+                os.system('adb shell input keyevent 82')                                       #解锁屏幕
+        except:
+            raise ValueError(u'唤醒手机失败')
+
 
 
     @staticmethod

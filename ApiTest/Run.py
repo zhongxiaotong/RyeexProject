@@ -5,12 +5,14 @@
 
 import os
 import win32com.client
-from ApiTest.Common.Log import MyLog
+from Common.Log import MyLog
 import pytest
-from ApiTest.Common.Feishu import FeiShutalkChatbot
-from ApiTest.Common.File import *
+from Common.Feishu import FeiShutalkChatbot
+from Common.File import *
 import datetime
 import socket
+import argparse
+from Common.Firmware import Firmware
 
 # C = ReadConfig()
 # on_off = C.get_configdata("EMAIL", "on_off")
@@ -33,13 +35,18 @@ class AllTest(object):
         check_exsit("java.exe")
         hostname = socket.gethostname()
         self.ip = socket.gethostbyname(hostname)
-        # current_path = os.path.abspath(__file__)
-        # father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "..")
-        # report_path = father_path + "\\" + "Config\Config.ini"
-        # self.report_path = report_path.replace("\\", "/")
     def run(self):
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--zippath", type=str, help=u"固件路径", default=None)
+        args = parser.parse_args()
+        zip_src = args.zippath
+        result = list(Firmware(zip_src).get_firmware())
+        current_path = os.path.abspath(__file__)
+        grandfather_path = os.path.abspath(os.path.dirname(current_path))
+        path = grandfather_path + "\\" + "Testcase\\AppUiTestcase\\FirmwareUpdate.py"
         try:
             self.log.info("********TEST START** ******")
+            pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], path, '--alluredir', './Report/xml'])
             pytest.main(['-m', 'smoke', '--alluredir', './Report/xml'])
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
@@ -47,7 +54,7 @@ class AllTest(object):
             self.log.error(u'测试用例执行失败，请检查')
         finally:
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
-            msg = currentdate + '------CI自动化测试报告-------：http://' + self.ip + ':22222/index.html'
+            msg = currentdate + '--************--自动化测试报告--************--：http://' + self.ip + ':22222/index.html'
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
