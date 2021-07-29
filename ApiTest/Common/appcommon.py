@@ -22,6 +22,7 @@ import commands
 current_path = os.path.abspath(__file__)
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "..")                                  #获取上级目录
 yaml_path_setting = father_path + "\\" + "Testdata\\setting.yaml"
+log_path = father_path + "\\" + "Log"
 
 
 class App(object):
@@ -548,9 +549,12 @@ class App(object):
 
 
     @staticmethod
-    def adb_pull(uuid):
+    def adb_pull(uuid, info):
+        A = log_path + '\\' + info
+        if not os.path.isdir(A):
+            os.mkdir(A)
         try:
-            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log C:/Python27')
+            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info)
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
@@ -558,11 +562,11 @@ class App(object):
             raise ValueError(u"Copy文件到电脑失败")
 
     @staticmethod
-    def getdevices_logpath():                                                                                       #仅支持一个logs_dev文件
-        filenames = os.listdir("C:\Python27")
+    def getdevices_logpath(info):                                                                                       #仅支持一个logs_dev文件
+        filenames = os.listdir(log_path + '\\' + info)
         for filename in filenames:
             if "logs_dev" in filename:
-                filepath = "C:\\Python27\\" + filename
+                filepath = log_path + '\\' + info + "\\" + filename
                 return filepath
             # if len(filepathlist) == 1:
             #     return filepathlist[0]
