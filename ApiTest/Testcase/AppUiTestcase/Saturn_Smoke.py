@@ -29,6 +29,8 @@ class Testsmoke:
         self.init_systemPort = 8200
         self.section = 'SATURN_设备'
         self.driver = None
+        self.desired_cap = self.dictdatas[0]['desired_caps']
+        self.uuids = App(self.desired_cap).getdevices_uuid()
         self.mac1 = '9C:F6:DD:38:1F:35'
         self.mac2 = '9C:F6:DD:38:1F:5E'
         self.mac3 = '9C:F6:DD:38:1D:96'
@@ -42,8 +44,7 @@ class Testsmoke:
         self.mac11 = '9C:F6:DD:38:1D:A4'
         self.mac12 = '9C:F6:DD:39:29:D6'
         self.mac13 = '9C:F6:DD:39:29:D6'
-        self.desired_cap = self.dictdatas[0]['desired_caps']
-        self.uuids = App(self.desired_cap).getdevices_uuid()
+        self.mac14 = '9C:F6:DD:39:29:D6'
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -58,7 +59,7 @@ class Testsmoke:
         App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(self.desired_cap)
         time.sleep(5)
-        app.open_application(self.port)
+        driver = app.open_application(self.port)
         app.devices_bind(self.mac1, self.section, info)
         rebort_cnts = []              #定义一个空列表
         app.device_clickDID()
@@ -72,8 +73,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
-                    app.device_home()
-                    self.log.debug(info + "返回主页面成功")
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                     app.device_upslide()
                     self.log.debug(info + "向上滑动成功")
@@ -106,7 +111,7 @@ class Testsmoke:
         App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(self.desired_cap)
         time.sleep(5)
-        app.open_application(self.port)
+        driver = app.open_application(self.port)
         app.devices_bind(self.mac2, self.section, info)
         rebort_cnts = []
         app.device_clickDID()
@@ -120,8 +125,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
-                    app.device_home()
-                    self.log.debug(info + "返回主页面成功")
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                     app.device_upslide()
                     self.log.debug(info + "向上滑动成功")
@@ -154,7 +163,7 @@ class Testsmoke:
         App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(self.desired_cap)
         time.sleep(5)
-        app.open_application(self.port)
+        driver = app.open_application(self.port)
         app.devices_bind(self.mac3, self.section, info)
         rebort_cnts = []
         app.device_clickDID()
@@ -166,6 +175,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '进入各个应用运行次数：' + str(i))
                 app.device_upslide()
@@ -333,6 +348,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '运动中发送消息运行次数：' + str(i))
                 app.device_upslide()
@@ -404,6 +425,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '查看消息详情次数：' + str(i))
                 driver.keyevent(4)
@@ -468,6 +495,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '运动功能页面上下滑动次数：' + str(i))
                 app.device_upslide()
@@ -530,6 +563,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '血氧中发送消息次数：' + str(i))
                 app.device_upslide()
@@ -593,6 +632,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '切换表盘次数：' + str(i))
                 for n in range(1, 6):
@@ -647,6 +692,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '滑动屏幕次数：' + str(i))
                 app.device_downslide()
@@ -737,19 +788,17 @@ class Testsmoke:
         info = "Process-11"
         self.port = int(self.init_port) + 20
         self.systemPort = int(self.init_systemPort) + 20
-        desired_cap = self.dictdatas[0]['desired_caps']
-        uuid = App(desired_cap).getdevices_uuid()[1]
-        self.uuid = uuid
-        andriod_version = App(desired_cap).getdevice_version(uuid)
+        uuid = self.uuids[10]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
-        desired_cap['deviceName'] = uuid
-        desired_cap['platformVersion'] = andriod_version
-        desired_cap['systemPort'] = self.systemPort
-        App(desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
-        app = App(desired_cap)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
         time.sleep(5)
-        driver = app.open_application(self.port)
+        self.driver = app.open_application(self.port)
         app.devices_bind(self.mac11, self.section, info)
         for i in range(1, 1000):
             try:
@@ -787,6 +836,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '安装表盘发送消息次数：' + str(i))
                 driver.keyevent(4)
@@ -835,6 +890,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '安装表盘断开蓝牙次数：' + str(i))
                 driver.keyevent(4)
@@ -895,6 +956,12 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
                     app.call_back_devices_init(info)
                 self.log.debug(info + '进出运动（室内）次数：' + str(i))
                 app.device_upslide()
