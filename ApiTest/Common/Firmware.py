@@ -46,8 +46,8 @@ class Firmware(object):
         self.F.copy_file(self.newfilepath_resource, filepath + '\\' + filename_res)
         self.log.debug(u'每次保存最新的资源包到Recent_res')
         print(u'每次保存最新的资源包到Recent_res')
-        self.F.rmtree_file(parentfile)
-        self.F.remove_file(grandfatherfile + '\\' + self.F.get_pathfiles())
-        self.log.debug(u'删除旧的固件/资源包')
-        print(u'删除旧的固件/资源包')
+        # self.F.rmtree_file(parentfile)
+        # self.F.remove_file(grandfatherfile + '\\' + self.F.get_pathfiles())
+        # self.log.debug(u'删除旧的固件/资源包')
+        # print(u'删除旧的固件/资源包')
         return self.newfilenpath_mcu, self.newfilepath_resource, self.diff_res

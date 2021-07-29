@@ -16,6 +16,7 @@ class File(object):
 
     def __init__(self, zip_src='D:\log'):
         self.zip_src = zip_src
+        self.filespath = 'C:\\runner'
         self.unzip_src = self.zip_src + '\\' + os.path.splitext(self.get_pathfiles())[0]
 
 
@@ -70,13 +71,13 @@ class File(object):
         shutil.rmtree(filename)
 
     def get_file(self):
-        filespath = self.zip_src + '\\' + 'Recent_res'
+        filespath = self.filespath + '\\' + 'Recent_res'
         filelist = os.listdir(filespath)
         filepath = filespath + '\\' + filelist[0]
         return filepath
 
     def mkdir_file(self):                         #必须有初始资源包
-        filepath = self.zip_src + '\\' + 'Recent_res'
+        filepath = self.filespath + '\\' + 'Recent_res'
         if not os.path.isdir(filepath):
             os.mkdir(filepath)
         else:
