@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/9 11:19
+# @Time : 2021/7/15 16:09
 # @Author : Greey
-# @FileName: FirmwareUpdate.py
+# @FileName: Test_Controlpanel_PowerSaveMode.py
+
 
 import pytest
 import os
@@ -11,18 +12,16 @@ import allure
 from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
-from ApiTest.Common.File import *
-from ApiTest.Common.Diff import *
 from selenium.webdriver.common.by import By
 
 current_path = os.path.abspath(__file__)
-father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
+father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('固件升级')
-class TestClass():
+@allure.description('控制面板-省电模式')
+class TestClass:
     def setup(self):
         print("Test Start")
         self.log = MyLog()
@@ -44,7 +43,6 @@ class TestClass():
         self.desired_cap['systemPort'] = self.init_systemPort
         App(self.desired_cap).start_appium(self.init_port, int(self.init_port) + 1, uuid)
         self.app = App(self.desired_cap)
-        time.sleep(5)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
@@ -52,26 +50,24 @@ class TestClass():
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-
-    @allure.title("固件升级")
+    @allure.title("控制面板-省电模式")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    def test_firmwareupdate(self, mcu, resoure, diff):
-        filename_mcu = os.path.basename(mcu)
-        filename_res = os.path.basename(resoure)
-        diff_res = os.path.basename(diff)
+    @pytest.mark.baileys
+    def test_controlpanel_brightness(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_APP')
-        # if os.path.getsize(diff) != 0:
-        #     self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
-        # else:
-        #     self.app.devices_ota(filename_mcu, '0', '0')
-        self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_设备')
+        self.app.device_rightslide()
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.app.saturn_inputclick("180", "200", "180", "200")
+        self.assert_getdevicepagename("setting_power_savingmode", "label/btn_cancel/btn_o")
+        self.app.saturn_inputclick("270", "400", "270", "400")
+        self.assert_getdevicepagename("saving_power", "view_show")
+        self.app.devices_click('解绑')
+        time.sleep(100)
+        self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.devices_baileys_init(self.info)
+
 
 if __name__ == '__main__':
      pytest.main()

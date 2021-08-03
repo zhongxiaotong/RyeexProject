@@ -187,13 +187,15 @@ class App(object):
 
 
     @allure.step("成功进入页面{target_pagename}")
-    def assert_getdevicepagename(self, target_pagename):
+    def assert_getdevicepagename(self, target_pagename, target_view):
         self.device_clickDID()
         self.assert_in_text(expecttext='page_name')
         if self.getdevice():
             page_name = self.getdevice()[1]
+            view_name = self.getdevice()[3]
             try:
-                assert(target_pagename == page_name)
+                assert(target_pagename in page_name)
+                assert(target_view in view_name)
             except:
                 self.log.error(u'验证失败：当前页面为%s，预期页面为%s' %(page_name, target_pagename))
                 raise BaseException(u'验证失败：当前页面为%s，预期页面为%s' %(page_name, target_pagename))
@@ -201,6 +203,65 @@ class App(object):
             self.log.error(u'page_name为空')
             raise BaseException(u'page_name为空')
 
+    def assert_getdeviceshakemode(self, target_shakestatus):
+        self.device_shakestatus()
+        self.assert_in_text(expecttext='model')
+        if self.getdevice():
+            shakestatus = self.get_shakestatus()
+            try:
+                assert(str(target_shakestatus) in shakestatus)
+            except:
+                self.log.error(u'验证失败：当前页面为%s，预期页面为%s' %(shakestatus, target_shakestatus))
+                raise BaseException(u'验证失败：当前页面为%s，预期页面为%s' %(shakestatus, target_shakestatus))
+        else:
+            self.log.error(u'shakestatus为空')
+            raise BaseException(u'shakestatus为空')
+
+
+    def assert_getdevicesstopwatchstatus(self, target_pausestatus, target_count):
+        self.device_stopwatchstatus()
+        self.assert_in_text(expecttext='pause_status')
+        if self.getdevice():
+            pausestatus = self.get_stopwatchstatus()[0]
+            count = self.get_stopwatchstatus()[1]
+            try:
+                assert(str(target_pausestatus) in pausestatus)
+                assert(str(target_count) in count)
+            except:
+                self.log.error(u'验证失败：当前页面为%s，预期页面为%s' %(pausestatus, target_pausestatus))
+                raise BaseException(u'验证失败：当前页面为%s，预期页面为%s' %(pausestatus, target_pausestatus))
+        else:
+            self.log.error(u'shakestatus为空')
+            raise BaseException(u'shakestatus为空')
+
+    def get_shakestatus(self):
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
+        text = text.encode("utf-8")
+        if len(text) != 0:
+            try:
+                model = text.split(',')[1].split(':')[2]
+                return model
+            except:
+                self.log.error(u'获取model失败%s' % text)
+                raise BaseException(u'获取model失败%s' % text)
+        else:
+            self.log.error(u'设备回调为空值')
+            raise BaseException(u'设备回调为空值')
+
+    def get_stopwatchstatus(self):
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
+        text = text.encode("utf-8")
+        if len(text) != 0:
+            try:
+                pause_status = text.split(',')[1].split(':')[2]
+                count = text.split(',')[2].split(':')[1]
+                return pause_status, count
+            except:
+                self.log.error(u'获取model失败%s' % text)
+                raise BaseException(u'获取model失败%s' % text)
+        else:
+            self.log.error(u'设备回调为空值')
+            raise BaseException(u'设备回调为空值')
 
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
@@ -209,10 +270,12 @@ class App(object):
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
                 page_name = text.split(',')[3].split(':')[1]
-                rebort_cnt = text.split(',')[4].split(':')[1]
+                rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
+                view_name = text.split(',')[5].split(':')[1]
+                is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
-                return delta_ms, page_name, rebort_cnt
+                return delta_ms, page_name, rebort_cnt, view_name, is_screen
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
                 raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -701,7 +764,7 @@ class App(object):
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='长按']").click()
         self.assert_in_text(expecttext='ok')
         time.sleep(2)
-        self.assert_getdevicepagename("face_pick_page")
+        # self.assert_getdevicepagename("face_pick_page")
         # self.log.debug(u'长按')
 
     @allure.step("点击获取设备标识")
@@ -717,6 +780,21 @@ class App(object):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='重启']").click()
         self.assert_in_text(expecttext='ok')
+
+
+    @allure.step("点击获取震动状态")
+    def device_shakestatus(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='获取震动状态']").click()
+        self.assert_notin_text()
+
+    @allure.step("点击获取秒表状态")
+    def device_stopwatchstatus(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='获取秒表状态']").click()
+        self.assert_notin_text()
+
+
     # def bluetooth_error(self):
     #     text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")
     #     if len(text) != 0:
@@ -730,7 +808,7 @@ class App(object):
     #         raise BaseException(u'设备回调为空值')
 
 
-    @allure.step("固件升级类型：{ota_parameter[2]}(1:全资源升级、0：差分资源升级)；是否有差分资源{ota_parameter[1]}（0：无差分资源，其他：有差分资源）")
+    @allure.step("固件升级类型：{ota_parameter[2]}(1:全资源升级、0：差分资源升级)；是否有差分资源：{ota_parameter[1]}（0：无差分资源，其他：有差分资源）")
     def devices_ota(self, *ota_parameter):
         #ota_parameter：  固件包 资源包 升级类型（1：全资源/0：差分资源）
         # self.devices_click("SATURN_APP")
@@ -771,7 +849,7 @@ class App(object):
                 self.devices_click('解绑')
             self.click_prompt_box()
             time.sleep(10)
-            if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch")) == False:
+            if (self.object_exist("realme Watch 2") or self.object_exist("DIZO Watch") or self.object_exist("hey+ Watch")) == False:
                 self.close_app()
                 self.driver = self.open_app()
                 self.devices_click(selection)
@@ -794,7 +872,8 @@ class App(object):
             self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
             self.devices_click(selection)
-            self.devices_inputclick("280", "280", "280", "280")
+            # self.devices_inputclick("280", "280", "280", "280")
+            self.devices_inputclick("270", "400", "270", "400")
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
@@ -864,10 +943,10 @@ class App(object):
         self.device_rightslide()
         self.log.debug(info + '设备初始化-向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
-        self.assert_getdevicepagename("setting_page")
+        self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-点击设置')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.assert_getdevicepagename("setting_display")
+        self.assert_getdevicepagename("setting_display", "list_view")
         self.log.debug(info + '设备初始化-点击Display')
         # self.saturn_inputclick("160", "80", "160", "80")
         # self.log.debug(info + '设备初始化-点击Brightness')
@@ -876,21 +955,20 @@ class App(object):
         # self.saturn_inputclick("160", "300", "160", "300")
         # self.log.debug(info + '设备初始化-点击确认')
         self.saturn_inputclick("160", "180", "160", "180")
-        self.assert_getdevicepagename("setting_screen_timeout")
+        self.assert_getdevicepagename("setting_screen_timeout", "view/btn_ok")
         self.log.debug(info + '设备初始化-点击ScreenTimeout')
-        # self.saturn_inputclick("160", "40", "160", "40")
         self.saturn_inputclick("160", "200", "160", "200")
         self.log.debug(info + '设备初始化-选择15秒')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.assert_getdevicepagename("setting_display")
-        self.log.debug(info + '设备初始化-点击确认button')
+        self.log.debug(info + '设备初始化-点击确认')
+        self.assert_getdevicepagename("setting_display", "list_view")
         self.saturn_inputclick("160", "300", "160", "300")
         self.log.debug(info + '设备初始化-点击RaiseToWake')
         self.device_home()
-        self.assert_getdevicepagename("setting_page")
+        self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-返回')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.assert_getdevicepagename("setting_notification")
+        self.assert_getdevicepagename("setting_notification", "list_view")
         self.log.debug(info + '设备初始化-点击Notification')
         # self.saturn_inputclick("160", "80", "160", "80")
         # self.log.debug(u'点击Sedentary')
@@ -905,22 +983,22 @@ class App(object):
         self.saturn_inputclick("160", "200", "160", "200")
         self.log.debug(info + '设备初始化-点击HeartRate')
         self.device_home()
-        self.assert_getdevicepagename("setting_page")
+        self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-点击home键')
         self.device_upslide()
         self.log.debug(info + '设备初始化-向上滑动')
         self.device_upslide()
         self.log.debug(info + '设备初始化-向上滑动')
         self.saturn_inputclick("160", "160", "160", "160")
-        self.assert_getdevicepagename("setting_general")
+        self.assert_getdevicepagename("setting_general", "list_view")
         self.log.debug(info + '设备初始化-点击General')
         self.saturn_inputclick("160", "120", "160", "120")
-        self.assert_getdevicepagename("setting_view")
+        self.assert_getdevicepagename("setting_view", "list_view")
         self.log.debug(info + '设备初始化-点击AppView')
         self.saturn_inputclick("160", "100", "160", "100")
         self.log.debug(info + '设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
-        self.assert_getdevicepagename("setting_general")
+        self.assert_getdevicepagename("setting_general", "list_view")
         self.log.debug(info + '设备初始化-点击确认button')
         # self.saturn_inputslide("160", "160", "160", "40")
         # self.log.debug(info + '向上滑动一段距离')
@@ -933,22 +1011,119 @@ class App(object):
         # self.device_home()
         # self.log.debug(info + '返回')
         self.device_home()
-        self.assert_getdevicepagename("setting_page")
+        self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-返回')
         self.device_home()
+        self.assert_getdevicepagename("setting_page", "home_id_left")
         self.log.debug(info + '设备初始化-返回')
         self.device_home()
+        self.assert_getdevicepagename("setting_page", "home_id_surface")
         self.log.debug(info + '设备初始化成功---------------------------------------------------------------------')
 
+    @allure.step("初始化设备")
+    def devices_baileys_init(self, info):
+        time.sleep(2)
+        self.close_remind()
+        self.device_rightslide()
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-向右滑动')
+        self.saturn_inputclick("60", "400", "60", "400")
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-点击设置')
+        self.saturn_inputclick("180", "190", "180", "190")
+        self.assert_getdevicepagename("setting_display", "list_view")
+        self.log.debug(info + '设备初始化-点击Display')
+        self.saturn_inputclick("180", "190", "180", "190")
+        self.assert_getdevicepagename("setting_screen_timeout", "view/btn_ok")
+        self.log.debug(info + '设备初始化-点击Screen')
+        self.saturn_inputclick("180", "230", "180", "230")
+        self.log.debug(info + '设备初始化-选择15秒')
+        self.saturn_inputclick("180", "390", "180", "390")
+        self.log.debug(info + '设备初始化-点击确认')
+        self.assert_getdevicepagename("setting_display", "list_view")
+        self.saturn_inputclick("180", "230", "180", "230")
+        self.log.debug(info + '设备初始化-点击RaiseToWake')
+        self.device_home()
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-返回')
+        self.saturn_inputclick("180", "270", "180", "270")
+        self.log.debug(info + '设备初始化-点击Notification')
+        self.assert_getdevicepagename("setting_notification", "list_view")
+        self.saturn_inputclick("180", "190", "180", "190")
+        self.log.debug(info + '设备初始化-点击GoalAchieved')
+        self.saturn_inputclick("180", "270", "180", "270")
+        self.log.debug(info + '设备初始化-点击Drink')
+        self.saturn_inputclick("180", "420", "180", "420")
+        self.log.debug(info + '设备初始化-点击HeartRate')
+        self.device_home()
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-点击home键')
+        self.device_upslide()
+        self.log.debug(info + '设备初始化-向上滑动')
+        self.saturn_inputclick("180", "290", "180", "290")
+        self.assert_getdevicepagename("setting_general", "list_view")
+        self.log.debug(info + '设备初始化-点击General')
+        self.saturn_inputclick("180", "100", "180", "100")
+        self.assert_getdevicepagename("setting_view", "view/btn_ok")
+        self.log.debug(info + '设备初始化-点击AppView')
+        self.saturn_inputclick("180", "190", "180", "190")
+        self.log.debug(info + '设备初始化-点击Grid')
+        self.saturn_inputclick("180", "390", "180", "390")
+        self.assert_getdevicepagename("setting_general", "list_view")
+        self.log.debug(info + '设备初始化-点击确认button')
+        self.device_home()
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-返回')
+        self.device_home()
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-返回')
+        self.device_home()
+        self.assert_getdevicepagename("home_page", "home_id_surface")
+        self.log.debug(info + '设备初始化成功---------------------------------------------------------------------')
+
+    @allure.step("异常处理-回连初始化设备")
+    def call_back_devices_baileys_init(self, info):
+        time.sleep(5)
+        self.close_remind()
+        self.device_rightslide()
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-向右滑动')
+        self.saturn_inputclick("60", "400", "60", "400")
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-点击设置')
+        self.device_upslide()
+        self.log.debug(info + '设备初始化-向上滑动')
+        self.saturn_inputclick("180", "290", "180", "290")
+        self.assert_getdevicepagename("setting_general", "list_view")
+        self.log.debug(info + '设备初始化-点击General')
+        self.saturn_inputclick("180", "100", "180", "100")
+        self.assert_getdevicepagename("setting_view", "view/btn_ok")
+        self.log.debug(info + '设备初始化-点击AppView')
+        self.saturn_inputclick("180", "190", "180", "190")
+        self.log.debug(info + '设备初始化-点击Grid')
+        self.saturn_inputclick("180", "390", "180", "390")
+        self.assert_getdevicepagename("setting_general", "list_view")
+        self.log.debug(info + '设备初始化-点击确认button')
+        self.device_home()
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-返回')
+        self.device_home()
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-返回')
+        self.device_home()
+        self.assert_getdevicepagename("home_page", "home_id_surface")
+        self.log.debug(info + '设备初始化成功---------------------------------------------------------------------')
 
     @allure.step("异常处理-回连初始化设备")
     def call_back_devices_init(self, info):
-        # self.close_remind()
         time.sleep(5)
         self.device_rightslide()
-        self.log.debug(info + '向右滑动')
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-向右滑动')
         self.saturn_inputclick("200", "270", "200", "270")
         self.log.debug(info + '点击设置')
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-点击设置')
         # self.log.debug('点击Display')
         # self.saturn_inputclick("160", "180", "160", "180")
         # self.log.debug('点击Screen Timeout')
@@ -962,16 +1137,24 @@ class App(object):
         self.log.debug(info + '设备初始化-向上滑动')
         self.saturn_inputclick("160", "160", "160", "160")
         self.log.debug(info + '设备初始化-点击General')
+        self.assert_getdevicepagename("setting_general", "list_view")
         self.saturn_inputclick("160", "120", "160", "120")
         self.log.debug(info + '设备初始化-点击AppView')
+        self.assert_getdevicepagename("setting_view", "view/btn_ok")
         self.saturn_inputclick("160", "100", "160", "100")
         self.log.debug(info + '设备初始化-点击Grid')
         self.saturn_inputclick("160", "300", "160", "300")
+        self.assert_getdevicepagename("setting_general", "list_view")
         self.log.debug(info + '设备初始化-点击确认button')
         self.device_home()
-        self.log.debug(info + '点击home键')
+        self.assert_getdevicepagename("setting_page", "list_view")
+        self.log.debug(info + '设备初始化-返回')
         self.device_home()
-        self.log.debug(info + '回连设备初始化成功------------------------------------------------------------------------')
+        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.log.debug(info + '设备初始化-返回')
+        self.device_home()
+        self.assert_getdevicepagename("home_page", "home_id_surface")
+        self.log.debug(info + '设备初始化成功---------------------------------------------------------------------')
 
     @allure.step("关闭提醒页面")
     def close_remind(self):
@@ -1053,7 +1236,7 @@ class App(object):
             self.devices_init(info)
             self.log.debug(info + '异常处理-初始化设备')
 
-    def call_back_brandy(self, mac, selection, port, uuid, info):
+    def call_back_baileys(self, mac, selection, port, uuid, info):
         time.sleep(10)
         if self.object_exist(selection):                                                               #判断设备是否重启
             self.log.debug(info + '设备断开连接，IDT返回主界面')
@@ -1123,7 +1306,8 @@ class App(object):
             time.sleep(2)
             self.devices_bind(mac, selection, info)
             self.log.debug(info + '异常处理-绑定设备')
-
+            self.devices_baileys_init(info)
+            self.log.debug(info + '异常处理-初始化设备')
 
     def restart_IDT(self, port, uuid, info):
         # self.start_appium(port, int(port) + 1, uuid)

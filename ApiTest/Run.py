@@ -47,7 +47,7 @@ class AllTest(object):
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], path, '--alluredir', './Report/xml'])
-            pytest.main(['-m', 'smoke', '--alluredir', './Report/xml'])
+            pytest.main(['-m', 'baileys', '--alluredir', './Report/xml'])
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
         except:

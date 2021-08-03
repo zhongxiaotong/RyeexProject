@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/7/9 11:19
+# @Time : 2021/7/14 16:03
 # @Author : Greey
-# @FileName: FirmwareUpdate.py
+# @FileName: Test_Setting_DrinkWaterRemind.py
+
 
 import pytest
 import os
@@ -11,18 +12,16 @@ import allure
 from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
-from ApiTest.Common.File import *
-from ApiTest.Common.Diff import *
 from selenium.webdriver.common.by import By
 
 current_path = os.path.abspath(__file__)
-father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
+father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('固件升级')
-class TestClass():
+@allure.description('喝水提醒')
+class TestClass:
     def setup(self):
         print("Test Start")
         self.log = MyLog()
@@ -44,7 +43,6 @@ class TestClass():
         self.desired_cap['systemPort'] = self.init_systemPort
         App(self.desired_cap).start_appium(self.init_port, int(self.init_port) + 1, uuid)
         self.app = App(self.desired_cap)
-        time.sleep(5)
         self.log.debug(u'初始化测试数据')
 
     def teardown(self):
@@ -52,26 +50,52 @@ class TestClass():
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-
-    @allure.title("固件升级")
+    @allure.title("喝水提醒")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    def test_firmwareupdate(self, mcu, resoure, diff):
-        filename_mcu = os.path.basename(mcu)
-        filename_res = os.path.basename(resoure)
-        diff_res = os.path.basename(diff)
+    @pytest.mark.smoke
+    def test_drinkwaterremind(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
-        # if os.path.getsize(diff) != 0:
-        #     self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
-        # else:
-        #     self.app.devices_ota(filename_mcu, '0', '0')
-        self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
+        self.app.click_prompt_box()
+        # self.app.click_prompt_box()
+        self.app.click_prompt_box()
+        self.app.tv_setdrinkwaterremind('{"enable":true,"endTimeHour":23,"endTimeMinute":0,"forbidEnable":true,"forbidEndTimeHour":14,"forbidEndTimeMinute":0,"forbidStartTimeHour":12,"forbidStartTimeMinute":0,"interval":2,"startTimeHour":7,"startTimeMinute":0}')
+        #设置2分钟喝水提醒
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
-        self.app.devices_baileys_init(self.info)
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.saturn_inputclick("50", "300", "50", "300")
+        self.app.assert_getdevicepagename("setting_page")
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.assert_getdevicepagename("setting_notification")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("setting_page")
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_clickDID()
+        count = 1
+        while 'remind' not in self.app.getresult():
+            time.sleep(2)
+            self.app.device_clickDID()
+            if count >= 300:
+                raise
+        self.app.device_home()
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.saturn_inputclick("50", "300", "50", "300")
+        self.app.assert_getdevicepagename("setting_page")
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.saturn_inputclick("160", "300", "160", "300")
+        self.app.assert_getdevicepagename("setting_notification")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("setting_page")
+        self.app.device_home()
+        self.app.device_home()
+
 
 if __name__ == '__main__':
      pytest.main()
