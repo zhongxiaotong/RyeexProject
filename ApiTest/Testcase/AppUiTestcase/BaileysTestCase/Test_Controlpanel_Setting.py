@@ -57,13 +57,13 @@ class TestClass:
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_rightslide()
-        self.assert_getdevicepagename("home_page", "home_id_left")
-        self.saturn_inputclick("60", "400", "60", "400")
-        self.assert_getdevicepagename("setting_page", "list_view")
+        self.app.assert_getdevicepagename("home_page", "home_id_left")
+        self.app.saturn_inputclick("60", "400", "60", "400")
+        self.app.assert_getdevicepagename("setting_page", "list_view")
         self.app.device_home()
-        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.app.assert_getdevicepagename("home_page", "home_id_left")
         self.app.device_home()
-        self.assert_getdevicepagename("home_page", "home_id_surface")
+        self.app.assert_getdevicepagename("home_page", "home_id_surface")
 
 if __name__ == '__main__':
      pytest.main()

@@ -59,8 +59,9 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_longpress()
         self.app.assert_getdevicepagename('face_pick_page', 'slide_view_view')
-        self.app.device_leftslide()
+        self.app.saturn_inputslide("320", "230", "60", "230")
         self.app.saturn_inputclick("160", "160", "160", "160")
+        self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 
 
 if __name__ == '__main__':

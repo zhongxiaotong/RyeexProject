@@ -72,8 +72,6 @@ class TestClass:
         self.app.assert_getdevicepagename("weather", "online_weather")
         self.app.device_upslide()
         self.app.device_upslide()
-        self.app.device_upslide()
-        self.app.device_downslide()
         self.app.device_downslide()
         self.app.device_downslide()
         self.app.device_home()

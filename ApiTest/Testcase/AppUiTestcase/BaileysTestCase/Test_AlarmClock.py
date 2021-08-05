@@ -83,7 +83,7 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("180", "280", "180", "280")
         self.app.assert_getdevicepagename('alarm', 'view_full')
-        self.app.saturn_inputclick("180", "190", "180", "190")
+        self.app.saturn_inputclick("180", "100", "180", "100")
         self.app.assert_getdevicepagename('alarm', 'view_detail')
         self.app.saturn_inputclick("180", "430", "180", "430")
         self.app.assert_getdevicepagename('alarm', 'view_empty')
