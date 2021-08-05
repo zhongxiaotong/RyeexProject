@@ -206,7 +206,7 @@ class App(object):
     def assert_getdeviceshakemode(self, target_shakestatus):
         self.device_shakestatus()
         self.assert_in_text(expecttext='model')
-        if self.getdevice():
+        if self.get_shakestatus():
             shakestatus = self.get_shakestatus()
             try:
                 assert(str(target_shakestatus) in shakestatus)
@@ -221,7 +221,7 @@ class App(object):
     def assert_getdevicesstopwatchstatus(self, target_pausestatus, target_count):
         self.device_stopwatchstatus()
         self.assert_in_text(expecttext='pause_status')
-        if self.getdevice():
+        if self.get_stopwatchstatus():
             pausestatus = self.get_stopwatchstatus()[0]
             count = self.get_stopwatchstatus()[1]
             try:
@@ -272,10 +272,10 @@ class App(object):
                 page_name = text.split(',')[3].split(':')[1]
                 rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
                 view_name = text.split(',')[5].split(':')[1]
-                is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
+                # is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
-                return delta_ms, page_name, rebort_cnt, view_name, is_screen
+                return delta_ms, page_name, rebort_cnt, view_name
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
                 raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -693,7 +693,7 @@ class App(object):
     @allure.step("saturn坐标滑动")
     def saturn_inputslide(self, sx, sy, ex, ey):
         self.assert_connect_status()
-        self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"2000","interval":"50"}')
+        self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"500","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
         self.clear_text()
         self.assert_in_text(expecttext='ok')
