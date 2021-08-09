@@ -40,6 +40,7 @@ class AllTest(object):
         grandfather_path = os.path.abspath(os.path.dirname(current_path))
         self.case_path = father_path + '\\Testcase\\AppUiTestcase'
         self.firmwareUpdate_path = grandfather_path + "\\" + "Testcase\\AppUiTestcase\\FirmwareUpdate.py"
+        self.temp_path = 'C:\\runner\\temp'
     def run(self):
         parser = argparse.ArgumentParser()
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
@@ -48,7 +49,9 @@ class AllTest(object):
         zip_src = os.path.exists(os.path.curdir)
         if not os.path.abspath(zip_src):
             zip_src = os.path.abspath(os.curdir)
-        os.chdir('C:\\runner\\temp')                           #切换临时工作路径
+        if not os.path.abspath(self.temp_path):
+            os.mkdir(self.temp_path)
+        os.chdir(self.temp_path)                           #切换临时工作路径
         result = list(Firmware(zip_src).get_firmware())
         try:
             self.log.info("********TEST START** ******")
