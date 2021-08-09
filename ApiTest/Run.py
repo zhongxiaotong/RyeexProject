@@ -48,6 +48,7 @@ class AllTest(object):
         zip_src = os.path.exists(os.path.curdir)
         if not os.path.abspath(zip_src):
             zip_src = os.path.abspath(os.curdir)
+        os.chdir('C:\\runner\\temp')                           #切换临时工作路径
         result = list(Firmware(zip_src).get_firmware())
         try:
             self.log.info("********TEST START** ******")
