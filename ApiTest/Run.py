@@ -35,6 +35,9 @@ class AllTest(object):
         check_exsit("java.exe")
         hostname = socket.gethostname()
         self.ip = socket.gethostbyname(hostname)
+        current_path = os.path.abspath(__file__)
+        father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep)
+        self.case_path = father_path + '\\Testcase\\AppUiTestcase'
     def run(self):
         parser = argparse.ArgumentParser()
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
@@ -50,7 +53,7 @@ class AllTest(object):
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], path, '--alluredir', './Report/xml'])
-            pytest.main(['-m', taskname, '--alluredir', './Report/xml'])
+            pytest.main(['-m', taskname, self.case_path, '--alluredir', './Report/xml'])
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
         except:
