@@ -197,8 +197,8 @@ class App(object):
                 assert(target_pagename in page_name)
                 assert(target_view in view_name)
             except:
-                self.log.error(u'验证失败：当前页面为%s，预期页面为%s' %(page_name, target_pagename))
-                raise BaseException(u'验证失败：当前页面为%s，预期页面为%s' %(page_name, target_pagename))
+                self.log.error(u'验证失败：当前page_name为%s，view_name为%s；预期page_name为%s,view_name为%s' %(page_name, view_name, target_pagename, target_view ))
+                raise BaseException(u'验证失败：当前page_name为%s，view_name为%s；预期page_name为%s,view_name为%s' %(page_name, view_name, target_pagename, target_view ))
         else:
             self.log.error(u'page_name为空')
             raise BaseException(u'page_name为空')

@@ -37,9 +37,12 @@ class AllTest(object):
         self.ip = socket.gethostbyname(hostname)
     def run(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument("--zippath", type=str, help=u"固件路径", default=None)
+        parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
         args = parser.parse_args()
-        zip_src = args.zippath
+        taskname = args.taskname
+        zip_src = os.path.exists(os.path.curdir)
+        if not os.path.abspath(zip_src):
+            zip_src = os.path.abspath(os.curdir)
         result = list(Firmware(zip_src).get_firmware())
         current_path = os.path.abspath(__file__)
         grandfather_path = os.path.abspath(os.path.dirname(current_path))
@@ -47,7 +50,7 @@ class AllTest(object):
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], path, '--alluredir', './Report/xml'])
-            pytest.main(['-m', 'baileys', '--alluredir', './Report/xml'])
+            pytest.main(['-m', taskname, '--alluredir', './Report/xml'])
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
         except:
