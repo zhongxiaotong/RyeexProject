@@ -63,10 +63,12 @@ class TestClass:
         self.app.assert_getdevicepagename("setting_power_savingmode", "label/btn_cancel/btn_o")
         self.app.saturn_inputclick("270", "400", "270", "400")
         self.app.assert_getdevicepagename("saving_power", "view_show")
-        self.app.devices_click('解绑')
-        time.sleep(100)
-        self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.app.devices_baileys_init(self.info)
+        self.app.device_quit_saving_power()
+        self.app.assert_getdevicepagename("home_page", "home_id_left")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("home_page", "home_id_surface")
+
+
 
 
 if __name__ == '__main__':
