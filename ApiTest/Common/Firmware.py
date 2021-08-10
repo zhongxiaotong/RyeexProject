@@ -50,4 +50,4 @@ class Firmware(object):
         # self.F.remove_file(grandfatherfile + '\\' + self.F.get_pathfiles())
         # self.log.debug(u'删除旧的固件/资源包')
         # print(u'删除旧的固件/资源包')
-        return self.newfilenpath_mcu, self.newfilepath_resource, self.diff_res
+        return self.newfilenpath_mcu, self.newfilepath_resource, self.diff_res, parentfile                       #parentfile 解压包路径

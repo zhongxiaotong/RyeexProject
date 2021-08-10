@@ -40,19 +40,20 @@ class AllTest(object):
         grandfather_path = os.path.abspath(os.path.dirname(current_path))
         self.case_path = father_path + '\\Testcase\\AppUiTestcase'
         self.firmwareUpdate_path = grandfather_path + "\\" + "Testcase\\AppUiTestcase\\FirmwareUpdate.py"
-        self.temp_path = 'C:\\runner\\temp'
+        # self.temp_path = 'C:\\runner\\temp'
     def run(self):
         parser = argparse.ArgumentParser()
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
         args = parser.parse_args()
         taskname = args.taskname
-        zip_src = os.path.exists(os.path.curdir)
+        zip_src = os.path.curdir
         if not os.path.abspath(zip_src):
             zip_src = os.path.abspath(os.curdir)
-        if not os.path.abspath(self.temp_path):
-            os.mkdir(self.temp_path)
-        os.chdir(self.temp_path)                           #切换临时工作路径
+        # if not os.path.abspath(self.temp_path):
+        #     os.mkdir(self.temp_path)
+        # os.chdir(self.temp_path)                           #切换临时工作路径
         result = list(Firmware(zip_src).get_firmware())
+        File(zip_src).rmtree_file(result[3])                #删除解压包
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], self.firmwareUpdate_path, '--alluredir', './Report/xml'])
@@ -67,7 +68,7 @@ class AllTest(object):
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
-                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/3d927bee-4ab5-4b87-8c01-ca1374179b27"
+                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/b79d0ddf-2bc0-4739-af5a-272de35b524e"
                 FeiShutalkChatbot(webhook).send_text(msg)
             os.system('allure serve ./Report/xml --port 22222')
         #
