@@ -59,7 +59,7 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.device_rightslide()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
-        self.app.saturn_inputclick("180", "200", "180", "200")
+        self.app.saturn_inputclick("180", "180", "180", "180")
         self.app.assert_getdevicepagename("setting_power_savingmode", "label/btn_cancel/btn_o")
         self.app.saturn_inputclick("270", "400", "270", "400")
         self.app.assert_getdevicepagename("saving_power", "view_show")

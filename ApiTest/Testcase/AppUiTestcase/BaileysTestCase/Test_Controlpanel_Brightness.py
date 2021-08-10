@@ -62,7 +62,7 @@ class TestClass:
         self.app.saturn_inputclick("60", "250", "60", "250")
         self.app.saturn_inputclick("60", "250", "60", "250")
         self.app.saturn_inputclick("60", "250", "60", "250")
-        self.app.saturn_inputclick("60", "250", "60", "250")
+        # self.app.saturn_inputclick("60", "250", "60", "250")
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_surface")
         self.driver.keyevent(4)
