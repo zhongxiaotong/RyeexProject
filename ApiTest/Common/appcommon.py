@@ -794,6 +794,11 @@ class App(object):
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='获取秒表状态']").click()
         self.assert_notin_text()
 
+    @allure.step("点击退出省电模式")
+    def device_quit_saving_power(self):
+        self.assert_connect_status()
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='退出省电模式']").click()
+        self.assert_in_text(expecttext='ok')
 
     # def bluetooth_error(self):
     #     text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text.encode("utf-8")

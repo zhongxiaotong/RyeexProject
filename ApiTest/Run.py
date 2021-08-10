@@ -53,7 +53,6 @@ class AllTest(object):
         #     os.mkdir(self.temp_path)
         # os.chdir(self.temp_path)                           #切换临时工作路径
         result = list(Firmware(zip_src).get_firmware())
-        File(zip_src).rmtree_file(result[3])                #删除解压包
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], self.firmwareUpdate_path, '--alluredir', './Report/xml'])
@@ -63,6 +62,7 @@ class AllTest(object):
         except:
             self.log.error(u'测试用例执行失败，请检查')
         finally:
+            File(zip_src).rmtree_file(result[3])                #删除解压包
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
             msg = currentdate + '--************--自动化测试报告--************--：http://' + self.ip + ':22222/index.html'
             self.log.info("*********TEST END*********")
