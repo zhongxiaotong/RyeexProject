@@ -61,6 +61,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac1, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []              #定义一个空列表
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -116,6 +117,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac2, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -171,6 +173,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac3, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -336,6 +339,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac4, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -398,6 +402,7 @@ class Testsmoke:
                 self.log.debug(info + '点击确认')
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + '退出运动成功')
+                app.device_home()
                 app.assert_getdevicepagename('home_page', 'home_id_surface')
                 self.log.debug(info + "返回主页面")
             except:
@@ -436,7 +441,7 @@ class Testsmoke:
                     app.adb_pull(uuid, info)
                     driver.keyevent(4)
                     app.devices_click('SATURN_设备')
-                    app.call_back_devices_baileys_init(info)
+                    # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '查看消息详情次数：' + str(i))
                 driver.keyevent(4)
                 app.devices_click('SATURN_APP')
@@ -444,6 +449,10 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
+                app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx' + str(i+1) + '", "title": ' + str(i+1) + '}, "type": "APP_MESSAGE"}')
+                app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx' + str(i+2) + '", "title": ' + str(i+2) + '}, "type": "APP_MESSAGE"}')
+                app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx' + str(i+3) + '", "title": ' + str(i+3) + '}, "type": "APP_MESSAGE"}')
+                app.tv_send_notification('{"appMessage": {"appId": "app.facebook", "text": "reeyx' + str(i+4) + '", "title": ' + str(i+4) + '}, "type": "APP_MESSAGE"}')
                 self.log.debug(info + '发送通知成功')
                 driver.keyevent(4)
                 app.devices_click('SATURN_设备')
@@ -472,7 +481,7 @@ class Testsmoke:
                 self.log.debug(info + '返回主页面成功')
             except:
                 self.log.error(info + '查看消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac5, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac5, self.section, self.port, uuid, info)
 
 
     def smoke6(self):
@@ -491,6 +500,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac6, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -538,7 +548,7 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '运动功能页面上下滑动在第N次运行失败：' + str(i))
-                app.call_back(self.mac6, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac6, self.section, self.port, uuid, info)
 
 
     def smoke7(self):
@@ -557,6 +567,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac7, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -597,10 +608,10 @@ class Testsmoke:
                 self.log.debug(info + '打电话次数' + str(i))
                 driver.keyevent(4)
                 app.devices_click('SATURN_设备')
-                app.assert_getdevicepagename('home_page', 'home_id_surface')
+                app.assert_getdevicepagename('remind', 'view_call')
                 self.log.debug(info + '进入电话提醒页面成功')
                 app.device_home()
-                app.assert_getdevicepagename("spo2", "view_measure")
+                # app.assert_getdevicepagename("spo2", "view_measure")
                 self.log.debug(info + '退出电话震动页面成功')
                 app.device_home()
                 app.assert_getdevicepagename('home_page', 'home_id_down')
@@ -610,7 +621,7 @@ class Testsmoke:
                 self.log.debug(info + "返回主页面")
             except:
                 self.log.error(info + '血氧中发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac7, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac7, self.section, self.port, uuid, info)
 
     def smoke8(self):
         info = "Process-8"
@@ -644,7 +655,7 @@ class Testsmoke:
                     app.adb_pull(uuid, info)
                     driver.keyevent(4)
                     app.devices_click('SATURN_设备')
-                    app.call_back_devices_baileys_init(info)
+                    # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '切换表盘次数：' + str(i))
                 for n in range(1, 4):
                     app.device_longpress()
@@ -672,7 +683,7 @@ class Testsmoke:
                     self.log.debug(info + "退出切换表盘页面成功")
             except:
                 self.log.error(info + '切换表盘在第N次运行失败：' + str(i))
-                app.call_back(self.mac8, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac8, self.section, self.port, uuid, info)
 
     def smoke9(self):
         info = "Process-9"
@@ -706,7 +717,7 @@ class Testsmoke:
                     app.adb_pull(uuid, info)
                     driver.keyevent(4)
                     app.devices_click('SATURN_设备')
-                    app.call_back_devices_baileys_init(info)
+                    # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '滑动屏幕次数：' + str(i))
                 app.device_downslide()
                 app.assert_getdevicepagename('home_page', 'home_id_up')
@@ -715,7 +726,7 @@ class Testsmoke:
                 app.assert_getdevicepagename('home_page', 'home_id_surface')
                 self.log.debug(info + "向上滑动成功")
                 app.device_upslide()
-                app.assert_getdevicepagename('home_page', 'home_id_right')
+                app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "向上滑动成功")
                 app.device_downslide()
                 app.assert_getdevicepagename('home_page', 'home_id_surface')
@@ -726,7 +737,7 @@ class Testsmoke:
                 app.device_leftslide()
                 app.assert_getdevicepagename('home_page', 'home_id_surface')
                 self.log.debug(info + "向左滑动成功")
-                app.device_rightslide()
+                app.device_leftslide()
                 app.assert_getdevicepagename('home_page', 'home_id_right_0')
                 self.log.debug(info + "向左滑动成功")
                 app.device_leftslide()
@@ -752,13 +763,13 @@ class Testsmoke:
                 self.log.debug(info + "向右滑动成功")
             except:
                 self.log.error(info + '滑动屏幕在第N次运行失败：' + str(i))
-                app.call_back(self.mac9, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac9, self.section, self.port, uuid, info)
 
     def smoke10(self):
         info = "Process-10"
         self.port = int(self.init_port) + 18
         self.systemPort = int(self.init_systemPort) + 18
-        uuid = self.uuids[9]
+        uuid = self.uuids[0]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -772,7 +783,9 @@ class Testsmoke:
         for i in range(1, 1000):
             try:
                 self.log.debug(info + '绑定解绑次数：' + str(i))
-                app.devices_bind_ota(self.mac10, self.section, info)
+                self.driver1 = app.devices_bind(self.mac10, self.section, info)
+                app.device_leftslide()
+                self.log.debug(info + "向左滑动成功")
                 app.device_leftslide()
                 self.log.debug(info + "向左滑动成功")
                 app.device_leftslide()
@@ -781,36 +794,28 @@ class Testsmoke:
                 self.log.debug(info + "向右滑动成功")
                 app.device_rightslide()
                 self.log.debug(info + "向右滑动成功")
-                if "page_name" in app.getresult():
-                    self.log.debug(info + u'绑定成功')
-                    if app.object_exist("解绑"):
-                        app.find_elementby(By.XPATH, "//*[@text='解绑']").click()
-                    self.log.debug(info + u'解绑成功')
-                    time.sleep(10)
-                    self.driver.keyevent(4)
-                    self.driver.keyevent(4)
-                    time.sleep(20)
-                    self.log.debug(info + u'等待设备重启成功')
-                else:
-                    self.log.error(info + u'绑定失败')
+                app.device_rightslide()
+                self.log.debug(info + "向右滑动成功")
+                app.devices_click('解绑')
+                self.log.debug(info + u'解绑成功')
+                time.sleep(10)
+                self.driver1.keyevent(4)
+                self.driver1.keyevent(4)
+                time.sleep(30)
+                self.log.debug(info + u'等待设备重启')
             except:
                 self.log.error(info + u'绑定解绑在第N次运行失败：' + str(i))
                 if app.object_exist(u"绑定失败"):
                     self.log.error(info + u'绑定失败')
-                    self.driver.keyevent(4)
-                # self.driver.quit()
-                # self.log.debug(info + '结束IDT进程')
-                # time.sleep(5)
-                self.driver = app.open_application(self.port)
+                self.driver1 = app.open_application(self.port)
                 self.log.debug(info + '启动IDT')
-                self.log.debug(info + '-----------异常处理结束----------')
 
 
     def smoke11(self):
         info = "Process-11"
         self.port = int(self.init_port) + 20
         self.systemPort = int(self.init_systemPort) + 20
-        uuid = self.uuids[10]
+        uuid = self.uuids[0]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -829,13 +834,13 @@ class Testsmoke:
                 time.sleep(60)
             except:
                 self.log.error(info + '重启在第N次运行失败：' + str(i))
-                app.call_back(self.mac11, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac11, self.section, self.port, uuid, info)
 
     def smoke12(self):
         info = "Process-12"
         self.port = int(self.init_port) + 22
         self.systemPort = int(self.init_systemPort) + 22
-        uuid = self.uuids[11]
+        uuid = self.uuids[0]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -845,9 +850,9 @@ class Testsmoke:
         App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
         app = App(self.desired_cap)
         time.sleep(5)
-        driver = app.open_application(self.port)
+        self.driver = app.open_application(self.port)
         app.devices_bind(self.mac12, self.section, info)
-        size = driver.get_window_size()
+        size = self.driver.get_window_size()
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -858,15 +863,15 @@ class Testsmoke:
                 app.get_rebort_cnts(rebort_cnts, info)
                 if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
                     self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
-                    driver.keyevent(4)
+                    self.driver.keyevent(4)
                     app.devices_click('SATURN_APP')
                     app.tv_getDevicesLog()
                     app.adb_pull(uuid, info)
-                    driver.keyevent(4)
+                    self.driver.keyevent(4)
                     app.devices_click('SATURN_设备')
-                    app.call_back_devices_baileys_init(info)
+                    # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '安装表盘发送消息次数：' + str(i))
-                driver.keyevent(4)
+                self.driver.keyevent(4)
                 app.devices_click('SATURN_APP')
                 app.click_prompt_box()
                 app.click_prompt_box()
@@ -880,16 +885,17 @@ class Testsmoke:
                 time.sleep(30)
                 app.tv_deleteSurface()
                 self.log.debug(info + '删除表盘')
-                driver.keyevent(4)
+                self.driver.keyevent(4)
+                app.devices_click('SATURN_设备')
             except:
                 self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
-                app.call_back(self.mac12, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac12, self.section, self.port, uuid, info)
 
     def smoke13(self):
         info = "Process-13"
         self.port = int(self.init_port) + 24
         self.systemPort = int(self.init_systemPort) + 24
-        uuid = self.uuids[12]
+        uuid = self.uuids[0]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -918,7 +924,7 @@ class Testsmoke:
                     app.adb_pull(uuid, info)
                     driver.keyevent(4)
                     app.devices_click('SATURN_设备')
-                    app.call_back_devices_baileys_init(info)
+                    # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '安装表盘断开蓝牙次数：' + str(i))
                 driver.keyevent(4)
                 app.devices_click('SATURN_APP')
@@ -929,15 +935,18 @@ class Testsmoke:
                 self.log.debug(info + '安装表盘')
                 time.sleep(10)
                 app.tv_bluetoothcontrol()
+                app.click_prompt_box()
                 self.log.debug(info + '断开蓝牙')
                 app.tv_bluetoothcontrol()
+                app.click_prompt_box()
                 self.log.debug(info + '打开蓝牙')
-                time.sleep(60)
+                time.sleep(30)
                 if app.object_exist('SATURN_APP'):
                     app.devices_click('SATURN_APP')
                 app.connect_status()
                 app.devices_installsurface()
                 self.log.debug(info + '重新安装表盘')
+                time.sleep(10)
                 app.tv_deleteSurface()
                 self.log.debug(info + '删除表盘')
                 driver.keyevent(4)
@@ -951,13 +960,13 @@ class Testsmoke:
                 self.log.debug(info + '选择表盘')
             except:
                 self.log.error(info + '安装表盘断开蓝牙在第N次运行失败：' + str(i))
-                app.call_back(self.mac13, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac13, self.section, self.port, uuid, info)
 
     def smoke14(self):
         info = "Process-14"
         self.port = int(self.init_port) + 26
         self.systemPort = int(self.init_systemPort) + 26
-        uuid = self.uuids[13]
+        uuid = self.uuids[0]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -969,6 +978,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac14, self.section, info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -993,15 +1003,16 @@ class Testsmoke:
                 app.saturn_inputclick("180", "180", "180", "180")
                 app.assert_getdevicepagename("sport_list", "view_all_type")
                 self.log.debug(info + '点击运动icon成功')
-                app.saturn_inputclick("180", "230", "180", "230")
+                app.device_upslide()
+                self.log.debug(info + '向上滑动成功')
+                app.saturn_inputclick("180", "100", "180", "100")
                 app.assert_getdevicepagename("sport_list", "view_gps_start")
-                self.log.debug(info + '点击IndoorRun')
+                self.log.debug(info + '点击力量训练')
                 app.saturn_inputclick("180", "230", "180", "230")
                 time.sleep(3)
                 app.assert_getdevicepagename("sports", "view_calculate_show")
                 self.log.debug(info + '点击Start')
-                time.sleep(200)
-                app.device_home()
+                time.sleep(150)
                 app.device_home()
                 app.assert_getdevicepagename("sports", "view_pause")
                 self.log.debug(info + '退出运动模式')
@@ -1015,7 +1026,7 @@ class Testsmoke:
                 self.log.debug(info + '返回表盘页面')
             except:
                 self.log.error(info + '进出运动（室内）在第N次运行失败：' + str(i))
-                app.call_back(self.mac14, self.section, self.port, uuid, info)
+                app.call_back_baileys(self.mac14, self.section, self.port, uuid, info)
 
 
 
@@ -1028,11 +1039,13 @@ if __name__ == '__main__':
     # t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
     # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
-    t8 = multiprocessing.Process(target=Testsmoke().smoke8)
-    t9 = multiprocessing.Process(target=Testsmoke().smoke9)
+    # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
+    # t9 = multiprocessing.Process(target=Testsmoke().smoke9)
     # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
     # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
+    # t13 = multiprocessing.Process(target=Testsmoke().smoke13)
+    t14 = multiprocessing.Process(target=Testsmoke().smoke14)
     # multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
@@ -1041,10 +1054,12 @@ if __name__ == '__main__':
     # multiprocessings.append(t6)
     # multiprocessings.append(t7)
     # multiprocessings.append(t8)
-    multiprocessings.append(t9)
+    # multiprocessings.append(t9)
     # multiprocessings.append(t10)
     # multiprocessings.append(t11)
     # multiprocessings.append(t12)
+    # multiprocessings.append(t13)
+    multiprocessings.append(t14)
     for t in multiprocessings:
         t.start()
 

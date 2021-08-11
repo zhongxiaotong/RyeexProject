@@ -41,6 +41,7 @@ class AllTest(object):
         self.case_path = father_path + '\\Testcase\\AppUiTestcase'
         self.firmwareUpdate_path = grandfather_path + "\\" + "Testcase\\AppUiTestcase\\FirmwareUpdate.py"
         # self.temp_path = 'C:\\runner\\temp'
+
     def run(self):
         parser = argparse.ArgumentParser()
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
@@ -51,7 +52,7 @@ class AllTest(object):
             zip_src = os.path.abspath(os.curdir)
         # if not os.path.abspath(self.temp_path):
         #     os.mkdir(self.temp_path)
-        # os.chdir(self.temp_path)                           #切换临时工作路径
+        # os.chdir(self.temp_path)           https://github.com/ryeex/Automation_Test.git                #切换临时工作路径
         result = list(Firmware(zip_src).get_firmware())
         try:
             self.log.info("********TEST START** ******")
@@ -70,13 +71,11 @@ class AllTest(object):
             if on_off == 'on':
                 webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/b79d0ddf-2bc0-4739-af5a-272de35b524e"
                 FeiShutalkChatbot(webhook).send_text(msg)
+            elif on_off == 'off':
+                self.log.info("Doesn't send report feishu to developer.")
+            else:
+                self.log.info("Unknow state.")
             os.system('allure serve ./Report/xml --port 22222')
-        #
-        #
-        #     elif on_off == u'off':
-        #         self.logger.info("Doesn't send report email to developer.")
-        #     else:
-        #         self.logger.info("Unknow state.")
 
 
 if __name__ == '__main__':
