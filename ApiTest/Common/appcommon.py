@@ -11,6 +11,7 @@ import Log
 from selenium.webdriver.common.by import By
 import time
 import allure
+import datetime
 from appium.webdriver.common.touch_action import TouchAction
 import random
 import os
@@ -614,10 +615,11 @@ class App(object):
     @staticmethod
     def adb_pull(uuid, info):
         A = log_path + '\\' + info
+        currentdate = datetime.datetime.now().strftime('%Y%m%d')
         if not os.path.isdir(A):
             os.mkdir(A)
         try:
-            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info)
+            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info + '\\' + currentdate)
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
@@ -1054,12 +1056,14 @@ class App(object):
         self.saturn_inputclick("180", "270", "180", "270")
         self.log.debug(info + '设备初始化-点击Notification')
         self.assert_getdevicepagename("setting_notification", "list_view")
+        self.saturn_inputclick("180", "100", "180", "100")
+        self.log.debug(info + '设备初始化-点击Sedentary')
         self.saturn_inputclick("180", "190", "180", "190")
         self.log.debug(info + '设备初始化-点击GoalAchieved')
         self.saturn_inputclick("180", "270", "180", "270")
         self.log.debug(info + '设备初始化-点击Drink')
-        self.saturn_inputclick("180", "420", "180", "420")
-        self.log.debug(info + '设备初始化-点击HeartRate')
+        # self.saturn_inputclick("180", "420", "180", "420")
+        # self.log.debug(info + '设备初始化-点击HeartRate')
         self.device_home()
         self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-点击home键')

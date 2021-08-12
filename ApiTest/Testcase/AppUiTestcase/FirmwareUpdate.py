@@ -28,7 +28,7 @@ class TestClass():
         self.log = MyLog()
         self.desired_caps = Yamlc(yaml_path).get_yaml_data(1, "Model", "desired_caps")
         self.mac = Yamlc(yaml_path).get_yaml_data(2, "Model", "mac")
-        self.fuction = 'SATURN_设备'
+        self.fuction = 'SATURN_APP'
         self.info = "Process-1"
         self.init_port = 4723
         self.init_systemPort = 8200
@@ -62,8 +62,6 @@ class TestClass():
         diff_res = os.path.basename(diff)
         self.driver1 = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        self.driver1.keyevent(4)
-        self.app.devices_click('SATURN_APP')
         # if os.path.getsize(diff) != 0:
         #     self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
         # else:
