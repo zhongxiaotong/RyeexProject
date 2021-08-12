@@ -615,11 +615,11 @@ class App(object):
     @staticmethod
     def adb_pull(uuid, info):
         A = log_path + '\\' + info
-        currentdate = datetime.datetime.now().strftime('%Y%m%d')
+        # currentdate = datetime.datetime.now().strftime('%Y%m%d')
         if not os.path.isdir(A):
             os.mkdir(A)
         try:
-            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info + '\\' + currentdate)
+            os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info)
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
@@ -878,7 +878,7 @@ class App(object):
             self.devices_click(mac)
             self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
-            self.devices_click(selection)
+            self.devices_click('SATURN_设备')
             # self.devices_inputclick("280", "280", "280", "280")
             self.devices_inputclick("270", "400", "270", "400")
             self.driver.keyevent(4)
