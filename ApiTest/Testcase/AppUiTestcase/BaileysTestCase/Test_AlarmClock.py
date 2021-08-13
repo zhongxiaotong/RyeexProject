@@ -56,7 +56,7 @@ class TestClass:
     def test_alarmclock(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        # self.app.devices_baileys_init(self.info)
+        self.app.devices_baileys_init(self.info)
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.saturn_inputclick("180", "280", "180", "280")
@@ -74,6 +74,7 @@ class TestClass:
         count = 1
         while 'remind' not in self.app.getresult():
             time.sleep(10)
+            count += 1
             self.app.device_clickDID()
             if count >= 60:
                 raise

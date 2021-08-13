@@ -70,7 +70,7 @@ class TestClass():
         # self.app.devices_ota(filename_mcu, filename_res, '1')             #全资源升级
         self.driver1.keyevent(4)
         self.app.devices_click('SATURN_设备')
-        self.app.devices_baileys_init(self.info)
+        # self.app.devices_baileys_init(self.info)
 
 if __name__ == '__main__':
      pytest.main()
