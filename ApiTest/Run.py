@@ -61,9 +61,10 @@ class AllTest(object):
         except:
             self.log.error(u'测试用例执行失败，请检查')
         finally:
+            version = os.path.basename(result[0])
             File(zip_src).rmtree_file(result[3])                #删除解压包
             currentdate = datetime.datetime.now().strftime('%Y-%m-%d')
-            msg = currentdate + '--************--自动化测试报告--************--：http://' + self.ip + ':22222/index.html'
+            msg = currentdate + '-' + taskname + version + '版本测试报告：http://' + self.ip + ':22222/index.html'
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
