@@ -56,6 +56,7 @@ class TestClass():
     @allure.title("固件升级：全资源升级")
     @allure.story("正常流程")
     @allure.severity('blocker')
+    @pytest.mark.ota
     def test_firmwareupdate(self, mcu, resoure, diff):
         filename_mcu = os.path.basename(mcu)
         filename_res = os.path.basename(resoure)
