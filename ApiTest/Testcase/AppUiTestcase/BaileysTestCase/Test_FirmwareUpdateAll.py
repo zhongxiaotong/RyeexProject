@@ -16,7 +16,7 @@ from ApiTest.Common.Diff import *
 from selenium.webdriver.common.by import By
 
 current_path = os.path.abspath(__file__)
-father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
+father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
