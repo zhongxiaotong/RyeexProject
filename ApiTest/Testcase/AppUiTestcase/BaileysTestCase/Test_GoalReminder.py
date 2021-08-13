@@ -1,9 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# @Time : 2021/6/23 12:06
+# @Time : 2021/8/13 11:35
 # @Author : Greey
-# @FileName: Test_ZGetDevicesLog.py
-
+# @FileName: Test_GoalReminder.py
 
 import pytest
 import os
@@ -20,7 +19,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('1:获取baileys设备日志')
+@allure.description('1：设置目标提醒为5000步；2：向上滑动，点击设置icon，打开目标提醒；3：增加步数，检查是否有目标提醒页面；4：关闭目标提醒；5：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")
@@ -35,7 +34,6 @@ class TestClass:
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
         uuid = self.uuids[0]
-        self.uuid = uuid
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(self.info + "设备ID:" + uuid)
         print(self.info + "安卓版本:" + andriod_version)
@@ -51,11 +49,11 @@ class TestClass:
         # self.app.close_app()                                                                                           #关闭App
         print("Test End")
 
-    @allure.title("获取baileys设备日志")
+    @allure.title("目标提醒")
     @allure.story("正常流程")
     @allure.severity('blocker')
     @pytest.mark.baileys
-    def test_getdeviceslog(self):
+    def test_goalremind(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.driver.keyevent(4)
@@ -63,13 +61,46 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
-        self.app.tv_getDevicesLog()
-        self.app.adb_pull(self.uuid, self.info)
-        filepath = self.app.getdevices_logpath(self.info)
-        allure.attach.file(filepath, name="设备日志",  attachment_type=allure.attachment_type.CSV)
-        os.remove(filepath)
-
-
+        self.app.tv_setgoalstep('5000')
+        self.driver.keyevent(4)
+        self.app.devices_click('SATURN_设备')
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.saturn_inputclick("320", "400", "320", "400")
+        self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.saturn_inputclick("180", "270", "180", "270")
+        self.app.assert_getdevicepagename("setting_notification", "list_view")
+        self.app.saturn_inputclick("180", "190", "180", "190")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_surface')
+        self.app.device_addstep('5000')
+        self.app.device_clickDID()
+        count = 1
+        while 'remind' not in self.app.getresult():
+            time.sleep(0.5)
+            self.app.device_clickDID()
+            if count >= 300:
+                raise
+        self.app.device_home()
+        self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.saturn_inputclick("320", "400", "320", "400")
+        self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.saturn_inputclick("180", "270", "180", "270")
+        self.app.assert_getdevicepagename("setting_notification", "list_view")
+        self.app.saturn_inputclick("180", "190", "180", "190")
+        self.app.device_home()
+        self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 
 
 if __name__ == '__main__':

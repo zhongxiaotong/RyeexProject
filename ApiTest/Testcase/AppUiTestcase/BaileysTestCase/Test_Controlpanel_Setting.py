@@ -19,7 +19,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('控制面板-进入设置页面')
+@allure.description('1：向右滑动进入控制面板，点击设置；2：检查是否进入设置页面；3：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

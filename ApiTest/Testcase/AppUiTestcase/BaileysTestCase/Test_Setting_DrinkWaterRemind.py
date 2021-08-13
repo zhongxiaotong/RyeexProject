@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('喝水提醒')
+@allure.description('1：设置喝水提醒为2分钟；2：向上滑动，点击设置icon，打开喝水提醒；3：检查是否有喝水提醒页面；4：关闭喝水提醒；5：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

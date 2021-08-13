@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('应用消息（微信，facebook）提醒')
+@allure.description('1：发送应用消息（微信）提醒；2：检查是否有消息提醒页面；3：发送应用消息（facebook）提醒；4：检查是否有消息提醒页面')
 class TestClass:
     def setup(self):
         print("Test Start")

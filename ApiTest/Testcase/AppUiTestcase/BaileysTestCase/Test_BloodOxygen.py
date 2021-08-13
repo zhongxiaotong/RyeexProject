@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('血氧测试')
+@allure.description('1：向上滑动，点击血氧icon；2：等待15秒，测试血氧；3：检查设备是否有初始血氧值；4：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

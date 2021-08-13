@@ -19,7 +19,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('闹钟设置')
+@allure.description('1：向上滑动，点击闹钟icon；2：设置一个2分钟后的闹钟；3：检查是否存在闹钟提醒页面；4：删除闹钟；5：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

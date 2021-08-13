@@ -37,9 +37,7 @@ class AllTest(object):
         self.ip = socket.gethostbyname(hostname)
         current_path = os.path.abspath(__file__)
         father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep)
-        grandfather_path = os.path.abspath(os.path.dirname(current_path))
         self.case_path = father_path + '\\Testcase\\AppUiTestcase'
-        self.firmwareUpdate_path = grandfather_path + "\\" + "Testcase\\AppUiTestcase\\FirmwareUpdate.py"
         # self.temp_path = 'C:\\runner\\temp'
 
     def run(self):
@@ -56,7 +54,7 @@ class AllTest(object):
         result = list(Firmware(zip_src).get_firmware())
         try:
             self.log.info("********TEST START** ******")
-            pytest.main(['-s', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], self.firmwareUpdate_path, '--alluredir', './Report/xml'])
+            pytest.main(['-m', 'ota', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], self.case_path, '--alluredir', './Report/xml'])
             pytest.main(['-m', taskname, self.case_path, '--alluredir', './Report/xml'])
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
             os.system('allure generate ./Report/xml -o ./Report/html --clean')                 #将报告转换成HTML
@@ -69,7 +67,7 @@ class AllTest(object):
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
-                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/b79d0ddf-2bc0-4739-af5a-272de35b524e"
+                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/edd61d98-359a-40a2-a44a-528183c7a0ed"
                 FeiShutalkChatbot(webhook).send_text(msg)
             elif on_off == 'off':
                 self.log.info("Doesn't send report feishu to developer.")

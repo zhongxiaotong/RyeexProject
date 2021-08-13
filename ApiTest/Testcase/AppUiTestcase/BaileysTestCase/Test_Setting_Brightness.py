@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('屏幕亮度')
+@allure.description('1：向上滑动，点击设置icon；2：设置屏幕亮度（最高）；3：检查屏幕亮度是否为HIGH；4：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

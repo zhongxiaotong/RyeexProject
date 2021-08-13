@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('控制面板-省电模式')
+@allure.description('1：向右滑动进入控制面板，点击省电模式；2：检查是否进入省电模式；3：退出省电模式；4：返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

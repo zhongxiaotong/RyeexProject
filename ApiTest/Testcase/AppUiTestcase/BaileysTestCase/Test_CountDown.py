@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('倒计时')
+@allure.description('1：向上滑动，点击倒计时icon；2：点击一分钟倒计时；3：检查是否有倒计时提醒页面；4:返回表盘页面')
 class TestClass:
     def setup(self):
         print("Test Start")

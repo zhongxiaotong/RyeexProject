@@ -20,7 +20,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('查看天气')
+@allure.description('1：上传本地天气预报资源；2：上下滑动查看天气')
 class TestClass:
     def setup(self):
         print("Test Start")

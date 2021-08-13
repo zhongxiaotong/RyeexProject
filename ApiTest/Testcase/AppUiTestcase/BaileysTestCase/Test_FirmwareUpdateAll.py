@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/7/9 11:19
 # @Author : Greey
-# @FileName: FirmwareUpdate.py
+# @FileName: Test_FirmwareUpdateAll.py
 
 import pytest
 import os
