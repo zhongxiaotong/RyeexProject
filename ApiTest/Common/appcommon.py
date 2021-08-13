@@ -622,7 +622,7 @@ class App(object):
             os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info)
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
-            os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
+            # os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
         except:
             raise ValueError(u"Copy文件到电脑失败")
 
@@ -675,7 +675,7 @@ class App(object):
         self.close_setting()
 
 ###-------------------------------------------------------------------业务脚本----------------------------------------------------------------------###
-    @allure.step("saturn坐标输入")
+    @allure.step("设备输入坐标点击")
     def saturn_inputclick(self, sx, sy, ex, ey):
         self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
@@ -692,7 +692,7 @@ class App(object):
         self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
 
-    @allure.step("saturn坐标滑动")
+    @allure.step("设备输入坐标滑动")
     def saturn_inputslide(self, sx, sy, ex, ey):
         self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"500","interval":"50"}')
@@ -800,6 +800,14 @@ class App(object):
     def device_quit_saving_power(self):
         self.assert_connect_status()
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='退出省电模式']").click()
+        self.assert_in_text(expecttext='ok')
+
+    @allure.step("设备增加步数：{step}")
+    def device_addstep(self, step):
+        self.assert_connect_status()
+        self.input_data(step)
+        self.find_elementby(By.XPATH, "//android.widget.Button[@text='增加步数']").click()
+        self.clear_text()
         self.assert_in_text(expecttext='ok')
 
     # def bluetooth_error(self):
@@ -1544,6 +1552,13 @@ class App(object):
     def tv_getUnlock(self, keyword):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="获取解锁方式"]').click()
         self.assert_in_text(keyword)
+
+    @allure.step("设置目标步数")
+    def tv_setgoalstep(self, value):
+        self.input_data(value)
+        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="设置目标步数"]').click()
+        self.assert_notin_text()
+        self.clear_text()
 
     @allure.step("解绑")
     def tv_unbind(self):

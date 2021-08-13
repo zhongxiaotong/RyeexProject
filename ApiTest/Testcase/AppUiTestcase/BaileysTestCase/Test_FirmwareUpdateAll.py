@@ -21,7 +21,7 @@ yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 
 @allure.epic("设备自动化")
 @allure.feature('模拟设备端业务流程')
-@allure.description('固件升级')
+@allure.description('全资源升级，最新版本')
 class TestClass():
     def setup(self):
         print("Test Start")
@@ -53,7 +53,7 @@ class TestClass():
         print("Test End")
 
 
-    @allure.title("固件升级")
+    @allure.title("固件升级：全资源升级")
     @allure.story("正常流程")
     @allure.severity('blocker')
     def test_firmwareupdate(self, mcu, resoure, diff):
