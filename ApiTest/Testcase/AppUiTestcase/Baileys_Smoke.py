@@ -639,6 +639,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac8, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -906,7 +907,7 @@ class Testsmoke:
         app = App(self.desired_cap)
         time.sleep(5)
         driver = app.open_application(self.port)
-        app.devices_bind_ota(self.mac13, self.section, info)
+        app.devices_bind(self.mac13, self.section, info)
         size = driver.get_window_size()
         rebort_cnts = []
         app.device_clickDID()

@@ -622,7 +622,7 @@ class App(object):
             os.system('adb -s ' + str(uuid) + ' pull /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log ' + log_path + '\\' + info)
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Device_Log&&exit")
             os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Logger&&exit")
-            # os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
+            os.system("adb shell rm -r /sdcard/Android/data/com.ryeex.sdk.demo/files/Update_File&&exit")
         except:
             raise ValueError(u"Copy文件到电脑失败")
 
