@@ -702,6 +702,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac9, self.section, info)
+        app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
