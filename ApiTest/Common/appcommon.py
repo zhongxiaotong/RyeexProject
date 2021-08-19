@@ -218,6 +218,20 @@ class App(object):
             self.log.error(u'shakestatus为空')
             raise BaseException(u'shakestatus为空')
 
+    def assert_deviceisscreen(self, target_screenstatus):
+        self.device_clickDID()
+        self.assert_in_text(expecttext='page_name')
+        if self.getdevice():
+            screenstatus = self.getdevice()[4]
+            try:
+                assert(str(target_screenstatus) in screenstatus)
+            except:
+                self.log.error(u'验证失败：当前页面为%s，预期页面为%s' %(screenstatus, target_screenstatus))
+                raise BaseException(u'验证失败：当前页面为%s，预期页面为%s' %(screenstatus, target_screenstatus))
+        else:
+            self.log.error(u'screenstatus为空')
+            raise BaseException(u'screenstatus为空')
+
 
     def assert_getdevicesstopwatchstatus(self, target_pausestatus, target_count):
         self.device_stopwatchstatus()
@@ -273,10 +287,14 @@ class App(object):
                 page_name = text.split(',')[3].split(':')[1]
                 rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
                 view_name = text.split(',')[5].split(':')[1]
+                if text.split(',')[6].split(':')[1]:
+                    is_screen = text.split(',')[6].split(':')[1]
+                    return delta_ms, page_name, rebort_cnt, view_name, is_screen
                 # is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
-                return delta_ms, page_name, rebort_cnt, view_name
+                else:
+                    return delta_ms, page_name, rebort_cnt, view_name
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
                 raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -892,7 +910,7 @@ class App(object):
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
-            # self.devices_init(info)
+            # self.devices_baileys_init(info)
 
     @allure.step("OTA绑定设备")
     def devices_bind_ota(self, mac, selection, info):
@@ -1192,7 +1210,7 @@ class App(object):
         while True:
             time.sleep(1)
             count += 1
-            if count >= 100:
+            if count >= 500:
                 self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                 raise BaseException('回连失败')
             if self.object_exist(mac + "  已连接"):
