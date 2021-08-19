@@ -45,6 +45,7 @@ class Testsmoke:
         self.mac12 = 'CC:CC:CC:CC:BB:E5'
         self.mac13 = 'CC:CC:CC:CC:BB:E5'
         self.mac14 = 'CC:CC:CC:CC:BB:E5'
+        self.mac15 = '2C:AA:8E:09:D1:31'
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -1031,6 +1032,48 @@ class Testsmoke:
                 app.call_back_baileys(self.mac14, self.section, self.port, uuid, info)
 
 
+    def smoke15(self):
+        info = "Process-15"
+        self.port = int(self.init_port) + 28
+        self.systemPort = int(self.init_systemPort) + 28
+        uuid = self.uuids[0]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
+        print(info + "设备ID:" + uuid)
+        print(info + "安卓版本:" + andriod_version)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
+        time.sleep(5)
+        driver = app.open_application(self.port)
+        app.devices_bind(self.mac15, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
+        for i in range(1, 1000):
+            try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                app.get_rebort_cnts(rebort_cnts, info)
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
+                    app.call_back_devices_baileys_init(info)
+                self.log.debug(info + '亮屏次数：' + str(i))
+                app.device_upslide()
+                app.device_home()
+                app.assert_deviceisscreen(1)
+                time.sleep(3)
+                app.assert_deviceisscreen(0)
+            except:
+                self.log.error(info + '亮屏在第N次运行失败：' + str(i))
+                app.call_back_baileys(self.mac15, self.section, self.port, uuid, info)
 
 if __name__ == '__main__':
     multiprocessings = []
@@ -1047,7 +1090,8 @@ if __name__ == '__main__':
     # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
     # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
     # t13 = multiprocessing.Process(target=Testsmoke().smoke13)
-    t14 = multiprocessing.Process(target=Testsmoke().smoke14)
+    # t14 = multiprocessing.Process(target=Testsmoke().smoke14)
+    t15 = multiprocessing.Process(target=Testsmoke().smoke15)
     # multiprocessings.append(t1)
     # multiprocessings.append(t2)
     # multiprocessings.append(t3)
@@ -1061,7 +1105,8 @@ if __name__ == '__main__':
     # multiprocessings.append(t11)
     # multiprocessings.append(t12)
     # multiprocessings.append(t13)
-    multiprocessings.append(t14)
+    # multiprocessings.append(t14)
+    multiprocessings.append(t15)
     for t in multiprocessings:
         t.start()
 

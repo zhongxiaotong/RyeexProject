@@ -9,6 +9,7 @@ import argparse
 import time
 import subprocess
 import multiprocessing
+import sys
 
 class Repater(object):
     def __init__(self):
@@ -20,8 +21,13 @@ class Repater(object):
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
         args = parser.parse_args()
         taskname = args.taskname
-        os.popen("start python " + self.father_path + "\\Run.py --taskname " + taskname)
-        os.popen('pause')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            raise
+        finally:
+            os.popen("start python " + self.father_path + "\\Run.py --taskname " + taskname)
+            os.popen('pause')
 
 if __name__ == '__main__':
     t = multiprocessing.Process(target=Repater().repeater)
