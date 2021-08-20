@@ -213,8 +213,8 @@ class FirmResourceObject:
         return output
 
 def diff_res(source_bin, target_bin, save_bin):
-    readfile(source_bin)
-    readfile(source_bin)
+    source_bin = readfile(source_bin)
+    target_bin = readfile(target_bin)
     data = calculate_firmware_diffv(source_bin, target_bin)
     writefile(save_bin, data)
 

@@ -61,7 +61,7 @@ class TestClass:
         self.app.saturn_inputclick("180", "180", "180", "180")
         self.app.assert_getdevicepagename("sport_list", "view_all_type")
         self.app.device_upslide()
-        self.app.saturn_inputclick("180", "100", "180", "100")
+        self.app.saturn_inputclick("180", "180", "180", "180")
         self.app.assert_getdevicepagename("sport_list", "view_gps_start")
         self.app.saturn_inputclick("180", "230", "180", "230")
         time.sleep(3)
