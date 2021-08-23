@@ -21,7 +21,7 @@ def check_exsit(process_name):                                                  
     WMI = win32com.client.GetObject('winmgmts:')
     processCodeCov = WMI.ExecQuery('select * from Win32_Process where Name="%s"' % process_name)
     if len(processCodeCov) > 0:
-        os.system('TASKKILL /F /IM "%s"' % process_name)
+        os.system('TASKKILL /F /T /IM "%s"' % process_name)
         print '%s is exists' % process_name
     else:
         print '%s is not exists' % process_name
