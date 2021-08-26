@@ -68,7 +68,7 @@ class AllTest(object):
             self.log.info("*********TEST END*********")
             # send test report by feishu
             if on_off == 'on':
-                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/edd61d98-359a-40a2-a44a-528183c7a0ed"
+                webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/8dcfa304-0d45-4bf2-8a2d-d38b45867101"
                 FeiShutalkChatbot(webhook).send_text(msg)
             elif on_off == 'off':
                 self.log.info("Doesn't send report feishu to developer.")
