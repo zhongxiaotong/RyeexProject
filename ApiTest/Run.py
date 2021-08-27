@@ -3,7 +3,7 @@
 # @Author : Greey
 # @FileName: Run.py
 
-import os
+import os, ctypes, sys
 import win32com.client
 from Common.Log import MyLog
 import pytest
@@ -17,14 +17,27 @@ from Common.Firmware import Firmware
 # C = ReadConfig()
 # on_off = C.get_configdata("EMAIL", "on_off")
 
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+def admin_cmd(cmd):                                                             #获取管理员权限
+    if is_admin():
+        os.system(cmd)
+    else:
+        ctypes.windll.shell32.ShellExecuteW(None, u"runas", unicode(sys.executable), unicode(__file__), None, 1)
+
 def check_exsit(process_name):                                                                                        #判断某个进程是否存在
     WMI = win32com.client.GetObject('winmgmts:')
     processCodeCov = WMI.ExecQuery('select * from Win32_Process where Name="%s"' % process_name)
+    # ctypes.windll.shell32.ShellExecuteW(None, u"runas", unicode(sys.executable), unicode(__file__), None, 1)
     if len(processCodeCov) > 0:
-        os.system('TASKKILL /F /T /IM "%s"' % process_name)
-        print '%s is exists' % process_name
+        admin_cmd('TASKKILL /F /T /IM "%s"' % process_name)
+        print(u'结束' + process_name +u'进程')
     else:
-        print '%s is not exists' % process_name
+        print(process_name + u'进程不存在')
 
 class AllTest(object):
 
