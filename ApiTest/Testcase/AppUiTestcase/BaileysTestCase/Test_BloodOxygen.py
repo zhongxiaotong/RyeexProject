@@ -62,6 +62,11 @@ class TestClass:
         self.app.saturn_inputclick("300", "50", "300", "50")
         self.app.assert_getdevicepagename("spo2", "view_measure")
         time.sleep(15)
+        self.app.device_home()
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_home()
+        self.app.assert_getdevicepagename('home_page', 'home_id_surface')
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
         self.app.click_prompt_box()
@@ -74,13 +79,6 @@ class TestClass:
             pass
         else:
             raise
-        self.driver.keyevent(4)
-        self.app.devices_click('SATURN_设备')
-        self.app.device_home()
-        self.app.device_home()
-        self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.device_home()
-        self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 
 if __name__ == '__main__':
      pytest.main()
