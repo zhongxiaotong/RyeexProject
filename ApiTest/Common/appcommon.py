@@ -1074,7 +1074,7 @@ class App(object):
         self.saturn_inputclick("180", "390", "180", "390")
         self.log.debug(info + '设备初始化-点击确认')
         self.assert_getdevicepagename("setting_display", "list_view")
-        self.saturn_inputclick("180", "230", "180", "230")
+        self.saturn_inputclick("180", "280", "180", "280")
         self.log.debug(info + '设备初始化-点击RaiseToWake')
         self.device_home()
         self.assert_getdevicepagename("setting_page", "list_view")

@@ -16,7 +16,7 @@ class Firmware(object):
         F = File(zip_src)
         self.F = F
         src = F.rename_zipname()
-        self.newfilenpath_mcu = src[0]
+        self.newfilepath_mcu = src[0]
         self.newfilepath_resource = src[1]
         self.log.debug(u'解压zip包并且重命名')
 
@@ -26,7 +26,7 @@ class Firmware(object):
         parentfile = os.path.abspath(os.path.join(self.newfilepath_resource, ".."))
         grandfatherfile = os.path.abspath(os.path.join(self.newfilepath_resource, "../.."))
         self.diff_res = parentfile + '\\' + oldfilename_res + '-' + filename_res
-        diff_res(self.newfilepath_resource, self.F.get_file(), self.diff_res)
+        diff_res(self.F.get_file(), self.newfilepath_resource, self.diff_res)
         self.log.debug(u'获取差分资源包')
         # if os.path.getsize(self.diff_res) != 0:
         #     self.res_flag = True
@@ -37,7 +37,7 @@ class Firmware(object):
         App.wake_phonescreen()
         self.log.debug(u'唤醒解锁屏幕')
         print(u'唤醒解锁屏幕')
-        App.adb_push(self.newfilenpath_mcu)                          #固件包
+        App.adb_push(self.newfilepath_mcu)                          #固件包
         App.adb_push(self.newfilepath_resource)                      #资源包
         App.adb_push(self.diff_res)                                  #差分资源
         self.log.debug(u'下发固件/资源到手机')
@@ -50,4 +50,4 @@ class Firmware(object):
         # self.F.remove_file(grandfatherfile + '\\' + self.F.get_pathfiles())
         # self.log.debug(u'删除旧的固件/资源包')
         # print(u'删除旧的固件/资源包')
-        return self.newfilenpath_mcu, self.newfilepath_resource, self.diff_res, parentfile                       #parentfile 解压包路径
+        return self.newfilepath_mcu, self.newfilepath_resource, self.diff_res, parentfile                       #parentfile 解压包路径
