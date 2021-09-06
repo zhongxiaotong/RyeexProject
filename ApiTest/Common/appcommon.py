@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/9/12 17:12
 # @Author : Greey
-# @FileName: appcommon.py
+# @FileName: Appcommon.py
 
 from appium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
