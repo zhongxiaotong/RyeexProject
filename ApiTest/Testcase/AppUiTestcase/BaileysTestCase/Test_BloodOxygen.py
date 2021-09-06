@@ -53,7 +53,7 @@ class TestClass:
     @allure.title("血氧测试")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    @pytest.mark.baileys
+    # @pytest.mark.baileys
     def test_bloodoxygen(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
