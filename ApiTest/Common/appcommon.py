@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/9/12 17:12
 # @Author : Greey
-# @FileName: Appcommon.py
+# @FileName: appcommon.py
 
 from appium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -1278,14 +1278,16 @@ class App(object):
             self.devices_click("SATURN_设备")
         count = 0
         while True:
-            time.sleep(1)
             count += 1
-            if count >= 300:
-                self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
-                raise BaseException('回连失败')
+            time.sleep(30)
+            self.log.debug(info + '异常处理------------------------------------------------------------------------睡眠15秒')
             if self.object_exist(mac + "  已连接"):
                 self.log.debug(info + '异常处理------------------------------------------------------------------------回连成功')
                 break
+            else:
+                if count >= 60:
+                    self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
+                    raise BaseException('回连失败')
         num = 0
         while True:
             num += 1
