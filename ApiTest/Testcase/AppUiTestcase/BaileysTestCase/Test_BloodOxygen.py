@@ -9,7 +9,7 @@ import os
 import time
 import allure
 import json
-from ApiTest.Common.appcommon import App
+from ApiTest.Common.Appcommon import App
 from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from selenium.webdriver.common.by import By
