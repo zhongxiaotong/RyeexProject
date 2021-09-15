@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/9/12 17:12
 # @Author : Greey
-# @FileName: Appcommon.py
+# @FileName: appcommon.py
 
 from appium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -277,6 +277,12 @@ class App(object):
         else:
             self.log.error(u'设备回调为空值')
             raise BaseException(u'设备回调为空值')
+
+    def getconnect_status(self):
+        text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
+        text = text.encode("utf-8")
+        if len(text) != 0:
+            return text
 
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
@@ -1280,12 +1286,13 @@ class App(object):
         while True:
             count += 1
             time.sleep(30)
-            self.log.debug(info + '异常处理------------------------------------------------------------------------睡眠15秒')
-            if self.object_exist(mac + "  已连接"):
+            self.log.debug(info + '异常处理------------------------------------------------------------------------睡眠30秒')
+            if "已连接" in self.getconnect_status():
+            # if self.object_exist(mac + "  已连接"):
                 self.log.debug(info + '异常处理------------------------------------------------------------------------回连成功')
                 break
             else:
-                if count >= 60:
+                if count >= 10:
                     self.log.error(info + '异常处理------------------------------------------------------------------------回连失败')
                     raise BaseException('回连失败')
         num = 0

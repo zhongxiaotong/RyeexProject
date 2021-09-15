@@ -8,7 +8,7 @@
 from File import *
 from Diff import *
 from Log import MyLog
-from Appcommon import *
+from appcommon import *
 
 class Firmware(object):
     def __init__(self, zip_src):
