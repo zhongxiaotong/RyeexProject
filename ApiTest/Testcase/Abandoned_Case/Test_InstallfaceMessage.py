@@ -62,12 +62,12 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
-        self.app.tv_installSurface()
+        self.app.tv_installSurface(9568)
         self.app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "ryeex", "title": "ryeex"}, "type": "APP_MESSAGE"}')
         for j in range(1, 10):
             self.app.tv_send_notification2()
         time.sleep(5)
-        self.app.tv_deleteSurface()
+        self.app.tv_deleteSurface(9568)
 
 
 if __name__ == '__main__':

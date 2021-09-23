@@ -865,8 +865,8 @@ class App(object):
         elif ota_parameter[2] == '1':
             self.connect_status()
 
-    def devices_installsurface(self):
-        self.tv_installSurface()
+    def devices_installsurface(self, value):
+        self.tv_installSurface(value)
         count = 1
         while True:
             time.sleep(1)
@@ -1592,14 +1592,18 @@ class App(object):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="解绑"]').click()
 
     @allure.step("安装表盘")
-    def tv_installSurface(self):
+    def tv_installSurface(self, value):
+        self.input_data(value)
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="安装表盘"]').click()
         # self.assert_notin_text()
+        self.clear_text()
 
     @allure.step("删除表盘")
-    def tv_deleteSurface(self):
+    def tv_deleteSurface(self, value):
+        self.input_data(value)
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
         self.assert_in_text("set success")
+        self.clear_text()
 
     @allure.step("获取设备日志")
     def tv_getDevicesLog(self):

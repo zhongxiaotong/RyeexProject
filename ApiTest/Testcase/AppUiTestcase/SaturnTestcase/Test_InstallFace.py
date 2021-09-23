@@ -62,9 +62,8 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
-        self.app.devices_installsurface()
-        time.sleep(10)
-        self.app.tv_deleteSurface()
+        self.app.devices_installsurface(9568)
+        self.app.tv_deleteSurface(9568)
 
 if __name__ == '__main__':
      pytest.main()

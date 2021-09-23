@@ -45,6 +45,7 @@ class Testsmoke:
         self.mac12 = '9C:F6:DD:39:29:D6'
         self.mac13 = '9C:F6:DD:39:29:D6'
         self.mac14 = '9C:F6:DD:39:29:D6'
+        self.mac15 = '9C:F6:DD:39:29:D6'
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -849,14 +850,14 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.click_prompt_box()
-                app.tv_installSurface()
+                app.tv_installSurface(9568)
                 self.log.debug(info + '安装表盘')
                 app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
                 for j in range(1, 10):
                     app.tv_send_notification2()
                     self.log.debug(info + '发送消息')
                 time.sleep(30)
-                app.tv_deleteSurface()
+                app.tv_deleteSurface(9568)
                 self.log.debug(info + '删除表盘')
                 driver.keyevent(4)
             except:
@@ -903,7 +904,7 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.click_prompt_box()
-                app.tv_installSurface()
+                app.tv_installSurface(9568)
                 self.log.debug(info + '安装表盘')
                 time.sleep(10)
                 app.tv_bluetoothcontrol()
@@ -914,9 +915,9 @@ class Testsmoke:
                 if app.object_exist('SATURN_APP'):
                     app.devices_click('SATURN_APP')
                 app.connect_status()
-                app.devices_installsurface()
+                app.devices_installsurface(9568)
                 self.log.debug(info + '重新安装表盘')
-                app.tv_deleteSurface()
+                app.tv_deleteSurface(9568)
                 self.log.debug(info + '删除表盘')
                 driver.keyevent(4)
                 app.devices_click('SATURN_设备')
@@ -981,12 +982,56 @@ class Testsmoke:
                 app.device_home()
                 app.device_home()
                 self.log.debug(info + '返回表盘页面')
-
-
             except:
                 self.log.error(info + '运动功能页面上下滑动在第N次运行失败：' + str(i))
                 app.call_back(self.mac14, self.section, self.port, uuid, info)
 
+    def smoke15(self):
+        info = "Process-15"
+        self.port = int(self.init_port) + 28
+        self.systemPort = int(self.init_systemPort) + 28
+        uuid = self.uuids[14]
+        andriod_version = App(self.desired_cap).getdevice_version(uuid)
+        print(info + "设备ID:" + uuid)
+        print(info + "安卓版本:" + andriod_version)
+        self.desired_cap['deviceName'] = uuid
+        self.desired_cap['platformVersion'] = andriod_version
+        self.desired_cap['systemPort'] = self.systemPort
+        App(self.desired_cap).start_appium(self.port, int(self.port) + 1, uuid)
+        app = App(self.desired_cap)
+        time.sleep(5)
+        driver = app.open_application(self.port)
+        app.devices_bind(self.mac15, self.section, info)
+        rebort_cnts = []
+        app.device_clickDID()
+        rebort_cnts.append(app.getdevice()[2])
+        dial_list = [10016, 10017, 10018, 10019, 10020, 10021, 10022, 10023, 10024, 10025, 10026]
+        for i in range(1, 1000):
+            try:
+                app.device_clickDID()
+                self.log.debug(info + "获取设备标识")
+                app.get_rebort_cnts(rebort_cnts, info)
+                if str(rebort_cnts[i]) > str(rebort_cnts[i-1]):
+                    self.log.error(info + "-----------------------------------------设备出现重启----------------------------------------------------:" + str(i))
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_APP')
+                    app.tv_getDevicesLog()
+                    app.adb_pull(uuid, info)
+                    driver.keyevent(4)
+                    app.devices_click('SATURN_设备')
+                    app.call_back_devices_init(info)
+                self.log.debug(info + '循环安装表盘次数：' + str(i))
+                driver.keyevent(4)
+                app.devices_click('SATURN_APP')
+                app.click_prompt_box()
+                app.click_prompt_box()
+                app.click_prompt_box()
+                for m in range(0, 10):
+                    app.tv_installSurface(dial_list[m])
+                    self.log.debug(info + '安装表盘:' + dial_list[m])
+            except:
+                self.log.error(info + '循环安装表盘在第N次运行失败：' + str(i))
+                app.call_back(self.mac15, self.section, self.port, uuid, info)
 
 
 if __name__ == '__main__':
