@@ -1,0 +1,1845 @@
+102 errCode: 0
+[2021-09-27 19:23:32.57] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:23:33.67] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:23:34.15] [I] [m_face] preview cnt:6 
+[2021-09-27 19:23:34.15] [I] [m_face] uid:10064, preview image:watchface_10064/preview/dev 
+[2021-09-27 19:23:34.15] [I] [m_face] uid:10062, preview image:watchface_10062/preview/dev 
+[2021-09-27 19:23:34.16] [I] [m_face] uid:10063, preview image:watchface_10063/preview/dev 
+[2021-09-27 19:23:34.16] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:23:34.16] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:23:34.16] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:23:34.88] [I] surface install close
+[2021-09-27 19:23:34.89] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:23:34.89] [I]  img = bg_1, use_color = 0, bg_color = 5676088D, round = 0
+[2021-09-27 19:23:34.89] [I] [item_image_init] image path : watchface_10064/res/bg_1
+[2021-09-27 19:23:34.90] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:23:34.90] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:23:34.97] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:24:00.53] [I] ram:[27332, 1129916], b:54, s:0
+[2021-09-27 19:24:04.16] [I] [rbp_parser] CMD : 101, which:4, session:756112
+[2021-09-27 19:24:04.38] [I] [surface_add_start] psram max available size:452960, psram_mid available size:681840
+[2021-09-27 19:24:04.38] [I] [surface_add] new session:0
+[2021-09-27 19:24:06.43] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:24:06.74] [I] [surface_add_start] Full, delete old surface, id = 10062
+[2021-09-27 19:24:06.74] [I] [surface_add] timer start
+[2021-09-27 19:24:06.74] [I] Enter session: 5
+[2021-09-27 19:24:06.75] [I] [surface_add] flow start 
+[2021-09-27 19:24:06.75] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:24:11.41] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:11.48] [I] [surface_add] -------- open:watchface_10065.tar,fd:7 
+[2021-09-27 19:24:12.23] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:13.17] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:14.01] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:14.91] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:15.78] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:16.66] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:17.53] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:18.45] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:19.29] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:20.14] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:21.00] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:21.90] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:22.73] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:23.57] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:24.37] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:25.20] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:26.05] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:26.93] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:27.82] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:28.68] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:29.51] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:29.81] [I] [hrm_save]20, auto:1, weared:0, bpm:123, level:27, output:0, state:0, interval:300, utc:1632741869
+[2021-09-27 19:24:30.38] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:31.24] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:32.04] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:32.91] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:33.73] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:34.52] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:35.39] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:36.23] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:37.06] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:37.94] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:38.65] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:39.47] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:40.35] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:41.02] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:41.94] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:42.59] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:43.36] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:44.12] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:45.01] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:45.89] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:46.30] [I] [rbp_parser] CMD : 102, which:4, session:615393
+[2021-09-27 19:24:46.37] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:24:46.40] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:24:46.42] [I] [surface_add] ----watchface_10065.tar crc read:0x0000FFFF, cfg:0x0000384E
+[2021-09-27 19:24:46.42] [I] [surface_add_data] Untar and delete tar file. name:watchface_10065.tar.
+[2021-09-27 19:24:50.62] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:24:50.62] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:24:50.62] [I] [surface_add]set header store_id=10065 
+[2021-09-27 19:24:50.66] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:24:50.68] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:24:50.68] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:24:50.69] [I] [item_image_init] image path : watchface_10065/res/bg_1
+[2021-09-27 19:24:50.80] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:24:50.82] [I] Enter session: 0
+[2021-09-27 19:24:51.07] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:24:51.08] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:24:51.47] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:24:52.85] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:24:53.13] [I] [m_face] preview cnt:6 
+[2021-09-27 19:24:53.14] [I] [m_face] uid:10064, preview image:watchface_10064/preview/dev 
+[2021-09-27 19:24:53.14] [I] [m_face] uid:10065, preview image:watchface_10065/preview/dev 
+[2021-09-27 19:24:53.14] [I] [m_face] uid:10063, preview image:watchface_10063/preview/dev 
+[2021-09-27 19:24:53.14] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:24:53.15] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:24:53.15] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:24:53.76] [I] surface install close
+[2021-09-27 19:24:53.78] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:24:53.78] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:24:53.78] [I] [item_image_init] image path : watchface_10065/res/bg_1
+[2021-09-27 19:24:53.78] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:24:53.79] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:24:53.85] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:25:00.77] [I] ram:[27156, 1068388], b:54, s:0
+[2021-09-27 19:25:25.00] [I] [rbp_parser] CMD : 101, which:4, session:871403
+[2021-09-27 19:25:25.22] [I] [surface_add_start] psram max available size:452960, psram_mid available size:361696
+[2021-09-27 19:25:25.22] [E] [surface_add_start] too little psram_mid available size:452960, psram_big available size:361696
+[2021-09-27 19:25:25.22] [I] [oom] psram mid: [2021-09-27 19:25:25.22] [I] ## s=4145152,t=app_protocol ##
+[2021-09-27 19:25:25.54] [E] [awtk] oom times:3,size:4145152
+[2021-09-27 19:25:25.59] [E] [awtk] out of memory
+[2021-09-27 19:25:25.62] [I] [oom] retry:4, result:0x00000000
+[2021-09-27 19:25:25.66] [I] [surface_add_start] After oom, psram available size:452960, psram_mid available size:1731840
+[2021-09-27 19:25:25.70] [I] [surface_add] new session:0
+[2021-09-27 19:25:27.00] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:25:28.96] [I] [surface_add_start] Full, delete old surface, id = 10063
+[2021-09-27 19:25:28.97] [I] [surface_add] timer start
+[2021-09-27 19:25:28.97] [I] Enter session: 5
+[2021-09-27 19:25:28.97] [I] [surface_add] flow start 
+[2021-09-27 19:25:28.97] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:25:32.32] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:32.39] [I] [surface_add] -------- open:watchface_10066.tar,fd:6 
+[2021-09-27 19:25:33.17] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:33.89] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:34.73] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:35.43] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:36.28] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:37.10] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:37.92] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:38.74] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:39.44] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:40.06] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:40.94] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:41.81] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:42.68] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:43.52] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:44.38] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:45.04] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:45.70] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:46.55] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:47.38] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:48.23] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:49.06] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:49.90] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:50.85] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:51.67] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:52.54] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:53.42] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:54.26] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:55.17] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:56.06] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:56.99] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:57.77] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:58.64] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:25:59.46] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:00.32] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:00.88] [I] ram:[27460, 1273696], b:54, s:5
+[2021-09-27 19:26:01.15] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:01.98] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:02.86] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:03.67] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:04.51] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:05.40] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:06.27] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:06.71] [I] [rbp_parser] CMD : 102, which:4, session:540948
+[2021-09-27 19:26:06.78] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:26:06.82] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:26:06.83] [I] [surface_add] ----watchface_10066.tar crc read:0x0000FFFF, cfg:0x0000E359
+[2021-09-27 19:26:06.83] [I] [surface_add_data] Untar and delete tar file. name:watchface_10066.tar.
+[2021-09-27 19:26:11.50] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:26:11.51] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:26:11.51] [I] [surface_add]set header store_id=10066 
+[2021-09-27 19:26:11.55] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:26:11.57] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:26:11.57] [I]  img = bg_1, use_color = 0, bg_color = 567542F9, round = 0
+[2021-09-27 19:26:11.57] [I] [item_image_init] image path : watchface_10066/res/bg_1
+[2021-09-27 19:26:11.76] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:26:11.78] [I] Enter session: 0
+[2021-09-27 19:26:12.01] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:26:12.02] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:26:12.39] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:26:13.60] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:26:13.84] [I] [m_face] preview cnt:6 
+[2021-09-27 19:26:13.84] [I] [m_face] uid:10064, preview image:watchface_10064/preview/dev 
+[2021-09-27 19:26:13.84] [I] [m_face] uid:10065, preview image:watchface_10065/preview/dev 
+[2021-09-27 19:26:13.84] [I] [m_face] uid:10066, preview image:watchface_10066/preview/dev 
+[2021-09-27 19:26:13.85] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:26:13.85] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:26:13.85] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:26:14.61] [I] surface install close
+[2021-09-27 19:26:14.63] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:26:14.63] [I]  img = bg_1, use_color = 0, bg_color = 567542F9, round = 0
+[2021-09-27 19:26:14.63] [I] [item_image_init] image path : watchface_10066/res/bg_1
+[2021-09-27 19:26:14.63] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:26:14.64] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:26:14.70] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:26:46.41] [I] [rbp_parser] CMD : 101, which:4, session:54427
+[2021-09-27 19:26:46.63] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:26:46.63] [I] [surface_add] new session:0
+[2021-09-27 19:26:48.46] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:26:49.07] [I] [surface_add_start] Full, delete old surface, id = 10064
+[2021-09-27 19:26:49.07] [I] [surface_add] timer start
+[2021-09-27 19:26:49.07] [I] Enter session: 5
+[2021-09-27 19:26:49.07] [I] [surface_add] flow start 
+[2021-09-27 19:26:49.07] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:26:53.67] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:53.73] [I] [surface_add] -------- open:watchface_10067.tar,fd:6 
+[2021-09-27 19:26:54.51] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:55.42] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:56.22] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:57.07] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:57.95] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:58.83] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:26:59.49] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:00.25] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:00.51] [I] ram:[27460, 1226072], b:54, s:5
+[2021-09-27 19:27:01.16] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:02.06] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:02.94] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:03.71] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:04.43] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:05.06] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:05.87] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:06.52] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:07.28] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:08.10] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:08.99] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:09.84] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:10.52] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:11.27] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:11.94] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:12.77] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:13.63] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:14.39] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:15.25] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:16.11] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:17.01] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:17.85] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:18.71] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:19.58] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:20.48] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:21.32] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:22.17] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:23.03] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:23.92] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:24.68] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:25.64] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:26.43] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:27.23] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:28.05] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:28.90] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:29.74] [I] [rbp_parser] CMD : 102, which:4, session:807030
+[2021-09-27 19:27:29.83] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:27:29.88] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:27:29.90] [I] [surface_add] ----watchface_10067.tar crc read:0x0000FFFF, cfg:0x0000B84C
+[2021-09-27 19:27:29.90] [I] [surface_add_data] Untar and delete tar file. name:watchface_10067.tar.
+[2021-09-27 19:27:34.23] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:27:34.23] [I] [surface_add] p_surface =268515796 
+[2021-09-27 19:27:34.24] [I] [surface_add]set header store_id=10067 
+[2021-09-27 19:27:34.29] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:27:34.29] [E] [circle_item_parse 380] circle center x parse failed!!!
+[2021-09-27 19:27:34.30] [E] [circle_item_parse 380] circle center x parse failed!!!
+[2021-09-27 19:27:34.33] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:27:34.34] [I]  img = bg_1, use_color = 0, bg_color = 567490ED, round = 0
+[2021-09-27 19:27:34.34] [I] [item_image_init] image path : watchface_10067/res/bg_1
+[2021-09-27 19:27:34.52] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:27:34.55] [I] Enter session: 0
+[2021-09-27 19:27:34.78] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:27:34.81] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:27:35.26] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:27:36.60] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:27:37.01] [I] [m_face] preview cnt:6 
+[2021-09-27 19:27:37.01] [I] [m_face] uid:10067, preview image:watchface_10067/preview/dev 
+[2021-09-27 19:27:37.01] [I] [m_face] uid:10065, preview image:watchface_10065/preview/dev 
+[2021-09-27 19:27:37.02] [I] [m_face] uid:10066, preview image:watchface_10066/preview/dev 
+[2021-09-27 19:27:37.02] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:27:37.02] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:27:37.02] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:27:37.67] [I] surface install close
+[2021-09-27 19:27:37.68] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:27:37.69] [I]  img = bg_1, use_color = 0, bg_color = 567490ED,, round = 0
+[2021-09-27 19:27:37.69] [I] [item_image_init] image path : watchface_10067/res/bg_1
+[2021-09-27 19:27:37.69] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:27:37.70] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:27:37.77] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:28:01.06] [I] ram:[30372, 1186180], b:54, s:0
+[2021-09-27 19:28:08.48] [I] [rbp_parser] CMD : 101, which:4, session:200989
+[2021-09-27 19:28:08.70] [I] [surface_add_start] psram max available size:452960, psram_mid available size:629832
+[2021-09-27 19:28:08.70] [I] [surface_add] new session:0
+[2021-09-27 19:28:10.53] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:28:11.14] [I] [surface_add_start] Full, delete old surface, id = 10065
+[2021-09-27 19:28:11.14] [I] [surface_add] timer start
+[2021-09-27 19:28:11.14] [I] Enter session: 5
+[2021-09-27 19:28:11.14] [I] [surface_add] flow start 
+[2021-09-27 19:28:11.14] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:28:15.73] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:15.79] [I] [surface_add] -------- open:watchface_10068.tar,fd:6 
+[2021-09-27 19:28:16.59] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:17.50] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:18.33] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:19.17] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:19.98] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:20.85] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:21.64] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:22.48] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:23.31] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:24.07] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:25.00] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:25.86] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:26.70] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:27.57] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:28.48] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:29.31] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:30.18] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:31.04] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:31.88] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:32.72] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:33.52] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:34.33] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:35.11] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:35.98] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:36.78] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:37.56] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:38.38] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:39.04] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:39.90] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:40.73] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:41.53] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:42.39] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:43.21] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:44.05] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:44.91] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:45.77] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:46.60] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:47.48] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:48.36] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:49.05] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:49.98] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:50.41] [I] [rbp_parser] CMD : 102, which:4, session:851805
+[2021-09-27 19:28:50.49] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:28:50.53] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:28:50.54] [I] [surface_add] ----watchface_10068.tar crc read:0x0000FFFF, cfg:0x00003AAC
+[2021-09-27 19:28:50.54] [I] [surface_add_data] Untar and delete tar file. name:watchface_10068.tar.
+[2021-09-27 19:28:54.89] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:28:54.89] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:28:54.89] [I] [surface_add]set header store_id=10068 
+[2021-09-27 19:28:54.94] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:28:54.97] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:28:54.97] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:28:54.98] [I] [item_image_init] image path : watchface_10068/res/bg_1
+[2021-09-27 19:28:55.09] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:28:55.11] [I] Enter session: 0
+[2021-09-27 19:28:55.33] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:28:55.35] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:28:55.82] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:28:57.16] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:28:58.00] [I] [m_face] preview cnt:6 
+[2021-09-27 19:28:58.00] [I] [m_face] uid:10067, preview image:watchface_10067/preview/dev 
+[2021-09-27 19:28:58.00] [I] [m_face] uid:10068, preview image:watchface_10068/preview/dev 
+[2021-09-27 19:28:58.00] [I] [m_face] uid:10066, preview image:watchface_10066/preview/dev 
+[2021-09-27 19:28:58.00] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:28:58.01] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:28:58.01] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:28:58.67] [I] surface install close
+[2021-09-27 19:28:58.69] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:28:58.69] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:28:58.69] [I] [item_image_init] image path : watchface_10068/res/bg_1
+[2021-09-27 19:28:58.70] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:28:58.70] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:28:58.78] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:29:00.11] [I] [wrkt] drink drink
+[2021-09-27 19:29:00.12] [I] ignore remind 0
+[2021-09-27 19:29:00.12] [I] ram:[27208, 1108320], b:54, s:0
+[2021-09-27 19:29:01.02] [I] [h_log]m:0, step:0, hm:[0, 80, 1, 300, 200020], wrist:0, cal:0, dist:0, a:[0, 0, 178, 164, 91]
+[2021-09-27 19:29:05.75] [I] [on_user_hour_update] hour widget x y w h = 0 0 320 320
+[2021-09-27 19:29:29.02] [I] [rbp_parser] CMD : 101, which:4, session:739140
+[2021-09-27 19:29:29.24] [I] [surface_add_start] psram max available size:452960, psram_mid available size:309688
+[2021-09-27 19:29:29.24] [E] [surface_add_start] too little psram_mid available size:452960, psram_big available size:309688
+[2021-09-27 19:29:29.24] [I] [oom] psram mid: [2021-09-27 19:29:29.25] [I] ## s=4145152,t=app_protocol ##
+[2021-09-27 19:29:29.56] [E] [awtk] oom times:3,size:4145152
+[2021-09-27 19:29:29.62] [E] [awtk] out of memory
+[2021-09-27 19:29:29.64] [I] [oom] retry:4, result:0x00000000
+[2021-09-27 19:29:29.69] [I] [surface_add_start] After oom, psram available size:452960, psram_mid available size:1731840
+[2021-09-27 19:29:29.71] [I] [surface_add] new session:0
+[2021-09-27 19:29:29.81] [I] [hrm_save]21, auto:1, weared:0, bpm:80, level:23, output:0, state:0, interval:300, utc:1632742169
+[2021-09-27 19:29:31.09] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:29:33.10] [I] [surface_add_start] Full, delete old surface, id = 10066
+[2021-09-27 19:29:33.10] [I] [surface_add] timer start
+[2021-09-27 19:29:33.10] [I] Enter session: 5
+[2021-09-27 19:29:33.11] [I] [surface_add] flow start 
+[2021-09-27 19:29:33.11] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:29:36.34] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:36.39] [I] [surface_add] -------- open:watchface_10069.tar,fd:6 
+[2021-09-27 19:29:37.29] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:38.11] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:38.94] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:39.79] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:40.60] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:41.49] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:42.32] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:43.19] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:43.95] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:44.78] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:45.67] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:46.55] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:47.43] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:48.32] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:49.19] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:50.04] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:50.96] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:51.82] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:52.66] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:53.51] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:54.40] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:55.21] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:56.01] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:56.84] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:57.68] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:58.52] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:29:59.36] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:00.21] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:00.30] [I] ram:[27380, 1242468], b:54, s:5
+[2021-09-27 19:30:01.05] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:01.94] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:02.77] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:03.61] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:04.42] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:05.25] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:06.08] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:06.97] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:07.14] [I] [ss_batt_do_sample] percent:53%, volt_mv:3864mv
+[2021-09-27 19:30:08.45] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:09.28] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:09.88] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:10.38] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:11.21] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:12.08] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:12.98] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:13.80] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:14.67] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:15.52] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:16.39] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:17.17] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:18.01] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:18.89] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:19.75] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:20.23] [I] [rbp_parser] CMD : 102, which:4, session:952176
+[2021-09-27 19:30:20.30] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:30:20.35] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:30:20.36] [I] [surface_add] ----watchface_10069.tar crc read:0x0000FFFF, cfg:0x0000C73D
+[2021-09-27 19:30:20.36] [I] [surface_add_data] Untar and delete tar file. name:watchface_10069.tar.
+[2021-09-27 19:30:25.81] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:30:25.81] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:30:25.81] [I] [surface_add]set header store_id=10069 
+[2021-09-27 19:30:25.87] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:30:25.90] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:30:25.90] [I]  img = bg_1, use_color = 0, bg_color = 56760239, round = 0
+[2021-09-27 19:30:25.91] [I] [item_image_init] image path : watchface_10069/res/bg_1
+[2021-09-27 19:30:25.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:25.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:25.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:25.92] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:25.92] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:30:26.06] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:30:26.06] [I] Enter session: 0
+[2021-09-27 19:30:26.29] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:30:26.29] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:30:28.83] [I] [m_face] preview cnt:6 
+[2021-09-27 19:30:28.84] [I] [m_face] uid:10067, preview image:watchface_10067/preview/dev 
+[2021-09-27 19:30:28.84] [I] [m_face] uid:10068, preview image:watchface_10068/preview/dev 
+[2021-09-27 19:30:28.84] [I] [m_face] uid:10069, preview image:watchface_10069/preview/dev 
+[2021-09-27 19:30:28.84] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:30:28.84] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:30:28.85] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:30:29.59] [I] surface install close
+[2021-09-27 19:30:29.61] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:30:29.61] [I]  img = bg_1, use_color = 0, bg_color = 56760239, round = 0
+[2021-09-27 19:30:29.61] [I] [item_image_init] image path : watchface_10069/res/bg_1
+[2021-09-27 19:30:29.61] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:29.62] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:29.62] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:29.62] [I] prefix : num_, img = num_0
+[2021-09-27 19:30:29.62] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:30:57.09] [I] [rbp_parser] CMD : 101, which:4, session:902124
+[2021-09-27 19:30:57.31] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:30:57.31] [I] [surface_add] new session:0
+[2021-09-27 19:30:59.13] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:30:59.82] [I] [surface_add_start] Full, delete old surface, id = 10067
+[2021-09-27 19:30:59.82] [I] [surface_add] timer start
+[2021-09-27 19:30:59.82] [I] Enter session: 5
+[2021-09-27 19:30:59.82] [I] [surface_add] flow start 
+[2021-09-27 19:30:59.82] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:31:00.14] [I] ram:[27020, 956420], b:53, s:5
+[2021-09-27 19:31:04.30] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:04.36] [I] [surface_add] -------- open:watchface_10070.tar,fd:7 
+[2021-09-27 19:31:05.17] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:06.06] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:06.92] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:07.71] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:08.47] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:09.16] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:10.02] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:10.67] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:11.33] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:12.15] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:13.03] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:13.84] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:14.70] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:15.50] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:16.29] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:17.19] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:18.06] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:18.94] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:19.77] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:20.68] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:21.50] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:22.32] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:23.17] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:24.06] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:24.74] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:25.62] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:26.43] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:27.29] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:28.11] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:29.03] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:29.85] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:30.79] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:31.65] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:32.49] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:33.32] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:34.20] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:35.04] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:35.88] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:36.67] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:37.53] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:38.33] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:39.11] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:39.78] [I] [rbp_parser] CMD : 102, which:4, session:232076
+[2021-09-27 19:31:39.86] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:31:39.88] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:31:39.90] [I] [surface_add] ----watchface_10070.tar crc read:0x0000FFFF, cfg:0x00001663
+[2021-09-27 19:31:39.90] [I] [surface_add_data] Untar and delete tar file. name:watchface_10070.tar.
+[2021-09-27 19:31:44.32] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:31:44.32] [I] [surface_add] p_surface =268515796 
+[2021-09-27 19:31:44.32] [I] [surface_add]set header store_id=10070 
+[2021-09-27 19:31:44.38] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:31:44.40] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:31:44.40] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:31:44.43] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:31:44.43] [I]  img = bg_1, use_color = 0, bg_color = 567490ED, round = 0
+[2021-09-27 19:31:44.43] [I] [item_image_init] image path : watchface_10070/res/bg_1
+[2021-09-27 19:31:44.44] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:31:44.64] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:31:44.66] [I] Enter session: 0
+[2021-09-27 19:31:44.88] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:31:44.89] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:31:47.20] [I] [m_face] preview cnt:6 
+[2021-09-27 19:31:47.20] [I] [m_face] uid:10070, preview image:watchface_10070/preview/dev 
+[2021-09-27 19:31:47.20] [I] [m_face] uid:10068, preview image:watchface_10068/preview/dev 
+[2021-09-27 19:31:47.20] [I] [m_face] uid:10069, preview image:watchface_10069/preview/dev 
+[2021-09-27 19:31:47.21] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:31:47.21] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:31:47.21] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:31:47.90] [I] surface install close
+[2021-09-27 19:31:47.91] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:31:47.92] [I]  img = bg_1, use_color = 0, bg_color = 567490ED, round = 0
+[2021-09-27 19:31:47.92] [I] [item_image_init] image path : watchface_10070/res/bg_1
+[2021-09-27 19:31:47.93] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:32:00.24] [I] ram:[21272, 917704], b:53, s:0
+[2021-09-27 19:32:18.48] [I] [rbp_parser] CMD : 101, which:4, session:795949
+[2021-09-27 19:32:18.69] [I] [surface_add_start] psram max available size:452960, psram_mid available size:681840
+[2021-09-27 19:32:18.69] [I] [surface_add] new session:0
+[2021-09-27 19:32:20.53] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:32:21.14] [I] [surface_add_start] Full, delete old surface, id = 10068
+[2021-09-27 19:32:21.14] [I] [surface_add] timer start
+[2021-09-27 19:32:21.14] [I] Enter session: 5
+[2021-09-27 19:32:21.14] [I] [surface_add] flow start 
+[2021-09-27 19:32:21.14] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:32:27.56] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:27.63] [I] [surface_add] -------- open:watchface_10071.tar,fd:9 
+[2021-09-27 19:32:28.37] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:29.20] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:30.07] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:30.88] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:31.70] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:32.62] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:33.51] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:34.42] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:35.23] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:36.10] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:36.90] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:37.70] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:38.63] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:39.48] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:40.23] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:41.04] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:41.79] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:42.52] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:43.37] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:44.18] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:45.09] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:45.94] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:46.77] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:47.63] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:48.49] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:49.32] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:50.13] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:50.93] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:51.71] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:52.62] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:53.52] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:54.34] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:55.20] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:56.03] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:56.82] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:57.63] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:58.48] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:32:59.32] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:33:00.22] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:33:00.63] [I] ram:[18352, 906248], b:53, s:5
+[2021-09-27 19:33:01.13] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:33:02.03] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:33:02.46] [I] [rbp_parser] CMD : 102, which:4, session:936243
+[2021-09-27 19:33:02.53] [I] fd = 9 [surface_add_data][2470]
+[2021-09-27 19:33:02.57] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:33:02.59] [I] [surface_add] ----watchface_10071.tar crc read:0x0000FFFF, cfg:0x00009171
+[2021-09-27 19:33:02.59] [I] [surface_add_data] Untar and delete tar file. name:watchface_10071.tar.
+[2021-09-27 19:33:07.09] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:33:07.09] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:33:07.09] [I] [surface_add]set header store_id=10071 
+[2021-09-27 19:33:07.14] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:33:07.18] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:33:07.18] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:33:07.18] [I] [item_image_init] image path : watchface_10071/res/bg_1
+[2021-09-27 19:33:07.19] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:33:07.32] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:33:07.33] [I] Enter session: 0
+[2021-09-27 19:33:07.56] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:33:07.57] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:33:08.57] [I] [on_user_hour_update] hour widget x y w h = 7 100 170 93
+[2021-09-27 19:33:09.05] [I] [m_face] preview cnt:6 
+[2021-09-27 19:33:09.06] [I] [m_face] uid:10070, preview image:watchface_10070/preview/dev 
+[2021-09-27 19:33:09.06] [I] [m_face] uid:10071, preview image:watchface_10071/preview/dev 
+[2021-09-27 19:33:09.06] [I] [m_face] uid:10069, preview image:watchface_10069/preview/dev 
+[2021-09-27 19:33:09.06] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:33:09.07] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:33:09.07] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:33:09.73] [I] surface install close
+[2021-09-27 19:33:09.75] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:33:09.75] [I]  img = bg_1, use_color = 0, bg_color = 5675F9C9, round = 0
+[2021-09-27 19:33:09.75] [I] [item_image_init] image path : watchface_10071/res/bg_1
+[2021-09-27 19:33:09.76] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:33:09.76] [I] [on_user_hour_update] hour widget x y w h = 7 100 170 93
+[2021-09-27 19:33:09.89] [I] [on_user_hour_update] hour widget x y w h = 7 100 170 93
+[2021-09-27 19:33:41.41] [I] [rbp_parser] CMD : 101, which:4, session:680953
+[2021-09-27 19:33:41.62] [I] [surface_add_start] psram max available size:452960, psram_mid available size:361696
+[2021-09-27 19:33:41.63] [E] [surface_add_start] too little psram_mid available size:452960, psram_big available size:361696
+[2021-09-27 19:33:41.63] [I] [oom] psram mid: [2021-09-27 19:33:41.63] [I] ## s=4145152,t=app_protocol ##
+[2021-09-27 19:33:41.95] [E] [awtk] oom times:3,size:4145152
+[2021-09-27 19:33:42.03] [E] [awtk] out of memory
+[2021-09-27 19:33:42.07] [I] [oom] retry:4, result:0x00000000
+[2021-09-27 19:33:42.10] [I] [surface_add_start] After oom, psram available size:452960, psram_mid available size:1731840
+[2021-09-27 19:33:42.12] [I] [surface_add] new session:0
+[2021-09-27 19:33:43.50] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:33:45.97] [I] [surface_add_start] Full, delete old surface, id = 10069
+[2021-09-27 19:33:45.98] [I] [surface_add] timer start
+[2021-09-27 19:33:45.98] [I] Enter session: 5
+[2021-09-27 19:33:45.98] [I] [surface_add] flow start 
+[2021-09-27 19:33:45.98] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:33:48.72] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:48.78] [I] [surface_add] -------- open:watchface_10072.tar,fd:6 
+[2021-09-27 19:33:49.56] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:50.45] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:51.23] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:52.01] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:52.87] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:53.78] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:54.52] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:55.39] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:56.28] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:57.01] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:57.85] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:58.75] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:33:59.57] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:00.29] [I] ram:[27460, 1269804], b:53, s:5
+[2021-09-27 19:34:00.44] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:01.31] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:02.17] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:03.04] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:03.89] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:04.71] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:05.57] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:06.40] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:07.25] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:07.85] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:08.47] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:09.31] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:10.13] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:10.96] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:11.84] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:12.67] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:13.51] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:14.34] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:15.21] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:16.07] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:16.93] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:17.79] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:18.65] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:19.47] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:20.26] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:21.09] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:21.95] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:22.83] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:23.49] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:24.32] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:25.10] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:25.86] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:26.68] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:27.17] [I] [rbp_parser] CMD : 102, which:4, session:326438
+[2021-09-27 19:34:27.24] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:34:27.27] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:34:27.28] [I] [surface_add] ----watchface_10072.tar crc read:0x0000FFFF, cfg:0x000025F7
+[2021-09-27 19:34:27.28] [I] [surface_add_data] Untar and delete tar file. name:watchface_10072.tar.
+[2021-09-27 19:34:29.80] [I] [hrm_save]22, auto:1, weared:0, bpm:80, level:25, output:0, state:0, interval:300, utc:1632742469
+[2021-09-27 19:34:32.97] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:34:32.97] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:34:32.97] [I] [surface_add]set header store_id=10072 
+[2021-09-27 19:34:33.02] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:34:33.05] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:34:33.05] [I]  img = bg_1, use_color = 0, bg_color = 566600F1, round = 0
+[2021-09-27 19:34:33.05] [I] [item_image_init] image path : watchface_10072/res/bg_1
+[2021-09-27 19:34:33.06] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:33.06] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:33.06] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:33.06] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:33.07] [I] prefix : ampm_, img = ampm_0
+[2021-09-27 19:34:33.07] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:34:33.19] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:34:33.21] [I] Enter session: 0
+[2021-09-27 19:34:33.43] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:34:33.44] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:34:35.98] [I] [m_face] preview cnt:6 
+[2021-09-27 19:34:35.99] [I] [m_face] uid:10070, preview image:watchface_10070/preview/dev 
+[2021-09-27 19:34:35.99] [I] [m_face] uid:10071, preview image:watchface_10071/preview/dev 
+[2021-09-27 19:34:35.99] [I] [m_face] uid:10072, preview image:watchface_10072/preview/dev 
+[2021-09-27 19:34:35.99] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:34:35.99] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:34:36.00] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:34:36.72] [I] surface install close
+[2021-09-27 19:34:36.73] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:34:36.73] [I]  img = bg_1, use_color = 0, bg_color = 566600F1, round = 0
+[2021-09-27 19:34:36.73] [I] [item_image_init] image path : watchface_10072/res/bg_1
+[2021-09-27 19:34:36.74] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:36.74] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:36.74] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:36.74] [I] prefix : num_, img = num_0
+[2021-09-27 19:34:36.74] [I] prefix : ampm_, img = ampm_0
+[2021-09-27 19:34:36.74] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:35:00.70] [I] ram:[30324, 1276224], b:53, s:0
+[2021-09-27 19:35:05.94] [I] [rbp_parser] CMD : 101, which:4, session:43307
+[2021-09-27 19:35:06.16] [I] [surface_add_start] psram max available size:452960, psram_mid available size:665552
+[2021-09-27 19:35:06.16] [I] [surface_add] new session:0
+[2021-09-27 19:35:08.08] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:35:08.52] [I] [surface_add_start] Full, delete old surface, id = 10070
+[2021-09-27 19:35:08.52] [I] [surface_add] timer start
+[2021-09-27 19:35:08.53] [I] Enter session: 5
+[2021-09-27 19:35:08.53] [I] [surface_add] flow start 
+[2021-09-27 19:35:08.53] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:35:13.19] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:13.26] [I] [surface_add] -------- open:watchface_10073.tar,fd:6 
+[2021-09-27 19:35:14.10] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:14.89] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:15.79] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:16.68] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:17.55] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:18.41] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:19.14] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:19.91] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:20.71] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:21.57] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:22.48] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:23.28] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:24.13] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:25.03] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:25.92] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:26.76] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:27.57] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:28.51] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:29.32] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:30.20] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:31.04] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:31.87] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:32.72] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:33.60] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:34.46] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:35.34] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:36.13] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:36.92] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:37.77] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:38.68] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:39.53] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:40.43] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:41.23] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:42.06] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:42.92] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:43.77] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:44.61] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:45.55] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:46.38] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:47.19] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:47.97] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:48.41] [I] [rbp_parser] CMD : 102, which:4, session:5669
+[2021-09-27 19:35:48.48] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:35:48.52] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:35:48.53] [I] [surface_add] ----watchface_10073.tar crc read:0x0000FFFF, cfg:0x0000E62C
+[2021-09-27 19:35:48.53] [I] [surface_add_data] Untar and delete tar file. name:watchface_10073.tar.
+[2021-09-27 19:35:52.99] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:35:52.99] [I] [surface_add] p_surface =268515796 
+[2021-09-27 19:35:52.99] [I] [surface_add]set header store_id=10073 
+[2021-09-27 19:35:53.08] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:35:53.09] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:35:53.09] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:35:53.11] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:35:53.12] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:35:53.12] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:35:53.12] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:35:53.15] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:35:53.17] [E] [circle_item_parse 380] circle center x parse failed!!!
+[2021-09-27 19:35:53.18] [E] [circle_item_parse 380] circle center x parse failed!!!
+[2021-09-27 19:35:53.19] [E] [circle_item_parse 380] circle center x parse failed!!!
+[2021-09-27 19:35:53.20] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:35:53.20] [I]  img = bg_1, use_color = 0, bg_color = 566E0551, round = 0
+[2021-09-27 19:35:53.20] [I] [item_image_init] image path : watchface_10073/res/bg_1
+[2021-09-27 19:35:53.21] [I] 
+[image]
+                 des = power
+                 x = 59, y = 59, w = 22, h = 22
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:53.21] [I]  img = icon_power, use_color = 0, bg_color = 566E0649, round = 0
+[2021-09-27 19:35:53.21] [I] [item_image_init] image path : watchface_10073/res/icon_power
+[2021-09-27 19:35:53.21] [I] 
+[image]
+                 des = hr
+                 x = 168, y = 60, w = 36, h = 36
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:53.22] [I]  img = icon_hr, use_color = 0, bg_color = 566E0741, round = 0
+[2021-09-27 19:35:53.22] [I] [item_image_init] image path : watchface_10073/res/icon_hr
+[2021-09-27 19:35:53.22] [I] 
+[image]
+                 des = step
+                 x = 25, y = 146, w = 26, h = 26
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:53.23] [I]  img = icon_step, use_color = 0, bg_color = 566E0839, round = 0
+[2021-09-27 19:35:53.23] [I] [item_image_init] image path : watchface_10073/res/icon_step
+[2021-09-27 19:35:53.23] [I] 
+[image]
+                 des = cal
+                 x = 182, y = 146, w = 26, h = 26
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:53.24] [I]  img = icon_kcal, use_color = 0, bg_color = 566E0931, round = 0
+[2021-09-27 19:35:53.24] [I] [item_image_init] image path : watchface_10073/res/icon_kcal
+[2021-09-27 19:35:53.26] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:35:53.40] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:35:53.40] [I] Enter session: 0
+[2021-09-27 19:35:53.63] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:35:53.64] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:35:56.13] [I] [on_user_hour_update] hour widget x y w h = 29 205 130 115
+[2021-09-27 19:35:56.74] [I] [m_face] preview cnt:6 
+[2021-09-27 19:35:56.74] [I] [m_face] uid:10073, preview image:watchface_10073/preview/dev 
+[2021-09-27 19:35:56.74] [I] [m_face] uid:10071, preview image:watchface_10071/preview/dev 
+[2021-09-27 19:35:56.75] [I] [m_face] uid:10072, preview image:watchface_10072/preview/dev 
+[2021-09-27 19:35:56.75] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:35:56.75] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:35:56.75] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:35:57.42] [I] surface install close
+[2021-09-27 19:35:57.44] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:35:57.44] [I]  img = bg_1, use_color = 0, bg_color = 566E0551, round = 0
+[2021-09-27 19:35:57.44] [I] [item_image_init] image path : watchface_10073/res/bg_1
+[2021-09-27 19:35:57.45] [I] 
+[image]
+                 des = power
+                 x = 59, y = 59, w = 22, h = 22
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:57.45] [I]  img = icon_power, use_color = 0, bg_color = 566E0649, round = 0
+[2021-09-27 19:35:57.45] [I] [item_image_init] image path : watchface_10073/res/icon_power
+[2021-09-27 19:35:57.45] [I] 
+[image]
+                 des = hr
+                 x = 168, y = 60, w = 36, h = 36
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:57.46] [I]  img = icon_hr, use_color = 0, bg_color = 566E0741, round = 0
+[2021-09-27 19:35:57.46] [I] [item_image_init] image path : watchface_10073/res/icon_hr
+[2021-09-27 19:35:57.46] [I] 
+[image]
+                 des = step
+                 x = 25, y = 146, w = 26, h = 26
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:57.47] [I]  img = icon_step, use_color = 0, bg_color = 566E0839, round = 0
+[2021-09-27 19:35:57.47] [I] [item_image_init] image path : watchface_10073/res/icon_step
+[2021-09-27 19:35:57.47] [I] 
+[image]
+                 des = cal
+                 x = 182, y = 146, w = 26, h = 26
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:35:57.48] [I]  img = icon_kcal, use_color = 0, bg_color = 566E0931, round = 0
+[2021-09-27 19:35:57.48] [I] [item_image_init] image path : watchface_10073/res/icon_kcal
+[2021-09-27 19:35:57.49] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:35:57.50] [I] [on_user_hour_update] hour widget x y w h = 29 205 130 115
+[2021-09-27 19:35:57.74] [I] [on_user_hour_update] hour widget x y w h = 51 205 90 118
+[2021-09-27 19:36:00.77] [I] ram:[24228, 1222336], b:53, s:0
+[2021-09-27 19:36:28.06] [I] [rbp_parser] CMD : 101, which:4, session:79109
+[2021-09-27 19:36:28.28] [I] [surface_add_start] psram max available size:452960, psram_mid available size:345408
+[2021-09-27 19:36:28.28] [E] [surface_add_start] too little psram_mid available size:452960, psram_big available size:345408
+[2021-09-27 19:36:28.28] [I] [oom] psram mid: [2021-09-27 19:36:28.28] [I] ## s=4145152,t=app_protocol ##
+[2021-09-27 19:36:28.60] [E] [awtk] oom times:3,size:4145152
+[2021-09-27 19:36:28.66] [E] [awtk] out of memory
+[2021-09-27 19:36:28.68] [I] [oom] retry:4, result:0x00000000
+[2021-09-27 19:36:28.73] [I] [surface_add_start] After oom, psram available size:452960, psram_mid available size:1731840
+[2021-09-27 19:36:28.73] [I] [surface_add] new session:0
+[2021-09-27 19:36:30.11] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:36:32.09] [I] [surface_add_start] Full, delete old surface, id = 10071
+[2021-09-27 19:36:32.10] [I] [surface_add] timer start
+[2021-09-27 19:36:32.10] [I] Enter session: 5
+[2021-09-27 19:36:32.10] [I] [surface_add] flow start 
+[2021-09-27 19:36:32.10] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:36:35.47] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:35.53] [I] [surface_add] -------- open:watchface_10074.tar,fd:6 
+[2021-09-27 19:36:36.28] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:37.12] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:37.98] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:38.77] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:39.66] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:40.44] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:41.32] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:42.17] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:43.02] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:43.83] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:44.64] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:45.33] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:46.08] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:46.90] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:47.79] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:48.64] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:49.42] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:50.12] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:50.93] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:51.78] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:52.78] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:53.64] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:54.51] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:55.39] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:56.31] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:57.11] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:57.97] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:58.86] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:36:59.67] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:00.55] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:00.95] [I] ram:[27460, 1263652], b:53, s:5
+[2021-09-27 19:37:01.38] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:02.23] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:03.06] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:03.86] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:04.75] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:05.53] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:06.34] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:07.17] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:08.01] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:08.91] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:09.75] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:10.65] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:11.40] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:12.20] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:13.04] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:13.85] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:14.71] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:15.49] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:16.34] [I] [rbp_parser] CMD : 102, which:4, session:855347
+[2021-09-27 19:37:16.43] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:37:16.47] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:37:16.48] [I] [surface_add] ----watchface_10074.tar crc read:0x0000FFFF, cfg:0x00007A1D
+[2021-09-27 19:37:16.49] [I] [surface_add_data] Untar and delete tar file. name:watchface_10074.tar.
+[2021-09-27 19:37:21.79] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:37:21.80] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:37:21.80] [I] [surface_add]set header store_id=10074 
+[2021-09-27 19:37:21.86] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:37:21.90] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:37:21.90] [I]  img = bg_1, use_color = 0, bg_color = 566E1CB9, round = 0
+[2021-09-27 19:37:21.90] [I] [item_image_init] image path : watchface_10074/res/bg_1
+[2021-09-27 19:37:21.90] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:21.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:21.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:21.91] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:21.91] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:37:22.10] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:37:22.13] [I] Enter session: 0
+[2021-09-27 19:37:22.34] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:37:22.35] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:37:25.44] [I] [m_face] preview cnt:6 
+[2021-09-27 19:37:25.45] [I] [m_face] uid:10073, preview image:watchface_10073/preview/dev 
+[2021-09-27 19:37:25.45] [I] [m_face] uid:10074, preview image:watchface_10074/preview/dev 
+[2021-09-27 19:37:25.45] [I] [m_face] uid:10072, preview image:watchface_10072/preview/dev 
+[2021-09-27 19:37:25.45] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:37:25.45] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:37:25.46] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:37:26.30] [I] surface install close
+[2021-09-27 19:37:26.32] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:37:26.33] [I]  img = bg_1, use_color = 0, bg_color = 566E1CB9, round = 0
+[2021-09-27 19:37:26.33] [I] [item_image_init] image path : watchface_10074/res/bg_1
+[2021-09-27 19:37:26.33] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:26.33] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:26.34] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:26.34] [I] prefix : num_, img = num_0
+[2021-09-27 19:37:26.34] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:37:55.18] [I] [rbp_parser] CMD : 101, which:4, session:958150
+[2021-09-27 19:37:55.40] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:37:55.40] [I] [surface_add] new session:0
+[2021-09-27 19:37:57.32] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:37:58.33] [I] [surface_add_start] Full, delete old surface, id = 10072
+[2021-09-27 19:37:58.33] [I] [surface_add] timer start
+[2021-09-27 19:37:58.33] [I] Enter session: 5
+[2021-09-27 19:37:58.34] [I] [surface_add] flow start 
+[2021-09-27 19:37:58.34] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:38:00.35] [I] ram:[26724, 1026676], b:53, s:5
+[2021-09-27 19:38:02.49] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:02.56] [I] [surface_add] -------- open:watchface_10075.tar,fd:7 
+[2021-09-27 19:38:03.35] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:04.25] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:05.09] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:05.93] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:06.79] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:07.66] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:08.60] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:09.49] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:10.40] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:11.33] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:12.16] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:13.06] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:13.88] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:14.81] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:15.66] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:16.57] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:17.41] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:18.32] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:19.16] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:19.98] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:20.84] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:21.68] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:22.52] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:23.32] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:24.13] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:24.97] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:25.80] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:26.52] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:27.29] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:27.94] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:28.71] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:29.53] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:30.37] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:31.28] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:32.19] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:32.89] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:33.67] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:34.58] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:35.40] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:36.18] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:36.98] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:37.41] [I] [rbp_parser] CMD : 102, which:4, session:284729
+[2021-09-27 19:38:37.49] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:38:37.53] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:38:37.55] [I] [surface_add] ----watchface_10075.tar crc read:0x0000FFFF, cfg:0x0000E672
+[2021-09-27 19:38:37.55] [I] [surface_add_data] Untar and delete tar file. name:watchface_10075.tar.
+[2021-09-27 19:38:42.13] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:38:42.13] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:38:42.13] [I] [surface_add]set header store_id=10075 
+[2021-09-27 19:38:42.17] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:38:42.18] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:38:42.20] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:38:42.20] [I]  img = bg_1, use_color = 0, bg_color = 56753D09, round = 0
+[2021-09-27 19:38:42.20] [I] [item_image_init] image path : watchface_10075/res/bg_1
+[2021-09-27 19:38:42.21] [I] 
+[image]
+                 des = mask
+                 x = 75, y = 76, w = 170, h = 102
+                 layer = 2, alpha = 255, align = 0
+[2021-09-27 19:38:42.21] [I]  img = mask, use_color = 0, bg_color = 56753EF9, round = 0
+[2021-09-27 19:38:42.21] [I] [item_image_init] image path : watchface_10075/res/mask
+[2021-09-27 19:38:42.33] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:38:42.34] [I] Enter session: 0
+[2021-09-27 19:38:42.50] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:38:42.58] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:38:42.60] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:38:44.70] [I] [m_face] preview cnt:6 
+[2021-09-27 19:38:44.70] [I] [m_face] uid:10073, preview image:watchface_10073/preview/dev 
+[2021-09-27 19:38:44.70] [I] [m_face] uid:10074, preview image:watchface_10074/preview/dev 
+[2021-09-27 19:38:44.70] [I] [m_face] uid:10075, preview image:watchface_10075/preview/dev 
+[2021-09-27 19:38:44.71] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:38:44.71] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:38:44.71] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:38:45.40] [I] surface install close
+[2021-09-27 19:38:45.41] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:38:45.41] [I]  img = bg_1, use_color = 0, bg_color = 56753D09, round = 0
+[2021-09-27 19:38:45.42] [I] [item_image_init] image path : watchface_10075/res/bg_1
+[2021-09-27 19:38:45.42] [I] 
+[image]
+                 des = mask
+                 x = 75, y = 76, w = 170, h = 102
+                 layer = 2, alpha = 255, align = 0
+[2021-09-27 19:38:45.42] [I]  img = mask, use_color = 0, bg_color = 56753EF9, round = 0
+[2021-09-27 19:38:45.43] [I] [item_image_init] image path : watchface_10075/res/mask
+[2021-09-27 19:38:45.43] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:39:00.80] [I] ram:[24200, 1000680], b:53, s:0
+[2021-09-27 19:39:00.99] [I] [h_log]m:0, step:0, hm:[0, 80, 1, 300, 220022], wrist:0, cal:0, dist:0, a:[0, 0, 178, 476, 91]
+[2021-09-27 19:39:16.10] [I] [rbp_parser] CMD : 101, which:4, session:605414
+[2021-09-27 19:39:16.32] [I] [surface_add_start] psram max available size:452960, psram_mid available size:612392
+[2021-09-27 19:39:16.32] [E] [surface_add_start] too little psram_mid available size:452960, psram_big available size:612392
+[2021-09-27 19:39:16.33] [I] [oom] psram mid: [2021-09-27 19:39:16.33] [I] ## s=4145152,t=app_protocol ##
+[2021-09-27 19:39:16.64] [E] [awtk] oom times:3,size:4145152
+[2021-09-27 19:39:16.71] [E] [awtk] out of memory
+[2021-09-27 19:39:16.74] [I] [oom] retry:4, result:0x00000000
+[2021-09-27 19:39:16.78] [I] [surface_add_start] After oom, psram available size:452960, psram_mid available size:1731840
+[2021-09-27 19:39:16.78] [I] [surface_add] new session:0
+[2021-09-27 19:39:18.17] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:39:20.29] [I] [surface_add_start] Full, delete old surface, id = 10073
+[2021-09-27 19:39:20.29] [I] [surface_add] timer start
+[2021-09-27 19:39:20.29] [I] Enter session: 5
+[2021-09-27 19:39:20.29] [I] [surface_add] flow start 
+[2021-09-27 19:39:20.29] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:39:23.50] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:23.56] [I] [surface_add] -------- open:watchface_10076.tar,fd:6 
+[2021-09-27 19:39:24.31] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:25.12] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:25.93] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:26.76] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:27.59] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:28.49] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:29.29] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:29.91] [I] [hrm_save]23, auto:1, weared:0, bpm:76, level:23, output:0, state:0, interval:300, utc:1632742769
+[2021-09-27 19:39:30.06] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:30.96] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:31.76] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:32.64] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:33.57] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:34.40] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:35.22] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:36.06] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:36.90] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:37.74] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:38.62] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:39.48] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:40.28] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:41.18] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:42.07] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:43.00] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:43.80] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:44.73] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:45.58] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:46.53] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:47.42] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:48.30] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:49.22] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:50.09] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:50.77] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:51.62] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:52.42] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:53.26] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:54.14] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:54.96] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:55.82] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:56.72] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:57.60] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:58.44] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:39:59.28] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:40:00.10] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:40:00.20] [I] ram:[27724, 1241656], b:53, s:5
+[2021-09-27 19:40:00.98] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:40:01.83] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:40:02.08] [I] [rbp_parser] CMD : 102, which:4, session:370740
+[2021-09-27 19:40:02.14] [I] fd = 6 [surface_add_data][2470]
+[2021-09-27 19:40:02.18] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:40:02.20] [I] [surface_add] ----watchface_10076.tar crc read:0x0000FFFF, cfg:0x00008898
+[2021-09-27 19:40:02.20] [I] [surface_add_data] Untar and delete tar file. name:watchface_10076.tar.
+[2021-09-27 19:40:08.13] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:40:08.13] [I] [surface_add] p_surface =268515796 
+[2021-09-27 19:40:08.13] [I] [surface_add]set header store_id=10076 
+[2021-09-27 19:40:08.22] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:40:08.23] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:40:08.25] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:40:08.25] [E] [watchface_parse 737] Invalid data_type. 0!!
+[2021-09-27 19:40:08.28] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:40:08.28] [I]  img = bg_1, use_color = 0, bg_color = 567490ED, round = 0
+[2021-09-27 19:40:08.28] [I] [item_image_init] image path : watchface_10076/res/bg_1
+[2021-09-27 19:40:08.29] [I] 
+[image]
+                 des = colon
+                 x = 143, y = 44, w = 32, h = 70
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:40:08.29] [I]  img = num_colon, use_color = 0, bg_color = 567493D5, round = 0
+[2021-09-27 19:40:08.29] [I] [item_image_init] image path : watchface_10076/res/num_colon
+[2021-09-27 19:40:08.29] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:08.30] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:08.30] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:08.30] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:08.31] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:40:08.45] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:40:08.46] [I] Enter session: 0
+[2021-09-27 19:40:08.68] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:40:08.69] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:40:12.07] [I] [m_face] preview cnt:6 
+[2021-09-27 19:40:12.08] [I] [m_face] uid:10076, preview image:watchface_10076/preview/dev 
+[2021-09-27 19:40:12.08] [I] [m_face] uid:10074, preview image:watchface_10074/preview/dev 
+[2021-09-27 19:40:12.08] [I] [m_face] uid:10075, preview image:watchface_10075/preview/dev 
+[2021-09-27 19:40:12.08] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:40:12.08] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:40:12.09] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:40:12.75] [I] surface install close
+[2021-09-27 19:40:12.77] [I] 
+[image]
+                 des = background
+                 x = 0, y = 0, w = 320, h = 320
+                 layer = 0, alpha = 255, align = 0
+[2021-09-27 19:40:12.77] [I]  img = bg_1, use_color = 0, bg_color = 567490ED, round = 0
+[2021-09-27 19:40:12.77] [I] [item_image_init] image path : watchface_10076/res/bg_1
+[2021-09-27 19:40:12.78] [I] 
+[image]
+                 des = colon
+                 x = 143, y = 44, w = 32, h = 70
+                 layer = 1, alpha = 255, align = 0
+[2021-09-27 19:40:12.78] [I]  img = num_colon, use_color = 0, bg_color = 567493D5, round = 0
+[2021-09-27 19:40:12.78] [I] [item_image_init] image path : watchface_10076/res/num_colon
+[2021-09-27 19:40:12.79] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:12.79] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:12.79] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:12.79] [I] prefix : num_, img = num_0
+[2021-09-27 19:40:12.80] [I] [surface_item_lang_change][2765] item text ready to reset default
+[2021-09-27 19:40:41.05] [I] [rbp_parser] CMD : 101, which:4, session:210752
+[2021-09-27 19:40:41.27] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:40:41.27] [I] [surface_add] new session:0
+[2021-09-27 19:40:43.18] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:40:44.05] [I] [surface_add_start] Full, delete old surface, id = 10074
+[2021-09-27 19:40:44.05] [I] [surface_add] timer start
+[2021-09-27 19:40:44.05] [I] Enter session: 5
+[2021-09-27 19:40:44.05] [I] [surface_add] flow start 
+[2021-09-27 19:40:44.05] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:40:45.25] [I] [rbp_parser] CMD : 102, which:4, session:803397
+[2021-09-27 19:40:45.30] [I] [surface_add] -------- open:watchface_10077.tar,fd:7 
+[2021-09-27 19:40:45.43] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:40:45.43] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:40:45.45] [I] [surface_add_data] Untar and delete tar file. name:watchface_10077.tar.
+[2021-09-27 19:40:45.53] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:40:45.53] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:40:45.53] [I] [surface_add]set header store_id=10077 
+[2021-09-27 19:40:45.54] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10077/10077.json, err:0
+[2021-09-27 19:40:45.62] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10077/10077.json, err:0
+[2021-09-27 19:40:45.63] [E] [page surface] watchface get error, the error watchfa id = 10077
+[2021-09-27 19:40:45.63] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:40:45.63] [E] [surface_parse_widget_item] watchface get fail.id = 10077
+[2021-09-27 19:40:45.78] [E] [on_user_group_update] watchface is null
+[2021-09-27 19:40:45.78] [E] [on_user_group_update] watchface is null
+[2021-09-27 19:40:45.78] [E] [on_user_group_update] watchface is null
+[2021-09-27 19:40:45.79] [E] [on_user_group_update] watchface is null
+[2021-09-27 19:40:45.80] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:40:45.80] [I] Enter session: 0
+[2021-09-27 19:40:45.91] [I] [m_face] preview cnt:6 
+[2021-09-27 19:40:45.92] [I] [m_face] uid:10076, preview image:watchface_10076/preview/dev 
+[2021-09-27 19:40:45.92] [I] [m_face] uid:10077, preview image:watchface_10077/preview/dev 
+[2021-09-27 19:40:45.92] [I] [m_face] uid:10075, preview image:watchface_10075/preview/dev 
+[2021-09-27 19:40:45.92] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:40:45.93] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:40:45.93] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:40:46.09] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:40:46.09] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:40:46.28] [I] surface install close
+[2021-09-27 19:40:46.30] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10077/10077.json, err:0
+[2021-09-27 19:40:46.31] [E] [page surface] watchface get error, the error watchfa id = 10077
+[2021-09-27 19:40:46.31] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:40:46.31] [E] [surface_parse_widget_item] watchface get fail.id = 10077
+[2021-09-27 19:41:00.30] [I] ram:[27260, 1172532], b:53, s:0
+[2021-09-27 19:41:26.23] [I] [rbp_parser] CMD : 101, which:4, session:919264
+[2021-09-27 19:41:26.45] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:41:26.45] [I] [surface_add] new session:0
+[2021-09-27 19:41:28.38] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:41:28.81] [I] [surface_add_start] Full, delete old surface, id = 10075
+[2021-09-27 19:41:28.82] [I] [surface_add] timer start
+[2021-09-27 19:41:28.82] [I] Enter session: 5
+[2021-09-27 19:41:28.82] [I] [surface_add] flow start 
+[2021-09-27 19:41:28.82] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:41:30.22] [I] [rbp_parser] CMD : 102, which:4, session:525526
+[2021-09-27 19:41:30.27] [I] [surface_add] -------- open:watchface_10078.tar,fd:7 
+[2021-09-27 19:41:30.40] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:41:30.40] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:41:30.41] [I] [surface_add_data] Untar and delete tar file. name:watchface_10078.tar.
+[2021-09-27 19:41:30.50] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:41:30.50] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:41:30.50] [I] [surface_add]set header store_id=10078 
+[2021-09-27 19:41:30.51] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10078/10078.json, err:0
+[2021-09-27 19:41:30.59] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10078/10078.json, err:0
+[2021-09-27 19:41:30.59] [E] [page surface] watchface get error, the error watchfa id = 10078
+[2021-09-27 19:41:30.60] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:41:30.60] [E] [surface_parse_widget_item] watchface get fail.id = 10078
+[2021-09-27 19:41:30.74] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:41:30.75] [I] Enter session: 0
+[2021-09-27 19:41:30.76] [I] [m_face] preview cnt:6 
+[2021-09-27 19:41:30.76] [I] [m_face] uid:10076, preview image:watchface_10076/preview/dev 
+[2021-09-27 19:41:30.76] [I] [m_face] uid:10077, preview image:watchface_10077/preview/dev 
+[2021-09-27 19:41:30.76] [I] [m_face] uid:10078, preview image:watchface_10078/preview/dev 
+[2021-09-27 19:41:30.77] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:41:30.77] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:41:30.77] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:41:30.97] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:41:30.98] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:41:31.15] [I] surface install close
+[2021-09-27 19:41:31.17] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10078/10078.json, err:0
+[2021-09-27 19:41:31.17] [E] [page surface] watchface get error, the error watchfa id = 10078
+[2021-09-27 19:41:31.17] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:41:31.17] [E] [surface_parse_widget_item] watchface get fail.id = 10078
+[2021-09-27 19:41:49.73] [E] [r_xfer_tx] lost sn num:1.
+[2021-09-27 19:42:00.45] [I] ram:[27260, 1173908], b:53, s:0
+[2021-09-27 19:42:13.45] [I] [rbp_parser] CMD : 101, which:4, session:87489
+[2021-09-27 19:42:13.67] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:42:13.67] [I] [surface_add] new session:0
+[2021-09-27 19:42:15.59] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:42:16.52] [I] [surface_add_start] Full, delete old surface, id = 10076
+[2021-09-27 19:42:16.52] [I] [surface_add] timer start
+[2021-09-27 19:42:16.52] [I] Enter session: 5
+[2021-09-27 19:42:16.52] [I] [surface_add] flow start 
+[2021-09-27 19:42:16.52] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:42:17.64] [I] [rbp_parser] CMD : 102, which:4, session:287183
+[2021-09-27 19:42:17.69] [I] [surface_add] -------- open:watchface_10079.tar,fd:7 
+[2021-09-27 19:42:17.82] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:42:17.82] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:42:17.84] [I] [surface_add_data] Untar and delete tar file. name:watchface_10079.tar.
+[2021-09-27 19:42:17.92] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:42:17.93] [I] [surface_add] p_surface =268515796 
+[2021-09-27 19:42:17.93] [I] [surface_add]set header store_id=10079 
+[2021-09-27 19:42:17.94] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10079/10079.json, err:0
+[2021-09-27 19:42:17.97] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10079/10079.json, err:0
+[2021-09-27 19:42:17.97] [E] [page surface] watchface get error, the error watchfa id = 10079
+[2021-09-27 19:42:17.97] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:42:17.98] [E] [surface_parse_widget_item] watchface get fail.id = 10079
+[2021-09-27 19:42:18.17] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:42:18.17] [I] Enter session: 0
+[2021-09-27 19:42:18.18] [I] [m_face] preview cnt:6 
+[2021-09-27 19:42:18.18] [I] [m_face] uid:10079, preview image:watchface_10079/preview/dev 
+[2021-09-27 19:42:18.18] [I] [m_face] uid:10077, preview image:watchface_10077/preview/dev 
+[2021-09-27 19:42:18.19] [I] [m_face] uid:10078, preview image:watchface_10078/preview/dev 
+[2021-09-27 19:42:18.19] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:42:18.19] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:42:18.19] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:42:18.40] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:42:18.45] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:42:18.56] [I] surface install close
+[2021-09-27 19:42:18.58] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10079/10079.json, err:0
+[2021-09-27 19:42:18.58] [E] [page surface] watchface get error, the error watchfa id = 10079
+[2021-09-27 19:42:18.58] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:42:18.58] [E] [surface_parse_widget_item] watchface get fail.id = 10079
+[2021-09-27 19:42:58.37] [I] [rbp_parser] CMD : 101, which:4, session:391021
+[2021-09-27 19:42:58.58] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:42:58.58] [I] [surface_add] new session:0
+[2021-09-27 19:42:58.60] [E] [surface_resource_delete] dir delete fail. 0x16
+[2021-09-27 19:42:58.67] [E] [service_watchface_cache_del], Not Found. id:10077
+[2021-09-27 19:42:58.68] [I] [surface_add_start] Full, delete old surface, id = 10077
+[2021-09-27 19:42:58.68] [I] [surface_add] timer start
+[2021-09-27 19:42:58.68] [I] Enter session: 5
+[2021-09-27 19:42:58.68] [I] [surface_add] flow start 
+[2021-09-27 19:42:58.68] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:42:59.07] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:43:00.03] [I] ram:[27032, 1138728], b:53, s:5
+[2021-09-27 19:43:00.76] [I] [rbp_parser] CMD : 102, which:4, session:651400
+[2021-09-27 19:43:00.79] [I] [surface_add] -------- open:watchface_10080.tar,fd:7 
+[2021-09-27 19:43:00.89] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:43:00.89] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:43:00.90] [I] [surface_add_data] Untar and delete tar file. name:watchface_10080.tar.
+[2021-09-27 19:43:00.96] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:43:00.96] [I] [surface_add] p_surface =268515880 
+[2021-09-27 19:43:00.96] [I] [surface_add]set header store_id=10080 
+[2021-09-27 19:43:00.97] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10080/10080.json, err:0
+[2021-09-27 19:43:01.04] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10080/10080.json, err:0
+[2021-09-27 19:43:01.04] [E] [page surface] watchface get error, the error watchfa id = 10080
+[2021-09-27 19:43:01.05] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:43:01.05] [E] [surface_parse_widget_item] watchface get fail.id = 10080
+[2021-09-27 19:43:01.15] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:43:01.15] [I] Enter session: 0
+[2021-09-27 19:43:01.16] [I] [m_face] preview cnt:6 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:10079, preview image:watchface_10079/preview/dev 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:10080, preview image:watchface_10080/preview/dev 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:10078, preview image:watchface_10078/preview/dev 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:43:01.17] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:43:01.38] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:43:01.39] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:43:01.42] [I] surface install close
+[2021-09-27 19:43:01.44] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10080/10080.json, err:0
+[2021-09-27 19:43:01.44] [E] [page surface] watchface get error, the error watchfa id = 10080
+[2021-09-27 19:43:01.44] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:43:01.44] [E] [surface_parse_widget_item] watchface get fail.id = 10080
+[2021-09-27 19:43:40.62] [I] [rbp_parser] CMD : 101, which:4, session:954658
+[2021-09-27 19:43:40.83] [I] [surface_add_start] psram max available size:452960, psram_mid available size:1001984
+[2021-09-27 19:43:40.83] [I] [surface_add] new session:0
+[2021-09-27 19:43:40.85] [E] [surface_resource_delete] dir delete fail. 0x16
+[2021-09-27 19:43:40.92] [E] [service_watchface_cache_del], Not Found. id:10078
+[2021-09-27 19:43:40.92] [I] [surface_add_start] Full, delete old surface, id = 10078
+[2021-09-27 19:43:40.92] [I] [surface_add] timer start
+[2021-09-27 19:43:40.92] [I] Enter session: 5
+[2021-09-27 19:43:40.92] [I] [surface_add] flow start 
+[2021-09-27 19:43:40.92] [I] [ryble] send resp cmd:101 errCode: 0
+[2021-09-27 19:43:41.32] [I] [heyos_display_write_rect_awtk] display_set_brightness 25
+[2021-09-27 19:43:43.00] [I] [rbp_parser] CMD : 102, which:4, session:611740
+[2021-09-27 19:43:43.04] [I] [surface_add] -------- open:watchface_10081.tar,fd:7 
+[2021-09-27 19:43:43.14] [I] fd = 7 [surface_add_data][2470]
+[2021-09-27 19:43:43.14] [I] fd = -1 [surface_add_data][2475]
+[2021-09-27 19:43:43.15] [I] [surface_add_data] Untar and delete tar file. name:watchface_10081.tar.
+[2021-09-27 19:43:43.21] [I] [surface_add] index:1,res_count:1
+[2021-09-27 19:43:43.21] [I] [surface_add] p_surface =268515964 
+[2021-09-27 19:43:43.21] [I] [surface_add]set header store_id=10081 
+[2021-09-27 19:43:43.22] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:43:43.29] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:43:43.29] [E] [page surface] watchface get error, the error watchfa id = 10081
+[2021-09-27 19:43:43.30] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:43:43.30] [E] [surface_parse_widget_item] watchface get fail.id = 10081
+[2021-09-27 19:43:43.35] [I] FINISH STATUS = 9 [surface_add_flow_finished][1705]
+[2021-09-27 19:43:43.36] [I] Enter session: 0
+[2021-09-27 19:43:43.56] [I] [surface add_data end ][2543] status = 0
+[2021-09-27 19:43:43.57] [I] [ryble] send resp cmd:102 errCode: 0
+[2021-09-27 19:43:43.89] [I] [m_face] preview cnt:6 
+[2021-09-27 19:43:43.89] [I] [m_face] uid:10079, preview image:watchface_10079/preview/dev 
+[2021-09-27 19:43:43.89] [I] [m_face] uid:10080, preview image:watchface_10080/preview/dev 
+[2021-09-27 19:43:43.89] [I] [m_face] uid:10081, preview image:watchface_10081/preview/dev 
+[2021-09-27 19:43:43.89] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:43:43.90] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:43:43.90] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:43:44.14] [I] surface install close
+[2021-09-27 19:43:44.16] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:43:44.16] [E] [page surface] watchface get error, the error watchfa id = 10081
+[2021-09-27 19:43:44.16] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:43:44.16] [E] [surface_parse_widget_item] watchface get fail.id = 10081
+[2021-09-27 19:44:00.37] [I] [wrkt] drink drink
+[2021-09-27 19:44:00.37] [I] ignore remind 0
+[2021-09-27 19:44:00.38] [I] ram:[27212, 1162884], b:53, s:0
+[2021-09-27 19:44:01.54] [I] HEYOS build/* Sep 10 2021 *\ 
+[2021-09-27 19:44:01.54] [I] check:655, sum:655, pass:1
+[2021-09-27 19:44:01.54] [I] SW Power-On reset or AIRCR reset!
+[2021-09-27 19:44:01.54] [I] [no_init] abnormal reset
+[2021-09-27 19:44:01.54] [I] soft_reset:1, sHalResetStatus:0x8
+[2021-09-27 19:44:01.54] [I] [no_init]magic:0x20201218, rebootTimes:2, batPercent:255, batMv:-1, last_sync_utc:1546300800, step:0, calorie:0, distance:0
+[2021-09-27 19:44:03.54] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+[2021-09-27 19:44:03.56] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+[2021-09-27 19:44:03.56] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+[2021-09-27 19:44:03.56] [I] [charger] Before NTC_DISABLE REG06 = 0x40
+[2021-09-27 19:44:03.58] [I] [charger] After NTC_DISABLE REG06 = 0x40
+[2021-09-27 19:44:03.58] [I] [charger] charger internal NTC disable successfully
+[2021-09-27 19:44:08.87] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10079/10079.json, err:0
+[2021-09-27 19:44:08.88] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10080/10080.json, err:0
+[2021-09-27 19:44:08.89] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:44:08.93] [E] [image_item_parse 106] img bgcolor parse failed!!!
+[2021-09-27 19:44:24.10] [I] [service_device_profile_init] Device Profile Init Done.
+[2021-09-27 19:44:24.10] [I] =============General Profile===========
+[2021-09-27 19:44:24.10] [I] model: realme.watch.saturn.v1
+[2021-09-27 19:44:24.10] [I] did: 1197863
+[2021-09-27 19:44:24.11] [I] mac: 9c:f6:dd:3a:c4:53
+[2021-09-27 19:44:24.11] [I] sn: 210422532008039890
+[2021-09-27 19:44:24.11] [I] product id: 6
+[2021-09-27 19:44:24.11] [I] =======================================
+
+[2021-09-27 19:44:24.11] [E] Object: sys.fw_version not found for reading
+[2021-09-27 19:44:24.11] [E] [psm] get fail. key:sys.fw_version ret = -1
+[2021-09-27 19:44:24.12] [E] [service_device_property_get 129] psm get fail. key:sys.fw_version, len:10, error:0xffffffff 
+[2021-09-27 19:44:24.12] [I] =============Usr Profile===========
+[2021-09-27 19:44:24.12] [I] version: 2
+[2021-09-27 19:44:24.12] [I] gender: 1
+[2021-09-27 19:44:24.13] [I] id: 
+[2021-09-27 19:44:24.13] [I] nickname: 
+[2021-09-27 19:44:24.13] [I] birthday: 1995.01.01
+[2021-09-27 19:44:24.13] [I] age: 25
+[2021-09-27 19:44:24.13] [I] height: 175
+[2021-09-27 19:44:24.13] [I] weight: 130
+[2021-09-27 19:44:24.13] [I] wear_hand: 1
+[2021-09-27 19:44:24.13] [I] =======================================
+
+[2021-09-27 19:44:24.13] [I] [binding_profile_init] Profile load.
+[2021-09-27 19:44:24.14] [I] [binding profile] Load from backup-for trace.
+[2021-09-27 19:44:24.14] [I] backup bind_status: 1
+[2021-09-27 19:44:24.14] [I] backup device_sn:   6
+[2021-09-27 19:44:24.14] [I] backup server_sn:   0
+[2021-09-27 19:44:24.14] [I] backup profile_ver: 1
+[2021-09-27 19:44:24.14] [I] backup token: 63 ff 58 51 be 51 b4 cd cc 7d
+[2021-09-27 19:44:24.15] [I] =============Binding Profile===========
+[2021-09-27 19:44:24.15] [I] version: 1
+[2021-09-27 19:44:24.15] [I] bind_status: 1
+[2021-09-27 19:44:24.15] [I] device_sn: 6
+[2021-09-27 19:44:24.15] [I] server_sn: 0
+[2021-09-27 19:44:24.15] [I] =======================================
+
+[2021-09-27 19:44:24.15] [I] [regulation_profile_init] Profile load.
+[2021-09-27 19:44:24.16] [I] =============Regular Profile===========
+[2021-09-27 19:44:24.16] [I] magic: 0x20210115
+[2021-09-27 19:44:24.16] [I] info_count: 13
+[2021-09-27 19:44:24.16] [I] key: ANATEL, value: 02462-21-13366
+[2021-09-27 19:44:24.16] [I] key: BIS, value: R-41180220
+[2021-09-27 19:44:24.16] [I] key: CE, value: 
+[2021-09-27 19:44:24.16] [I] key: EAC, value: 
+[2021-09-27 19:44:24.17] [I] key: FCC, value: 2AUYFRMW2008
+[2021-09-27 19:44:24.17] [I] key: IMDA, value: DA106825
+[2021-09-27 19:44:24.17] [I] key: NCC, value: CCAF21LP0370T2
+[2021-09-27 19:44:24.17] [I] key: NTC, value: ESD-RCE-2125347
+[2021-09-27 19:44:24.17] [I] key: PLG, value: 10501
+[2021-09-27 19:44:24.17] [I] key: RCM, value: 
+[2021-09-27 19:44:24.17] [I] key: SDPPI, value: 73039/SDPPI/2021
+
+[2021-09-27 19:44:24.18] [I] key: SIRIM, value: CIDF19000022
+[2021-09-27 19:44:24.18] [I] key: WEEE, value: 
+[2021-09-27 19:44:24.18] [I] =======================================
+
+[2021-09-27 19:44:24.18] [I] =============System Profile===========
+[2021-09-27 19:44:24.18] [I] hw version:                 1.4
+[2021-09-27 19:44:24.18] [I] fw version:                 1.3.0.501
+[2021-09-27 19:44:24.18] [I] language:                   English
+[2021-09-27 19:44:24.18] [I] dual_time_zone_mode:        0
+[2021-09-27 19:44:24.19] [I] system_timezone:            CST
+[2021-09-27 19:44:24.19] [I] system_timezone_deviation:  28800
+[2021-09-27 19:44:24.19] [I] second_timezone:            
+[2021-09-27 19:44:24.19] [I] second_timezone_deviation:  0
+[2021-09-27 19:44:24.19] [I] battery:                    57
+[2021-09-27 19:44:24.19] [I] last_charge_time:           0
+[2021-09-27 19:44:24.19] [I] lcd_id:                     0018b411
+[2021-09-27 19:44:24.20] [I] oops status:                0
+[2021-09-27 19:44:24.20] [I] dnd_mode:                   0
+[2021-09-27 19:44:24.20] [I] dnd_smart_mode:             0
+[2021-09-27 19:44:24.20] [I] dnd_schedule_mode:          0
+                                  start_time:1320 stop_time:          420
+[2021-09-27 19:44:24.20] [I] sport_list_count:           10
+                                  sport num: 1, 2, 5, 3, 4, 11, 10, 6, 9, 16
+[2021-09-27 19:44:24.21] [I] bright_level:               40
+[2021-09-27 19:44:24.21] [I] debug_mode:                 0
+[2021-09-27 19:44:24.21] [I] raise_to_wake_mode:         1
+[2021-09-27 19:44:24.21] [I] status_bar_battery:         0
+[2021-09-27 19:44:24.21] [I] status_bar_connecting:      0
+[2021-09-27 19:44:24.21] [I] night_mode:                 0
+[2021-09-27 19:44:24.21] [I] night_mode_start_time:      0
+[2021-09-27 19:44:24.21] [I] night_mode_stop_time:       0
+[2021-09-27 19:44:24.22] [I] longsit_mode: 0 freq_time: 60
+                                  start_time:420 stop_time:    1380
+[2021-09-27 19:44:24.22] [I] longsit_noon_mode:          1
+                                  start_time:720 stop_time:    840
+[2021-09-27 19:44:24.22] [I] drink_mode: 1 freq_time:   15 start_time:420 stop_time:     1380
+[2021-09-27 19:44:24.22] [I] drink_noon_mode:            1 start_time:720 stop_time:    840
+[2021-09-27 19:44:24.22] [I] notification_mode:          0
+[2021-09-27 19:44:24.23] [I] step_goal_achieve_mode:     1
+[2021-09-27 19:44:24.23] [I] step_goal:                  10000
+[2021-09-27 19:44:24.23] [I] unlock_mode:                0
+[2021-09-27 19:44:24.23] [I] app_view:                   0
+[2021-09-27 19:44:24.23] [I] peer_mobile_type:           1
+[2021-09-27 19:44:24.23] [I] =======================================
+
+[2021-09-27 19:44:24.24] [I] [heyos_ipc] sender ss_batt_sender, id: 2 create done
+[2021-09-27 19:44:25.56] [I] [heyos_ipc] sender input, id: 3 create done
+[2021-09-27 19:44:25.69] [I] [TP]lcd_id correct. tp_info = 0x0018b411
+[2021-09-27 19:44:25.73] [I] [tp] lcd_id:0x11 tp_ver:0x18 tp_id:0xb4 
+[2021-09-27 19:44:25.73] [I] [tp] lcd id: hua-shi 
+[2021-09-27 19:44:25.73] [I] 
+ [tp] TpidStr = 0x18 
+[2021-09-27 19:44:25.74] [I] [tp] tp fw version same, no upgrade!
+[2021-09-27 19:44:25.74] [I] [heyos_ipc] sender ss_hrm, id: 4 create done
+[2021-09-27 19:44:25.74] [I] load notify 0
+[2021-09-27 19:44:25.75] [I] [heyos_ipc] sender ss_alg_send, id: 5 create done
+[2021-09-27 19:44:31.04] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:100
+[2021-09-27 19:44:32.96] [I] [heyos_ipc] sender timer_send, id: 6 create done
+[2021-09-27 19:44:32.97] [I] [heyos_ipc] sender health_send, id: 7 create done
+[2021-09-27 19:44:32.97] [I] [heyos_ipc] receive creat <svc_health> done
+[2021-09-27 19:44:32.97] [I] [heyos_ipc] sender sport_send, id: 8 create done
+[2021-09-27 19:44:32.97] [I] [heyos_ipc] receive creat <svc_sport> done
+[2021-09-27 19:44:32.99] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+[2021-09-27 19:44:33.02] [I] [sport_record_dump] total_cnt:0
+[2021-09-27 19:44:33.17] [I] [step]0, id:18, t:1632736800, para:0, step:0, total:0, today:1
+[2021-09-27 19:44:33.18] [I] [step]1, id:19, t:1632740400, para:1, step:0, total:0, today:1
+[2021-09-27 19:44:33.26] [I] [service_sport] Init done
+[2021-09-27 19:44:33.26] [I] [heyos_ipc] sender service_data, id: 9 create done
+[2021-09-27 19:44:33.26] [I] [heyos_ipc] receive creat <service_data> done
+[2021-09-27 19:44:33.28] [I] [heyos_ipc] sender screen_mgr_s, id: 10 create done
+[2021-09-27 19:44:33.28] [I] [heyos_ipc] receive creat <screen_mgr_r> done
+[2021-09-27 19:44:33.38] [I] [heyos_ipc] sender svc_ryeex_sender, id: 11 create done
+[2021-09-27 19:44:33.38] [I] [r_xfer_thread] Enter.
+[2021-09-27 19:44:33.40] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+[2021-09-27 19:44:33.40] [I] mible token read. len = 44
+[2021-09-27 19:44:33.41] [I] Token match. continue..
+[2021-09-27 19:44:33.41] [I] retrive token, 63 ff 58 51 be 51 b4 cd cc 7d
+[2021-09-27 19:44:35.17] [I] [heyos_ipc] receive creat <app_protocol> done
+[31m[752764] E/cmb: 
+[0m[31m[752764] E/cmb: Firmware name: saturn, hardware version: 1.0, software version: 1.0
+[0m[31m[752764] E/cmb: Fault on thread heyosUI
+[0m[31m[752764] E/cmb: ===== Thread stack information =====
+[0m[31m[752764] E/cmb: ====================================
+[0m[31m[752764] E/cmb: =================== Registers information ====================
+[0m[31m[752764] E/cmb:   R0 : 00000000  R1 : 100b2098  R2 : 0010b435  R3 : 10044dc0
+[0m[31m[752764] E/cmb:   R4 : 56749634  R5 : 10042fa8  R6 : 100b2098  R7 : 10044dc0
+[0m[31m[752764] E/cmb:   R8 : 00000000  R9 : 0000001b  R10: 00000009  R11: 0000200b
+[0m[31m[752764] E/cmb:   R12: 00000000  LR : 000b5e35  PC : 0010b43e  PSR: 61000000
+[0m[31m[752764] E/cmb: ==============================================================
+[0m[31m[752764] E/cmb: Bus fault is caused by precise data access violation
+[0m[31m[752764] E/cmb: The bus fault occurred address is 000000bc
+[0m[31m[752764] E/cmb: Show more call stack info by run: addr2line -e saturn.axf -a -f 0010b43e 000b5e34 000b9aae 000b298c 000b29b0 000b29b0 000950a0 000b5cb2 00103498 000f4dd2 0004e692 00043aec 0004e61c 00039366 000467d0 0002bd66 000221d4 
+[0m[31m[752764] E/cmb: Current system tick: 752764
+[0m[2021-09-27 19:44:35.22] [E] [svc weather] init OK
+[2021-09-27 19:44:35.22] [I] [heyos_ipc] sender music_send, id: 12 create done
+[2021-09-27 19:44:35.22] [I] [dll_manager_add_dll] add dll harfbuzz_dll at index 2
+[2021-09-27 19:44:35.23] [I] [ss_batt_restore] stored_batt_percent_last:57%
+[2021-09-27 19:44:35.23] [I] [ss_batt_restore] restore percent 57%
+[2021-09-27 19:44:35.77] [I] [service_ryeex_gap_callback] Ble init Done. 
+[2021-09-27 19:44:36.14] [I] [health_rec_health_evt]: event:9
+[2021-09-27 19:44:36.17] [I] ram:[30396, 1574204], b:57, s:0
+[2021-09-27 19:44:36.22] [I] [offline_data] file_hexstr, lengh:0, contents:
+
+lines:1
+[2021-09-27 19:44:36.26] [I] [heyos_ipc] sender heyos_page, id: 13 create done
+[2021-09-27 19:44:36.40] [I] [sleep_summary] start:rd/sleep.data, end:.data, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+[2021-09-27 19:44:36.49] [I] [awtk_oom] hook initialized!
+[2021-09-27 19:44:36.50] [I] [heyos_page_root_enter] brightness_set 40
+[2021-09-27 19:44:36.51] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:37.04] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:37.05] [I] [lang module] language 0:en-US
+[2021-09-27 19:44:37.05] [I] oops sta 0
+[2021-09-27 19:44:37.17] [I] [wrkt] drink reset
+[2021-09-27 19:44:38.18] [I] alarm evt 0x10
+[2021-09-27 19:44:38.19] [I] recent timer is null
+[2021-09-27 19:44:38.19] [I] [get_alarm] fail
+[2021-09-27 19:44:40.00] [I] [m_face] preview cnt:6 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:10079, preview image:watchface_10079/preview/dev 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:10080, preview image:watchface_10080/preview/dev 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:10081, preview image:watchface_10081/preview/dev 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:108, preview image:watchface_108/preview/dev 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:109, preview image:watchface_109/preview/dev 
+[2021-09-27 19:44:40.01] [I] [m_face] uid:110, preview image:watchface_110/preview/dev 
+[2021-09-27 19:44:50.73] [I] [page_refresh_sport_infor] get sport num:10
+[2021-09-27 19:44:50.73] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.73] [I] [sport checksum] 0x955085cc
+[2021-09-27 19:44:50.73] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.75] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.75] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.76] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.76] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.88] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.88] [I] weathet uv index 0
+[2021-09-27 19:44:50.88] [I] weathet item cnt 0
+[2021-09-27 19:44:50.88] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.89] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.89] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.90] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.91] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.91] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.92] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.92] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.93] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.93] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.94] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.94] [I] [setting checksum] 0x1
+[2021-09-27 19:44:50.94] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.94] [I] [setting checksum] 0x16
+[2021-09-27 19:44:50.95] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.95] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:50.95] [I] [setting checksum] 0x39
+[2021-09-27 19:44:51.11] [I] [ref set subpage]refres page setting_battery
+[2021-09-27 19:44:51.11] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:51.11] [I] [setting checksum] 0x39
+[2021-09-27 19:44:51.52] [I] cache begin: checksum=0x00000039 
+[2021-09-27 19:44:51.53] [I] [crt]:20, 0x7a60000
+[2021-09-27 19:44:51.53] [I] [cache]29, 0x7a60000, len:235104, w:316, h:372
+[2021-09-27 19:44:51.64] [I] creat id 20, end addr 0x7aa0000
+[2021-09-27 19:44:52.76] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:52.76] [I] [setting checksum] 0x0
+[2021-09-27 19:44:53.87] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:44:53.87] [I] [setting checksum] 0x0
+[2021-09-27 19:44:53.87] [I] [end_init_refresh] snapshot refresh finish.
+[2021-09-27 19:44:54.88] [I] Dev bond, enter home page
+[2021-09-27 19:44:54.88] [I] [home] begin
+[2021-09-27 19:44:55.78] [E] [m_face] error unknown type 0 
+[2021-09-27 19:44:55.78] [E] [m_face] from header
+[2021-09-27 19:44:55.80] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:44:55.80] [E] [page surface] watchface get error, the error watchfa id = 10081
+[2021-09-27 19:44:55.82] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:44:55.82] [E] [surface_parse_widget_item] watchface get fail.id = 10081
+[2021-09-27 19:44:56.16] [E] [glycache] alloc items tcm error! Try alloc sram...
+[2021-09-27 19:44:56.16] [E] [OK]
+[2021-09-27 19:44:58.17] [E] [service_watchface_get_by_id] file open fail ----1, /watchface/watchface_10081/10081.json, err:0
+[2021-09-27 19:44:58.17] [E] [page surface] watchface get error, the error watchfa id = 10081
+[2021-09-27 19:44:58.17] [E] [page surface] watchface will not change, use cur id = -1560243200
+[2021-09-27 19:44:58.17] [E] [surface_parse_widget_item] watchface get fail.id = 10081
+[2021-09-27 19:45:00.22] [I] ram:[14032, 597120], b:57, s:0
+[2021-09-27 19:45:00.81] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:45:00.81] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:45:00.81] [I] [ month=09 ] in control panel when device startup
+[2021-09-27 19:45:01.50] [I] right_activity_page start
+[2021-09-27 19:45:01.75] [E] [glycache] alloc items tcm error! Try alloc sram...
+[2021-09-27 19:45:01.75] [E] [OK]
+[2021-09-27 19:45:01.94] [E] [heyos_page_right_hrm_enter] lookup error, widget not exist, i = 3
+[2021-09-27 19:45:01.95] [E] [do_update:199] +++++++++++++++ is_weare = 0
+[2021-09-27 19:45:02.90] [I] [module_system_music_control_get] phone_type = 1, music_switch=1
+[2021-09-27 19:45:02.90] [I] [right_music] heyos_page_right_music_enter: isAllowControl=1, isConnected=0.
+[2021-09-27 19:45:04.14] [I] [service_ryeex_gap_callback] Connected. 
+[2021-09-27 19:45:04.43] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:45:04.43] [I] [lang module] get cur lang English id: 0 
+[2021-09-27 19:45:04.43] [I] [ month=09 ] in control panel when BLE connected 
+[2021-09-27 19:45:05.81] [I] [rbp_parser] CMD : 5, which:4, session:59691
+[2021-09-27 19:45:05.81] [I] oops sta 0
+[2021-09-27 19:45:05.81] [I] [ryble] send resp cmd:5 errCode: 0
+[2021-09-27 19:45:06.10] [I] [rbp_parser] CMD : 971, which:4, session:295118
+[2021-09-27 19:45:06.10] [I] [ryble] send resp cmd:971 errCode: 0
+[2021-09-27 19:45:06.34] [I] [mible] status:0,len:4,0xCD43BC01
+[2021-09-27 19:45:06.68] [I] [rbp_parser] CMD : 9, which:4, session:305082
+[2021-09-27 19:45:06.69] [I] [ryble] send resp cmd:9 errCode: 0
+[2021-09-27 19:45:06.83] [I] [rbp_parser] CMD : 904, which:4, session:340921
+[2021-09-27 19:45:06.84] [I] PHONE type: 1
+[2021-09-27 19:45:06.84] [I] [ryble] send resp cmd:904 errCode: 0
+[2021-09-27 19:45:06.97] [I] [rbp_parser] CMD : 6, which:4, session:328276
+[2021-09-27 19:45:06.98] [I] [ryble] send resp cmd:6 errCode: 0
+[2021-09-27 19:45:07.12] [I] [rbp_parser] CMD : 1, which:4, session:443277
+[2021-09-27 19:45:07.12] [I] [dip]24h :1
+[2021-09-27 19:45:07.13] [I] [ryble] send resp cmd:1 errCode: 0
+[2021-09-27 19:45:07.24] [I] [rbp_parser] CMD : 0, which:4, session:520254
+[2021-09-27 19:45:07.24] [I] [ryble] send resp cmd:0 errCode: 0
+[2021-09-27 19:45:07.38] [I] [rbp_parser] CMD : 908, which:4, session:744283
+[2021-09-27 19:45:07.38] [I] [[time]]utc:1632743107, devi:28800, 2021-09-27 19:45:07 | msg:1, 1632743108, deviat:28800], setDevi:28800
+[2021-09-27 19:45:08.00] [I] alarm evt 0x20
+[2021-09-27 19:45:08.00] [I] recent timer is null
+[2021-09-27 19:45:08.00] [I] [get_alarm] fail
+[2021-09-27 19:45:08.01] [I] [[time]]utc:1632743108, devi:28800, 2021-09-27 19:45:08
+[2021-09-27 19:45:08.01] [I] [ryble] send resp cmd:908 errCode: 0
+[2021-09-27 19:45:08.18] [I] [rbp_parser] CMD : 5304, which:4, session:25245
+[2021-09-27 19:45:08.18] [I] [ryble] send resp cmd:5304 errCode: 0
+[2021-09-27 19:45:11.51] [I] [hrm_save]1, auto:1, weared:0, bpm:80, level:21, output:0, state:0, interval:300, utc:1632743111
+[2021-09-27 19:45:17.13] [I] [ss_batt_do_sample] percent:56%, volt_mv:3862mv
+[2021-09-27 19:45:56.91] [I] [rbp_parser] CMD : 220, which:4, session:362047
+[2021-09-27 19:45:56.95] [I] [ryble] send resp cmd:220 errCode: 0
+[2021-09-27 19:45:59.27] [I] [rbp_parser] CMD : 1030, which:5, session:100
+[2021-09-27 19:46:00.24] [I] [rbp_parser] CMD : 1030, which:5, session:101
+[2021-09-27 19:46:00.92] [I] ram:[8868, 429696], b:56, s:0
+[2021-09-27 19:46:01.16] [I] [rbp_parser] CMD : 1030, which:5, session:102
+[2021-09-27 19:46:02.01] [I] [rbp_parser] CMD : 1030, which:5, session:103
+[2021-09-27 19:46:02.94] [I] [rbp_parser] CMD : 1030, which:5, session:104
+[2021-09-27 19:46:03.86] [I] [rbp_parser] CMD : 1030, which:5, session:105
+[2021-09-27 19:46:04.77] [I] [rbp_parser] CMD : 1030, which:5, session:106
+[2021-09-27 19:46:05.66] [I] [rbp_parser] CMD : 1030, which:5, session:107
+[2021-09-27 19:46:06.51] [I] [rbp_parser] CMD : 1030, which:5, session:108
+[2021-09-27 19:46:07.37] [I] [rbp_parser] CMD : 1030, which:5, session:109
+[2021-09-27 19:46:08.27] [I] [rbp_parser] CMD : 1030, which:5, session:110
+[2021-09-27 19:46:09.05] [I] [rbp_parser] CMD : 1030, which:5, session:111
+[2021-09-27 19:46:09.92] [I] [rbp_parser] CMD : 1030, which:5, session:112
+[2021-09-27 19:46:10.86] [I] [rbp_parser] CMD : 1030, which:5, session:113
+[2021-09-27 19:46:11.79] [I] [rbp_parser] CMD : 1030, which:5, session:114
+[2021-09-27 19:46:12.65] [I] [rbp_parser] CMD : 1030, which:5, session:115
+[2021-09-27 19:46:13.53] [I] [rbp_parser] CMD : 1030, which:5, session:116

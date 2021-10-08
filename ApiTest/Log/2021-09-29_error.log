@@ -1,0 +1,6 @@
+[ERROR 2021-09-29 14:39:12]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:2,"}�
+[ERROR 2021-09-29 18:47:35]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-09-29 18:47:35]Process-16安装表盘在第N次运行失败：45
+[ERROR 2021-09-29 18:47:53]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-29 22:23:44]Process-16安装表盘在第N次运行失败：127
+[ERROR 2021-09-29 22:24:02]页面未能找到该元素//android.widget.Button[@text='获取设备标识']

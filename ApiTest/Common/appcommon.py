@@ -287,20 +287,24 @@ class App(object):
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
+        print(text)
         if len(text) != 0:
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
                 page_name = text.split(',')[3].split(':')[1]
                 rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
-                view_name = text.split(',')[5].split(':')[1]
-                if text.split(',')[6].split(':')[1]:
-                    is_screen = text.split(',')[6].split(':')[1]
-                    return delta_ms, page_name, rebort_cnt, view_name, is_screen
+                # view_name = text.split(',')[5].split(':')[1]
+                #
+                # if text.split(',')[6].split(':')[1]:
+                #     is_screen = text.split(',')[6].split(':')[1]
+                #     return delta_ms, page_name, rebort_cnt, is_screen,view_name
+
                 # is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
                 # if page_name == 'remind':                                                                                 #退出提醒页面
                 #     self.device_home()
-                else:
-                    return delta_ms, page_name, rebort_cnt, view_name
+                # else:
+                #     return delta_ms, page_name, rebort_cnt
+                return delta_ms, page_name, rebort_cnt
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
                 raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -868,14 +872,65 @@ class App(object):
     def devices_installsurface(self, value):
         self.tv_installSurface(value)
         count = 1
+        text_list=[]
+        for text_num in range(0,101):
+            text_list.append(str(text_num)+"%")
+
+        while True:
+            time.sleep(1)
+            text = self.getresult()
+            print(text)
+
+            if text == "100%":
+                break
+            #
+            # elif text=="BleError{code=-2, detailCode=11, message='device already exist'}":
+            #     print("这个表盘已经安装过了")
+            #     break
+            # elif text=="BleError{code=-2, detailCode=17, message='unknown code'}":
+            #     print("这个表盘不存在")
+            #     break
+            # elif text=="BleError{code=27, detailCode=-1, message='sendDataPackage wait ack timeout transfer_sessionId:63872'}":
+            #     print("表盘传输时间超时")
+            #     break
+            # elif text=="BleError{code=27, detailCode=-1, message='sendDataPackage wait ack timeout transfer_sessionId:2873'}":
+            #     print("表盘传输时间超时")
+            #     break
+            elif text not in text_list:
+                print("表盘安装异常---------------------接口返回的以上信息为：{}".format(text))
+                break
+            if count >= 1000:       # 安装表盘的时间
+                print("安装表盘超时，退出表盘安装")
+                break
+            count+=1
+        time.sleep(10)
+
+    def devices_installsurface_2(self, value):
+        self.tv_installSurface(value)
+        count = 1
         while True:
             time.sleep(1)
             text = self.getresult()
             if text == "100%":
                 break
-            if count >= 1000:
+            elif text=="BleError{code=-2, detailCode=11, message='device already exist'}":
+                print("这个表盘已经安装过了")
                 break
+            elif text=="BleError{code=-2, detailCode=17, message='unknown code'}":
+                print("这个表盘不存在")
+                break
+            elif text=="BleError{code=27, detailCode=-1, message='sendDataPackage wait ack timeout transfer_sessionId:63872'}":
+                print("表盘传输时间超时")
+                break
+            elif text=="BleError{code=27, detailCode=-1, message='sendDataPackage wait ack timeout transfer_sessionId:2873'}":
+                print("表盘传输时间超时")
+                break
+            if count >= 2000:       # 安装表盘的时间
+                print("安装表盘超时，退出表盘安装")
+                break
+            count+=1
         time.sleep(10)
+
 
     @allure.step("绑定设备")
     def devices_bind(self, mac, selection, info):
@@ -911,8 +966,8 @@ class App(object):
             self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
             self.devices_click('SATURN_设备')
-            # self.devices_inputclick("280", "280", "280", "280")
-            self.devices_inputclick("270", "400", "270", "400")
+            self.devices_inputclick("280", "280", "280", "280")     #这个是saturn 设备的确认坐标点
+            # self.devices_inputclick("270", "400", "270", "400")   #这个是baileys 设备的确认坐标点
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
@@ -1425,6 +1480,8 @@ class App(object):
     def input_data(self, value):
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').click()
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').send_keys(value)
+        # print("输入完成")
+        # time.sleep(1000)
 
 
     def clear_text(self):
@@ -1632,3 +1689,5 @@ class App(object):
     def tv_updateweather(self):
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="更新天气信息"]').click()
         self.assert_notin_text()
+
+

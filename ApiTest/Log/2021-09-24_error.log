@@ -1,0 +1,67 @@
+[ERROR 2021-09-24 14:47:36]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:03:17]获取delta_ms/page_name/rebort_cnt失败BleError{code=5, bleCode=-1, message='device is not connected'}
+[ERROR 2021-09-24 15:05:37]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:13:26]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:18:42]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:27:52]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:48:04]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 15:51:11]页面未能找到该元素：请在设备上点击确认
+[ERROR 2021-09-24 15:54:53]获取delta_ms/page_name/rebort_cnt失败BleError{code=5, bleCode=-1, message='device is not connected'}
+[ERROR 2021-09-24 15:56:51]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 16:02:25]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 16:03:27]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:2,page_name:home_page,reboot_cnt:1,"}�
+[ERROR 2021-09-24 16:21:43]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:21:43]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 16:22:01]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:28:58]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-09-24 16:28:58]Process-16安装表盘在第N次运行失败：1
+[ERROR 2021-09-24 16:33:49]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-09-24 16:33:49]Process-16安装表盘在第N次运行失败：1
+[ERROR 2021-09-24 16:43:35]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:43:35]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 16:46:42]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:46:42]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 16:47:00]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:49:12]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:49:12]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 16:49:29]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:51:56]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 16:51:56]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 16:52:14]Process-16安装表盘在第N次运行失败：3
+[ERROR 2021-09-24 16:52:33]Process-16安装表盘在第N次运行失败：4
+[ERROR 2021-09-24 16:52:52]Process-16安装表盘在第N次运行失败：5
+[ERROR 2021-09-24 16:53:11]Process-16安装表盘在第N次运行失败：6
+[ERROR 2021-09-24 16:53:30]Process-16安装表盘在第N次运行失败：7
+[ERROR 2021-09-24 16:53:50]Process-16安装表盘在第N次运行失败：8
+[ERROR 2021-09-24 16:54:09]Process-16安装表盘在第N次运行失败：9
+[ERROR 2021-09-24 17:04:49]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 17:04:49]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 17:05:06]Process-16安装表盘在第N次运行失败：3
+[ERROR 2021-09-24 17:05:26]Process-16安装表盘在第N次运行失败：4
+[ERROR 2021-09-24 17:05:45]Process-16安装表盘在第N次运行失败：5
+[ERROR 2021-09-24 17:06:05]Process-16安装表盘在第N次运行失败：6
+[ERROR 2021-09-24 17:06:25]Process-16安装表盘在第N次运行失败：7
+[ERROR 2021-09-24 17:07:57]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 17:07:57]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 17:08:16]Process-16安装表盘在第N次运行失败：3
+[ERROR 2021-09-24 17:08:38]Process-16安装表盘在第N次运行失败：4
+[ERROR 2021-09-24 17:09:01]Process-16安装表盘在第N次运行失败：5
+[ERROR 2021-09-24 17:09:22]Process-16安装表盘在第N次运行失败：6
+[ERROR 2021-09-24 17:09:43]Process-16安装表盘在第N次运行失败：7
+[ERROR 2021-09-24 17:10:02]Process-16安装表盘在第N次运行失败：8
+[ERROR 2021-09-24 17:10:21]Process-16安装表盘在第N次运行失败：9
+[ERROR 2021-09-24 17:12:02]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 17:12:02]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 17:12:19]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-09-24 17:14:30]页面未能找到该元素//*[@class="android.widget.TextView" and @text="安装表盘"]
+[ERROR 2021-09-24 17:14:30]Process-16安装表盘在第N次运行失败：1
+[ERROR 2021-09-24 17:15:23]页面未能找到该元素//*[@class="android.widget.TextView" and @text="安装表盘"]
+[ERROR 2021-09-24 17:15:23]Process-16安装表盘在第N次运行失败：2
+[ERROR 2021-09-24 19:00:26]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-09-24 19:00:26]Process-16安装表盘在第N次运行失败：34
+[ERROR 2021-09-24 19:08:56]Process-16异常处理------------------------------------------------------------------------回连失败
+[ERROR 2021-09-25 00:11:27]Process-16安装表盘在第N次运行失败：126
+[ERROR 2021-09-25 04:53:28]Process-16安装表盘在第N次运行失败：252
+[ERROR 2021-09-25 07:53:37]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-09-25 07:53:37]Process-16安装表盘在第N次运行失败：363
+[ERROR 2021-09-25 08:15:32]Process-16异常处理------------------------------------------------------------------------回连失败

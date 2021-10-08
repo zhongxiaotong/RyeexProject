@@ -220,8 +220,8 @@ def diff_res(source_bin, target_bin, save_bin):
 
 
 
-# if __name__ == '__main__':
-#     diff_res('D:\\log\\381', 'D:\\log\\425', 'D:\\log\\381-425')
+if __name__ == '__main__':
+    diff_res(r'C:\Users\67342\Desktop\0.1.32.0\0.1.32.0',r'C:\Users\67342\Desktop\0.1.31.10919\0.1.31.10919', r'C:\Users\67342\Desktop\32-10919')
 
 
 

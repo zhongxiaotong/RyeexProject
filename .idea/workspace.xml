@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aefb47c0-5b42-4f10-a7dd-e7f03ae578cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke_New.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project-Pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-Pycharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTest/Common/Diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTest/Common/Diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTest/Common/appcommon.py" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTest/Common/appcommon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19756">
+              <caret line="1100" column="52" selection-start-line="1100" selection-start-column="40" selection-end-line="1100" selection-end-column="52" />
+              <folding>
+                <element signature="e#29652#32501#0" />
+                <element signature="e#32533#35522#0" />
+                <element signature="e#35555#37836#0" />
+                <element signature="e#37870#38926#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke_New.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1830">
+              <caret line="1085" column="30" lean-forward="true" selection-start-line="1085" selection-start-column="30" selection-end-line="1085" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="391" column="33" lean-forward="true" selection-start-line="391" selection-start-column="33" selection-end-line="391" selection-end-column="33" />
+              <folding>
+                <element signature="e#116#129#0" expanded="true" />
+                <element signature="e#1634#4354#0" />
+                <element signature="e#4386#7104#0" />
+                <element signature="e#7136#16049#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>安装表盘</find>
+      <find>getdevice</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ApiTest/Run.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Common/Diff.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Common/appcommon.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/SaturnTestcase/Baileys_Smoke_New.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke_New.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project-Pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Pycharm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-Pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="AppUiTestcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/WeChat Files/zhongxiaotong727975/FileStorage/File/2021-09/HaiEr" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\67342\Desktop\Project-Pycharm\ApiTest\Testcase\AppUiTestcase" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Saturn_Smoke">
+    <configuration name="Diff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project-Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ApiTest/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ApiTest/Common/Diff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Saturn_Smoke" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project-Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Saturn_Smoke" />
+        <item itemvalue="Python.Diff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aefb47c0-5b42-4f10-a7dd-e7f03ae578cb" name="Default Changelist" comment="" />
+      <created>1632391858541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632391858541</updated>
+      <workItem from="1632391859875" duration="4056000" />
+      <workItem from="1632464425168" duration="22007000" />
+      <workItem from="1632644950507" duration="10121000" />
+      <workItem from="1632730837585" duration="30688000" />
+      <workItem from="1632994069576" duration="651000" />
+      <workItem from="1633664646101" duration="1536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69059000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3711048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Pycharm$Saturn_Smoke.coverage" NAME="Saturn_Smoke Coverage Results" MODIFIED="1632912671797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase" />
+    <SUITE FILE_PATH="coverage/Project_Pycharm$Diff.coverage" NAME="Diff Coverage Results" MODIFIED="1632395929199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ApiTest/Common" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ApiTest/Repeater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#112#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#89#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Config/Config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Common/Diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-24.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46068">
+          <caret line="2094" selection-start-line="2094" selection-end-line="2094" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-24_error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="117" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-08-26.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-02_error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-26.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2444">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-26_error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-27_error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-08-26_error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/Appium_Python_Client-0.26-py2.7.egg!/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="378" column="16" selection-start-line="378" selection-start-column="16" selection-end-line="378" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="7648" lean-forward="true" selection-start-line="7648" selection-end-line="7648" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/2021-09-28_error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Log/Process-16/Device_Log/logs_dev_2021.09.27_0.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3728">
+          <caret line="1849" lean-forward="true" selection-start-line="1849" selection-end-line="1849" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Common/appcommon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="917" column="21" lean-forward="true" selection-start-line="917" selection-start-column="21" selection-end-line="917" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19756">
+          <caret line="1100" column="52" selection-start-line="1100" selection-start-column="40" selection-end-line="1100" selection-end-column="52" />
+          <folding>
+            <element signature="e#29652#32501#0" />
+            <element signature="e#32533#35522#0" />
+            <element signature="e#35555#37836#0" />
+            <element signature="e#37870#38926#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke_New.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="1085" column="30" lean-forward="true" selection-start-line="1085" selection-start-column="30" selection-end-line="1085" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Baileys_Smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="391" column="33" lean-forward="true" selection-start-line="391" selection-start-column="33" selection-end-line="391" selection-end-column="33" />
+          <folding>
+            <element signature="e#116#129#0" expanded="true" />
+            <element signature="e#1634#4354#0" />
+            <element signature="e#4386#7104#0" />
+            <element signature="e#7136#16049#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
