@@ -1,0 +1,1078 @@
+mezone_deviation:  28800
+
+[9-15 3:40:11 266] [I] second_timezone:            
+
+[9-15 3:40:11 266] [I] second_timezone_deviation:  0
+
+[9-15 3:40:11 266] [I] battery:                    55
+
+[9-15 3:40:11 267] [I] last_charge_time:           0
+
+[9-15 3:40:11 267] [I] lcd_id:                     00000000
+
+[9-15 3:40:11 267] [I] oops status:                0
+
+[9-15 3:40:11 267] [I] dnd_mode:                   0
+
+[9-15 3:40:11 267] [I] dnd_smart_mode:             0
+
+[9-15 3:40:11 267] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[9-15 3:40:11 267] [I] bright_level:               40
+
+[9-15 3:40:11 267] [I] debug_mode:                 0
+
+[9-15 3:40:11 267] [I] raise_to_wake_mode:         1
+
+[9-15 3:40:11 267] [I] status_bar_battery:         0
+
+[9-15 3:40:11 267] [I] status_bar_connecting:      0
+
+[9-15 3:40:11 267] [I] night_mode:                 0
+
+[9-15 3:40:11 267] [I] night_mode_start_time:      0
+
+[9-15 3:40:11 267] [I] night_mode_stop_time:       0
+
+[9-15 3:40:11 267] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[9-15 3:40:11 267] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[9-15 3:40:11 267] [I] drink_mode:1 freq_time:    30
+start_time:480 stop_time:     1140
+
+[9-15 3:40:11 267] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[9-15 3:40:11 267] [I] notification_mode:          0
+
+[9-15 3:40:11 267] [I] step_goal_achieve_mode:     1
+
+[9-15 3:40:11 267] [I] step_goal:                  8000
+
+[9-15 3:40:11 267] [I] unlock_mode:                0
+
+[9-15 3:40:11 267] [I] app_view:                   0
+
+[9-15 3:40:11 267] [I] peer_mobile_type:           1
+
+[9-15 3:40:11 267] [I] target_calories_goal:       300
+
+[9-15 3:40:11 267] [I] sports_duration_goal:       30
+
+[9-15 3:40:11 267] [I] screen_always_on_enable:    0
+
+[9-15 3:40:11 267] [I] screen_always_on_mode:      0
+
+[9-15 3:40:11 267] [I] screen_always_on_start_time:480
+
+[9-15 3:40:11 267] [I] screen_always_on_end_time:  1200
+
+[9-15 3:40:11 267] [I] =======================================
+
+
+[9-15 3:40:12 376] [I] tp info init
+
+[9-15 3:40:12 376] [I] tp send HID cmd
+
+[9-15 3:40:12 376] [I] tp send HID cmd
+
+[9-15 3:40:12 376] [I] send cmd id: 0x3b
+
+[9-15 3:40:12 376] [I] tp send HID cmd
+
+[9-15 3:40:12 376] [E] i2c wirte fail, status:0x8000002, len:2
+
+[9-15 3:40:12 377] [I] send cmd id: 0x3b
+
+[9-15 3:40:12 378] [I] tp send HID cmd
+
+[9-15 3:40:12 378] [I] send cmd id: 0x2
+
+[9-15 3:40:13 379] [I] send cmd id: 0x3
+
+[9-15 3:40:13 380] [I] send cmd id: 0x20
+
+[9-15 3:40:13 380] [I] send cmd id: 0x22
+
+[9-15 3:40:13 381] [I] tp id info: 0x02-0x00-0x00
+
+[9-15 3:40:13 384] [I] send cmd id: 0x4
+
+[9-15 3:40:13 384] [I] tp upgrade file: /res/TP/xinshijie_tp.bin
+
+[9-15 3:40:13 384] [I] tp upgrade file is not exist!
+
+[9-15 3:40:13 384] [I] status: 2, tp fw load from file fail!
+
+[9-15 3:40:13 384] [I] tp no need upgrade
+
+[9-15 3:40:13 384] [I] tp info deinit!
+
+[9-15 3:40:13 384] [I] [r_xfer_thread] Enter.
+
+[9-15 3:40:13 386] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[9-15 3:40:13 386] [I] mible token read. len = 44
+
+[9-15 3:40:13 386] [I] Token match. continue..
+
+[9-15 3:40:13 386] [I] retrive token, a7 d8 f0 f2 74 eb 93 61 8e 78
+
+[31m[34518] E/cmb: 
+[0m[31m[34518] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[34518] E/cmb: Fault on thread heyUI
+[0m[31m[34518] E/cmb: ===== Thread stack information =====
+[0m[31m[34518] E/cmb: ====================================
+[0m[31m[34518] E/cmb: =================== Registers information ====================
+[0m[31m[34518] E/cmb:   R0 : 00000000  R1 : 1009c2f8  R2 : 000eda41  R3 : 100448fc
+[0m[31m[34518] E/cmb:   R12: 00000000  LR : 000a3869  PC : 000eda74  PSR: 81000000
+[0m[31m[34518] E/cmb: ==============================================================
+[0m[31m[34518] E/cmb: Bus fault is caused by precise data access violation
+[0m[31m[34518] E/cmb: The bus fault occurred address is 0000004c
+[0m[31m[34518] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 000eda74 000a3868 000a706a 0009fc4c 00083c16 000ed5e6 000a3868 000a706a 0009fc4c 0009fc70 0009fc70 00085d22 000eceea 0003f87c 00057652 00053a92 0004f1ca 000465ea 0004665a 0003e88e 0003e866 00027fbe 0001fec4 
+[0m[31m[34518] E/cmb: Current system tick: 34518
+[0m[9-15 3:40:15 581] [I] [service_sport] Init done
+
+[9-15 3:40:15 581] [I] load notify 0
+
+[9-15 3:40:15 581] [E] [svc weather] init OK
+
+[9-15 3:40:15 623] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[9-15 3:40:15 630] [I] [anim_nand] ver.104
+
+[9-15 3:40:15 630] [E] [anim_nand]: cannot find the file system info
+
+[9-15 3:40:15 637] [I] XINSHIJIE driver
+
+[9-15 3:40:15 660] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[9-15 3:40:15 661] [I] ram:[23624, 904512], b:55, s:0
+
+[9-15 3:40:15 661] [I] [sport_record_dump] total_cnt:0
+
+[9-15 3:40:15 669] [I] [offline_data] file_hexstr, lengh:48, contents:
+
+"0300000009F640610000000009F6406101000000000000000300000009F640610100000009F640610200000000000000"
+lines:1
+
+[9-15 3:40:15 670] [I] [sleep_summary] start:03:20, end:03:20, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[9-15 3:40:15 670] [I] [health_rec_health_evt]: sleep update done
+
+[9-15 3:40:16 695] [I] [awtk_oom] hook initialized!
+
+[9-15 3:40:16 695] [I] [heyos_page_root_enter] brightness_set 40
+
+[9-15 3:40:16 747] [I] [lang module] language 1:en-US
+
+[9-15 3:40:16 747] [I] oops sta 0
+
+[9-15 3:40:16 747] [I] [m_face] preview cnt:6 
+
+[9-15 3:40:16 747] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[9-15 3:40:16 747] [I] [m_face] uid:9568, preview image:watchface_9568/preview/dev 
+
+[9-15 3:40:16 747] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[9-15 3:40:16 747] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[9-15 3:40:16 747] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[9-15 3:40:16 747] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[9-15 3:40:16 761] [I] [wrkt] drink reset
+
+[9-15 3:40:17 845] [I] alarm evt 0x10
+
+[9-15 3:40:17 845] [I] recent timer is null
+
+[9-15 3:40:17 845] [I] [get_alarm] fail
+
+[9-15 3:40:20 1157] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:108
+
+[9-15 3:40:21 1267] [I] [ss_batt_restore] stored_batt_percent_last:55%
+
+[9-15 3:40:21 1267] [I] [ss_batt_restore] restore percent 55%
+
+[9-15 3:40:25 1596] [I] [page_refresh_sport_infor] get sport num:10
+
+[9-15 3:40:25 1596] [I] [sport checksum] 0x85230488
+
+[9-15 3:40:25 1605] [E] weatehr future is invalid
+
+[9-15 3:40:25 1605] [E] [sleep] no data, skip
+
+[9-15 3:40:25 1605] [I] [end_init_refresh] snapshot refresh finish.
+
+[9-15 3:40:26 1706] [I] Dev bond, enter home page
+
+[9-15 3:40:26 1706] [I] [home] begin
+
+[9-15 3:40:26 1729] [E] [m_face] loader oom
+
+[9-15 3:40:26 1734] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:40:26 1734] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:40:26 1734] [E] [watchface_get] Item list No mem.
+
+[9-15 3:40:26 1734] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:40:26 1734] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:40:26 1734] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:40:28 1953] [E] [watchface_basic_info_parse 702] basic face_type p-15 3:30:19 660] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[9-15 3:30:19 660] [I] ram:[23576, 904512], b:55, s:0
+
+[9-15 3:30:19 661] [I] [sport_record_dump] total_cnt:0
+
+[9-15 3:30:20 669] [I] [offline_data] file_hexstr, lengh:48, contents:
+
+"0300000009F640610000000009F6406101000000000000000300000009F640610100000009F640610200000000000000"
+lines:1
+
+[9-15 3:30:20 670] [I] [sleep_summary] start:03:20, end:03:20, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[9-15 3:30:20 670] [I] [health_rec_health_evt]: sleep update done
+
+[9-15 3:30:20 691] [I] [awtk_oom] hook initialized!
+
+[9-15 3:30:20 691] [I] [heyos_page_root_enter] brightness_set 40
+
+[9-15 3:30:20 743] [I] [lang module] language 1:en-US
+
+[9-15 3:30:20 743] [I] oops sta 0
+
+[9-15 3:30:20 743] [I] [m_face] preview cnt:6 
+
+[9-15 3:30:20 743] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[9-15 3:30:20 743] [I] [m_face] uid:9568, preview image:watchface_9568/preview/dev 
+
+[9-15 3:30:20 743] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[9-15 3:30:20 743] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[9-15 3:30:20 743] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[9-15 3:30:20 743] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[9-15 3:30:20 761] [I] [wrkt] drink reset
+
+[9-15 3:30:21 845] [I] alarm evt 0x10
+
+[9-15 3:30:21 845] [I] recent timer is null
+
+[9-15 3:30:21 845] [I] [get_alarm] fail
+
+[9-15 3:30:24 1154] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:96
+
+[9-15 3:30:25 1266] [I] [ss_batt_restore] stored_batt_percent_last:55%
+
+[9-15 3:30:25 1266] [I] [ss_batt_restore] restore percent 55%
+
+[9-15 3:30:29 1648] [I] [page_refresh_sport_infor] get sport num:10
+
+[9-15 3:30:29 1648] [I] [sport checksum] 0x85230488
+
+[9-15 3:30:29 1657] [E] weatehr future is invalid
+
+[9-15 3:30:29 1657] [E] [sleep] no data, skip
+
+[9-15 3:30:29 1657] [I] [end_init_refresh] snapshot refresh finish.
+
+[9-15 3:30:30 1758] [I] Dev bond, enter home page
+
+[9-15 3:30:30 1758] [I] [home] begin
+
+[9-15 3:30:31 1781] [E] [m_face] loader oom
+
+[9-15 3:30:31 1786] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:30:31 1786] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:30:31 1786] [E] [watchface_get] Item list No mem.
+
+[9-15 3:30:31 1786] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:30:31 1786] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:30:31 1786] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:30:33 2011] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:30:33 2011] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:30:33 2011] [E] [watchface_get] Item list No mem.
+
+[9-15 3:30:33 2011] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:30:33 2011] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:30:33 2011] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:30:34 2142] [I] menu_cnt = 15, child_cnt = 1
+
+[9-15 3:30:37 2392] [I] [oom] psram mid: 
+[9-15 3:30:37 2392] [I] ## s=329728,t=heyUI ##
+
+[9-15 3:30:37 2395] [I] [oom] retry:0, result:0x5664c724
+
+[9-15 3:30:37 2430] [I] right_activity_page start
+
+[9-15 3:30:37 2469] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[9-15 3:30:37 2469] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[9-15 3:30:38 2532] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[9-15 3:30:38 2532] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[9-15 3:30:38 2532] [E] weatehr future is invalid
+
+[9-15 3:30:39 2577] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[9-15 3:30:39 2577] [E] right music recv wrong play state = 0
+
+[9-15 3:30:39 2577] [I] [right_music] heyos_page_right_music_enter: isAllowControl=0, isConnected=0.
+
+[9-15 3:30:39 2577] [E] [psram fixed] no mem. available:115672, request:329728
+
+[9-15 3:30:39 2577] [E] [snapshot_gen] No mem. w:368,h:448
+
+[9-15 3:30:39 2577] [E] [view] snapshot NULL FAILED
+
+[9-15 3:30:40 2763] [I] [service_ryeex_gap_callback] Connected. 
+
+[9-15 3:30:41 2774] [I] [oom] psram mid: 
+[9-15 3:30:41 2774] [I] ## s=329760,t=heyUI ##
+
+[9-15 3:30:41 2775] [E] [awtk] oom times:3,size:329760
+
+[9-15 3:30:41 2777] [I] [oom] retry:2, result:0x56497018
+
+[9-15 3:30:42 2921] [I] oops sta 0
+
+[9-15 3:30:42 2942] [E] weatehr future is invalid
+
+[9-15 3:30:42 2971] [I] [mible] status:0,len:4,0xCD43BC01
+
+[9-15 3:30:43 2999] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[9-15 3:30:43 2999] [E] right music recv wrong play state = 0
+
+[9-15 3:30:43 3021] [I] PHONE type: 1
+
+[9-15 3:30:43 3045] [I] [dip]24h :1
+
+[9-15 3:30:43 3058] [I] [get_property] ID:6000
+
+[9-15 3:30:43 3070] [I] [[time]]utc:1631647843, devi:28800, 2021-09-15 03:30:43 | msg:1, 1631647844, deviat:28800], setDevi:28800
+
+[9-15 3:30:44 3070] [I] alarm evt 0x20
+
+[9-15 3:30:44 3070] [I] recent timer is null
+
+[9-15 3:30:44 3070] [I] [get_alarm] fail
+
+[9-15 3:30:44 3077] [I] [[time]]utc:1631647844, devi:28800, 2021-09-15 03:30:44
+
+[9-15 3:31:0 4715] [I] ram:[21408, 687060], b:55, s:0
+
+[9-15 3:31:31 7827] [I] XINSHIJIE driver
+
+[9-15 3:31:32 7872] [I] oops sta 0
+
+[9-15 3:31:34 8118] [I] XINSHIJIE driver
+
+[9-15 3:31:34 8163] [I] oops sta 0
+
+[9-15 3:31:35 8178] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[9-15 3:32:0 10716] [I] ram:[21408, 665696], b:55, s:0
+
+[9-15 3:32:17 12393] [I] [surface_add_start] psram max available size:197332, psram_mid available size:802468
+
+[9-15 3:32:17 12393] [E] [surface_add_start] too little psram_mid available size:197332, psram_big available size:802468
+
+[9-15 3:32:17 12393] [I] [oom] psram mid: 
+[9-15 3:32:17 12393] [I] ## s=4145152,t=app_protoco ##
+
+[9-15 3:32:17 12394] [I] XINSHIJIE driver
+
+[9-15 3:32:17 12414] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[9-15 3:32:17 12444] [E] [awtk] oom times:3,size:4145152
+
+[9-15 3:32:18 12545] [E] [awtk] out of memory
+
+[9-15 3:32:18 12545] [I] [oom] retry:4, result:0x00000000
+
+[9-15 3:32:18 12545] [I] [surface_add_start] After oom, psram available size:197332, psram_mid available size:2355176
+
+[9-15 3:32:18 12545] [I] [surface_add] new session:0
+
+[9-15 3:32:18 12545] [E] [surface_add] err status existed status 7 when add %ld
+
+[9-15 3:32:18 12545] [I] abort status = 0
+
+[9-15 3:32:18 12545] [I] Enter session: 0
+
+[9-15 3:32:18 12546] [E] [surface_add] {surface_add_start} err:0x1811 
+
+[9-15 3:33:0 16718] [I] ram:[24188, 758984], b:55, s:0
+
+[9-15 3:33:13 17965] [I] dynamic name :jellyfish.am, anim id 22
+
+[9-15 3:33:13 17965] [I] [surface_item_lang_change][2468] item text ready to reset default
+
+[9-15 3:33:13 17974] [E] [on_user_group_update][999] widget is null
+
+[9-15 3:33:54 22074] [I] XINSHIJIE driver
+
+[9-15 3:33:54 22082] [I] [surface_add_start] psram max available size:197332, psram_mid available size:1443976
+
+[9-15 3:33:54 22082] [E] [surface_add_start] too little psram_mid available size:197332, psram_big available size:1443976
+
+[9-15 3:33:54 22083] [I] [oom] psram mid: 
+[9-15 3:33:54 22083] [I] ## s=4145152,t=app_protoco ##
+
+[9-15 3:33:54 22095] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[9-15 3:33:55 22225] [E] [awtk] oom times:3,size:4145152
+
+[9-15 3:33:56 22326] [E] [awtk] out of memory
+
+[9-15 3:33:56 22326] [I] [oom] retry:4, result:0x00000000
+
+[9-15 3:33:56 22326] [I] [surface_add_start] After oom, psram available size:197332, psram_mid available size:2355176
+
+[9-15 3:33:56 22326] [I] [surface_add] new session:0
+
+[9-15 3:33:56 22326] [I] [surface_add] timer start
+
+[9-15 3:33:56 22326] [I] Enter session: 5
+
+[9-15 3:33:56 22326] [I] [surface_add] flow start 
+
+[9-15 3:34:0 22718] [I] ram:[26440, 826428], b:55, s:5
+
+[9-15 3:34:2 22862] [I] [surface_add] -------- open:watchface_9568.tar,fd:6 
+
+[9-15 3:34:17 24429] [I] fd = 6 [surface_add_data][2351]
+
+[9-15 3:34:17 24430] [I] fd = -1 [surface_add_data][2356]
+
+[9-15 3:34:17 24430] [I] [surface_add] ----watchface_9568.tar crc read:0x0000FFFF, cfg:0x0000B8C5
+
+[9-15 3:34:17 24431] [I] [surface_add_data] Untar and delete tar file. name:watchface_9568.tar.
+
+[9-15 3:34:20 24674] [I] [surface_add] index:1,res_count:1
+
+[9-15 3:34:20 24674] [I] [surface_add] p_surface =268515048 
+
+[9-15 3:34:20 24674] [I] [surface_add]set header store_id=9568 
+
+[9-15 3:34:20 24678] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:20 24678] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:20 24678] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:20 24682] [I] FINISH STATUS = 9 [surface_add_flow_finished][1544]
+
+[9-15 3:34:20 24682] [I] Enter session: 0
+
+[9-15 3:34:20 24686] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:20 24686] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:20 24686] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:20 24686] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:34:20 24686] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:34:20 24686] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:34:20 24686] [I] [m_face] preview cnt:6 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:9568, preview image:watchface_9568/preview/dev 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[9-15 3:34:20 24686] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[9-15 3:34:20 24729] [I] [surface add_data end ][2432] status = 0
+
+[9-15 3:34:20 24733] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:20 24733] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:20 24733] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:20 24733] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:34:20 24733] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:34:20 24733] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:34:22 0] [I] HEYOS build/* Sep 23 2021 *\ 
+
+[9-15 3:34:22 0] [I] check:584, sum:584, pass:1
+
+[9-15 3:34:22 0] [I] SW Power-On reset or AIRCR reset!
+
+[9-15 3:34:22 0] [I] [no_init] abnormal reset
+
+[9-15 3:34:22 0] [I] soft_reset:1, sHalResetStatus:0x8
+
+[9-15 3:34:22 0] [I] [no_init] rebootTimes:7, last_sync_utc:1546300800, step:0, calorie:0, distance:0
+
+[9-15 3:34:24 200] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+
+[9-15 3:34:24 202] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+
+[9-15 3:34:24 202] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+
+[9-15 3:34:24 202] [I] [charger] Before NTC_DISABLE REG06 = 0x40
+
+[9-15 3:34:24 204] [I] [charger] After NTC_DISABLE REG06 = 0x40
+
+[9-15 3:34:24 204] [I] [charger] charger internal NTC disable successfully
+
+[9-15 3:34:24 205] [I] 1Gb Nand init
+
+[9-15 3:34:24 206] [I] [DHARA] capacity: 22000
+
+[9-15 3:34:24 206] [I] [DHARA] allocated: 9014
+
+[9-15 3:34:24 235] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:24 235] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:24 235] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:24 244] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[9-15 3:34:24 244] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 244] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 244] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 244] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 248] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 250] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[9-15 3:34:24 250] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[9-15 3:34:24 250] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[9-15 3:34:24 253] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[9-15 3:34:24 253] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[9-15 3:34:24 263] [I] [service_device_profile_init] Device Profile Init Done.
+
+[9-15 3:34:24 263] [I] =============General Profile V2 ===========
+
+[9-15 3:34:25 263] [I] model: ryeex.watch.baileys.v1
+
+[9-15 3:34:25 263] [I] did: 1514557
+
+[9-15 3:34:25 263] [I] mac: 2c:aa:8e:09:d1:5f
+
+[9-15 3:34:25 263] [I] sn: E1E1000190
+
+[9-15 3:34:25 263] [I] product id: 6
+
+[9-15 3:34:25 263] [I] =======================================
+
+
+[9-15 3:34:25 263] [I] =============Usr Profile===========
+
+[9-15 3:34:25 263] [I] version: 3
+
+[9-15 3:34:25 263] [I] gender: 1
+
+[9-15 3:34:25 263] [I] id: 0
+
+[9-15 3:34:25 263] [I] nickname: 
+
+[9-15 3:34:25 263] [I] birthday: 1995.01.01
+
+[9-15 3:34:25 263] [I] age: 25
+
+[9-15 3:34:25 263] [I] height: 175
+
+[9-15 3:34:25 263] [I] weight: 130
+
+[9-15 3:34:25 263] [I] wear_hand: 1
+
+[9-15 3:34:25 263] [I] sport_list_count:           10
+sport_num: [1, 2, 4, 5, 3, 6, 7, 21, 15, 23]
+
+[9-15 3:34:25 263] [I] app_list_count:             15
+
+[9-15 3:34:25 263] [I] app_num: [0] = 19
+
+[9-15 3:34:25 263] [I] app_num: [1] = 3
+
+[9-15 3:34:25 263] [I] app_num: [2] = 4
+
+[9-15 3:34:25 263] [I] app_num: [3] = 18
+
+[9-15 3:34:25 263] [I] app_num: [4] = 2
+
+[9-15 3:34:25 263] [I] app_num: [5] = 20
+
+[9-15 3:34:25 263] [I] app_num: [6] = 21
+
+[9-15 3:34:25 263] [I] app_num: [7] = 8
+
+[9-15 3:34:25 263] [I] app_num: [8] = 5
+
+[9-15 3:34:25 263] [I] app_num: [9] = 25
+
+[9-15 3:34:25 263] [I] app_num: [10] = 9
+
+[9-15 3:34:25 263] [I] app_num: [11] = 23
+
+[9-15 3:34:25 263] [I] app_num: [12] = 24
+
+[9-15 3:34:25 263] [I] app_num: [13] = 12
+
+[9-15 3:34:25 263] [I] app_num: [14] = 7
+
+[9-15 3:34:25 264] [I] =======================================
+
+
+[9-15 3:34:25 264] [I] [binding_profile_init] Profile load.
+
+[9-15 3:34:25 264] [I] [binding profile] Load from backup-for trace.
+
+[9-15 3:34:25 264] [I] backup bind_status: 1
+
+[9-15 3:34:25 264] [I] backup device_sn:   58
+
+[9-15 3:34:25 264] [I] backup server_sn:   0
+
+[9-15 3:34:25 264] [I] backup profile_ver: 1
+
+[9-15 3:34:25 264] [I] backup token: a7 d8 f0 f2 74 eb 93 61 8e 78
+
+[9-15 3:34:25 264] [I] =============Binding Profile===========
+
+[9-15 3:34:25 264] [I] version: 1
+
+[9-15 3:34:25 264] [I] bind_status: 1
+
+[9-15 3:34:25 264] [I] device_sn: 58
+
+[9-15 3:34:25 264] [I] server_sn: 0
+
+[9-15 3:34:25 264] [I] =======================================
+
+
+[9-15 3:34:25 264] [I] [regulation_profile_init] Profile load.
+
+[9-15 3:34:25 264] [I] =============Regular Profile===========
+
+[9-15 3:34:25 264] [I] magic: 0x20210115
+
+[9-15 3:34:25 264] [I] info_count: 20
+
+[9-15 3:34:25 264] [I] key: BIS, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: NCC, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: SDPPI, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: PLG, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: NTC, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: SIRIM, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: IMDA, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: RCM, value: 
+
+[9-15 3:34:25 264] [I] key: CE, value: 
+
+[9-15 3:34:25 264] [I] key: WEEE, value: 
+
+[9-15 3:34:25 264] [I] key: EAC, value: 
+
+[9-15 3:34:25 264] [I] key: TEC, value: 
+
+[9-15 3:34:25 264] [I] key: CMIM, value: 
+
+[9-15 3:34:25 264] [I] key: NOM, value: 
+
+[9-15 3:34:25 264] [I] key: FCC, value: 
+
+[9-15 3:34:25 264] [I] key: SRRC, value: 
+
+[9-15 3:34:25 264] [I] key: MIC, value: 
+
+[9-15 3:34:25 264] [I] key: KC, value: 
+
+[9-15 3:34:25 264] [I] key: ANATEL, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] key: IFT, value: XXX-XXX-XXX
+
+[9-15 3:34:25 264] [I] =======================================
+
+
+[9-15 3:34:25 264] [I] =============System Profile===========
+
+[9-15 3:34:25 264] [I] hw version:                 1.4
+
+[9-15 3:34:25 264] [I] fw version:                 0.1.0.10923
+
+[9-15 3:34:25 265] [I] language:                   English
+
+[9-15 3:34:25 265] [I] dual_time_zone_mode:        0
+
+[9-15 3:34:25 265] [I] system_timezone:            CST
+
+[9-15 3:34:25 265] [I] system_timezone_deviation:  28800
+
+[9-15 3:34:25 265] [I] second_timezone:            
+
+[9-15 3:34:25 265] [I] second_timezone_deviation:  0
+
+[9-15 3:34:25 265] [I] battery:                    55
+
+[9-15 3:34:25 265] [I] last_charge_time:           0
+
+[9-15 3:34:25 265] [I] lcd_id:                     00000000
+
+[9-15 3:34:25 265] [I] oops status:                0
+
+[9-15 3:34:25 265] [I] dnd_mode:                   0
+
+[9-15 3:34:25 265] [I] dnd_smart_mode:             0
+
+[9-15 3:34:25 265] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[9-15 3:34:25 265] [I] bright_level:               40
+
+[9-15 3:34:25 265] [I] debug_mode:                 0
+
+[9-15 3:34:25 265] [I] raise_to_wake_mode:         1
+
+[9-15 3:34:25 265] [I] status_bar_battery:         0
+
+[9-15 3:34:25 265] [I] status_bar_connecting:      0
+
+[9-15 3:34:25 265] [I] night_mode:                 0
+
+[9-15 3:34:25 265] [I] night_mode_start_time:      0
+
+[9-15 3:34:25 265] [I] night_mode_stop_time:       0
+
+[9-15 3:34:25 265] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[9-15 3:34:25 265] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[9-15 3:34:25 265] [I] drink_mode:1 freq_time:    30
+start_time:480 stop_time:     1140
+
+[9-15 3:34:25 265] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[9-15 3:34:25 265] [I] notification_mode:          0
+
+[9-15 3:34:25 265] [I] step_goal_achieve_mode:     1
+
+[9-15 3:34:25 265] [I] step_goal:                  8000
+
+[9-15 3:34:25 265] [I] unlock_mode:                0
+
+[9-15 3:34:25 265] [I] app_view:                   0
+
+[9-15 3:34:25 265] [I] peer_mobile_type:           1
+
+[9-15 3:34:25 265] [I] target_calories_goal:       300
+
+[9-15 3:34:25 265] [I] sports_duration_goal:       30
+
+[9-15 3:34:25 265] [I] screen_always_on_enable:    0
+
+[9-15 3:34:25 265] [I] screen_always_on_mode:      0
+
+[9-15 3:34:25 265] [I] screen_always_on_start_time:480
+
+[9-15 3:34:25 265] [I] screen_always_on_end_time:  1200
+
+[9-15 3:34:25 265] [I] =======================================
+
+
+[9-15 3:34:26 374] [I] tp info init
+
+[9-15 3:34:26 374] [I] tp send HID cmd
+
+[9-15 3:34:26 374] [I] tp send HID cmd
+
+[9-15 3:34:26 374] [I] send cmd id: 0x3b
+
+[9-15 3:34:26 374] [E] i2c2 read fail, status:0x8000002, len:32
+
+[9-15 3:34:26 374] [I] tp send HID cmd
+
+[9-15 3:34:26 374] [E] i2c wirte fail, status:0x8000002, len:2
+
+[9-15 3:34:26 375] [I] send cmd id: 0x3b
+
+[9-15 3:34:26 376] [I] tp send HID cmd
+
+[9-15 3:34:26 376] [I] send cmd id: 0x2
+
+[9-15 3:34:26 377] [I] send cmd id: 0x3
+
+[9-15 3:34:26 378] [I] send cmd id: 0x20
+
+[9-15 3:34:26 378] [I] send cmd id: 0x22
+
+[9-15 3:34:26 379] [I] tp id info: 0x02-0x00-0x00
+
+[9-15 3:34:26 382] [I] send cmd id: 0x4
+
+[9-15 3:34:26 382] [I] tp upgrade file: /res/TP/xinshijie_tp.bin
+
+[9-15 3:34:26 382] [I] tp upgrade file is not exist!
+
+[9-15 3:34:26 382] [I] status: 2, tp fw load from file fail!
+
+[9-15 3:34:26 382] [I] tp no need upgrade
+
+[9-15 3:34:26 382] [I] tp info deinit!
+
+[9-15 3:34:26 382] [I] [r_xfer_thread] Enter.
+
+[9-15 3:34:26 384] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[9-15 3:34:26 384] [I] mible token read. len = 44
+
+[9-15 3:34:26 384] [I] Token match. continue..
+
+[9-15 3:34:26 384] [I] retrive token, a7 d8 f0 f2 74 eb 93 61 8e 78
+
+[31m[24834] E/cmb: 
+[0m[31m[24834] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[24834] E/cmb: Fault on thread heyUI
+[0m[31m[24834] E/cmb: ===== Thread stack information =====
+[0m[31m[24834] E/cmb: ====================================
+[0m[31m[24834] E/cmb: =================== Registers information ====================
+[0m[31m[24834] E/cmb:   R0 : 00000000  R1 : 1009c2f8  R2 : 000eda41  R3 : 10044d5c
+[0m[31m[24834] E/cmb:   R12: 00000000  LR : 000a3869  PC : 000eda74  PSR: 81000000
+[0m[31m[24834] E/cmb: ==============================================================
+[0m[31m[24834] E/cmb: Bus fault is caused by precise data access violation
+[0m[31m[24834] E/cmb: The bus fault occurred address is 0000004c
+[0m[31m[24834] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 000eda74 000a3868 000a706a 0009fc4c 00083c16 000ee50c 000a3868 000a706a 0009fc4c 0009fc70 0009fc70 00085d22 000eceea 0003f87c 00057652 00053a92 0004f1ca 000465ea 0004665a 0003e88e 0003e866 00027fbe 0001fec4 
+[0m[31m[24834] E/cmb: Current system tick: 24834
+[0m[9-15 3:34:28 579] [I] [service_sport] Init done
+
+[9-15 3:34:28 579] [I] load notify 0
+
+[9-15 3:34:28 579] [E] [svc weather] init OK
+
+[9-15 3:34:29 621] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[9-15 3:34:29 628] [I] [anim_nand] ver.104
+
+[9-15 3:34:29 628] [E] [anim_nand]: cannot find the file system info
+
+[9-15 3:34:29 635] [I] XINSHIJIE driver
+
+[9-15 3:34:29 657] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[9-15 3:34:29 658] [I] ram:[23576, 904488], b:55, s:0
+
+[9-15 3:34:29 658] [I] [sport_record_dump] total_cnt:0
+
+[9-15 3:34:29 668] [I] [offline_data] file_hexstr, lengh:48, contents:
+
+"0300000009F640610000000009F6406101000000000000000300000009F640610100000009F640610200000000000000"
+lines:1
+
+[9-15 3:34:29 668] [I] [sleep_summary] start:03:20, end:03:20, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[9-15 3:34:29 668] [I] [health_rec_health_evt]: sleep update done
+
+[9-15 3:34:29 696] [I] [awtk_oom] hook initialized!
+
+[9-15 3:34:29 697] [I] [heyos_page_root_enter] brightness_set 40
+
+[9-15 3:34:30 749] [I] [lang module] language 1:en-US
+
+[9-15 3:34:30 749] [I] oops sta 0
+
+[9-15 3:34:30 749] [I] [m_face] preview cnt:6 
+
+[9-15 3:34:30 749] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[9-15 3:34:30 749] [I] [m_face] uid:9568, preview image:watchface_9568/preview/dev 
+
+[9-15 3:34:30 749] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[9-15 3:34:30 749] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[9-15 3:34:30 749] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[9-15 3:34:30 749] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[9-15 3:34:30 758] [I] [wrkt] drink reset
+
+[9-15 3:34:31 826] [I] alarm evt 0x10
+
+[9-15 3:34:31 826] [I] recent timer is null
+
+[9-15 3:34:31 826] [I] [get_alarm] fail
+
+[9-15 3:34:34 1153] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:111
+
+[9-15 3:34:35 1265] [I] [ss_batt_restore] stored_batt_percent_last:55%
+
+[9-15 3:34:35 1265] [I] [ss_batt_restore] restore percent 55%
+
+[9-15 3:34:39 1646] [I] [page_refresh_sport_infor] get sport num:10
+
+[9-15 3:34:39 1646] [I] [sport checksum] 0x85230488
+
+[9-15 3:34:39 1655] [E] weatehr future is invalid
+
+[9-15 3:34:39 1655] [E] [sleep] no data, skip
+
+[9-15 3:34:39 1655] [I] [end_init_refresh] snapshot refresh finish.
+
+[9-15 3:34:40 1756] [I] Dev bond, enter home page
+
+[9-15 3:34:40 1756] [I] [home] begin
+
+[9-15 3:34:40 1777] [E] [m_face] loader oom
+
+[9-15 3:34:40 1782] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:40 1782] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:40 1782] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:40 1782] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:34:40 1782] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:34:40 1782] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:34:42 2006] [E] [watchface_basic_info_parse 702] basic face_type parse failed!!!
+
+[9-15 3:34:42 2006] [E] [watchface_parse 1254] basic item parse failed!!! ret = 9.
+
+[9-15 3:34:42 2006] [E] [watchface_get] Item list No mem.
+
+[9-15 3:34:42 2006] [E] [page surface] watchface get error, the error watchfa id = 9568
+
+[9-15 3:34:42 2006] [E] [page surface] watchface will not change, use cur id = -1560243200
+
+[9-15 3:34:42 2006] [E] [surface_parse_widget_item] watchface get fail.id = 9568
+
+[9-15 3:34:44 2134] [I] menu_cnt = 15, child_cnt = 1
+
+[9-15 3:34:46 2389] [I] [oom] psram mid: 
+[9-15 3:34:46 2389] [I] ## s=329728,t=heyUI ##
+
+[9-15 3:34:46 2393] [I] [oom] retry:0, result:0x5664c724
+
+[9-15 3:34:47 2428] [I] right_activity_page start
+
+[9-15 3:34:47 2468] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[9-15 3:34:47 2468] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[9-15 3:34:48 2535] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[9-15 3:34:48 2535] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[9-15 3:34:48 2535] [E] weatehr future is invalid
+
+[9-15 3:34:48 2581] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[9-15 3:34:48 2581] [E] right music recv wrong play state = 0
+
+[9-15 3:34:48 2581] [I] [right_music] heyos_page_right_music_enter: isAllowControl=0, isConnected=0.
+
+[9-15 3:34:48 2581] [E] [psram fixed] no mem. available:115672, request:329728
+
+[9-15 3:34:48 2581] [E] [snapshot_gen] No mem. w:368,h:448
+
+[9-15 3:34:48 2581] [E] [view] snapshot NULL FAILED
+
+[9-15 3:34:49 2706] [I] [service_ryeex_gap_callback] Connected. 
+
+[9-15 3:34:50 2718] [I] [oom] psram mid: 
+[9-15 3:34:50 2718] [I] ## s=329760,t=heyUI ##
+
+[9-15 3:34:50 2719] [E] [awtk] oom times:3,size:329760
+
+[9-15 3:34:50 2721] [I] [oom] retry:2, result:0x56497018
+
+[9-15 3:34:51 2880] [I] oops sta 0
+
+[9-15 3:34:51 2891] [E] weatehr future is invalid
+
+[9-15 3:34:52 2929] [I] [mible] status:0,len:4,0xCD43BC01
+
+[9-15 3:34:52 2949] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[9-15 3:34:52 2950] [E] right music recv wrong play state = 0
+
+[9-15 3:34:52 2975] [I] PHONE type: 1
+
+[9-15 3:34:52 2999] [I] [dip]24h :1
+
+[9-15 3:34:52 3012] [I] [get_property] ID:6000
+
+[9-15 3:34:53 3024] [I] [[time]]utc:1631648093, devi:28800, 2021-09-15 03:34:53 | msg:1, 1631648093, deviat:28800], setDevi:28800
+
+[9-15 3:34:53 3024] [I] alarm evt 0x20
+
+[9-15 3:34:53 3024] [I] recent timer is null
+
+[9-15 3:34:53 3024] [I] [get_alarm] fail
+
+[9-15 3:34:53 3028] [I] [[time]]utc:1631648093, devi:28800, 2021-09-15 03:34:53
+
+[9-15 3:35:0 3770] [I] ram:[21408, 686480], b:55, s:0
+
+[9-15 3:35:40 7779] [I] XINSHIJIE driver
+
+[9-15 3:35:41 7825] [I] oops sta 0
+
+[9-15 3:35:43 8075] [I] XINSHIJIE driver
+
+[9-15 3:35:43 8121] [I] oops sta 0
+
+[9-15 3:35:44 8136] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+

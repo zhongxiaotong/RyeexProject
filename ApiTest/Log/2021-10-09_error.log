@@ -1,0 +1,64 @@
+[ERROR 2021-10-09 11:54:47]获取delta_ms/page_name/rebort_cnt失败BleError{code=5, bleCode=-1, message='device is not connected'}
+[ERROR 2021-10-09 12:08:25]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 12:08:25]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 12:09:23]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 12:17:34]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 12:17:34]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 12:18:32]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 12:24:21]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 12:24:21]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 12:25:18]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 14:27:08]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 14:27:08]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 14:28:05]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 14:29:37]App页面Response验证失败BleError{code=2, bleCode=8, message='onConnectionStateChange status:8 newState:0[DEV_NOTIFICATION]'}
+[ERROR 2021-10-09 14:29:37]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 14:30:35]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 14:33:47]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 14:33:47]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 14:34:44]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 14:47:40]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 14:47:40]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 14:48:38]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 15:15:34]页面未能找到该元素//*[@text="数据输入"]
+[ERROR 2021-10-09 15:15:34]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 15:16:32]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 15:23:37]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 15:23:37]Process-12安装表盘发送消息在第N次运行失败：1
+[ERROR 2021-10-09 15:24:35]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 15:36:57]Response验证失败，实际返回结果BleError{code=27, bleCode=-1, message='wait json response timeout'}，预期返回结果ok
+[ERROR 2021-10-09 15:42:34]Response验证失败，实际返回结果BleError{code=2, bleCode=8, message='onConnectionStateChange status:8 newState:0[DEV_SURFACE_DELETE]'}，预期返回结果set success
+[ERROR 2021-10-09 15:42:34]Process-12安装表盘发送消息在第N次运行失败：2
+[ERROR 2021-10-09 15:43:32]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 15:48:11]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 15:48:11]Process-12安装表盘发送消息在第N次运行失败：2
+[ERROR 2021-10-09 15:49:08]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-09 15:58:33]Response验证失败，实际返回结果BleError{code=2, bleCode=8, message='onConnectionStateChange status:8 newState:0[DEV_SURFACE_DELETE]'}，预期返回结果set success
+[ERROR 2021-10-09 15:58:33]Process-12安装表盘发送消息在第N次运行失败：2
+[ERROR 2021-10-09 15:59:38]Process-12-----------------------------------------设备出现重启----------------------------------------------------:3
+[ERROR 2021-10-09 16:02:51]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:02:51]Process-12安装表盘发送消息在第N次运行失败：4
+[ERROR 2021-10-09 16:03:51]Process-12-----------------------------------------设备出现重启----------------------------------------------------:5
+[ERROR 2021-10-09 16:07:03]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:07:03]Process-12安装表盘发送消息在第N次运行失败：6
+[ERROR 2021-10-09 16:08:02]Process-12-----------------------------------------设备出现重启----------------------------------------------------:7
+[ERROR 2021-10-09 16:11:12]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:11:12]Process-12安装表盘发送消息在第N次运行失败：8
+[ERROR 2021-10-09 16:12:11]Process-12-----------------------------------------设备出现重启----------------------------------------------------:9
+[ERROR 2021-10-09 16:16:56]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:16:56]Process-12安装表盘发送消息在第N次运行失败：11
+[ERROR 2021-10-09 16:17:56]Process-12-----------------------------------------设备出现重启----------------------------------------------------:12
+[ERROR 2021-10-09 16:21:04]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:21:04]Process-12安装表盘发送消息在第N次运行失败：13
+[ERROR 2021-10-09 16:22:02]Process-12-----------------------------------------设备出现重启----------------------------------------------------:14
+[ERROR 2021-10-09 16:25:09]Response验证失败，实际返回结果BleError{code=5, bleCode=-1, message='device is not connected'}，预期返回结果set success
+[ERROR 2021-10-09 16:25:09]Process-12安装表盘发送消息在第N次运行失败：15
+[ERROR 2021-10-09 17:32:26]页面未能找到该元素：请在设备上点击确认
+[ERROR 2021-10-09 18:15:20]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_screen_timeout,reboot_cnt:1,view_name:view/btn_ok,is_screen_on"}-S
+[ERROR 2021-10-09 18:17:42]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_screen_timeout,reboot_cnt:1,view_name:view/btn_ok,is_screen_on"}-S
+[ERROR 2021-10-09 18:22:39]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_screen_timeout,reboot_cnt:1,view_name:view/btn_ok,is_screen_on"}-S
+[ERROR 2021-10-09 18:23:44]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_screen_timeout,reboot_cnt:1,view_name:view/btn_ok,is_screen_on"}-S
+[ERROR 2021-10-09 18:27:38]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_screen_timeout,reboot_cnt:1,view_name:view/btn_ok,is_screen_on"}-S
+[ERROR 2021-10-09 18:41:03]页面未能找到该元素//*[@text="完成"]
+[ERROR 2021-10-09 18:41:32]页面未能找到该元素//*[@text="解绑"]
+[ERROR 2021-10-09 18:41:46]Response验证失败，实际返回结果BleError{code=27, bleCode=-1, message='wait json response timeout'}，预期返回结果ok

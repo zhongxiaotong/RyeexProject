@@ -1118,8 +1118,8 @@ class Testsmoke:
 
 if __name__ == '__main__':
     multiprocessings = []
-    # t1 = multiprocessing.Process(target=Testsmoke().smoke1)
-    # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
+    t1 = multiprocessing.Process(target=Testsmoke().smoke1)
+    t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     # t4 = multiprocessing.Process(target=Testsmoke().smoke4)
     # t5 = multiprocessing.Process(target=Testsmoke().smoke5)

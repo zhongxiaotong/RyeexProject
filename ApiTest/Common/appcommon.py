@@ -293,18 +293,18 @@ class App(object):
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
                 page_name = text.split(',')[3].split(':')[1]
                 rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
-                # view_name = text.split(',')[5].split(':')[1]
+                view_name = text.split(',')[5].split(':')[1]
                 #
-                # if text.split(',')[6].split(':')[1]:
-                #     is_screen = text.split(',')[6].split(':')[1]
-                #     return delta_ms, page_name, rebort_cnt, is_screen,view_name
+                if text.split(',')[6].split(':')[1]:
+                    is_screen = text.split(',')[6].split(':')[1]
+                    return delta_ms, page_name, rebort_cnt,view_name, is_screen
 
                 # is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
-                # if page_name == 'remind':                                                                                 #退出提醒页面
-                #     self.device_home()
-                # else:
-                #     return delta_ms, page_name, rebort_cnt
-                return delta_ms, page_name, rebort_cnt
+                if page_name == 'remind':                                                                                 #退出提醒页面
+                    self.device_home()
+                else:
+                    return delta_ms, page_name, rebort_cnt,view_name
+                return delta_ms, page_name, rebort_cnt,view_name
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
                 raise BaseException(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -966,8 +966,8 @@ class App(object):
             self.implicitly_wait("请在设备上点击确认", 5)
             self.devices_click('完成')
             self.devices_click('SATURN_设备')
-            self.devices_inputclick("280", "280", "280", "280")     #这个是saturn 设备的确认坐标点
-            # self.devices_inputclick("270", "400", "270", "400")   #这个是baileys 设备的确认坐标点
+            # self.devices_inputclick("280", "280", "280", "280")     #这个是saturn 设备的确认坐标点
+            self.devices_inputclick("270", "400", "270", "400")   #这个是baileys 设备的确认坐标点
             self.driver.keyevent(4)
             time.sleep(60)
             self.devices_click(selection)
@@ -1117,8 +1117,8 @@ class App(object):
     @allure.step("初始化设备")
     def devices_baileys_init(self, info):
         time.sleep(2)
-        self.close_remind()
-        self.device_rightslide()
+        self.close_remind()         #关闭提醒页面
+        self.device_rightslide()    #点击右滑
         self.assert_getdevicepagename("home_page", "home_id_left")
         self.log.debug(info + '设备初始化-向右滑动')
         self.saturn_inputclick("60", "400", "60", "400")
@@ -1480,8 +1480,8 @@ class App(object):
     def input_data(self, value):
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').click()
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').send_keys(value)
-        # print("输入完成")
-        # time.sleep(1000)
+        print("输入完成")
+        time.sleep(10)
 
 
     def clear_text(self):
@@ -1658,8 +1658,13 @@ class App(object):
     @allure.step("删除表盘")
     def tv_deleteSurface(self, value):
         self.input_data(value)
-        self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()
+        print("现在开始寻找删除表盘的按钮")
+        # '//*[@resource-id="com.ryeex.sdk.demo:id/tv_deleteSurface"]'
+        self.find_elementby(By.XPATH,'//*[@resource-id="com.ryeex.sdk.demo:id/tv_deleteSurface"]').click()
+        # self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()\
+        print("已经找到了删除表盘的按钮")
         self.assert_in_text("set success")
+
         self.clear_text()
 
     @allure.step("获取设备日志")

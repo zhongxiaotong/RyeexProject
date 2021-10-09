@@ -31,21 +31,41 @@ class Testsmoke:
         self.driver = None
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
-        self.mac1 = 'CC:CC:CC:CC:BB:E5'
-        self.mac2 = 'CC:CC:CC:CC:BB:E5'
-        self.mac3 = 'CC:CC:CC:CC:BB:E5'
-        self.mac4 = 'CC:CC:CC:CC:BB:E5'
-        self.mac5 = 'CC:CC:CC:CC:BB:E5'
+        # 1(0)，2(1)，3(2)，4(3)，5(4)，7(5)，9(6)，12(7)，13(8)，15(9)
+        #
+        # self.mac1 = '98:80:BB:03:0F:EE'
+        # self.mac2 = '98:80:BB:03:0F:EE'
+        # self.mac3 = '98:80:BB:03:0F:EE'
+        # self.mac4 = '98:80:BB:03:0F:EE'
+        # self.mac5 = '98:80:BB:03:0F:EE'
+        # self.mac6 = '98:80:BB:03:0F:EE'
+        # self.mac7 = '98:80:BB:03:0F:EE'
+        # self.mac8 = '98:80:BB:03:0F:EE'
+        # self.mac9 = '98:80:BB:03:0F:EE'
+        # self.mac10 = '98:80:BB:03:0F:EE'
+        # self.mac11 = '98:80:BB:03:0F:EE'
+        # self.mac12 = '98:80:BB:03:0F:EE'
+        # self.mac13 = '98:80:BB:03:0F:EE'
+        # self.mac14 = '98:80:BB:03:0F:EE'
+        # self.mac15 = '98:80:BB:03:0F:EE'
+
+
+        self.mac1 = '2C:AA:8E:09:D0:98'
+        self.mac2 = '2C:AA:8E:09:D0:C3'
+        self.mac3 = '2C:AA:8E:09:0E:9F'
+        self.mac4 = '2C:AA:8E:09:D1:7F'
+        self.mac5 = '2C:AA:8E:03:0F:9D'
         self.mac6 = 'CC:CC:CC:CC:BB:E5'
-        self.mac7 = 'CC:CC:CC:CC:BB:E5'
+        self.mac7 = '2C:AA:8E:03:OF:1B'
         self.mac8 = 'CC:CC:CC:CC:BB:E5'
-        self.mac9 = 'CC:CC:CC:CC:BB:E5'
+        self.mac9 = '2C:AA:8E:09:D0:CD'
         self.mac10 = 'CC:CC:CC:CC:BB:E5'
         self.mac11 = 'CC:CC:CC:CC:BB:E5'
-        self.mac12 = 'CC:CC:CC:CC:BB:E5'
-        self.mac13 = 'CC:CC:CC:CC:BB:E5'
+        self.mac12 = '2C:AA:8E:09:D1:5F'
+        self.mac13 = '2C:AA:8E:09:D3:30'
         self.mac14 = 'CC:CC:CC:CC:BB:E5'
-        self.mac15 = '2C:AA:8E:09:D1:31'
+        self.mac15 = '98:80:BB:03:0F:EE'
+
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -62,11 +82,12 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac1, self.section, info)
-        app.devices_baileys_init(info)
-        rebort_cnts = []              #定义一个空列表
+        # # app.devices_baileys_init(info)
+        rebort_cnts = []    #定义一个空列表
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
         app.device_upslide()
+        print("进入了某个页面")
         app.assert_getdevicepagename('home_page', 'home_id_down')
         self.log.debug(info + "向上滑动成功")
         for i in range(1, 1000):
@@ -106,7 +127,7 @@ class Testsmoke:
         info = "Process-2"
         self.port = int(self.init_port) + 2
         self.systemPort = int(self.init_systemPort) + 2
-        uuid = self.uuids[0]
+        uuid = self.uuids[1]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -118,7 +139,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac2, self.section, info)
-        app.devices_baileys_init(info)
+        # # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -162,7 +183,7 @@ class Testsmoke:
         info = "Process-3"
         self.port = int(self.init_port) + 4
         self.systemPort = int(self.init_systemPort) + 4
-        uuid = self.uuids[0]
+        uuid = self.uuids[2]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -174,7 +195,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac3, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -328,7 +349,7 @@ class Testsmoke:
         info = "Process-4"
         self.port = int(self.init_port) + 6
         self.systemPort = int(self.init_systemPort) + 6
-        uuid = self.uuids[0]
+        uuid = self.uuids[2]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -340,7 +361,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac4, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -414,7 +435,7 @@ class Testsmoke:
         info = "Process-5"
         self.port = int(self.init_port) + 8
         self.systemPort = int(self.init_systemPort) + 8
-        uuid = self.uuids[0]
+        uuid = self.uuids[3]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -501,7 +522,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac6, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -556,7 +577,7 @@ class Testsmoke:
         info = "Process-7"
         self.port = int(self.init_port) + 12
         self.systemPort = int(self.init_systemPort) + 12
-        uuid = self.uuids[0]
+        uuid = self.uuids[5]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -568,7 +589,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac7, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -640,7 +661,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac8, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -691,7 +712,7 @@ class Testsmoke:
         info = "Process-9"
         self.port = int(self.init_port) + 16
         self.systemPort = int(self.init_systemPort) + 16
-        uuid = self.uuids[0]
+        uuid = self.uuids[4]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -703,7 +724,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac9, self.section, info)
-        app.devices_baileys_init(info)
+        # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -843,7 +864,7 @@ class Testsmoke:
         info = "Process-12"
         self.port = int(self.init_port) + 22
         self.systemPort = int(self.init_systemPort) + 22
-        uuid = self.uuids[0]
+        uuid = self.uuids[5]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -879,26 +900,31 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.click_prompt_box()
-                app.tv_installSurface(9568)
+                app.tv_installSurface(str(9568)+",STATIC")
                 self.log.debug(info + '安装表盘')
-                app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
-                for j in range(1, 10):
-                    app.tv_send_notification2()
-                    self.log.debug(info + '发送消息')
-                time.sleep(30)
-                app.tv_deleteSurface(9568)
+                # app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
+                # for j in range(1, 10):
+                #     app.tv_send_notification2()
+                #     self.log.debug(info + '发送消息')
+                time.sleep(40)
+                print("现在进行删除表盘操作")
+                app.tv_deleteSurface(str(9568)+",STATIC")
+                print("删除完成")
                 self.log.debug(info + '删除表盘')
                 self.driver.keyevent(4)
+                print("返回上级页面")
                 app.devices_click('SATURN_设备')
             except:
                 self.log.error(info + '安装表盘发送消息在第N次运行失败：' + str(i))
+                self.driver.keyevent(4)
                 app.call_back_baileys(self.mac12, self.section, self.port, uuid, info)
+
 
     def smoke13(self):
         info = "Process-13"
         self.port = int(self.init_port) + 24
         self.systemPort = int(self.init_systemPort) + 24
-        uuid = self.uuids[0]
+        uuid = self.uuids[8]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -981,7 +1007,7 @@ class Testsmoke:
         time.sleep(5)
         driver = app.open_application(self.port)
         app.devices_bind(self.mac14, self.section, info)
-        # app.devices_baileys_init(info)
+        # # app.devices_baileys_init(info)
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
@@ -1036,7 +1062,7 @@ class Testsmoke:
         info = "Process-15"
         self.port = int(self.init_port) + 28
         self.systemPort = int(self.init_systemPort) + 28
-        uuid = self.uuids[0]
+        uuid = self.uuids[9]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -1078,11 +1104,35 @@ class Testsmoke:
 if __name__ == '__main__':
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
-    # t2 = multiprocessing.Process(target=Testsmoke().smoke2)
+    t2 = multiprocessing.Process(target=Testsmoke().smoke2)
     # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
+    t4 = multiprocessing.Process(target=Testsmoke().smoke4)
+    t5 = multiprocessing.Process(target=Testsmoke().smoke5)
+    # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
+    # t7 = multiprocessing.Process(target=Testsmoke().smoke7)
+    # t8 = multiprocessing.Process(target=Testsmoke().smoke8)
+    t9 = multiprocessing.Process(target=Testsmoke().smoke9)
+    # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
+    # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
+    t12 = multiprocessing.Process(target=Testsmoke().smoke12)
+    # t13 = multiprocessing.Process(target=Testsmoke().smoke13)
+    # t14 = multiprocessing.Process(target=Testsmoke().smoke14)
+    # t15 = multiprocessing.Process(target=Testsmoke().smoke15)
     multiprocessings.append(t1)
-    # multiprocessings.append(t2)
+    multiprocessings.append(t2)
     # multiprocessings.append(t3)
+    multiprocessings.append(t4)
+    multiprocessings.append(t5)
+    # multiprocessings.append(t6)
+    # multiprocessings.append(t7)
+    # multiprocessings.append(t8)
+    multiprocessings.append(t9)
+    # multiprocessings.append(t10)
+    # multiprocessings.append(t11)
+    multiprocessings.append(t12)
+    # multiprocessings.append(t13)
+    # multiprocessings.append(t14)
+    # multiprocessings.append(t15)
     for t in multiprocessings:
         t.start()
 
