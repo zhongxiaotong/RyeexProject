@@ -55,4 +55,4 @@ class Firmware(object):
         # self.log.debug(u'删除旧的固件/资源包')
         # print(u'删除旧的固件/资源包')
         return self.newfilepath_mcu, self.newfilepath_resource, self.diff_res, parentfile                       #parentfile 解压包路径
-
+        
