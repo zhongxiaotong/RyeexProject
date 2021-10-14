@@ -1,0 +1,6 @@
+[ERROR 2021-09-19 04:22:42]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify
+[ERROR 2021-09-19 04:51:03]验证失败：当前page_name为sports_record，view_name为view_record_list；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-09-19 04:51:42]验证失败：当前page_name为camera，view_name为view_camera_home；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-09-19 04:52:16]验证失败：当前page_name为camera，view_name为view_camera_home；预期page_name为face_pick_page,view_name为slide_view_view
+[ERROR 2021-09-19 04:54:04]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[ERROR 2021-09-19 04:55:41]测试用例执行失败，请检查

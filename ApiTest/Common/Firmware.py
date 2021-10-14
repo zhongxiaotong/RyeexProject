@@ -17,7 +17,11 @@ class Firmware(object):
         self.F = F
         src = F.rename_zipname()
         self.newfilepath_mcu = src[0]
+        print(self.newfilepath_mcu)
+        print("第二处节点")
         self.newfilepath_resource = src[1]
+        print(self.newfilepath_resource)
+        print("第三处节点")
         self.log.debug(u'解压zip包并且重命名')
 
     def get_firmware(self):
@@ -51,3 +55,4 @@ class Firmware(object):
         # self.log.debug(u'删除旧的固件/资源包')
         # print(u'删除旧的固件/资源包')
         return self.newfilepath_mcu, self.newfilepath_resource, self.diff_res, parentfile                       #parentfile 解压包路径
+

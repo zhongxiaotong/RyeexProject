@@ -1,0 +1,3 @@
+[ERROR 2021-09-24 01:20:15]页面未能找到该元素//android.widget.Button[@text='坐标点击/滑动']
+[ERROR 2021-09-24 01:21:19]页面未能找到该元素//android.widget.Button[@text='坐标点击/滑动']
+[ERROR 2021-09-24 01:21:19]测试用例执行失败，请检查

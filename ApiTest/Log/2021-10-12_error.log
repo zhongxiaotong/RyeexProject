@@ -1,0 +1,2 @@
+[ERROR 2021-10-12 10:45:50]Response验证失败，实际返回结果BleError{code=2, detailCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果ok
+[ERROR 2021-10-12 10:45:51]测试用例执行失败，请检查

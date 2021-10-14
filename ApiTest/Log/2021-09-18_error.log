@@ -1,0 +1,2 @@
+[ERROR 2021-09-18 04:05:14]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-09-18 04:28:37]测试用例执行失败，请检查

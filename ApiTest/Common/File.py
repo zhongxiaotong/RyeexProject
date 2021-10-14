@@ -6,7 +6,7 @@
 
 
 import zipfile
-import os
+import os,time
 import json
 from shutil import copyfile
 import shutil
@@ -21,7 +21,8 @@ class File(object):
 
 
     def get_pathfiles(self):
-        filenames = os.listdir(self.zip_src)
+        filenames = os.listdir(self.zip_src)    #
+
         if filenames:
             for filename in filenames:
                 if '.zip' in filename:
@@ -97,4 +98,5 @@ class File(object):
 
 if __name__ == '__main__':
     A = File()
-    A.rename_zipname()
+    # A.rename_zipname()
+    A.get_pathfiles()

@@ -17,6 +17,7 @@ from Common.Firmware import Firmware
 # C = ReadConfig()
 # on_off = C.get_configdata("EMAIL", "on_off")
 
+
 def is_admin():
     try:
         return ctypes.windll.shell32.IsUserAnAdmin()
@@ -58,12 +59,13 @@ class AllTest(object):
         parser.add_argument("--taskname", type=str, help=u"固件路径", default='baileys')
         args = parser.parse_args()
         taskname = args.taskname
-        zip_src = os.path.curdir
-        if not os.path.abspath(zip_src):
+        zip_src = os.path.curdir        #返回一个“。”代表当前目录
+        if not os.path.abspath(zip_src):        #获取当前脚本的完整路径
             zip_src = os.path.abspath(os.curdir)
         # if not os.path.abspath(self.temp_path):
         #     os.mkdir(self.temp_path)
         # os.chdir(self.temp_path)           https://github.com/ryeex/Automation_Test.git                #切换临时工作路径
+
         result = list(Firmware(zip_src).get_firmware())
         try:
             self.log.info("********TEST START** ******")
