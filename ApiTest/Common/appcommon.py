@@ -150,6 +150,7 @@ class App(object):
     def assert_in_text(self, expecttext):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
+        # print(text)
         if len(text) != 0:
             try:
                 assert expecttext in text
@@ -190,8 +191,8 @@ class App(object):
     @allure.step("成功进入页面{target_pagename}")
     def assert_getdevicepagename(self, target_pagename, target_view):
         self.device_clickDID()
-        self.assert_in_text(expecttext='page_name')
-        if self.getdevice():
+        self.assert_in_text(expecttext='page_name')      # 断言，判断 含有page_name的字符串
+        if self.getdevice():                        #点击获取设备标识获取当前设备的字符串消息，然后切片返回
             page_name = self.getdevice()[1]
             view_name = self.getdevice()[3]
             try:
@@ -287,7 +288,7 @@ class App(object):
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
-        print(text)
+        # print(text)
         if len(text) != 0:
             try:
                 delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
@@ -708,6 +709,7 @@ class App(object):
         self.assert_connect_status()
         self.input_data('{"method":"tp_move","sx":"' + sx + '","sy":"' + sy + '","ex":"' + ex + '","ey":"' + ey + '","duration":"50","interval":"50"}')
         self.find_elementby(By.XPATH, "//android.widget.Button[@text='坐标点击/滑动']").click()
+        # print("已经执行了点击操作")
         self.clear_text()
         self.assert_in_text(expecttext='ok')
         # self.device_clickDID()
@@ -1480,8 +1482,8 @@ class App(object):
     def input_data(self, value):
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').click()
         self.find_elementby(By.XPATH, '//*[@text="数据输入"]').send_keys(value)
-        print("输入完成")
-        time.sleep(10)
+        # print("输入完成")
+        # time.sleep(10)
 
 
     def clear_text(self):
@@ -1658,11 +1660,11 @@ class App(object):
     @allure.step("删除表盘")
     def tv_deleteSurface(self, value):
         self.input_data(value)
-        print("现在开始寻找删除表盘的按钮")
+        # print("现在开始寻找删除表盘的按钮")
         # '//*[@resource-id="com.ryeex.sdk.demo:id/tv_deleteSurface"]'
         self.find_elementby(By.XPATH,'//*[@resource-id="com.ryeex.sdk.demo:id/tv_deleteSurface"]').click()
         # self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="删除表盘"]').click()\
-        print("已经找到了删除表盘的按钮")
+        # print("已经找到了删除表盘的按钮")
         self.assert_in_text("set success")
 
         self.clear_text()
@@ -1696,3 +1698,42 @@ class App(object):
         self.assert_notin_text()
 
 
+# if __name__ == '__main__':
+#     import pytest
+#     import os
+#     import time
+#     import allure
+#     from ApiTest.Common.Readyaml import Yamlc
+#     from ApiTest.Common.Log import MyLog
+#     from selenium.webdriver.common.by import By
+#
+#     current_path = os.path.abspath(__file__)
+#     father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
+#     yaml_path =r"C:\Test_Script\RyeexProject\ApiTest\Testdata\app.yaml"
+#
+#     log = MyLog()
+#     log.info('初始化测试数据')
+#     dictdatas = Yamlc(yaml_path).get_allyaml_data("Model")
+#     init_port = 4723
+#     init_systemPort = 8200
+#     section = 'SATURN_设备'
+#     driver = None
+#     desired_cap = dictdatas[0]['desired_caps']
+#     uuids = App(desired_cap).getdevices_uuid()
+#
+#     port = init_port
+#     systemPort = init_systemPort
+#     uuid = uuids[0]
+#     andriod_version = App(desired_cap).getdevice_version(uuid)
+#     print("设备ID:" + uuid)
+#     print("安卓版本:" + andriod_version)
+#     desired_cap['deviceName'] = uuid
+#     desired_cap['platformVersion'] = andriod_version
+#     desired_cap['systemPort'] = systemPort
+#     App(desired_cap).start_appium(port, int(port) + 1, uuid)
+#     app = App(desired_cap)
+#     time.sleep(10)
+#     app.find_elementby(By.XPATH, "//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']").text
+#     app.input_data('{"method":"tp_move","sx":"' + "180" + '","sy":"' + "180" + '","ex":"' + "180" + '","ey":"' + "180" + '","duration":"50","interval":"50"}')
+#
+    # App(desired_cap).saturn_inputclick(180,180,180,180)

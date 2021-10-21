@@ -13,6 +13,7 @@ from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from selenium.webdriver.common.by import By
 import multiprocessing
+import random
 
 
 current_path = os.path.abspath(__file__)
@@ -32,7 +33,7 @@ class Testsmoke:
         self.desired_cap = self.dictdatas[0]['desired_caps']
         self.uuids = App(self.desired_cap).getdevices_uuid()
         # 1(0)，2(1)，3(2)，4(3)，5(4)，7(5)，9(6)，12(7)，13(8)，15(9)
-        #
+
         # self.mac1 = '98:80:BB:03:0F:EE'
         # self.mac2 = '98:80:BB:03:0F:EE'
         # self.mac3 = '98:80:BB:03:0F:EE'
@@ -50,15 +51,15 @@ class Testsmoke:
         # self.mac15 = '98:80:BB:03:0F:EE'
 
 
-        self.mac1 = '2C:AA:8E:09:D0:98'
-        self.mac2 = '2C:AA:8E:09:D0:C3'
-        self.mac3 = '2C:AA:8E:09:0E:9F'
-        self.mac4 = '2C:AA:8E:09:D1:7F'
-        self.mac5 = '2C:AA:8E:03:0F:9D'
-        self.mac6 = 'CC:CC:CC:CC:BB:E5'
+        self.mac1 = '2C:AA:8E:09:D0:98'  #
+        self.mac2 = '2C:AA:8E:09:D0:C3'#
+        self.mac3 = '98:80:BB:03:0E:9F'#
+        self.mac4 = '98:80:BB:03:0F:EE' #
+        self.mac5 = '98:80:BB:03:0F:9D'#
+        self.mac6 = '2C:AA:8E:09:D3:30'#
         self.mac7 = '2C:AA:8E:03:OF:1B'
         self.mac8 = 'CC:CC:CC:CC:BB:E5'
-        self.mac9 = '2C:AA:8E:09:D0:CD'
+        self.mac9 = '2C:AA:8E:09:D0:CD'#
         self.mac10 = 'CC:CC:CC:CC:BB:E5'
         self.mac11 = 'CC:CC:CC:CC:BB:E5'
         self.mac12 = '2C:AA:8E:09:D1:5F'
@@ -66,6 +67,8 @@ class Testsmoke:
         self.mac14 = 'CC:CC:CC:CC:BB:E5'
         self.mac15 = '98:80:BB:03:0F:EE'
 
+
+    #进入心率页面
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port
@@ -90,7 +93,7 @@ class Testsmoke:
         print("进入了某个页面")
         app.assert_getdevicepagename('home_page', 'home_id_down')
         self.log.debug(info + "向上滑动成功")
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -108,7 +111,7 @@ class Testsmoke:
                     app.assert_getdevicepagename('home_page', 'home_id_down')
                     self.log.debug(info + "向上滑动成功")
                 self.log.debug(info + '心率运行次数：' + str(i))
-                app.saturn_inputclick("180", "50", "180", "50")
+                app.saturn_inputclick("180", "180", "180", "180")  #app.saturn_inputclick("180", "50", "180", "50")
                 self.log.debug(info + "点击心率icon成功")
                 # app.assert_getdevicepagename("hrm", "view_record")
                 self.log.debug(info + "进入心率功能成功")
@@ -123,6 +126,8 @@ class Testsmoke:
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "向上滑动成功")
 
+
+    #进入血氧页面
     def smoke2(self):
         info = "Process-2"
         self.port = int(self.init_port) + 2
@@ -146,7 +151,7 @@ class Testsmoke:
         app.device_upslide()
         app.assert_getdevicepagename('home_page', 'home_id_down')
         self.log.debug(info + "向上滑动成功")
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -164,7 +169,7 @@ class Testsmoke:
                     app.assert_getdevicepagename('home_page', 'home_id_down')
                     self.log.debug(info + "向上滑动成功")
                 self.log.debug(info + '血氧运行次数：' + str(i))
-                app.saturn_inputclick("300", "50", "300", "50")
+                app.saturn_inputclick('180', '250', '180', '250')        #app.saturn_inputclick("300", "50", "300", "50")
                 self.log.debug(info + "点击血氧icon成功")
                 # app.assert_getdevicepagename("spo2", "view_measure")
                 self.log.debug(info + "进入血氧功能成功")
@@ -179,6 +184,8 @@ class Testsmoke:
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "向上滑动成功")
 
+
+    #进入退出各个应用
     def smoke3(self):
         info = "Process-3"
         self.port = int(self.init_port) + 4
@@ -199,7 +206,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -217,7 +224,7 @@ class Testsmoke:
                 app.device_upslide()
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "向上滑动成功")
-                app.saturn_inputclick("50", "50", "50", "50")
+                app.saturn_inputclick("180", "50", "180", "50")
                 self.log.debug(info + "点击活动icon成功")
                 app.assert_getdevicepagename("activity", "list_view")
                 self.log.debug(info + "进入活动功能成功")
@@ -225,7 +232,9 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（活动-上级页面）")
-                app.saturn_inputclick("180", "50", "180", "50")
+
+
+                app.saturn_inputclick("180", "150", "180", "150")
                 self.log.debug(info + "点击心率icon成功")
                 # app.assert_getdevicepagename("hrm", "view_record")
                 self.log.debug(info + "进入心率功能成功")
@@ -233,7 +242,9 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（心率-上级页面）")
-                app.saturn_inputclick("300", "50", "300", "50")
+
+
+                app.saturn_inputclick("180", "250", "180", "250")
                 self.log.debug(info + "点击血氧icon成功")
                 # app.assert_getdevicepagename("spo2", "view_measure")
                 self.log.debug(info + "进入血氧功能成功")
@@ -241,7 +252,9 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（血氧-上级页面）")
-                app.saturn_inputclick("50", "170", "50", "170")
+
+
+                app.saturn_inputclick("180", "350", "180", "350")
                 self.log.debug(info + "点击睡眠icon成功")
                 app.assert_getdevicepagename("sleep", "view_no_data")
                 self.log.debug(info + "进入睡眠功能成功")
@@ -249,15 +262,21 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（睡眠-上级页面）")
-                app.saturn_inputclick("180", "180", "180", "180")
+
+
+                app.device_upslide()
+                app.saturn_inputclick("180", "150", "180", "150")
                 self.log.debug(info + "点击运动icon成功")
                 app.assert_getdevicepagename("sport_list", "view_all_type")
                 self.log.debug(info + "进入运动功能成功")
                 app.device_home()
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
+
+
+                app.device_upslide()
                 self.log.debug(info + "返回上级页面成功（运动-上级页面）")
-                app.saturn_inputclick("300", "180", "300", "180")
+                app.saturn_inputclick("180", "250", "180", "250")
                 self.log.debug(info + "点击运动记录icon成功")
                 app.assert_getdevicepagename("sports_record", "view_no_data")
                 self.log.debug(info + "进入运动记录功能成功")
@@ -265,23 +284,32 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（运动记录-上级页面）")
-                app.saturn_inputclick("50", "280", "50", "280")
-                self.log.debug(info + "点击冥想icon成功")
+
+
+                app.device_upslide()
+                app.saturn_inputclick("180", "350", "180", "350")
+                self.log.debug(info + "点击呼吸icon成功")
                 app.assert_getdevicepagename("meditation", "view_start")
-                self.log.debug(info + "进入冥想功能成功")
+                self.log.debug(info + "进入呼吸功能成功")
                 app.device_home()
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（冥想-上级页面）")
-                app.saturn_inputclick("180", "280", "180", "280")
-                self.log.debug(info + "点击秒表icon成功")
+
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "150", "180", "150")
+                self.log.debug(info + "点击闹钟icon成功")
                 app.assert_getdevicepagename("alarm", "view_empty")
-                self.log.debug(info + "进入秒表功能成功")
+                self.log.debug(info + "进入闹钟功能成功")
                 app.device_home()
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
+
+                app.device_upslide()
+                app.device_upslide()
                 self.log.debug(info + "返回上级页面成功（秒表-上级页面）")
-                app.saturn_inputclick("300", "280", "300", "280")
+                app.saturn_inputclick("180", "250", "180", "250")
                 self.log.debug(info + "点击天气icon成功")
                 app.assert_getdevicepagename("weather", "offline_weather")
                 self.log.debug(info + "进入天气功能成功")
@@ -289,7 +317,10 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（天气-上级页面）")
-                app.saturn_inputclick("50", "400", "50", "400")
+
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "350", "180", "350")
                 self.log.debug(info + "点击秒表icon成功")
                 app.assert_getdevicepagename("appctr_stopwatch", "view_start")
                 self.log.debug(info + "进入秒表功能成功")
@@ -297,15 +328,23 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（秒表-上级页面）")
-                app.saturn_inputclick("180", "400", "180", "400")
-                self.log.debug(info + "点击倒计时icon成功")
-                app.assert_getdevicepagename("appctr_timer", "label_timer/list_view")
-                self.log.debug(info + "进入倒计时功能成功")
+
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "150", "180", "150")
+                self.log.debug(info + "点击计时器icon成功")
+                app.assert_getdevicepagename("appctr_timer", "list_view")
+                self.log.debug(info + "进入计时器功能成功")
                 app.device_home()
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（倒计时-上级页面）")
-                app.saturn_inputclick("300", "400", "300", "400")
+
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "250", "180", "250")
                 self.log.debug(info + "点击音乐icon成功")
                 app.assert_getdevicepagename("music", "online_music")
                 self.log.debug(info + "进入音乐功能成功")
@@ -313,8 +352,12 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（音乐-上级页面）")
+
+
                 app.device_upslide()
-                app.saturn_inputclick("50", "400", "50", "400")
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "350", "180", "350")
                 self.log.debug(info + "点击拍照icon成功")
                 app.assert_getdevicepagename("camera", "view_camera_home")
                 self.log.debug(info + "进入拍照功能成功")
@@ -322,7 +365,13 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（拍照-上级页面）")
-                app.saturn_inputclick("180", "400", "180", "400")
+
+
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "250", "180", "250")
                 self.log.debug(info + "点击查找手机icon成功")
                 app.assert_getdevicepagename("findphone", "view_online")
                 self.log.debug(info + "进入查找手机功能成功")
@@ -330,7 +379,12 @@ class Testsmoke:
                 self.log.debug(info + "返回")
                 app.assert_getdevicepagename('home_page', 'home_id_down')
                 self.log.debug(info + "返回上级页面成功（查找手机-上级页面）")
-                app.saturn_inputclick("300", "400", "300", "400")
+
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.device_upslide()
+                app.saturn_inputclick("180", "350", "180", "350")
                 self.log.debug(info + "点击设置icon成功")
                 app.assert_getdevicepagename("setting_page", "list_view")
                 self.log.debug(info + "进入设置功能成功")
@@ -344,12 +398,12 @@ class Testsmoke:
                 self.log.error(info + '进出各个应用在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac3, self.section, self.port, uuid, info)
 
-
+    #运动中发送消息
     def smoke4(self):
         info = "Process-4"
         self.port = int(self.init_port) + 6
         self.systemPort = int(self.init_systemPort) + 6
-        uuid = self.uuids[2]
+        uuid = self.uuids[3]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -365,7 +419,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -380,24 +434,28 @@ class Testsmoke:
                     app.devices_click('SATURN_设备')
                     app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '运动中发送消息运行次数：' + str(i))
-                app.device_upslide()
-                app.assert_getdevicepagename('home_page', 'home_id_down')
+                app.device_upslide()        #点击上滑
+                app.assert_getdevicepagename('home_page', 'home_id_down')   #判断现在所在的页面和视图
                 self.log.debug(info + '向上滑动成功')
-                app.saturn_inputclick("180", "180", "180", "180")
+                app.device_upslide()
+                app.saturn_inputclick("180", "180", "180", "180")       #点击进入  运动 选项
                 app.assert_getdevicepagename("sport_list", "view_all_type")
                 self.log.debug(info + '点击运动icon成功')
-                app.saturn_inputclick("180", "230", "180", "230")
-                app.assert_getdevicepagename("sport_list", "view_gps_start")
-                self.log.debug(info + '点击IndoorRun')
-                app.saturn_inputclick("180", "230", "180", "230")
+                print("点击室内跑步")
+                app.saturn_inputclick('180', '350', '180', '350')
+                time.sleep(1)
+                app.saturn_inputclick("180", "250", "180", "250")       #点击GO按钮
+
                 time.sleep(3)
-                app.assert_getdevicepagename("sports", "view_calculate_show")
+                app.assert_getdevicepagename("sports", "view_calculate_show") #是否进入了运动页面
+
                 self.log.debug(info + '点击Start')
                 driver.keyevent(4)
                 app.devices_click('SATURN_APP')
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.click_prompt_box()
+                print("现在尝试发送消息")
                 app.tv_send_notification('{"appMessage": {"appId": "app.wx", "text": "ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
                 self.log.debug(info + '发送消息次数' + str(i))
                 time.sleep(3)
@@ -431,11 +489,13 @@ class Testsmoke:
                 self.log.error(info + '运动中发送消息在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac4, self.section, self.port, uuid, info)
 
+
+    #上下滑动查看消息
     def smoke5(self):
         info = "Process-5"
         self.port = int(self.init_port) + 8
         self.systemPort = int(self.init_systemPort) + 8
-        uuid = self.uuids[3]
+        uuid = self.uuids[4]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -450,7 +510,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -505,12 +565,12 @@ class Testsmoke:
                 self.log.error(info + '查看消息在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac5, self.section, self.port, uuid, info)
 
-
+    #运动功能页面上下滑动
     def smoke6(self):
         info = "Process-6"
         self.port = int(self.init_port) + 10
         self.systemPort = int(self.init_systemPort) + 10
-        uuid = self.uuids[0]
+        uuid = self.uuids[5]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -526,7 +586,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -543,8 +603,9 @@ class Testsmoke:
                 self.log.debug(info + '运动功能页面上下滑动次数：' + str(i))
                 app.device_upslide()
                 app.assert_getdevicepagename('home_page', 'home_id_down')
+                app.device_upslide()
                 self.log.debug(info + '向上滑动成功')
-                app.saturn_inputclick("180", "180", "180", "180")
+                app.saturn_inputclick("180", "150", "180", "150")
                 self.log.debug(info + '点击运动icon成功')
                 app.assert_getdevicepagename('sport_list', 'view_all_type')
                 self.log.debug(info + '进入运动应用成功')
@@ -645,6 +706,8 @@ class Testsmoke:
                 self.log.error(info + '血氧中发送消息在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac7, self.section, self.port, uuid, info)
 
+
+    #切换表盘（现在暂时不能用）
     def smoke8(self):
         info = "Process-8"
         self.port = int(self.init_port) + 14
@@ -665,7 +728,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -681,7 +744,9 @@ class Testsmoke:
                     # app.call_back_devices_baileys_init(info)
                 self.log.debug(info + '切换表盘次数：' + str(i))
                 for n in range(1, 4):
+
                     app.device_longpress()
+                    print("长按")
                     app.assert_getdevicepagename('face_pick_page', 'slide_view_view')
                     self.log.debug(info + "进入切换表盘页面成功")
                     time.sleep(1)
@@ -708,11 +773,13 @@ class Testsmoke:
                 self.log.error(info + '切换表盘在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac8, self.section, self.port, uuid, info)
 
+
+    #触摸手势（单击，长按，上下左右滑动，home键）
     def smoke9(self):
         info = "Process-9"
         self.port = int(self.init_port) + 16
         self.systemPort = int(self.init_systemPort) + 16
-        uuid = self.uuids[4]
+        uuid = self.uuids[5]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -728,7 +795,7 @@ class Testsmoke:
         rebort_cnts = []
         app.device_clickDID()
         rebort_cnts.append(app.getdevice()[2])
-        for i in range(1, 1000):
+        for i in range(1, 10000):
             try:
                 app.device_clickDID()
                 self.log.debug(info + "获取设备标识")
@@ -789,6 +856,8 @@ class Testsmoke:
                 self.log.error(info + '滑动屏幕在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac9, self.section, self.port, uuid, info)
 
+
+    #绑定解绑
     def smoke10(self):
         info = "Process-10"
         self.port = int(self.init_port) + 18
@@ -860,11 +929,13 @@ class Testsmoke:
                 self.log.error(info + '重启在第N次运行失败：' + str(i))
                 app.call_back_baileys(self.mac11, self.section, self.port, uuid, info)
 
+
+    #安装表盘中发消息（10条消息）
     def smoke12(self):
         info = "Process-12"
         self.port = int(self.init_port) + 22
         self.systemPort = int(self.init_systemPort) + 22
-        uuid = self.uuids[5]
+        uuid = self.uuids[0]#[5]
         andriod_version = App(self.desired_cap).getdevice_version(uuid)
         print(info + "设备ID:" + uuid)
         print(info + "安卓版本:" + andriod_version)
@@ -900,7 +971,9 @@ class Testsmoke:
                 app.click_prompt_box()
                 app.click_prompt_box()
                 app.click_prompt_box()
-                app.tv_installSurface(str(9568)+",STATIC")
+                app.tv_installSurface(str(10010)+",STATIC")
+                print("表盘安装完成")
+                time.sleep(10000)
                 self.log.debug(info + '安装表盘')
                 # app.tv_send_notification1('{"appMessage": {"appId": "app.wx", "text": "1ryeex' + str(i) + '", "title": ' + str(i) + '}, "type": "APP_MESSAGE"}')
                 # for j in range(1, 10):
@@ -908,7 +981,7 @@ class Testsmoke:
                 #     self.log.debug(info + '发送消息')
                 time.sleep(40)
                 print("现在进行删除表盘操作")
-                app.tv_deleteSurface(str(9568)+",STATIC")
+                app.tv_deleteSurface(str(10010)+",STATIC")
                 print("删除完成")
                 self.log.debug(info + '删除表盘')
                 self.driver.keyevent(4)
@@ -919,7 +992,7 @@ class Testsmoke:
                 self.driver.keyevent(4)
                 app.call_back_baileys(self.mac12, self.section, self.port, uuid, info)
 
-
+    #安装表盘断开蓝牙
     def smoke13(self):
         info = "Process-13"
         self.port = int(self.init_port) + 24
@@ -1058,6 +1131,8 @@ class Testsmoke:
                 app.call_back_baileys(self.mac14, self.section, self.port, uuid, info)
 
 
+
+    #亮屏测试
     def smoke15(self):
         info = "Process-15"
         self.port = int(self.init_port) + 28
@@ -1102,10 +1177,11 @@ class Testsmoke:
                 app.call_back_baileys(self.mac15, self.section, self.port, uuid, info)
 
 if __name__ == '__main__':
+    # Testsmoke().smoke4()
     multiprocessings = []
     t1 = multiprocessing.Process(target=Testsmoke().smoke1)
     t2 = multiprocessing.Process(target=Testsmoke().smoke2)
-    # t3 = multiprocessing.Process(target=Testsmoke().smoke3)
+    t3 = multiprocessing.Process(target=Testsmoke().smoke3)
     t4 = multiprocessing.Process(target=Testsmoke().smoke4)
     t5 = multiprocessing.Process(target=Testsmoke().smoke5)
     # t6 = multiprocessing.Process(target=Testsmoke().smoke6)
@@ -1114,13 +1190,13 @@ if __name__ == '__main__':
     t9 = multiprocessing.Process(target=Testsmoke().smoke9)
     # t10 = multiprocessing.Process(target=Testsmoke().smoke10)
     # t11 = multiprocessing.Process(target=Testsmoke().smoke11)
-    t12 = multiprocessing.Process(target=Testsmoke().smoke12)
+    # t12 = multiprocessing.Process(target=Testsmoke().smoke12)
     # t13 = multiprocessing.Process(target=Testsmoke().smoke13)
     # t14 = multiprocessing.Process(target=Testsmoke().smoke14)
     # t15 = multiprocessing.Process(target=Testsmoke().smoke15)
     multiprocessings.append(t1)
     multiprocessings.append(t2)
-    # multiprocessings.append(t3)
+    multiprocessings.append(t3)
     multiprocessings.append(t4)
     multiprocessings.append(t5)
     # multiprocessings.append(t6)
@@ -1129,7 +1205,7 @@ if __name__ == '__main__':
     multiprocessings.append(t9)
     # multiprocessings.append(t10)
     # multiprocessings.append(t11)
-    multiprocessings.append(t12)
+    # multiprocessings.append(t12)
     # multiprocessings.append(t13)
     # multiprocessings.append(t14)
     # multiprocessings.append(t15)

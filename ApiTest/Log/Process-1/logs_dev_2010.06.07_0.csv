@@ -1,0 +1,4352 @@
+RM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:35:38 37704688] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:35:43 37705191] [I] oops sta 0
+
+[6-7 17:35:43 37705201] [I] [page_home] use default home click hook
+
+[6-7 17:35:52 37706097] [I] menu click enter 24
+
+[6-7 17:35:52 37706100] [I] action_hrm_init
+
+[6-7 17:35:52 37706102] [I] XINSHIJIE driver
+
+[6-7 17:35:52 37706119] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:35:54 37706265] [I] [hrm]unweared:399
+
+[6-7 17:35:54 37706294] [I] action_hrm_measure_timeout
+
+[6-7 17:35:54 37706294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:35:55 37706411] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:0 37706847] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:36:0 37706900] [I] oops sta 0
+
+[6-7 17:36:0 37706910] [I] [page_home] use default home click hook
+
+[6-7 17:36:10 37707850] [I] menu click enter 24
+
+[6-7 17:36:10 37707853] [I] action_hrm_init
+
+[6-7 17:36:10 37707855] [I] XINSHIJIE driver
+
+[6-7 17:36:10 37707872] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:36:11 37708018] [I] [hrm]unweared:400
+
+[6-7 17:36:12 37708094] [I] action_hrm_measure_timeout
+
+[6-7 17:36:12 37708094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:13 37708164] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:18 37708674] [I] oops sta 0
+
+[6-7 17:36:18 37708684] [I] [page_home] use default home click hook
+
+[6-7 17:36:27 37709614] [I] menu click enter 24
+
+[6-7 17:36:27 37709617] [I] action_hrm_init
+
+[6-7 17:36:27 37709620] [I] XINSHIJIE driver
+
+[6-7 17:36:27 37709637] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:36:29 37709782] [I] [hrm]unweared:401
+
+[6-7 17:36:29 37709794] [I] action_hrm_measure_timeout
+
+[6-7 17:36:29 37709794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:30 37709928] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:35 37710359] [I] oops sta 0
+
+[6-7 17:36:35 37710369] [I] [page_home] use default home click hook
+
+[6-7 17:36:44 37711321] [I] menu click enter 24
+
+[6-7 17:36:44 37711324] [I] action_hrm_init
+
+[6-7 17:36:44 37711326] [I] XINSHIJIE driver
+
+[6-7 17:36:44 37711343] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:36:46 37711489] [I] [hrm]unweared:402
+
+[6-7 17:36:46 37711494] [I] action_hrm_measure_timeout
+
+[6-7 17:36:46 37711494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:47 37711635] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:36:52 37712130] [I] oops sta 0
+
+[6-7 17:36:52 37712140] [I] [page_home] use default home click hook
+
+[6-7 17:37:0 37712904] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 30001], wrist:1, cal:0, dist:0, a:[0, 0, 172, 293, 106]
+
+[6-7 17:37:0 37712948] [I] ram:[24444, 840476], b:78, s:0
+
+[6-7 17:37:2 37713100] [I] menu click enter 24
+
+[6-7 17:37:2 37713103] [I] action_hrm_init
+
+[6-7 17:37:2 37713106] [I] XINSHIJIE driver
+
+[6-7 17:37:2 37713123] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:37:4 37713268] [I] [hrm]unweared:403
+
+[6-7 17:37:4 37713294] [I] action_hrm_measure_timeout
+
+[6-7 17:37:4 37713294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:5 37713414] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:9 37713839] [I] oops sta 0
+
+[6-7 17:37:9 37713849] [I] [page_home] use default home click hook
+
+[6-7 17:37:18 37714689] [I] menu click enter 24
+
+[6-7 17:37:18 37714692] [I] action_hrm_init
+
+[6-7 17:37:18 37714694] [I] XINSHIJIE driver
+
+[6-7 17:37:18 37714711] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:37:20 37714857] [I] [hrm]unweared:404
+
+[6-7 17:37:20 37714894] [I] action_hrm_measure_timeout
+
+[6-7 17:37:20 37714894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:21 37715003] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:27 37715574] [I] oops sta 0
+
+[6-7 17:37:27 37715584] [I] [page_home] use default home click hook
+
+[6-7 17:37:37 37716576] [I] menu click enter 24
+
+[6-7 17:37:37 37716579] [I] action_hrm_init
+
+[6-7 17:37:37 37716581] [I] XINSHIJIE driver
+
+[6-7 17:37:37 37716599] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:37:38 37716744] [I] [hrm]unweared:405
+
+[6-7 17:37:39 37716794] [I] action_hrm_measure_timeout
+
+[6-7 17:37:39 37716794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:40 37716890] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:45 37717376] [I] oops sta 0
+
+[6-7 17:37:45 37717386] [I] [page_home] use default home click hook
+
+[6-7 17:37:54 37718360] [I] menu click enter 24
+
+[6-7 17:37:55 37718363] [I] action_hrm_init
+
+[6-7 17:37:55 37718365] [I] XINSHIJIE driver
+
+[6-7 17:37:55 37718382] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:37:56 37718528] [I] [hrm]unweared:406
+
+[6-7 17:37:57 37718594] [I] action_hrm_measure_timeout
+
+[6-7 17:37:57 37718594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:37:58 37718674] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:0 37718864] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:38:2 37719160] [I] oops sta 0
+
+[6-7 17:38:3 37719170] [I] [page_home] use default home click hook
+
+[6-7 17:38:12 37720095] [I] menu click enter 24
+
+[6-7 17:38:12 37720098] [I] action_hrm_init
+
+[6-7 17:38:12 37720100] [I] XINSHIJIE driver
+
+[6-7 17:38:12 37720117] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:38:13 37720263] [I] [hrm]unweared:407
+
+[6-7 17:38:14 37720294] [I] action_hrm_measure_timeout
+
+[6-7 17:38:14 37720294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:15 37720409] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:20 37720891] [I] oops sta 0
+
+[6-7 17:38:20 37720901] [I] [page_home] use default home click hook
+
+[6-7 17:38:30 37721891] [I] menu click enter 24
+
+[6-7 17:38:30 37721894] [I] action_hrm_init
+
+[6-7 17:38:30 37721896] [I] XINSHIJIE driver
+
+[6-7 17:38:30 37721913] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:38:31 37722059] [I] [hrm]unweared:408
+
+[6-7 17:38:32 37722094] [I] action_hrm_measure_timeout
+
+[6-7 17:38:32 37722094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:33 37722205] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:38 37722685] [I] oops sta 0
+
+[6-7 17:38:38 37722695] [I] [page_home] use default home click hook
+
+[6-7 17:38:47 37723600] [I] menu click enter 24
+
+[6-7 17:38:47 37723603] [I] action_hrm_init
+
+[6-7 17:38:47 37723605] [I] XINSHIJIE driver
+
+[6-7 17:38:47 37723622] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:38:48 37723768] [I] [hrm]unweared:409
+
+[6-7 17:38:49 37723794] [I] action_hrm_measure_timeout
+
+[6-7 17:38:49 37723794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:50 37723914] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:38:54 37724341] [I] oops sta 0
+
+[6-7 17:38:54 37724351] [I] [page_home] use default home click hook
+
+[6-7 17:39:0 37724965] [I] ram:[24444, 840476], b:78, s:0
+
+[6-7 17:39:4 37725276] [I] menu click enter 24
+
+[6-7 17:39:4 37725279] [I] action_hrm_init
+
+[6-7 17:39:4 37725281] [I] XINSHIJIE driver
+
+[6-7 17:39:4 37725298] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:39:5 37725444] [I] [hrm]unweared:410
+
+[6-7 17:39:6 37725494] [I] action_hrm_measure_timeout
+
+[6-7 17:39:6 37725494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:7 37725590] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:11 37726021] [I] oops sta 0
+
+[6-7 17:39:11 37726031] [I] [page_home] use default home click hook
+
+[6-7 17:39:20 37726957] [I] menu click enter 24
+
+[6-7 17:39:20 37726960] [I] action_hrm_init
+
+[6-7 17:39:20 37726962] [I] XINSHIJIE driver
+
+[6-7 17:39:21 37726979] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:39:22 37727125] [I] [hrm]unweared:411
+
+[6-7 17:39:23 37727194] [I] action_hrm_measure_timeout
+
+[6-7 17:39:23 37727194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:23 37727271] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:28 37727699] [I] oops sta 0
+
+[6-7 17:39:28 37727709] [I] [page_home] use default home click hook
+
+[6-7 17:39:37 37728661] [I] menu click enter 24
+
+[6-7 17:39:37 37728664] [I] action_hrm_init
+
+[6-7 17:39:37 37728667] [I] XINSHIJIE driver
+
+[6-7 17:39:38 37728684] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:39:39 37728829] [I] [hrm]unweared:412
+
+[6-7 17:39:40 37728894] [I] action_hrm_measure_timeout
+
+[6-7 17:39:40 37728894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:40 37728975] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:45 37729408] [I] oops sta 0
+
+[6-7 17:39:45 37729418] [I] [page_home] use default home click hook
+
+[6-7 17:39:55 37730404] [I] menu click enter 24
+
+[6-7 17:39:55 37730407] [I] action_hrm_init
+
+[6-7 17:39:55 37730410] [I] XINSHIJIE driver
+
+[6-7 17:39:55 37730427] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:39:56 37730572] [I] [hrm]unweared:413
+
+[6-7 17:39:57 37730594] [I] action_hrm_measure_timeout
+
+[6-7 17:39:57 37730594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:39:58 37730718] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:0 37730888] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:40:0 37730926] [I] [system_profile_do_update] update succ. timestamp:1275903600 
+
+[6-7 17:40:3 37731186] [I] oops sta 0
+
+[6-7 17:40:3 37731196] [I] [page_home] use default home click hook
+
+[6-7 17:40:11 37732069] [I] menu click enter 24
+
+[6-7 17:40:11 37732072] [I] action_hrm_init
+
+[6-7 17:40:12 37732075] [I] XINSHIJIE driver
+
+[6-7 17:40:12 37732092] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:40:13 37732237] [I] [hrm]unweared:414
+
+[6-7 17:40:14 37732294] [I] action_hrm_measure_timeout
+
+[6-7 17:40:14 37732294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:15 37732383] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:20 37732877] [I] oops sta 0
+
+[6-7 17:40:20 37732887] [I] [page_home] use default home click hook
+
+[6-7 17:40:30 37733888] [I] menu click enter 24
+
+[6-7 17:40:30 37733891] [I] action_hrm_init
+
+[6-7 17:40:30 37733893] [I] XINSHIJIE driver
+
+[6-7 17:40:30 37733911] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:40:31 37734056] [I] [hrm]unweared:415
+
+[6-7 17:40:32 37734094] [I] action_hrm_measure_timeout
+
+[6-7 17:40:32 37734094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:33 37734202] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:37 37734648] [I] oops sta 0
+
+[6-7 17:40:37 37734658] [I] [page_home] use default home click hook
+
+[6-7 17:40:46 37735581] [I] menu click enter 24
+
+[6-7 17:40:47 37735584] [I] action_hrm_init
+
+[6-7 17:40:47 37735586] [I] XINSHIJIE driver
+
+[6-7 17:40:47 37735603] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:40:48 37735749] [I] [hrm]unweared:416
+
+[6-7 17:40:49 37735794] [I] action_hrm_measure_timeout
+
+[6-7 17:40:49 37735794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:50 37735895] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:40:55 37736395] [I] oops sta 0
+
+[6-7 17:40:55 37736405] [I] [page_home] use default home click hook
+
+[6-7 17:41:0 37736927] [I] ram:[24444, 840476], b:78, s:0
+
+[6-7 17:41:4 37737298] [I] menu click enter 24
+
+[6-7 17:41:4 37737301] [I] action_hrm_init
+
+[6-7 17:41:4 37737303] [I] XINSHIJIE driver
+
+[6-7 17:41:4 37737320] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:41:5 37737466] [I] [hrm]unweared:417
+
+[6-7 17:41:6 37737494] [I] action_hrm_measure_timeout
+
+[6-7 17:41:6 37737494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:7 37737612] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:12 37738099] [I] oops sta 0
+
+[6-7 17:41:12 37738109] [I] [page_home] use default home click hook
+
+[6-7 17:41:21 37739046] [I] menu click enter 24
+
+[6-7 17:41:21 37739049] [I] action_hrm_init
+
+[6-7 17:41:21 37739051] [I] XINSHIJIE driver
+
+[6-7 17:41:21 37739068] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:41:23 37739214] [I] [hrm]unweared:418
+
+[6-7 17:41:24 37739294] [I] action_hrm_measure_timeout
+
+[6-7 17:41:24 37739294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:24 37739360] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:29 37739845] [I] oops sta 0
+
+[6-7 17:41:29 37739855] [I] [page_home] use default home click hook
+
+[6-7 17:41:38 37740765] [I] menu click enter 24
+
+[6-7 17:41:38 37740768] [I] action_hrm_init
+
+[6-7 17:41:38 37740771] [I] XINSHIJIE driver
+
+[6-7 17:41:38 37740788] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:41:40 37740933] [I] [hrm]unweared:419
+
+[6-7 17:41:41 37740994] [I] action_hrm_measure_timeout
+
+[6-7 17:41:41 37740994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:41 37741079] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:46 37741525] [I] oops sta 0
+
+[6-7 17:41:46 37741535] [I] [page_home] use default home click hook
+
+[6-7 17:41:55 37742446] [I] menu click enter 24
+
+[6-7 17:41:55 37742449] [I] action_hrm_init
+
+[6-7 17:41:55 37742451] [I] XINSHIJIE driver
+
+[6-7 17:41:55 37742468] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:41:57 37742614] [I] [hrm]unweared:420
+
+[6-7 17:41:57 37742694] [I] action_hrm_measure_timeout
+
+[6-7 17:41:57 37742694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:41:58 37742760] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:0 37742941] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:42:3 37743254] [I] oops sta 0
+
+[6-7 17:42:3 37743264] [I] [page_home] use default home click hook
+
+[6-7 17:42:12 37744116] [I] menu click enter 24
+
+[6-7 17:42:12 37744119] [I] action_hrm_init
+
+[6-7 17:42:12 37744121] [I] XINSHIJIE driver
+
+[6-7 17:42:12 37744138] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:42:13 37744284] [I] [hrm]unweared:421
+
+[6-7 17:42:13 37744294] [I] action_hrm_measure_timeout
+
+[6-7 17:42:13 37744294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:15 37744430] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:20 37744915] [I] oops sta 0
+
+[6-7 17:42:20 37744925] [I] [page_home] use default home click hook
+
+[6-7 17:42:29 37745863] [I] menu click enter 24
+
+[6-7 17:42:29 37745866] [I] action_hrm_init
+
+[6-7 17:42:29 37745868] [I] XINSHIJIE driver
+
+[6-7 17:42:29 37745885] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:42:31 37746031] [I] [hrm]unweared:422
+
+[6-7 17:42:31 37746094] [I] action_hrm_measure_timeout
+
+[6-7 17:42:31 37746094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:32 37746177] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:37 37746669] [I] oops sta 0
+
+[6-7 17:42:37 37746679] [I] [page_home] use default home click hook
+
+[6-7 17:42:46 37747595] [I] menu click enter 24
+
+[6-7 17:42:46 37747598] [I] action_hrm_init
+
+[6-7 17:42:46 37747600] [I] XINSHIJIE driver
+
+[6-7 17:42:47 37747617] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:42:48 37747763] [I] [hrm]unweared:423
+
+[6-7 17:42:48 37747794] [I] action_hrm_measure_timeout
+
+[6-7 17:42:48 37747794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:50 37747909] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:42:54 37748348] [I] oops sta 0
+
+[6-7 17:42:54 37748358] [I] [page_home] use default home click hook
+
+[6-7 17:43:0 37748942] [I] ram:[24444, 840476], b:78, s:0
+
+[6-7 17:43:4 37749328] [I] menu click enter 24
+
+[6-7 17:43:4 37749331] [I] action_hrm_init
+
+[6-7 17:43:4 37749333] [I] XINSHIJIE driver
+
+[6-7 17:43:4 37749351] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:43:5 37749496] [I] [hrm]unweared:424
+
+[6-7 17:43:6 37749594] [I] action_hrm_measure_timeout
+
+[6-7 17:43:6 37749594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:7 37749642] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:12 37750131] [I] oops sta 0
+
+[6-7 17:43:12 37750141] [I] [page_home] use default home click hook
+
+[6-7 17:43:20 37751013] [I] menu click enter 24
+
+[6-7 17:43:21 37751016] [I] action_hrm_init
+
+[6-7 17:43:21 37751018] [I] XINSHIJIE driver
+
+[6-7 17:43:21 37751035] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:43:22 37751181] [I] [hrm]unweared:425
+
+[6-7 17:43:22 37751194] [I] action_hrm_measure_timeout
+
+[6-7 17:43:22 37751194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:24 37751327] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:28 37751755] [I] oops sta 0
+
+[6-7 17:43:28 37751765] [I] [page_home] use default home click hook
+
+[6-7 17:43:38 37752758] [I] menu click enter 24
+
+[6-7 17:43:38 37752761] [I] action_hrm_init
+
+[6-7 17:43:38 37752763] [I] XINSHIJIE driver
+
+[6-7 17:43:38 37752780] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:43:40 37752926] [I] [hrm]unweared:426
+
+[6-7 17:43:40 37752994] [I] action_hrm_measure_timeout
+
+[6-7 17:43:40 37752994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:41 37753072] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:46 37753556] [I] oops sta 0
+
+[6-7 17:43:46 37753566] [I] [page_home] use default home click hook
+
+[6-7 17:43:55 37754458] [I] menu click enter 24
+
+[6-7 17:43:55 37754461] [I] action_hrm_init
+
+[6-7 17:43:55 37754463] [I] XINSHIJIE driver
+
+[6-7 17:43:55 37754480] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:43:57 37754626] [I] [hrm]unweared:427
+
+[6-7 17:43:57 37754694] [I] action_hrm_measure_timeout
+
+[6-7 17:43:57 37754694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:43:58 37754772] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:0 37754961] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:44:3 37755263] [I] oops sta 0
+
+[6-7 17:44:3 37755273] [I] [page_home] use default home click hook
+
+[6-7 17:44:12 37756173] [I] menu click enter 24
+
+[6-7 17:44:12 37756176] [I] action_hrm_init
+
+[6-7 17:44:12 37756178] [I] XINSHIJIE driver
+
+[6-7 17:44:12 37756195] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:44:14 37756341] [I] [hrm]unweared:428
+
+[6-7 17:44:14 37756394] [I] action_hrm_measure_timeout
+
+[6-7 17:44:14 37756394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:15 37756487] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:20 37756966] [I] oops sta 0
+
+[6-7 17:44:20 37756976] [I] [page_home] use default home click hook
+
+[6-7 17:44:30 37757940] [I] menu click enter 24
+
+[6-7 17:44:30 37757943] [I] action_hrm_init
+
+[6-7 17:44:30 37757945] [I] XINSHIJIE driver
+
+[6-7 17:44:30 37757963] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:44:31 37758108] [I] [hrm]unweared:429
+
+[6-7 17:44:32 37758194] [I] action_hrm_measure_timeout
+
+[6-7 17:44:32 37758194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:33 37758254] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:37 37758699] [I] oops sta 0
+
+[6-7 17:44:37 37758709] [I] [page_home] use default home click hook
+
+[6-7 17:44:46 37759539] [I] menu click enter 24
+
+[6-7 17:44:46 37759542] [I] action_hrm_init
+
+[6-7 17:44:46 37759544] [I] XINSHIJIE driver
+
+[6-7 17:44:46 37759561] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:44:47 37759707] [I] [hrm]unweared:430
+
+[6-7 17:44:48 37759794] [I] action_hrm_measure_timeout
+
+[6-7 17:44:48 37759794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:49 37759853] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:44:54 37760342] [I] oops sta 0
+
+[6-7 17:44:54 37760352] [I] [page_home] use default home click hook
+
+[6-7 17:45:0 37760962] [I] ram:[24444, 840476], b:78, s:0
+
+[6-7 17:45:4 37761368] [I] menu click enter 24
+
+[6-7 17:45:4 37761371] [I] action_hrm_init
+
+[6-7 17:45:4 37761373] [I] XINSHIJIE driver
+
+[6-7 17:45:4 37761390] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:45:6 37761536] [I] [hrm]unweared:431
+
+[6-7 17:45:6 37761594] [I] action_hrm_measure_timeout
+
+[6-7 17:45:6 37761594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:7 37761682] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:12 37762190] [I] oops sta 0
+
+[6-7 17:45:12 37762200] [I] [page_home] use default home click hook
+
+[6-7 17:45:21 37763118] [I] menu click enter 24
+
+[6-7 17:45:21 37763121] [I] action_hrm_init
+
+[6-7 17:45:21 37763123] [I] XINSHIJIE driver
+
+[6-7 17:45:22 37763140] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:45:23 37763286] [I] [hrm]unweared:432
+
+[6-7 17:45:23 37763294] [I] action_hrm_measure_timeout
+
+[6-7 17:45:23 37763294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:24 37763432] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:29 37763924] [I] oops sta 0
+
+[6-7 17:45:29 37763934] [I] [page_home] use default home click hook
+
+[6-7 17:45:39 37764907] [I] menu click enter 24
+
+[6-7 17:45:39 37764910] [I] action_hrm_init
+
+[6-7 17:45:39 37764912] [I] XINSHIJIE driver
+
+[6-7 17:45:39 37764930] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:45:41 37765075] [I] [hrm]unweared:433
+
+[6-7 17:45:41 37765094] [I] action_hrm_measure_timeout
+
+[6-7 17:45:41 37765094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:42 37765221] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:47 37765671] [I] oops sta 0
+
+[6-7 17:45:47 37765681] [I] [page_home] use default home click hook
+
+[6-7 17:45:56 37766571] [I] menu click enter 24
+
+[6-7 17:45:56 37766574] [I] action_hrm_init
+
+[6-7 17:45:56 37766576] [I] XINSHIJIE driver
+
+[6-7 17:45:56 37766593] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:45:57 37766739] [I] [hrm]unweared:434
+
+[6-7 17:45:58 37766794] [I] action_hrm_measure_timeout
+
+[6-7 17:45:58 37766794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:45:59 37766885] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:0 37766991] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:46:4 37767367] [I] oops sta 0
+
+[6-7 17:46:4 37767377] [I] [page_home] use default home click hook
+
+[6-7 17:46:12 37768241] [I] menu click enter 24
+
+[6-7 17:46:12 37768244] [I] action_hrm_init
+
+[6-7 17:46:12 37768246] [I] XINSHIJIE driver
+
+[6-7 17:46:13 37768263] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:46:14 37768409] [I] [hrm]unweared:435
+
+[6-7 17:46:15 37768494] [I] action_hrm_measure_timeout
+
+[6-7 17:46:15 37768494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:16 37768555] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:21 37769050] [I] oops sta 0
+
+[6-7 17:46:21 37769060] [I] [page_home] use default home click hook
+
+[6-7 17:46:30 37770043] [I] menu click enter 24
+
+[6-7 17:46:30 37770046] [I] action_hrm_init
+
+[6-7 17:46:30 37770049] [I] XINSHIJIE driver
+
+[6-7 17:46:31 37770062] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:46:32 37770239] [I] [hrm]unweared:436
+
+[6-7 17:46:33 37770294] [I] action_hrm_measure_timeout
+
+[6-7 17:46:33 37770294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:34 37770357] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:38 37770853] [I] oops sta 0
+
+[6-7 17:46:39 37770863] [I] [page_home] use default home click hook
+
+[6-7 17:46:48 37771786] [I] menu click enter 24
+
+[6-7 17:46:48 37771789] [I] action_hrm_init
+
+[6-7 17:46:48 37771791] [I] XINSHIJIE driver
+
+[6-7 17:46:48 37771808] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:46:49 37771954] [I] [hrm]unweared:437
+
+[6-7 17:46:50 37771994] [I] action_hrm_measure_timeout
+
+[6-7 17:46:50 37771994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:51 37772114] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:46:56 37772584] [I] oops sta 0
+
+[6-7 17:46:56 37772594] [I] [page_home] use default home click hook
+
+[6-7 17:47:0 37772999] [I] ram:[24356, 840476], b:78, s:0
+
+[6-7 17:47:0 37773011] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 30001], wrist:1, cal:0, dist:0, a:[0, 0, 172, 154, 108]
+
+[6-7 17:47:5 37773529] [I] menu click enter 24
+
+[6-7 17:47:5 37773532] [I] action_hrm_init
+
+[6-7 17:47:5 37773534] [I] XINSHIJIE driver
+
+[6-7 17:47:5 37773551] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:47:7 37773697] [I] [hrm]unweared:438
+
+[6-7 17:47:8 37773794] [I] action_hrm_measure_timeout
+
+[6-7 17:47:8 37773794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:8 37773843] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:13 37774325] [I] oops sta 0
+
+[6-7 17:47:13 37774335] [I] [page_home] use default home click hook
+
+[6-7 17:47:23 37775284] [I] menu click enter 24
+
+[6-7 17:47:23 37775287] [I] action_hrm_init
+
+[6-7 17:47:23 37775289] [I] XINSHIJIE driver
+
+[6-7 17:47:23 37775306] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:47:24 37775452] [I] [hrm]unweared:439
+
+[6-7 17:47:25 37775494] [I] action_hrm_measure_timeout
+
+[6-7 17:47:25 37775494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:26 37775598] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:31 37776102] [I] oops sta 0
+
+[6-7 17:47:31 37776112] [I] [page_home] use default home click hook
+
+[6-7 17:47:41 37777114] [I] menu click enter 24
+
+[6-7 17:47:41 37777117] [I] action_hrm_init
+
+[6-7 17:47:41 37777120] [I] XINSHIJIE driver
+
+[6-7 17:47:41 37777137] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:47:43 37777282] [I] [hrm]unweared:440
+
+[6-7 17:47:43 37777294] [I] action_hrm_measure_timeout
+
+[6-7 17:47:43 37777294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:44 37777428] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:47:49 37777919] [I] oops sta 0
+
+[6-7 17:47:49 37777929] [I] [page_home] use default home click hook
+
+[6-7 17:47:59 37778875] [I] menu click enter 24
+
+[6-7 17:47:59 37778878] [I] action_hrm_init
+
+[6-7 17:47:59 37778880] [I] XINSHIJIE driver
+
+[6-7 17:47:59 37778897] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:48:0 37779004] [I] ram:[24384, 835224], b:78, s:0
+
+[6-7 17:48:0 37779043] [I] [hrm]unweared:441
+
+[6-7 17:48:1 37779094] [I] action_hrm_measure_timeout
+
+[6-7 17:48:1 37779094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:2 37779189] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:7 37779681] [I] oops sta 0
+
+[6-7 17:48:7 37779691] [I] [page_home] use default home click hook
+
+[6-7 17:48:16 37780624] [I] menu click enter 24
+
+[6-7 17:48:16 37780627] [I] action_hrm_init
+
+[6-7 17:48:16 37780629] [I] XINSHIJIE driver
+
+[6-7 17:48:16 37780646] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:48:18 37780792] [I] [hrm]unweared:442
+
+[6-7 17:48:18 37780794] [I] action_hrm_measure_timeout
+
+[6-7 17:48:18 37780794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:19 37780938] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:24 37781416] [I] oops sta 0
+
+[6-7 17:48:24 37781426] [I] [page_home] use default home click hook
+
+[6-7 17:48:33 37782340] [I] menu click enter 24
+
+[6-7 17:48:33 37782343] [I] action_hrm_init
+
+[6-7 17:48:33 37782345] [I] XINSHIJIE driver
+
+[6-7 17:48:33 37782362] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:48:35 37782508] [I] [hrm]unweared:443
+
+[6-7 17:48:36 37782594] [I] action_hrm_measure_timeout
+
+[6-7 17:48:36 37782594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:36 37782654] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:41 37783143] [I] oops sta 0
+
+[6-7 17:48:41 37783153] [I] [page_home] use default home click hook
+
+[6-7 17:48:50 37784019] [I] menu click enter 24
+
+[6-7 17:48:50 37784022] [I] action_hrm_init
+
+[6-7 17:48:50 37784024] [I] XINSHIJIE driver
+
+[6-7 17:48:50 37784041] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:48:52 37784187] [I] [hrm]unweared:444
+
+[6-7 17:48:52 37784194] [I] action_hrm_measure_timeout
+
+[6-7 17:48:52 37784194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:53 37784333] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:48:58 37784814] [I] oops sta 0
+
+[6-7 17:48:58 37784824] [I] [page_home] use default home click hook
+
+[6-7 17:49:0 37785004] [I] ram:[24276, 839844], b:78, s:0
+
+[6-7 17:49:7 37785771] [I] menu click enter 24
+
+[6-7 17:49:7 37785774] [I] action_hrm_init
+
+[6-7 17:49:7 37785776] [I] XINSHIJIE driver
+
+[6-7 17:49:8 37785793] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:49:9 37785939] [I] [hrm]unweared:445
+
+[6-7 17:49:10 37785994] [I] action_hrm_measure_timeout
+
+[6-7 17:49:10 37785994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:10 37786085] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:15 37786576] [I] oops sta 0
+
+[6-7 17:49:15 37786586] [I] [page_home] use default home click hook
+
+[6-7 17:49:25 37787509] [I] menu click enter 24
+
+[6-7 17:49:25 37787512] [I] action_hrm_init
+
+[6-7 17:49:25 37787514] [I] XINSHIJIE driver
+
+[6-7 17:49:25 37787531] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:49:26 37787677] [I] [hrm]unweared:446
+
+[6-7 17:49:27 37787694] [I] action_hrm_measure_timeout
+
+[6-7 17:49:27 37787694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:28 37787823] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:33 37788315] [I] oops sta 0
+
+[6-7 17:49:33 37788344] [I] [ss_batt_do_sample] percent:77%, volt_mv:4090mv
+
+[6-7 17:49:33 37788354] [I] [page_home] use default home click hook
+
+[6-7 17:49:42 37789268] [I] menu click enter 24
+
+[6-7 17:49:42 37789271] [I] action_hrm_init
+
+[6-7 17:49:42 37789274] [I] XINSHIJIE driver
+
+[6-7 17:49:42 37789291] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:49:44 37789436] [I] [hrm]unweared:447
+
+[6-7 17:49:45 37789494] [I] action_hrm_measure_timeout
+
+[6-7 17:49:45 37789494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:45 37789582] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:49:50 37790059] [I] oops sta 0
+
+[6-7 17:49:50 37790069] [I] [page_home] use default home click hook
+
+[6-7 17:50:0 37791005] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:50:0 37791028] [I] menu click enter 24
+
+[6-7 17:50:0 37791031] [I] action_hrm_init
+
+[6-7 17:50:0 37791039] [I] XINSHIJIE driver
+
+[6-7 17:50:0 37791056] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:50:2 37791201] [I] [hrm]unweared:448
+
+[6-7 17:50:2 37791294] [I] action_hrm_measure_timeout
+
+[6-7 17:50:2 37791294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:3 37791342] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:7 37791777] [I] oops sta 0
+
+[6-7 17:50:7 37791787] [I] [page_home] use default home click hook
+
+[6-7 17:50:17 37792703] [I] menu click enter 24
+
+[6-7 17:50:17 37792706] [I] action_hrm_init
+
+[6-7 17:50:17 37792708] [I] XINSHIJIE driver
+
+[6-7 17:50:17 37792725] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:50:18 37792871] [I] [hrm]unweared:449
+
+[6-7 17:50:18 37792894] [I] action_hrm_measure_timeout
+
+[6-7 17:50:18 37792894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:20 37793017] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:24 37793459] [I] oops sta 0
+
+[6-7 17:50:24 37793469] [I] [page_home] use default home click hook
+
+[6-7 17:50:34 37794422] [I] menu click enter 24
+
+[6-7 17:50:34 37794425] [I] action_hrm_init
+
+[6-7 17:50:34 37794427] [I] XINSHIJIE driver
+
+[6-7 17:50:34 37794444] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:50:35 37794590] [I] [hrm]unweared:450
+
+[6-7 17:50:35 37794594] [I] action_hrm_measure_timeout
+
+[6-7 17:50:35 37794594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:37 37794736] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:41 37795178] [I] oops sta 0
+
+[6-7 17:50:41 37795188] [I] [page_home] use default home click hook
+
+[6-7 17:50:50 37796091] [I] menu click enter 24
+
+[6-7 17:50:50 37796094] [I] action_hrm_init
+
+[6-7 17:50:50 37796096] [I] XINSHIJIE driver
+
+[6-7 17:50:51 37796113] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:50:52 37796259] [I] [hrm]unweared:451
+
+[6-7 17:50:52 37796294] [I] action_hrm_measure_timeout
+
+[6-7 17:50:52 37796294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:53 37796405] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:50:58 37796837] [I] oops sta 0
+
+[6-7 17:50:58 37796847] [I] [page_home] use default home click hook
+
+[6-7 17:51:0 37797025] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:51:8 37797836] [I] menu click enter 24
+
+[6-7 17:51:8 37797839] [I] action_hrm_init
+
+[6-7 17:51:8 37797842] [I] XINSHIJIE driver
+
+[6-7 17:51:8 37797859] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:51:9 37798004] [I] [hrm]unweared:452
+
+[6-7 17:51:10 37798094] [I] action_hrm_measure_timeout
+
+[6-7 17:51:10 37798094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:11 37798150] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:15 37798584] [I] oops sta 0
+
+[6-7 17:51:15 37798594] [I] [page_home] use default home click hook
+
+[6-7 17:51:24 37799467] [I] menu click enter 24
+
+[6-7 17:51:24 37799470] [I] action_hrm_init
+
+[6-7 17:51:24 37799472] [I] XINSHIJIE driver
+
+[6-7 17:51:24 37799489] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:51:26 37799635] [I] [hrm]unweared:453
+
+[6-7 17:51:26 37799694] [I] action_hrm_measure_timeout
+
+[6-7 17:51:26 37799694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:27 37799781] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:32 37800301] [I] oops sta 0
+
+[6-7 17:51:32 37800311] [I] [page_home] use default home click hook
+
+[6-7 17:51:42 37801311] [I] menu click enter 24
+
+[6-7 17:51:42 37801314] [I] action_hrm_init
+
+[6-7 17:51:43 37801317] [I] XINSHIJIE driver
+
+[6-7 17:51:43 37801334] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:51:44 37801479] [I] [hrm]unweared:454
+
+[6-7 17:51:44 37801494] [I] action_hrm_measure_timeout
+
+[6-7 17:51:44 37801494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:46 37801625] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:51:50 37802061] [I] oops sta 0
+
+[6-7 17:51:50 37802071] [I] [page_home] use default home click hook
+
+[6-7 17:52:0 37803034] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:52:0 37803058] [I] menu click enter 24
+
+[6-7 17:52:0 37803061] [I] action_hrm_init
+
+[6-7 17:52:0 37803066] [I] XINSHIJIE driver
+
+[6-7 17:52:0 37803083] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:52:2 37803228] [I] [hrm]unweared:455
+
+[6-7 17:52:2 37803294] [I] action_hrm_measure_timeout
+
+[6-7 17:52:2 37803294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:3 37803372] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:7 37803806] [I] oops sta 0
+
+[6-7 17:52:7 37803816] [I] [page_home] use default home click hook
+
+[6-7 17:52:17 37804725] [I] menu click enter 24
+
+[6-7 17:52:17 37804728] [I] action_hrm_init
+
+[6-7 17:52:17 37804730] [I] XINSHIJIE driver
+
+[6-7 17:52:17 37804747] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:52:18 37804893] [I] [hrm]unweared:456
+
+[6-7 17:52:18 37804894] [I] action_hrm_measure_timeout
+
+[6-7 17:52:18 37804894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:20 37805039] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:24 37805464] [I] oops sta 0
+
+[6-7 17:52:24 37805474] [I] [page_home] use default home click hook
+
+[6-7 17:52:33 37806406] [I] menu click enter 24
+
+[6-7 17:52:33 37806409] [I] action_hrm_init
+
+[6-7 17:52:33 37806411] [I] XINSHIJIE driver
+
+[6-7 17:52:34 37806428] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:52:35 37806574] [I] [hrm]unweared:457
+
+[6-7 17:52:35 37806594] [I] action_hrm_measure_timeout
+
+[6-7 17:52:35 37806594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:36 37806720] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:41 37807164] [I] oops sta 0
+
+[6-7 17:52:41 37807174] [I] [page_home] use default home click hook
+
+[6-7 17:52:50 37808098] [I] menu click enter 24
+
+[6-7 17:52:50 37808101] [I] action_hrm_init
+
+[6-7 17:52:50 37808104] [I] XINSHIJIE driver
+
+[6-7 17:52:50 37808121] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:52:52 37808266] [I] [hrm]unweared:458
+
+[6-7 17:52:52 37808294] [I] action_hrm_measure_timeout
+
+[6-7 17:52:52 37808294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:53 37808412] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:52:58 37808917] [I] oops sta 0
+
+[6-7 17:52:58 37808927] [I] [page_home] use default home click hook
+
+[6-7 17:53:0 37809050] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:53:8 37809922] [I] menu click enter 24
+
+[6-7 17:53:8 37809925] [I] action_hrm_init
+
+[6-7 17:53:8 37809927] [I] XINSHIJIE driver
+
+[6-7 17:53:9 37809945] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:53:10 37810090] [I] [hrm]unweared:459
+
+[6-7 17:53:10 37810094] [I] action_hrm_measure_timeout
+
+[6-7 17:53:10 37810094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:12 37810236] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:16 37810698] [I] oops sta 0
+
+[6-7 17:53:16 37810734] [I] [page_home] use default home click hook
+
+[6-7 17:53:25 37811635] [I] menu click enter 24
+
+[6-7 17:53:25 37811638] [I] action_hrm_init
+
+[6-7 17:53:26 37811641] [I] XINSHIJIE driver
+
+[6-7 17:53:26 37811658] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:53:27 37811803] [I] [hrm]unweared:460
+
+[6-7 17:53:28 37811894] [I] action_hrm_measure_timeout
+
+[6-7 17:53:28 37811894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:29 37811949] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:33 37812439] [I] oops sta 0
+
+[6-7 17:53:34 37812449] [I] [page_home] use default home click hook
+
+[6-7 17:53:43 37813414] [I] menu click enter 24
+
+[6-7 17:53:43 37813417] [I] action_hrm_init
+
+[6-7 17:53:43 37813419] [I] XINSHIJIE driver
+
+[6-7 17:53:43 37813437] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:53:45 37813582] [I] [hrm]unweared:461
+
+[6-7 17:53:45 37813594] [I] action_hrm_measure_timeout
+
+[6-7 17:53:45 37813594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:46 37813728] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:53:51 37814160] [I] oops sta 0
+
+[6-7 17:53:51 37814170] [I] [page_home] use default home click hook
+
+[6-7 17:54:0 37815057] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:54:0 37815141] [I] menu click enter 24
+
+[6-7 17:54:0 37815144] [I] action_hrm_init
+
+[6-7 17:54:1 37815146] [I] XINSHIJIE driver
+
+[6-7 17:54:1 37815164] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:54:2 37815309] [I] [hrm]unweared:462
+
+[6-7 17:54:3 37815394] [I] action_hrm_measure_timeout
+
+[6-7 17:54:3 37815394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:4 37815455] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:8 37815940] [I] oops sta 0
+
+[6-7 17:54:9 37815950] [I] [page_home] use default home click hook
+
+[6-7 17:54:17 37816837] [I] menu click enter 24
+
+[6-7 17:54:17 37816840] [I] action_hrm_init
+
+[6-7 17:54:17 37816842] [I] XINSHIJIE driver
+
+[6-7 17:54:18 37816859] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:54:19 37817005] [I] [hrm]unweared:463
+
+[6-7 17:54:20 37817094] [I] action_hrm_measure_timeout
+
+[6-7 17:54:20 37817094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:21 37817151] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:25 37817568] [I] oops sta 0
+
+[6-7 17:54:25 37817578] [I] [page_home] use default home click hook
+
+[6-7 17:54:35 37818556] [I] menu click enter 24
+
+[6-7 17:54:35 37818559] [I] action_hrm_init
+
+[6-7 17:54:35 37818561] [I] XINSHIJIE driver
+
+[6-7 17:54:35 37818579] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:54:36 37818724] [I] [hrm]unweared:464
+
+[6-7 17:54:37 37818794] [I] action_hrm_measure_timeout
+
+[6-7 17:54:37 37818794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:38 37818870] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:43 37819364] [I] oops sta 0
+
+[6-7 17:54:43 37819374] [I] [page_home] use default home click hook
+
+[6-7 17:54:52 37820276] [I] menu click enter 24
+
+[6-7 17:54:52 37820279] [I] action_hrm_init
+
+[6-7 17:54:52 37820281] [I] XINSHIJIE driver
+
+[6-7 17:54:52 37820298] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:54:53 37820444] [I] [hrm]unweared:465
+
+[6-7 17:54:54 37820494] [I] action_hrm_measure_timeout
+
+[6-7 17:54:54 37820494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:54:55 37820590] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:0 37821079] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 17:55:0 37821147] [I] oops sta 0
+
+[6-7 17:55:0 37821157] [I] [page_home] use default home click hook
+
+[6-7 17:55:9 37822047] [I] menu click enter 24
+
+[6-7 17:55:9 37822050] [I] action_hrm_init
+
+[6-7 17:55:9 37822052] [I] XINSHIJIE driver
+
+[6-7 17:55:10 37822069] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:55:11 37822215] [I] [hrm]unweared:466
+
+[6-7 17:55:12 37822294] [I] action_hrm_measure_timeout
+
+[6-7 17:55:12 37822294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:13 37822361] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:17 37822809] [I] oops sta 0
+
+[6-7 17:55:17 37822819] [I] [page_home] use default home click hook
+
+[6-7 17:55:27 37823796] [I] menu click enter 24
+
+[6-7 17:55:27 37823799] [I] action_hrm_init
+
+[6-7 17:55:27 37823801] [I] XINSHIJIE driver
+
+[6-7 17:55:27 37823819] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:55:29 37823964] [I] [hrm]unweared:467
+
+[6-7 17:55:29 37823994] [I] action_hrm_measure_timeout
+
+[6-7 17:55:29 37823994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:30 37824110] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:34 37824552] [I] oops sta 0
+
+[6-7 17:55:34 37824562] [I] [page_home] use default home click hook
+
+[6-7 17:55:44 37825557] [I] menu click enter 24
+
+[6-7 17:55:44 37825560] [I] action_hrm_init
+
+[6-7 17:55:44 37825562] [I] XINSHIJIE driver
+
+[6-7 17:55:45 37825580] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:55:46 37825725] [I] [hrm]unweared:468
+
+[6-7 17:55:47 37825794] [I] action_hrm_measure_timeout
+
+[6-7 17:55:47 37825794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:48 37825871] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:55:52 37826301] [I] oops sta 0
+
+[6-7 17:55:52 37826311] [I] [page_home] use default home click hook
+
+[6-7 17:56:0 37827080] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:56:1 37827242] [I] menu click enter 24
+
+[6-7 17:56:1 37827245] [I] action_hrm_init
+
+[6-7 17:56:1 37827247] [I] XINSHIJIE driver
+
+[6-7 17:56:1 37827264] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:56:3 37827410] [I] [hrm]unweared:469
+
+[6-7 17:56:4 37827494] [I] action_hrm_measure_timeout
+
+[6-7 17:56:4 37827494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:4 37827556] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:9 37828062] [I] oops sta 0
+
+[6-7 17:56:9 37828072] [I] [page_home] use default home click hook
+
+[6-7 17:56:19 37828997] [I] menu click enter 24
+
+[6-7 17:56:19 37829000] [I] action_hrm_init
+
+[6-7 17:56:19 37829003] [I] XINSHIJIE driver
+
+[6-7 17:56:19 37829020] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:56:20 37829165] [I] [hrm]unweared:470
+
+[6-7 17:56:21 37829194] [I] action_hrm_measure_timeout
+
+[6-7 17:56:21 37829194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:22 37829311] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:27 37829825] [I] oops sta 0
+
+[6-7 17:56:27 37829835] [I] [page_home] use default home click hook
+
+[6-7 17:56:37 37830819] [I] menu click enter 24
+
+[6-7 17:56:37 37830822] [I] action_hrm_init
+
+[6-7 17:56:37 37830824] [I] XINSHIJIE driver
+
+[6-7 17:56:37 37830841] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:56:39 37830987] [I] [hrm]unweared:471
+
+[6-7 17:56:39 37830994] [I] action_hrm_measure_timeout
+
+[6-7 17:56:39 37830994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:40 37831133] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:44 37831563] [I] oops sta 0
+
+[6-7 17:56:44 37831573] [I] [page_home] use default home click hook
+
+[6-7 17:56:53 37832468] [I] menu click enter 24
+
+[6-7 17:56:53 37832471] [I] action_hrm_init
+
+[6-7 17:56:53 37832473] [I] XINSHIJIE driver
+
+[6-7 17:56:54 37832490] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:56:55 37832636] [I] [hrm]unweared:472
+
+[6-7 17:56:56 37832694] [I] action_hrm_measure_timeout
+
+[6-7 17:56:56 37832694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:56:57 37832782] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:0 37833093] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 17:57:0 37833115] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 30001], wrist:1, cal:0, dist:0, a:[0, 0, 172, 160, 107]
+
+[6-7 17:57:1 37833227] [I] oops sta 0
+
+[6-7 17:57:1 37833237] [I] [page_home] use default home click hook
+
+[6-7 17:57:10 37834170] [I] menu click enter 24
+
+[6-7 17:57:10 37834173] [I] action_hrm_init
+
+[6-7 17:57:10 37834176] [I] XINSHIJIE driver
+
+[6-7 17:57:11 37834193] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:57:12 37834338] [I] [hrm]unweared:473
+
+[6-7 17:57:13 37834394] [I] action_hrm_measure_timeout
+
+[6-7 17:57:13 37834394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:13 37834484] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:18 37834972] [I] oops sta 0
+
+[6-7 17:57:18 37834982] [I] [page_home] use default home click hook
+
+[6-7 17:57:28 37835987] [I] menu click enter 24
+
+[6-7 17:57:29 37835990] [I] action_hrm_init
+
+[6-7 17:57:29 37835992] [I] XINSHIJIE driver
+
+[6-7 17:57:29 37836010] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:57:30 37836155] [I] [hrm]unweared:474
+
+[6-7 17:57:31 37836194] [I] action_hrm_measure_timeout
+
+[6-7 17:57:31 37836194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:32 37836301] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:37 37836819] [I] oops sta 0
+
+[6-7 17:57:37 37836829] [I] [page_home] use default home click hook
+
+[6-7 17:57:46 37837726] [I] menu click enter 24
+
+[6-7 17:57:46 37837729] [I] action_hrm_init
+
+[6-7 17:57:46 37837731] [I] XINSHIJIE driver
+
+[6-7 17:57:46 37837748] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:57:48 37837894] [I] [hrm]unweared:475
+
+[6-7 17:57:48 37837894] [I] action_hrm_measure_timeout
+
+[6-7 17:57:48 37837894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:49 37838040] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:57:53 37838474] [I] oops sta 0
+
+[6-7 17:57:53 37838484] [I] [page_home] use default home click hook
+
+[6-7 17:58:0 37839108] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 17:58:4 37839499] [I] menu click enter 24
+
+[6-7 17:58:4 37839502] [I] action_hrm_init
+
+[6-7 17:58:4 37839504] [I] XINSHIJIE driver
+
+[6-7 17:58:4 37839521] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:58:5 37839667] [I] [hrm]unweared:476
+
+[6-7 17:58:5 37839694] [I] action_hrm_measure_timeout
+
+[6-7 17:58:5 37839694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:7 37839813] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:11 37840251] [I] oops sta 0
+
+[6-7 17:58:11 37840261] [I] [page_home] use default home click hook
+
+[6-7 17:58:20 37841143] [I] menu click enter 24
+
+[6-7 17:58:20 37841146] [I] action_hrm_init
+
+[6-7 17:58:20 37841148] [I] XINSHIJIE driver
+
+[6-7 17:58:20 37841160] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:58:22 37841339] [I] [hrm]unweared:477
+
+[6-7 17:58:22 37841394] [I] action_hrm_measure_timeout
+
+[6-7 17:58:22 37841394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:23 37841457] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:27 37841891] [I] oops sta 0
+
+[6-7 17:58:28 37841901] [I] [page_home] use default home click hook
+
+[6-7 17:58:37 37842851] [I] menu click enter 24
+
+[6-7 17:58:37 37842854] [I] action_hrm_init
+
+[6-7 17:58:37 37842857] [I] XINSHIJIE driver
+
+[6-7 17:58:37 37842874] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:58:39 37843019] [I] [hrm]unweared:478
+
+[6-7 17:58:39 37843094] [I] action_hrm_measure_timeout
+
+[6-7 17:58:39 37843094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:40 37843165] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:45 37843651] [I] oops sta 0
+
+[6-7 17:58:45 37843661] [I] [page_home] use default home click hook
+
+[6-7 17:58:54 37844546] [I] menu click enter 24
+
+[6-7 17:58:54 37844549] [I] action_hrm_init
+
+[6-7 17:58:54 37844552] [I] XINSHIJIE driver
+
+[6-7 17:58:54 37844569] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 17:58:56 37844714] [I] [hrm]unweared:479
+
+[6-7 17:58:56 37844794] [I] action_hrm_measure_timeout
+
+[6-7 17:58:56 37844794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:58:57 37844860] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 17:59:0 37845124] [I] [wrkt] drink drink
+
+[6-7 17:59:0 37845124] [I] ignore remind 0
+
+[6-7 17:59:0 37845124] [I] ram:[24264, 835224], b:77, s:0
+
+[6-7 17:59:1 37845231] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:297
+
+[6-7 17:59:1 37845297] [I] oops sta 0
+
+[6-7 18:0:0 37851126] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:0:1 37851289] [I] XINSHIJIE driver
+
+[6-7 18:0:1 37851305] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:0:1 37851305] [I] oops sta 0
+
+[6-7 18:0:2 37851334] [I] [page_home] use default home click hook
+
+[6-7 18:0:4 37851507] [I] oops sta 0
+
+[6-7 18:0:4 37851549] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:0:5 37851701] [I] oops sta 0
+
+[6-7 18:0:8 37851915] [I] XINSHIJIE driver
+
+[6-7 18:0:8 37851915] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:0:8 37851927] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:0:17 37852862] [I] menu click enter 24
+
+[6-7 18:0:17 37852865] [I] action_hrm_init
+
+[6-7 18:0:17 37852868] [I] XINSHIJIE driver
+
+[6-7 18:0:17 37852885] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:0:19 37853030] [I] [hrm]unweared:480
+
+[6-7 18:0:19 37853094] [I] action_hrm_measure_timeout
+
+[6-7 18:0:19 37853094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:0:20 37853176] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:0:25 37853657] [I] oops sta 0
+
+[6-7 18:0:25 37853667] [I] [page_home] use default home click hook
+
+[6-7 18:0:35 37854662] [I] menu click enter 24
+
+[6-7 18:0:35 37854665] [I] action_hrm_init
+
+[6-7 18:0:35 37854667] [I] XINSHIJIE driver
+
+[6-7 18:0:35 37854685] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:0:37 37854830] [I] [hrm]unweared:481
+
+[6-7 18:0:37 37854894] [I] action_hrm_measure_timeout
+
+[6-7 18:0:37 37854894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:0:38 37854976] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:0:43 37855441] [I] oops sta 0
+
+[6-7 18:0:43 37855451] [I] [page_home] use default home click hook
+
+[6-7 18:0:52 37856354] [I] menu click enter 24
+
+[6-7 18:0:52 37856357] [I] action_hrm_init
+
+[6-7 18:0:52 37856359] [I] XINSHIJIE driver
+
+[6-7 18:0:52 37856376] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:0:54 37856522] [I] [hrm]unweared:482
+
+[6-7 18:0:54 37856594] [I] action_hrm_measure_timeout
+
+[6-7 18:0:54 37856594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:0:55 37856668] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:0 37857149] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:1:0 37857206] [I] oops sta 0
+
+[6-7 18:1:0 37857216] [I] [page_home] use default home click hook
+
+[6-7 18:1:10 37858169] [I] menu click enter 24
+
+[6-7 18:1:10 37858172] [I] action_hrm_init
+
+[6-7 18:1:10 37858174] [I] XINSHIJIE driver
+
+[6-7 18:1:10 37858191] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:1:12 37858337] [I] [hrm]unweared:483
+
+[6-7 18:1:12 37858394] [I] action_hrm_measure_timeout
+
+[6-7 18:1:12 37858394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:13 37858483] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:18 37858974] [I] oops sta 0
+
+[6-7 18:1:18 37858984] [I] [page_home] use default home click hook
+
+[6-7 18:1:27 37859921] [I] menu click enter 24
+
+[6-7 18:1:28 37859924] [I] action_hrm_init
+
+[6-7 18:1:28 37859927] [I] XINSHIJIE driver
+
+[6-7 18:1:28 37859944] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:1:29 37860089] [I] [hrm]unweared:484
+
+[6-7 18:1:29 37860094] [I] action_hrm_measure_timeout
+
+[6-7 18:1:29 37860094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:31 37860235] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:36 37860725] [I] oops sta 0
+
+[6-7 18:1:36 37860735] [I] [page_home] use default home click hook
+
+[6-7 18:1:45 37861652] [I] menu click enter 24
+
+[6-7 18:1:45 37861655] [I] action_hrm_init
+
+[6-7 18:1:45 37861657] [I] XINSHIJIE driver
+
+[6-7 18:1:45 37861674] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:1:46 37861820] [I] [hrm]unweared:485
+
+[6-7 18:1:47 37861894] [I] action_hrm_measure_timeout
+
+[6-7 18:1:47 37861894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:48 37861966] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:1:52 37862405] [I] oops sta 0
+
+[6-7 18:1:52 37862415] [I] [page_home] use default home click hook
+
+[6-7 18:2:0 37863155] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:2:3 37863448] [I] menu click enter 24
+
+[6-7 18:2:3 37863451] [I] action_hrm_init
+
+[6-7 18:2:3 37863453] [I] XINSHIJIE driver
+
+[6-7 18:2:3 37863470] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:2:4 37863616] [I] [hrm]unweared:486
+
+[6-7 18:2:5 37863694] [I] action_hrm_measure_timeout
+
+[6-7 18:2:5 37863694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:6 37863762] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:11 37864257] [I] oops sta 0
+
+[6-7 18:2:11 37864267] [I] [page_home] use default home click hook
+
+[6-7 18:2:20 37865201] [I] menu click enter 24
+
+[6-7 18:2:20 37865204] [I] action_hrm_init
+
+[6-7 18:2:20 37865206] [I] XINSHIJIE driver
+
+[6-7 18:2:20 37865223] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:2:22 37865369] [I] [hrm]unweared:487
+
+[6-7 18:2:22 37865394] [I] action_hrm_measure_timeout
+
+[6-7 18:2:22 37865394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:24 37865544] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:28 37866008] [I] oops sta 0
+
+[6-7 18:2:28 37866018] [I] [page_home] use default home click hook
+
+[6-7 18:2:38 37867031] [I] menu click enter 24
+
+[6-7 18:2:38 37867034] [I] action_hrm_init
+
+[6-7 18:2:38 37867036] [I] XINSHIJIE driver
+
+[6-7 18:2:39 37867054] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:2:40 37867199] [I] [hrm]unweared:488
+
+[6-7 18:2:41 37867294] [I] action_hrm_measure_timeout
+
+[6-7 18:2:41 37867294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:42 37867345] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:46 37867818] [I] oops sta 0
+
+[6-7 18:2:46 37867828] [I] [page_home] use default home click hook
+
+[6-7 18:2:56 37868759] [I] menu click enter 24
+
+[6-7 18:2:56 37868762] [I] action_hrm_init
+
+[6-7 18:2:56 37868764] [I] XINSHIJIE driver
+
+[6-7 18:2:56 37868781] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:2:57 37868927] [I] [hrm]unweared:489
+
+[6-7 18:2:58 37868994] [I] action_hrm_measure_timeout
+
+[6-7 18:2:58 37868994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:2:59 37869073] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:0 37869171] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:3:3 37869499] [I] oops sta 0
+
+[6-7 18:3:3 37869509] [I] [page_home] use default home click hook
+
+[6-7 18:3:12 37870391] [I] menu click enter 24
+
+[6-7 18:3:12 37870394] [I] action_hrm_init
+
+[6-7 18:3:12 37870396] [I] XINSHIJIE driver
+
+[6-7 18:3:12 37870413] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:3:14 37870559] [I] [hrm]unweared:490
+
+[6-7 18:3:14 37870594] [I] action_hrm_measure_timeout
+
+[6-7 18:3:14 37870594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:15 37870705] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:19 37871142] [I] oops sta 0
+
+[6-7 18:3:20 37871152] [I] [page_home] use default home click hook
+
+[6-7 18:3:29 37872145] [I] menu click enter 24
+
+[6-7 18:3:29 37872148] [I] action_hrm_init
+
+[6-7 18:3:30 37872150] [I] XINSHIJIE driver
+
+[6-7 18:3:30 37872167] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:3:31 37872313] [I] [hrm]unweared:491
+
+[6-7 18:3:32 37872394] [I] action_hrm_measure_timeout
+
+[6-7 18:3:32 37872394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:33 37872459] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:37 37872949] [I] oops sta 0
+
+[6-7 18:3:38 37872959] [I] [page_home] use default home click hook
+
+[6-7 18:3:46 37873839] [I] menu click enter 24
+
+[6-7 18:3:46 37873842] [I] action_hrm_init
+
+[6-7 18:3:46 37873844] [I] XINSHIJIE driver
+
+[6-7 18:3:47 37873861] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:3:48 37874007] [I] [hrm]unweared:492
+
+[6-7 18:3:49 37874094] [I] action_hrm_measure_timeout
+
+[6-7 18:3:49 37874094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:50 37874153] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:3:54 37874589] [I] oops sta 0
+
+[6-7 18:3:54 37874599] [I] [page_home] use default home click hook
+
+[6-7 18:4:0 37875178] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:4:4 37875566] [I] menu click enter 24
+
+[6-7 18:4:4 37875569] [I] action_hrm_init
+
+[6-7 18:4:4 37875572] [I] XINSHIJIE driver
+
+[6-7 18:4:4 37875589] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:4:5 37875734] [I] [hrm]unweared:493
+
+[6-7 18:4:6 37875794] [I] action_hrm_measure_timeout
+
+[6-7 18:4:6 37875794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:7 37875880] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:11 37876316] [I] oops sta 0
+
+[6-7 18:4:11 37876326] [I] [page_home] use default home click hook
+
+[6-7 18:4:20 37877250] [I] menu click enter 24
+
+[6-7 18:4:20 37877253] [I] action_hrm_init
+
+[6-7 18:4:20 37877255] [I] XINSHIJIE driver
+
+[6-7 18:4:21 37877272] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:4:22 37877418] [I] [hrm]unweared:494
+
+[6-7 18:4:23 37877494] [I] action_hrm_measure_timeout
+
+[6-7 18:4:23 37877494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:24 37877564] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:28 37878048] [I] oops sta 0
+
+[6-7 18:4:28 37878058] [I] [page_home] use default home click hook
+
+[6-7 18:4:39 37879063] [I] menu click enter 24
+
+[6-7 18:4:39 37879066] [I] action_hrm_init
+
+[6-7 18:4:39 37879068] [I] XINSHIJIE driver
+
+[6-7 18:4:39 37879085] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:4:40 37879231] [I] [hrm]unweared:495
+
+[6-7 18:4:41 37879294] [I] action_hrm_measure_timeout
+
+[6-7 18:4:41 37879294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:42 37879377] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:47 37879866] [I] oops sta 0
+
+[6-7 18:4:47 37879876] [I] [page_home] use default home click hook
+
+[6-7 18:4:56 37880766] [I] menu click enter 24
+
+[6-7 18:4:56 37880769] [I] action_hrm_init
+
+[6-7 18:4:56 37880771] [I] XINSHIJIE driver
+
+[6-7 18:4:56 37880788] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:4:57 37880934] [I] [hrm]unweared:496
+
+[6-7 18:4:58 37880994] [I] action_hrm_measure_timeout
+
+[6-7 18:4:58 37880994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:4:59 37881080] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:0 37881190] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:5:3 37881514] [I] oops sta 0
+
+[6-7 18:5:3 37881524] [I] [page_home] use default home click hook
+
+[6-7 18:5:12 37882429] [I] menu click enter 24
+
+[6-7 18:5:12 37882432] [I] action_hrm_init
+
+[6-7 18:5:12 37882434] [I] XINSHIJIE driver
+
+[6-7 18:5:12 37882451] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:5:14 37882597] [I] [hrm]unweared:497
+
+[6-7 18:5:15 37882694] [I] action_hrm_measure_timeout
+
+[6-7 18:5:15 37882694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:15 37882743] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:20 37883179] [I] oops sta 0
+
+[6-7 18:5:20 37883189] [I] [page_home] use default home click hook
+
+[6-7 18:5:29 37884144] [I] menu click enter 24
+
+[6-7 18:5:29 37884147] [I] action_hrm_init
+
+[6-7 18:5:29 37884149] [I] XINSHIJIE driver
+
+[6-7 18:5:29 37884166] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:5:31 37884312] [I] [hrm]unweared:498
+
+[6-7 18:5:32 37884394] [I] action_hrm_measure_timeout
+
+[6-7 18:5:32 37884394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:32 37884458] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:38 37884980] [I] oops sta 0
+
+[6-7 18:5:38 37884990] [I] [page_home] use default home click hook
+
+[6-7 18:5:47 37885878] [I] menu click enter 24
+
+[6-7 18:5:47 37885881] [I] action_hrm_init
+
+[6-7 18:5:47 37885884] [I] XINSHIJIE driver
+
+[6-7 18:5:47 37885901] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:5:48 37886046] [I] [hrm]unweared:499
+
+[6-7 18:5:49 37886094] [I] action_hrm_measure_timeout
+
+[6-7 18:5:49 37886094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:50 37886192] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:5:54 37886655] [I] oops sta 0
+
+[6-7 18:5:54 37886665] [I] [page_home] use default home click hook
+
+[6-7 18:6:0 37887201] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:6:4 37887616] [I] menu click enter 24
+
+[6-7 18:6:4 37887619] [I] action_hrm_init
+
+[6-7 18:6:4 37887621] [I] XINSHIJIE driver
+
+[6-7 18:6:4 37887638] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:6:6 37887784] [I] [hrm]unweared:500
+
+[6-7 18:6:6 37887794] [I] action_hrm_measure_timeout
+
+[6-7 18:6:6 37887794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:7 37887930] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:12 37888409] [I] oops sta 0
+
+[6-7 18:6:12 37888419] [I] [page_home] use default home click hook
+
+[6-7 18:6:21 37889339] [I] menu click enter 24
+
+[6-7 18:6:21 37889342] [I] action_hrm_init
+
+[6-7 18:6:21 37889344] [I] XINSHIJIE driver
+
+[6-7 18:6:21 37889361] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:6:23 37889507] [I] [hrm]unweared:501
+
+[6-7 18:6:24 37889594] [I] action_hrm_measure_timeout
+
+[6-7 18:6:24 37889594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:24 37889653] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:29 37890097] [I] oops sta 0
+
+[6-7 18:6:29 37890107] [I] [page_home] use default home click hook
+
+[6-7 18:6:39 37891089] [I] menu click enter 24
+
+[6-7 18:6:39 37891092] [I] action_hrm_init
+
+[6-7 18:6:39 37891094] [I] XINSHIJIE driver
+
+[6-7 18:6:39 37891112] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:6:40 37891257] [I] [hrm]unweared:502
+
+[6-7 18:6:41 37891294] [I] action_hrm_measure_timeout
+
+[6-7 18:6:41 37891294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:42 37891403] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:46 37891841] [I] oops sta 0
+
+[6-7 18:6:46 37891851] [I] [page_home] use default home click hook
+
+[6-7 18:6:56 37892813] [I] menu click enter 24
+
+[6-7 18:6:56 37892816] [I] action_hrm_init
+
+[6-7 18:6:56 37892818] [I] XINSHIJIE driver
+
+[6-7 18:6:56 37892835] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:6:57 37892981] [I] [hrm]unweared:503
+
+[6-7 18:6:58 37892994] [I] action_hrm_measure_timeout
+
+[6-7 18:6:58 37892994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:6:59 37893127] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:0 37893204] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 30001], wrist:1, cal:0, dist:0, a:[1, 0, 172, 603, 106]
+
+[6-7 18:7:0 37893234] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:7:4 37893616] [I] oops sta 0
+
+[6-7 18:7:4 37893626] [I] [page_home] use default home click hook
+
+[6-7 18:7:12 37894477] [I] menu click enter 24
+
+[6-7 18:7:12 37894480] [I] action_hrm_init
+
+[6-7 18:7:12 37894482] [I] XINSHIJIE driver
+
+[6-7 18:7:13 37894499] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:7:14 37894645] [I] [hrm]unweared:504
+
+[6-7 18:7:14 37894694] [I] action_hrm_measure_timeout
+
+[6-7 18:7:14 37894694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:15 37894791] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:20 37895279] [I] oops sta 0
+
+[6-7 18:7:20 37895289] [I] [page_home] use default home click hook
+
+[6-7 18:7:31 37896308] [I] menu click enter 24
+
+[6-7 18:7:31 37896311] [I] action_hrm_init
+
+[6-7 18:7:31 37896313] [I] XINSHIJIE driver
+
+[6-7 18:7:31 37896331] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:7:32 37896476] [I] [hrm]unweared:505
+
+[6-7 18:7:32 37896494] [I] action_hrm_measure_timeout
+
+[6-7 18:7:32 37896494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:34 37896622] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:38 37897061] [I] oops sta 0
+
+[6-7 18:7:38 37897071] [I] [page_home] use default home click hook
+
+[6-7 18:7:47 37897954] [I] menu click enter 24
+
+[6-7 18:7:47 37897957] [I] action_hrm_init
+
+[6-7 18:7:47 37897959] [I] XINSHIJIE driver
+
+[6-7 18:7:47 37897976] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:7:49 37898122] [I] [hrm]unweared:506
+
+[6-7 18:7:49 37898194] [I] action_hrm_measure_timeout
+
+[6-7 18:7:49 37898194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:50 37898268] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:7:55 37898706] [I] oops sta 0
+
+[6-7 18:7:55 37898716] [I] [page_home] use default home click hook
+
+[6-7 18:8:0 37899235] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:8:4 37899634] [I] menu click enter 24
+
+[6-7 18:8:4 37899637] [I] action_hrm_init
+
+[6-7 18:8:4 37899639] [I] XINSHIJIE driver
+
+[6-7 18:8:4 37899656] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:8:5 37899802] [I] [hrm]unweared:507
+
+[6-7 18:8:6 37899894] [I] action_hrm_measure_timeout
+
+[6-7 18:8:6 37899894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:7 37899948] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:12 37900433] [I] oops sta 0
+
+[6-7 18:8:12 37900443] [I] [page_home] use default home click hook
+
+[6-7 18:8:20 37901304] [I] menu click enter 24
+
+[6-7 18:8:20 37901307] [I] action_hrm_init
+
+[6-7 18:8:21 37901309] [I] XINSHIJIE driver
+
+[6-7 18:8:21 37901326] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:8:22 37901472] [I] [hrm]unweared:508
+
+[6-7 18:8:22 37901494] [I] action_hrm_measure_timeout
+
+[6-7 18:8:22 37901494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:24 37901618] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:27 37901972] [I] enter SLP_SUSPECT
+
+[6-7 18:8:29 37902117] [I] oops sta 0
+
+[6-7 18:8:29 37902127] [I] [page_home] use default home click hook
+
+[6-7 18:8:29 37902137] [I] [hrm]unweared:509
+
+[6-7 18:8:31 37902366] [I] [sleep_wake_up] from no weared, mode:0, sleep_now:1, sleep_last:0, sstd:122
+
+[6-7 18:8:39 37903131] [I] menu click enter 24
+
+[6-7 18:8:39 37903134] [I] action_hrm_init
+
+[6-7 18:8:39 37903136] [I] XINSHIJIE driver
+
+[6-7 18:8:39 37903153] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:8:40 37903299] [I] [hrm]unweared:510
+
+[6-7 18:8:41 37903394] [I] action_hrm_measure_timeout
+
+[6-7 18:8:41 37903394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:42 37903445] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:46 37903890] [I] oops sta 0
+
+[6-7 18:8:46 37903900] [I] [page_home] use default home click hook
+
+[6-7 18:8:55 37904754] [I] menu click enter 24
+
+[6-7 18:8:55 37904757] [I] action_hrm_init
+
+[6-7 18:8:55 37904759] [I] XINSHIJIE driver
+
+[6-7 18:8:55 37904776] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:8:57 37904922] [I] [hrm]unweared:511
+
+[6-7 18:8:57 37904994] [I] action_hrm_measure_timeout
+
+[6-7 18:8:57 37904994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:8:58 37905068] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:0 37905257] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:9:2 37905490] [I] oops sta 0
+
+[6-7 18:9:2 37905500] [I] [page_home] use default home click hook
+
+[6-7 18:9:12 37906438] [I] menu click enter 24
+
+[6-7 18:9:12 37906441] [I] action_hrm_init
+
+[6-7 18:9:12 37906443] [I] XINSHIJIE driver
+
+[6-7 18:9:12 37906460] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:9:13 37906606] [I] [hrm]unweared:512
+
+[6-7 18:9:14 37906694] [I] action_hrm_measure_timeout
+
+[6-7 18:9:14 37906694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:15 37906752] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:20 37907245] [I] oops sta 0
+
+[6-7 18:9:20 37907255] [I] [page_home] use default home click hook
+
+[6-7 18:9:29 37908207] [I] menu click enter 24
+
+[6-7 18:9:29 37908210] [I] action_hrm_init
+
+[6-7 18:9:29 37908212] [I] XINSHIJIE driver
+
+[6-7 18:9:30 37908229] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:9:31 37908375] [I] [hrm]unweared:513
+
+[6-7 18:9:31 37908394] [I] action_hrm_measure_timeout
+
+[6-7 18:9:31 37908394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:32 37908521] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:38 37909031] [I] oops sta 0
+
+[6-7 18:9:38 37909041] [I] [page_home] use default home click hook
+
+[6-7 18:9:47 37909952] [I] menu click enter 24
+
+[6-7 18:9:47 37909955] [I] action_hrm_init
+
+[6-7 18:9:47 37909957] [I] XINSHIJIE driver
+
+[6-7 18:9:47 37909974] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:9:48 37910120] [I] [hrm]unweared:514
+
+[6-7 18:9:49 37910194] [I] action_hrm_measure_timeout
+
+[6-7 18:9:49 37910194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:50 37910266] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:9:54 37910703] [I] oops sta 0
+
+[6-7 18:9:54 37910713] [I] [page_home] use default home click hook
+
+[6-7 18:10:0 37911265] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:10:0 37911302] [I] [system_profile_do_update] update succ. timestamp:1275905400 
+
+[6-7 18:10:4 37911651] [I] menu click enter 24
+
+[6-7 18:10:4 37911654] [I] action_hrm_init
+
+[6-7 18:10:4 37911656] [I] XINSHIJIE driver
+
+[6-7 18:10:4 37911673] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:10:6 37911819] [I] [hrm]unweared:515
+
+[6-7 18:10:6 37911894] [I] action_hrm_measure_timeout
+
+[6-7 18:10:6 37911894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:7 37911965] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:12 37912465] [I] oops sta 0
+
+[6-7 18:10:12 37912475] [I] [page_home] use default home click hook
+
+[6-7 18:10:21 37913413] [I] menu click enter 24
+
+[6-7 18:10:21 37913416] [I] action_hrm_init
+
+[6-7 18:10:22 37913419] [I] XINSHIJIE driver
+
+[6-7 18:10:22 37913436] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:10:23 37913581] [I] [hrm]unweared:516
+
+[6-7 18:10:23 37913594] [I] action_hrm_measure_timeout
+
+[6-7 18:10:23 37913594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:25 37913727] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:29 37914159] [I] oops sta 0
+
+[6-7 18:10:29 37914169] [I] [page_home] use default home click hook
+
+[6-7 18:10:39 37915125] [I] menu click enter 24
+
+[6-7 18:10:39 37915128] [I] action_hrm_init
+
+[6-7 18:10:39 37915130] [I] XINSHIJIE driver
+
+[6-7 18:10:39 37915147] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:10:40 37915293] [I] [hrm]unweared:517
+
+[6-7 18:10:40 37915294] [I] action_hrm_measure_timeout
+
+[6-7 18:10:40 37915294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:42 37915439] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:46 37915876] [I] oops sta 0
+
+[6-7 18:10:46 37915886] [I] [page_home] use default home click hook
+
+[6-7 18:10:55 37916726] [I] menu click enter 24
+
+[6-7 18:10:55 37916729] [I] action_hrm_init
+
+[6-7 18:10:55 37916731] [I] XINSHIJIE driver
+
+[6-7 18:10:55 37916748] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:10:56 37916894] [I] [hrm]unweared:518
+
+[6-7 18:10:56 37916894] [I] action_hrm_measure_timeout
+
+[6-7 18:10:56 37916894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:10:58 37917040] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:0 37917302] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:11:2 37917484] [I] oops sta 0
+
+[6-7 18:11:2 37917494] [I] [page_home] use default home click hook
+
+[6-7 18:11:11 37918390] [I] menu click enter 24
+
+[6-7 18:11:11 37918393] [I] action_hrm_init
+
+[6-7 18:11:11 37918395] [I] XINSHIJIE driver
+
+[6-7 18:11:11 37918412] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:11:13 37918558] [I] [hrm]unweared:519
+
+[6-7 18:11:13 37918594] [I] action_hrm_measure_timeout
+
+[6-7 18:11:13 37918594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:14 37918704] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:19 37919187] [I] oops sta 0
+
+[6-7 18:11:19 37919197] [I] [page_home] use default home click hook
+
+[6-7 18:11:29 37920212] [I] menu click enter 24
+
+[6-7 18:11:29 37920215] [I] action_hrm_init
+
+[6-7 18:11:29 37920217] [I] XINSHIJIE driver
+
+[6-7 18:11:30 37920234] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:11:31 37920380] [I] [hrm]unweared:520
+
+[6-7 18:11:31 37920394] [I] action_hrm_measure_timeout
+
+[6-7 18:11:31 37920394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:32 37920526] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:38 37921042] [I] oops sta 0
+
+[6-7 18:11:38 37921052] [I] [page_home] use default home click hook
+
+[6-7 18:11:47 37921954] [I] menu click enter 24
+
+[6-7 18:11:47 37921957] [I] action_hrm_init
+
+[6-7 18:11:47 37921959] [I] XINSHIJIE driver
+
+[6-7 18:11:47 37921976] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:11:48 37922122] [I] [hrm]unweared:521
+
+[6-7 18:11:49 37922194] [I] action_hrm_measure_timeout
+
+[6-7 18:11:49 37922194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:50 37922268] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:11:54 37922702] [I] oops sta 0
+
+[6-7 18:11:54 37922712] [I] [page_home] use default home click hook
+
+[6-7 18:12:0 37923308] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:12:4 37923660] [I] menu click enter 24
+
+[6-7 18:12:4 37923663] [I] action_hrm_init
+
+[6-7 18:12:4 37923666] [I] XINSHIJIE driver
+
+[6-7 18:12:4 37923683] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:12:5 37923828] [I] [hrm]unweared:522
+
+[6-7 18:12:6 37923894] [I] action_hrm_measure_timeout
+
+[6-7 18:12:6 37923894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:7 37923974] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:11 37924399] [I] oops sta 0
+
+[6-7 18:12:11 37924414] [I] [page_home] use default home click hook
+
+[6-7 18:12:21 37925342] [I] menu click enter 24
+
+[6-7 18:12:21 37925345] [I] action_hrm_init
+
+[6-7 18:12:21 37925347] [I] XINSHIJIE driver
+
+[6-7 18:12:21 37925364] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:12:22 37925510] [I] [hrm]unweared:523
+
+[6-7 18:12:23 37925594] [I] action_hrm_measure_timeout
+
+[6-7 18:12:23 37925594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:24 37925656] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:29 37926159] [I] oops sta 0
+
+[6-7 18:12:29 37926169] [I] [page_home] use default home click hook
+
+[6-7 18:12:39 37927149] [I] menu click enter 24
+
+[6-7 18:12:39 37927152] [I] action_hrm_init
+
+[6-7 18:12:39 37927155] [I] XINSHIJIE driver
+
+[6-7 18:12:39 37927172] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:12:40 37927317] [I] [hrm]unweared:524
+
+[6-7 18:12:41 37927394] [I] action_hrm_measure_timeout
+
+[6-7 18:12:41 37927394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:42 37927463] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:46 37927894] [I] oops sta 0
+
+[6-7 18:12:46 37927904] [I] [page_home] use default home click hook
+
+[6-7 18:12:55 37928807] [I] menu click enter 24
+
+[6-7 18:12:55 37928810] [I] action_hrm_init
+
+[6-7 18:12:55 37928812] [I] XINSHIJIE driver
+
+[6-7 18:12:55 37928829] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:12:57 37928975] [I] [hrm]unweared:525
+
+[6-7 18:12:57 37928994] [I] action_hrm_measure_timeout
+
+[6-7 18:12:57 37928994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:12:58 37929121] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:0 37929319] [I] ram:[24384, 835224], b:77, s:0
+
+[6-7 18:13:3 37929613] [I] oops sta 0
+
+[6-7 18:13:3 37929624] [I] [page_home] use default home click hook
+
+[6-7 18:13:12 37930552] [I] menu click enter 24
+
+[6-7 18:13:13 37930555] [I] action_hrm_init
+
+[6-7 18:13:13 37930557] [I] XINSHIJIE driver
+
+[6-7 18:13:13 37930574] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:13:14 37930720] [I] [hrm]unweared:526
+
+[6-7 18:13:15 37930794] [I] action_hrm_measure_timeout
+
+[6-7 18:13:15 37930794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:16 37930866] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:21 37931371] [I] oops sta 0
+
+[6-7 18:13:21 37931381] [I] [page_home] use default home click hook
+
+[6-7 18:13:30 37932353] [I] menu click enter 24
+
+[6-7 18:13:30 37932356] [I] action_hrm_init
+
+[6-7 18:13:31 37932358] [I] XINSHIJIE driver
+
+[6-7 18:13:31 37932375] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:13:32 37932521] [I] [hrm]unweared:527
+
+[6-7 18:13:33 37932594] [I] action_hrm_measure_timeout
+
+[6-7 18:13:33 37932594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:34 37932667] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:38 37933155] [I] oops sta 0
+
+[6-7 18:13:39 37933165] [I] [page_home] use default home click hook
+
+[6-7 18:13:49 37934200] [I] menu click enter 24
+
+[6-7 18:13:49 37934203] [I] action_hrm_init
+
+[6-7 18:13:49 37934206] [I] XINSHIJIE driver
+
+[6-7 18:13:49 37934223] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:13:51 37934368] [I] [hrm]unweared:528
+
+[6-7 18:13:51 37934394] [I] action_hrm_measure_timeout
+
+[6-7 18:13:51 37934394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:52 37934514] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:13:56 37934945] [I] oops sta 0
+
+[6-7 18:13:56 37934955] [I] [page_home] use default home click hook
+
+[6-7 18:14:0 37935321] [I] ram:[24444, 840476], b:77, s:0
+
+[6-7 18:14:6 37935884] [I] menu click enter 24
+
+[6-7 18:14:6 37935887] [I] action_hrm_init
+
+[6-7 18:14:6 37935890] [I] XINSHIJIE driver
+
+[6-7 18:14:6 37935907] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:14:7 37936052] [I] [hrm]unweared:529
+
+[6-7 18:14:8 37936094] [I] action_hrm_measure_timeout
+
+[6-7 18:14:8 37936094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:9 37936198] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:13 37936584] [I] [ss_batt_do_sample] percent:76%, volt_mv:4080mv
+
+[6-7 18:14:13 37936599] [I] [system_profile_do_update] update succ. timestamp:1275905653 
+
+[6-7 18:14:14 37936685] [I] oops sta 0
+
+[6-7 18:14:14 37936695] [I] [page_home] use default home click hook
+
+[6-7 18:14:23 37937589] [I] menu click enter 24
+
+[6-7 18:14:23 37937592] [I] action_hrm_init
+
+[6-7 18:14:23 37937594] [I] XINSHIJIE driver
+
+[6-7 18:14:23 37937611] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:14:25 37937757] [I] [hrm]unweared:530
+
+[6-7 18:14:25 37937794] [I] action_hrm_measure_timeout
+
+[6-7 18:14:25 37937794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:26 37937903] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:31 37938391] [I] oops sta 0
+
+[6-7 18:14:31 37938401] [I] [page_home] use default home click hook
+
+[6-7 18:14:40 37939351] [I] menu click enter 24
+
+[6-7 18:14:40 37939354] [I] action_hrm_init
+
+[6-7 18:14:41 37939357] [I] XINSHIJIE driver
+
+[6-7 18:14:41 37939374] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:14:42 37939519] [I] [hrm]unweared:531
+
+[6-7 18:14:43 37939594] [I] action_hrm_measure_timeout
+
+[6-7 18:14:43 37939594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:44 37939665] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:14:48 37940156] [I] oops sta 0
+
+[6-7 18:14:49 37940166] [I] [page_home] use default home click hook
+
+[6-7 18:14:57 37941053] [I] menu click enter 24
+
+[6-7 18:14:57 37941056] [I] action_hrm_init
+
+[6-7 18:14:57 37941058] [I] XINSHIJIE driver
+
+[6-7 18:14:58 37941075] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:14:59 37941221] [I] [hrm]unweared:532
+
+[6-7 18:15:0 37941294] [I] action_hrm_measure_timeout
+
+[6-7 18:15:0 37941294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:0 37941331] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:15:1 37941367] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:6 37941892] [I] oops sta 0
+
+[6-7 18:15:6 37941902] [I] [page_home] use default home click hook
+
+[6-7 18:15:15 37942861] [I] menu click enter 24
+
+[6-7 18:15:16 37942864] [I] action_hrm_init
+
+[6-7 18:15:16 37942866] [I] XINSHIJIE driver
+
+[6-7 18:15:16 37942884] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:15:17 37943029] [I] [hrm]unweared:533
+
+[6-7 18:15:18 37943094] [I] action_hrm_measure_timeout
+
+[6-7 18:15:18 37943094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:19 37943175] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:24 37943672] [I] oops sta 0
+
+[6-7 18:15:24 37943682] [I] [page_home] use default home click hook
+
+[6-7 18:15:34 37944704] [I] menu click enter 24
+
+[6-7 18:15:34 37944707] [I] action_hrm_init
+
+[6-7 18:15:34 37944709] [I] XINSHIJIE driver
+
+[6-7 18:15:34 37944726] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:15:36 37944872] [I] [hrm]unweared:534
+
+[6-7 18:15:36 37944894] [I] action_hrm_measure_timeout
+
+[6-7 18:15:36 37944894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:37 37945018] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:41 37945442] [I] oops sta 0
+
+[6-7 18:15:41 37945452] [I] [page_home] use default home click hook
+
+[6-7 18:15:51 37946381] [I] menu click enter 24
+
+[6-7 18:15:51 37946384] [I] action_hrm_init
+
+[6-7 18:15:51 37946386] [I] XINSHIJIE driver
+
+[6-7 18:15:51 37946403] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:15:52 37946549] [I] [hrm]unweared:535
+
+[6-7 18:15:53 37946594] [I] action_hrm_measure_timeout
+
+[6-7 18:15:53 37946594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:54 37946695] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:15:58 37947135] [I] oops sta 0
+
+[6-7 18:15:58 37947145] [I] [page_home] use default home click hook
+
+[6-7 18:16:0 37947331] [I] ram:[24276, 839404], b:76, s:0
+
+[6-7 18:16:8 37948105] [I] menu click enter 24
+
+[6-7 18:16:8 37948108] [I] action_hrm_init
+
+[6-7 18:16:8 37948111] [I] XINSHIJIE driver
+
+[6-7 18:16:8 37948128] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:16:9 37948273] [I] [hrm]unweared:536
+
+[6-7 18:16:10 37948294] [I] action_hrm_measure_timeout
+
+[6-7 18:16:10 37948294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:11 37948419] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:15 37948852] [I] oops sta 0
+
+[6-7 18:16:15 37948862] [I] [page_home] use default home click hook
+
+[6-7 18:16:24 37949771] [I] menu click enter 24
+
+[6-7 18:16:24 37949774] [I] action_hrm_init
+
+[6-7 18:16:24 37949776] [I] XINSHIJIE driver
+
+[6-7 18:16:25 37949793] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:16:26 37949939] [I] [hrm]unweared:537
+
+[6-7 18:16:27 37949994] [I] action_hrm_measure_timeout
+
+[6-7 18:16:27 37949994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:28 37950085] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:33 37950597] [I] oops sta 0
+
+[6-7 18:16:33 37950607] [I] [page_home] use default home click hook
+
+[6-7 18:16:43 37951608] [I] menu click enter 24
+
+[6-7 18:16:43 37951611] [I] action_hrm_init
+
+[6-7 18:16:43 37951613] [I] XINSHIJIE driver
+
+[6-7 18:16:43 37951631] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:16:44 37951776] [I] [hrm]unweared:538
+
+[6-7 18:16:45 37951794] [I] action_hrm_measure_timeout
+
+[6-7 18:16:45 37951794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:46 37951922] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:16:51 37952413] [I] oops sta 0
+
+[6-7 18:16:51 37952423] [I] [page_home] use default home click hook
+
+[6-7 18:17:0 37953304] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 40001], wrist:1, cal:0, dist:0, a:[0, 0, 172, 159, 108]
+
+[6-7 18:17:0 37953332] [I] menu click enter 24
+
+[6-7 18:17:0 37953335] [I] action_hrm_init
+
+[6-7 18:17:0 37953337] [I] XINSHIJIE driver
+
+[6-7 18:17:0 37953352] [I] ram:[24324, 834444], b:76, s:0
+
+[6-7 18:17:0 37953354] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:17:2 37953500] [I] [hrm]unweared:539
+
+[6-7 18:17:3 37953594] [I] action_hrm_measure_timeout
+
+[6-7 18:17:3 37953594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:3 37953646] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:8 37954140] [I] oops sta 0
+
+[6-7 18:17:8 37954150] [I] [page_home] use default home click hook
+
+[6-7 18:17:17 37955067] [I] menu click enter 24
+
+[6-7 18:17:17 37955070] [I] action_hrm_init
+
+[6-7 18:17:17 37955072] [I] XINSHIJIE driver
+
+[6-7 18:17:18 37955089] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:17:19 37955235] [I] [hrm]unweared:540
+
+[6-7 18:17:20 37955294] [I] action_hrm_measure_timeout
+
+[6-7 18:17:20 37955294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:20 37955381] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:25 37955825] [I] oops sta 0
+
+[6-7 18:17:25 37955835] [I] [page_home] use default home click hook
+
+[6-7 18:17:34 37956764] [I] menu click enter 24
+
+[6-7 18:17:34 37956767] [I] action_hrm_init
+
+[6-7 18:17:34 37956769] [I] XINSHIJIE driver
+
+[6-7 18:17:34 37956786] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:17:36 37956932] [I] [hrm]unweared:541
+
+[6-7 18:17:37 37956994] [I] action_hrm_measure_timeout
+
+[6-7 18:17:37 37956994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:37 37957078] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:43 37957653] [I] oops sta 0
+
+[6-7 18:17:43 37957663] [I] [page_home] use default home click hook
+
+[6-7 18:17:52 37958535] [I] menu click enter 24
+
+[6-7 18:17:52 37958538] [I] action_hrm_init
+
+[6-7 18:17:52 37958540] [I] XINSHIJIE driver
+
+[6-7 18:17:52 37958557] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:17:54 37958703] [I] [hrm]unweared:542
+
+[6-7 18:17:54 37958794] [I] action_hrm_measure_timeout
+
+[6-7 18:17:54 37958794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:17:55 37958849] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:0 37959355] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:18:0 37959388] [I] oops sta 0
+
+[6-7 18:18:1 37959398] [I] [page_home] use default home click hook
+
+[6-7 18:18:10 37960324] [I] menu click enter 24
+
+[6-7 18:18:10 37960327] [I] action_hrm_init
+
+[6-7 18:18:10 37960329] [I] XINSHIJIE driver
+
+[6-7 18:18:10 37960346] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:18:11 37960492] [I] [hrm]unweared:543
+
+[6-7 18:18:11 37960494] [I] action_hrm_measure_timeout
+
+[6-7 18:18:11 37960494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:13 37960638] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:17 37961067] [I] oops sta 0
+
+[6-7 18:18:17 37961077] [I] [page_home] use default home click hook
+
+[6-7 18:18:27 37962067] [I] menu click enter 24
+
+[6-7 18:18:27 37962070] [I] action_hrm_init
+
+[6-7 18:18:27 37962072] [I] XINSHIJIE driver
+
+[6-7 18:18:27 37962090] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:18:29 37962235] [I] [hrm]unweared:544
+
+[6-7 18:18:29 37962294] [I] action_hrm_measure_timeout
+
+[6-7 18:18:29 37962294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:30 37962381] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:35 37962813] [I] oops sta 0
+
+[6-7 18:18:35 37962823] [I] [page_home] use default home click hook
+
+[6-7 18:18:44 37963790] [I] menu click enter 24
+
+[6-7 18:18:44 37963793] [I] action_hrm_init
+
+[6-7 18:18:44 37963795] [I] XINSHIJIE driver
+
+[6-7 18:18:45 37963812] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:18:46 37963958] [I] [hrm]unweared:545
+
+[6-7 18:18:46 37963994] [I] action_hrm_measure_timeout
+
+[6-7 18:18:46 37963994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:47 37964104] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:18:52 37964601] [I] oops sta 0
+
+[6-7 18:18:53 37964611] [I] [page_home] use default home click hook
+
+[6-7 18:19:0 37965356] [I] ram:[24444, 840044], b:76, s:0
+
+[6-7 18:19:2 37965552] [I] menu click enter 24
+
+[6-7 18:19:2 37965555] [I] action_hrm_init
+
+[6-7 18:19:2 37965557] [I] XINSHIJIE driver
+
+[6-7 18:19:2 37965574] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:19:4 37965720] [I] [hrm]unweared:546
+
+[6-7 18:19:4 37965794] [I] action_hrm_measure_timeout
+
+[6-7 18:19:4 37965794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:5 37965866] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:9 37966290] [I] oops sta 0
+
+[6-7 18:19:9 37966300] [I] [page_home] use default home click hook
+
+[6-7 18:19:19 37967232] [I] menu click enter 24
+
+[6-7 18:19:19 37967235] [I] action_hrm_init
+
+[6-7 18:19:19 37967237] [I] XINSHIJIE driver
+
+[6-7 18:19:19 37967254] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:19:20 37967400] [I] [hrm]unweared:547
+
+[6-7 18:19:21 37967494] [I] action_hrm_measure_timeout
+
+[6-7 18:19:21 37967494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:22 37967546] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:28 37968121] [I] oops sta 0
+
+[6-7 18:19:28 37968131] [I] [page_home] use default home click hook
+
+[6-7 18:19:37 37969098] [I] menu click enter 24
+
+[6-7 18:19:37 37969101] [I] action_hrm_init
+
+[6-7 18:19:37 37969103] [I] XINSHIJIE driver
+
+[6-7 18:19:37 37969116] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:19:39 37969284] [I] [hrm]unweared:548
+
+[6-7 18:19:39 37969294] [I] action_hrm_measure_timeout
+
+[6-7 18:19:39 37969294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:40 37969412] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:45 37969897] [I] oops sta 0
+
+[6-7 18:19:45 37969907] [I] [page_home] use default home click hook
+
+[6-7 18:19:54 37970792] [I] menu click enter 24
+
+[6-7 18:19:54 37970795] [I] action_hrm_init
+
+[6-7 18:19:54 37970798] [I] XINSHIJIE driver
+
+[6-7 18:19:54 37970815] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:19:56 37970960] [I] [hrm]unweared:549
+
+[6-7 18:19:56 37970994] [I] action_hrm_measure_timeout
+
+[6-7 18:19:56 37970994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:19:57 37971106] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:0 37971372] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:20:2 37971537] [I] oops sta 0
+
+[6-7 18:20:2 37971547] [I] [page_home] use default home click hook
+
+[6-7 18:20:11 37972471] [I] menu click enter 24
+
+[6-7 18:20:11 37972474] [I] action_hrm_init
+
+[6-7 18:20:11 37972476] [I] XINSHIJIE driver
+
+[6-7 18:20:11 37972493] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:20:13 37972639] [I] [hrm]unweared:550
+
+[6-7 18:20:13 37972694] [I] action_hrm_measure_timeout
+
+[6-7 18:20:13 37972694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:14 37972785] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:18 37973214] [I] oops sta 0
+
+[6-7 18:20:18 37973224] [I] [page_home] use default home click hook
+
+[6-7 18:20:28 37974210] [I] menu click enter 24
+
+[6-7 18:20:28 37974213] [I] action_hrm_init
+
+[6-7 18:20:28 37974215] [I] XINSHIJIE driver
+
+[6-7 18:20:29 37974232] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:20:30 37974378] [I] [hrm]unweared:551
+
+[6-7 18:20:30 37974394] [I] action_hrm_measure_timeout
+
+[6-7 18:20:30 37974394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:31 37974524] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:36 37974964] [I] oops sta 0
+
+[6-7 18:20:36 37974974] [I] [page_home] use default home click hook
+
+[6-7 18:20:45 37975880] [I] menu click enter 24
+
+[6-7 18:20:45 37975883] [I] action_hrm_init
+
+[6-7 18:20:45 37975886] [I] XINSHIJIE driver
+
+[6-7 18:20:45 37975903] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:20:47 37976048] [I] [hrm]unweared:552
+
+[6-7 18:20:47 37976094] [I] action_hrm_measure_timeout
+
+[6-7 18:20:47 37976094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:48 37976194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:20:53 37976681] [I] oops sta 0
+
+[6-7 18:20:53 37976691] [I] [page_home] use default home click hook
+
+[6-7 18:21:0 37977378] [I] ram:[24444, 840044], b:76, s:0
+
+[6-7 18:21:2 37977609] [I] menu click enter 24
+
+[6-7 18:21:2 37977612] [I] action_hrm_init
+
+[6-7 18:21:2 37977614] [I] XINSHIJIE driver
+
+[6-7 18:21:2 37977631] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:21:4 37977777] [I] [hrm]unweared:553
+
+[6-7 18:21:4 37977794] [I] action_hrm_measure_timeout
+
+[6-7 18:21:4 37977794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:5 37977923] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:10 37978409] [I] oops sta 0
+
+[6-7 18:21:10 37978419] [I] [page_home] use default home click hook
+
+[6-7 18:21:19 37979309] [I] menu click enter 24
+
+[6-7 18:21:19 37979312] [I] action_hrm_init
+
+[6-7 18:21:19 37979314] [I] XINSHIJIE driver
+
+[6-7 18:21:19 37979331] [I]] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:21:21 37979477] [I] [hrm]unweared:554
+
+[6-7 18:21:21 37979494] [I] action_hrm_measure_timeout
+
+[6-7 18:21:21 37979494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:22 37979623] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:27 37980129] [I] oops sta 0
+
+[6-7 18:21:27 37980139] [I] [page_home] use default home click hook
+
+[6-7 18:21:37 37981099] [I] menu click enter 24
+
+[6-7 18:21:37 37981102] [I] action_hrm_init
+
+[6-7 18:21:37 37981104] [I] XINSHIJIE driver
+
+[6-7 18:21:37 37981121] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:21:39 37981267] [I] [hrm]unweared:555
+
+[6-7 18:21:39 37981294] [I] action_hrm_measure_timeout
+
+[6-7 18:21:39 37981294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:40 37981413] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:45 37981906] [I] oops sta 0
+
+[6-7 18:21:45 37981916] [I] [page_home] use default home click hook
+
+[6-7 18:21:54 37982830] [I] menu click enter 24
+
+[6-7 18:21:54 37982833] [I] action_hrm_init
+
+[6-7 18:21:54 37982835] [I] XINSHIJIE driver
+
+[6-7 18:21:55 37982852] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:21:56 37982998] [I] [hrm]unweared:556
+
+[6-7 18:21:57 37983094] [I] action_hrm_measure_timeout
+
+[6-7 18:21:57 37983094] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:21:57 37983144] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:0 37983402] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:22:2 37983582] [I] oops sta 0
+
+[6-7 18:22:2 37983592] [I] [page_home] use default home click hook
+
+[6-7 18:22:11 37984524] [I] menu click enter 24
+
+[6-7 18:22:11 37984527] [I] action_hrm_init
+
+[6-7 18:22:11 37984529] [I] XINSHIJIE driver
+
+[6-7 18:22:11 37984546] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:22:13 37984692] [I] [hrm]unweared:557
+
+[6-7 18:22:13 37984694] [I] action_hrm_measure_timeout
+
+[6-7 18:22:13 37984694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:14 37984838] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:19 37985268] [I] oops sta 0
+
+[6-7 18:22:19 37985278] [I] [page_home] use default home click hook
+
+[6-7 18:22:29 37986275] [I] menu click enter 24
+
+[6-7 18:22:29 37986278] [I] action_hrm_init
+
+[6-7 18:22:29 37986280] [I] XINSHIJIE driver
+
+[6-7 18:22:29 37986298] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:22:30 37986443] [I] [hrm]unweared:558
+
+[6-7 18:22:31 37986494] [I] action_hrm_measure_timeout
+
+[6-7 18:22:31 37986494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:32 37986589] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:37 37987111] [I] oops sta 0
+
+[6-7 18:22:37 37987121] [I] [page_home] use default home click hook
+
+[6-7 18:22:46 37988007] [I] menu click enter 24
+
+[6-7 18:22:46 37988010] [I] action_hrm_init
+
+[6-7 18:22:46 37988012] [I] XINSHIJIE driver
+
+[6-7 18:22:46 37988029] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:22:48 37988175] [I] [hrm]unweared:559
+
+[6-7 18:22:48 37988194] [I] action_hrm_measure_timeout
+
+[6-7 18:22:48 37988194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:49 37988321] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:22:53 37988757] [I] oops sta 0
+
+[6-7 18:22:54 37988767] [I] [page_home] use default home click hook
+
+[6-7 18:23:0 37989403] [I] ram:[24444, 840044], b:76, s:0
+
+[6-7 18:23:3 37989758] [I] menu click enter 24
+
+[6-7 18:23:4 37989761] [I] action_hrm_init
+
+[6-7 18:23:4 37989763] [I] XINSHIJIE driver
+
+[6-7 18:23:4 37989780] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:23:5 37989926] [I] [hrm]unweared:560
+
+[6-7 18:23:6 37989994] [I] action_hrm_measure_timeout
+
+[6-7 18:23:6 37989994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:7 37990072] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:11 37990519] [I] oops sta 0
+
+[6-7 18:23:11 37990529] [I] [page_home] use default home click hook
+
+[6-7 18:23:20 37991393] [I] menu click enter 24
+
+[6-7 18:23:20 37991396] [I] action_hrm_init
+
+[6-7 18:23:20 37991398] [I] XINSHIJIE driver
+
+[6-7 18:23:20 37991415] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:23:21 37991561] [I] [hrm]unweared:561
+
+[6-7 18:23:22 37991594] [I] action_hrm_measure_timeout
+
+[6-7 18:23:22 37991594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:23 37991707] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:28 37992186] [I] oops sta 0
+
+[6-7 18:23:28 37992196] [I] [page_home] use default home click hook
+
+[6-7 18:23:38 37993194] [I] menu click enter 24
+
+[6-7 18:23:38 37993197] [I] action_hrm_init
+
+[6-7 18:23:38 37993199] [I] XINSHIJIE driver
+
+[6-7 18:23:38 37993216] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:23:39 37993362] [I] [hrm]unweared:562
+
+[6-7 18:23:40 37993394] [I] action_hrm_measure_timeout
+
+[6-7 18:23:40 37993394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:41 37993508] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:46 37994009] [I] oops sta 0
+
+[6-7 18:23:46 37994019] [I] [page_home] use default home click hook
+
+[6-7 18:23:56 37994999] [I] menu click enter 24
+
+[6-7 18:23:56 37995002] [I] action_hrm_init
+
+[6-7 18:23:56 37995004] [I] XINSHIJIE driver
+
+[6-7 18:23:56 37995021] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:23:57 37995167] [I] [hrm]unweared:563
+
+[6-7 18:23:58 37995194] [I] action_hrm_measure_timeout
+
+[6-7 18:23:58 37995194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:23:59 37995313] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:0 37995419] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:24:3 37995756] [I] oops sta 0
+
+[6-7 18:24:3 37995766] [I] [page_home] use default home click hook
+
+[6-7 18:24:12 37996633] [I] menu click enter 24
+
+[6-7 18:24:12 37996636] [I] action_hrm_init
+
+[6-7 18:24:12 37996638] [I] XINSHIJIE driver
+
+[6-7 18:24:12 37996655] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:24:14 37996801] [I] [hrm]unweared:564
+
+[6-7 18:24:15 37996894] [I] action_hrm_measure_timeout
+
+[6-7 18:24:15 37996894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:15 37996947] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:20 37997425] [I] oops sta 0
+
+[6-7 18:24:20 37997435] [I] [page_home] use default home click hook
+
+[6-7 18:24:30 37998438] [I] menu click enter 24
+
+[6-7 18:24:30 37998441] [I] action_hrm_init
+
+[6-7 18:24:30 37998444] [I] XINSHIJIE driver
+
+[6-7 18:24:30 37998461] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:24:32 37998606] [I] [hrm]unweared:565
+
+[6-7 18:24:33 37998694] [I] action_hrm_measure_timeout
+
+[6-7 18:24:33 37998694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:33 37998752] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:38 37999242] [I] oops sta 0
+
+[6-7 18:24:38 37999252] [I] [page_home] use default home click hook
+
+[6-7 18:24:47 38000152] [I] menu click enter 24
+
+[6-7 18:24:47 38000155] [I] action_hrm_init
+
+[6-7 18:24:47 38000157] [I] XINSHIJIE driver
+
+[6-7 18:24:47 38000174] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:24:49 38000320] [I] [hrm]unweared:566
+
+[6-7 18:24:50 38000394] [I] action_hrm_measure_timeout
+
+[6-7 18:24:50 38000394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:50 38000466] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:24:55 38000903] [I] oops sta 0
+
+[6-7 18:24:55 38000913] [I] [page_home] use default home click hook
+
+[6-7 18:25:0 38001425] [I] ram:[24444, 840044], b:76, s:0
+
+[6-7 18:25:4 38001806] [I] menu click enter 24
+
+[6-7 18:25:4 38001809] [I] action_hrm_init
+
+[6-7 18:25:4 38001811] [I] XINSHIJIE driver
+
+[6-7 18:25:4 38001828] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:25:5 38001974] [I] [hrm]unweared:567
+
+[6-7 18:25:6 38001994] [I] action_hrm_measure_timeout
+
+[6-7 18:25:6 38001994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:7 38002120] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:11 38002553] [I] oops sta 0
+
+[6-7 18:25:11 38002563] [I] [page_home] use default home click hook
+
+[6-7 18:25:20 38003453] [I] menu click enter 24
+
+[6-7 18:25:20 38003456] [I] action_hrm_init
+
+[6-7 18:25:20 38003458] [I] XINSHIJIE driver
+
+[6-7 18:25:20 38003475] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:25:22 38003621] [I] [hrm]unweared:568
+
+[6-7 18:25:23 38003694] [I] action_hrm_measure_timeout
+
+[6-7 18:25:23 38003694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:23 38003767] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:28 38004257] [I] oops sta 0
+
+[6-7 18:25:28 38004267] [I] [page_home] use default home click hook
+
+[6-7 18:25:39 38005321] [I] menu click enter 24
+
+[6-7 18:25:39 38005324] [I] action_hrm_init
+
+[6-7 18:25:39 38005327] [I] XINSHIJIE driver
+
+[6-7 18:25:39 38005344] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:25:40 38005489] [I] [hrm]unweared:569
+
+[6-7 18:25:41 38005494] [I] action_hrm_measure_timeout
+
+[6-7 18:25:41 38005494] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:42 38005635] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:47 38006120] [I] oops sta 0
+
+[6-7 18:25:47 38006130] [I] [page_home] use default home click hook
+
+[6-7 18:25:56 38007044] [I] menu click enter 24
+
+[6-7 18:25:56 38007047] [I] action_hrm_init
+
+[6-7 18:25:56 38007049] [I] XINSHIJIE driver
+
+[6-7 18:25:56 38007066] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:25:58 38007212] [I] [hrm]unweared:570
+
+[6-7 18:25:58 38007294] [I] action_hrm_measure_timeout
+
+[6-7 18:25:58 38007294] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:25:59 38007358] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:0 38007442] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:26:3 38007787] [I] oops sta 0
+
+[6-7 18:26:3 38007797] [I] [page_home] use default home click hook
+
+[6-7 18:26:12 38008681] [I] menu click enter 24
+
+[6-7 18:26:12 38008684] [I] action_hrm_init
+
+[6-7 18:26:12 38008686] [I] XINSHIJIE driver
+
+[6-7 18:26:13 38008703] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:26:14 38008849] [I] [hrm]unweared:571
+
+[6-7 18:26:14 38008894] [I] action_hrm_measure_timeout
+
+[6-7 18:26:14 38008894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:15 38008995] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:20 38009478] [I] oops sta 0
+
+[6-7 18:26:20 38009488] [I] [page_home] use default home click hook
+
+[6-7 18:26:30 38010486] [I] menu click enter 24
+
+[6-7 18:26:30 38010489] [I] action_hrm_init
+
+[6-7 18:26:30 38010492] [I] XINSHIJIE driver
+
+[6-7 18:26:31 38010509] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:26:32 38010654] [I] [hrm]unweared:572
+
+[6-7 18:26:32 38010694] [I] action_hrm_measure_timeout
+
+[6-7 18:26:32 38010694] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:33 38010800] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:38 38011240] [I] oops sta 0
+
+[6-7 18:26:38 38011250] [I] [page_home] use default home click hook
+
+[6-7 18:26:47 38012155] [I] menu click enter 24
+
+[6-7 18:26:47 38012158] [I] action_hrm_init
+
+[6-7 18:26:47 38012160] [I] XINSHIJIE driver
+
+[6-7 18:26:47 38012177] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:26:49 38012323] [I] [hrm]unweared:573
+
+[6-7 18:26:49 38012394] [I] action_hrm_measure_timeout
+
+[6-7 18:26:49 38012394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:50 38012469] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:26:54 38012901] [I] oops sta 0
+
+[6-7 18:26:55 38012911] [I] [page_home] use default home click hook
+
+[6-7 18:27:0 38013443] [I] ram:[24444, 840044], b:76, s:0
+
+[6-7 18:27:0 38013504] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 40001], wrist:1, cal:0, dist:0, a:[0, 0, 172, 167, 107]
+
+[6-7 18:27:5 38013938] [I] menu click enter 24
+
+[6-7 18:27:5 38013941] [I] action_hrm_init
+
+[6-7 18:27:5 38013943] [I] XINSHIJIE driver
+
+[6-7 18:27:5 38013960] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:27:6 38014106] [I] [hrm]unweared:574
+
+[6-7 18:27:7 38014194] [I] action_hrm_measure_timeout
+
+[6-7 18:27:7 38014194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:8 38014252] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:13 38014753] [I] oops sta 0
+
+[6-7 18:27:13 38014763] [I] [page_home] use default home click hook
+
+[6-7 18:27:22 38015672] [I] menu click enter 24
+
+[6-7 18:27:22 38015675] [I] action_hrm_init
+
+[6-7 18:27:22 38015677] [I] XINSHIJIE driver
+
+[6-7 18:27:22 38015694] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:27:24 38015840] [I] [hrm]unweared:575
+
+[6-7 18:27:24 38015894] [I] action_hrm_measure_timeout
+
+[6-7 18:27:24 38015894] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:25 38015986] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:30 38016422] [I] oops sta 0
+
+[6-7 18:27:30 38016432] [I] [page_home] use default home click hook
+
+[6-7 18:27:39 38017414] [I] menu click enter 24
+
+[6-7 18:27:40 38017417] [I] action_hrm_init
+
+[6-7 18:27:40 38017420] [I] XINSHIJIE driver
+
+[6-7 18:27:40 38017437] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:27:41 38017582] [I] [hrm]unweared:576
+
+[6-7 18:27:41 38017594] [I] action_hrm_measure_timeout
+
+[6-7 18:27:41 38017594] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:43 38017728] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:27:48 38018225] [I] oops sta 0
+
+[6-7 18:27:48 38018235] [I] [page_home] use default home click hook
+
+[6-7 18:27:57 38019142] [I] menu click enter 24
+
+[6-7 18:27:57 38019145] [I] action_hrm_init
+
+[6-7 18:27:57 38019147] [I] XINSHIJIE driver
+
+[6-7 18:27:57 38019164] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:27:58 38019310] [I] [hrm]unweared:577
+
+[6-7 18:27:59 38019394] [I] action_hrm_measure_timeout
+
+[6-7 18:27:59 38019394] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:0 38019456] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:0 38019463] [I] ram:[24384, 834796], b:76, s:0
+
+[6-7 18:28:6 38020044] [I] oops sta 0
+
+[6-7 18:28:6 38020054] [I] [page_home] use default home click hook
+
+[6-7 18:28:15 38020964] [I] menu click enter 24
+
+[6-7 18:28:15 38020967] [I] action_hrm_init
+
+[6-7 18:28:15 38020969] [I] XINSHIJIE driver
+
+[6-7 18:28:15 38020986] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:28:17 38021132] [I] [hrm]unweared:578
+
+[6-7 18:28:17 38021194] [I] action_hrm_measure_timeout
+
+[6-7 18:28:17 38021194] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:18 38021278] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:23 38021738] [I] oops sta 0
+
+[6-7 18:28:23 38021748] [I] [page_home] use default home click hook
+
+[6-7 18:28:33 38022800] [I] menu click enter 24
+
+[6-7 18:28:33 38022803] [I] action_hrm_init
+
+[6-7 18:28:33 38022805] [I] XINSHIJIE driver
+
+[6-7 18:28:33 38022822] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:28:35 38022968] [I] [hrm]unweared:579
+
+[6-7 18:28:35 38022994] [I] action_hrm_measure_timeout
+
+[6-7 18:28:35 38022994] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:36 38023114] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:41 38023604] [I] oops sta 0
+
+[6-7 18:28:41 38023614] [I] [page_home] use default home click hook
+
+[6-7 18:28:50 38024529] [I] menu click enter 24
+
+[6-7 18:28:51 38024532] [I] action_hrm_init
+
+[6-7 18:28:51 38024534] [I] XINSHIJIE driver
+
+[6-7 18:28:51 38024551] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:28:52 38024697] [I] [hrm]unweared:580
+
+[6-7 18:28:53 38024794] [I] action_hrm_measure_timeout
+
+[6-7 18:28:53 38024794] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:54 38024843] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[6-7 18:28:58 38025325] [I] oops sta 0
+
+[6-7 18:28:59 38025335] [I] [page_home] use default home click hook
+
+[6-7 18:29:0 38025463] [I] [wrkt] drink drink
+
+[6-7 18:29:0 38025463] [I] ignore remind 0
+
+[6-7 18:29:0 38025463] [I] ram:[24324, 840044], b:76, s:0
+
+[6-7 18:29:1 0] [I] HEYOS build/* Sep 19 2021 *\ 
+
+[6-7 18:29:1 0] [I] check:683, sum:683, pass:1
+
+[6-7 18:29:1 0] [I] SW Power-On reset or AIRCR reset!
+
+[6-7 18:29:1 0] [I] [no_init] abnormal reset
+
+[6-7 18:29:1 0] [I] soft_reset:1, sHalResetStatus:0x8
+
+[6-7 18:29:1 0] [I] [no_init] rebootTimes:2, last_sync_utc:1546300800, step:0, calorie:0, distance:0
+
+[6-7 18:29:3 200] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+
+[6-7 18:29:3 202] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+
+[6-7 18:29:3 202] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+
+[6-7 18:29:3 202] [I] [charger] Before NTC_DISABLE REG06 = 0x40
+
+[6-7 18:29:3 204] [I] [charger] After NTC_DISABLE REG06 = 0x40
+
+[6-7 18:29:3 204] [I] [charger] charger internal NTC disable successfully
+
+[6-7 18:29:3 205] [I] 1Gb Nand init
+
+[6-7 18:29:3 206] [I] [DHARA] capacity: 22000
+
+[6-7 18:29:3 206] [I] [DHARA] allocated: 8913
+
+[6-7 18:29:3 240] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 240] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 240] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 241] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 241] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 241] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 251] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 251] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 251] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 251] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 251] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 255] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 257] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[6-7 18:29:3 257] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[6-7 18:29:3 258] [E] [circle_item_parse 445] circle center x parse failed!!!
+
+[6-7 18:29:3 260] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[6-7 18:29:3 260] [E] [normal_item_parse 915] Invalid data_type. 0!!
+
+[6-7 18:29:3 271] [I] [service_device_profile_init] Device Profile Init Done.
+
+[6-7 18:29:3 271] [I] =============General Profile V2 ===========
+
+[6-7 18:29:3 271] [I] model: ryeex.watch.baileys.v1
+
+[6-7 18:29:3 271] [I] did: 1514358
+
+[6-7 18:29:3 271] [I] mac: 2c:aa:8e:09:d0:98
+
+[6-7 18:29:3 271] [I] sn: E1E1000322
+
+[6-7 18:29:3 271] [I] product id: 6
+
+[6-7 18:29:3 271] [I] =======================================
+
+
+[6-7 18:29:3 271] [I] =============Usr Profile===========
+
+[6-7 18:29:3 271] [I] version: 3
+
+[6-7 18:29:3 271] [I] gender: 1
+
+[6-7 18:29:3 271] [I] id: 0
+
+[6-7 18:29:3 271] [I] nickname: 
+
+[6-7 18:29:3 271] [I] birthday: 1995.01.01
+
+[6-7 18:29:3 271] [I] age: 25
+
+[6-7 18:29:3 271] [I] height: 175
+
+[6-7 18:29:3 271] [I] weight: 130
+
+[6-7 18:29:3 271] [I] wear_hand: 1
+
+[6-7 18:29:3 272] [I] sport_list_count:           10
+sport_num: [1, 2, 4, 5, 3, 6, 7, 21, 15, 23]
+
+[6-7 18:29:3 272] [I] app_list_count:             15
+
+[6-7 18:29:3 272] [I] app_num: [0] = 19
+
+[6-7 18:29:3 272] [I] app_num: [1] = 3
+
+[6-7 18:29:3 272] [I] app_num: [2] = 4
+
+[6-7 18:29:3 272] [I] app_num: [3] = 18
+
+[6-7 18:29:3 272] [I] app_num: [4] = 2
+
+[6-7 18:29:3 272] [I] app_num: [5] = 20
+
+[6-7 18:29:3 272] [I] app_num: [6] = 21
+
+[6-7 18:29:3 272] [I] app_num: [7] = 8
+
+[6-7 18:29:3 272] [I] app_num: [8] = 5
+
+[6-7 18:29:3 272] [I] app_num: [9] = 25
+
+[6-7 18:29:3 272] [I] app_num: [10] = 9
+
+[6-7 18:29:3 272] [I] app_num: [11] = 23
+
+[6-7 18:29:3 272] [I] app_num: [12] = 24
+
+[6-7 18:29:3 272] [I] app_num: [13] = 12
+
+[6-7 18:29:3 272] [I] app_num: [14] = 7
+
+[6-7 18:29:3 272] [I] =======================================
+
+
+[6-7 18:29:3 272] [I] [binding_profile_init] Profile load.
+
+[6-7 18:29:3 272] [I] [binding profile] Load from backup-for trace.
+
+[6-7 18:29:3 272] [I] backup bind_status: 1
+
+[6-7 18:29:3 272] [I] backup device_sn:   40
+
+[6-7 18:29:3 272] [I] backup server_sn:   0
+
+[6-7 18:29:3 272] [I] backup profile_ver: 1
+
+[6-7 18:29:3 272] [I] backup token: 8b 10 8a dd d4 96 ae 1f 2e dc
+
+[6-7 18:29:3 272] [I] =============Binding Profile===========
+
+[6-7 18:29:3 272] [I] version: 1
+
+[6-7 18:29:3 272] [I] bind_status: 1
+
+[6-7 18:29:3 272] [I] device_sn: 40
+
+[6-7 18:29:3 272] [I] server_sn: 0
+
+[6-7 18:29:3 272] [I] =======================================
+
+
+[6-7 18:29:3 272] [I] [regulation_profile_init] Profile load.
+
+[6-7 18:29:3 272] [I] =============Regular Profile===========
+
+[6-7 18:29:3 272] [I] magic: 0x20210115
+
+[6-7 18:29:3 272] [I] info_count: 20
+
+[6-7 18:29:3 272] [I] key: ANATEL, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: BIS, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: SIRIM, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: IFT, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: CMIM, value: 
+
+[6-7 18:29:3 272] [I] key: RCM, value: 
+
+[6-7 18:29:3 272] [I] key: FCC, value: 
+
+[6-7 18:29:3 272] [I] key: KC, value: 
+
+[6-7 18:29:3 272] [I] key: PLG, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: SDPPI, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: IMDA, value: XXX-XXX-XXX
+
+[6-7 18:29:3 272] [I] key: MIC, value: 
+
+[6-7 18:29:3 273] [I] key: NCC, value: XXX-XXX-XXX
+
+[6-7 18:29:3 273] [I] key: WEEE, value: 
+
+[6-7 18:29:3 273] [I] key: NTC, value: XXX-XXX-XXX
+
+[6-7 18:29:3 273] [I] key: CE, value: 
+
+[6-7 18:29:3 273] [I] key: EAC, value: 
+
+[6-7 18:29:3 273] [I] key: NOM, value: 
+
+[6-7 18:29:3 273] [I] key: TEC, value: 
+
+[6-7 18:29:3 273] [I] key: SRRC, value: 
+
+[6-7 18:29:3 273] [I] =======================================
+
+
+[6-7 18:29:3 273] [I] =============System Profile===========
+
+[6-7 18:29:3 273] [I] hw version:                 1.4
+
+[6-7 18:29:3 273] [I] fw version:                 0.1.31.10919
+
+[6-7 18:29:3 273] [I] language:                   English
+
+[6-7 18:29:3 273] [I] dual_time_zone_mode:        0
+
+[6-7 18:29:3 273] [I] system_timezone:            CST
+
+[6-7 18:29:3 273] [I] system_timezone_deviation:  28800
+
+[6-7 18:29:3 273] [I] second_timezone:            
+
+[6-7 18:29:3 273] [I] second_timezone_deviation:  0
+
+[6-7 18:29:3 273] [I] battery:                    76
+
+[6-7 18:29:3 273] [I] last_charge_time:           0
+
+[6-7 18:29:3 273] [I] lcd_id:                     00000000
+
+[6-7 18:29:3 273] [I] oops status:                0
+
+[6-7 18:29:3 273] [I] dnd_mode:                   0
+
+[6-7 18:29:3 273] [I] dnd_smart_mode:             0
+
+[6-7 18:29:3 273] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[6-7 18:29:3 273] [I] bright_level:               40
+
+[6-7 18:29:3 273] [I] debug_mode:                 0
+
+[6-7 18:29:3 273] [I] raise_to_wake_mode:         1
+
+[6-7 18:29:3 273] [I] status_bar_battery:         0
+
+[6-7 18:29:3 273] [I] status_bar_connecting:      0
+
+[6-7 18:29:3 273] [I] night_mode:                 0
+
+[6-7 18:29:3 273] [I] night_mode_start_time:      0
+
+[6-7 18:29:3 273] [I] night_mode_stop_time:       0
+
+[6-7 18:29:3 273] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[6-7 18:29:3 273] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[6-7 18:29:3 273] [I] drink_mode:1 freq_time:    30
+start_time:480 stop_time:     1140
+
+[6-7 18:29:3 273] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[6-7 18:29:3 273] [I] notification_mode:          0
+
+[6-7 18:29:3 273] [I] step_goal_achieve_mode:     1
+
+[6-7 18:29:3 273] [I] step_goal:                  8000
+
+[6-7 18:29:3 273] [I] unlock_mode:                0
+
+[6-7 18:29:3 273] [I] app_view:                   0
+
+[6-7 18:29:3 273] [I] peer_mobile_type:           1
+
+[6-7 18:29:3 273] [I] target_calories_goal:       300
+
+[6-7 18:29:3 273] [I] sports_duration_goal:       30
+
+[6-7 18:29:3 273] [I] screen_always_on_enable:    0
+
+[6-7 18:29:3 273] [I] screen_always_on_mode:      0
+
+[6-7 18:29:3 273] [I] screen_always_on_start_time:480
+
+[6-7 18:29:3 273] [I] screen_always_on_end_time:  1200
+
+[6-7 18:29:3 273] [I] =======================================
+
+
+[6-7 18:29:4 382] [I] tp info init
+
+[6-7 18:29:4 382] [I] tp send HID cmd
+
+[6-7 18:29:4 382] [I] tp send HID cmd
+
+[6-7 18:29:4 382] [I] send cmd id: 0x3b
+
+[6-7 18:29:4 382] [I] tp send HID cmd
+
+[6-7 18:29:4 382] [E] i2c wirte fail, status:0x8000002, len:2
+
+[6-7 18:29:4 383] [I] send cmd id: 0x3b
+
+[6-7 18:29:5 384] [I] tp send HID cmd
+
+[6-7 18:29:5 384] [I] send cmd id: 0x2
+
+[6-7 18:29:5 385] [I] send cmd id: 0x3
+
+[6-7 18:29:5 386] [I] send cmd id: 0x20
+
+[6-7 18:29:5 386] [I] send cmd id: 0x22
+
+[6-7 18:29:5 387] [I] tp id info: 0x02-0x00-0x00
+
+[6-7 18:29:5 390] [I] send cmd id: 0x4
+
+[6-7 18:29:5 390] [I] tp upgrade file: /res/TP/xinshijie_tp.bin
+
+[6-7 18:29:5 390] [I] tp upgrade file is not exist!
+
+[6-7 18:29:5 390] [I] status: 2, tp fw load from file fail!
+
+[6-7 18:29:5 390] [I] tp no need upgrade
+
+[6-7 18:29:5 390] [I] tp info deinit!
+
+[6-7 18:29:5 390] [I] [r_xfer_thread] Enter.
+
+[6-7 18:29:5 392] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[6-7 18:29:5 392] [I] mible token read. len = 44
+
+[6-7 18:29:5 392] [I] Token match. continue..
+
+[6-7 18:29:5 392] [I] retrive token, 8b 10 8a dd d4 96 ae 1f 2e dc
+
+[31m[38025483] E/cmb: 
+[0m[31m[38025483] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[38025483] E/cmb: Fault on thread svc_ryeex
+[0m[31m[38025483] E/cmb: ===== Thread stack information =====
+[0m[31m[38025483] E/cmb: ====================================
+[0m[31m[38025483] E/cmb: =================== Registers information ====================
+[0m[31m[38025483] E/cmb:   R0 : 000000d1  R1 : 100aadc8  R2 : 100aaec4  R3 : 100aaec3
+[0m[31m[38025483] E/cmb:   R12: 01010101  LR : 000a7e3d  PC : 74726164  PSR: 61000000
+[0m[31m[38025483] E/cmb: ==============================================================
+[0m[31m[38025483] E/cmb: Bus fault is caused by instruction access violation
+[0m[31m[38025483] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 74726164 000a7e3c 0002a530 000271b0 0002124a 
+[0m[31m[38025483] E/cmb: Current system tick: 38025483
+[0m[6-7 18:29:7 584] [I] [service_sport] Init done
+
+[6-7 18:29:7 584] [I] load notify 0
+
+[6-7 18:29:7 584] [E] [svc weather] init OK
+
+[6-7 18:29:7 626] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[6-7 18:29:8 661] [I] [anim_nand] ver.2
+
+[6-7 18:29:8 668] [I] XINSHIJIE driver
+
+[6-7 18:29:8 688] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[6-7 18:29:8 689] [I] ram:[23588, 1463904], b:76, s:0
+
+[6-7 18:29:8 689] [I] [sport_record_dump] total_cnt:0
+
+[6-7 18:29:8 693] [I] [step]0, id:16, t:1275897600, para:103, step:0, total:0, today:1
+
+[6-7 18:29:8 693] [I] [step]1, id:17, t:1275901200, para:104, step:0, total:0, today:1
+
+[6-7 18:29:8 694] [I] [step]2, id:18, t:1275904800, para:105, step:0, total:0, today:1
+
+[6-7 18:29:8 698] [I] [offline_data] file_hexstr, lengh:0, contents:
+
+
+lines:1
+
+[6-7 18:29:8 698] [I] [sleep_summary] start:P[6-7 18:29:8 688] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+, end:18:29:8 688] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[6-7 18:29:8 699] [I] [health_rec_health_evt]: sleep update done
+
+[6-7 18:29:8 721] [I] [heyos_page_root_enter] brightness_set 40
+
+[6-7 18:29:9 773] [I] [lang module] language 1:en-US
+
+[6-7 18:29:9 773] [I] oops sta 0
+
+[6-7 18:29:9 773] [I] [m_face] preview cnt:6 
+
+[6-7 18:29:9 773] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[6-7 18:29:9 773] [I] [m_face] uid:2, preview image:watchface_2/preview/dev 
+
+[6-7 18:29:9 773] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[6-7 18:29:9 773] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[6-7 18:29:9 773] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[6-7 18:29:9 773] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[6-7 18:29:9 789] [I] [wrkt] drink reset
+
+[6-7 18:29:9 836] [I] alarm evt 0x10
+
+[6-7 18:29:9 836] [I] recent timer is null
+
+[6-7 18:29:9 836] [I] [get_alarm] fail
+
+[6-7 18:29:13 1188] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:114
+
+[6-7 18:29:14 1273] [I] [ss_batt_restore] stored_batt_percent_last:76%
+
+[6-7 18:29:14 1273] [I] [ss_batt_restore] restore percent 76%
+
+[6-7 18:29:18 1668] [I] [page_refresh_sport_infor] get sport num:10
+
+[6-7 18:29:18 1668] [I] [sport checksum] 0x85230488
+
+[6-7 18:29:18 1677] [E] weather sync time is invalid
+
+[6-7 18:29:18 1677] [E] [sleep] no data, skip
+
+[6-7 18:29:18 1700] [I] [ref set subpage]refres page setting_battery
+
+[6-7 18:29:18 1719] [I] cache begin: checksum=0x20210278 
+
+[6-7 18:29:18 1719] [I] [crt]:18, 0x7560000
+
+[6-7 18:29:18 1719] [I] [cache]29, 0x7560000, len:329728, w:368, h:448
+
+[6-7 18:29:18 1735] [I] creat id 18, end addr 0x75c0000
+
+[6-7 18:29:21 1956] [I] [end_init_refresh] snapshot refresh finish.
+
+[6-7 18:29:22 2057] [I] Dev bond, enter home page
+
+[6-7 18:29:22 2057] [I] [home] begin
+
+[6-7 18:29:22 2078] [E] [m_face] loader oom
+
+[6-7 18:29:22 2107] [I] [surface_item_lang_change][2468] item text ready to reset default
+
+[6-7 18:29:23 2155] [I] [surface_item_lang_change][2468] item text ready to reset default
+
+[6-7 18:29:23 2155] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:29:23 2166] [E] [psram mid] no mem. available:657952, request:659488
+
+[6-7 18:29:23 2169] [E] [psram mid] no mem. available:657952, request:659488
+
+[6-7 18:29:23 2169] [E] [psram mid] no mem. available:657952, request:659488
+
+[6-7 18:29:23 2169] [E] [awtk] oom times:3,size:659488
+
+[6-7 18:29:24 2247] [I] menu_cnt = 15, child_cnt = 1
+
+[6-7 18:29:28 2730] [I] right_activity_page start
+
+[6-7 18:29:29 2767] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[6-7 18:29:29 2767] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[6-7 18:29:29 2831] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[6-7 18:29:29 2831] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[6-7 18:29:29 2831] [E] weather sync time is invalid
+
+[6-7 18:29:30 2851] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[6-7 18:29:30 2851] [E] right music recv wrong play state = 0
+
+[6-7 18:29:30 2851] [I] [right_music] heyos_page_right_music_enter: isAllowControl=0, isConnected=0.
+
+[6-7 18:29:30 2851] [E] [psram fixed] no mem. available:115672, request:329728
+
+[6-7 18:29:30 2851] [E] [snapshot_gen] No mem. w:368,h:448
+
+[6-7 18:29:30 2851] [E] [view] snapshot NULL FAILED
+
+[6-7 18:29:30 2916] [I] [service_ryeex_gap_callback] Connected. 
+
+[6-7 18:29:30 2922] [E] weather sync time is invalid
+
+[6-7 18:29:30 2930] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[6-7 18:29:30 2930] [E] right music recv wrong play state = 0
+
+[6-7 18:29:31 2941] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:29:32 3097] [I] oops sta 0
+
+[6-7 18:29:33 3148] [I] [mible] status:0,len:4,0xCD43BC01
+
+[6-7 18:29:33 3194] [I] PHONE type: 1
+
+[6-7 18:29:33 3220] [I] [dip]24h :1
+
+[6-7 18:29:34 3282] [I] [[time]]utc:1275906574, devi:28800, 2010-06-07 18:29:34 | msg:1, 1275906574, deviat:28800], setDevi:28800
+
+[6-7 18:29:34 3282] [I] alarm evt 0x20
+
+[6-7 18:29:34 3282] [I] recent timer is null
+
+[6-7 18:29:34 3282] [I] [get_alarm] fail
+
+[6-7 18:29:34 3301] [I] [[time]]utc:1275906574, devi:28800, 2010-06-07 18:29:34
+
+[6-7 18:29:34 3310] [I] [step]0, id:16, t:1275897600, para:103, step:0, total:0, today:1
+
+[6-7 18:29:34 3310] [I] [step]1, id:17, t:1275901200, para:104, step:0, total:0, today:1
+
+[6-7 18:29:34 3310] [I] [step]2, id:18, t:1275904800, para:105, step:0, total:0, today:1
+
+[6-7 18:30:0 5964] [I] ram:[24500, 881836], b:76, s:0
+
+[6-7 18:30:3 6205] [I] XINSHIJIE driver
+
+[6-7 18:30:3 6205] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:30:3 6241] [I] oops sta 0
+
+[6-7 18:30:3 6256] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:30:6 6490] [I] XINSHIJIE driver
+
+[6-7 18:30:6 6490] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:30:6 6526] [I] oops sta 0
+
+[6-7 18:30:6 6541] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-7 18:30:7 6673] [I] XINSHIJIE driver
+
+[6-7 18:30:7 6673] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-7 18:30:8 6685] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
