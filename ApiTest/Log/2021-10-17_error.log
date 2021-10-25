@@ -1,0 +1,3 @@
+[ERROR 2021-10-17 03:38:34]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-10-17 04:09:58]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-10-17 04:09:58]测试用例执行失败，请检查

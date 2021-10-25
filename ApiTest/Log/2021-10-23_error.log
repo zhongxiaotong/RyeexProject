@@ -1,0 +1,3 @@
+[ERROR 2021-10-23 02:03:46]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-10-23 02:04:46]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[ERROR 2021-10-23 02:52:46]测试用例执行失败，请检查
