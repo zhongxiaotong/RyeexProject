@@ -57,12 +57,18 @@ class TestClass:
     def test_countdown(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
+        self.app.device_upslide()
+        self.app.device_upslide()
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.saturn_inputclick("180", "400", "180", "400")
-        self.app.assert_getdevicepagename('appctr_timer', 'list_view')
-        self.app.saturn_inputclick("80", "180", "80", "180")
-        self.app.assert_getdevicepagename('apptmr_inprog', 'lbl_hour/btn_stop/btn_status')
+        self.app.saturn_inputclick("180", "200", "180", "200")
+        self.app.assert_getdevicepagename('appctr_timer', 'list_view')  #判断进入了计时器页面
+        self.app.saturn_inputclick("80", "180", "80", "180")    #选择进入1分钟选项
+        self.app.assert_getdevicepagename('apptmr_inprog', 'lbl_hour/btn_stop/btn_status')  #判断是否进入了一分钟选项页面
         time.sleep(60)
         self.app.assert_getdevicepagename('apptmr_inprog', 'img_timeup/lbl_str/btn_stop/btn_s')
         self.app.saturn_inputclick("60", "400", "60", "400")

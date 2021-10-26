@@ -1,1 +1,5 @@
 [ERROR 2021-10-25 01:12:47]测试用例执行失败，请检查
+[ERROR 2021-10-25 16:11:12]测试用例执行失败，请检查
+[ERROR 2021-10-25 17:51:10]页面未能找到该元素//*[@text="SATURN_设备"]
+[ERROR 2021-10-25 17:53:34]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-10-25 17:54:26]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view

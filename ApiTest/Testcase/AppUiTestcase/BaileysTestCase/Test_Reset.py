@@ -57,17 +57,24 @@ class TestClass:
     def test_reset(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
         self.app.device_upslide()
         self.app.device_upslide()
-        self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.saturn_inputclick("320", "400", "320", "400")
-        self.app.assert_getdevicepagename("setting_page", "list_view")
         self.app.device_upslide()
-        self.app.saturn_inputclick("180", "290", "180", "290")
-        self.app.assert_getdevicepagename("setting_general", "list_view")
-        self.app.saturn_inputclick("180", "440", "180", "440")
-        self.app.assert_getdevicepagename("setting_reset_realme", "btn_cancel/btn_ok/image/la")
-        self.app.devices_inputclick("270", "400", "270", "400")
+        self.app.device_upslide()
+        self.app.assert_getdevicepagename('home_page', 'home_id_down')  #功能页面
+        self.app.saturn_inputclick("180", "350", "180", "350")      #点击设置页面
+        self.app.assert_getdevicepagename("setting_page", "list_view")      #判断是否进入了设置页面
+        self.app.device_upslide()
+        self.app.saturn_inputclick("180", "320", "180", "320")      #点击通用
+        self.app.assert_getdevicepagename("setting_general", "list_view")       #判断进入通用页面
+        self.app.device_upslide()
+        self.app.saturn_inputclick("180", "370", "180", "370")          #点击重置按钮
+        self.app.assert_getdevicepagename("setting_reset_realme", 'btn_cancel/btn_ok/image/la') #确定是否弹出重启确认弹窗
+        self.app.devices_inputclick("300", "350", "300", "350")
         time.sleep(100)
         self.app.devices_bind(self.mac, self.fuction, self.info)
         self.app.devices_baileys_init(self.info)

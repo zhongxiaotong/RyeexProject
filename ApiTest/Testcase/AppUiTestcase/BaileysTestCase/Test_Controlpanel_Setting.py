@@ -56,9 +56,13 @@ class TestClass:
     def test_controlpanel_setting(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
         self.app.device_rightslide()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
-        self.app.saturn_inputclick("60", "400", "60", "400")
+        self.app.saturn_inputclick("300", "230", "300", "230")
         self.app.assert_getdevicepagename("setting_page", "list_view")
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_left")

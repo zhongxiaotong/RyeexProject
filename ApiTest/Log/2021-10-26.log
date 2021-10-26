@@ -1,0 +1,230 @@
+[DEBUG 2021-10-26 01:08:49]解压zip包并且重命名
+[DEBUG 2021-10-26 01:08:53]获取差分资源包
+[DEBUG 2021-10-26 01:08:53]唤醒解锁屏幕
+[DEBUG 2021-10-26 01:08:54]下发固件/资源到手机
+[DEBUG 2021-10-26 01:08:54]每次保存最新的资源包到Recent_res
+[INFO 2021-10-26 01:08:54]********TEST START** ******
+[DEBUG 2021-10-26 01:09:02]初始化测试数据
+[DEBUG 2021-10-26 01:40:53]初始化测试数据
+[DEBUG 2021-10-26 02:00:41]初始化测试数据
+[ERROR 2021-10-26 02:01:12]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为home_page,view_name为home_id_left
+[DEBUG 2021-10-26 02:01:15]初始化测试数据
+[ERROR 2021-10-26 02:02:08]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 02:02:10]初始化测试数据
+[DEBUG 2021-10-26 02:04:27]初始化测试数据
+[DEBUG 2021-10-26 02:06:44]初始化测试数据
+[DEBUG 2021-10-26 02:09:01]初始化测试数据
+[DEBUG 2021-10-26 02:11:18]初始化测试数据
+[DEBUG 2021-10-26 02:13:36]初始化测试数据
+[DEBUG 2021-10-26 02:15:52]初始化测试数据
+[DEBUG 2021-10-26 02:18:10]初始化测试数据
+[DEBUG 2021-10-26 02:20:26]初始化测试数据
+[DEBUG 2021-10-26 02:22:44]初始化测试数据
+[DEBUG 2021-10-26 02:25:02]初始化测试数据
+[DEBUG 2021-10-26 02:27:21]初始化测试数据
+[DEBUG 2021-10-26 02:29:40]初始化测试数据
+[DEBUG 2021-10-26 02:31:57]初始化测试数据
+[DEBUG 2021-10-26 02:34:15]初始化测试数据
+[DEBUG 2021-10-26 02:36:34]初始化测试数据
+[DEBUG 2021-10-26 02:38:51]初始化测试数据
+[DEBUG 2021-10-26 02:41:09]初始化测试数据
+[DEBUG 2021-10-26 02:43:26]初始化测试数据
+[DEBUG 2021-10-26 02:45:45]初始化测试数据
+[DEBUG 2021-10-26 02:48:03]初始化测试数据
+[ERROR 2021-10-26 02:50:18]测试用例执行失败，请检查
+[INFO 2021-10-26 02:50:18]*********TEST END*********
+[DEBUG 2021-10-26 10:58:54]初始化测试数据
+[DEBUG 2021-10-26 11:00:51]初始化测试数据
+[DEBUG 2021-10-26 11:02:58]初始化测试数据
+[ERROR 2021-10-26 11:05:31]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_restart,reboot_cnt:1,view_name:image/label/btn_cancel/btn_ok,i"}s
+[DEBUG 2021-10-26 11:08:25]初始化测试数据
+[ERROR 2021-10-26 11:10:57]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 11:18:27]初始化测试数据
+[ERROR 2021-10-26 11:21:01]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_restart,reboot_cnt:1,view_name:image/label/btn_cancel/btn_ok,i"}s
+[DEBUG 2021-10-26 11:25:01]初始化测试数据
+[ERROR 2021-10-26 11:27:36]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 11:42:06]初始化测试数据
+[ERROR 2021-10-26 11:44:43]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 11:55:23]初始化测试数据
+[ERROR 2021-10-26 11:55:23]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[DEBUG 2021-10-26 11:55:37]初始化测试数据
+[ERROR 2021-10-26 11:55:37]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[DEBUG 2021-10-26 11:56:25]初始化测试数据
+[ERROR 2021-10-26 11:56:43]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[DEBUG 2021-10-26 11:58:23]初始化测试数据
+[ERROR 2021-10-26 11:58:33]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 11:58:49]初始化测试数据
+[ERROR 2021-10-26 11:58:59]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 11:59:14]初始化测试数据
+[ERROR 2021-10-26 11:59:27]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 11:59:59]初始化测试数据
+[ERROR 2021-10-26 12:00:57]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 12:01:59]初始化测试数据
+[ERROR 2021-10-26 12:02:58]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 12:04:29]初始化测试数据
+[ERROR 2021-10-26 12:05:28]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 12:07:10]初始化测试数据
+[ERROR 2021-10-26 12:08:09]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 14:34:34]初始化测试数据
+[ERROR 2021-10-26 14:35:33]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 14:41:16]初始化测试数据
+[ERROR 2021-10-26 14:42:15]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 14:46:18]初始化测试数据
+[DEBUG 2021-10-26 15:01:18]初始化测试数据
+[ERROR 2021-10-26 15:02:16]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:5,page_name:setting_reset_realme,reboot_cnt:1,view_name:btn_cancel/btn_ok/image/la"}5�
+[DEBUG 2021-10-26 15:04:44]初始化测试数据
+[ERROR 2021-10-26 15:05:02]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 15:06:18]初始化测试数据
+[DEBUG 2021-10-26 15:10:40]初始化测试数据
+[DEBUG 2021-10-26 15:17:20]Process-1设备初始化-向右滑动
+[ERROR 2021-10-26 15:17:27]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[DEBUG 2021-10-26 15:28:00]初始化测试数据
+[DEBUG 2021-10-26 15:28:41]初始化测试数据
+[DEBUG 2021-10-26 15:29:12]Process-1设备初始化-向右滑动
+[ERROR 2021-10-26 15:29:21]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[DEBUG 2021-10-26 15:31:49]初始化测试数据
+[DEBUG 2021-10-26 15:32:18]Process-1设备初始化-向右滑动
+[ERROR 2021-10-26 15:32:26]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[DEBUG 2021-10-26 15:33:08]初始化测试数据
+[DEBUG 2021-10-26 15:33:37]Process-1设备初始化-向右滑动
+[DEBUG 2021-10-26 15:33:45]Process-1设备初始化-点击设置
+[DEBUG 2021-10-26 15:33:53]Process-1设备初始化-点击Display
+[DEBUG 2021-10-26 15:34:18]初始化测试数据
+[DEBUG 2021-10-26 15:34:47]Process-1设备初始化-向右滑动
+[DEBUG 2021-10-26 15:34:56]Process-1设备初始化-点击设置
+[DEBUG 2021-10-26 15:35:05]Process-1设备初始化-点击Display
+[DEBUG 2021-10-26 15:35:14]Process-1设备初始化-点击Screen
+[DEBUG 2021-10-26 15:35:19]Process-1设备初始化-选择15秒
+[DEBUG 2021-10-26 15:35:24]Process-1设备初始化-点击确认
+[DEBUG 2021-10-26 15:47:41]初始化测试数据
+[DEBUG 2021-10-26 15:48:11]Process-1设备初始化-向右滑动
+[DEBUG 2021-10-26 15:48:19]Process-1设备初始化-点击设置
+[DEBUG 2021-10-26 15:48:27]Process-1设备初始化-点击Display
+[DEBUG 2021-10-26 15:48:35]Process-1设备初始化-点击Screen
+[DEBUG 2021-10-26 15:48:41]Process-1设备初始化-选择15秒
+[DEBUG 2021-10-26 15:48:46]Process-1设备初始化-点击确认
+[DEBUG 2021-10-26 15:48:54]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-10-26 15:48:58]Process-1设备初始化-返回
+[DEBUG 2021-10-26 15:49:03]Process-1设备初始化-点击Notification
+[DEBUG 2021-10-26 15:49:12]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-10-26 15:49:17]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-10-26 15:49:22]Process-1设备初始化-点击Drink
+[DEBUG 2021-10-26 15:49:26]Process-1设备初始化-点击home键
+[DEBUG 2021-10-26 15:49:28]Process-1设备初始化-向上滑动
+[DEBUG 2021-10-26 15:49:35]Process-1设备初始化-点击General
+[DEBUG 2021-10-26 15:49:43]Process-1设备初始化-点击AppView
+[DEBUG 2021-10-26 15:49:48]Process-1设备初始化-点击Grid
+[DEBUG 2021-10-26 15:49:56]Process-1设备初始化-点击确认button
+[DEBUG 2021-10-26 15:50:00]Process-1设备初始化-返回
+[DEBUG 2021-10-26 15:50:04]Process-1设备初始化-返回
+[DEBUG 2021-10-26 15:50:08]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-10-26 15:50:37]初始化测试数据
+[DEBUG 2021-10-26 15:52:58]初始化测试数据
+[DEBUG 2021-10-26 15:59:16]Process-1设备初始化-向右滑动
+[DEBUG 2021-10-26 15:59:24]Process-1设备初始化-点击设置
+[DEBUG 2021-10-26 15:59:31]Process-1设备初始化-点击Display
+[DEBUG 2021-10-26 15:59:39]Process-1设备初始化-点击Screen
+[DEBUG 2021-10-26 15:59:44]Process-1设备初始化-选择15秒
+[DEBUG 2021-10-26 15:59:49]Process-1设备初始化-点击确认
+[DEBUG 2021-10-26 15:59:56]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-10-26 16:00:01]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:00:06]Process-1设备初始化-点击Notification
+[DEBUG 2021-10-26 16:00:14]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-10-26 16:00:19]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-10-26 16:00:24]Process-1设备初始化-点击Drink
+[DEBUG 2021-10-26 16:00:29]Process-1设备初始化-点击home键
+[DEBUG 2021-10-26 16:00:31]Process-1设备初始化-向上滑动
+[DEBUG 2021-10-26 16:00:39]Process-1设备初始化-点击General
+[DEBUG 2021-10-26 16:00:46]Process-1设备初始化-点击AppView
+[DEBUG 2021-10-26 16:00:52]Process-1设备初始化-点击Grid
+[DEBUG 2021-10-26 16:00:59]Process-1设备初始化-点击确认button
+[DEBUG 2021-10-26 16:01:04]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:01:08]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:01:12]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-10-26 16:04:45]初始化测试数据
+[DEBUG 2021-10-26 16:05:15]Process-1设备初始化-向右滑动
+[DEBUG 2021-10-26 16:05:23]Process-1设备初始化-点击设置
+[DEBUG 2021-10-26 16:05:32]Process-1设备初始化-点击Display
+[DEBUG 2021-10-26 16:05:40]Process-1设备初始化-点击Screen
+[DEBUG 2021-10-26 16:05:46]Process-1设备初始化-选择15秒
+[DEBUG 2021-10-26 16:05:51]Process-1设备初始化-点击确认
+[DEBUG 2021-10-26 16:05:59]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-10-26 16:06:03]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:06:07]Process-1设备初始化-点击Notification
+[DEBUG 2021-10-26 16:06:15]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-10-26 16:06:21]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-10-26 16:06:26]Process-1设备初始化-点击Drink
+[DEBUG 2021-10-26 16:06:30]Process-1设备初始化-点击home键
+[DEBUG 2021-10-26 16:06:32]Process-1设备初始化-向上滑动
+[DEBUG 2021-10-26 16:06:40]Process-1设备初始化-点击General
+[DEBUG 2021-10-26 16:06:47]Process-1设备初始化-点击AppView
+[DEBUG 2021-10-26 16:06:53]Process-1设备初始化-点击Grid
+[DEBUG 2021-10-26 16:07:01]Process-1设备初始化-点击确认button
+[DEBUG 2021-10-26 16:07:05]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:07:10]Process-1设备初始化-返回
+[DEBUG 2021-10-26 16:07:13]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-10-26 16:14:09]初始化测试数据
+[ERROR 2021-10-26 16:14:42]验证失败：当前page_name为activity，view_name为list_view；预期page_name为spo2,view_name为view_measure
+[DEBUG 2021-10-26 16:17:27]初始化测试数据
+[ERROR 2021-10-26 16:18:00]验证失败：当前page_name为hrm，view_name为view_unwear；预期page_name为spo2,view_name为view_measure
+[DEBUG 2021-10-26 16:24:39]初始化测试数据
+[ERROR 2021-10-26 16:25:15]验证失败：当前page_name为hrm，view_name为view_unwear；预期page_name为hrm,view_name为view_measure
+[DEBUG 2021-10-26 16:26:43]初始化测试数据
+[ERROR 2021-10-26 16:27:45]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-10-26 16:30:26]初始化测试数据
+[DEBUG 2021-10-26 16:35:50]初始化测试数据
+[DEBUG 2021-10-26 16:37:54]初始化测试数据
+[DEBUG 2021-10-26 16:38:21]初始化测试数据
+[ERROR 2021-10-26 16:38:55]验证失败：当前page_name为hrm，view_name为view_record；预期page_name为hrm,view_name为view_unwear
+[DEBUG 2021-10-26 16:40:38]初始化测试数据
+[ERROR 2021-10-26 16:41:12]验证失败：当前page_name为hrm，view_name为view_record；预期page_name为hrm,view_name为view_unwear
+[DEBUG 2021-10-26 16:41:35]初始化测试数据
+[ERROR 2021-10-26 16:42:09]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为hrm,view_name为view_unwear
+[DEBUG 2021-10-26 16:42:46]初始化测试数据
+[ERROR 2021-10-26 16:43:11]验证失败：当前page_name为spo2，view_name为view_unwear；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-10-26 16:43:20]初始化测试数据
+[DEBUG 2021-10-26 16:45:47]初始化测试数据
+[DEBUG 2021-10-26 16:56:20]初始化测试数据
+[ERROR 2021-10-26 16:56:39]设备已断开连接2C:AA:8E:09:D1:28  正在连接...
+[DEBUG 2021-10-26 17:00:01]初始化测试数据
+[ERROR 2021-10-26 17:00:35]验证失败：当前page_name为spo2，view_name为view_unwear；预期page_name为spo2,view_name为view_measure
+[DEBUG 2021-10-26 17:01:10]初始化测试数据
+[ERROR 2021-10-26 17:01:45]验证失败：当前page_name为spo2，view_name为view_unwear；预期page_name为spo2,view_name为view_measure
+[DEBUG 2021-10-26 17:02:11]初始化测试数据
+[ERROR 2021-10-26 17:02:47]验证失败：当前page_name为spo2，view_name为view_unwear；预期page_name为spo2,view_name为view_measure
+[DEBUG 2021-10-26 17:03:13]初始化测试数据
+[ERROR 2021-10-26 17:03:32]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 17:03:44]初始化测试数据
+[DEBUG 2021-10-26 17:07:14]初始化测试数据
+[ERROR 2021-10-26 17:08:08]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:14:11]初始化测试数据
+[ERROR 2021-10-26 17:15:06]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:16:25]初始化测试数据
+[ERROR 2021-10-26 17:17:19]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:18:00]初始化测试数据
+[ERROR 2021-10-26 17:18:54]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:19:13]初始化测试数据
+[ERROR 2021-10-26 17:20:08]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:21:21]初始化测试数据
+[ERROR 2021-10-26 17:22:09]页面未能找到该元素//*[@class="android.widget.TextView" and @text="开关蓝牙"]
+[DEBUG 2021-10-26 17:23:00]初始化测试数据
+[ERROR 2021-10-26 17:25:12]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[DEBUG 2021-10-26 17:29:58]初始化测试数据
+[DEBUG 2021-10-26 17:57:17]初始化测试数据
+[DEBUG 2021-10-26 17:59:23]初始化测试数据
+[DEBUG 2021-10-26 18:01:02]初始化测试数据
+[DEBUG 2021-10-26 18:04:03]初始化测试数据
+[DEBUG 2021-10-26 18:05:32]初始化测试数据
+[ERROR 2021-10-26 18:06:05]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[DEBUG 2021-10-26 18:10:31]初始化测试数据
+[DEBUG 2021-10-26 18:13:23]初始化测试数据
+[ERROR 2021-10-26 18:13:55]验证失败：当前page_name为sleep，view_name为view_no_data；预期page_name为appctr_timer,view_name为list_view
+[DEBUG 2021-10-26 18:15:37]初始化测试数据
+[ERROR 2021-10-26 18:16:10]验证失败：当前page_name为sleep，view_name为view_no_data；预期page_name为appctr_timer,view_name为list_view
+[DEBUG 2021-10-26 18:24:35]初始化测试数据
+[ERROR 2021-10-26 18:24:52]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-10-26 18:25:02]初始化测试数据
+[DEBUG 2021-10-26 18:25:45]初始化测试数据
+[DEBUG 2021-10-26 18:31:01]初始化测试数据
+[DEBUG 2021-10-26 18:42:54]初始化测试数据
+[ERROR 2021-10-26 18:43:56]验证失败：当前page_name为alarm，view_name为view_empty；预期page_name为setting_page,view_name为list_view

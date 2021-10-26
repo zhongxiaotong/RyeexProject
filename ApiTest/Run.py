@@ -70,9 +70,9 @@ class AllTest(object):
         try:
             self.log.info("********TEST START** ******")
             pytest.main(['-m', 'ota', '--mcu=' + result[0], '--resoure=' + result[1], '--diff=' + result[2], self.case_path, '--alluredir', './Report/xml'])
-            pytest.main(['-m', taskname, self.case_path, '--alluredir', './Report/xml'])
+            pytest.main(['-m', taskname, self.case_path, '--alluredir', './Report/xml'])        #生成allure的json格式的路径.
             # pytest.main(['C:\Users\EDZ\PycharmProjects\Autotest_platform\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\Test_ZGetDevicesLog.py', '--alluredir', './Report/xml'])
-            os.system('allure generate ./Report/xml -o ./Report/html --clean-alluredir')                 #将报告转换成HTML
+            os.system('allure generate ./Report/xml -o ./Report/html --clean-alluredir')        #在cmd下面运行，生成测试报告                 #将报告转换成HTML
         except:
             self.log.error(u'测试用例执行失败，请检查')
         finally:

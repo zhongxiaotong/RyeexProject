@@ -63,6 +63,10 @@ class TestClass():
         diff_res = os.path.basename(diff)
         self.driver1 = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
         # if os.path.getsize(diff) != 0:
         #     self.app.devices_ota(filename_mcu, diff_res, '0')               #差分升级
         # else:

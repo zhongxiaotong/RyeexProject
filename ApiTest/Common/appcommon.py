@@ -18,6 +18,8 @@ import os
 from Readyaml import Yamlc
 import json
 import commands
+import re
+
 
 
 current_path = os.path.abspath(__file__)
@@ -192,6 +194,7 @@ class App(object):
         self.device_clickDID()
         self.assert_in_text(expecttext='page_name')
         if self.getdevice():
+            print("!!!!!!!!",self.getdevice())
             page_name = self.getdevice()[1]
             view_name = self.getdevice()[3]
             try:
@@ -287,19 +290,32 @@ class App(object):
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
+        print("222222",text)
         if len(text) != 0:
             try:
-                delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
-                page_name = text.split(',')[3].split(':')[1]
-                rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
-                view_name = text.split(',')[5].split(':')[1]
-                if text.split(',')[6].split(':')[1]:
-                    is_screen = text.split(',')[6].split(':')[1]
+                delta_ms =re.findall('"result":"delta_ms:(.*),cnt:',text)[0]
+                page_name=re.findall(',page_name:(.*),reboot_cnt:',text)[0]
+                rebort_cnt=re.findall('reboot_cnt:(.*),view_name:',text)[0]
+
+                # delta_ms = text.split(',')[1].split(':')[2]               #delta_ms:ui线程上次进入的时间戳距离现在过了多久
+                # page_name = text.split(',')[3].split(':')[1]
+                # rebort_cnt = text.split(',')[4].split(':')[1]              #rebort_cnt:设备重启次数
+                # view_name = text.split(',')[5].split(':')[1]
+                # print("page_name:",page_name)
+                # print("view_name",view_name)
+
+                if re.findall("(,is_screen_on:)",text):
+                    is_screen=re.findall(',is_screen_on:(.*),',text)[0]
+                    view_name=re.findall(',view_name:(.*),is_screen_on',text)[0]
                     return delta_ms, page_name, rebort_cnt, view_name, is_screen
+                # if text.split(',')[6].split(':')[1]:
+                #     is_screen = text.split(',')[6].split(':')[1]
+                #     return delta_ms, page_name, rebort_cnt, view_name, is_screen
                 # is_screen = text.split(',')[6]                              #is_screen:设备是否亮屏
                 # if page_name == 'remind':                                                                                 #退出提醒页面
-                #     self.device_home()
+                # #     self.device_home()
                 else:
+                    view_name =re.findall('view_name:(.*)"}',text)[0]
                     return delta_ms, page_name, rebort_cnt, view_name
             except:
                 self.log.error(u'获取delta_ms/page_name/rebort_cnt失败%s' % text)
@@ -1062,42 +1078,42 @@ class App(object):
     @allure.step("初始化设备")
     def devices_baileys_init(self, info):
         time.sleep(2)
-        self.close_remind()
-        self.device_rightslide()
-        self.assert_getdevicepagename("home_page", "home_id_left")
+        self.close_remind()     #关闭提醒页
+        self.device_rightslide()    #点击右滑 从左到右滑
+        self.assert_getdevicepagename("home_page", "home_id_left")  #确认实在左边页面
         self.log.debug(info + '设备初始化-向右滑动')
-        self.saturn_inputclick("60", "400", "60", "400")
+        self.saturn_inputclick("300", "230", "300", "230")        #点击设置按钮
         self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-点击设置')
-        self.saturn_inputclick("180", "190", "180", "190")
+        self.saturn_inputclick("180", "190", "180", "190")  #点击显示选项
         self.assert_getdevicepagename("setting_display", "list_view")
         self.log.debug(info + '设备初始化-点击Display')
-        self.saturn_inputclick("180", "190", "180", "190")
+        self.saturn_inputclick("180", "190", "180", "190")  #点击亮屏的时间
         self.assert_getdevicepagename("setting_screen_timeout", "view/btn_ok")
         self.log.debug(info + '设备初始化-点击Screen')
-        self.saturn_inputclick("180", "230", "180", "230")
+        self.saturn_inputclick("180", "230", "180", "230")  #点击选择亮屏15秒
         self.log.debug(info + '设备初始化-选择15秒')
-        self.saturn_inputclick("180", "390", "180", "390")
+        self.saturn_inputclick("180", "390", "180", "390")  #点击确认√按钮
         self.log.debug(info + '设备初始化-点击确认')
-        self.assert_getdevicepagename("setting_display", "list_view")
-        self.saturn_inputclick("180", "280", "180", "280")
+        self.assert_getdevicepagename("setting_display", "list_view")   #查看是否返回了显示设置页面
+        self.saturn_inputclick("180", "280", "180", "280")  #点击抬腕亮屏选项
         self.log.debug(info + '设备初始化-点击RaiseToWake')
-        self.device_home()
-        self.assert_getdevicepagename("setting_page", "list_view")
+        self.device_home()  #返回上级页面
+        self.assert_getdevicepagename("setting_page", "list_view")  #确认返回设置页面
         self.log.debug(info + '设备初始化-返回')
-        self.saturn_inputclick("180", "270", "180", "270")
+        self.saturn_inputclick("180", "270", "180", "270")  #点击健康通知选项
         self.log.debug(info + '设备初始化-点击Notification')
-        self.assert_getdevicepagename("setting_notification", "list_view")
-        self.saturn_inputclick("180", "100", "180", "100")
+        self.assert_getdevicepagename("setting_notification", "list_view")  #确认进入健康通知页面
+        self.saturn_inputclick("180", "100", "180", "100")  #点击久坐提醒
         self.log.debug(info + '设备初始化-点击Sedentary')
-        self.saturn_inputclick("180", "190", "180", "190")
+        self.saturn_inputclick("180", "190", "180", "190")  #点击目标达成
         self.log.debug(info + '设备初始化-点击GoalAchieved')
-        self.saturn_inputclick("180", "270", "180", "270")
+        self.saturn_inputclick("180", "270", "180", "270")  #点击喝水提醒
         self.log.debug(info + '设备初始化-点击Drink')
         # self.saturn_inputclick("180", "420", "180", "420")
         # self.log.debug(info + '设备初始化-点击HeartRate')
-        self.device_home()
-        self.assert_getdevicepagename("setting_page", "list_view")
+        self.device_home()  #返回上级页面
+        self.assert_getdevicepagename("setting_page", "list_view")  #确认现在是在设置页面
         self.log.debug(info + '设备初始化-点击home键')
         self.device_upslide()
         self.log.debug(info + '设备初始化-向上滑动')
