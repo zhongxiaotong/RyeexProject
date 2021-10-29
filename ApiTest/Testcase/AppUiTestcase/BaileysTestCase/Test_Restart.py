@@ -57,16 +57,23 @@ class TestClass:
     def test_restart(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
         self.app.device_upslide()
         self.app.device_upslide()
+        self.app.device_upslide()
+        self.app.device_upslide()
+
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.saturn_inputclick("320", "400", "320", "400")
-        self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.saturn_inputclick("180", "350", "180", "350")          #点击设置
+        self.app.assert_getdevicepagename("setting_page", "list_view")       #判断进入设置页面
         self.app.device_upslide()
-        self.app.saturn_inputclick("180", "290", "180", "290")
-        self.app.assert_getdevicepagename("setting_general", "list_view")
-        self.app.saturn_inputclick("180", "380", "180", "380")
-        self.app.assert_getdevicepagename("setting_restart", "image/label/btn_cancel/btn_ok")
+        self.app.saturn_inputclick("180", "290", "180", "290")       #点击通用按钮
+        self.app.assert_getdevicepagename("setting_general", "list_view")       #判断进入通用页面
+        self.app.saturn_inputclick("180", "380", "180", "380")      #点击重启按钮
+        self.app.assert_getdevicepagename("setting_restart", "list_view")       #判断重启提醒页面是否启动
         self.app.devices_inputclick("270", "400", "270", "400")
         time.sleep(60)
         self.app.connect_status()

@@ -57,11 +57,17 @@ class TestClass:
     def test_stopwatch(self):
         self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
+        self.app.device_upslide()
+        self.app.device_upslide()
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.saturn_inputclick("60", "400", "60", "400")
+        self.app.saturn_inputclick("180", "100", "180", "100")
         self.app.assert_getdevicepagename('appctr_stopwatch', 'view_start')
-        self.app.saturn_inputclick("180", "400", "180", "400")
+        self.app.saturn_inputclick("180", "350", "180", "350")
         self.app.assert_getdevicepagename('appctr_stopwatch', 'view_on')
         self.app.assert_getdevicesstopwatchstatus(2, 0)
         self.app.saturn_inputclick("270", "400", "270", "400")

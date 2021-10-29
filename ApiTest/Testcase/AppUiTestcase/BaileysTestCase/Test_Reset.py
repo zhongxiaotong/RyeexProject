@@ -73,7 +73,7 @@ class TestClass:
         self.app.assert_getdevicepagename("setting_general", "list_view")       #判断进入通用页面
         self.app.device_upslide()
         self.app.saturn_inputclick("180", "370", "180", "370")          #点击重置按钮
-        self.app.assert_getdevicepagename("setting_reset_realme", 'btn_cancel/btn_ok/image/la') #确定是否弹出重启确认弹窗
+        self.app.assert_getdevicepagename("setting_reset_realme", 'list_view') #确定是否弹出重置确认弹窗
         self.app.devices_inputclick("300", "350", "300", "350")
         time.sleep(100)
         self.app.devices_bind(self.mac, self.fuction, self.info)

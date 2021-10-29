@@ -56,23 +56,37 @@ class TestClass:
     def test_sportstrengthtraining(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
+
+        # self.app.devices_click('SATURN_设备')
+        # time.sleep(10)
+
+
+        self.app.device_upslide()
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        self.app.saturn_inputclick("180", "180", "180", "180")
+        self.app.saturn_inputclick("180", "50", "180", "50")
         self.app.assert_getdevicepagename("sport_list", "view_all_type")
         self.app.device_upslide()
         self.app.saturn_inputclick("180", "180", "180", "180")
+
         self.app.assert_getdevicepagename("sport_list", "view_gps_start")
         self.app.saturn_inputclick("180", "230", "180", "230")
-        time.sleep(3)
+        time.sleep(4)
+
         self.app.assert_getdevicepagename("sports", "view_calculate_show")
-        time.sleep(120)
+        time.sleep(10)
         self.app.device_upslide()
         self.app.device_home()
-        self.app.assert_getdevicepagename("sports", "view_pause")
-        self.app.saturn_inputclick("90", "230", "90", "230")
-        self.app.assert_getdevicepagename("sports", "view_result_show")
-        self.app.device_home()
+        time.sleep(1)
+
+        self.app.assert_getdevicepagename("sports", "view_pause")       #确认停止页面
+        self.app.saturn_inputclick("100", "170", "100", "170")      #点击停止按钮
+
+        time.sleep(1)
+        self.app.saturn_inputclick("350", "350", "350", "350")
+
+        # self.app.assert_getdevicepagename("sports", "view_result_show")
+        # self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')

@@ -327,6 +327,7 @@ class App(object):
     def getresult(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
+        print(text)
         return text
 
     def assert_connect_status(self):

@@ -1,0 +1,27 @@
+[ERROR 2021-10-29 01:39:39]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-10-29 02:11:03]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-10-29 02:11:03]测试用例执行失败，请检查
+[ERROR 2021-10-29 10:28:47]验证失败：当前page_name为sports，view_name为view_calculate_show；预期page_name为sports,view_name为view_pause
+[ERROR 2021-10-29 10:31:09]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[ERROR 2021-10-29 10:32:37]验证失败：当前page_name为sports，view_name为view_calculate_show；预期page_name为sports,view_name为view_pause
+[ERROR 2021-10-29 10:35:11]验证失败：当前page_name为sports，view_name为view_calculate_show；预期page_name为sports,view_name为view_pause
+[ERROR 2021-10-29 10:38:54]验证失败：当前page_name为sports，view_name为view_calculate_show；预期page_name为sports,view_name为view_pause
+[ERROR 2021-10-29 10:48:56]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为sports,view_name为view_result_show
+[ERROR 2021-10-29 10:52:24]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-10-29 11:26:32]Response验证失败，实际返回结果BleError{code=-1, detailCode=-1, message='timeout'}，预期返回结果com.ryeex.sdk.demo
+[ERROR 2021-10-29 11:54:45]页面未能找到该元素//*[@text="解绑"]
+[ERROR 2021-10-29 13:09:20]验证失败：当前page_name为alarm，view_name为view_empty；预期page_name为appctr_timer,view_name为list_view
+[ERROR 2021-10-29 13:14:04]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-10-29 13:14:40]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:15:15]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:16:18]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:16:56]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:17:28]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:17:59]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-10-29 13:18:36]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为face_pick_page,view_name为slide_view_view
+[ERROR 2021-10-29 13:20:36]验证失败：当前page_name为sport_list，view_name为view_all_type；预期page_name为weather,view_name为online_weather
+[ERROR 2021-10-29 13:22:16]测试用例执行失败，请检查
+[ERROR 2021-10-29 14:28:46]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-10-29 14:39:52]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-10-29 14:48:24]验证失败：当前page_name为setting_reset_realme，view_name为list_view；预期page_name为setting_reset_realme,view_name为btn_cancel/btn_ok/image/la
+[ERROR 2021-10-29 15:11:11]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为setting_page,view_name为list_view
