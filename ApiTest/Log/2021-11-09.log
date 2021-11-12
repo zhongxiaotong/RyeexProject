@@ -1,0 +1,13 @@
+[DEBUG 2021-11-09 01:07:56]解压zip包并且重命名
+[DEBUG 2021-11-09 01:08:00]获取差分资源包
+[DEBUG 2021-11-09 01:08:00]唤醒解锁屏幕
+[DEBUG 2021-11-09 01:08:02]下发固件/资源到手机
+[DEBUG 2021-11-09 01:08:02]每次保存最新的资源包到Recent_res
+[INFO 2021-11-09 01:08:02]********TEST START** ******
+[DEBUG 2021-11-09 01:08:10]初始化测试数据
+[ERROR 2021-11-09 01:40:51]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[DEBUG 2021-11-09 01:40:58]初始化测试数据
+[ERROR 2021-11-09 02:00:45]测试用例执行失败，请检查
+[INFO 2021-11-09 02:00:45]*********TEST END*********
+[DEBUG 2021-11-09 15:59:53]初始化测试数据
+[ERROR 2021-11-09 16:02:08]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify

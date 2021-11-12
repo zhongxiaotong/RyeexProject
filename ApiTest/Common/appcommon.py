@@ -193,8 +193,8 @@ class App(object):
     def assert_getdevicepagename(self, target_pagename, target_view):
         self.device_clickDID()
         self.assert_in_text(expecttext='page_name')
+
         if self.getdevice():
-            print("!!!!!!!!",self.getdevice())
             page_name = self.getdevice()[1]
             view_name = self.getdevice()[3]
             try:
@@ -290,7 +290,7 @@ class App(object):
     def getdevice(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
-        print("222222",text)
+        print("1111111",text)
         if len(text) != 0:
             try:
                 delta_ms =re.findall('"result":"delta_ms:(.*),cnt:',text)[0]
@@ -327,7 +327,6 @@ class App(object):
     def getresult(self):
         text = self.find_elementby(By.XPATH, "//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']").text
         text = text.encode("utf-8")
-        print(text)
         return text
 
     def assert_connect_status(self):
@@ -1118,15 +1117,15 @@ class App(object):
         self.log.debug(info + '设备初始化-点击home键')
         self.device_upslide()
         self.log.debug(info + '设备初始化-向上滑动')
-        self.saturn_inputclick("180", "290", "180", "290")
-        self.assert_getdevicepagename("setting_general", "list_view")
+        self.saturn_inputclick("180", "290", "180", "290")      #点击通用
+        self.assert_getdevicepagename("setting_general", "list_view")   #确认进入了通用页面
         self.log.debug(info + '设备初始化-点击General')
-        self.saturn_inputclick("180", "100", "180", "100")
-        self.assert_getdevicepagename("setting_view", "view/btn_ok")
-        self.log.debug(info + '设备初始化-点击AppView')
-        self.saturn_inputclick("180", "190", "180", "190")
+        self.saturn_inputclick("180", "100", "180", "100")      #点击进入布局页面
+        self.assert_getdevicepagename("setting_view", "view/btn_ok")    #确定是在布局页面
+        # self.log.debug(info + '设备初始化-点击AppView')    #
+        # self.saturn_inputclick("180", "190", "180", "190")  #选择网格
         self.log.debug(info + '设备初始化-点击Grid')
-        self.saturn_inputclick("180", "390", "180", "390")
+        self.saturn_inputclick("180", "390", "180", "390")  #点击确定
         self.assert_getdevicepagename("setting_general", "list_view")
         self.log.debug(info + '设备初始化-点击确认button')
         self.device_home()

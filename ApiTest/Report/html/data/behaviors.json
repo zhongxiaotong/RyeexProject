@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "设备自动化",
+    "children" : [ {
+      "name" : "模拟设备端业务流程",
+      "children" : [ {
+        "name" : "正常流程",
+        "children" : [ {
+          "name" : "切换表盘",
+          "uid" : "8fddf1ef868625a1",
+          "parentUid" : "3387dc62e4af2adadef8476b9075e35b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1636190623170,
+            "stop" : 1636190633490,
+            "duration" : 10320
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3387dc62e4af2adadef8476b9075e35b"
+      } ],
+      "uid" : "30ac7758577993fd49dcb90ee3d4ab43"
+    } ],
+    "uid" : "29954503155368fde2a8182b986c4dbc"
+  } ]
+}

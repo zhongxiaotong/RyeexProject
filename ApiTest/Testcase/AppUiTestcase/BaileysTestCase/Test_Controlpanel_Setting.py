@@ -58,14 +58,19 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.app.device_rightslide()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
         self.app.saturn_inputclick("300", "230", "300", "230")
         self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_surface")
 

@@ -60,7 +60,10 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
@@ -71,7 +74,9 @@ class TestClass:
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
 
 
@@ -82,8 +87,10 @@ class TestClass:
         self.app.device_upslide()
         self.app.device_downslide()
         self.app.device_downslide()
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 

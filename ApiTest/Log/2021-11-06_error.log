@@ -1,0 +1,8 @@
+[ERROR 2021-11-06 01:45:50]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_call
+[ERROR 2021-11-06 01:49:12]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify
+[ERROR 2021-11-06 01:56:18]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify
+[ERROR 2021-11-06 02:21:01]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-11-06 02:21:43]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-11-06 02:22:14]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[ERROR 2021-11-06 02:24:05]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[ERROR 2021-11-06 02:25:50]测试用例执行失败，请检查

@@ -1,0 +1,22 @@
+{
+  "7d4d601da90543a7da8437e3d96d374f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fddf1ef868625a1",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.",
+      "time" : {
+        "start" : 1636190623170,
+        "stop" : 1636190633490,
+        "duration" : 10320
+      }
+    } ]
+  }
+}

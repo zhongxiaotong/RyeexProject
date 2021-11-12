@@ -59,8 +59,12 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
 
+
+        self.app.device_home()
         self.app.device_longpress()
         self.app.assert_getdevicepagename('face_pick_page', 'slide_view_view')
         self.app.saturn_inputslide("320", "230", "60", "230")

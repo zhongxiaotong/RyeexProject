@@ -60,7 +60,10 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
 
         self.driver.keyevent(4)
@@ -68,8 +71,10 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
+        print("开始获取日志文件")
+        time.sleep(1)
         self.app.tv_getDevicesLog()
-        time.sleep(10)
+        time.sleep(15)
         self.app.adb_pull(self.uuid, self.info)
         filepath = self.app.getdevices_logpath(self.info)
         allure.attach.file(filepath, name="设备日志",  attachment_type=allure.attachment_type.CSV)

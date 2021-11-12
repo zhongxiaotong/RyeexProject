@@ -56,7 +56,7 @@ class TestClass:
     def test_bluetoothswitch(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
-        #
+
         # self.app.devices_click('SATURN_设备')
         # time.sleep(10)
 
@@ -69,7 +69,7 @@ class TestClass:
         self.app.tv_bluetoothcontrol()      #开关蓝牙
         self.app.click_prompt_box()
         self.app.devices_click('SATURN_APP')
-        print("1111")
+
         self.app.tv_bluetoothcontrol()      #开关蓝牙
         self.app.click_prompt_box()
 

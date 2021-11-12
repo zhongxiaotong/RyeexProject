@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testcase.AppUiTestcase.BaileysTestCase",
+    "children" : [ {
+      "name" : "Test_SwitchFace",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "切换表盘",
+          "uid" : "8fddf1ef868625a1",
+          "parentUid" : "edf3c443e350eae47b4bf2e1e8009d70",
+          "status" : "broken",
+          "time" : {
+            "start" : 1636190623170,
+            "stop" : 1636190633490,
+            "duration" : 10320
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "edf3c443e350eae47b4bf2e1e8009d70"
+      } ],
+      "uid" : "57b30f4d7f1344e6fc8c0d9d05eb51bd"
+    } ],
+    "uid" : "c06dc5bb7e8527734038996dc1cae5e9"
+  } ]
+}

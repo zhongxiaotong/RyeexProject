@@ -53,23 +53,36 @@ class TestClass:
     @allure.title("血氧测试")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    # @pytest.mark.baileys
+    @pytest.mark.baileys
     def test_bloodoxygen(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
+        #
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.saturn_inputclick("180", "250", "180", "250")    #点击进入血氧
         time.sleep(3)
-        self.app.assert_getdevicepagename("spo2", "view_unwear")    #确认实在血氧页面
-        time.sleep(15)
+        # "view_name为view_measure"
 
+        self.app.device_clickDID()
+        text=self.app.getdevice()
+        if text[1]=="spo2":
+            if text[3]=="view_unwear":
+                self.app.assert_getdevicepagename("spo2", "view_unwear")    #确认在血氧页面----无值的情况
+            elif text[3]=="view_measure":
+                self.app.assert_getdevicepagename("spo2", "view_measure")   #确认在血氧页面---有值的情况
+        time.sleep(15)
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
         self.driver.keyevent(4)

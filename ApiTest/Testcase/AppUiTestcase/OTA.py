@@ -15,7 +15,7 @@ from ApiTest.Common.Readyaml import Yamlc
 from ApiTest.Common.Log import MyLog
 from selenium.webdriver.common.by import By
 
-current_path = os.path.abspath(__file__)
+current_path = os.path.abspath(__file__) #C:\Test_Script\Project-Pycharm\ApiTest\Testcase\AppUiTestcase\OTA.py
 father_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + "../..")                                  #获取上上级目录
 yaml_path = father_path + "\\" + "Testdata\\app.yaml"
 

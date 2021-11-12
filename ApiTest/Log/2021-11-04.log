@@ -1,0 +1,572 @@
+[DEBUG 2021-11-04 01:07:50]解压zip包并且重命名
+[DEBUG 2021-11-04 01:07:54]获取差分资源包
+[DEBUG 2021-11-04 01:07:54]唤醒解锁屏幕
+[DEBUG 2021-11-04 01:07:55]下发固件/资源到手机
+[DEBUG 2021-11-04 01:07:55]每次保存最新的资源包到Recent_res
+[INFO 2021-11-04 01:07:55]********TEST START** ******
+[DEBUG 2021-11-04 01:08:03]初始化测试数据
+[DEBUG 2021-11-04 01:15:26]初始化测试数据
+[DEBUG 2021-11-04 01:36:03]初始化测试数据
+[DEBUG 2021-11-04 01:36:37]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 01:36:46]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 01:36:54]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 01:37:03]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 01:37:08]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 01:37:14]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 01:37:22]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 01:37:27]Process-1设备初始化-返回
+[DEBUG 2021-11-04 01:37:32]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 01:37:41]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 01:37:46]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 01:37:51]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 01:37:56]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 01:37:58]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 01:38:06]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 01:38:15]Process-1设备初始化-点击AppView
+[DEBUG 2021-11-04 01:38:21]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 01:38:29]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 01:38:33]Process-1设备初始化-返回
+[DEBUG 2021-11-04 01:38:38]Process-1设备初始化-返回
+[DEBUG 2021-11-04 01:38:43]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 01:42:07]初始化测试数据
+[DEBUG 2021-11-04 01:44:11]初始化测试数据
+[DEBUG 2021-11-04 01:45:24]初始化测试数据
+[DEBUG 2021-11-04 01:46:42]初始化测试数据
+[DEBUG 2021-11-04 01:48:48]初始化测试数据
+[DEBUG 2021-11-04 01:49:46]初始化测试数据
+[DEBUG 2021-11-04 01:50:35]初始化测试数据
+[ERROR 2021-11-04 01:51:13]验证失败：当前page_name为alarm，view_name为view_empty；预期page_name为appctr_timer,view_name为list_view
+[DEBUG 2021-11-04 01:51:16]初始化测试数据
+[DEBUG 2021-11-04 01:53:10]初始化测试数据
+[DEBUG 2021-11-04 01:53:57]初始化测试数据
+[DEBUG 2021-11-04 01:55:27]初始化测试数据
+[ERROR 2021-11-04 01:56:09]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为setting_page,view_name为list_view
+[DEBUG 2021-11-04 01:56:11]初始化测试数据
+[ERROR 2021-11-04 01:56:45]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 01:56:47]初始化测试数据
+[ERROR 2021-11-04 01:57:18]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 01:57:21]初始化测试数据
+[ERROR 2021-11-04 01:58:29]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 01:58:31]初始化测试数据
+[ERROR 2021-11-04 01:59:09]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 01:59:11]初始化测试数据
+[ERROR 2021-11-04 01:59:38]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 01:59:40]初始化测试数据
+[ERROR 2021-11-04 02:00:09]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 02:00:11]初始化测试数据
+[ERROR 2021-11-04 02:00:38]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为face_pick_page,view_name为slide_view_view
+[DEBUG 2021-11-04 02:00:40]初始化测试数据
+[DEBUG 2021-11-04 02:01:23]初始化测试数据
+[ERROR 2021-11-04 02:02:26]验证失败：当前page_name为sport_list，view_name为view_all_type；预期page_name为weather,view_name为online_weather
+[DEBUG 2021-11-04 02:02:28]初始化测试数据
+[DEBUG 2021-11-04 02:03:49]初始化测试数据
+[ERROR 2021-11-04 02:04:17]测试用例执行失败，请检查
+[INFO 2021-11-04 02:04:17]*********TEST END*********
+[INFO 2021-11-04 09:57:26]********TEST START** ******
+[DEBUG 2021-11-04 09:57:29]初始化测试数据
+[DEBUG 2021-11-04 09:57:58]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 09:58:05]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 09:58:14]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 09:58:21]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 09:58:27]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 09:58:32]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 09:58:40]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 09:58:44]Process-1设备初始化-返回
+[DEBUG 2021-11-04 09:58:49]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 09:58:57]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 09:59:03]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 09:59:08]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 09:59:12]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 09:59:14]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 09:59:22]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 09:59:29]Process-1设备初始化-点击AppView
+[DEBUG 2021-11-04 09:59:34]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 09:59:42]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 09:59:46]Process-1设备初始化-返回
+[DEBUG 2021-11-04 09:59:50]Process-1设备初始化-返回
+[DEBUG 2021-11-04 09:59:54]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 10:04:59]初始化测试数据
+[INFO 2021-11-04 10:07:54]********TEST START** ******
+[DEBUG 2021-11-04 10:07:57]初始化测试数据
+[DEBUG 2021-11-04 10:08:25]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 10:08:33]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 10:08:42]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 10:08:50]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 10:08:55]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 10:09:00]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 10:09:08]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 10:09:12]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:09:18]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 10:09:25]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 10:09:29]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 10:09:35]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 10:09:39]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 10:09:41]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 10:09:49]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 10:09:57]Process-1设备初始化-点击AppView
+[DEBUG 2021-11-04 10:10:02]Process-1设备初始化-点击Grid
+[INFO 2021-11-04 10:18:01]********TEST START** ******
+[DEBUG 2021-11-04 10:18:04]初始化测试数据
+[DEBUG 2021-11-04 10:20:16]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 10:20:24]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 10:20:32]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 10:20:40]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 10:20:45]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 10:20:51]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 10:20:59]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 10:21:03]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:21:09]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 10:21:17]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 10:21:22]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 10:21:27]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 10:21:31]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 10:21:33]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 10:21:41]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 10:21:48]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 10:21:56]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 10:22:00]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:22:04]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:22:09]Process-1设备初始化成功---------------------------------------------------------------------
+[ERROR 2021-11-04 10:22:21]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 10:22:23]初始化测试数据
+[DEBUG 2021-11-04 10:24:25]初始化测试数据
+[DEBUG 2021-11-04 10:25:42]初始化测试数据
+[DEBUG 2021-11-04 10:26:57]初始化测试数据
+[DEBUG 2021-11-04 10:28:55]初始化测试数据
+[DEBUG 2021-11-04 10:29:47]初始化测试数据
+[DEBUG 2021-11-04 10:30:30]初始化测试数据
+[DEBUG 2021-11-04 10:32:41]初始化测试数据
+[DEBUG 2021-11-04 10:34:32]初始化测试数据
+[DEBUG 2021-11-04 10:35:23]初始化测试数据
+[DEBUG 2021-11-04 10:36:40]初始化测试数据
+[DEBUG 2021-11-04 10:41:37]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 10:41:44]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 10:41:52]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 10:41:59]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 10:42:03]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 10:42:09]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 10:42:16]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 10:42:20]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:42:26]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 10:42:33]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 10:42:38]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 10:42:43]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 10:42:47]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 10:42:49]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 10:42:57]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 10:43:04]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 10:43:12]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 10:43:16]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:43:20]Process-1设备初始化-返回
+[DEBUG 2021-11-04 10:43:23]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 10:43:26]初始化测试数据
+[DEBUG 2021-11-04 10:45:35]初始化测试数据
+[DEBUG 2021-11-04 10:47:23]初始化测试数据
+[DEBUG 2021-11-04 10:50:57]初始化测试数据
+[DEBUG 2021-11-04 10:52:09]初始化测试数据
+[DEBUG 2021-11-04 10:53:49]初始化测试数据
+[DEBUG 2021-11-04 10:55:12]初始化测试数据
+[DEBUG 2021-11-04 10:55:55]初始化测试数据
+[DEBUG 2021-11-04 10:56:40]初始化测试数据
+[DEBUG 2021-11-04 10:58:00]初始化测试数据
+[DEBUG 2021-11-04 10:59:18]初始化测试数据
+[INFO 2021-11-04 10:59:46]*********TEST END*********
+[INFO 2021-11-04 11:08:46]********TEST START** ******
+[INFO 2021-11-04 11:08:47]********TEST START** ******
+[DEBUG 2021-11-04 11:08:49]初始化测试数据
+[DEBUG 2021-11-04 11:08:49]初始化测试数据
+[INFO 2021-11-04 11:09:01]*********TEST END*********
+[INFO 2021-11-04 11:09:31]*********TEST END*********
+[INFO 2021-11-04 11:13:07]********TEST START** ******
+[DEBUG 2021-11-04 11:13:09]初始化测试数据
+[DEBUG 2021-11-04 11:15:16]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 11:15:23]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 11:15:31]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 11:15:39]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 11:15:44]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 11:15:50]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 11:15:58]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 11:16:02]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:16:08]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 11:16:15]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 11:16:20]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 11:16:26]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 11:16:30]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 11:16:32]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 11:16:40]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 11:16:48]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 11:16:56]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 11:17:00]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:17:04]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:17:08]Process-1设备初始化成功---------------------------------------------------------------------
+[ERROR 2021-11-04 11:17:20]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为alarm,view_name为view_empty
+[INFO 2021-11-04 11:17:21]*********TEST END*********
+[DEBUG 2021-11-04 11:21:28]初始化测试数据
+[DEBUG 2021-11-04 11:21:58]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 11:22:06]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 11:22:15]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 11:22:22]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 11:22:28]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 11:22:33]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 11:22:41]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 11:22:45]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:22:50]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 11:22:57]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 11:23:02]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 11:23:08]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 11:23:12]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 11:23:14]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 11:23:22]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 11:23:29]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 11:23:37]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 11:23:41]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:23:44]Process-1设备初始化-返回
+[DEBUG 2021-11-04 11:23:48]Process-1设备初始化成功---------------------------------------------------------------------
+[ERROR 2021-11-04 11:24:01]验证失败：当前page_name为appctr_stopwatch，view_name为view_start；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 11:24:28]初始化测试数据
+[ERROR 2021-11-04 11:24:51]验证失败：当前page_name为appctr_stopwatch，view_name为view_start；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 11:24:56]初始化测试数据
+[ERROR 2021-11-04 11:28:43]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为alarm,view_name为view_full
+[DEBUG 2021-11-04 11:32:16]初始化测试数据
+[ERROR 2021-11-04 11:32:50]验证失败：当前page_name为appctr_stopwatch，view_name为view_start；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 11:33:09]初始化测试数据
+[DEBUG 2021-11-04 11:34:01]初始化测试数据
+[ERROR 2021-11-04 11:35:36]验证失败：当前page_name为alarm，view_name为view_detail；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 11:36:17]初始化测试数据
+[ERROR 2021-11-04 11:36:51]验证失败：当前page_name为appctr_stopwatch，view_name为view_start；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 11:37:12]初始化测试数据
+[DEBUG 2021-11-04 11:39:35]初始化测试数据
+[ERROR 2021-11-04 11:39:45]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-11-04 11:39:54]初始化测试数据
+[ERROR 2021-11-04 11:40:04]设备已断开连接2C:AA:8E:09:D0:CD  正在连接...
+[DEBUG 2021-11-04 11:40:22]初始化测试数据
+[ERROR 2021-11-04 11:41:58]验证失败：当前page_name为alarm，view_name为view_detail；预期page_name为alarm,view_name为view_empty
+[DEBUG 2021-11-04 11:42:25]初始化测试数据
+[INFO 2021-11-04 11:45:19]********TEST START** ******
+[INFO 2021-11-04 11:45:20]********TEST START** ******
+[DEBUG 2021-11-04 11:45:22]初始化测试数据
+[DEBUG 2021-11-04 11:45:22]初始化测试数据
+[INFO 2021-11-04 11:45:35]*********TEST END*********
+[INFO 2021-11-04 11:46:04]*********TEST END*********
+[INFO 2021-11-04 11:46:58]********TEST START** ******
+[INFO 2021-11-04 11:46:59]********TEST START** ******
+[DEBUG 2021-11-04 11:47:01]初始化测试数据
+[DEBUG 2021-11-04 11:47:01]初始化测试数据
+[INFO 2021-11-04 11:47:13]*********TEST END*********
+[INFO 2021-11-04 11:51:50]********TEST START** ******
+[INFO 2021-11-04 11:51:50]********TEST START** ******
+[DEBUG 2021-11-04 11:51:53]初始化测试数据
+[DEBUG 2021-11-04 11:51:53]初始化测试数据
+[INFO 2021-11-04 11:52:05]*********TEST END*********
+[INFO 2021-11-04 11:52:34]*********TEST END*********
+[INFO 2021-11-04 11:53:50]********TEST START** ******
+[INFO 2021-11-04 11:53:50]********TEST START** ******
+[DEBUG 2021-11-04 11:53:52]初始化测试数据
+[DEBUG 2021-11-04 11:53:53]初始化测试数据
+[INFO 2021-11-04 11:54:06]*********TEST END*********
+[INFO 2021-11-04 11:54:34]*********TEST END*********
+[INFO 2021-11-04 11:55:26]********TEST START** ******
+[INFO 2021-11-04 11:55:27]********TEST START** ******
+[DEBUG 2021-11-04 11:55:29]初始化测试数据
+[DEBUG 2021-11-04 11:55:29]初始化测试数据
+[INFO 2021-11-04 11:55:42]*********TEST END*********
+[INFO 2021-11-04 11:56:11]*********TEST END*********
+[INFO 2021-11-04 11:57:10]********TEST START** ******
+[INFO 2021-11-04 11:57:11]********TEST START** ******
+[DEBUG 2021-11-04 11:57:13]初始化测试数据
+[DEBUG 2021-11-04 11:57:13]初始化测试数据
+[INFO 2021-11-04 11:57:26]*********TEST END*********
+[INFO 2021-11-04 11:57:55]*********TEST END*********
+[INFO 2021-11-04 12:01:37]********TEST START** ******
+[INFO 2021-11-04 12:01:38]********TEST START** ******
+[DEBUG 2021-11-04 12:01:40]初始化测试数据
+[INFO 2021-11-04 12:01:52]********TEST START** ******
+[DEBUG 2021-11-04 12:01:54]初始化测试数据
+[ERROR 2021-11-04 12:02:36]页面未能找到该元素//*[@text="2C:AA:8E:09:D0:CD"]
+[INFO 2021-11-04 12:02:38]*********TEST END*********
+[INFO 2021-11-04 12:21:51]********TEST START** ******
+[INFO 2021-11-04 12:21:51]********TEST START** ******
+[DEBUG 2021-11-04 12:21:53]初始化测试数据
+[DEBUG 2021-11-04 12:21:54]初始化测试数据
+[INFO 2021-11-04 12:22:05]*********TEST END*********
+[INFO 2021-11-04 12:22:35]*********TEST END*********
+[INFO 2021-11-04 14:14:50]********TEST START** ******
+[INFO 2021-11-04 14:14:51]********TEST START** ******
+[DEBUG 2021-11-04 14:14:53]初始化测试数据
+[DEBUG 2021-11-04 14:14:54]初始化测试数据
+[INFO 2021-11-04 14:15:05]*********TEST END*********
+[INFO 2021-11-04 14:15:35]*********TEST END*********
+[INFO 2021-11-04 14:17:39]********TEST START** ******
+[DEBUG 2021-11-04 14:17:42]初始化测试数据
+[DEBUG 2021-11-04 14:19:46]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 14:19:54]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 14:20:01]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 14:20:09]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 14:20:14]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 14:20:19]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 14:20:26]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 14:20:30]Process-1设备初始化-返回
+[DEBUG 2021-11-04 14:20:35]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 14:20:42]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 14:20:47]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 14:20:52]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 14:20:56]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 14:20:58]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 14:21:05]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 14:21:13]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 14:21:21]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 14:21:24]Process-1设备初始化-返回
+[DEBUG 2021-11-04 14:21:28]Process-1设备初始化-返回
+[DEBUG 2021-11-04 14:21:32]Process-1设备初始化成功---------------------------------------------------------------------
+[INFO 2021-11-04 14:25:07]*********TEST END*********
+[INFO 2021-11-04 15:25:39]********TEST START** ******
+[DEBUG 2021-11-04 15:25:41]初始化测试数据
+[DEBUG 2021-11-04 15:26:14]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 15:26:21]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 15:26:29]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 15:26:37]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 15:26:42]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 15:26:47]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 15:26:55]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 15:26:59]Process-1设备初始化-返回
+[DEBUG 2021-11-04 15:27:04]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 15:27:12]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 15:27:18]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 15:27:23]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 15:27:27]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 15:27:29]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 15:27:36]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 15:27:44]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 15:27:51]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 15:27:55]Process-1设备初始化-返回
+[DEBUG 2021-11-04 15:27:59]Process-1设备初始化-返回
+[DEBUG 2021-11-04 15:28:03]Process-1设备初始化成功---------------------------------------------------------------------
+[INFO 2021-11-04 15:32:01]*********TEST END*********
+[INFO 2021-11-04 15:55:44]********TEST START** ******
+[INFO 2021-11-04 15:55:45]********TEST START** ******
+[DEBUG 2021-11-04 15:55:47]初始化测试数据
+[DEBUG 2021-11-04 15:55:48]初始化测试数据
+[INFO 2021-11-04 15:55:59]*********TEST END*********
+[INFO 2021-11-04 16:01:16]********TEST START** ******
+[INFO 2021-11-04 16:01:16]********TEST START** ******
+[DEBUG 2021-11-04 16:01:18]初始化测试数据
+[DEBUG 2021-11-04 16:01:19]初始化测试数据
+[DEBUG 2021-11-04 16:01:30]初始化测试数据
+[DEBUG 2021-11-04 16:01:36]初始化测试数据
+[DEBUG 2021-11-04 16:01:42]初始化测试数据
+[DEBUG 2021-11-04 16:01:47]初始化测试数据
+[DEBUG 2021-11-04 16:01:52]初始化测试数据
+[INFO 2021-11-04 16:02:16]********TEST START** ******
+[DEBUG 2021-11-04 16:02:18]初始化测试数据
+[DEBUG 2021-11-04 16:02:54]初始化测试数据
+[INFO 2021-11-04 16:03:44]********TEST START** ******
+[DEBUG 2021-11-04 16:03:47]初始化测试数据
+[DEBUG 2021-11-04 16:05:54]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 16:06:01]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 16:06:09]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 16:06:16]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 16:06:22]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 16:06:27]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 16:06:34]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 16:06:38]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:06:43]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 16:06:51]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 16:06:55]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 16:07:01]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 16:07:05]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 16:07:07]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 16:07:14]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 16:07:22]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 16:07:29]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 16:07:33]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:07:36]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:07:40]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 16:11:05]初始化测试数据
+[DEBUG 2021-11-04 16:12:34]初始化测试数据
+[DEBUG 2021-11-04 16:14:35]初始化测试数据
+[DEBUG 2021-11-04 16:15:47]初始化测试数据
+[DEBUG 2021-11-04 16:17:02]初始化测试数据
+[DEBUG 2021-11-04 16:19:00]初始化测试数据
+[DEBUG 2021-11-04 16:19:50]初始化测试数据
+[DEBUG 2021-11-04 16:20:31]初始化测试数据
+[DEBUG 2021-11-04 16:22:45]初始化测试数据
+[DEBUG 2021-11-04 16:24:38]初始化测试数据
+[ERROR 2021-11-04 16:25:16]Response验证失败，实际返回结果BleError{code=2, detailCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果page_name
+[DEBUG 2021-11-04 16:25:18]初始化测试数据
+[DEBUG 2021-11-04 16:26:19]初始化测试数据
+[DEBUG 2021-11-04 16:27:39]初始化测试数据
+[DEBUG 2021-11-04 16:32:29]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 16:32:36]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 16:32:43]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 16:32:51]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 16:32:56]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 16:33:01]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 16:33:09]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 16:33:14]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:33:19]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 16:33:27]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 16:33:32]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 16:33:37]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 16:33:41]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 16:33:43]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 16:33:50]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 16:33:58]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 16:34:05]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 16:34:10]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:34:14]Process-1设备初始化-返回
+[DEBUG 2021-11-04 16:34:17]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 16:34:20]初始化测试数据
+[DEBUG 2021-11-04 16:36:23]初始化测试数据
+[DEBUG 2021-11-04 16:38:12]初始化测试数据
+[DEBUG 2021-11-04 16:40:58]初始化测试数据
+[DEBUG 2021-11-04 16:42:08]初始化测试数据
+[DEBUG 2021-11-04 16:43:47]初始化测试数据
+[ERROR 2021-11-04 16:44:23]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[DEBUG 2021-11-04 16:44:25]初始化测试数据
+[ERROR 2021-11-04 16:44:51]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[DEBUG 2021-11-04 16:44:54]初始化测试数据
+[DEBUG 2021-11-04 16:45:38]初始化测试数据
+[ERROR 2021-11-04 16:46:40]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[DEBUG 2021-11-04 16:46:42]初始化测试数据
+[DEBUG 2021-11-04 16:47:59]初始化测试数据
+[INFO 2021-11-04 16:48:27]*********TEST END*********
+[DEBUG 2021-11-04 17:09:31]初始化测试数据
+[INFO 2021-11-04 17:33:05]********TEST START** ******
+[INFO 2021-11-04 17:33:05]********TEST START** ******
+[DEBUG 2021-11-04 17:33:08]初始化测试数据
+[DEBUG 2021-11-04 17:33:08]初始化测试数据
+[DEBUG 2021-11-04 17:33:22]初始化测试数据
+[DEBUG 2021-11-04 17:33:28]初始化测试数据
+[INFO 2021-11-04 17:33:43]********TEST START** ******
+[DEBUG 2021-11-04 17:33:46]初始化测试数据
+[DEBUG 2021-11-04 17:34:22]初始化测试数据
+[INFO 2021-11-04 17:34:31]********TEST START** ******
+[DEBUG 2021-11-04 17:34:33]初始化测试数据
+[DEBUG 2021-11-04 17:37:53]初始化测试数据
+[ERROR 2021-11-04 17:38:30]验证失败：当前page_name为hrm，view_name为view_record；预期page_name为hrm,view_name为view_unwear
+[DEBUG 2021-11-04 17:38:33]初始化测试数据
+[ERROR 2021-11-04 17:40:44]页面未能找到该元素：请在设备上点击确认
+[DEBUG 2021-11-04 17:40:46]初始化测试数据
+[ERROR 2021-11-04 17:41:55]页面未能找到该元素：请在设备上点击确认
+[DEBUG 2021-11-04 17:41:57]初始化测试数据
+[INFO 2021-11-04 17:44:17]********TEST START** ******
+[DEBUG 2021-11-04 17:44:19]初始化测试数据
+[DEBUG 2021-11-04 17:47:42]初始化测试数据
+[ERROR 2021-11-04 17:48:21]Response验证失败，实际返回结果BleError{code=2, detailCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果page_name
+[DEBUG 2021-11-04 17:48:23]初始化测试数据
+[DEBUG 2021-11-04 17:49:55]初始化测试数据
+[DEBUG 2021-11-04 17:50:40]初始化测试数据
+[INFO 2021-11-04 17:52:06]*********TEST END*********
+[INFO 2021-11-04 17:56:11]********TEST START** ******
+[DEBUG 2021-11-04 17:56:14]初始化测试数据
+[DEBUG 2021-11-04 17:58:20]Process-1设备初始化-向右滑动
+[DEBUG 2021-11-04 17:58:28]Process-1设备初始化-点击设置
+[DEBUG 2021-11-04 17:58:36]Process-1设备初始化-点击Display
+[DEBUG 2021-11-04 17:58:44]Process-1设备初始化-点击Screen
+[DEBUG 2021-11-04 17:58:49]Process-1设备初始化-选择15秒
+[DEBUG 2021-11-04 17:58:55]Process-1设备初始化-点击确认
+[DEBUG 2021-11-04 17:59:03]Process-1设备初始化-点击RaiseToWake
+[DEBUG 2021-11-04 17:59:08]Process-1设备初始化-返回
+[DEBUG 2021-11-04 17:59:13]Process-1设备初始化-点击Notification
+[DEBUG 2021-11-04 17:59:21]Process-1设备初始化-点击Sedentary
+[DEBUG 2021-11-04 17:59:26]Process-1设备初始化-点击GoalAchieved
+[DEBUG 2021-11-04 17:59:31]Process-1设备初始化-点击Drink
+[DEBUG 2021-11-04 17:59:36]Process-1设备初始化-点击home键
+[DEBUG 2021-11-04 17:59:38]Process-1设备初始化-向上滑动
+[DEBUG 2021-11-04 17:59:46]Process-1设备初始化-点击General
+[DEBUG 2021-11-04 17:59:54]Process-1设备初始化-点击Grid
+[DEBUG 2021-11-04 18:00:01]Process-1设备初始化-点击确认button
+[DEBUG 2021-11-04 18:00:05]Process-1设备初始化-返回
+[DEBUG 2021-11-04 18:00:10]Process-1设备初始化-返回
+[DEBUG 2021-11-04 18:00:14]Process-1设备初始化成功---------------------------------------------------------------------
+[DEBUG 2021-11-04 18:04:13]初始化测试数据
+[DEBUG 2021-11-04 18:05:46]初始化测试数据
+[DEBUG 2021-11-04 18:07:52]初始化测试数据
+[DEBUG 2021-11-04 18:09:06]初始化测试数据
+[DEBUG 2021-11-04 18:10:22]初始化测试数据
+[DEBUG 2021-11-04 18:12:23]初始化测试数据
+[DEBUG 2021-11-04 18:13:18]初始化测试数据
+[DEBUG 2021-11-04 18:14:02]初始化测试数据
+[ERROR 2021-11-04 18:16:01]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[DEBUG 2021-11-04 18:16:03]初始化测试数据
+[DEBUG 2021-11-04 18:20:14]初始化测试数据
+[DEBUG 2021-11-04 18:21:37]初始化测试数据
+[ERROR 2021-11-04 18:22:06]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[DEBUG 2021-11-04 18:22:08]初始化测试数据
+[ERROR 2021-11-04 18:24:11]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[DEBUG 2021-11-04 18:24:14]初始化测试数据
+[DEBUG 2021-11-04 18:25:24]初始化测试数据
+[ERROR 2021-11-04 18:26:25]验证失败：当前page_name为setting_display，view_name为list_view；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 18:26:27]初始化测试数据
+[ERROR 2021-11-04 18:27:39]页面未能找到该元素：请在设备上点击确认
+[DEBUG 2021-11-04 18:27:41]初始化测试数据
+[ERROR 2021-11-04 18:28:47]页面未能找到该元素：请在设备上点击确认
+[DEBUG 2021-11-04 18:28:49]初始化测试数据
+[ERROR 2021-11-04 18:29:47]页面未能找到该元素：请在设备上点击确认
+[DEBUG 2021-11-04 18:29:49]初始化测试数据
+[INFO 2021-11-04 18:36:16]********TEST START** ******
+[DEBUG 2021-11-04 18:36:19]初始化测试数据
+[ERROR 2021-11-04 18:37:18]页面未能找到该元素//*[@text="SATURN_设备"]
+[DEBUG 2021-11-04 18:37:21]初始化测试数据
+[ERROR 2021-11-04 18:39:09]页面未能找到该元素//*[@text="SATURN_设备"]
+[DEBUG 2021-11-04 18:39:11]初始化测试数据
+[INFO 2021-11-04 18:41:06]********TEST START** ******
+[DEBUG 2021-11-04 18:41:08]初始化测试数据
+[INFO 2021-11-04 18:55:54]********TEST START** ******
+[DEBUG 2021-11-04 18:56:01]初始化测试数据
+[ERROR 2021-11-04 19:00:13]验证失败：当前page_name为alarm，view_name为view_empty；预期page_name为home_page,view_name为home_id_down
+[DEBUG 2021-11-04 19:00:15]初始化测试数据
+[INFO 2021-11-04 19:12:20]********TEST START** ******
+[DEBUG 2021-11-04 19:12:23]初始化测试数据
+[DEBUG 2021-11-04 19:16:14]初始化测试数据
+[DEBUG 2021-11-04 19:17:55]初始化测试数据
+[DEBUG 2021-11-04 19:19:55]初始化测试数据
+[DEBUG 2021-11-04 19:21:07]初始化测试数据
+[DEBUG 2021-11-04 19:22:29]初始化测试数据
+[DEBUG 2021-11-04 19:24:38]初始化测试数据
+[DEBUG 2021-11-04 19:25:34]初始化测试数据
+[DEBUG 2021-11-04 19:26:27]初始化测试数据
+[DEBUG 2021-11-04 19:28:50]初始化测试数据
+[DEBUG 2021-11-04 19:30:46]初始化测试数据
+[DEBUG 2021-11-04 19:32:06]初始化测试数据
+[DEBUG 2021-11-04 19:36:43]初始化测试数据
+[DEBUG 2021-11-04 19:38:49]初始化测试数据
+[DEBUG 2021-11-04 19:40:44]初始化测试数据
+[DEBUG 2021-11-04 19:44:07]初始化测试数据
+[DEBUG 2021-11-04 19:45:23]初始化测试数据
+[DEBUG 2021-11-04 19:47:05]初始化测试数据
+[DEBUG 2021-11-04 19:48:36]初始化测试数据
+[DEBUG 2021-11-04 19:49:21]初始化测试数据
+[DEBUG 2021-11-04 19:50:05]初始化测试数据
+[DEBUG 2021-11-04 19:51:33]初始化测试数据
+[DEBUG 2021-11-04 19:52:53]初始化测试数据
+[INFO 2021-11-04 19:53:19]*********TEST END*********
+[INFO 2021-11-04 20:11:41]********TEST START** ******
+[DEBUG 2021-11-04 20:11:44]初始化测试数据
+[DEBUG 2021-11-04 20:17:17]初始化测试数据
+[DEBUG 2021-11-04 20:18:55]初始化测试数据
+[DEBUG 2021-11-04 20:21:00]初始化测试数据
+[DEBUG 2021-11-04 20:22:15]初始化测试数据
+[DEBUG 2021-11-04 20:23:40]初始化测试数据
+[DEBUG 2021-11-04 20:25:50]初始化测试数据
+[DEBUG 2021-11-04 20:26:47]初始化测试数据
+[DEBUG 2021-11-04 20:27:38]初始化测试数据
+[DEBUG 2021-11-04 20:29:59]初始化测试数据
+[DEBUG 2021-11-04 20:31:55]初始化测试数据
+[DEBUG 2021-11-04 20:33:15]初始化测试数据
+[DEBUG 2021-11-04 20:37:53]初始化测试数据
+[DEBUG 2021-11-04 20:40:02]初始化测试数据
+[DEBUG 2021-11-04 20:41:56]初始化测试数据
+[DEBUG 2021-11-04 20:45:09]初始化测试数据
+[DEBUG 2021-11-04 20:46:26]初始化测试数据
+[ERROR 2021-11-04 20:48:06]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[DEBUG 2021-11-04 20:48:08]初始化测试数据
+[ERROR 2021-11-04 20:48:47]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[DEBUG 2021-11-04 20:48:49]初始化测试数据
+[ERROR 2021-11-04 20:49:20]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[DEBUG 2021-11-04 20:49:22]初始化测试数据
+[DEBUG 2021-11-04 20:50:04]初始化测试数据
+[ERROR 2021-11-04 20:51:08]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[DEBUG 2021-11-04 20:51:10]初始化测试数据
+[DEBUG 2021-11-04 20:52:26]初始化测试数据
+[INFO 2021-11-04 20:52:55]*********TEST END*********

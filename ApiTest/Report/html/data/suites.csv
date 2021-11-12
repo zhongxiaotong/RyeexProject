@@ -1,0 +1,2 @@
+"Status","Name","Duration in ms","Description"
+"broken","Testcase.AppUiTestcase.BaileysTestCase.Test_SwitchFace.TestClass#test_switchface","10320","1：长按表盘；2：左右切换表盘"

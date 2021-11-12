@@ -59,7 +59,10 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
@@ -80,10 +83,13 @@ class TestClass:
         self.app.saturn_inputclick("180", "270", "180", "270")
         self.app.assert_getdevicepagename("setting_notification", "list_view")
         # self.app.saturn_inputclick("180", "270", "180", "270")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
         self.app.device_clickDID()
@@ -94,6 +100,7 @@ class TestClass:
             self.app.device_clickDID()
             if count >= 200:
                 raise
+        self.app.device_upslide()
         self.app.device_home()
         self.app.device_upslide()
         self.app.device_upslide()
@@ -105,10 +112,13 @@ class TestClass:
         self.app.saturn_inputclick("180", "270", "180", "270")
         self.app.assert_getdevicepagename("setting_notification", "list_view")
         self.app.saturn_inputclick("180", "270", "180", "270")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("setting_page", "list_view")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 

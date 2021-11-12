@@ -1,0 +1,5 @@
+Test Start
+Process-1设备ID:SS6DTGGAWGZH7LCU
+Process-1安卓版本:11
+appium已启动
+Test End

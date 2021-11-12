@@ -59,10 +59,15 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.saturn_inputclick("180", "100", "180", "100")
@@ -76,8 +81,10 @@ class TestClass:
         self.app.assert_getdevicesstopwatchstatus(1, 1)
         self.app.saturn_inputclick("270", "400", "270", "400")
         self.app.assert_getdevicepagename('appctr_stopwatch', 'view_start')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 

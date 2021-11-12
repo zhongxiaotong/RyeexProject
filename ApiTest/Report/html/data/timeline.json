@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-2MD39EC",
+    "children" : [ {
+      "name" : "1448-MainThread",
+      "children" : [ {
+        "name" : "切换表盘",
+        "uid" : "8fddf1ef868625a1",
+        "parentUid" : "e46ef8421948013cc1ae596d5b6f4297",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636190623170,
+          "stop" : 1636190633490,
+          "duration" : 10320
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e46ef8421948013cc1ae596d5b6f4297"
+    } ],
+    "uid" : "c3381a32aad8dd8abd8e7dacc1437886"
+  } ]
+}

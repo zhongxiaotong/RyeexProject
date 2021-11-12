@@ -1,1 +1,40 @@
 [ERROR 2021-11-02 01:08:23]测试用例执行失败，请检查
+[ERROR 2021-11-02 14:47:16]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 14:49:37]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-11-02 14:57:11]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 14:57:39]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 14:58:35]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为spo2,view_name为view_unwear
+[ERROR 2021-11-02 15:08:32]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 15:09:34]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[ERROR 2021-11-02 15:10:03]页面未能找到该元素//*[@class='android.widget.TextView' and @resource-id='com.ryeex.sdk.demo:id/tv_connect_status']
+[ERROR 2021-11-02 15:11:08]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"ok"}g�
+[ERROR 2021-11-02 15:13:18]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"ok"}g�
+[ERROR 2021-11-02 15:23:31]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 15:25:08]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 15:25:48]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 15:30:29]验证失败：当前page_name为remind，view_name为view_app_notify；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-11-02 15:39:10]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 15:46:25]Response验证失败，实际返回结果BleError{code=27, detailCode=-1, message='wait json response timeout'}，预期返回结果ok
+[ERROR 2021-11-02 15:54:17]页面未能找到该元素：请在设备上点击确认
+[ERROR 2021-11-02 16:03:39]设备已断开连接2C:AA:8E:09:D1:90  正在连接...
+[ERROR 2021-11-02 16:05:34]验证失败：当前page_name为hrm，view_name为view_record；预期page_name为hrm,view_name为view_unwear
+[ERROR 2021-11-02 16:08:33]验证失败：当前page_name为hrm，view_name为view_record；预期page_name为hrm,view_name为view_unwear
+[ERROR 2021-11-02 16:21:07]Response验证失败，实际返回结果BleError{code=2, detailCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果ok
+[ERROR 2021-11-02 16:24:01]Response验证失败，实际返回结果BleError{code=2, detailCode=8, message='onConnectionStateChange status:8 newState:0'}，预期返回结果ok
+[ERROR 2021-11-02 16:31:13]验证失败：当前page_name为setting_poweroff，view_name为list_view；预期page_name为setting_general,view_name为list_view
+[ERROR 2021-11-02 16:39:22]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-11-02 17:02:42]Response验证失败，实际返回结果BleError{code=-1, detailCode=-1, message='timeout'}，预期返回结果com.ryeex.sdk.demo
+[ERROR 2021-11-02 17:05:32]Response验证失败，实际返回结果BleError{code=-1, detailCode=-1, message='timeout'}，预期返回结果com.ryeex.sdk.demo
+[ERROR 2021-11-02 17:09:52]Response验证失败，实际返回结果BleError{code=-1, detailCode=-1, message='timeout'}，预期返回结果com.ryeex.sdk.demo
+[ERROR 2021-11-02 17:21:22]页面未能找到该元素：请在设备上点击确认
+[ERROR 2021-11-02 19:01:46]验证失败：当前page_name为alarm，view_name为view_empty；预期page_name为appctr_timer,view_name为list_view
+[ERROR 2021-11-02 19:06:28]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-02 19:07:00]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:07:35]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:08:40]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:09:14]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:09:44]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:10:16]验证失败：当前page_name为remind，view_name为view_water；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:10:44]验证失败：当前page_name为findphone，view_name为view_online；预期page_name为face_pick_page,view_name为slide_view_view
+[ERROR 2021-11-02 19:12:26]验证失败：当前page_name为remind，view_name为view_water；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-02 19:14:11]测试用例执行失败，请检查

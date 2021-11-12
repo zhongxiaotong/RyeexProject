@@ -1,0 +1,52 @@
+[DEBUG 2021-11-06 01:08:04]解压zip包并且重命名
+[DEBUG 2021-11-06 01:08:08]获取差分资源包
+[DEBUG 2021-11-06 01:08:13]唤醒解锁屏幕
+[DEBUG 2021-11-06 01:08:15]下发固件/资源到手机
+[DEBUG 2021-11-06 01:08:15]每次保存最新的资源包到Recent_res
+[INFO 2021-11-06 01:08:15]********TEST START** ******
+[DEBUG 2021-11-06 01:08:23]初始化测试数据
+[DEBUG 2021-11-06 01:17:02]初始化测试数据
+[DEBUG 2021-11-06 01:37:07]初始化测试数据
+[DEBUG 2021-11-06 01:41:19]初始化测试数据
+[DEBUG 2021-11-06 01:42:55]初始化测试数据
+[DEBUG 2021-11-06 01:44:54]初始化测试数据
+[ERROR 2021-11-06 01:45:50]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_call
+[DEBUG 2021-11-06 01:45:52]初始化测试数据
+[DEBUG 2021-11-06 01:47:14]初始化测试数据
+[ERROR 2021-11-06 01:49:12]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify
+[DEBUG 2021-11-06 01:49:14]初始化测试数据
+[DEBUG 2021-11-06 01:50:13]初始化测试数据
+[DEBUG 2021-11-06 01:51:04]初始化测试数据
+[DEBUG 2021-11-06 01:53:29]初始化测试数据
+[DEBUG 2021-11-06 01:55:25]初始化测试数据
+[ERROR 2021-11-06 01:56:18]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为remind,view_name为view_app_notify
+[DEBUG 2021-11-06 01:56:20]初始化测试数据
+[DEBUG 2021-11-06 02:01:02]初始化测试数据
+[DEBUG 2021-11-06 02:03:07]初始化测试数据
+[DEBUG 2021-11-06 02:04:58]初始化测试数据
+[DEBUG 2021-11-06 02:18:01]初始化测试数据
+[DEBUG 2021-11-06 02:19:19]初始化测试数据
+[ERROR 2021-11-06 02:21:01]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[DEBUG 2021-11-06 02:21:03]初始化测试数据
+[ERROR 2021-11-06 02:21:43]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[DEBUG 2021-11-06 02:21:45]初始化测试数据
+[ERROR 2021-11-06 02:22:14]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[DEBUG 2021-11-06 02:22:16]初始化测试数据
+[DEBUG 2021-11-06 02:23:00]初始化测试数据
+[ERROR 2021-11-06 02:24:05]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[DEBUG 2021-11-06 02:24:07]初始化测试数据
+[DEBUG 2021-11-06 02:25:22]初始化测试数据
+[ERROR 2021-11-06 02:25:50]测试用例执行失败，请检查
+[INFO 2021-11-06 02:25:50]*********TEST END*********
+[INFO 2021-11-06 17:20:44]********TEST START** ******
+[INFO 2021-11-06 17:20:44]********TEST START** ******
+[DEBUG 2021-11-06 17:20:47]初始化测试数据
+[DEBUG 2021-11-06 17:20:47]初始化测试数据
+[INFO 2021-11-06 17:20:59]*********TEST END*********
+[INFO 2021-11-06 17:21:28]*********TEST END*********
+[INFO 2021-11-06 17:23:40]********TEST START** ******
+[INFO 2021-11-06 17:23:40]********TEST START** ******
+[DEBUG 2021-11-06 17:23:42]初始化测试数据
+[DEBUG 2021-11-06 17:23:43]初始化测试数据
+[INFO 2021-11-06 17:23:55]*********TEST END*********
+[INFO 2021-11-06 17:24:23]*********TEST END*********

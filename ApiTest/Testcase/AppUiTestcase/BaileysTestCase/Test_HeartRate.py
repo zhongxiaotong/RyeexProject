@@ -60,20 +60,28 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.app.device_upslide()
+
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.saturn_inputclick("180", "150", "180", "150")
-        time.sleep(2)
+        time.sleep(5)
+
+        # self.app.device_clickDID()
+        # text=self.app.getdevice()
+        # if text[]=="hrm":
+        #     if text
+        #
         self.app.assert_getdevicepagename("hrm", "view_unwear")
         time.sleep(15)
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
-        time.sleep(2)
-        self.app.device_home()
-
-        time.sleep(1)
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
         self.driver.keyevent(4)

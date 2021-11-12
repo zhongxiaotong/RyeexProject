@@ -56,14 +56,18 @@ class TestClass:
     @pytest.mark.baileys
     def test_controlpanel_donotdisturb(self):
         self.driver = self.app.open_application(self.init_port)
-        self.app.devices_bind(self.mac, self.fuction, self.info)
+        # self.app.devices_bind(self.mac, self.fuction, self.info)
 
-        # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        self.app.devices_click('SATURN_设备')
+        time.sleep(15)
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_home()
 
         self.app.device_rightslide()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
         self.app.saturn_inputclick("60", "180", "60", "180")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_surface")
         self.driver.keyevent(4)
@@ -78,6 +82,7 @@ class TestClass:
         self.app.device_rightslide()
         self.app.assert_getdevicepagename("home_page", "home_id_left")
         self.app.saturn_inputclick("60", "180", "60", "180")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_surface")
         self.driver.keyevent(4)
@@ -89,6 +94,7 @@ class TestClass:
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_设备')
         self.app.assert_getdevicepagename("remind", "view_app_notify")
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename("home_page", "home_id_surface")
 

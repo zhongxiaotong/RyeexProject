@@ -21,5 +21,6 @@ Model:
 
 
   - DEVICES:
+    #mac: 2C:AA:8E:09:D1:90
     mac: 2C:AA:8E:09:D0:CD
     #mac: 2C:AA:8E:09:D1:28

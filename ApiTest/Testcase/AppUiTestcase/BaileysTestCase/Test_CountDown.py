@@ -62,19 +62,23 @@ class TestClass:
         # time.sleep(10)
 
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
+        time.sleep(1)
         self.app.device_upslide()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
         self.app.saturn_inputclick("180", "200", "180", "200")
         self.app.assert_getdevicepagename('appctr_timer', 'list_view')  #判断进入了计时器页面
         self.app.saturn_inputclick("80", "180", "80", "180")    #选择进入1分钟选项
         self.app.assert_getdevicepagename('apptmr_inprog', 'lbl_hour/btn_stop/btn_status')  #判断是否进入了一分钟选项页面
-        time.sleep(60)
+        time.sleep(63)
         self.app.assert_getdevicepagename('apptmr_inprog', 'img_timeup/lbl_str/btn_stop/btn_s')
         self.app.saturn_inputclick("60", "400", "60", "400")
         self.app.assert_getdevicepagename('appctr_timer', 'list_view')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_down')
+        self.app.device_upslide()
         self.app.device_home()
         self.app.assert_getdevicepagename('home_page', 'home_id_surface')
 

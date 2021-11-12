@@ -65,6 +65,28 @@ class FeiShutalkChatbot(object):
         logging.debug('text类型：%s' % data)
         return self.post(data)
 
+    # def send_file(localfile, bot):
+    #     """发送文件，根据send_markdown改的，主要是将七牛的地址放进来"""
+    #     url = url = url_api['url_msg'] + bot
+    #     headers = {"Content-Type": "text/plain"}
+    #     key = localfile.split('/')[-1]
+    #     data = {
+    #         "msg_type": "post",
+    #         "content": {
+    #             "post": {
+    #                 "zh_cn": {
+    #                     "title": key.split('.')[0],
+    #                     "content": [[{"tag": "text",
+    #                                   "text": "数据链接: "},
+    #                                  {"tag": "a",
+    #                                   "text": "点击下载",
+    #                                   "href": qn_url(localfile)}]]
+    #                 }}}}
+    #     r = requests.post(url, headers=headers, json=data)
+    #     return r.text
+
+
+
     def post(self, data):
         """
         发送消息（内容UTF-8编码）

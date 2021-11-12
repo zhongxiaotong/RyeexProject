@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8fddf1ef868625a1",
+  "name" : "切换表盘",
+  "time" : {
+    "start" : 1636190623170,
+    "stop" : 1636190633490,
+    "duration" : 10320
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+} ]

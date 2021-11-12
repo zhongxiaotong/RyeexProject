@@ -59,7 +59,10 @@ class TestClass:
         self.app.devices_bind(self.mac, self.fuction, self.info)
 
         # self.app.devices_click('SATURN_设备')
-        # time.sleep(10)
+        # time.sleep(15)
+        # self.app.device_home()
+        # self.app.device_home()
+        # self.app.device_home()
 
         self.app.device_upslide()
         self.app.device_upslide()
@@ -72,6 +75,9 @@ class TestClass:
         self.app.device_upslide()
         self.app.saturn_inputclick("180", "290", "180", "290")       #点击通用按钮
         self.app.assert_getdevicepagename("setting_general", "list_view")       #判断进入通用页面
+
+        # print("现在点击重启按钮")
+        # time.sleep(0.5)
         self.app.saturn_inputclick("180", "380", "180", "380")      #点击重启按钮
         self.app.assert_getdevicepagename("setting_restart", "list_view")       #判断重启提醒页面是否启动
         self.app.devices_inputclick("270", "400", "270", "400")
