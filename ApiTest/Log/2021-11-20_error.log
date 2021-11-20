@@ -1,0 +1,45 @@
+[ERROR 2021-11-20 11:29:53]Process-3进出各个应用在第N次运行失败：2
+[ERROR 2021-11-20 11:33:49]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:33:49]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 11:34:50]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:34:50]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 11:36:25]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:36:25]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 11:38:36]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:38:36]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 11:39:23]页面未能找到该元素//android.widget.Button[@text='获取设备标识']
+[ERROR 2021-11-20 11:40:00]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:40:00]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 11:41:05]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为setting_page,view_name为list_view
+[ERROR 2021-11-20 11:41:05]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 12:04:15]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:3,page_name:setting_power_savingmode,reboot_cnt:1,view_name:label/btn_cancel/btn_o"}6�
+[ERROR 2021-11-20 12:04:15]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 12:05:04]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:3,page_name:setting_power_savingmode,reboot_cnt:1,view_name:label/btn_cancel/btn_o"}6�
+[ERROR 2021-11-20 12:14:14]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:3,page_name:setting_power_savingmode,reboot_cnt:1,view_name:label/btn_cancel/btn_o"}6�
+[ERROR 2021-11-20 12:14:14]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 12:15:04]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:3,page_name:setting_power_savingmode,reboot_cnt:1,view_name:label/btn_cancel/btn_o"}6�
+[ERROR 2021-11-20 14:19:31]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 14:21:24]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 14:22:53]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-20 14:22:53]Process-3进出各个应用在第N次运行失败：2
+[ERROR 2021-11-20 14:24:30]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 14:27:43]获取delta_ms/page_name/rebort_cnt失败{"id":0, "result":"delta_ms:123,cnt:3,page_name:setting_power_savingmode,reboot_cnt:1,view_name:label/btn_cancel/btn_o"}6�
+[ERROR 2021-11-20 14:27:43]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 14:28:53]验证失败：当前page_name为home_page，view_name为home_id_left；预期page_name为home_page,view_name为home_id_down
+[ERROR 2021-11-20 14:28:53]Process-3进出各个应用在第N次运行失败：2
+[ERROR 2021-11-20 15:12:36]验证失败：当前page_name为hrm，view_name为view_unwear；预期page_name为spo2,view_name为view_unwear
+[ERROR 2021-11-20 15:12:36]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:07:26]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为spo2,view_name为view_unwear
+[ERROR 2021-11-20 16:07:26]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:11:26]验证失败：当前page_name为meditation，view_name为view_start；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-11-20 16:11:26]Process-3进出各个应用在第N次运行失败：2
+[ERROR 2021-11-20 16:14:17]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为spo2,view_name为view_unwear
+[ERROR 2021-11-20 16:14:17]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:17:48]验证失败：当前page_name为spo2，view_name为view_unwear；预期page_name为spo2,view_name为view_measure
+[ERROR 2021-11-20 16:17:48]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:23:15]验证失败：当前page_name为meditation，view_name为view_start；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-11-20 16:23:15]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:27:53]验证失败：当前page_name为spo2，view_name为view_measure；预期page_name为spo2,view_name为view_unwear
+[ERROR 2021-11-20 16:27:53]Process-3进出各个应用在第N次运行失败：1
+[ERROR 2021-11-20 16:32:05]验证失败：当前page_name为meditation，view_name为view_start；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-11-20 16:32:05]Process-3进出各个应用在第N次运行失败：1

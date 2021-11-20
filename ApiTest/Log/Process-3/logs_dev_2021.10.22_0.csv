@@ -1,0 +1,4182 @@
+ite_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:29 1361715] [I] XINLI driver
+
+[10-22 15:35:29 1361727] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:29 1361727] [I] oops sta 0
+
+[10-22 15:35:29 1361737] [I] [page_home] use default home click hook
+
+[10-22 15:35:29 1361737] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:35:34 1362302] [I] XINLI driver
+
+[10-22 15:35:35 1362314] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:47 1363592] [I] menu click enter 37
+
+[10-22 15:35:47 1363602] [I] read begin w:364, h:754
+
+[10-22 15:35:47 1363602] [I] raw read 0xe0e0000, type:1
+
+[10-22 15:35:47 1363605] [I] XINLI driver
+
+[10-22 15:35:48 1363627] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:54 1364233] [I] XINLI driver
+
+[10-22 15:35:54 1364244] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:54 1364244] [I] oops sta 0
+
+[10-22 15:35:54 1364254] [I] [page_home] use default home click hook
+
+[10-22 15:35:54 1364254] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:35:59 1364750] [I] XINLI driver
+
+[10-22 15:35:59 1364762] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:35:59 1364762] [I] oops sta 0
+
+[10-22 15:35:59 1364772] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 15:35:59 1364772] [I] ## s=329728,t=heyUI ##
+
+[10-22 15:35:59 1364773] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 15:36:0 1364838] [I] ram:[24124, 543076], b:95, s:0
+
+[10-22 15:36:1 1364932] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:36:7 1365556] [I] XINLI driver
+
+[10-22 15:36:7 1365556] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:36:7 1365568] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:36:8 1365618] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:36:15 1366373] [I] menu click enter 23
+
+[10-22 15:36:15 1366382] [I] XINLI driver
+
+[10-22 15:36:15 1366407] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:36:15 1366407] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:36:15 1366407] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:36:15 1366407] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:36:16 1366458] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:36:16 1366460] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:36:16 1366460] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:36:16 1366460] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:36:16 1366460] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:36:22 1367062] [I] XINLI driver
+
+[10-22 15:36:22 1367073] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:36:22 1367073] [I] oops sta 0
+
+[10-22 15:36:22 1367083] [I] [page_home] use default home click hook
+
+[10-22 15:36:22 1367083] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:36:30 1367899] [I] menu click enter 24
+
+[10-22 15:36:30 1367902] [I] action_hrm_init
+
+[10-22 15:36:30 1367904] [I] XINLI driver
+
+[10-22 15:36:31 1367977] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:36:32 1368071] [I] [hrm]unweared:112
+
+[10-22 15:36:33 1368143] [I] action_hrm_measure_timeout
+
+[10-22 15:36:33 1368144] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:36:33 1368213] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:36:34 1368235] [I] oops sta 0
+
+[10-22 15:36:34 1368245] [I] [page_home] use default home click hook
+
+[10-22 15:36:34 1368245] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:36:42 1369059] [I] menu click enter 25
+
+[10-22 15:36:42 1369062] [I] --->[page_spo2] Enter.
+
+[10-22 15:36:42 1369063] [I] cache read begin 
+
+[10-22 15:36:42 1369063] [I] read begin w:368, h:448
+
+[10-22 15:36:42 1369063] [I] raw read 0xe560000, type:6
+
+[10-22 15:36:42 1369065] [I] XINLI driver
+
+[10-22 15:36:42 1369083] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:36:44 1369232] [I] [hrm]unweared:113
+
+[10-22 15:36:44 1369243] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:36:45 1369398] [I] oops sta 0
+
+[10-22 15:36:45 1369408] [I] [page_home] use default home click hook
+
+[10-22 15:36:45 1369408] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:36:46 1369418] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:36:53 1370200] [I] menu click enter 26
+
+[10-22 15:36:54 1370226] [I] [update_sleep_time]: last:1634888214, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:36:54 1370226] [I] sleep checksum 0x100
+
+[10-22 15:36:54 1370226] [I] cache read begin 
+
+[10-22 15:36:54 1370226] [I] read begin w:368, h:448
+
+[10-22 15:36:54 1370226] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:36:54 1370235] [I] XINLI driver
+
+[10-22 15:36:54 1370248] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:37:0 1370900] [I] XINLI driver
+
+[10-22 15:37:1 1370925] [I] oops sta 0
+
+[10-22 15:37:1 1370932] [I] ram:[24288, 370436], b:95, s:0
+
+[10-22 15:37:1 1370937] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:0 1376833] [I] ram:[24184, 370436], b:95, s:0
+
+[10-22 15:38:2 1377054] [I] XINLI driver
+
+[10-22 15:38:2 1377065] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:2 1377065] [I] oops sta 0
+
+[10-22 15:38:2 1377076] [I] [page_home] use default home click hook
+
+[10-22 15:38:2 1377076] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:38:4 1377284] [I] oops sta 0
+
+[10-22 15:38:5 1377326] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:38:6 1377504] [I] oops sta 0
+
+[10-22 15:38:11 1377997] [I] XINLI driver
+
+[10-22 15:38:11 1377997] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:38:11 1378009] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:12 1378059] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:38:20 1378884] [I] menu click enter 23
+
+[10-22 15:38:20 1378892] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:38:20 1378892] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:38:20 1378892] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:38:20 1378892] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:38:20 1378920] [I] XINLI driver
+
+[10-22 15:38:21 1378932] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:21 1378934] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:38:21 1378934] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:38:21 1378934] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:38:21 1378934] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:38:27 1379549] [I] XINLI driver
+
+[10-22 15:38:27 1379560] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:27 1379560] [I] oops sta 0
+
+[10-22 15:38:27 1379570] [I] [page_home] use default home click hook
+
+[10-22 15:38:27 1379570] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:38:36 1380439] [I] menu click enter 24
+
+[10-22 15:38:36 1380442] [I] action_hrm_init
+
+[10-22 15:38:36 1380444] [I] XINLI driver
+
+[10-22 15:38:36 1380458] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:37 1380613] [I] [hrm]unweared:114
+
+[10-22 15:38:38 1380643] [I] action_hrm_measure_timeout
+
+[10-22 15:38:38 1380643] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:38:39 1380753] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:38:39 1380775] [I] oops sta 0
+
+[10-22 15:38:39 1380785] [I] [page_home] use default home click hook
+
+[10-22 15:38:39 1380785] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:38:47 1381596] [I] menu click enter 25
+
+[10-22 15:38:47 1381599] [I] --->[page_spo2] Enter.
+
+[10-22 15:38:47 1381600] [I] cache read begin 
+
+[10-22 15:38:47 1381600] [I] read begin w:368, h:448
+
+[10-22 15:38:47 1381600] [I] raw read 0xe560000, type:6
+
+[10-22 15:38:47 1381602] [I] XINLI driver
+
+[10-22 15:38:47 1381620] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:38:49 1381769] [I] [hrm]unweared:115
+
+[10-22 15:38:50 1381844] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:38:51 1381935] [I] oops sta 0
+
+[10-22 15:38:51 1381945] [I] [page_home] use default home click hook
+
+[10-22 15:38:51 1381945] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:38:58 1382727] [I] menu click enter 26
+
+[10-22 15:38:59 1382753] [I] [update_sleep_time]: last:1634888339, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:38:59 1382753] [I] sleep checksum 0x100
+
+[10-22 15:38:59 1382753] [I] cache read begin 
+
+[10-22 15:38:59 1382753] [I] read begin w:368, h:448
+
+[10-22 15:38:59 1382753] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:38:59 1382757] [I] XINLI driver
+
+[10-22 15:38:59 1382773] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:0 1382869] [I] ram:[24080, 369988], b:95, s:0
+
+[10-22 15:39:0 1382881] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 140012], wrist:0, cal:0, dist:0, a:[1, 0, 173, 761, 95]
+
+[10-22 15:39:5 1383384] [I] XINLI driver
+
+[10-22 15:39:5 1383396] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:5 1383396] [I] oops sta 0
+
+[10-22 15:39:5 1383406] [I] [page_home] use default home click hook
+
+[10-22 15:39:5 1383406] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:39:9 1383812] [I] [ss_batt_do_sample] percent:94%, volt_mv:4275mv
+
+[10-22 15:39:11 1383946] [I] XINLI driver
+
+[10-22 15:39:11 1383958] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:16 1384488] [I] menu click enter 27
+
+[10-22 15:39:16 1384488] [I] [page sports] enter
+
+[10-22 15:39:16 1384488] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 15:39:16 1384499] [I] XINLI driver
+
+[10-22 15:39:16 1384501] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 15:39:16 1384501] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 15:39:16 1384502] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 15:39:16 1384502] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 15:39:16 1384503] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 15:39:16 1384503] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 15:39:16 1384504] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 15:39:16 1384505] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 15:39:16 1384505] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 15:39:16 1384506] [I] [sport checksum] 0x85230488
+
+[10-22 15:39:16 1384506] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 15:39:16 1384506] [I] read begin w:368, h:1200
+
+[10-22 15:39:16 1384506] [I] raw read 0xdf00000, type:9
+
+[10-22 15:39:17 1384561] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:23 1385225] [I] XINLI driver
+
+[10-22 15:39:24 1385237] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:24 1385237] [I] oops sta 0
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_0 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_1 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_2 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_3 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_4 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_5 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_6 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_7 has removed
+
+[10-22 15:39:24 1385247] [I] [sport_list]clone_list_8 has removed
+
+[10-22 15:39:24 1385247] [I] [page sport] window_list close
+
+[10-22 15:39:24 1385247] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:39:29 1385756] [I] XINLI driver
+
+[10-22 15:39:29 1385768] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:29 1385817] [I] enter SLP_SUSPECT
+
+[10-22 15:39:31 1385984] [I] [hrm]unweared:116
+
+[10-22 15:39:33 1386218] [I] [sleep_wake_up] from no weared, mode:0, sleep_now:1, sleep_last:0, sstd:113
+
+[10-22 15:39:34 1386283] [I] menu click enter 28
+
+[10-22 15:39:34 1386305] [I] cache read begin 
+
+[10-22 15:39:34 1386305] [I] read begin w:368, h:448
+
+[10-22 15:39:34 1386305] [I] raw read 0xdfe0000, type:15
+
+[10-22 15:39:34 1386309] [I] XINLI driver
+
+[10-22 15:39:34 1386326] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:40 1386883] [I] XINLI driver
+
+[10-22 15:39:40 1386894] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:40 1386894] [I] oops sta 0
+
+[10-22 15:39:40 1386904] [I] [page_home] use default home click hook
+
+[10-22 15:39:40 1386904] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 15:39:40 1386904] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:39:45 1387421] [I] XINLI driver
+
+[10-22 15:39:45 1387433] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:50 1387910] [I] menu click enter 35
+
+[10-22 15:39:50 1387915] [I] cache read begin 
+
+[10-22 15:39:50 1387915] [I] read begin w:368, h:448
+
+[10-22 15:39:50 1387915] [I] raw read 0xe180000, type:16
+
+[10-22 15:39:57 1388558] [I] XINLI driver
+
+[10-22 15:39:57 1388569] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:39:57 1388569] [I] oops sta 0
+
+[10-22 15:39:57 1388579] [I] [page_home] use default home click hook
+
+[10-22 15:39:57 1388579] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:40:0 1388871] [I] ram:[24184, 439740], b:94, s:0
+
+[10-22 15:40:0 1388903] [I] [system_profile_do_update] update succ. timestamp:1634888400 
+
+[10-22 15:40:3 1389125] [I] XINLI driver
+
+[10-22 15:40:3 1389137] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:10 1389873] [I] XINLI driver
+
+[10-22 15:40:11 1389981] [E] [display_te] te1 timeout
+
+[10-22 15:40:12 1390081] [E] [display_te] te2 timeout
+
+[10-22 15:40:12 1390081] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:12 1390081] [I] menu click enter 29
+
+[10-22 15:40:12 1390098] [I] cache read begin 
+
+[10-22 15:40:12 1390098] [I] read begin w:368, h:448
+
+[10-22 15:40:12 1390098] [I] raw read 0xe460000, type:19
+
+[10-22 15:40:13 1390206] [E] [display_te] te0 timeout
+
+[10-22 15:40:14 1390308] [E] [display_te] te0 timeout
+
+[10-22 15:40:16 1390487] [I] oops sta 0
+
+[10-22 15:40:16 1390497] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:40:18 1390646] [E] [display_te] te0 timeout
+
+[10-22 15:40:22 1391061] [I] XINLI driver
+
+[10-22 15:40:22 1391073] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:30 1391886] [I] menu click enter 30
+
+[10-22 15:40:30 1391886] [E] weatehr future is invalid
+
+[10-22 15:40:30 1391896] [I] cache read begin 
+
+[10-22 15:40:30 1391896] [I] read begin w:368, h:448
+
+[10-22 15:40:30 1391896] [I] raw read 0xe1e0000, type:3
+
+[10-22 15:40:30 1391899] [I] XINLI driver
+
+[10-22 15:40:30 1391917] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:36 1392456] [I] XINLI driver
+
+[10-22 15:40:36 1392467] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:36 1392467] [I] oops sta 0
+
+[10-22 15:40:36 1392477] [I] [page_home] use default home click hook
+
+[10-22 15:40:36 1392477] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:40:41 1393005] [I] XINLI driver
+
+[10-22 15:40:41 1393017] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:49 1393771] [I] menu click enter 31
+
+[10-22 15:40:49 1393774] [I] cache read begin 
+
+[10-22 15:40:49 1393775] [I] read begin w:368, h:448
+
+[10-22 15:40:49 1393775] [I] raw read 0xe400000, type:10
+
+[10-22 15:40:49 1393777] [I] XINLI driver
+
+[10-22 15:40:49 1393795] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:40:56 1394451] [I] oops sta 0
+
+[10-22 15:40:56 1394461] [I] [page_home] use default home click hook
+
+[10-22 15:40:56 1394461] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:41:0 1394912] [I] ram:[24184, 438816], b:94, s:0
+
+[10-22 15:41:2 1395040] [I] XINLI driver
+
+[10-22 15:41:2 1395052] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:41:12 1396068] [I] menu click enter 32
+
+[10-22 15:41:12 1396077] [I] read begin w:368, h:781
+
+[10-22 15:41:12 1396077] [I] raw read 0xe300000, type:11
+
+[10-22 15:41:12 1396080] [I] XINLI driver
+
+[10-22 15:41:13 1396200] [E] [display_te] te1 timeout
+
+[10-22 15:41:14 1396300] [E] [display_te] te2 timeout
+
+[10-22 15:41:14 1396300] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:41:15 1396400] [E] [display_te] te0 timeout
+
+[10-22 15:41:18 1396730] [I] oops sta 0
+
+[10-22 15:41:18 1396740] [I] [page_home] use default home click hook
+
+[10-22 15:41:18 1396740] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:41:20 1396887] [E] [display_te] te0 timeout
+
+[10-22 15:41:24 1397335] [I] XINLI driver
+
+[10-22 15:41:25 1397347] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:41:35 1398433] [I] menu click enter 33
+
+[10-22 15:41:35 1398438] [I] [page_music] Enter.
+
+[10-22 15:41:35 1398438] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 15:41:35 1398438] [E] music recv wrong play state = 0
+
+[10-22 15:41:35 1398439] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 15:41:35 1398442] [I] XINLI driver
+
+[10-22 15:41:36 1398470] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:41:42 1399091] [I] oops sta 0
+
+[10-22 15:41:42 1399101] [I] [page_home] use default home click hook
+
+[10-22 15:41:42 1399101] [I] [page_music] Close.
+
+[10-22 15:41:42 1399101] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:41:47 1399632] [I] XINLI driver
+
+[10-22 15:41:47 1399644] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:41:57 1400611] [I] menu click enter 34
+
+[10-22 15:41:57 1400617] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 15:41:57 1400617] [I] ## s=125056,t=heyUI ##
+
+[10-22 15:41:57 1400619] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 15:42:0 1400914] [I] ram:[24184, 530028], b:94, s:0
+
+[10-22 15:42:4 1401284] [I] XINLI driver
+
+[10-22 15:42:4 1401299] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:4 1401299] [I] oops sta 0
+
+[10-22 15:42:4 1401309] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:42:9 1401827] [I] XINLI driver
+
+[10-22 15:42:9 1401839] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:23 1403189] [I] menu click enter 36
+
+[10-22 15:42:23 1403194] [I] XINLI driver
+
+[10-22 15:42:23 1403221] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:30 1403922] [I] XINLI driver
+
+[10-22 15:42:30 1403934] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:30 1403934] [I] oops sta 0
+
+[10-22 15:42:30 1403944] [I] [page_home] use default home click hook
+
+[10-22 15:42:30 1403944] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:42:36 1404460] [I] XINLI driver
+
+[10-22 15:42:36 1404472] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:48 1405708] [I] XINLI driver
+
+[10-22 15:42:49 1405816] [E] [display_te] te1 timeout
+
+[10-22 15:42:50 1405916] [E] [display_te] te2 timeout
+
+[10-22 15:42:50 1405916] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:42:50 1405916] [I] menu click enter 37
+
+[10-22 15:42:50 1405923] [I] read begin w:364, h:754
+
+[10-22 15:42:50 1405923] [I] raw read 0xe0e0000, type:1
+
+[10-22 15:42:51 1406036] [E] [display_te] te0 timeout
+
+[10-22 15:42:52 1406138] [E] [display_te] te0 timeout
+
+[10-22 15:42:54 1406351] [I] oops sta 0
+
+[10-22 15:42:55 1406361] [I] [page_home] use default home click hook
+
+[10-22 15:42:55 1406361] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:42:56 1406510] [E] [display_te] te0 timeout
+
+[10-22 15:43:0 1406925] [I] ram:[23988, 498224], b:94, s:0
+
+[10-22 15:43:0 1406950] [I] oops sta 0
+
+[10-22 15:43:0 1406954] [I] XINLI driver
+
+[10-22 15:43:1 1406966] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:43:31 1410013] [I] [hrm]unweared:117
+
+[10-22 15:44:0 1412926] [I] ram:[24184, 498356], b:94, s:0
+
+[10-22 15:44:2 1413083] [I] XINLI driver
+
+[10-22 15:44:2 1413095] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:2 1413095] [I] oops sta 0
+
+[10-22 15:44:2 1413105] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 15:44:2 1413105] [I] ## s=329728,t=heyUI ##
+
+[10-22 15:44:2 1413106] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 15:44:3 1413175] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:44:5 1413441] [I] oops sta 0
+
+[10-22 15:44:10 1413929] [I] XINLI driver
+
+[10-22 15:44:10 1413929] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:44:10 1413941] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:11 1413991] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:44:19 1414792] [I] menu click enter 23
+
+[10-22 15:44:19 1414801] [I] XINLI driver
+
+[10-22 15:44:19 1414826] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:44:19 1414826] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:44:19 1414826] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:44:19 1414826] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:44:20 1414876] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:20 1414878] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:44:20 1414878] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:44:20 1414878] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:44:20 1414878] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:44:26 1415509] [I] XINLI driver
+
+[10-22 15:44:26 1415521] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:26 1415521] [I] oops sta 0
+
+[10-22 15:44:26 1415531] [I] [page_home] use default home click hook
+
+[10-22 15:44:26 1415531] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:44:35 1416388] [I] menu click enter 24
+
+[10-22 15:44:35 1416391] [I] action_hrm_init
+
+[110-22 15:44:35 1416393] [I] XINLI driver
+
+[10-22 15:44:36 1416466] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:36 1416561] [I] [hrm]unweared:118
+
+[10-22 15:44:37 1416643] [I] action_hrm_measure_timeout
+
+[10-22 15:44:37 1416644] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:44:38 1416702] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:44:38 1416718] [I] oops sta 0
+
+[10-22 15:44:38 1416728] [I] [page_home] use default home click hook
+
+[10-22 15:44:38 1416728] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:44:46 1417473] [I] menu click enter 25
+
+[10-22 15:44:46 1417476] [I] --->[page_spo2] Enter.
+
+[10-22 15:44:46 1417476] [I] cache read begin 
+
+[10-22 15:44:46 1417477] [I] read begin w:368, h:448
+
+[10-22 15:44:46 1417477] [I] raw read 0xe560000, type:6
+
+[10-22 15:44:46 1417479] [I] XINLI driver
+
+[10-22 15:44:46 1417497] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:44:47 1417646] [I] [hrm]unweared:119
+
+[10-22 15:44:48 1417750] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:44:50 1417908] [I] oops sta 0
+
+[10-22 15:44:50 1417918] [I] [page_home] use default home click hook
+
+[10-22 15:44:50 1417918] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:44:59 1418782] [I] menu click enter 26
+
+[10-22 15:44:59 1418807] [I] [update_sleep_time]: last:1634888699, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:44:59 1418807] [I] sleep checksum 0x100
+
+[10-22 15:44:59 1418807] [I] cache read begin 
+
+[10-22 15:44:59 1418807] [I] read begin w:368, h:448
+
+[10-22 15:44:59 1418807] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:44:59 1418812] [I] XINLI driver
+
+[10-22 15:44:59 1418828] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:0 1418923] [I] ram:[24184, 383060], b:94, s:0
+
+[10-22 15:45:6 1419500] [I] XINLI driver
+
+[10-22 15:45:6 1419511] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:6 1419511] [I] oops sta 0
+
+[10-22 15:45:6 1419521] [I] [page_home] use default home click hook
+
+[10-22 15:45:6 1419521] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:45:11 1420020] [I] XINLI driver
+
+[10-22 15:45:11 1420032] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:16 1420543] [I] XINLI driver
+
+[10-22 15:45:17 1420651] [E] [display_te] te1 timeout
+
+[10-22 15:45:18 1420751] [E] [display_te] te2 timeout
+
+[10-22 15:45:18 1420751] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:18 1420751] [I] menu click enter 27
+
+[10-22 15:45:18 1420751] [I] [page sports] enter
+
+[10-22 15:45:18 1420751] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 15:45:18 1420759] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 15:45:18 1420760] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 15:45:18 1420760] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 15:45:18 1420760] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 15:45:18 1420761] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 15:45:18 1420761] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 15:45:18 1420761] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 15:45:18 1420762] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 15:45:18 1420762] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 15:45:18 1420763] [I] [sport checksum] 0x85230488
+
+[10-22 15:45:18 1420763] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 15:45:18 1420763] [I] read begin w:368, h:1200
+
+[10-22 15:45:18 1420763] [I] raw read 0xdf00000, type:9
+
+[10-22 15:45:20 1420905] [E] [display_te] te0 timeout
+
+[10-22 15:45:21 1421007] [E] [display_te] te0 timeout
+
+[10-22 15:45:23 1421218] [I] oops sta 0
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_0 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_1 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_2 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_3 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_4 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_5 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_6 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_7 has removed
+
+[10-22 15:45:23 1421228] [I] [sport_list]clone_list_8 has removed
+
+[10-22 15:45:23 1421228] [I] [page sport] window_list close
+
+[10-22 15:45:23 1421228] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:45:24 1421374] [E] [display_te] te0 timeout
+
+[10-22 15:45:28 1421771] [I] XINLI driver
+
+[10-22 15:45:29 1421783] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:34 1422336] [I] menu click enter 28
+
+[10-22 15:45:34 1422357] [I] cache read begin 
+
+[10-22 15:45:34 1422357] [I] read begin w:368, h:448
+
+[10-22 15:45:34 1422357] [I] raw read 0xdfe0000, type:15
+
+[10-22 15:45:34 1422361] [I] XINLI driver
+
+[10-22 15:45:35 1422377] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:41 1422997] [I] XINLI driver
+
+[10-22 15:45:41 1423008] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:41 1423008] [I] oops sta 0
+
+[10-22 15:45:41 1423018] [I] [page_home] use default home click hook
+
+[10-22 15:45:41 1423018] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 15:45:41 1423018] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:45:46 1423532] [I] XINLI driver
+
+[10-22 15:45:46 1423544] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:51 1424039] [I] menu click enter 35
+
+[10-22 15:45:51 1424044] [I] cache read begin 
+
+[10-22 15:45:51 1424044] [I] read begin w:368, h:448
+
+[10-22 15:45:51 1424044] [I] raw read 0xe180000, type:16
+
+[10-22 15:45:58 1424692] [I] XINLI driver
+
+[10-22 15:45:58 1424703] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:45:58 1424703] [I] oops sta 0
+
+[10-22 15:45:58 1424713] [I] [page_home] use default home click hook
+
+[10-22 15:45:58 1424713] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:46:0 1424968] [I] ram:[24184, 442272], b:94, s:0
+
+[10-22 15:46:3 1425271] [I] XINLI driver
+
+[10-22 15:46:3 1425283] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:11 1426053] [I] menu click enter 29
+
+[10-22 15:46:11 1426076] [I] cache read begin 
+
+[10-22 15:46:11 1426076] [I] read begin w:368, h:448
+
+[10-22 15:46:11 1426076] [I] raw read 0xe460000, type:19
+
+[10-22 15:46:11 1426080] [I] XINLI driver
+
+[10-22 15:46:12 1426097] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:17 1426662] [I] XINLI driver
+
+[10-22 15:46:17 1426671] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:17 1426671] [I] oops sta 0
+
+[10-22 15:46:17 1426681] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:46:23 1427207] [I] XINLI driver
+
+[10-22 15:46:23 1427219] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:30 1427983] [I] menu click enter 30
+
+[10-22 15:46:30 1427983] [E] weatehr future is invalid
+
+[10-22 15:46:31 1427993] [I] cache read begin 
+
+[10-22 15:46:31 1427993] [I] read begin w:368, h:448
+
+[10-22 15:46:31 1427993] [I] raw read 0xe1e0000, type:3
+
+[10-22 15:46:31 1427996] [I] XINLI driver
+
+[10-22 15:46:32 1428110] [E] [display_te] te1 timeout
+
+[10-22 15:46:33 1428210] [E] [display_te] te2 timeout
+
+[10-22 15:46:33 1428210] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:34 1428310] [E] [display_te] te0 timeout
+
+[10-22 15:46:37 1428621] [I] XINLI driver
+
+[10-22 15:46:37 1428633] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:37 1428633] [I] oops sta 0
+
+[10-22 15:46:37 1428643] [I] [page_home] use default home click hook
+
+[10-22 15:46:37 1428643] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:46:43 1429216] [I] XINLI driver
+
+[10-22 15:46:43 1429228] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:51 1430002] [I] menu click enter 31
+
+[10-22 15:46:51 1430005] [I] cache read begin 
+
+[10-22 15:46:51 1430005] [I] read begin w:368, h:448
+
+[10-22 15:46:51 1430005] [I] raw read 0xe400000, type:10
+
+[10-22 15:46:51 1430009] [I] XINLI driver
+
+[10-22 15:46:51 1430026] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:46:57 1430655] [I] oops sta 0
+
+[10-22 15:46:57 1430665] [I] [page_home] use default home click hook
+
+[10-22 15:46:57 1430665] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:47:0 1430979] [I] ram:[24184, 441972], b:94, s:0
+
+[10-22 15:47:3 1431219] [I] XINLI driver
+
+[10-22 15:47:3 1431231] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:47:13 1432260] [I] menu click enter 32
+
+[10-22 15:47:13 1432268] [I] read begin w:368, h:781
+
+[10-22 15:47:13 1432268] [I] raw read 0xe300000, type:11
+
+[10-22 15:47:13 1432271] [I] XINLI driver
+
+[10-22 15:47:13 1432295] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:47:20 1432956] [I] oops sta 0
+
+[10-22 15:47:20 1432966] [I] [page_home] use default home click hook
+
+[10-22 15:47:20 1432966] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:47:26 1433520] [I] XINLI driver
+
+[10-22 15:47:26 1433532] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:47:37 1434623] [I] XINLI driver
+
+[10-22 15:47:38 1434731] [E] [display_te] te1 timeout
+
+[10-22 15:47:39 1434831] [E] [display_te] te2 timeout
+
+[10-22 15:47:39 1434831] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:47:39 1434831] [I] menu click enter 33
+
+[10-22 15:47:39 1434834] [I] [page_music] Enter.
+
+[10-22 15:47:39 1434834] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 15:47:39 1434835] [E] music recv wrong play state = 0
+
+[10-22 15:47:39 1434835] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 15:47:40 1434952] [E] [display_te] te0 timeout
+
+[10-22 15:47:41 1435054] [E] [display_te] te0 timeout
+
+[10-22 15:47:43 1435235] [I] oops sta 0
+
+[10-22 15:47:43 1435245] [I] [page_home] use default home click hook
+
+[10-22 15:47:43 1435245] [I] [page_music] Close.
+
+[10-22 15:47:43 1435245] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:47:44 1435390] [E] [display_te] te0 timeout
+
+[10-22 15:47:48 1435760] [I] XINLI driver
+
+[10-22 15:47:48 1435772] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:47:58 1436757] [I] menu click enter 34
+
+[10-22 15:47:58 1436763] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 15:47:58 1436763] [I] ## s=125056,t=heyUI ##
+
+[10-22 15:47:58 1436766] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 15:48:0 1436989] [I] ram:[24184, 530000], b:94, s:0
+
+[10-22 15:48:5 1437488] [I] XINLI driver
+
+[10-22 15:48:5 1437502] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:5 1437502] [I] oops sta 0
+
+[10-22 15:48:6 1437512] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:48:10 1438004] [I] XINLI driver
+
+[10-22 15:48:11 1438016] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:23 1439266] [I] menu click enter 36
+
+[10-22 15:48:23 1439269] [I] XINLI driver
+
+[10-22 15:48:23 1439296] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:31 1440015] [I] XINLI driver
+
+[10-22 15:48:31 1440028] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:31 1440028] [I] oops sta 0
+
+[10-22 15:48:31 1440038] [I] [page_home] use default home click hook
+
+[10-22 15:48:31 1440038] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:48:36 1440589] [I] XINLI driver
+
+[10-22 15:48:36 1440601] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:49 1441859] [I] menu click enter 37
+
+[10-22 15:48:49 1441869] [I] read begin w:364, h:754
+
+[10-22 15:48:49 1441869] [I] raw read 0xe0e0000, type:1
+
+[10-22 15:48:49 1441876] [I] XINLI driver
+
+[10-22 15:48:49 1441895] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:55 1442513] [I] XINLI driver
+
+[10-22 15:48:56 1442524] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:48:56 1442524] [I] oops sta 0
+
+[10-22 15:48:56 1442534] [I] [page_home] use default home click hook
+
+[10-22 15:48:56 1442534] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:49:0 1442974] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 160013], wrist:0, cal:0, dist:0, a:[0, 0, 173, 212, 95]
+
+[10-22 15:49:0 1443001] [I] ram:[24184, 498000], b:94, s:0
+
+[10-22 15:49:1 1443107] [I] XINLI driver
+
+[10-22 15:49:1 1443118] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:1 1443118] [I] oops sta 0
+
+[10-22 15:49:2 1443128] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 15:49:2 1443128] [I] ## s=329728,t=heyUI ##
+
+[10-22 15:49:2 1443129] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 15:49:2 1443199] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:49:10 1444003] [I] XINLI driver
+
+[10-22 15:49:10 1444003] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:49:10 1444015] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:11 1444065] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:49:18 1444820] [I] menu click enter 23
+
+[10-22 15:49:19 1444829] [I] XINLI driver
+
+[10-22 15:49:19 1444854] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:49:19 1444854] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:49:19 1444854] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:49:19 1444854] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:49:19 1444905] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:19 1444907] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:49:19 1444907] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:49:19 1444907] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:49:19 1444907] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:49:25 1445515] [I] XINLI driver
+
+[10-22 15:49:26 1445526] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:26 1445526] [I] oops sta 0
+
+[10-22 15:49:26 1445536] [I] [page_home] use default home click hook
+
+[10-22 15:49:26 1445536] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:49:29 1445917] [I] [hrm]unweared:120
+
+[10-22 15:49:35 1446496] [I] menu click enter 24
+
+[10-22 15:49:35 1446499] [I] action_hrm_init
+
+[10-22 15:49:35 1446501] [I] XINLI driver
+
+[10-22 15:49:36 1446574] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:37 1446668] [I] [hrm]unweared:121
+
+[10-22 15:49:38 1446743] [I] action_hrm_measure_timeout
+
+[10-22 15:49:38 1446744] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:49:38 1446789] [I] oops sta 0
+
+[10-22 15:49:38 1446799] [I] [page_home] use default home click hook
+
+[10-22 15:49:38 1446799] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:49:45 1447529] [I] menu click enter 25
+
+[10-22 15:49:46 1447533] [I] --->[page_spo2] Enter.
+
+[10-22 15:49:46 1447533] [I] cache read begin 
+
+[10-22 15:49:46 1447533] [I] read begin w:368, h:448
+
+[10-22 15:49:46 1447533] [I] raw read 0xe560000, type:6
+
+[10-22 15:49:46 1447535] [I] XINLI driver
+
+[10-22 15:49:46 1447553] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:49:47 1447702] [I] [hrm]unweared:122
+
+[10-22 15:49:48 1447745] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:49:48 1447809] [I] oops sta 0
+
+[10-22 15:49:48 1447819] [I] [page_home] use default home click hook
+
+[10-22 15:49:48 1447819] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:49:56 1448611] [I] menu click enter 26
+
+[10-22 15:49:57 1448637] [I] [update_sleep_time]: last:1634888997, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:49:57 1448637] [I] sleep checksum 0x100
+
+[10-22 15:49:57 1448637] [I] cache read begin 
+
+[10-22 15:49:57 1448637] [I] read begin w:368, h:448
+
+[10-22 15:49:57 1448637] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:49:57 1448641] [I] XINLI driver
+
+[10-22 15:49:57 1448657] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:0 1448953] [I] ram:[24184, 382908], b:94, s:0
+
+[10-22 15:50:3 1449247] [I] XINLI driver
+
+[10-22 15:50:3 1449258] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:3 1449258] [I] oops sta 0
+
+[10-22 15:50:3 1449268] [I] [page_home] use default home click hook
+
+[10-22 15:50:3 1449268] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:50:8 1449796] [I] XINLI driver
+
+[10-22 15:50:8 1449808] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:13 1450257] [I] menu click enter 27
+
+[10-22 15:50:13 1450257] [I] [page sports] enter
+
+[10-22 15:50:13 1450257] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 15:50:13 1450265] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 15:50:13 1450266] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 15:50:13 1450266] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 15:50:13 1450266] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 15:50:13 1450267] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 15:50:13 1450267] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 15:50:13 1450267] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 15:50:13 1450268] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 15:50:13 1450268] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 15:50:13 1450268] [I] [sport checksum] 0x85230488
+
+[10-22 15:50:13 1450268] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 15:50:13 1450268] [I] read begin w:368, h:1200
+
+[10-22 15:50:13 1450269] [I] raw read 0xdf00000, type:9
+
+[10-22 15:50:19 1450887] [I] XINLI driver
+
+[10-22 15:50:19 1450898] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:19 1450899] [I] oops sta 0
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_0 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_1 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_2 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_3 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_4 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_5 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_6 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_7 has removed
+
+[10-22 15:50:19 1450909] [I] [sport_list]clone_list_8 has removed
+
+[10-22 15:50:19 1450909] [I] [page sport] window_list close
+
+[10-22 15:50:19 1450909] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:50:25 1451454] [I] XINLI driver
+
+[10-22 15:50:25 1451466] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:30 1452035] [I] menu click enter 28
+
+[10-22 15:50:31 1452057] [I] cache read begin 
+
+[10-22 15:50:31 1452057] [I] read begin w:368, h:448
+
+[10-22 15:50:31 1452057] [I] raw read 0xdfe0000, type:15
+
+[10-22 15:50:31 1452061] [I] XINLI driver
+
+[10-22 15:50:31 1452077] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:37 1452695] [I] XINLI driver
+
+[10-22 15:50:37 1452706] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:37 1452706] [I] oops sta 0
+
+[10-22 15:50:37 1452716] [I] [page_home] use default home click hook
+
+[10-22 15:50:37 1452716] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 15:50:37 1452716] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:50:43 1453249] [I] XINLI driver
+
+[10-22 15:50:43 1453261] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:48 1453772] [I] XINLI driver
+
+[10-22 15:50:49 1453880] [E] [display_te] te1 timeout
+
+[10-22 15:50:50 1453980] [E] [display_te] te2 timeout
+
+[10-22 15:50:50 1453980] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:50:50 1453980] [I] menu click enter 35
+
+[10-22 15:50:50 1453984] [I] cache read begin 
+
+[10-22 15:50:50 1453984] [I] read begin w:368, h:448
+
+[10-22 15:50:50 1453984] [I] raw read 0xe180000, type:16
+
+[10-22 15:50:51 1454093] [E] [display_te] te0 timeout
+
+[10-22 15:50:52 1454195] [E] [display_te] te0 timeout
+
+[10-22 15:50:54 1454399] [I] oops sta 0
+
+[10-22 15:50:54 1454409] [I] [page_home] use default home click hook
+
+[10-22 15:50:54 1454409] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:50:56 1454556] [E] [display_te] te0 timeout
+
+[10-22 15:51:0 1454980] [I] XINLI driver
+
+[10-22 15:51:0 1455001] [I] ram:[23000, 441888], b:94, s:0
+
+[10-22 15:51:0 1455006] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:51:7 1455741] [I] XINLI driver
+
+[10-22 15:51:9 1455849] [E] [display_te] te1 timeout
+
+[10-22 15:51:10 1455949] [E] [display_te] te2 timeout
+
+[10-22 15:51:10 1455949] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:51:10 1455949] [I] menu click enter 30
+
+[10-22 15:51:10 1455949] [E] weatehr future is invalid
+
+[10-22 15:51:10 1455955] [I] cache read begin 
+
+[10-22 15:51:10 1455955] [I] read begin w:368, h:448
+
+[10-22 15:51:10 1455955] [I] raw read 0xe1e0000, type:3
+
+[10-22 15:51:11 1456064] [E] [display_te] te0 timeout
+
+[10-22 15:51:12 1456166] [E] [display_te] te0 timeout
+
+[10-22 15:52:0 1461003] [I] ram:[24124, 424244], b:94, s:0
+
+[10-22 15:52:0 1461027] [I] cache read begin 
+
+[10-22 15:52:0 1461027] [I] read begin w:368, h:448
+
+[10-22 15:52:0 1461027] [I] raw read 0xe1e0000, type:3
+
+[10-22 15:52:9 1461894] [I] XINLI driver
+
+[10-22 15:52:9 1461905] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:9 1461905] [I] oops sta 0
+
+[10-22 15:52:9 1461915] [I] [page_home] use default home click hook
+
+[10-22 15:52:9 1461915] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:52:11 1462131] [I] oops sta 0
+
+[10-22 15:52:12 1462173] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:52:14 1462349] [I] oops sta 0
+
+[10-22 15:52:19 1462849] [I] XINLI driver
+
+[10-22 15:52:19 1462849] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:52:19 1462861] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:19 1462911] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:52:27 1463713] [I] menu click enter 23
+
+[10-22 15:52:27 1463721] [I] XINLI driver
+
+[10-22 15:52:27 1463721] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:52:27 1463721] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:52:27 1463721] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:52:27 1463721] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:52:28 1463760] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:28 1463762] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:52:28 1463762] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:52:28 1463762] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:52:28 1463762] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:52:35 1464450] [I] XINLI driver
+
+[10-22 15:52:35 1464461] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:35 1464461] [I] oops sta 0
+
+[10-22 15:52:35 1464471] [I] [page_home] use default home click hook
+
+[10-22 15:52:35 1464471] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:52:42 1465208] [I] menu click enter 24
+
+[10-22 15:52:42 1465211] [I] action_hrm_init
+
+[10-22 15:52:42 1465214] [I] XINLI driver
+
+[10-22 15:52:42 1465228] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:44 1465383] [I] [hrm]unweared:123
+
+[10-22 15:52:44 1465443] [I] action_hrm_measure_timeout
+
+[10-22 15:52:44 1465443] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:52:45 1465487] [I] oops sta 0
+
+[10-22 15:52:45 1465497] [I] [page_home] use default home click hook
+
+[10-22 15:52:45 1465497] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:52:53 1466301] [I] menu click enter 25
+
+[10-22 15:52:53 1466304] [I] --->[page_spo2] Enter.
+
+[10-22 15:52:53 1466304] [I] cache read begin 
+
+[10-22 15:52:53 1466304] [I] read begin w:368, h:448
+
+[10-22 15:52:53 1466304] [I] raw read 0xe560000, type:6
+
+[10-22 15:52:53 1466307] [I] XINLI driver
+
+[10-22 15:52:53 1466325] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:52:55 1466474] [I] [hrm]unweared:124
+
+[10-22 15:52:55 1466547] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:52:56 1466636] [I] oops sta 0
+
+[10-22 15:52:56 1466646] [I] [page_home] use default home click hook
+
+[10-22 15:52:56 1466646] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:53:0 1466992] [I] ram:[24184, 441772], b:94, s:0
+
+[10-22 15:53:4 1467442] [I] menu click enter 26
+
+[10-22 15:53:5 1467465] [I] [update_sleep_time]: last:1634889185, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:53:5 1467465] [I] sleep checksum 0x100
+
+[10-22 15:53:5 1467465] [I] cache read begin 
+
+[10-22 15:53:5 1467465] [I] read begin w:368, h:448
+
+[10-22 15:53:5 1467466] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:53:5 1467474] [I] XINLI driver
+
+[10-22 15:53:5 1467487] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:11 1468101] [I] XINLI driver
+
+[10-22 15:53:11 1468112] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:11 1468112] [I] oops sta 0
+
+[10-22 15:53:11 1468122] [I] [page_home] use default home click hook
+
+[10-22 15:53:11 1468122] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:53:16 1468618] [I] XINLI driver
+
+[10-22 15:53:16 1468630] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:22 1469196] [I] menu click enter 27
+
+[10-22 15:53:22 1469196] [I] [page sports] enter
+
+[10-22 15:53:22 1469196] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 15:53:22 1469204] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 15:53:22 1469205] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 15:53:22 1469205] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 15:53:22 1469206] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 15:53:22 1469206] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 15:53:22 1469207] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 15:53:22 1469207] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 15:53:22 1469208] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 15:53:22 1469208] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 15:53:22 1469209] [I] [sport checksum] 0x85230488
+
+[10-22 15:53:22 1469209] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 15:53:22 1469209] [I] read begin w:368, h:1200
+
+[10-22 15:53:22 1469209] [I] raw read 0xdf00000, type:9
+
+[10-22 15:53:22 1469212] [I] XINLI driver
+
+[10-22 15:53:22 1469242] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:28 1469844] [I] XINLI driver
+
+[10-22 15:53:28 1469855] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:28 1469856] [I] oops sta 0
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_0 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_1 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_2 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_3 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_4 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_5 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_6 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_7 has removed
+
+[10-22 15:53:29 1469866] [I] [sport_list]clone_list_8 has removed
+
+[10-22 15:53:29 1469866] [I] [page sport] window_list close
+
+[10-22 15:53:29 1469866] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:53:35 1470484] [I] XINLI driver
+
+[10-22 15:53:35 1470496] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:40 1471011] [I] menu click enter 28
+
+[10-22 15:53:40 1471033] [I] cache read begin 
+
+[10-22 15:53:40 1471033] [I] read begin w:368, h:448
+
+[10-22 15:53:40 1471033] [I] raw read 0xdfe0000, type:15
+
+[10-22 15:53:40 1471042] [I] XINLI driver
+
+[10-22 15:53:40 1471055] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:46 1471663] [I] XINLI driver
+
+[10-22 15:53:47 1471676] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:47 1471676] [I] oops sta 0
+
+[10-22 15:53:47 1471686] [I] [page_home] use default home click hook
+
+[10-22 15:53:47 1471686] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 15:53:47 1471686] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:53:52 1472229] [I] XINLI driver
+
+[10-22 15:53:52 1472241] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:53:57 1472726] [I] menu click enter 35
+
+[10-22 15:53:57 1472731] [I] cache read begin 
+
+[10-22 15:53:57 1472731] [I] read begin w:368, h:448
+
+[10-22 15:53:57 1472731] [I] raw read 0xe180000, type:16
+
+[10-22 15:54:0 1472998] [I] ram:[24184, 425560], b:94, s:0
+
+[10-22 15:54:4 1473428] [I] XINLI driver
+
+[10-22 15:54:4 1473439] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:4 1473439] [I] oops sta 0
+
+[10-22 15:54:4 1473449] [I] [page_home] use default home click hook
+
+[10-22 15:54:4 1473449] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:54:9 1473942] [I] XINLI driver
+
+[10-22 15:54:9 1473954] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:17 1474670] [I] menu click enter 29
+
+[10-22 15:54:17 1474687] [I] cache read begin 
+
+[10-22 15:54:17 1474687] [I] read begin w:368, h:448
+
+[10-22 15:54:17 1474687] [I] raw read 0xe460000, type:19
+
+[10-22 15:54:23 1475353] [I] XINLI driver
+
+[10-22 15:54:23 1475364] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:23 1475364] [I] oops sta 0
+
+[10-22 15:54:24 1475374] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:54:29 1475881] [I] XINLI driver
+
+[10-22 15:54:29 1475893] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:37 1476683] [I] menu click enter 30
+
+[10-22 15:54:37 1476683] [E] weatehr future is invalid
+
+[10-22 15:54:37 1476693] [I] cache read begin 
+
+[10-22 15:54:37 1476693] [I] read begin w:368, h:448
+
+[10-22 15:54:37 1476693] [I] raw read 0xe1e0000, type:3
+
+[10-22 15:54:37 1476703] [I] XINLI driver
+
+[10-22 15:54:37 1476715] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:43 1477335] [I] XINLI driver
+
+[10-22 15:54:43 1477346] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:43 1477346] [I] oops sta 0
+
+[10-22 15:54:43 1477356] [I] [page_home] use default home click hook
+
+[10-22 15:54:43 1477356] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:54:49 1477878] [I] XINLI driver
+
+[10-22 15:54:49 1477890] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:56 1478659] [I] XINLI driver
+
+[10-22 15:54:57 1478767] [E] [display_te] te1 timeout
+
+[10-22 15:54:58 1478867] [E] [display_te] te2 timeout
+
+[10-22 15:54:58 1478867] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:54:58 1478867] [I] menu click enter 31
+
+[10-22 15:54:58 1478869] [I] cache read begin 
+
+[10-22 15:54:58 1478869] [I] read begin w:368, h:448
+
+[10-22 15:54:58 1478869] [I] raw read 0xe400000, type:10
+
+[10-22 15:54:59 1478978] [E] [display_te] te0 timeout
+
+[10-22 15:55:0 1479010] [I] ram:[24184, 432228], b:94, s:0
+
+[10-22 15:55:1 1479110] [E] [display_te] te0 timeout
+
+[10-22 15:55:2 1479229] [E] [display_te] te0 timeout
+
+[10-22 15:55:3 1479298] [I] oops sta 0
+
+[10-22 15:55:3 1479308] [I] [page_home] use default home click hook
+
+[10-22 15:55:3 1479308] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:55:4 1479454] [E] [display_te] te0 timeout
+
+[10-22 15:55:8 1479835] [I] XINLI driver
+
+[10-22 15:55:8 1479847] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:55:17 1480760] [I] menu click enter 32
+
+[10-22 15:55:17 1480767] [I] read begin w:368, h:781
+
+[10-22 15:55:17 1480767] [I] raw read 0xe300000, type:11
+
+[10-22 15:55:24 1481446] [I] oops sta 0
+
+[10-22 15:55:24 1481456] [I] [page_home] use default home click hook
+
+[10-22 15:55:24 1481456] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:55:30 1482076] [I] XINLI driver
+
+[10-22 15:55:31 1482088] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:55:40 1483046] [I] menu click enter 33
+
+[10-22 15:55:40 1483050] [I] [page_music] Enter.
+
+[10-22 15:55:40 1483050] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 15:55:40 1483050] [E] music recv wrong play state = 0
+
+[10-22 15:55:40 1483050] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 15:55:47 1483698] [I] oops sta 0
+
+[10-22 15:55:47 1483708] [I] [page_home] use default home click hook
+
+[10-22 15:55:47 1483708] [I] [page_music] Close.
+
+[10-22 15:55:47 1483708] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:55:52 1484242] [I] XINLI driver
+
+[10-22 15:55:52 1484254] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:0 1485021] [I] ram:[24184, 438600], b:94, s:0
+
+[10-22 15:56:3 1485324] [I] menu click enter 34
+
+[10-22 15:56:3 1485328] [I] XINLI driver
+
+[10-22 15:56:3 1485339] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 15:56:3 1485339] [I] ## s=125056,t=heyUI ##
+
+[10-22 15:56:3 1485341] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 15:56:3 1485357] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:9 1485976] [I] XINLI driver
+
+[10-22 15:56:9 1485992] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:9 1485992] [I] oops sta 0
+
+[10-22 15:56:10 1486002] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:56:15 1486512] [I] XINLI driver
+
+[10-22 15:56:15 1486524] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:28 1487841] [I] XINLI driver
+
+[10-22 15:56:28 1487847] [I] menu click enter 36
+
+[10-22 15:56:29 1487966] [E] [display_te] te1 timeout
+
+[10-22 15:56:30 1488066] [E] [display_te] te2 timeout
+
+[10-22 15:56:30 1488066] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:32 1488266] [E] [display_te] te0 timeout
+
+[10-22 15:56:35 1488543] [I] XINLI driver
+
+[10-22 15:56:35 1488555] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:35 1488555] [I] oops sta 0
+
+[10-22 15:56:35 1488565] [I] [page_home] use default home click hook
+
+[10-22 15:56:35 1488565] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:56:40 1489078] [I] XINLI driver
+
+[10-22 15:56:40 1489090] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:53 1490361] [I] menu click enter 37
+
+[10-22 15:56:53 1490371] [I] read begin w:364, h:754
+
+[10-22 15:56:53 1490372] [I] raw read 0xe0e0000, type:1
+
+[10-22 15:56:53 1490375] [I] XINLI driver
+
+[10-22 15:56:54 1490494] [E] [display_te] te1 timeout
+
+[10-22 15:56:55 1490594] [E] [display_te] te2 timeout
+
+[10-22 15:56:55 1490594] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:56:56 1490694] [E] [display_te] te0 timeout
+
+[10-22 15:57:0 1491022] [I] ram:[24184, 485880], b:94, s:0
+
+[10-22 15:57:0 1491060] [I] XINLI driver
+
+[10-22 15:57:1 1491114] [I] oops sta 0
+
+[10-22 15:57:1 1491124] [I] [page_home] use default home click hook
+
+[10-22 15:57:1 1491124] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:57:1 1491178] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:5 1491582] [I] oops sta 0
+
+[10-22 15:57:5 1491592] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 15:57:5 1491592] [I] ## s=329728,t=heyUI ##
+
+[10-22 15:57:5 1491593] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 15:57:6 1491662] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:57:13 1492393] [I] XINLI driver
+
+[10-22 15:57:13 1492393] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 15:57:13 1492405] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:14 1492455] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:57:22 1493262] [I] menu click enter 23
+
+[10-22 15:57:22 1493271] [I] XINLI driver
+
+[10-22 15:57:22 1493296] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:57:22 1493296] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:57:22 1493296] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:57:22 1493296] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:57:23 1493347] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:23 1493348] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 15:57:23 1493348] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 15:57:23 1493348] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 15:57:23 1493348] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 15:57:29 1493911] [I] XINLI driver
+
+[10-22 15:57:29 1493923] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:29 1493923] [I] oops sta 0
+
+[10-22 15:57:29 1493933] [I] [page_home] use default home click hook
+
+[10-22 15:57:29 1493933] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:57:37 1494716] [I] [hrm]unweared:125
+
+[10-22 15:57:37 1494748] [I] menu click enter 24
+
+[10-22 15:57:37 1494751] [I] action_hrm_init
+
+[10-22 15:57:37 1494753] [I] XINLI driver
+
+[10-22 15:57:38 1494826] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:39 1494920] [I] [hrm]unweared:126
+
+[10-22 15:57:39 1494943] [I] action_hrm_measure_timeout
+
+[10-22 15:57:39 1494944] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:57:40 1495062] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:57:40 1495081] [I] oops sta 0
+
+[10-22 15:57:40 1495091] [I] [page_home] use default home click hook
+
+[10-22 15:57:40 1495091] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:57:48 1495895] [I] menu click enter 25
+
+[10-22 15:57:48 1495898] [I] --->[page_spo2] Enter.
+
+[10-22 15:57:48 1495899] [I] cache read begin 
+
+[10-22 15:57:48 1495899] [I] read begin w:368, h:448
+
+[10-22 15:57:48 1495899] [I] raw read 0xe560000, type:6
+
+[10-22 15:57:48 1495901] [I] XINLI driver
+
+[10-22 15:57:49 1495919] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:57:50 1496068] [I] [hrm]unweared:127
+
+[10-22 15:57:51 1496143] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 15:57:52 1496235] [I] oops sta 0
+
+[10-22 15:57:52 1496245] [I] [page_home] use default home click hook
+
+[10-22 15:57:52 1496245] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:58:0 1497086] [I] ram:[22804, 457504], b:94, s:0
+
+[10-22 15:58:0 1497088] [I] XINLI driver
+
+[10-22 15:58:1 1497160] [I] menu click enter 26
+
+[10-22 15:58:1 1497179] [I] [update_sleep_time]: last:1634889481, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 15:58:1 1497179] [I] sleep checksum 0x100
+
+[10-22 15:58:1 1497179] [I] cache read begin 
+
+[10-22 15:58:1 1497179] [I] read begin w:368, h:448
+
+[10-22 15:58:1 1497179] [I] raw read 0xe3a0000, type:5
+
+[10-22 15:58:1 1497192] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:7 1497738] [I] XINLI driver
+
+[10-22 15:58:7 1497749] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:7 1497749] [I] oops sta 0
+
+[10-22 15:58:7 1497759] [I] [page_home] use default home click hook
+
+[10-22 15:58:7 1497759] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:58:12 1498295] [I] XINLI driver
+
+[10-22 15:58:12 1498307] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:17 1498817] [I] menu click enter 27
+
+[10-22 15:58:17 1498817] [I] [page sports] enter
+
+[10-22 15:58:17 1498817] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 15:58:18 1498828] [I] XINLI driver
+
+[10-22 15:58:18 1498829] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 15:58:18 1498830] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 15:58:18 1498830] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 15:58:18 1498831] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 15:58:18 1498831] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 15:58:18 1498832] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 15:58:18 1498832] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 15:58:18 1498833] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 15:58:18 1498833] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 15:58:18 1498834] [I] [sport checksum] 0x85230488
+
+[10-22 15:58:18 1498834] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 15:58:18 1498834] [I] read begin w:368, h:1200
+
+[10-22 15:58:18 1498834] [I] raw read 0xdf00000, type:9
+
+[10-22 15:58:19 1498985] [E] [display_te] te1 timeout
+
+[10-22 15:58:20 1499085] [E] [display_te] te2 timeout
+
+[10-22 15:58:20 1499085] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:21 1499185] [E] [display_te] te0 timeout
+
+[10-22 15:58:24 1499513] [I] XINLI driver
+
+[10-22 15:58:25 1499524] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:25 1499524] [I] oops sta 0
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_0 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_1 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_2 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_3 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_4 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_5 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_6 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_7 has removed
+
+[10-22 15:58:25 1499534] [I] [sport_list]clone_list_8 has removed
+
+[10-22 15:58:25 1499534] [I] [page sport] window_list close
+
+[10-22 15:58:25 1499534] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:58:31 1500152] [I] XINLI driver
+
+[10-22 15:58:31 1500164] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:36 1500674] [I] menu click enter 28
+
+[10-22 15:58:36 1500696] [I] cache read begin 
+
+[10-22 15:58:36 1500696] [I] read begin w:368, h:448
+
+[10-22 15:58:36 1500696] [I] raw read 0xdfe0000, type:15
+
+[10-22 15:58:36 1500700] [I] XINLI driver
+
+[10-22 15:58:36 1500716] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:42 1501314] [I] XINLI driver
+
+[10-22 15:58:43 1501325] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:43 1501325] [I] oops sta 0
+
+[10-22 15:58:43 1501335] [I] [page_home] use default home click hook
+
+[10-22 15:58:43 1501335] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 15:58:43 1501335] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 15:58:48 1501886] [I] XINLI driver
+
+[10-22 15:58:48 1501898] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:53 1502407] [I] menu click enter 35
+
+[10-22 15:58:53 1502414] [I] cache read begin 
+
+[10-22 15:58:53 1502414] [I] read begin w:368, h:448
+
+[10-22 15:58:53 1502414] [I] raw read 0xe180000, type:16
+
+[10-22 15:58:53 1502416] [I] XINLI driver
+
+[10-22 15:58:55 1502531] [E] [display_te] te1 timeout
+
+[10-22 15:58:56 1502631] [E] [display_te] te2 timeout
+
+[10-22 15:58:56 1502631] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 15:58:57 1502731] [E] [display_te] te0 timeout
+
+[10-22 15:59:0 1503074] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 180015], wrist:0, cal:0, dist:0, a:[0, 0, 173, 207, 94]
+
+[10-22 15:59:0 1503100] [I] ram:[24184, 426724], b:94, s:0
+
+[10-22 15:59:0 1503126] [I] oops sta 0
+
+[10-22 15:59:1 1503132] [I] XINLI driver
+
+[10-22 15:59:1 1503144] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:0 1509070] [I] [health_step_handler_on_timer_hour_evt]: step_today:0, step_hourly_last:0, record_number:4, step_to_store:0
+
+[10-22 16:0:0 1509101] [I] ram:[24184, 426108], b:94, s:0
+
+[10-22 16:0:1 1509186] [I] XINLI driver
+
+[10-22 16:0:1 1509197] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:1 1509197] [I] oops sta 0
+
+[10-22 16:0:1 1509207] [I] [page_home] use default home click hook
+
+[10-22 16:0:1 1509207] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:0:3 1509418] [I] oops sta 0
+
+[10-22 16:0:4 1509460] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:0:5 1509627] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:0:6 1509672] [I] oops sta 0
+
+[10-22 16:0:11 1510129] [I] XINLI driver
+
+[10-22 16:0:11 1510129] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:0:11 1510141] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:11 1510191] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:0:18 1510917] [I] menu click enter 23
+
+[10-22 16:0:18 1510925] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:0:18 1510925] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:0:18 1510925] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:0:18 1510925] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:0:18 1510925] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:0:19 1510954] [I] XINLI driver
+
+[10-22 16:0:19 1510966] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:19 1510968] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:0:19 1510968] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:0:19 1510968] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:0:19 1510968] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:0:19 1510968] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:0:25 1511598] [I] XINLI driver
+
+[10-22 16:0:25 1511609] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:25 1511609] [I] oops sta 0
+
+[10-22 16:0:25 1511619] [I] [page_home] use default home click hook
+
+[10-22 16:0:25 1511619] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:0:34 1512528] [I] menu click enter 24
+
+[10-22 16:0:34 1512531] [I] action_hrm_init
+
+[10-22 16:0:35 1512535] [I] XINLI driver
+
+[10-22 16:0:35 1512549] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:36 1512704] [I] [hrm]unweared:128
+
+[10-22 16:0:37 1512743] [I] action_hrm_measure_timeout
+
+[10-22 16:0:37 1512743] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:0:38 1512842] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:0:38 1512864] [I] oops sta 0
+
+[10-22 16:0:38 1512874] [I] [page_home] use default home click hook
+
+[10-22 16:0:38 1512874] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:0:46 1513681] [I] menu click enter 25
+
+[10-22 16:0:46 1513684] [I] --->[page_spo2] Enter.
+
+[10-22 16:0:46 1513684] [I] cache read begin 
+
+[10-22 16:0:46 1513684] [I] read begin w:368, h:448
+
+[10-22 16:0:46 1513684] [I] raw read 0xe560000, type:6
+
+[10-22 16:0:46 1513687] [I] XINLI driver
+
+[10-22 16:0:46 1513705] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:0:48 1513854] [I] [hrm]unweared:129
+
+[10-22 16:0:49 1513947] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:0:49 1513998] [I] oops sta 0
+
+[10-22 16:0:49 1514008] [I] [page_home] use default home click hook
+
+[10-22 16:0:49 1514008] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:0:57 1514813] [I] menu click enter 26
+
+[10-22 16:0:58 1514838] [I] [update_sleep_time]: last:1634889658, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 16:0:58 1514838] [I] sleep checksum 0x100
+
+[10-22 16:0:58 1514838] [I] cache read begin 
+
+[10-22 16:0:58 1514838] [I] read begin w:368, h:448
+
+[10-22 16:0:58 1514838] [I] raw read 0xe3a0000, type:5
+
+[10-22 16:0:58 1514847] [I] XINLI driver
+
+[10-22 16:0:58 1514859] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:0 1515098] [I] ram:[24184, 366612], b:94, s:0
+
+[10-22 16:1:4 1515525] [I] XINLI driver
+
+[10-22 16:1:4 1515537] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:4 1515537] [I] oops sta 0
+
+[10-22 16:1:5 1515547] [I] [page_home] use default home click hook
+
+[10-22 16:1:5 1515547] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:1:10 1516081] [I] XINLI driver
+
+[10-22 16:1:10 1516093] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:15 1516618] [I] menu click enter 27
+
+[10-22 16:1:15 1516618] [I] [page sports] enter
+
+[10-22 16:1:15 1516618] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 16:1:15 1516626] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 16:1:15 1516627] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 16:1:15 1516627] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 16:1:15 1516628] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 16:1:15 1516628] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 16:1:15 1516629] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 16:1:15 1516629] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 16:1:15 1516630] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 16:1:15 1516630] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 16:1:15 1516631] [I] [sport checksum] 0x85230488
+
+[10-22 16:1:15 1516631] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 16:1:15 1516631] [I] read begin w:368, h:1200
+
+[10-22 16:1:15 1516631] [I] raw read 0xdf00000, type:9
+
+[10-22 16:1:15 1516635] [I] XINLI driver
+
+[10-22 16:1:16 1516665] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:22 1517328] [I] XINLI driver
+
+[10-22 16:1:22 1517339] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:22 1517340] [I] oops sta 0
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_0 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_1 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_2 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_3 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_4 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_5 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_6 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_7 has removed
+
+[10-22 16:1:23 1517350] [I] [sport_list]clone_list_8 has removed
+
+[10-22 16:1:23 1517350] [I] [page sport] window_list close
+
+[10-22 16:1:23 1517350] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:1:28 1517868] [I] XINLI driver
+
+[10-22 16:1:28 1517880] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:34 1518485] [I] menu click enter 28
+
+[10-22 16:1:34 1518508] [I] cache read begin 
+
+[10-22 16:1:34 1518508] [I] read begin w:368, h:448
+
+[10-22 16:1:34 1518508] [I] raw read 0xdfe0000, type:15
+
+[10-22 16:1:34 1518518] [I] XINLI driver
+
+[10-22 16:1:34 1518530] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:40 1519137] [I] XINLI driver
+
+[10-22 16:1:41 1519148] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:41 1519148] [I] oops sta 0
+
+[10-22 16:1:41 1519158] [I] [page_home] use default home click hook
+
+[10-22 16:1:41 1519158] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 16:1:41 1519158] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:1:46 1519680] [I] XINLI driver
+
+[10-22 16:1:46 1519692] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:51 1520200] [I] menu click enter 35
+
+[10-22 16:1:51 1520207] [I] cache read begin 
+
+[10-22 16:1:51 1520207] [I] read begin w:368, h:448
+
+[10-22 16:1:51 1520207] [I] raw read 0xe180000, type:16
+
+[10-22 16:1:51 1520211] [I] XINLI driver
+
+[10-22 16:1:51 1520227] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:57 1520835] [I] XINLI driver
+
+[10-22 16:1:57 1520846] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:1:57 1520846] [I] oops sta 0
+
+[10-22 16:1:58 1520856] [I] [page_home] use default home click hook
+
+[10-22 16:1:58 1520856] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:2:0 1521123] [I] ram:[24184, 441684], b:94, s:0
+
+[10-22 16:2:3 1521387] [I] XINLI driver
+
+[10-22 16:2:3 1521399] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:10 1522128] [I] menu click enter 29
+
+[10-22 16:2:10 1522146] [I] cache read begin 
+
+[10-22 16:2:10 1522146] [I] read begin w:368, h:448
+
+[10-22 16:2:10 1522146] [I] raw read 0xe460000, type:19
+
+[10-22 16:2:17 1522765] [I] XINLI driver
+
+[10-22 16:2:17 1522776] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:17 1522776] [I] oops sta 0
+
+[10-22 16:2:17 1522786] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:2:23 1523365] [I] XINLI driver
+
+[10-22 16:2:23 1523377] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:31 1524172] [I] menu click enter 30
+
+[10-22 16:2:31 1524172] [E] weatehr future is invalid
+
+[10-22 16:2:31 1524182] [I] cache read begin 
+
+[10-22 16:2:31 1524182] [I] read begin w:368, h:448
+
+[10-22 16:2:31 1524182] [I] raw read 0xe1e0000, type:3
+
+[10-22 16:2:31 1524190] [I] XINLI driver
+
+[10-22 16:2:31 1524204] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:36 1524725] [I] XINLI driver
+
+[10-22 16:2:36 1524736] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:36 1524737] [I] oops sta 0
+
+[10-22 16:2:36 1524747] [I] [page_home] use default home click hook
+
+[10-22 16:2:36 1524747] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:2:41 1525247] [I] XINLI driver
+
+[10-22 16:2:42 1525259] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:49 1526019] [I] menu click enter 31
+
+[10-22 16:2:49 1526023] [I] cache read begin 
+
+[10-22 16:2:49 1526023] [I] read begin w:368, h:448
+
+[10-22 16:2:49 1526023] [I] raw read 0xe400000, type:10
+
+[10-22 16:2:49 1526025] [I] XINLI driver
+
+[10-22 16:2:50 1526140] [E] [display_te] te1 timeout
+
+[10-22 16:2:51 1526240] [E] [display_te] te2 timeout
+
+[10-22 16:2:51 1526240] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:2:52 1526340] [E] [display_te] te0 timeout
+
+[10-22 16:2:55 1526662] [I] oops sta 0
+
+[10-22 16:2:56 1526672] [I] [page_home] use default home click hook
+
+[10-22 16:2:56 1526672] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:2:57 1526818] [E] [display_te] te0 timeout
+
+[10-22 16:3:0 1527124] [I] ram:[24184, 441264], b:94, s:0
+
+[10-22 16:3:1 1527242] [E] [display_te] te0 timeout
+
+[10-22 16:3:2 1527264] [I] XINLI driver
+
+[10-22 16:3:2 1527276] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:3:12 1528307] [I] menu click enter 32
+
+[10-22 16:3:12 1528316] [I] read begin w:368, h:781
+
+[10-22 16:3:12 1528316] [I] raw read 0xe300000, type:11
+
+[10-22 16:3:12 1528319] [I] XINLI driver
+
+[10-22 16:3:12 1528342] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:3:18 1528959] [I] oops sta 0
+
+[10-22 16:3:19 1528969] [I] [page_home] use default home click hook
+
+[10-22 16:3:19 1528969] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:3:24 1529548] [I] XINLI driver
+
+[10-22 16:3:24 1529560] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:3:34 1530563] [I] menu click enter 33
+
+[10-22 16:3:34 1530568] [I] [page_music] Enter.
+
+[10-22 16:3:34 1530568] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 16:3:34 1530568] [E] music recv wrong play state = 0
+
+[10-22 16:3:34 1530568] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 16:3:34 1530570] [I] XINLI driver
+
+[10-22 16:3:35 1530600] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:3:41 1531219] [I] oops sta 0
+
+[10-22 16:3:41 1531229] [I] [page_home] use default home click hook
+
+[10-22 16:3:41 1531229] [I] [page_music] Close.
+
+[10-22 16:3:41 1531229] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:3:46 1531756] [I] XINLI driver
+
+[10-22 16:3:46 1531768] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:3:57 1532803] [I] menu click enter 34
+
+[10-22 16:3:57 1532807] [I] XINLI driver
+
+[10-22 16:3:57 1532818] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 16:3:57 1532818] [I] ## s=125056,t=heyUI ##
+
+[10-22 16:3:57 1532821] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 16:3:57 1532837] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:0 1533141] [I] ram:[24048, 529352], b:94, s:0
+
+[10-22 16:4:4 1533522] [I] XINLI driver
+
+[10-22 16:4:4 1533538] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:4 1533538] [I] oops sta 0
+
+[10-22 16:4:4 1533548] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:4:9 1534069] [I] XINLI driver
+
+[10-22 16:4:10 1534081] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:23 1535442] [I] menu click enter 36
+
+[10-22 16:4:23 1535446] [I] XINLI driver
+
+[10-22 16:4:23 1535473] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:31 1536274] [I] XINLI driver
+
+[10-22 16:4:32 1536286] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:32 1536286] [I] oops sta 0
+
+[10-22 16:4:32 1536296] [I] [page_home] use default home click hook
+
+[10-22 16:4:32 1536296] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:4:37 1536824] [I] XINLI driver
+
+[10-22 16:4:37 1536836] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:50 1538099] [I] XINLI driver
+
+[10-22 16:4:51 1538207] [E] [display_te] te1 timeout
+
+[10-22 16:4:52 1538307] [E] [display_te] te2 timeout
+
+[10-22 16:4:52 1538307] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:4:52 1538307] [I] menu click enter 37
+
+[10-22 16:4:52 1538313] [I] read begin w:364, h:754
+
+[10-22 16:4:52 1538314] [I] raw read 0xe0e0000, type:1
+
+[10-22 16:4:53 1538427] [E] [display_te] te0 timeout
+
+[10-22 16:4:54 1538529] [E] [display_te] te0 timeout
+
+[10-22 16:4:56 1538714] [I] oops sta 0
+
+[10-22 16:4:56 1538724] [I] [page_home] use default home click hook
+
+[10-22 16:4:56 1538724] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:4:57 1538872] [E] [display_te] te0 timeout
+
+[10-22 16:5:0 1539142] [I] ram:[24184, 498512], b:94, s:0
+
+[10-22 16:5:1 1539260] [E] [display_te] te0 timeout
+
+[10-22 16:5:1 1539280] [I] XINLI driver
+
+[10-22 16:5:1 1539281] [I] oops sta 0
+
+[10-22 16:5:2 1539292] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:5:30 1542117] [I] [hrm]unweared:130
+
+[10-22 16:6:0 1545143] [I] ram:[24184, 498384], b:94, s:0
+
+[10-22 16:6:4 1545523] [I] XINLI driver
+
+[10-22 16:6:4 1545533] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:4 1545533] [I] oops sta 0
+
+[10-22 16:6:4 1545543] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 16:6:4 1545543] [I] ## s=329728,t=heyUI ##
+
+[10-22 16:6:4 1545544] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 16:6:5 1545614] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:6:7 1545832] [I] oops sta 0
+
+[10-22 16:6:12 1546326] [I] XINLI driver
+
+[10-22 16:6:12 1546326] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:6:12 1546338] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:13 1546388] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:6:20 1547181] [I] menu click enter 23
+
+[10-22 16:6:21 1547199] [I] XINLI driver
+
+[10-22 16:6:21 1547218] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:6:21 1547218] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:6:21 1547218] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:6:21 1547218] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:6:21 1547218] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:6:21 1547269] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:21 1547270] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:6:21 1547270] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:6:21 1547270] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:6:21 1547270] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:6:21 1547270] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:6:28 1547939] [I] XINLI driver
+
+[10-22 16:6:28 1547951] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:28 1547951] [I] oops sta 0
+
+[10-22 16:6:28 1547961] [I] [page_home] use default home click hook
+
+[10-22 16:6:28 1547961] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:6:36 1548785] [I] menu click enter 24
+
+[10-22 16:6:36 1548788] [I] action_hrm_init
+
+[10-22 16:6:36 1548790] [I] XINLI driver
+
+[10-22 16:6:37 1548863] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:38 1548958] [I] [hrm]unweared:131
+
+[10-22 16:6:39 1549043] [I] action_hrm_measure_timeout
+
+[10-22 16:6:39 1549044] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:6:40 1549099] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:6:40 1549124] [I] oops sta 0
+
+[10-22 16:6:40 1549134] [I] [page_home] use default home click hook
+
+[10-22 16:6:40 1549134] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:6:48 1549941] [I] menu click enter 25
+
+[10-22 16:6:48 1549944] [I] --->[page_spo2] Enter.
+
+[10-22 16:6:48 1549945] [I] cache read begin 
+
+[10-22 16:6:48 1549945] [I] read begin w:368, h:448
+
+[10-22 16:6:48 1549945] [I] raw read 0xe560000, type:6
+
+[10-22 16:6:48 1549947] [I] XINLI driver
+
+[10-22 16:6:48 1549965] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:6:50 1550114] [I] [hrm]unweared:132
+
+[10-22 16:6:50 1550143] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:6:51 1550278] [I] oops sta 0
+
+[10-22 16:6:51 1550288] [I] [page_home] use default home click hook
+
+[10-22 16:6:51 1550288] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:6:52 1550298] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:7:0 1551110] [I] ram:[24184, 457684], b:94, s:0
+
+[10-22 16:7:1 1551200] [I] menu click enter 26
+
+[10-22 16:7:1 1551226] [I] [update_sleep_time]: last:1634890021, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 16:7:1 1551226] [I] sleep checksum 0x100
+
+[10-22 16:7:1 1551226] [I] cache read begin 
+
+[10-22 16:7:1 1551226] [I] read begin w:368, h:448
+
+[10-22 16:7:1 1551226] [I] raw read 0xe3a0000, type:5
+
+[10-22 16:7:1 1551235] [I] XINLI driver
+
+[10-22 16:7:1 1551247] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:7 1551799] [I] XINLI driver
+
+[10-22 16:7:7 1551810] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:7 1551810] [I] oops sta 0
+
+[10-22 16:7:7 1551820] [I] [page_home] use default home click hook
+
+[10-22 16:7:7 1551820] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:7:12 1552390] [I] XINLI driver
+
+[10-22 16:7:13 1552402] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:18 1552941] [I] menu click enter 27
+
+[10-22 16:7:18 1552941] [I] [page sports] enter
+
+[10-22 16:7:18 1552941] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 16:7:18 1552952] [I] XINLI driver
+
+[10-22 16:7:18 1552953] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 16:7:18 1552954] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 16:7:18 1552954] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 16:7:18 1552955] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 16:7:18 1552955] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 16:7:18 1552956] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 16:7:18 1552956] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 16:7:18 1552957] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 16:7:18 1552957] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 16:7:18 1552958] [I] [sport checksum] 0x85230488
+
+[10-22 16:7:18 1552958] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 16:7:18 1552958] [I] read begin w:368, h:1200
+
+[10-22 16:7:18 1552958] [I] raw read 0xdf00000, type:9
+
+[10-22 16:7:19 1553013] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:25 1553646] [I] XINLI driver
+
+[10-22 16:7:25 1553657] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:25 1553657] [I] oops sta 0
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_0 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_1 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_2 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_3 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_4 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_5 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_6 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_7 has removed
+
+[10-22 16:7:25 1553667] [I] [sport_list]clone_list_8 has removed
+
+[10-22 16:7:25 1553667] [I] [page sport] window_list close
+
+[10-22 16:7:25 1553667] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:7:31 1554275] [I] XINLI driver
+
+[10-22 16:7:31 1554287] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:37 1554805] [I] menu click enter 28
+
+[10-22 16:7:37 1554826] [I] cache read begin 
+
+[10-22 16:7:37 1554826] [I] read begin w:368, h:448
+
+[10-22 16:7:37 1554826] [I] raw read 0xdfe0000, type:15
+
+[10-22 16:7:37 1554830] [I] XINLI driver
+
+[10-22 16:7:37 1554847] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:42 1555376] [I] XINLI driver
+
+[10-22 16:7:42 1555387] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:42 1555387] [I] oops sta 0
+
+[10-22 16:7:42 1555397] [I] [page_home] use default home click hook
+
+[10-22 16:7:42 1555397] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 16:7:42 1555397] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:7:48 1555934] [I] XINLI driver
+
+[10-22 16:7:48 1555946] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:7:53 1556473] [I] menu click enter 35
+
+[10-22 16:7:53 1556480] [I] cache read begin 
+
+[10-22 16:7:53 1556480] [I] read begin w:368, h:448
+
+[10-22 16:7:53 1556480] [I] raw read 0xe180000, type:16
+
+[10-22 16:7:53 1556483] [I] XINLI driver
+
+[10-22 16:7:53 1556500] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:0 1557130] [I] XINLI driver
+
+[10-22 16:8:0 1557141] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:0 1557141] [I] oops sta 0
+
+[10-22 16:8:0 1557145] [I] ram:[24048, 426228], b:94, s:0
+
+[10-22 16:8:0 1557151] [I] [page_home] use default home click hook
+
+[10-22 16:8:0 1557151] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:8:5 1557663] [I] XINLI driver
+
+[10-22 16:8:5 1557675] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:13 1558441] [I] menu click enter 29
+
+[10-22 16:8:13 1558464] [I] cache read begin 
+
+[10-22 16:8:13 1558464] [I] read begin w:368, h:448
+
+[10-22 16:8:13 1558464] [I] raw read 0xe460000, type:19
+
+[10-22 16:8:13 1558468] [I] XINLI driver
+
+[10-22 16:8:13 1558485] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:13 1558498] [I] [ss_batt_do_sample] percent:93%, volt_mv:4263mv
+
+[10-22 16:8:20 1559128] [I] XINLI driver
+
+[10-22 16:8:20 1559140] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:20 1559140] [I] oops sta 0
+
+[10-22 16:8:20 1559150] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:8:25 1559686] [I] XINLI driver
+
+[10-22 16:8:25 1559698] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:33 1560506] [I] menu click enter 30
+
+[10-22 16:8:33 1560506] [E] weatehr future is invalid
+
+[10-22 16:8:34 1560516] [I] cache read begin 
+
+[10-22 16:8:34 1560516] [I] read begin w:368, h:448
+
+[10-22 16:8:34 1560516] [I] raw read 0xe1e0000, type:3
+
+[10-22 16:8:34 1560524] [I] XINLI driver
+
+[10-22 16:8:34 1560538] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:40 1561160] [I] XINLI driver
+
+[10-22 16:8:40 1561171] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:40 1561171] [I] oops sta 0
+
+[10-22 16:8:40 1561181] [I] [page_home] use default home click hook
+
+[10-22 16:8:40 1561181] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:8:45 1561696] [I] XINLI driver
+
+[10-22 16:8:45 1561708] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:8:53 1562426] [I] menu click enter 31
+
+[10-22 16:8:53 1562428] [I] cache read begin 
+
+[10-22 16:8:53 1562428] [I] read begin w:368, h:448
+
+[10-22 16:8:53 1562428] [I] raw read 0xe400000, type:10
+
+[10-22 16:9:0 1563148] [I] oops sta 0
+
+[10-22 16:9:0 1563158] [I] [page_home] use default home click hook
+
+[10-22 16:9:0 1563158] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:9:0 1563169] [I] ram:[23960, 381328], b:93, s:0
+
+[10-22 16:9:0 1563178] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 300, 190016], wrist:0, cal:0, dist:0, a:[0, 0, 173, 175, 93]
+
+[10-22 16:9:5 1563667] [I] XINLI driver
+
+[10-22 16:9:5 1563679] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:9:15 1564657] [I] menu click enter 32
+
+[10-22 16:9:15 1564663] [I] read begin w:368, h:781
+
+[10-22 16:9:15 1564663] [I] raw read 0xe300000, type:11
+
+[10-22 16:9:22 1565339] [I] oops sta 0
+
+[10-22 16:9:22 1565349] [I] [page_home] use default home click hook
+
+[10-22 16:9:22 1565349] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:9:27 1565887] [I] XINLI driver
+
+[10-22 16:9:27 1565899] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:9:38 1567021] [I] menu click enter 33
+
+[10-22 16:9:38 1567026] [I] [page_music] Enter.
+
+[10-22 16:9:38 1567026] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 16:9:38 1567026] [E] music recv wrong play state = 0
+
+[10-22 16:9:38 1567027] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 16:9:38 1567028] [I] XINLI driver
+
+[10-22 16:9:39 1567058] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:9:45 1567690] [I] oops sta 0
+
+[10-22 16:9:45 1567700] [I] [page_home] use default home click hook
+
+[10-22 16:9:45 1567700] [I] [page_music] Close.
+
+[10-22 16:9:45 1567700] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:9:50 1568226] [I] XINLI driver
+
+[10-22 16:9:51 1568238] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:0 1569174] [I] ram:[24184, 437788], b:93, s:0
+
+[10-22 16:10:0 1569206] [I] [system_profile_do_update] update succ. timestamp:1634890200 
+
+[10-22 16:10:1 1569251] [I] menu click enter 34
+
+[10-22 16:10:1 1569256] [I] XINLI driver
+
+[10-22 16:10:1 1569267] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 16:10:1 1569267] [I] ## s=125056,t=heyUI ##
+
+[10-22 16:10:1 1569269] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 16:10:1 1569285] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:7 1569920] [I] XINLI driver
+
+[10-22 16:10:8 1569936] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:8 1569936] [I] oops sta 0
+
+[10-22 16:10:8 1569946] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:10:13 1570481] [I] XINLI driver
+
+[10-22 16:10:13 1570493] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:27 1571862] [I] XINLI driver
+
+[10-22 16:10:28 1571969] [E] [display_te] te1 timeout
+
+[10-22 16:10:29 1572069] [E] [display_te] te2 timeout
+
+[10-22 16:10:29 1572069] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:29 1572069] [I] menu click enter 36
+
+[10-22 16:10:30 1572185] [E] [display_te] te0 timeout
+
+[10-22 16:10:32 1572386] [E] [display_te] te0 timeout
+
+[10-22 16:10:34 1572587] [I] XINLI driver
+
+[10-22 16:10:34 1572599] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:34 1572599] [I] oops sta 0
+
+[10-22 16:10:34 1572609] [I] [page_home] use default home click hook
+
+[10-22 16:10:34 1572609] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:10:40 1573128] [I] XINLI driver
+
+[10-22 16:10:40 1573140] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:52 1574408] [I] menu click enter 37
+
+[10-22 16:10:52 1574418] [I] read begin w:364, h:754
+
+[10-22 16:10:52 1574418] [I] raw read 0xe0e0000, type:1
+
+[10-22 16:10:52 1574421] [I] XINLI driver
+
+[10-22 16:10:54 1574540] [E] [display_te] te1 timeout
+
+[10-22 16:10:55 1574640] [E] [display_te] te2 timeout
+
+[10-22 16:10:55 1574640] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:56 1574740] [E] [display_te] te0 timeout
+
+[10-22 16:10:59 1575064] [I] XINLI driver
+
+[10-22 16:10:59 1575076] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:10:59 1575076] [I] oops sta 0
+
+[10-22 16:10:59 1575086] [I] [page_home] use default home click hook
+
+[10-22 16:10:59 1575086] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:11:0 1575206] [I] ram:[24184, 512572], b:93, s:0
+
+[10-22 16:11:4 1575614] [I] XINLI driver
+
+[10-22 16:11:4 1575626] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:4 1575626] [I] oops sta 0
+
+[10-22 16:11:5 1575636] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 16:11:5 1575636] [I] ## s=329728,t=heyUI ##
+
+[10-22 16:11:5 1575636] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 16:11:5 1575708] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:11:13 1576473] [I] XINLI driver
+
+[10-22 16:11:13 1576473] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:11:13 1576485] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:14 1576535] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:11:22 1577351] [I] menu click enter 23
+
+[10-22 16:11:22 1577360] [I] XINLI driver
+
+[10-22 16:11:22 1577385] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:11:22 1577385] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:11:22 1577385] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:11:22 1577385] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:11:22 1577385] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:11:23 1577436] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:23 1577438] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:11:23 1577438] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:11:23 1577438] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:11:23 1577438] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:11:23 1577438] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:11:28 1577992] [I] XINLI driver
+
+[10-22 16:11:28 1578004] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:28 1578004] [I] oops sta 0
+
+[10-22 16:11:28 1578014] [I] [page_home] use default home click hook
+
+[10-22 16:11:28 1578014] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:11:33 1578469] [I] [hrm]unweared:133
+
+[10-22 16:11:36 1578811] [I] menu click enter 24
+
+[10-22 16:11:36 1578814] [I] action_hrm_init
+
+[10-22 16:11:36 1578817] [I] XINLI driver
+
+[10-22 16:11:37 1578890] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:38 1579024] [I] [hrm]unweared:134
+
+[10-22 16:11:39 1579043] [I] action_hrm_measure_timeout
+
+[10-22 16:11:39 1579044] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:11:39 1579125] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:11:40 1579154] [I] oops sta 0
+
+[10-22 16:11:40 1579164] [I] [page_home] use default home click hook
+
+[10-22 16:11:40 1579164] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:11:48 1579979] [I] menu click enter 25
+
+[10-22 16:11:48 1579982] [I] --->[page_spo2] Enter.
+
+[10-22 16:11:48 1579983] [I] cache read begin 
+
+[10-22 16:11:48 1579983] [I] read begin w:368, h:448
+
+[10-22 16:11:48 1579983] [I] raw read 0xe560000, type:6
+
+[10-22 16:11:48 1579985] [I] XINLI driver
+
+[10-22 16:11:48 1580003] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:11:50 1580152] [I] [hrm]unweared:135
+
+[10-22 16:11:51 1580251] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:11:51 1580316] [I] oops sta 0
+
+[10-22 16:11:51 1580326] [I] [page_home] use default home click hook
+
+[10-22 16:11:51 1580326] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:12:0 1581184] [I] ram:[24184, 457420], b:93, s:0
+
+[10-22 16:12:1 1581271] [I] menu click enter 26
+
+[10-22 16:12:1 1581298] [I] [update_sleep_time]: last:1634890321, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 16:12:1 1581298] [I] sleep checksum 0x100
+
+[10-22 16:12:1 1581298] [I] cache read begin 
+
+[10-22 16:12:1 1581298] [I] read begin w:368, h:448
+
+[10-22 16:12:1 1581299] [I] raw read 0xe3a0000, type:5
+
+[10-22 16:12:1 1581306] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:269
+
+[10-22 16:12:1 1581313] [I] XINLI driver
+
+[10-22 16:12:1 1581325] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:6 1581814] [I] XINLI driver
+
+[10-22 16:12:6 1581825] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:6 1581825] [I] oops sta 0
+
+[10-22 16:12:6 1581835] [I] [page_home] use default home click hook
+
+[10-22 16:12:6 1581835] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:12:12 1582351] [I] XINLI driver
+
+[10-22 16:12:12 1582363] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:17 1582878] [I] menu click enter 27
+
+[10-22 16:12:17 1582878] [I] [page sports] enter
+
+[10-22 16:12:17 1582878] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 16:12:17 1582891] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[10-22 16:12:17 1582891] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[10-22 16:12:17 1582892] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[10-22 16:12:17 1582892] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[10-22 16:12:17 1582893] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[10-22 16:12:17 1582893] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[10-22 16:12:17 1582894] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[10-22 16:12:17 1582894] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[10-22 16:12:17 1582895] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[10-22 16:12:17 1582896] [I] [sport checksum] 0x85230488
+
+[10-22 16:12:17 1582896] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[10-22 16:12:17 1582896] [I] read begin w:368, h:1200
+
+[10-22 16:12:17 1582896] [I] raw read 0xdf00000, type:9
+
+[10-22 16:12:17 1582901] [I] XINLI driver
+
+[10-22 16:12:18 1582951] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:23 1583529] [I] XINLI driver
+
+[10-22 16:12:23 1583540] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:23 1583540] [I] oops sta 0
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_0 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_1 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_2 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_3 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_4 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_5 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_6 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_7 has removed
+
+[10-22 16:12:24 1583550] [I] [sport_list]clone_list_8 has removed
+
+[10-22 16:12:24 1583550] [I] [page sport] window_list close
+
+[10-22 16:12:24 1583550] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:12:30 1584191] [I] XINLI driver
+
+[10-22 16:12:30 1584203] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:35 1584693] [I] menu click enter 28
+
+[10-22 16:12:35 1584709] [I] cache read begin 
+
+[10-22 16:12:35 1584709] [I] read begin w:368, h:448
+
+[10-22 16:12:35 1584709] [I] raw read 0xdfe0000, type:15
+
+[10-22 16:12:41 1585347] [I] XINLI driver
+
+[10-22 16:12:42 1585359] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:42 1585359] [I] oops sta 0
+
+[10-22 16:12:42 1585369] [I] [page_home] use default home click hook
+
+[10-22 16:12:42 1585369] [E] [sports record] rm awtk timer err, timer id not exist
+
+[10-22 16:12:42 1585369] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:12:47 1585927] [I] XINLI driver
+
+[10-22 16:12:47 1585939] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:12:53 1586502] [I] menu click enter 35
+
+[10-22 16:12:53 1586509] [I] cache read begin 
+
+[10-22 16:12:53 1586509] [I] read begin w:368, h:448
+
+[10-22 16:12:53 1586509] [I] raw read 0xe180000, type:16
+
+[10-22 16:12:53 1586513] [I] XINLI driver
+
+[10-22 16:12:53 1586529] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:0 1587209] [I] XINLI driver
+
+[10-22 16:13:0 1587221] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:0 1587221] [I] oops sta 0
+
+[10-22 16:13:0 1587224] [I] ram:[24064, 426632], b:93, s:0
+
+[10-22 16:13:0 1587231] [I] [page_home] use default home click hook
+
+[10-22 16:13:0 1587231] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:13:5 1587751] [I] XINLI driver
+
+[10-22 16:13:6 1587763] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:13 1588526] [I] menu click enter 29
+
+[10-22 16:13:13 1588551] [I] cache read begin 
+
+[10-22 16:13:13 1588551] [I] read begin w:368, h:448
+
+[10-22 16:13:13 1588551] [I] raw read 0xe460000, type:19
+
+[10-22 16:13:13 1588555] [I] XINLI driver
+
+[10-22 16:13:14 1588571] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:20 1589168] [I] XINLI driver
+
+[10-22 16:13:20 1589179] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:20 1589179] [I] oops sta 0
+
+[10-22 16:13:20 1589189] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:13:25 1589717] [I] XINLI driver
+
+[10-22 16:13:25 1589729] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:33 1590549] [I] menu click enter 30
+
+[10-22 16:13:33 1590549] [E] weatehr future is invalid
+
+[10-22 16:13:33 1590559] [I] cache read begin 
+
+[10-22 16:13:33 1590559] [I] read begin w:368, h:448
+
+[10-22 16:13:33 1590559] [I] raw read 0xe1e0000, type:3
+
+[10-22 16:13:34 1590567] [I] XINLI driver
+
+[10-22 16:13:34 1590581] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:40 1591233] [I] XINLI driver
+
+[10-22 16:13:40 1591246] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:40 1591246] [I] oops sta 0
+
+[10-22 16:13:40 1591256] [I] [page_home] use default home click hook
+
+[10-22 16:13:40 1591256] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:13:46 1591794] [I] XINLI driver
+
+[10-22 16:13:46 1591806] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:13:53 1592543] [I] menu click enter 31
+
+[10-22 16:13:53 1592546] [I] cache read begin 
+
+[10-22 16:13:53 1592546] [I] read begin w:368, h:448
+
+[10-22 16:13:53 1592546] [I] raw read 0xe400000, type:10
+
+[10-22 16:13:53 1592550] [I] XINLI driver
+
+[10-22 16:13:54 1592568] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:14:0 1593225] [I] ram:[24184, 433304], b:93, s:0
+
+[10-22 16:14:0 1593251] [I] oops sta 0
+
+[10-22 16:14:0 1593261] [I] [page_home] use default home click hook
+
+[10-22 16:14:0 1593261] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:14:6 1593826] [I] XINLI driver
+
+[10-22 16:14:6 1593838] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:14:16 1594836] [I] menu click enter 32
+
+[10-22 16:14:16 1594842] [I] read begin w:368, h:781
+
+[10-22 16:14:16 1594842] [I] raw read 0xe300000, type:11
+
+[10-22 16:14:23 1595534] [I] oops sta 0
+
+[10-22 16:14:23 1595544] [I] [page_home] use default home click hook
+
+[10-22 16:14:23 1595544] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:14:29 1596168] [I] XINLI driver
+
+[10-22 16:14:30 1596180] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:14:39 1597143] [I] menu click enter 33
+
+[10-22 16:14:39 1597147] [I] [page_music] Enter.
+
+[10-22 16:14:39 1597147] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 16:14:39 1597147] [E] music recv wrong play state = 0
+
+[10-22 16:14:39 1597147] [I] [page_music] heyos_page_music_enter: isAllowControl=0, isConnected=1.
+
+[10-22 16:14:46 1597787] [I] oops sta 0
+
+[10-22 16:14:46 1597797] [I] [page_home] use default home click hook
+
+[10-22 16:14:46 1597797] [I] [page_music] Close.
+
+[10-22 16:14:46 1597797] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:14:51 1598306] [I] XINLI driver
+
+[10-22 16:14:51 1598318] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:0 1599226] [I] ram:[24184, 439420], b:93, s:0
+
+[10-22 16:15:2 1599395] [I] menu click enter 34
+
+[10-22 16:15:2 1599399] [I] XINLI driver
+
+[10-22 16:15:2 1599410] [I] [oom] psram mid: request size:125056, left size:94764
+
+[10-22 16:15:2 1599410] [I] ## s=125056,t=heyUI ##
+
+[10-22 16:15:2 1599413] [I] [oom] retry:1, result:0x5662a5ec
+
+[10-22 16:15:2 1599429] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:8 1600064] [I] XINLI driver
+
+[10-22 16:15:8 1600080] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:8 1600080] [I] oops sta 0
+
+[10-22 16:15:9 1600090] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:15:14 1600640] [I] XINLI driver
+
+[10-22 16:15:14 1600652] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:27 1601982] [I] XINLI driver
+
+[10-22 16:15:29 1602090] [E] [display_te] te1 timeout
+
+[10-22 16:15:30 1602190] [E] [display_te] te2 timeout
+
+[10-22 16:15:30 1602190] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:30 1602190] [I] menu click enter 36
+
+[10-22 16:15:31 1602306] [E] [display_te] te0 timeout
+
+[10-22 16:15:33 1602507] [E] [display_te] te0 timeout
+
+[10-22 16:15:35 1602707] [I] XINLI driver
+
+[10-22 16:15:35 1602719] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:35 1602719] [I] oops sta 0
+
+[10-22 16:15:35 1602729] [I] [page_home] use default home click hook
+
+[10-22 16:15:35 1602729] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:15:40 1603254] [I] XINLI driver
+
+[10-22 16:15:40 1603266] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:15:53 1604561] [I] menu click enter 37
+
+[10-22 16:15:53 1604571] [I] read begin w:364, h:754
+
+[10-22 16:15:53 1604571] [I] raw read 0xe0e0000, type:1
+
+[10-22 16:15:53 1604574] [I] XINLI driver
+
+[10-22 16:15:54 1604596] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:0 1605228] [I] ram:[24184, 485700], b:93, s:0
+
+[10-22 16:16:0 1605249] [I] XINLI driver
+
+[10-22 16:16:1 1605313] [I] oops sta 0
+
+[10-22 16:16:1 1605323] [I] [page_home] use default home click hook
+
+[10-22 16:16:1 1605323] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:16:1 1605377] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:6 1605808] [I] XINLI driver
+
+[10-22 16:16:6 1605820] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:6 1605820] [I] oops sta 0
+
+[10-22 16:16:6 1605830] [I] [oom] psram mid: request size:329728, left size:299436
+
+[10-22 16:16:6 1605830] [I] ## s=329728,t=heyUI ##
+
+[10-22 16:16:6 1605831] [I] [oom] retry:0, result:0x5662a5ec
+
+[10-22 16:16:7 1605901] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:16:14 1606638] [I] XINLI driver
+
+[10-22 16:16:14 1606638] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:16:14 1606650] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:15 1606700] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:16:23 1607557] [I] menu click enter 23
+
+[10-22 16:16:23 1607566] [I] XINLI driver
+
+[10-22 16:16:23 1607591] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:16:23 1607591] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:16:23 1607591] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:16:23 1607591] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:16:23 1607591] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:16:24 1607642] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:24 1607644] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:16:24 1607644] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:16:24 1607644] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:16:24 1607644] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:16:24 1607644] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:16:30 1608268] [I] XINLI driver
+
+[10-22 16:16:30 1608280] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:30 1608280] [I] oops sta 0
+
+[10-22 16:16:30 1608290] [I] [page_home] use default home click hook
+
+[10-22 16:16:30 1608290] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:16:32 1608418] [I] [hrm]unweared:136
+
+[10-22 16:16:38 1609078] [I] menu click enter 24
+
+[10-22 16:16:38 1609081] [I] action_hrm_init
+
+[10-22 16:16:38 1609083] [I] XINLI driver
+
+[10-22 16:16:39 1609156] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:40 1609250] [I] [hrm]unweared:137
+
+[10-22 16:16:41 1609343] [I] action_hrm_measure_timeout
+
+[10-22 16:16:41 1609344] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:16:41 1609398] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:16:42 1609417] [I] oops sta 0
+
+[10-22 16:16:42 1609427] [I] [page_home] use default home click hook
+
+[10-22 16:16:42 1609427] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:16:50 1610224] [I] menu click enter 25
+
+[10-22 16:16:50 1610227] [I] --->[page_spo2] Enter.
+
+[10-22 16:16:50 1610227] [I] cache read begin 
+
+[10-22 16:16:50 1610227] [I] read begin w:368, h:448
+
+[10-22 16:16:50 1610227] [I] raw read 0xe560000, type:6
+
+[10-22 16:16:50 1610230] [I] XINLI driver
+
+[10-22 16:16:50 1610248] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:16:51 1610397] [I] [hrm]unweared:138
+
+[10-22 16:16:52 1610443] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[10-22 16:16:53 1610559] [I] oops sta 0
+
+[10-22 16:16:53 1610569] [I] [page_home] use default home click hook
+
+[10-22 16:16:53 1610569] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:17:0 1611281] [I] ram:[24184, 457848], b:93, s:0
+
+[10-22 16:17:2 1611419] [I] menu click enter 26
+
+[10-22 16:17:2 1611445] [I] [update_sleep_time]: last:1634890622, deltaT:0, total:0, awake:0, light:0, deep:0, 
+
+[10-22 16:17:2 1611445] [I] sleep checksum 0x100
+
+[10-22 16:17:2 1611445] [I] cache read begin 
+
+[10-22 16:17:2 1611445] [I] read begin w:368, h:448
+
+[10-22 16:17:2 1611445] [I] raw read 0xe3a0000, type:5
+
+[10-22 16:17:2 1611449] [I] XINLI driver
+
+[10-22 16:17:2 1611465] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:17:8 1612095] [I] XINLI driver
+
+[10-22 16:17:8 1612106] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:17:8 1612106] [I] oops sta 0
+
+[10-22 16:17:9 1612116] [I] [page_home] use default home click hook
+
+[10-22 16:17:9 1612116] [I] menu_cnt = 15, child_cnt = 15
+
+[10-22 16:17:14 1612673] [I] XINLI driver
+
+[10-22 16:17:14 1612685] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:17:19 1613196] [I] XINLI driver
+
+[10-22 16:17:20 1613304] [E] [display_te] te1 timeout
+
+[10-22 16:17:21 1613404] [E] [display_te] te2 timeout
+
+[10-22 16:17:21 1613404] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[10-22 16:17:21 1613404] [I] menu click enter 27
+
+[10-22 16:17:21 1613404] [I] [page sports] enter
+
+[10-22 16:17:21 1613404] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 16:17:22 0] [I] HEYOS build/* Sep 25 2021 *\ 
+
+[10-22 16:17:22 0] [I] health info check:532, sum:532, pass:1
+
+[10-22 16:17:22 0] [I] weather info check:0, sum:0, pass:1
+
+[10-22 16:17:22 0] [I] SW Power-On reset or AIRCR reset!
+
+[10-22 16:17:22 0] [I] [no_init] abnormal reset
+
+[10-22 16:17:22 0] [I] soft_reset:1, sHalResetStatus:0x8
+
+[10-22 16:17:22 0] [I] [no_init] oops st:0, rebootTimes:2, last_sync_utc:1546300800, step:0, calorie:0, distance:0
+
+[10-22 16:17:24 200] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+
+[10-22 16:17:24 202] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+
+[10-22 16:17:24 202] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+
+[10-22 16:17:24 202] [I] [charger] Before NTC_DISABLE REG06 = 0x4e
+
+[10-22 16:17:24 204] [I] [charger] After NTC_DISABLE REG06 = 0x4e
+
+[10-22 16:17:24 204] [I] [charger] charger internal NTC disable successfully
+
+[10-22 16:17:24 205] [I] 2Gb Nand init
+
+[10-22 16:17:24 206] [I] [DHARA] capacity: 45040
+
+[10-22 16:17:24 206] [I] [DHARA] allocated: 8981
+
+[10-22 16:17:24 239] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:24 240] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:24 240] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:24 240] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:24 240] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:24 241] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:25 250] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:25 250] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 250] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 250] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 251] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 254] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 257] [E] [circle_item_parse 481] circle center x parse failed!!!
+
+[10-22 16:17:25 257] [E] [circle_item_parse 481] circle center x parse failed!!!
+
+[10-22 16:17:25 257] [E] [circle_item_parse 481] circle center x parse failed!!!
+
+[10-22 16:17:25 260] [E] [image_item_parse 165] img bgcolor parse failed!!!
+
+[10-22 16:17:25 260] [E] [normal_item_parse 1010] Invalid data_type. 0!!
+
+[10-22 16:17:25 271] [I] [service_device_profile_init] Device Profile Init Done.
+
+[10-22 16:17:25 271] [I] =============General Profile V2 ===========
+
+[10-22 16:17:25 271] [I] model: ryeex.watch.baileys.v1
+
+[10-22 16:17:25 271] [I] did: 1683273
+
+[10-22 16:17:25 271] [I] mac: 98:80:bb:03:0e:9f
+
+[10-22 16:17:25 271] [I] sn: D1D1000138
+
+[10-22 16:17:25 271] [I] product id: 6
+
+[10-22 16:17:25 271] [I] =======================================
+
+
+[10-22 16:17:25 271] [I] =============Usr Profile===========
+
+[10-22 16:17:25 271] [I] version: 3
+
+[10-22 16:17:25 271] [I] gender: 1
+
+[10-22 16:17:25 271] [I] id: 0
+
+[10-22 16:17:25 271] [I] nickname: 
+
+[10-22 16:17:25 271] [I] birthday: 1995.01.01
+
+[10-22 16:17:25 271] [I] age: 25
+
+[10-22 16:17:25 271] [I] height: 175
+
+[10-22 16:17:25 271] [I] weight: 130
+
+[10-22 16:17:25 271] [I] wear_hand: 1
+
+[10-22 16:17:25 271] [I] sport_list_count:           10
+sport_num: [1, 2, 4, 5, 3, 6, 7, 21, 15, 23]
+
+[10-22 16:17:25 271] [I] app_list_count:             15
+
+[10-22 16:17:25 271] [I] app_num: [0] = 19
+
+[10-22 16:17:25 271] [I] app_num: [1] = 3
+
+[10-22 16:17:25 271] [I] app_num: [2] = 4
+
+[10-22 16:17:25 271] [I] app_num: [3] = 18
+
+[10-22 16:17:25 271] [I] app_num: [4] = 2
+
+[10-22 16:17:25 271] [I] app_num: [5] = 20
+
+[10-22 16:17:25 271] [I] app_num: [6] = 21
+
+[10-22 16:17:25 271] [I] app_num: [7] = 8
+
+[10-22 16:17:25 271] [I] app_num: [8] = 5
+
+[10-22 16:17:25 271] [I] app_num: [9] = 25
+
+[10-22 16:17:25 271] [I] app_num: [10] = 9
+
+[10-22 16:17:25 271] [I] app_num: [11] = 23
+
+[10-22 16:17:25 271] [I] app_num: [12] = 24
+
+[10-22 16:17:25 271] [I] app_num: [13] = 12
+
+[10-22 16:17:25 271] [I] app_num: [14] = 7
+
+[10-22 16:17:25 271] [I] =======================================
+
+
+[10-22 16:17:25 271] [I] [binding_profile_init] Profile load.
+
+[10-22 16:17:25 271] [I] [binding profile] Load from backup-for trace.
+
+[10-22 16:17:25 271] [I] backup bind_status: 1
+
+[10-22 16:17:25 271] [I] backup device_sn:   0
+
+[10-22 16:17:25 271] [I] backup server_sn:   0
+
+[10-22 16:17:25 271] [I] backup profile_ver: 1
+
+[10-22 16:17:25 271] [I] backup token: 48 5c 26 31 82 e2 4b 14 d9 74
+
+[10-22 16:17:25 271] [I] =============Binding Profile===========
+
+[10-22 16:17:25 271] [I] version: 1
+
+[10-22 16:17:25 271] [I] bind_status: 1
+
+[10-22 16:17:25 271] [I] device_sn: 0
+
+[10-22 16:17:25 271] [I] server_sn: 0
+
+[10-22 16:17:25 271] [I] =======================================
+
+
+[10-22 16:17:25 272] [I] [regulation_profile_init] Profile load.
+
+[10-22 16:17:25 272] [I] =============Regular Profile===========
+
+[10-22 16:17:25 272] [I] magic: 0x20210115
+
+[10-22 16:17:25 272] [I] info_count: 0
+
+[10-22 16:17:25 272] [I] =======================================
+
+
+[10-22 16:17:25 272] [I] =============System Profile===========
+
+[10-22 16:17:25 272] [I] hw version:                 2.0
+
+[10-22 16:17:25 272] [I] fw version:                 0.1.32.26
+
+[10-22 16:17:25 272] [I] language:                   English
+
+[10-22 16:17:25 272] [I] dual_time_zone_mode:        0
+
+[10-22 16:17:25 272] [I] system_timezone:            CST
+
+[10-22 16:17:25 272] [I] system_timezone_deviation:  28800
+
+[10-22 16:17:25 272] [I] second_timezone:            
+
+[10-22 16:17:25 272] [I] second_timezone_deviation:  0
+
+[10-22 16:17:25 272] [I] battery:                    93
+
+[10-22 16:17:25 272] [I] last_charge_time:           0
+
+[10-22 16:17:25 272] [I] lcd_id:                     00000000
+
+[10-22 16:17:25 272] [I] oops status:                0
+
+[10-22 16:17:25 272] [I] dnd_mode:                   0
+
+[10-22 16:17:25 272] [I] dnd_smart_mode:             0
+
+[10-22 16:17:25 272] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[10-22 16:17:25 272] [I] bright_level:               40
+
+[10-22 16:17:25 272] [I] debug_mode:                 0
+
+[10-22 16:17:25 272] [I] raise_to_wake_mode:         1
+
+[10-22 16:17:25 272] [I] status_bar_battery:         0
+
+[10-22 16:17:25 272] [I] status_bar_connecting:      0
+
+[10-22 16:17:25 272] [I] night_mode:                 0
+
+[10-22 16:17:25 272] [I] night_mode_start_time:      0
+
+[10-22 16:17:25 272] [I] night_mode_stop_time:       0
+
+[10-22 16:17:25 272] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[10-22 16:17:25 272] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[10-22 16:17:25 272] [I] drink_mode:1 freq_time:    90
+start_time:480 stop_time:     1140
+
+[10-22 16:17:25 272] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[10-22 16:17:25 272] [I] notification_mode:          0
+
+[10-22 16:17:25 272] [I] step_goal_achieve_mode:     1
+
+[10-22 16:17:25 272] [I] step_goal:                  8000
+
+[10-22 16:17:25 272] [I] unlock_mode:                0
+
+[10-22 16:17:25 272] [I] app_view:                   0
+
+[10-22 16:17:25 272] [I] peer_mobile_type:           1
+
+[10-22 16:17:25 272] [I] target_calories_goal:       300
+
+[10-22 16:17:25 272] [I] sports_duration_goal:       30
+
+[10-22 16:17:25 272] [I] screen_always_on_enable:    0
+
+[10-22 16:17:25 272] [I] screen_always_on_mode:      0
+
+[10-22 16:17:25 272] [I] screen_always_on_start_time:480
+
+[10-22 16:17:25 272] [I] screen_always_on_end_time:  1200
+
+[10-22 16:17:25 272] [I] =======================================
+
+
+[10-22 16:17:26 381] [I] tp info init
+
+[10-22 16:17:26 381] [I] tp send HID cmd
+
+[10-22 16:17:26 381] [I] tp send HID cmd
+
+[10-22 16:17:26 381] [I] send cmd id: 0x3b
+
+[10-22 16:17:26 382] [I] tp send HID cmd
+
+[10-22 16:17:26 382] [E] i2c wirte fail, status:0x8000002, len:2
+
+[10-22 16:17:26 382] [I] send cmd id: 0x3b
+
+[10-22 16:17:26 383] [I] tp send HID cmd
+
+[10-22 16:17:26 383] [I] send cmd id: 0x2
+
+[10-22 16:17:26 384] [I] send cmd id: 0x3
+
+[10-22 16:17:26 385] [I] send cmd id: 0x20
+
+[10-22 16:17:26 385] [I] send cmd id: 0x22
+
+[10-22 16:17:26 386] [I] tp id info: 0x32-0xb6-0x35
+
+[10-22 16:17:27 389] [I] send cmd id: 0x4
+
+[10-22 16:17:27 389] [I] tp upgrade file: /res/TP/xinli_tp.bin
+
+[10-22 16:17:27 389] [I] tp upgrade file is not exist!
+
+[10-22 16:17:27 389] [I] status: 2, tp fw load from file fail!
+
+[10-22 16:17:27 389] [I] tp no need upgrade
+
+[10-22 16:17:27 389] [I] tp info deinit!
+
+[10-22 16:17:27 389] [I] [r_xfer_thread] Enter.
+
+[10-22 16:17:27 391] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[10-22 16:17:27 391] [I] mible token read. len = 44
+
+[10-22 16:17:27 391] [I] Token match. continue..
+
+[10-22 16:17:27 391] [I] retrive token, 48 5c 26 31 82 e2 4b 14 d9 74
+
+[31m[1613411] E/cmb: 
+[0m[31m[1613411] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[1613411] E/cmb: Fault on thread svc_ryeex
+[0m[31m[1613411] E/cmb: ===== Thread stack information =====
+[0m[31m[1613411] E/cmb: ====================================
+[0m[31m[1613411] E/cmb: =================== Registers information ====================
+[0m[31m[1613411] E/cmb:   R0 : 0000006d  R1 : 100aadc8  R2 : 100aaec4  R3 : 100aaec3
+[0m[31m[1613411] E/cmb:   R12: 01010101  LR : 000a4e79  PC : 6174735e  PSR: 61000000
+[0m[31m[1613411] E/cmb: ==============================================================
+[0m[31m[1613411] E/cmb: Bus fault is caused by instruction access violation
+[0m[31m[1613411] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 6174735e 000a4e78 0002a488 000271d4 00021206 
+[0m[31m[1613411] E/cmb: Current system tick: 1613411
+[0m[10-22 16:17:28 578] [I] [service_sport] Init done
+
+[10-22 16:17:28 578] [I] load notify 0
+
+[10-22 16:17:28 579] [E] [svc weather] init OK
+
+[10-22 16:17:29 623] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[10-22 16:17:29 682] [I] [anim_nand] ver.3
+
+[10-22 16:17:30 689] [I] XINLI driver
+
+[10-22 16:17:30 702] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[10-22 16:17:30 702] [I] [sport_record_dump] total_cnt:0
+
+[10-22 16:17:30 702] [I] [sport_record_dump] total_cnt:0
+
+[10-22 16:17:30 707] [I] [step]0, id:11, t:1634875200, para:0, step:0, total:0, today:1
+
+[10-22 16:17:30 708] [I] [step]1, id:12, t:1634878800, para:1, step:0, total:0, today:1
+
+[10-22 16:17:30 708] [I] [step]2, id:13, t:1634882400, para:2, step:0, total:0, today:1
+
+[10-22 16:17:30 708] [I] [step]3, id:14, t:1634886000, para:3, step:0, total:0, today:1
+
+[10-22 16:17:30 708] [I] [step]4, id:15, t:1634889600, para:4, step:0, total:0, today:1
+
+[10-22 16:17:30 713] [I] [offline_data] file_hexstr, lengh:0, contents:
+
+
+lines:1
+
+[10-22 16:17:30 713] [I] [sleep_summary] start:rd/sleep.data, end:.data, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[10-22 16:17:30 714] [I] [health_rec_health_evt]: sleep update ui
+
+[10-22 16:17:30 741] [I] [awtk_oom] hook initialized!
+
+[10-22 16:17:30 741] [I] [heyos_page_root_enter] brightness_set 40
+
+[10-22 16:17:31 793] [I] [lang module] language 1:en-US
+
+[10-22 16:17:31 793] [I] oops sta 0
+
+[10-22 16:17:31 793] [I] [m_face] preview cnt:6 
+
+[10-22 16:17:31 793] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[10-22 16:17:31 793] [I] [m_face] uid:2, preview image:watchface_2/preview/dev 
+
+[10-22 16:17:31 793] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[10-22 16:17:31 793] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[10-22 16:17:31 793] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[10-22 16:17:31 793] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[10-22 16:17:31 803] [I] [wrkt] drink reset
+
+[10-22 16:17:31 848] [I] alarm evt 0x10
+
+[10-22 16:17:31 848] [I] recent timer is null
+
+[10-22 16:17:31 848] [I] [get_alarm] fail
+
+[10-22 16:17:35 1202] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:103
+
+[10-22 16:17:35 1272] [I] [ss_batt_restore] stored_batt_percent_last:93%
+
+[10-22 16:17:35 1272] [I] [ss_batt_restore] restore percent 93%
+
+[10-22 16:17:38 1549] [I] [page_refresh_sport_infor] get sport num:10
+
+[10-22 16:17:38 1549] [I] [sport checksum] 0x85230488
+
+[10-22 16:17:38 1557] [E] weatehr future is invalid
+
+[10-22 16:17:39 1606] [I] cache begin: checksum=0x20210228 
+
+[10-22 16:17:39 1606] [I] [crt]:9, 0xe3a0000
+
+[10-22 16:17:39 1606] [I] [cache]5, 0xe3a0000, len:329728, w:368, h:448
+
+[10-22 16:17:39 1624] [I] creat id 9, end addr 0xe400000
+
+[10-22 16:17:40 1735] [E] [sleep] no data, skip
+
+[10-22 16:17:45 2248] [I] cache begin: checksum=0x20210028 
+
+[10-22 16:17:45 2248] [I] [crt]:13, 0xe560000
+
+[10-22 16:17:45 2248] [I] [cache]6, 0xe560000, len:329728, w:368, h:448
+
+[10-22 16:17:45 2266] [I] creat id 13, end addr 0xe5c0000
+
+[10-22 16:17:51 2840] [I] [ref set subpage]refres page setting_battery
+
+[10-22 16:17:51 2859] [I] cache begin: checksum=0x20210289 
+
+[10-22 16:17:51 2859] [I] [crt]:18, 0xe780000
+
+[10-22 16:17:51 2859] [I] [cache]29, 0xe780000, len:329728, w:368, h:448
+
+[10-22 16:17:51 2877] [I] creat id 18, end addr 0xe7e0000
+
+[10-22 16:17:54 3099] [I] [end_init_refresh] snapshot refresh finish.
+
+[10-22 16:17:55 3200] [I] Dev bond, enter home page
+
+[10-22 16:17:55 3200] [I] [home] begin
+
+[10-22 16:17:55 3221] [E] [m_face] loader oom
+
+[10-22 16:17:55 3242] [I] [surface_item_lang_change][2469] item text ready to reset default
+
+[10-22 16:17:55 3279] [I] [surface_item_lang_change][2469] item text ready to reset default
+
+[10-22 16:17:55 3279] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:17:56 3337] [I] menu_cnt = 15, child_cnt = 1
+
+[10-22 16:17:58 3576] [I] right_activity_page start
+
+[10-22 16:17:59 3613] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[10-22 16:17:59 3613] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[10-22 16:17:59 3659] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[10-22 16:17:59 3659] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[10-22 16:17:59 3659] [E] weatehr future is invalid
+
+[10-22 16:17:59 3684] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 16:17:59 3684] [E] right music recv wrong play state = 0
+
+[10-22 16:17:59 3684] [I] [right_music] heyos_page_right_music_enter: isAllowControl=0, isConnected=0.
+
+[10-22 16:17:59 3684] [E] [psram fixed] no mem. available:3032, request:329728
+
+[10-22 16:17:59 3684] [E] [snapshot_gen] No mem. w:368,h:448
+
+[10-22 16:17:59 3684] [E] [view] snapshot NULL FAILED
+
+[10-22 16:18:0 3728] [I] [service_ryeex_gap_callback] Connected. 
+
+[10-22 16:18:0 3731] [E] weatehr future is invalid
+
+[10-22 16:18:0 3738] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[10-22 16:18:0 3738] [E] right music recv wrong play state = 0
+
+[10-22 16:18:0 3748] [I] ram:[24256, 438520], b:93, s:0
+
+[10-22 16:18:0 3750] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:18:2 3908] [I] oops sta 0
+
+[10-22 16:18:2 3965] [I] [mible] status:0,len:4,0xCD43BC01
+
+[10-22 16:18:3 4013] [I] PHONE type: 1
+
+[10-22 16:18:3 4044] [I] [dip]24h :1
+
+[10-22 16:18:3 4085] [I] [get_property] ID:6000
+
+[10-22 16:18:4 4104] [I] [[time]]utc:1634890684, devi:28800, 2021-10-22 16:18:04 | msg:1, 1634890684, deviat:28800], setDevi:28800
+
+[10-22 16:18:4 4104] [I] alarm evt 0x20
+
+[10-22 16:18:4 4104] [I] recent timer is null
+
+[10-22 16:18:4 4104] [I] [get_alarm] fail
+
+[10-22 16:18:4 4123] [I] [[time]]utc:1634890684, devi:28800, 2021-10-22 16:18:04
+
+[10-22 16:18:26 6323] [I] XINLI driver
+
+[10-22 16:18:26 6323] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:18:26 6355] [I] oops sta 0
+
+[10-22 16:18:30 6738] [I] XINLI driver
+
+[10-22 16:18:30 6739] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[10-22 16:18:30 6769] [I] oops sta 0
+

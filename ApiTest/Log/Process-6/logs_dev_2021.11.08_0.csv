@@ -1,0 +1,4203 @@
+1-8 15:39:24 1486766] [I] [plugin init] plugin type invalid
+
+[11-8 15:39:24 1486766] [I] [plugin init] plugin type invalid
+
+[11-8 15:39:25 1486769] [I] tp_power_on
+
+[11-8 15:39:25 1486773] [I] tp reset
+
+[11-8 15:39:27 1487045] [I] oops sta 0
+
+[11-8 15:39:27 1487069] [E] [display_te] te0 timeout
+
+[11-8 15:39:31 1487430] [I] enter SLP_SUSPECT
+
+[11-8 15:39:32 1487555] [I] tp_power_off
+
+[11-8 15:39:33 1487595] [I] [hrm]unweared:531
+
+[11-8 15:39:35 1487829] [I] [sleep_wake_up] from no weared, mode:0, sleep_now:1, sleep_last:0, sstd:113
+
+[11-8 15:39:53 1489659] [I] oops sta 0
+
+[11-8 15:39:53 1489660] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:39:53 1489660] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:40:0 1490334] [I] [plugin init] plugin type invalid
+
+[11-8 15:40:0 1490334] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:40:0 1490334] [I] [plugin init] plugin type invalid
+
+[11-8 15:40:0 1490334] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:40:0 1490335] [I] ram:[56920, 224296], b:96, s:0
+
+[11-8 15:40:0 1490341] [I] oops sta 0
+
+[11-8 15:40:0 1490342] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:40:0 1490342] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:40:1 1490355] [I] [system_profile_do_update] update succ. timestamp:1636357200 
+
+[11-8 15:40:6 1490873] [I] oops sta 0
+
+[11-8 15:40:6 1490874] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:40:6 1490874] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:40:12 1491461] [I] oops sta 0
+
+[11-8 15:40:12 1491462] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:40:12 1491462] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:40:17 1492011] [I] oops sta 0
+
+[11-8 15:40:17 1492012] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:40:17 1492012] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:40:41 1494422] [I] [hrm]unweared:532
+
+[11-8 15:41:0 1496255] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:0 1496255] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:0 1496255] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:0 1496255] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:0 1496256] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:41:0 1496336] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 180009], wrist:16, cal:1, dist:0, a:[0, 0, 215, 271, 95]
+
+[11-8 15:41:20 1498272] [I] XINLI driver
+
+[11-8 15:41:20 1498282] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:20 1498282] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:20 1498282] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:20 1498283] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:20 1498283] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:20 1498283] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:20 1498286] [I] tp_power_on
+
+[11-8 15:41:20 1498290] [I] tp reset
+
+[11-8 15:41:21 1498388] [I] oops sta 0
+
+[11-8 15:41:21 1498412] [E] [display_te] te0 timeout
+
+[11-8 15:41:24 1498725] [I] oops sta 0
+
+[11-8 15:41:24 1498726] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:24 1498727] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:24 1498727] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:24 1498727] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:41:24 1498727] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:24 1498727] [I] [plugin init] plugin type invalid
+
+[11-8 15:41:29 1499202] [E] [display_te] te0 timeout
+
+[11-8 15:41:34 1499688] [I] tp_power_off
+
+[11-8 15:41:50 1501315] [I] oops sta 0
+
+[11-8 15:41:50 1501316] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:41:50 1501316] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:41:57 1501995] [I] oops sta 0
+
+[11-8 15:41:57 1501996] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:41:57 1501996] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:42:0 1502257] [I] [plugin init] plugin type invalid
+
+[11-8 15:42:0 1502257] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:42:0 1502257] [I] [plugin init] plugin type invalid
+
+[11-8 15:42:0 1502257] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:42:0 1502258] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:42:3 1502570] [I] oops sta 0
+
+[11-8 15:42:3 1502571] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:42:3 1502571] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:42:8 1503127] [I] oops sta 0
+
+[11-8 15:42:8 1503129] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:42:8 1503129] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:42:14 1503709] [I] oops sta 0
+
+[11-8 15:42:14 1503710] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:42:14 1503710] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:43:0 1508258] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:0 1508258] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:43:0 1508258] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:0 1508258] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:43:0 1508259] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:43:16 1509886] [I] XINLI driver
+
+[11-8 15:43:16 1509890] [I] oops sta 0
+
+[11-8 15:43:16 1509896] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:16 1509896] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:43:16 1509896] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:16 1509897] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:43:16 1509897] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:16 1509897] [I] [plugin init] plugin type invalid
+
+[11-8 15:43:16 1509900] [I] tp_power_on
+
+[11-8 15:43:16 1509904] [I] tp reset
+
+[11-8 15:43:19 1510178] [I] oops sta 0
+
+[11-8 15:43:19 1510202] [E] [display_te] te0 timeout
+
+[11-8 15:43:24 1510688] [I] tp_power_off
+
+[11-8 15:43:46 1512876] [I] oops sta 0
+
+[11-8 15:43:46 1512877] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:43:46 1512877] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:43:53 1513575] [I] oops sta 0
+
+[11-8 15:43:53 1513576] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:43:53 1513576] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:43:59 1514142] [I] oops sta 0
+
+[11-8 15:43:59 1514144] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:43:59 1514144] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:44:0 1514259] [I] [plugin init] plugin type invalid
+
+[11-8 15:44:0 1514259] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:44:0 1514259] [I] [plugin init] plugin type invalid
+
+[11-8 15:44:0 1514259] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:44:0 1514260] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:44:4 1514695] [I] oops sta 0
+
+[11-8 15:44:4 1514697] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:44:4 1514697] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:44:10 1515265] [I] oops sta 0
+
+[11-8 15:44:10 1515266] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:44:10 1515266] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:45:0 1520263] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:0 1520263] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:0 1520263] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:0 1520263] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:0 1520264] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:45:13 1521584] [I] XINLI driver
+
+[11-8 15:45:13 1521594] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:13 1521594] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:13 1521594] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:13 1521595] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:13 1521595] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:13 1521595] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:13 1521598] [I] tp_power_on
+
+[11-8 15:45:13 1521602] [I] tp reset
+
+[11-8 15:45:14 1521702] [I] oops sta 0
+
+[11-8 15:45:14 1521726] [E] [display_te] te0 timeout
+
+[11-8 15:45:18 1522035] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:18 1522035] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:18 1522036] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:18 1522036] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:45:18 1522036] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:18 1522036] [I] [plugin init] plugin type invalid
+
+[11-8 15:45:18 1522037] [I] oops sta 0
+
+[11-8 15:45:18 1522061] [E] [display_te] te0 timeout
+
+[11-8 15:45:23 1522547] [I] tp_power_off
+
+[11-8 15:45:44 1524710] [I] oops sta 0
+
+[11-8 15:45:44 1524711] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:45:44 1524711] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:45:51 1525390] [I] oops sta 0
+
+[11-8 15:45:51 1525391] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:45:51 1525391] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:45:57 1525937] [I] oops sta 0
+
+[11-8 15:45:57 1525938] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:45:57 1525938] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:46:0 1526265] [I] [plugin init] plugin type invalid
+
+[11-8 15:46:0 1526265] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:46:0 1526265] [I] [plugin init] plugin type invalid
+
+[11-8 15:46:0 1526265] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:46:0 1526266] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:46:2 1526505] [I] oops sta 0
+
+[11-8 15:46:2 1526506] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:46:2 1526506] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:46:8 1527082] [I] oops sta 0
+
+[11-8 15:46:8 1527083] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:46:8 1527083] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:47:0 1532266] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:0 1532266] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:47:0 1532266] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:0 1532266] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:47:0 1532267] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:47:11 1533406] [I] XINLI driver
+
+[11-8 15:47:11 1533408] [I] oops sta 0
+
+[11-8 15:47:11 1533416] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:11 1533416] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:47:11 1533416] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:11 1533417] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:47:11 1533417] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:11 1533417] [I] [plugin init] plugin type invalid
+
+[11-8 15:47:12 1533420] [I] tp_power_on
+
+[11-8 15:47:12 1533424] [I] tp reset
+
+[11-8 15:47:14 1533705] [I] oops sta 0
+
+[11-8 15:47:15 1533729] [E] [display_te] te0 timeout
+
+[11-8 15:47:19 1534215] [I] tp_power_off
+
+[11-8 15:47:40 1536301] [I] oops sta 0
+
+[11-8 15:47:40 1536302] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:47:40 1536302] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:47:47 1536960] [I] oops sta 0
+
+[11-8 15:47:47 1536961] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:47:47 1536962] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:47:53 1537584] [I] oops sta 0
+
+[11-8 15:47:53 1537585] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:47:53 1537585] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:47:59 1538187] [I] oops sta 0
+
+[11-8 15:47:59 1538188] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:47:59 1538188] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:48:0 1538267] [I] [plugin init] plugin type invalid
+
+[11-8 15:48:0 1538267] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:48:0 1538267] [I] [plugin init] plugin type invalid
+
+[11-8 15:48:0 1538267] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:48:0 1538268] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:48:4 1538698] [I] oops sta 0
+
+[11-8 15:48:4 1538699] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:48:4 1538699] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:49:0 1544268] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:0 1544268] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:0 1544268] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:0 1544268] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:0 1544269] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:49:9 1545185] [I] XINLI driver
+
+[11-8 15:49:9 1545195] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:9 1545195] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:9 1545195] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:9 1545196] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:9 1545196] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:9 1545196] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:9 1545199] [I] tp_power_on
+
+[11-8 15:49:9 1545203] [I] tp reset
+
+[11-8 15:49:10 1545302] [I] oops sta 0
+
+[11-8 15:49:11 1545326] [E] [display_te] te0 timeout
+
+[11-8 15:49:14 1545634] [I] oops sta 0
+
+[11-8 15:49:14 1545636] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:14 1545637] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:14 1545637] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:14 1545637] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:49:14 1545637] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:14 1545637] [I] [plugin init] plugin type invalid
+
+[11-8 15:49:18 1546109] [E] [display_te] te0 timeout
+
+[11-8 15:49:23 1546595] [I] tp_power_off
+
+[11-8 15:49:40 1548239] [I] oops sta 0
+
+[11-8 15:49:40 1548240] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:49:40 1548240] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:49:46 1548878] [I] oops sta 0
+
+[11-8 15:49:46 1548880] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:49:46 1548880] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:49:52 1549501] [I] oops sta 0
+
+[11-8 15:49:52 1549503] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:49:52 1549503] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:49:58 1550050] [I] oops sta 0
+
+[11-8 15:49:58 1550051] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:49:58 1550051] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:50:0 1550270] [I] [plugin init] plugin type invalid
+
+[11-8 15:50:0 1550270] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:50:0 1550270] [I] [plugin init] plugin type invalid
+
+[11-8 15:50:0 1550270] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:50:0 1550271] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:50:5 1550756] [I] oops sta 0
+
+[11-8 15:50:5 1550757] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:50:5 1550757] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:50:42 1554424] [I] [hrm]unweared:533
+
+[11-8 15:51:0 1556236] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 190010], wrist:16, cal:1, dist:0, a:[0, 0, 215, 268, 96]
+
+[11-8 15:51:0 1556274] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:0 1556274] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:51:0 1556274] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:0 1556274] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:51:0 1556275] [I] ram:[56920, 224296], b:96, s:0
+
+[11-8 15:51:8 1557071] [I] XINLI driver
+
+[11-8 15:51:8 1557075] [I] oops sta 0
+
+[11-8 15:51:8 1557081] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:8 1557081] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:51:8 1557081] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:8 1557082] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:51:8 1557082] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:8 1557082] [I] [plugin init] plugin type invalid
+
+[11-8 15:51:8 1557087] [I] tp_power_on
+
+[11-8 15:51:8 1557091] [I] tp reset
+
+[11-8 15:51:11 1557374] [I] oops sta 0
+
+[11-8 15:51:11 1557398] [E] [display_te] te0 timeout
+
+[11-8 15:51:16 1557884] [I] tp_power_off
+
+[11-8 15:51:37 1559967] [I] oops sta 0
+
+[11-8 15:51:37 1559968] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:51:37 1559968] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:51:44 1560606] [I] oops sta 0
+
+[11-8 15:51:44 1560607] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:51:44 1560607] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:51:50 1561230] [I] oops sta 0
+
+[11-8 15:51:50 1561231] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:51:50 1561231] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:51:55 1561790] [I] oops sta 0
+
+[11-8 15:51:55 1561792] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:51:55 1561792] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:52:0 1562275] [I] [plugin init] plugin type invalid
+
+[11-8 15:52:0 1562275] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:52:0 1562275] [I] [plugin init] plugin type invalid
+
+[11-8 15:52:0 1562275] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:52:0 1562276] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:52:1 1562370] [I] oops sta 0
+
+[11-8 15:52:1 1562371] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:52:1 1562371] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:53:0 1568276] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:0 1568276] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:0 1568276] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:0 1568276] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:0 1568277] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:53:5 1568778] [I] XINLI driver
+
+[11-8 15:53:5 1568788] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:5 1568788] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:5 1568788] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:5 1568789] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:5 1568789] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:5 1568789] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:5 1568792] [I] tp_power_on
+
+[11-8 15:53:6 1568796] [I] tp reset
+
+[11-8 15:53:6 1568824] [I] oops sta 0
+
+[11-8 15:53:6 1568848] [E] [display_te] te0 timeout
+
+[11-8 15:53:9 1569104] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:9 1569104] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:9 1569104] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:9 1569105] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:53:9 1569105] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:9 1569105] [I] [plugin init] plugin type invalid
+
+[11-8 15:53:9 1569106] [I] oops sta 0
+
+[11-8 15:53:9 1569130] [E] [display_te] te0 timeout
+
+[11-8 15:53:14 1569616] [I] tp_power_off
+
+[11-8 15:53:35 1571731] [I] oops sta 0
+
+[11-8 15:53:35 1571732] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:53:35 1571732] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:53:42 1572411] [I] oops sta 0
+
+[11-8 15:53:42 1572412] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:53:42 1572412] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:53:47 1572935] [I] oops sta 0
+
+[11-8 15:53:47 1572937] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:53:47 1572937] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:53:53 1573493] [I] oops sta 0
+
+[11-8 15:53:53 1573494] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:53:53 1573494] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:53:58 1574031] [I] oops sta 0
+
+[11-8 15:53:58 1574032] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:53:58 1574032] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:54:0 1574277] [I] [plugin init] plugin type invalid
+
+[11-8 15:54:0 1574277] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:54:0 1574277] [I] [plugin init] plugin type invalid
+
+[11-8 15:54:0 1574277] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:54:0 1574278] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:55:0 1580278] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:0 1580278] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:0 1580278] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:0 1580278] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:0 1580279] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:55:1 1580355] [I] XINLI driver
+
+[11-8 15:55:1 1580365] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:1 1580365] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:1 1580365] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:1 1580366] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:1 1580366] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:1 1580366] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:1 1580371] [I] tp_power_on
+
+[11-8 15:55:1 1580375] [I] tp reset
+
+[11-8 15:55:2 1580471] [I] oops sta 0
+
+[11-8 15:55:3 1580495] [E] [display_te] te0 timeout
+
+[11-8 15:55:6 1580796] [I] oops sta 0
+
+[11-8 15:55:6 1580799] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:6 1580799] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:6 1580799] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:6 1580800] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:55:6 1580800] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:6 1580800] [I] [plugin init] plugin type invalid
+
+[11-8 15:55:10 1581270] [E] [display_te] te0 timeout
+
+[11-8 15:55:15 1581757] [I] tp_power_off
+
+[11-8 15:55:32 1583487] [I] oops sta 0
+
+[11-8 15:55:33 1583488] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:55:33 1583488] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:55:38 1584066] [I] oops sta 0
+
+[11-8 15:55:38 1584067] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:55:38 1584067] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:55:44 1584670] [I] oops sta 0
+
+[11-8 15:55:44 1584671] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:55:44 1584671] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:55:50 1585239] [I] oops sta 0
+
+[11-8 15:55:50 1585240] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:55:50 1585240] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:55:56 1585789] [I] oops sta 0
+
+[11-8 15:55:56 1585790] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:55:56 1585790] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:56:0 1586279] [I] [plugin init] plugin type invalid
+
+[11-8 15:56:0 1586279] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:56:0 1586279] [I] [plugin init] plugin type invalid
+
+[11-8 15:56:0 1586279] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:56:0 1586280] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:57:0 1592180] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:0 1592180] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:0 1592180] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:0 1592180] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:0 1592184] [I] ram:[57256, 224852], b:96, s:0
+
+[11-8 15:57:2 1592411] [I] XINLI driver
+
+[11-8 15:57:2 1592421] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:2 1592421] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:2 1592421] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:2 1592422] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:2 1592422] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:2 1592422] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:2 1592425] [I] tp_power_on
+
+[11-8 15:57:2 1592429] [I] tp reset
+
+[11-8 15:57:3 1592529] [I] oops sta 0
+
+[11-8 15:57:3 1592553] [E] [display_te] te0 timeout
+
+[11-8 15:57:6 1592857] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:6 1592858] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:6 1592858] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:6 1592858] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:57:6 1592858] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:6 1592858] [I] [plugin init] plugin type invalid
+
+[11-8 15:57:6 1592858] [I] oops sta 0
+
+[11-8 15:57:7 1592883] [E] [display_te] te0 timeout
+
+[11-8 15:57:11 1593369] [I] tp_power_off
+
+[11-8 15:57:32 1595468] [I] oops sta 0
+
+[11-8 15:57:32 1595469] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:57:32 1595469] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:57:39 1596148] [I] oops sta 0
+
+[11-8 15:57:39 1596149] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:57:39 1596149] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:57:45 1596704] [I] oops sta 0
+
+[11-8 15:57:45 1596705] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:57:45 1596705] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:57:51 1597287] [I] oops sta 0
+
+[11-8 15:57:51 1597288] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:57:51 1597288] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:57:56 1597842] [I] oops sta 0
+
+[11-8 15:57:56 1597843] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:57:56 1597843] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:58:0 1598184] [I] [plugin init] plugin type invalid
+
+[11-8 15:58:0 1598184] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:58:0 1598184] [I] [plugin init] plugin type invalid
+
+[11-8 15:58:0 1598184] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:58:0 1598185] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:59:0 1604185] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604185] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:59:0 1604185] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604185] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:59:0 1604186] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 15:59:0 1604216] [I] XINLI driver
+
+[11-8 15:59:0 1604219] [I] oops sta 0
+
+[11-8 15:59:0 1604226] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604226] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:59:0 1604226] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604227] [E] [on_user_group_update][312] widget is null
+
+[11-8 15:59:0 1604227] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604227] [I] [plugin init] plugin type invalid
+
+[11-8 15:59:0 1604230] [I] tp_power_on
+
+[11-8 15:59:0 1604234] [I] tp reset
+
+[11-8 15:59:3 1604526] [I] oops sta 0
+
+[11-8 15:59:3 1604550] [E] [display_te] te0 timeout
+
+[11-8 15:59:8 1605036] [I] tp_power_off
+
+[11-8 15:59:31 1607297] [I] oops sta 0
+
+[11-8 15:59:31 1607298] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:59:31 1607298] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:59:38 1607978] [I] oops sta 0
+
+[11-8 15:59:38 1607979] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:59:38 1607979] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:59:43 1608524] [I] oops sta 0
+
+[11-8 15:59:43 1608525] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:59:43 1608525] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:59:48 1609042] [I] oops sta 0
+
+[11-8 15:59:48 1609043] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:59:48 1609043] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 15:59:54 1609625] [I] oops sta 0
+
+[11-8 15:59:54 1609626] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 15:59:54 1609626] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:0:0 1610186] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:0 1610186] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:0:0 1610186] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:0 1610186] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:0:0 1610187] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:0:0 1610246] [I] [health_step_handler_on_timer_hour_evt]: step_today:0, step_hourly_last:0, record_number:4, step_to_store:0
+
+[11-8 16:0:42 1614424] [I] [hrm]unweared:534
+
+[11-8 16:0:58 1616019] [I] XINLI driver
+
+[11-8 16:0:58 1616029] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:58 1616029] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:0:58 1616029] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:58 1616030] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:0:58 1616030] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:58 1616030] [I] [plugin init] plugin type invalid
+
+[11-8 16:0:58 1616033] [I] tp_power_on
+
+[11-8 16:0:58 1616037] [I] tp reset
+
+[11-8 16:0:59 1616064] [I] oops sta 0
+
+[11-8 16:0:59 1616088] [E] [display_te] te0 timeout
+
+[11-8 16:1:0 1616187] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:0 1616187] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:1:0 1616187] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:0 1616187] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:1:0 1616188] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:1:0 1616236] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 200011], wrist:16, cal:1, dist:0, a:[0, 0, 215, 265, 98]
+
+[11-8 16:1:1 1616346] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:1 1616346] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:1:1 1616346] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:1 1616347] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:1:1 1616347] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:1 1616347] [I] [plugin init] plugin type invalid
+
+[11-8 16:1:1 1616355] [I] oops sta 0
+
+[11-8 16:1:2 1616379] [E] [display_te] te0 timeout
+
+[11-8 16:1:7 1616865] [I] tp_power_off
+
+[11-8 16:1:29 1619071] [I] oops sta 0
+
+[11-8 16:1:29 1619072] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:1:29 1619072] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:1:36 1619770] [I] oops sta 0
+
+[11-8 16:1:36 1619771] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:1:36 1619771] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:1:42 1620392] [I] oops sta 0
+
+[11-8 16:1:42 1620393] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:1:42 1620393] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:1:47 1620957] [I] oops sta 0
+
+[11-8 16:1:47 1620958] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:1:47 1620958] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:1:53 1621545] [I] oops sta 0
+
+[11-8 16:1:53 1621547] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:1:53 1621547] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:2:0 1622188] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:0 1622188] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:2:0 1622188] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:0 1622188] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:2:0 1622192] [I] ram:[57256, 224852], b:96, s:0
+
+[11-8 16:2:57 1627861] [I] XINLI driver
+
+[11-8 16:2:57 1627866] [I] oops sta 0
+
+[11-8 16:2:57 1627871] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:57 1627871] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:2:57 1627872] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:57 1627872] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:2:57 1627872] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:57 1627872] [I] [plugin init] plugin type invalid
+
+[11-8 16:2:57 1627875] [I] tp_power_on
+
+[11-8 16:2:57 1627879] [I] tp reset
+
+[11-8 16:3:0 1628193] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:3:0 1628198] [I] [plugin init] plugin type invalid
+
+[11-8 16:3:0 1628198] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:3:0 1628198] [I] [plugin init] plugin type invalid
+
+[11-8 16:3:0 1628198] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:3:0 1628213] [I] oops sta 0
+
+[11-8 16:3:0 1628237] [E] [display_te] te0 timeout
+
+[11-8 16:3:5 1628723] [I] tp_power_off
+
+[11-8 16:3:26 1630838] [I] oops sta 0
+
+[11-8 16:3:26 1630840] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:3:26 1630840] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:3:33 1631519] [I] oops sta 0
+
+[11-8 16:3:33 1631520] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:3:33 1631520] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:3:39 1632067] [I] oops sta 0
+
+[11-8 16:3:39 1632068] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:3:39 1632068] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:3:44 1632647] [I] oops sta 0
+
+[11-8 16:3:44 1632648] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:3:44 1632648] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:3:50 1633205] [I] oops sta 0
+
+[11-8 16:3:50 1633206] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:3:50 1633206] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:4:0 1634193] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:0 1634193] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:0 1634193] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:0 1634193] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:0 1634194] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:4:53 1639532] [I] XINLI driver
+
+[11-8 16:4:53 1639542] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:53 1639542] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:53 1639542] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:53 1639543] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:53 1639543] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:53 1639543] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:54 1639546] [I] tp_power_on
+
+[11-8 16:4:54 1639550] [I] tp reset
+
+[11-8 16:4:55 1639650] [I] oops sta 0
+
+[11-8 16:4:55 1639674] [E] [display_te] te0 timeout
+
+[11-8 16:4:58 1639985] [I] oops sta 0
+
+[11-8 16:4:58 1639988] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:58 1639989] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:58 1639989] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:58 1639989] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:4:58 1639989] [I] [plugin init] plugin type invalid
+
+[11-8 16:4:58 1639989] [I] [plugin init] plugin type invalid
+
+[11-8 16:5:0 1640195] [I] ram:[56920, 224244], b:96, s:0
+
+[11-8 16:5:0 1640201] [I] [plugin init] plugin type invalid
+
+[11-8 16:5:0 1640202] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:5:0 1640202] [I] [plugin init] plugin type invalid
+
+[11-8 16:5:0 1640202] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:5:3 1640459] [E] [display_te] te0 timeout
+
+[11-8 16:5:7 1640946] [I] tp_power_off
+
+[11-8 16:5:25 1642673] [I] oops sta 0
+
+[11-8 16:5:25 1642675] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:5:25 1642675] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:5:32 1643357] [I] oops sta 0
+
+[11-8 16:5:32 1643358] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:5:32 1643358] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:5:37 1643869] [I] oops sta 0
+
+[11-8 16:5:37 1643870] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:5:37 1643870] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:5:42 1644434] [I] oops sta 0
+
+[11-8 16:5:42 1644435] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:5:42 1644435] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:5:48 1644972] [I] oops sta 0
+
+[11-8 16:5:48 1644973] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:5:48 1644973] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:6:0 1646195] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:0 1646195] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:0 1646195] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:0 1646195] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:0 1646196] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:6:51 1651253] [I] XINLI driver
+
+[11-8 16:6:51 1651263] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:51 1651263] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:51 1651263] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:51 1651264] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:51 1651264] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:51 1651264] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:51 1651267] [I] tp_power_on
+
+[11-8 16:6:51 1651271] [I] tp reset
+
+[11-8 16:6:51 1651298] [I] oops sta 0
+
+[11-8 16:6:51 1651322] [E] [display_te] te0 timeout
+
+[11-8 16:6:54 1651558] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:54 1651558] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:54 1651558] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:54 1651559] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:6:54 1651559] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:54 1651559] [I] [plugin init] plugin type invalid
+
+[11-8 16:6:54 1651560] [I] oops sta 0
+
+[11-8 16:6:54 1651584] [E] [display_te] te0 timeout
+
+[11-8 16:6:59 1652070] [I] tp_power_off
+
+[11-8 16:7:0 1652199] [I] [plugin init] plugin type invalid
+
+[11-8 16:7:0 1652199] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:7:0 1652199] [I] [plugin init] plugin type invalid
+
+[11-8 16:7:0 1652199] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:7:0 1652200] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:7:21 1654276] [I] oops sta 0
+
+[11-8 16:7:21 1654277] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:7:21 1654277] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:7:28 1654957] [I] oops sta 0
+
+[11-8 16:7:28 1654959] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:7:28 1654959] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:7:33 1655488] [I] oops sta 0
+
+[11-8 16:7:33 1655489] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:7:33 1655489] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:7:39 1656051] [I] oops sta 0
+
+[11-8 16:7:39 1656053] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:7:39 1656053] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:7:44 1656627] [I] oops sta 0
+
+[11-8 16:7:44 1656628] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:7:44 1656628] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:8:0 1658200] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:0 1658200] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:0 1658200] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:0 1658200] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:0 1658201] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:8:48 1662942] [I] XINLI driver
+
+[11-8 16:8:48 1662952] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:48 1662952] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:48 1662952] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:48 1662953] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:48 1662953] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:48 1662953] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:48 1662956] [I] tp_power_on
+
+[11-8 16:8:48 1662960] [I] tp reset
+
+[11-8 16:8:49 1663060] [I] oops sta 0
+
+[11-8 16:8:49 1663084] [E] [display_te] te0 timeout
+
+[11-8 16:8:52 1663401] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:52 1663402] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:52 1663402] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:52 1663402] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:8:52 1663402] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:52 1663402] [I] [plugin init] plugin type invalid
+
+[11-8 16:8:52 1663402] [I] oops sta 0
+
+[11-8 16:8:52 1663427] [E] [display_te] te0 timeout
+
+[11-8 16:8:57 1663913] [I] tp_power_off
+
+[11-8 16:9:0 1664204] [I] [plugin init] plugin type invalid
+
+[11-8 16:9:0 1664204] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:9:0 1664204] [I] [plugin init] plugin type invalid
+
+[11-8 16:9:0 1664204] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:9:0 1664205] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:9:19 1666082] [I] oops sta 0
+
+[11-8 16:9:19 1666083] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:9:19 1666083] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:9:26 1666761] [I] oops sta 0
+
+[11-8 16:9:26 1666762] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:9:26 1666762] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:9:32 1667329] [I] oops sta 0
+
+[11-8 16:9:32 1667330] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:9:32 1667330] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:9:37 1667892] [I] oops sta 0
+
+[11-8 16:9:37 1667893] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:9:37 1667893] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:9:43 1668441] [I] oops sta 0
+
+[11-8 16:9:43 1668442] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:9:43 1668442] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:10:0 1670205] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:0 1670205] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:10:0 1670205] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:0 1670205] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:10:0 1670206] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:10:1 1670224] [I] [system_profile_do_update] update succ. timestamp:1636359000 
+
+[11-8 16:10:43 1674424] [I] [hrm]unweared:535
+
+[11-8 16:10:45 1674631] [I] XINLI driver
+
+[11-8 16:10:45 1674633] [I] oops sta 0
+
+[11-8 16:10:45 1674641] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:45 1674641] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:10:45 1674641] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:45 1674642] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:10:45 1674642] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:45 1674642] [I] [plugin init] plugin type invalid
+
+[11-8 16:10:45 1674645] [I] tp_power_on
+
+[11-8 16:10:45 1674649] [I] tp reset
+
+[11-8 16:10:48 1674921] [I] oops sta 0
+
+[11-8 16:10:48 1674945] [E] [display_te] te0 timeout
+
+[11-8 16:10:53 1675431] [I] tp_power_off
+
+[11-8 16:11:0 1676124] [I] [plugin init] plugin type invalid
+
+[11-8 16:11:0 1676124] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:11:0 1676124] [I] [plugin init] plugin type invalid
+
+[11-8 16:11:0 1676124] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:11:0 1676125] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:11:0 1676136] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 210012], wrist:16, cal:1, dist:0, a:[0, 0, 215, 264, 97]
+
+[11-8 16:11:14 1677526] [I] oops sta 0
+
+[11-8 16:11:14 1677528] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:11:14 1677528] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:11:21 1678206] [I] oops sta 0
+
+[11-8 16:11:21 1678207] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:11:21 1678207] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:11:27 1678851] [I] oops sta 0
+
+[11-8 16:11:27 1678852] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:11:27 1678852] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:11:33 1679412] [I] oops sta 0
+
+[11-8 16:11:33 1679413] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:11:33 1679413] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:11:38 1679966] [I] oops sta 0
+
+[11-8 16:11:38 1679967] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:11:38 1679967] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:12:0 1682125] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:0 1682125] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:12:0 1682125] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:0 1682125] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:12:0 1682126] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:12:41 1686268] [I] XINLI driver
+
+[11-8 16:12:41 1686271] [I] oops sta 0
+
+[11-8 16:12:41 1686278] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:41 1686278] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:12:41 1686278] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:41 1686279] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:12:41 1686279] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:41 1686279] [I] [plugin init] plugin type invalid
+
+[11-8 16:12:41 1686282] [I] tp_power_on
+
+[11-8 16:12:41 1686286] [I] tp reset
+
+[11-8 16:12:44 1686571] [I] oops sta 0
+
+[11-8 16:12:44 1686595] [E] [display_te] te0 timeout
+
+[11-8 16:12:49 1687081] [I] tp_power_off
+
+[11-8 16:13:0 1688126] [I] [plugin init] plugin type invalid
+
+[11-8 16:13:0 1688126] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:13:0 1688126] [I] [plugin init] plugin type invalid
+
+[11-8 16:13:0 1688126] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:13:0 1688127] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:13:10 1689189] [I] oops sta 0
+
+[11-8 16:13:10 1689190] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:13:10 1689190] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:13:17 1689868] [I] oops sta 0
+
+[11-8 16:13:17 1689869] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:13:17 1689869] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:13:23 1690408] [I] oops sta 0
+
+[11-8 16:13:23 1690409] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:13:23 1690409] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:13:29 1691054] [I] oops sta 0
+
+[11-8 16:13:29 1691055] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:13:29 1691055] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:13:34 1691570] [I] oops sta 0
+
+[11-8 16:13:34 1691571] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:13:34 1691571] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:14:0 1694127] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:0 1694127] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:0 1694127] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:0 1694127] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:0 1694128] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:14:38 1697958] [I] XINLI driver
+
+[11-8 16:14:38 1697968] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:38 1697968] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:38 1697968] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:38 1697969] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:38 1697969] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:38 1697969] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:38 1697972] [I] tp_power_on
+
+[11-8 16:14:38 1697976] [I] tp reset
+
+[11-8 16:14:39 1698074] [I] oops sta 0
+
+[11-8 16:14:40 1698098] [E] [display_te] te0 timeout
+
+[11-8 16:14:43 1698420] [I] oops sta 0
+
+[11-8 16:14:43 1698423] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:43 1698423] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:43 1698423] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:43 1698423] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:14:43 1698424] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:43 1698424] [I] [plugin init] plugin type invalid
+
+[11-8 16:14:48 1698894] [E] [display_te] te0 timeout
+
+[11-8 16:14:52 1699381] [I] tp_power_off
+
+[11-8 16:15:0 1700130] [I] [plugin init] plugin type invalid
+
+[11-8 16:15:0 1700130] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:15:0 1700130] [I] [plugin init] plugin type invalid
+
+[11-8 16:15:0 1700130] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:15:0 1700131] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:15:10 1701120] [I] oops sta 0
+
+[11-8 16:15:10 1701121] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:15:10 1701121] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:15:17 1701819] [I] oops sta 0
+
+[11-8 16:15:17 1701820] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:15:17 1701820] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:15:23 1702440] [I] oops sta 0
+
+[11-8 16:15:23 1702441] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:15:23 1702441] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:15:29 1703017] [I] oops sta 0
+
+[11-8 16:15:29 1703018] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:15:29 1703018] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:15:34 1703580] [I] oops sta 0
+
+[11-8 16:15:34 1703581] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:15:34 1703581] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:16:0 1706131] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:0 1706131] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:0 1706131] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:0 1706131] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:0 1706132] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:16:38 1709933] [I] XINLI driver
+
+[11-8 16:16:38 1709943] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:38 1709943] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:38 1709943] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:38 1709944] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:38 1709944] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:38 1709944] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:38 1709947] [I] tp_power_on
+
+[11-8 16:16:38 1709951] [I] tp reset
+
+[11-8 16:16:39 1710049] [I] oops sta 0
+
+[11-8 16:16:39 1710073] [E] [display_te] te0 timeout
+
+[11-8 16:16:42 1710376] [I] oops sta 0
+
+[11-8 16:16:42 1710379] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:42 1710379] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:42 1710379] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:42 1710380] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:16:42 1710380] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:42 1710380] [I] [plugin init] plugin type invalid
+
+[11-8 16:16:47 1710850] [E] [display_te] te0 timeout
+
+[11-8 16:16:52 1711337] [I] tp_power_off
+
+[11-8 16:17:0 1712135] [I] [plugin init] plugin type invalid
+
+[11-8 16:17:0 1712135] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:17:0 1712135] [I] [plugin init] plugin type invalid
+
+[11-8 16:17:0 1712135] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:17:0 1712139] [I] ram:[57256, 224852], b:96, s:0
+
+[11-8 16:17:9 1713043] [I] oops sta 0
+
+[11-8 16:17:9 1713044] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:17:9 1713044] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:17:16 1713722] [I] oops sta 0
+
+[11-8 16:17:16 1713723] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:17:16 1713723] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:17:22 1714312] [I] oops sta 0
+
+[11-8 16:17:22 1714313] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:17:22 1714313] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:17:28 1714935] [I] oops sta 0
+
+[11-8 16:17:28 1714936] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:17:28 1714936] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:17:33 1715470] [I] oops sta 0
+
+[11-8 16:17:33 1715471] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:17:33 1715471] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:18:0 1718139] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:0 1718139] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:0 1718139] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:0 1718139] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:0 1718140] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:18:37 1721863] [I] XINLI driver
+
+[11-8 16:18:38 1721873] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:38 1721873] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:38 1721873] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:38 1721874] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:38 1721874] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:38 1721874] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:38 1721877] [I] tp_power_on
+
+[11-8 16:18:38 1721881] [I] tp reset
+
+[11-8 16:18:39 1721979] [I] oops sta 0
+
+[11-8 16:18:39 1722003] [E] [display_te] te0 timeout
+
+[11-8 16:18:42 1722311] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:42 1722311] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:42 1722311] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:42 1722312] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:18:42 1722312] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:42 1722312] [I] [plugin init] plugin type invalid
+
+[11-8 16:18:42 1722320] [I] oops sta 0
+
+[11-8 16:18:42 1722344] [E] [display_te] te0 timeout
+
+[11-8 16:18:47 1722830] [I] tp_power_off
+
+[11-8 16:19:0 1724140] [I] [plugin init] plugin type invalid
+
+[11-8 16:19:0 1724140] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:19:0 1724140] [I] [plugin init] plugin type invalid
+
+[11-8 16:19:0 1724140] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:19:0 1724141] [I] ram:[57040, 224852], b:96, s:0
+
+[11-8 16:19:8 1724923] [I] oops sta 0
+
+[11-8 16:19:8 1724924] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:19:8 1724924] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:19:15 1725603] [I] oops sta 0
+
+[11-8 16:19:15 1725604] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:19:15 1725604] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:19:21 1726180] [I] oops sta 0
+
+[11-8 16:19:21 1726181] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:19:21 1726181] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:19:24 1726472] [I] [ss_batt_do_sample] percent:95%, volt_mv:4287mv
+
+[11-8 16:19:24 1726472] [I] [update_system_bar] batt_level = 95
+[11-8 16:19:26 1726739] [I] oops sta 0
+
+[11-8 16:19:26 1726740] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:19:26 1726740] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:19:32 1727321] [I] oops sta 0
+
+[11-8 16:19:32 1727322] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:19:32 1727322] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:20:0 1730141] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:0 1730141] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:20:0 1730141] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:0 1730141] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:20:0 1730142] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:20:34 1733508] [I] XINLI driver
+
+[11-8 16:20:34 1733513] [I] oops sta 0
+
+[11-8 16:20:34 1733518] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:34 1733518] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:20:34 1733518] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:34 1733519] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:20:34 1733519] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:34 1733519] [I] [plugin init] plugin type invalid
+
+[11-8 16:20:34 1733522] [I] tp_power_on
+
+[11-8 16:20:34 1733526] [I] tp reset
+
+[11-8 16:20:37 1733799] [I] oops sta 0
+
+[11-8 16:20:37 1733823] [E] [display_te] te0 timeout
+
+[11-8 16:20:42 1734309] [I] tp_power_off
+
+[11-8 16:20:43 1734424] [I] [hrm]unweared:536
+
+[11-8 16:21:0 1736142] [I] [plugin init] plugin type invalid
+
+[11-8 16:21:0 1736142] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:21:0 1736142] [I] [plugin init] plugin type invalid
+
+[11-8 16:21:0 1736142] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:21:0 1736143] [I] ram:[56888, 224420], b:95, s:0
+
+[11-8 16:21:0 1736143] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 220013], wrist:16, cal:1, dist:0, a:[0, 0, 215, 208, 98]
+
+[11-8 16:21:3 1736400] [I] oops sta 0
+
+[11-8 16:21:3 1736402] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:21:3 1736402] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:21:10 1737080] [I] oops sta 0
+
+[11-8 16:21:10 1737081] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:21:10 1737081] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:21:16 1737691] [I] oops sta 0
+
+[11-8 16:21:16 1737692] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:21:16 1737692] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:21:21 1738235] [I] oops sta 0
+
+[11-8 16:21:21 1738236] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:21:21 1738236] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:21:27 1738861] [I] oops sta 0
+
+[11-8 16:21:27 1738862] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:21:28 1738862] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:22:0 1742143] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:0 1742143] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:0 1742143] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:0 1742143] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:0 1742144] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:22:31 1745187] [I] XINLI driver
+
+[11-8 16:22:31 1745197] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:31 1745197] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:31 1745197] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:31 1745198] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:31 1745198] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:31 1745198] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:31 1745201] [I] tp_power_on
+
+[11-8 16:22:31 1745205] [I] tp reset
+
+[11-8 16:22:32 1745305] [I] oops sta 0
+
+[11-8 16:22:32 1745329] [E] [display_te] te0 timeout
+
+[11-8 16:22:35 1745642] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:35 1745642] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:35 1745642] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:35 1745643] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:22:35 1745643] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:35 1745643] [I] [plugin init] plugin type invalid
+
+[11-8 16:22:35 1745651] [I] oops sta 0
+
+[11-8 16:22:36 1745675] [E] [display_te] te0 timeout
+
+[11-8 16:22:41 1746161] [I] tp_power_off
+
+[11-8 16:23:0 1748148] [I] [plugin init] plugin type invalid
+
+[11-8 16:23:0 1748148] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:23:0 1748148] [I] [plugin init] plugin type invalid
+
+[11-8 16:23:0 1748148] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:23:0 1748152] [I] ram:[57256, 224420], b:95, s:0
+
+[11-8 16:23:2 1748333] [I] oops sta 0
+
+[11-8 16:23:2 1748334] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:23:2 1748334] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:23:9 1749032] [I] oops sta 0
+
+[11-8 16:23:9 1749033] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:23:9 1749034] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:23:15 1749629] [I] oops sta 0
+
+[11-8 16:23:15 1749630] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:23:15 1749631] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:23:21 1750217] [I] oops sta 0
+
+[11-8 16:23:21 1750218] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:23:21 1750218] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:23:27 1750851] [I] oops sta 0
+
+[11-8 16:23:27 1750852] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:23:27 1750852] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:24:0 1754053] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:0 1754053] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:24:0 1754053] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:0 1754053] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:24:0 1754057] [I] ram:[57256, 224420], b:95, s:0
+
+[11-8 16:24:30 1757064] [I] XINLI driver
+
+[11-8 16:24:30 1757066] [I] oops sta 0
+
+[11-8 16:24:30 1757074] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:30 1757074] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:24:30 1757074] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:30 1757075] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:24:30 1757075] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:30 1757075] [I] [plugin init] plugin type invalid
+
+[11-8 16:24:30 1757078] [I] tp_power_on
+
+[11-8 16:24:30 1757082] [I] tp reset
+
+[11-8 16:24:33 1757374] [I] oops sta 0
+
+[11-8 16:24:33 1757398] [E] [display_te] te0 timeout
+
+[11-8 16:24:38 1757884] [I] tp_power_off
+
+[11-8 16:24:59 1759970] [I] oops sta 0
+
+[11-8 16:24:59 1759971] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:24:59 1759971] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:25:0 1760057] [I] [plugin init] plugin type invalid
+
+[11-8 16:25:0 1760057] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:25:0 1760057] [I] [plugin init] plugin type invalid
+
+[11-8 16:25:0 1760057] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:25:0 1760058] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:25:6 1760649] [I] oops sta 0
+
+[11-8 16:25:6 1760650] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:25:6 1760650] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:25:11 1761233] [I] oops sta 0
+
+[11-8 16:25:11 1761234] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:25:11 1761234] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:25:17 1761814] [I] oops sta 0
+
+[11-8 16:25:17 1761816] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:25:17 1761816] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:25:23 1762385] [I] oops sta 0
+
+[11-8 16:25:23 1762387] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:25:23 1762387] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:26:0 1766061] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:0 1766061] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:26:0 1766061] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:0 1766061] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:26:0 1766062] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:26:26 1768656] [I] XINLI driver
+
+[11-8 16:26:26 1768658] [I] oops sta 0
+
+[11-8 16:26:26 1768666] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:26 1768666] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:26:26 1768666] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:26 1768667] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:26:26 1768667] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:26 1768667] [I] [plugin init] plugin type invalid
+
+[11-8 16:26:26 1768670] [I] tp_power_on
+
+[11-8 16:26:26 1768674] [I] tp reset
+
+[11-8 16:26:30 1769046] [I] oops sta 0
+
+[11-8 16:26:30 1769070] [E] [display_te] te0 timeout
+
+[11-8 16:26:35 1769556] [I] tp_power_off
+
+[11-8 16:26:57 1771755] [I] oops sta 0
+
+[11-8 16:26:57 1771756] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:26:57 1771757] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:27:0 1772062] [I] [plugin init] plugin type invalid
+
+[11-8 16:27:0 1772062] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:27:0 1772062] [I] [plugin init] plugin type invalid
+
+[11-8 16:27:0 1772062] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:27:0 1772063] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:27:3 1772435] [I] oops sta 0
+
+[11-8 16:27:3 1772436] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:27:3 1772436] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:27:9 1773000] [I] oops sta 0
+
+[11-8 16:27:9 1773001] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:27:9 1773001] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:27:15 1773543] [I] oops sta 0
+
+[11-8 16:27:15 1773544] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:27:15 1773544] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:27:20 1774070] [I] oops sta 0
+
+[11-8 16:27:20 1774071] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:27:20 1774071] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:28:0 1778063] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:0 1778063] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:28:0 1778063] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:0 1778063] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:28:0 1778064] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:28:23 1780342] [I] XINLI driver
+
+[11-8 16:28:23 1780346] [I] oops sta 0
+
+[11-8 16:28:23 1780352] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:23 1780352] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:28:23 1780352] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:23 1780353] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:28:23 1780353] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:23 1780353] [I] [plugin init] plugin type invalid
+
+[11-8 16:28:23 1780356] [I] tp_power_on
+
+[11-8 16:28:23 1780360] [I] tp reset
+
+[11-8 16:28:26 1780632] [I] oops sta 0
+
+[11-8 16:28:26 1780656] [E] [display_te] te0 timeout
+
+[11-8 16:28:31 1781142] [I] tp_power_off
+
+[11-8 16:28:52 1783283] [I] oops sta 0
+
+[11-8 16:28:52 1783285] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:28:52 1783285] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:28:59 1783964] [I] oops sta 0
+
+[11-8 16:28:59 1783965] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:28:59 1783965] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:29:0 1784066] [I] [plugin init] plugin type invalid
+
+[11-8 16:29:0 1784066] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:29:0 1784066] [I] [plugin init] plugin type invalid
+
+[11-8 16:29:0 1784066] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:29:0 1784067] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:29:4 1784513] [I] oops sta 0
+
+[11-8 16:29:4 1784514] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:29:4 1784514] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:29:10 1785028] [I] oops sta 0
+
+[11-8 16:29:10 1785029] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:29:10 1785029] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:29:15 1785610] [I] oops sta 0
+
+[11-8 16:29:15 1785611] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:29:15 1785611] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:30:0 1790067] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:0 1790067] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:0 1790067] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:0 1790067] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:0 1790068] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:30:18 1791853] [I] XINLI driver
+
+[11-8 16:30:18 1791863] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:18 1791863] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:18 1791863] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:18 1791864] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:18 1791864] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:18 1791864] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:18 1791867] [I] tp_power_on
+
+[11-8 16:30:18 1791871] [I] tp reset
+
+[11-8 16:30:19 1791971] [I] oops sta 0
+
+[11-8 16:30:19 1791995] [E] [display_te] te0 timeout
+
+[11-8 16:30:22 1792291] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:22 1792291] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:22 1792291] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:22 1792291] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:30:22 1792291] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:22 1792291] [I] [plugin init] plugin type invalid
+
+[11-8 16:30:22 1792291] [I] oops sta 0
+
+[11-8 16:30:22 1792316] [E] [display_te] te0 timeout
+
+[11-8 16:30:27 1792802] [I] tp_power_off
+
+[11-8 16:30:44 1794424] [I] [hrm]unweared:537
+
+[11-8 16:30:48 1794899] [I] oops sta 0
+
+[11-8 16:30:48 1794901] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:30:48 1794901] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:30:55 1795579] [I] oops sta 0
+
+[11-8 16:30:55 1795580] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:30:55 1795580] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:31:0 1796036] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 230014], wrist:16, cal:1, dist:0, a:[0, 0, 215, 405, 95]
+
+[11-8 16:31:0 1796074] [I] [plugin init] plugin type invalid
+
+[11-8 16:31:0 1796074] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:31:0 1796074] [I] [plugin init] plugin type invalid
+
+[11-8 16:31:0 1796074] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:31:0 1796075] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:31:1 1796178] [I] oops sta 0
+
+[11-8 16:31:1 1796179] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:31:1 1796179] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:31:7 1796736] [I] oops sta 0
+
+[11-8 16:31:7 1796737] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:31:7 1796737] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:31:12 1797304] [I] oops sta 0
+
+[11-8 16:31:12 1797305] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:31:12 1797305] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:32:0 1802075] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:0 1802075] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:0 1802075] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:0 1802075] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:0 1802076] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:32:15 1803610] [I] XINLI driver
+
+[11-8 16:32:16 1803620] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:16 1803620] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:16 1803620] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:16 1803621] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:16 1803621] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:16 1803621] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:16 1803624] [I] tp_power_on
+
+[11-8 16:32:16 1803628] [I] tp reset
+
+[11-8 16:32:17 1803728] [I] oops sta 0
+
+[11-8 16:32:17 1803752] [E] [display_te] te0 timeout
+
+[11-8 16:32:20 1804071] [I] oops sta 0
+
+[11-8 16:32:20 1804073] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:20 1804074] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:20 1804074] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:20 1804074] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:32:20 1804074] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:20 1804074] [I] [plugin init] plugin type invalid
+
+[11-8 16:32:25 1804544] [E] [display_te] te0 timeout
+
+[11-8 16:32:30 1805031] [I] tp_power_off
+
+[11-8 16:32:46 1806685] [I] oops sta 0
+
+[11-8 16:32:46 1806686] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:32:46 1806686] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:32:53 1807366] [I] oops sta 0
+
+[11-8 16:32:53 1807367] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:32:53 1807367] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:32:58 1807878] [I] oops sta 0
+
+[11-8 16:32:58 1807880] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:32:58 1807880] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:33:0 1808076] [I] [plugin init] plugin type invalid
+
+[11-8 16:33:0 1808076] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:33:0 1808076] [I] [plugin init] plugin type invalid
+
+[11-8 16:33:0 1808076] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:33:0 1808077] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:33:4 1808466] [I] oops sta 0
+
+[11-8 16:33:4 1808467] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:33:4 1808467] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:33:10 1809034] [I] oops sta 0
+
+[11-8 16:33:10 1809035] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:33:10 1809035] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:34:0 1814077] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:0 1814077] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:34:0 1814077] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:0 1814077] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:34:0 1814078] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:34:13 1815376] [I] XINLI driver
+
+[11-8 16:34:13 1815380] [I] oops sta 0
+
+[11-8 16:34:13 1815386] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:13 1815386] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:34:13 1815386] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:13 1815387] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:34:13 1815387] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:13 1815387] [I] [plugin init] plugin type invalid
+
+[11-8 16:34:13 1815390] [I] tp_power_on
+
+[11-8 16:34:13 1815394] [I] tp reset
+
+[11-8 16:34:16 1815674] [I] oops sta 0
+
+[11-8 16:34:16 1815698] [E] [display_te] te0 timeout
+
+[11-8 16:34:21 1816184] [I] tp_power_off
+
+[11-8 16:34:43 1818382] [I] oops sta 0
+
+[11-8 16:34:43 1818383] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:34:43 1818383] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:34:50 1819061] [I] oops sta 0
+
+[11-8 16:34:50 1819062] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:34:50 1819062] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:34:56 1819663] [I] oops sta 0
+
+[11-8 16:34:56 1819664] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:34:56 1819664] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:35:0 1820078] [I] [plugin init] plugin type invalid
+
+[11-8 16:35:0 1820078] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:35:0 1820078] [I] [plugin init] plugin type invalid
+
+[11-8 16:35:0 1820078] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:35:0 1820079] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:35:2 1820294] [I] oops sta 0
+
+[11-8 16:35:2 1820295] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:35:2 1820295] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:35:8 1820829] [I] oops sta 0
+
+[11-8 16:35:8 1820830] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:35:8 1820830] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:36:0 1826082] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:0 1826082] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:0 1826082] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:0 1826082] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:0 1826083] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:36:11 1827168] [I] XINLI driver
+
+[11-8 16:36:11 1827178] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:11 1827178] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:11 1827178] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:11 1827179] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:11 1827179] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:11 1827179] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:11 1827182] [I] tp_power_on
+
+[11-8 16:36:11 1827186] [I] tp reset
+
+[11-8 16:36:12 1827213] [I] oops sta 0
+
+[11-8 16:36:12 1827237] [E] [display_te] te0 timeout
+
+[11-8 16:36:15 1827499] [I] oops sta 0
+
+[11-8 16:36:15 1827500] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:15 1827500] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:15 1827500] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:15 1827500] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:36:15 1827500] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:15 1827501] [I] [plugin init] plugin type invalid
+
+[11-8 16:36:19 1827975] [E] [display_te] te0 timeout
+
+[11-8 16:36:24 1828461] [I] tp_power_off
+
+[11-8 16:36:41 1830118] [I] oops sta 0
+
+[11-8 16:36:41 1830120] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:36:41 1830120] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:36:48 1830798] [I] oops sta 0
+
+[11-8 16:36:48 1830799] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:36:48 1830799] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:36:53 1831354] [I] oops sta 0
+
+[11-8 16:36:53 1831355] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:36:53 1831355] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:36:59 1831987] [I] oops sta 0
+
+[11-8 16:36:59 1831988] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:36:59 1831988] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:37:0 1832090] [I] [plugin init] plugin type invalid
+
+[11-8 16:37:0 1832090] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:37:0 1832090] [I] [plugin init] plugin type invalid
+
+[11-8 16:37:0 1832090] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:37:0 1832091] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:37:5 1832543] [I] oops sta 0
+
+[11-8 16:37:5 1832544] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:37:5 1832544] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:38:0 1837991] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:0 1837991] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:38:0 1837991] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:0 1837991] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:38:0 1837992] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:38:9 1838942] [I] XINLI driver
+
+[11-8 16:38:9 1838947] [I] oops sta 0
+
+[11-8 16:38:9 1838952] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:9 1838952] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:38:9 1838953] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:9 1838953] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:38:9 1838953] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:9 1838953] [I] [plugin init] plugin type invalid
+
+[11-8 16:38:9 1838956] [I] tp_power_on
+
+[11-8 16:38:9 1838960] [I] tp reset
+
+[11-8 16:38:12 1839233] [I] oops sta 0
+
+[11-8 16:38:12 1839257] [E] [display_te] te0 timeout
+
+[11-8 16:38:17 1839743] [I] tp_power_off
+
+[11-8 16:38:39 1841928] [I] oops sta 0
+
+[11-8 16:38:39 1841929] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:38:39 1841929] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:38:45 1842587] [I] oops sta 0
+
+[11-8 16:38:46 1842588] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:38:46 1842588] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:38:52 1843192] [I] oops sta 0
+
+[11-8 16:38:52 1843193] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:38:52 1843193] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:38:57 1843754] [I] oops sta 0
+
+[11-8 16:38:57 1843755] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:38:57 1843755] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:39:0 1843995] [I] [plugin init] plugin type invalid
+
+[11-8 16:39:0 1843995] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:39:0 1843995] [I] [plugin init] plugin type invalid
+
+[11-8 16:39:0 1843995] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:39:0 1843996] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:39:3 1844345] [I] oops sta 0
+
+[11-8 16:39:3 1844347] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:39:3 1844347] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:40:0 1849996] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:0 1849996] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:40:0 1849996] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:0 1849996] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:40:0 1849997] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:40:0 1850015] [I] [system_profile_do_update] update succ. timestamp:1636360800 
+
+[11-8 16:40:5 1850552] [I] XINLI driver
+
+[11-8 16:40:5 1850554] [I] oops sta 0
+
+[11-8 16:40:5 1850562] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:5 1850562] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:40:5 1850562] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:5 1850563] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:40:5 1850563] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:5 1850563] [I] [plugin init] plugin type invalid
+
+[11-8 16:40:6 1850566] [I] tp_power_on
+
+[11-8 16:40:6 1850570] [I] tp reset
+
+[11-8 16:40:8 1850849] [I] oops sta 0
+
+[11-8 16:40:9 1850873] [E] [display_te] te0 timeout
+
+[11-8 16:40:13 1851359] [I] tp_power_off
+
+[11-8 16:40:35 1853481] [I] oops sta 0
+
+[11-8 16:40:35 1853482] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:40:35 1853482] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:40:41 1854120] [I] oops sta 0
+
+[11-8 16:40:41 1854121] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:40:41 1854121] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:40:44 1854424] [I] [hrm]unweared:538
+
+[11-8 16:40:47 1854743] [I] oops sta 0
+
+[11-8 16:40:47 1854744] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:40:47 1854744] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:40:53 1855292] [I] oops sta 0
+
+[11-8 16:40:53 1855293] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:40:53 1855293] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:40:58 1855855] [I] oops sta 0
+
+[11-8 16:40:58 1855856] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:40:58 1855856] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:41:0 1856016] [I] [plugin init] plugin type invalid
+
+[11-8 16:41:0 1856016] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:41:0 1856016] [I] [plugin init] plugin type invalid
+
+[11-8 16:41:0 1856016] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:41:0 1856017] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:41:0 1856036] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 240015], wrist:16, cal:1, dist:0, a:[0, 0, 215, 241, 96]
+
+[11-8 16:42:0 1862017] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:0 1862017] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:0 1862017] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:0 1862017] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:0 1862018] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:42:2 1862164] [I] XINLI driver
+
+[11-8 16:42:2 1862174] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:2 1862174] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:2 1862174] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:2 1862175] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:2 1862175] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:2 1862175] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:2 1862178] [I] tp_power_on
+
+[11-8 16:42:2 1862182] [I] tp reset
+
+[11-8 16:42:2 1862209] [I] oops sta 0
+
+[11-8 16:42:2 1862233] [E] [display_te] te0 timeout
+
+[11-8 16:42:5 1862499] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:5 1862499] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:5 1862499] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:5 1862500] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:42:5 1862500] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:5 1862500] [I] [plugin init] plugin type invalid
+
+[11-8 16:42:5 1862501] [I] oops sta 0
+
+[11-8 16:42:5 1862553] [E] [display_te] te0 timeout
+
+[11-8 16:42:10 1863039] [I] tp_power_off
+
+[11-8 16:42:31 1865122] [I] oops sta 0
+
+[11-8 16:42:31 1865124] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:42:31 1865124] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:42:38 1865801] [I] oops sta 0
+
+[11-8 16:42:38 1865802] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:42:38 1865802] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:42:44 1866406] [I] oops sta 0
+
+[11-8 16:42:44 1866407] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:42:44 1866407] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:42:50 1866975] [I] oops sta 0
+
+[11-8 16:42:50 1866977] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:42:50 1866977] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:42:55 1867524] [I] oops sta 0
+
+[11-8 16:42:55 1867525] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:42:55 1867525] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:43:0 1868018] [I] [plugin init] plugin type invalid
+
+[11-8 16:43:0 1868018] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:43:0 1868018] [I] [plugin init] plugin type invalid
+
+[11-8 16:43:0 1868018] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:43:0 1868019] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:44:0 1873952] [I] XINLI driver
+
+[11-8 16:44:0 1873955] [I] oops sta 0
+
+[11-8 16:44:0 1873962] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1873962] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:44:0 1873962] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1873963] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:44:0 1873963] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1873963] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1873966] [I] tp_power_on
+
+[11-8 16:44:0 1873970] [I] tp reset
+
+[11-8 16:44:0 1874019] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:44:0 1874022] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1874022] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:44:0 1874022] [I] [plugin init] plugin type invalid
+
+[11-8 16:44:0 1874022] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:44:3 1874249] [I] oops sta 0
+
+[11-8 16:44:3 1874273] [E] [display_te] te0 timeout
+
+[11-8 16:44:8 1874759] [I] tp_power_off
+
+[11-8 16:44:30 1876967] [I] oops sta 0
+
+[11-8 16:44:30 1876969] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:44:30 1876969] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:44:37 1877648] [I] oops sta 0
+
+[11-8 16:44:37 1877649] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:44:37 1877650] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:44:42 1878186] [I] oops sta 0
+
+[11-8 16:44:42 1878187] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:44:42 1878187] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:44:48 1878750] [I] oops sta 0
+
+[11-8 16:44:48 1878751] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:44:48 1878751] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:44:53 1879316] [I] oops sta 0
+
+[11-8 16:44:53 1879317] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:44:53 1879317] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:45:0 1880019] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:0 1880019] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:45:0 1880019] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:0 1880019] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:45:0 1880020] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:45:56 1885637] [I] XINLI driver
+
+[11-8 16:45:57 1885640] [I] oops sta 0
+
+[11-8 16:45:57 1885647] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:57 1885647] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:45:57 1885647] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:57 1885648] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:45:57 1885648] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:57 1885648] [I] [plugin init] plugin type invalid
+
+[11-8 16:45:57 1885651] [I] tp_power_on
+
+[11-8 16:45:57 1885655] [I] tp reset
+
+[11-8 16:46:0 1885994] [I] oops sta 0
+
+[11-8 16:46:0 1886018] [E] [display_te] te0 timeout
+
+[11-8 16:46:0 1886022] [I] [plugin init] plugin type invalid
+
+[11-8 16:46:0 1886023] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:46:0 1886023] [I] [plugin init] plugin type invalid
+
+[11-8 16:46:0 1886023] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:46:0 1886023] [I] ram:[57076, 224420], b:95, s:0
+
+[11-8 16:46:5 1886504] [I] tp_power_off
+
+[11-8 16:46:28 1888787] [I] oops sta 0
+
+[11-8 16:46:28 1888788] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:46:28 1888788] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:46:34 1889426] [I] oops sta 0
+
+[11-8 16:46:34 1889427] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:46:34 1889427] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:46:41 1890050] [I] oops sta 0
+
+[11-8 16:46:41 1890051] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:46:41 1890051] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:46:46 1890555] [I] oops sta 0
+
+[11-8 16:46:46 1890556] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:46:46 1890556] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:46:51 1891130] [I] oops sta 0
+
+[11-8 16:46:51 1891131] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:46:51 1891131] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:47:0 1892024] [I] ram:[56980, 224420], b:95, s:0
+
+[11-8 16:47:0 1892027] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:0 1892027] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:47:0 1892027] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:0 1892027] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:47:55 1897520] [I] XINLI driver
+
+[11-8 16:47:56 1897530] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:56 1897530] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:47:56 1897530] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:56 1897531] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:47:56 1897531] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:56 1897531] [I] [plugin init] plugin type invalid
+
+[11-8 16:47:56 1897534] [I] tp_power_on
+
+[11-8 16:47:56 1897538] [I] tp reset
+
+[11-8 16:47:57 1897638] [I] oops sta 0
+
+[11-8 16:47:57 1897662] [E] [display_te] te0 timeout
+
+[11-8 16:48:0 1898002] [I] oops sta 0
+
+[11-8 16:48:0 1898003] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:0 1898003] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:48:0 1898004] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:0 1898004] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:48:0 1898004] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:0 1898004] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:0 1898025] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:48:1 1898031] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:1 1898031] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:48:1 1898031] [I] [plugin init] plugin type invalid
+
+[11-8 16:48:1 1898031] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:48:5 1898477] [E] [display_te] te0 timeout
+
+[11-8 16:48:10 1898964] [I] tp_power_off
+
+[11-8 16:48:28 1900808] [I] oops sta 0
+
+[11-8 16:48:28 1900809] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:48:28 1900809] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:48:34 1901407] [I] oops sta 0
+
+[11-8 16:48:34 1901408] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:48:34 1901409] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:48:40 1902004] [I] oops sta 0
+
+[11-8 16:48:40 1902005] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:48:40 1902006] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:48:46 1902584] [I] oops sta 0
+
+[11-8 16:48:46 1902585] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:48:46 1902585] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:48:51 1903112] [I] oops sta 0
+
+[11-8 16:48:51 1903113] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:48:51 1903113] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:49:0 1904025] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:0 1904025] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:49:0 1904025] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:0 1904025] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:49:0 1904026] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:49:53 1909308] [I] XINLI driver
+
+[11-8 16:49:53 1909312] [I] oops sta 0
+
+[11-8 16:49:53 1909318] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:53 1909318] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:49:53 1909318] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:53 1909319] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:49:53 1909319] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:53 1909319] [I] [plugin init] plugin type invalid
+
+[11-8 16:49:53 1909322] [I] tp_power_on
+
+[11-8 16:49:54 1909326] [I] tp reset
+
+[11-8 16:49:56 1909586] [I] oops sta 0
+
+[11-8 16:49:56 1909610] [E] [display_te] te0 timeout
+
+[11-8 16:50:0 1909929] [I] [plugin init] plugin type invalid
+
+[11-8 16:50:0 1909929] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:50:0 1909929] [I] [plugin init] plugin type invalid
+
+[11-8 16:50:0 1909929] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:50:0 1909930] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:50:1 1910096] [I] tp_power_off
+
+[11-8 16:50:23 1912296] [I] oops sta 0
+
+[11-8 16:50:23 1912297] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:50:23 1912297] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:50:30 1912976] [I] oops sta 0
+
+[11-8 16:50:30 1912977] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:50:30 1912977] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:50:35 1913496] [I] oops sta 0
+
+[11-8 16:50:35 1913497] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:50:35 1913497] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:50:41 1914064] [I] oops sta 0
+
+[11-8 16:50:41 1914065] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:50:41 1914065] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:50:45 1914424] [I] [hrm]unweared:539
+
+[11-8 16:50:46 1914596] [I] oops sta 0
+
+[11-8 16:50:46 1914597] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:50:46 1914597] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:51:0 1915930] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:0 1915930] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:51:0 1915930] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:0 1915930] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:51:0 1915931] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:51:0 1915936] [I] [h_log]m:0, step:0, hm:[0, 91, 1, 600, 250016], wrist:16, cal:1, dist:0, a:[0, 0, 215, 204, 94]
+
+[11-8 16:51:48 1920813] [I] XINLI driver
+
+[11-8 16:51:49 1920818] [I] oops sta 0
+
+[11-8 16:51:49 1920823] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:49 1920823] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:51:49 1920823] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:49 1920824] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:51:49 1920824] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:49 1920824] [I] [plugin init] plugin type invalid
+
+[11-8 16:51:49 1920827] [I] tp_power_on
+
+[11-8 16:51:49 1920831] [I] tp reset
+
+[11-8 16:51:51 1921089] [I] oops sta 0
+
+[11-8 16:51:51 1921113] [E] [display_te] te0 timeout
+
+[11-8 16:51:56 1921599] [I] tp_power_off
+
+[11-8 16:52:0 1921931] [I] [plugin init] plugin type invalid
+
+[11-8 16:52:0 1921931] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:52:0 1921931] [I] [plugin init] plugin type invalid
+
+[11-8 16:52:0 1921931] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:52:0 1921932] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:52:17 1923702] [I] oops sta 0
+
+[11-8 16:52:17 1923704] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:52:17 1923704] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:52:24 1924383] [I] oops sta 0
+
+[11-8 16:52:24 1924385] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:52:24 1924385] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:52:30 1924989] [I] oops sta 0
+
+[11-8 16:52:30 1924990] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:52:30 1924990] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:52:36 1925549] [I] oops sta 0
+
+[11-8 16:52:36 1925550] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:52:36 1925550] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:52:42 1926117] [I] oops sta 0
+
+[11-8 16:52:42 1926118] [I] [message_received 149] p_val->app_msg.sender = app.facebook 
+
+[11-8 16:52:42 1926118] [I] [notify_new_add_msg] Types = 15 not in the whitelist
+
+[11-8 16:53:0 1927932] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:0 1927932] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:53:0 1927932] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:0 1927932] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:53:0 1927933] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:53:27 1930678] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:1050
+
+[11-8 16:53:27 1930697] [I] oops sta 0
+
+[11-8 16:53:27 1930704] [I] XINLI driver
+
+[11-8 16:53:28 1930714] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:28 1930714] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:53:28 1930714] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:28 1930715] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:53:28 1930715] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:28 1930715] [I] [plugin init] plugin type invalid
+
+[11-8 16:53:28 1930718] [I] tp_power_on
+
+[11-8 16:53:28 1930722] [I] tp reset
+
+[11-8 16:53:37 1931682] [I] tp_power_off
+
+[11-8 16:53:49 1932873] [I] [Wechat] DM_CONN_CLOSE_IND
+
+[11-8 16:53:49 1932873] [I] [ryble] disconnected 0x13
+
+[11-8 16:53:49 1932873] [I] [gap_callback] discon 0x13
+
+[11-8 16:53:49 1932873] [I] Disconnect not need to do
+
+[11-8 16:53:49 1932873] [I] [update_system_bar] batt_level = 95
+[11-8 16:53:49 1932890] [E] weatehr future is invalid
+
+[11-8 16:53:54 1933308] [I] [Wechat] DM_CONN_OPEN_IND, wechat_connHandle = 1
+
+[11-8 16:53:54 1933308] [I] [service_ryeex_gap_callback] Connected. 
+
+[11-8 16:53:54 1933308] [I] [update_system_bar] batt_level = 95
+[11-8 16:53:54 1933310] [E] weatehr future is invalid
+
+[11-8 16:53:55 1933501] [I] oops sta 0
+
+[11-8 16:53:55 1933503] [I] oops sta 0
+
+[11-8 16:53:56 1933545] [I] oops sta 0
+
+[11-8 16:53:56 1933564] [I] [mible] status:0,len:4,0xCD43BC01
+
+[11-8 16:53:56 1933598] [I] oops sta 0
+
+[11-8 16:53:57 1933616] [I] oops sta 0
+
+[11-8 16:53:57 1933617] [I] PHONE type: 1
+
+[11-8 16:53:57 1933636] [I] oops sta 0
+
+[11-8 16:53:57 1933657] [I] oops sta 0
+
+[11-8 16:53:57 1933658] [I] [dip]24h :1
+
+[11-8 16:53:57 1933681] [I] oops sta 0
+
+[11-8 16:53:57 1933682] [I] [get_property] ID:6000
+
+[11-8 16:53:57 1933705] [I] oops sta 0
+
+[11-8 16:53:57 1933706] [I] [[time]]utc:1636361637, devi:28800, 2021-11-08 16:53:57 | msg:1, 1636361638, deviat:28800], setDevi:28800
+
+[11-8 16:53:58 1933706] [I] alarm evt 0x20
+
+[11-8 16:53:58 1933706] [I] recent timer is null
+
+[11-8 16:53:58 1933706] [I] [get_alarm] fail
+
+[11-8 16:53:58 1933706] [I] [[time]]utc:1636361637, devi:28800, 2021-11-08 16:53:58
+
+[11-8 16:53:58 1933730] [I] oops sta 0
+
+[11-8 16:54:0 1933934] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:0 1933934] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:54:0 1933934] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:0 1933934] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:54:0 1933935] [I] ram:[57040, 224420], b:95, s:0
+
+[11-8 16:54:11 1935042] [I] XINLI driver
+
+[11-8 16:54:11 1935052] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:11 1935052] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:54:11 1935052] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:11 1935053] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:54:11 1935053] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:11 1935053] [I] [plugin init] plugin type invalid
+
+[11-8 16:54:11 1935056] [I] tp_power_on
+
+[11-8 16:54:11 1935060] [I] tp reset
+
+[11-8 16:54:22 1936199] [I] menu click enter 27
+
+[11-8 16:54:22 1936199] [I] [page sports] enter
+
+[11-8 16:54:22 1936199] [I] [page_refresh_sport_infor] get sport num:10
+
+[11-8 16:54:23 1936223] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[11-8 16:54:23 1936223] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[11-8 16:54:23 1936224] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[11-8 16:54:23 1936224] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[11-8 16:54:23 1936225] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[11-8 16:54:23 1936225] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[11-8 16:54:23 1936226] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[11-8 16:54:23 1936227] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[11-8 16:54:23 1936227] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[11-8 16:54:23 1936227] [I] [sport checksum] 0x85230488
+
+[11-8 16:54:23 1936227] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[11-8 16:54:23 1936227] [I] read begin w:368, h:1200
+
+[11-8 16:54:23 1936228] [I] raw read 0xdf00000, type:9
+
+[11-8 16:54:28 1936738] [E] [display_te] te0 timeout
+
+[11-8 16:55:0 1939938] [I] ram:[56720, 184340], b:95, s:0
+
+[11-8 16:55:14 1941344] [I] oops sta 0
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_0 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_1 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_2 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_3 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_4 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_5 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_6 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_7 has removed
+
+[11-8 16:55:14 1941354] [I] [sport_list]clone_list_8 has removed
+
+[11-8 16:55:14 1941354] [I] [page sport] window_list close
+
+[11-8 16:55:18 1941817] [E] [display_te] te0 timeout
+
+[11-8 16:55:22 1942143] [I] oops sta 0
+
+[11-8 16:55:22 1942185] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:22 1942185] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:55:22 1942185] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:22 1942185] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:55:22 1942185] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:22 1942185] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:31 1943027] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:31 1943027] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:55:31 1943027] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:31 1943028] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:55:31 1943028] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:31 1943028] [I] [plugin init] plugin type invalid
+
+[11-8 16:55:42 1944191] [E] [display_te] te0 timeout
+
+[11-8 16:55:42 1944202] [I] menu click enter 27
+
+[11-8 16:55:42 1944202] [I] [page sports] enter
+
+[11-8 16:55:42 1944202] [I] [page_refresh_sport_infor] get sport num:10
+
+[11-8 16:55:42 1944211] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[11-8 16:55:42 1944211] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[11-8 16:55:42 1944212] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[11-8 16:55:42 1944213] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[11-8 16:55:42 1944213] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[11-8 16:55:42 1944214] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[11-8 16:55:42 1944215] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[11-8 16:55:42 1944215] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[11-8 16:55:42 1944216] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[11-8 16:55:42 1944217] [I] [sport checksum] 0x85230488
+
+[11-8 16:55:42 1944217] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[11-8 16:55:42 1944217] [I] read begin w:368, h:1200
+
+[11-8 16:55:42 1944217] [I] raw read 0xdf00000, type:9
+
+[11-8 16:55:47 1944712] [E] [display_te] te0 timeout
+
+[11-8 16:56:0 1945944] [I] ram:[56696, 184328], b:95, s:0
+
+[11-8 16:56:31 1949039] [I] oops sta 0
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_0 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_1 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_2 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_3 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_4 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_5 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_6 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_7 has removed
+
+[11-8 16:56:31 1949049] [I] [sport_list]clone_list_8 has removed
+
+[11-8 16:56:31 1949049] [I] [page sport] window_list close
+
+[11-8 16:56:35 1949512] [E] [display_te] te0 timeout
+
+[11-8 16:56:38 1949824] [I] oops sta 0
+
+[11-8 16:56:39 1949865] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:39 1949865] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:56:39 1949865] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:39 1949865] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:56:39 1949865] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:39 1949865] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:43 1950307] [E] [display_te] te0 timeout
+
+[11-8 16:56:45 1950507] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:45 1950508] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:56:45 1950508] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:45 1950508] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:56:45 1950508] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:45 1950508] [I] [plugin init] plugin type invalid
+
+[11-8 16:56:56 1951554] [I] menu click enter 27
+
+[11-8 16:56:56 1951554] [I] [page sports] enter
+
+[11-8 16:56:56 1951554] [I] [page_refresh_sport_infor] get sport num:10
+
+[11-8 16:56:56 1951560] [I] ++++++clone_list_ name = clone_list_0+++++++++
+
+[11-8 16:56:56 1951561] [I] ++++++clone_list_ name = clone_list_1+++++++++
+
+[11-8 16:56:56 1951561] [I] ++++++clone_list_ name = clone_list_2+++++++++
+
+[11-8 16:56:56 1951562] [I] ++++++clone_list_ name = clone_list_3+++++++++
+
+[11-8 16:56:56 1951562] [I] ++++++clone_list_ name = clone_list_4+++++++++
+
+[11-8 16:56:56 1951563] [I] ++++++clone_list_ name = clone_list_5+++++++++
+
+[11-8 16:56:56 1951563] [I] ++++++clone_list_ name = clone_list_6+++++++++
+
+[11-8 16:56:56 1951564] [I] ++++++clone_list_ name = clone_list_7+++++++++
+
+[11-8 16:56:56 1951564] [I] ++++++clone_list_ name = clone_list_8+++++++++
+
+[11-8 16:56:56 1951564] [I] [sport checksum] 0x85230488
+
+[11-8 16:56:56 1951564] [I] [sports_page_window_list_init]ctx->checksum 0x85230488
+
+[11-8 16:56:56 1951565] [I] read begin w:368, h:1200
+
+[11-8 16:56:56 1951565] [I] raw read 0xdf00000, type:9
+
+[11-8 16:57:0 1951945] [I] ram:[56504, 184328], b:95, s:0
+
+[11-8 16:57:1 1952058] [E] [display_te] te0 timeout
+
+[11-8 16:57:42 1956237] [I] oops sta 0
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_0 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_1 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_2 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_3 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_4 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_5 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_6 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_7 has removed
+
+[11-8 16:57:42 1956247] [I] [sport_list]clone_list_8 has removed
+
+[11-8 16:57:42 1956247] [I] [page sport] window_list close
+
+[11-8 16:57:47 1956710] [E] [display_te] te0 timeout
+
+[11-8 16:57:49 1956947] [I] oops sta 0
+
+[11-8 16:57:50 1956988] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:50 1956988] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:57:50 1956988] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:50 1956988] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:57:50 1956988] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:50 1956988] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:54 1957430] [E] [display_te] te0 timeout
+
+[11-8 16:57:57 1957671] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:57 1957671] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:57:57 1957671] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:57 1957672] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:57:57 1957672] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:57 1957672] [I] [plugin init] plugin type invalid
+
+[11-8 16:57:58 0] [I] HEYOS build/* Nov  6 2021 *\ 
+
+[11-8 16:57:58 0] [I] health info check:1899, sum:1899, pass:1
+
+[11-8 16:57:58 0] [I] weather info check:420, sum:420, pass:1
+
+[11-8 16:57:58 0] [I] SW Power-On reset or AIRCR reset!
+
+[11-8 16:57:58 0] [I] soft_reset:1, sHalResetStatus:0x8
+
+[11-8 16:57:58 0] [I] [no_init] oops st:0, rebootTimes:2, last_sync_utc:1546300800, step:0, calorie:1493, distance:0
+
+[11-8 16:58:0 200] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+
+[11-8 16:58:0 202] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+
+[11-8 16:58:0 202] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+
+[11-8 16:58:0 202] [I] [charger] Before NTC_DISABLE REG06 = 0x4e
+
+[11-8 16:58:0 204] [I] [charger] After NTC_DISABLE REG06 = 0x4e
+
+[11-8 16:58:0 204] [I] [charger] charger internal NTC disable successfully
+
+[11-8 16:58:0 205] [I] 2Gb Nand init
+
+[11-8 16:58:0 207] [I] [DHARA] capacity: 45040
+
+[11-8 16:58:0 207] [I] [DHARA] allocated: 14762
+
+[11-8 16:58:0 207] [I] [service_device_profile_init] Device Profile Init Done.
+
+[11-8 16:58:0 208] [I] =============General Profile V2 ===========
+
+[11-8 16:58:0 208] [I] model: ryeex.watch.baileys.v1
+
+[11-8 16:58:0 208] [I] did: 1683397
+
+[11-8 16:58:0 208] [I] mac: 98:80:bb:03:0f:1b
+
+[11-8 16:58:0 208] [I] sn: D1D1000261
+
+[11-8 16:58:0 208] [I] product id: 6
+
+[11-8 16:58:0 208] [I] =======================================
+
+
+[11-8 16:58:0 208] [I] =============Usr Profile===========
+
+[11-8 16:58:0 208] [I] version: 3
+
+[11-8 16:58:0 208] [I] gender: 1
+
+[11-8 16:58:0 208] [I] id: 0
+
+[11-8 16:58:0 208] [I] nickname: 
+
+[11-8 16:58:0 208] [I] birthday: 1995.01.01
+
+[11-8 16:58:0 208] [I] age: 25
+
+[11-8 16:58:0 208] [I] height: 175
+
+[11-8 16:58:0 208] [I] weight: 130
+
+[11-8 16:58:0 208] [I] wear_hand: 1
+
+[11-8 16:58:0 208] [I] sport_list_count:           10
+sport_num: [1, 2, 4, 5, 3, 6, 7, 21, 15, 23]
+
+[11-8 16:58:0 208] [I] app_list_count:             15
+
+[11-8 16:58:0 208] [I] app_num: [0] = 19
+
+[11-8 16:58:0 208] [I] app_num: [1] = 3
+
+[11-8 16:58:0 208] [I] app_num: [2] = 4
+
+[11-8 16:58:0 208] [I] app_num: [3] = 18
+
+[11-8 16:58:0 208] [I] app_num: [4] = 2
+
+[11-8 16:58:0 208] [I] app_num: [5] = 20
+
+[11-8 16:58:0 208] [I] app_num: [6] = 21
+
+[11-8 16:58:0 208] [I] app_num: [7] = 8
+
+[11-8 16:58:0 208] [I] app_num: [8] = 5
+
+[11-8 16:58:0 208] [I] app_num: [9] = 25
+
+[11-8 16:58:0 208] [I] app_num: [10] = 9
+
+[11-8 16:58:0 208] [I] app_num: [11] = 23
+
+[11-8 16:58:0 208] [I] app_num: [12] = 24
+
+[11-8 16:58:0 208] [I] app_num: [13] = 12
+
+[11-8 16:58:0 208] [I] app_num: [14] = 7
+
+[11-8 16:58:0 208] [I] =======================================
+
+
+[11-8 16:58:0 208] [I] [binding_profile_init] Profile load.
+
+[11-8 16:58:0 208] [I] [binding profile] Load from backup-for trace.
+
+[11-8 16:58:0 208] [I] backup bind_status: 1
+
+[11-8 16:58:0 208] [I] backup device_sn:   1
+
+[11-8 16:58:0 208] [I] backup server_sn:   0
+
+[11-8 16:58:0 208] [I] backup profile_ver: 1
+
+[11-8 16:58:0 208] [I] backup token: ba cd 99 0e 46 35 12 41 0f 41
+
+[11-8 16:58:0 208] [I] =============Binding Profile===========
+
+[11-8 16:58:0 208] [I] version: 1
+
+[11-8 16:58:0 208] [I] bind_status: 1
+
+[11-8 16:58:0 208] [I] device_sn: 1
+
+[11-8 16:58:0 208] [I] server_sn: 0
+
+[11-8 16:58:0 208] [I] =======================================
+
+
+[11-8 16:58:0 208] [I] [regulation_profile_init] Profile load.
+
+[11-8 16:58:0 209] [I] =============Regular Profile===========
+
+[11-8 16:58:0 209] [I] magic: 0x20210115
+
+[11-8 16:58:0 209] [I] info_count: 0
+
+[11-8 16:58:0 209] [I] =======================================
+
+
+[11-8 16:58:0 209] [I] =============System Profile===========
+
+[11-8 16:58:0 209] [I] hw version:                 2.0
+
+[11-8 16:58:0 209] [I] fw version:                 0.1.35.11106
+
+[11-8 16:58:0 209] [I] language:                   Simplified Chinese
+
+[11-8 16:58:0 209] [I] dual_time_zone_mode:        0
+
+[11-8 16:58:0 209] [I] system_timezone:            CST
+
+[11-8 16:58:0 209] [I] system_timezone_deviation:  28800
+
+[11-8 16:58:0 209] [I] second_timezone:            
+
+[11-8 16:58:0 209] [I] second_timezone_deviation:  0
+
+[11-8 16:58:0 209] [I] battery:                    95
+
+[11-8 16:58:0 209] [I] last_charge_time:           0
+
+[11-8 16:58:0 209] [I] lcd_id:                     00000000
+
+[11-8 16:58:0 209] [I] oops status:                0
+
+[11-8 16:58:0 209] [I] dnd_mode:                   0
+
+[11-8 16:58:0 209] [I] dnd_smart_mode:             0
+
+[11-8 16:58:0 209] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[11-8 16:58:0 209] [I] bright_level:               40
+
+[11-8 16:58:0 209] [I] debug_mode:                 0
+
+[11-8 16:58:0 209] [I] raise_to_wake_mode:         1
+
+[11-8 16:58:0 209] [I] status_bar_battery:         0
+
+[11-8 16:58:0 209] [I] status_bar_connecting:      0
+
+[11-8 16:58:0 209] [I] night_mode:                 0
+
+[11-8 16:58:0 209] [I] night_mode_start_time:      0
+
+[11-8 16:58:0 209] [I] night_mode_stop_time:       0
+
+[11-8 16:58:0 209] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[11-8 16:58:0 209] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[11-8 16:58:0 209] [I] drink_mode:1 freq_time:    90
+start_time:480 stop_time:     1140
+
+[11-8 16:58:0 209] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[11-8 16:58:0 209] [I] notification_mode:          0
+
+[11-8 16:58:0 209] [I] step_goal_achieve_mode:     1
+
+[11-8 16:58:0 209] [I] step_goal:                  8000
+
+[11-8 16:58:0 209] [I] unlock_mode:                0
+
+[11-8 16:58:0 209] [I] app_view:                   0
+
+[11-8 16:58:0 209] [I] peer_mobile_type:           1
+
+[11-8 16:58:0 209] [I] target_calories_goal:       300
+
+[11-8 16:58:0 209] [I] sports_duration_goal:       30
+
+[11-8 16:58:0 209] [I] screen_always_on_enable:    0
+
+[11-8 16:58:0 209] [I] screen_always_on_mode:      0
+
+[11-8 16:58:0 209] [I] screen_always_on_start_time:480
+
+[11-8 16:58:0 209] [I] screen_always_on_end_time:  1200
+
+[11-8 16:58:0 209] [I] =======================================
+
+
+[11-8 16:58:1 314] [I] tp_power_on
+
+[11-8 16:58:1 318] [I] tp reset
+
+[11-8 16:58:1 318] [I] tp info init
+
+[11-8 16:58:1 318] [I] tp send HID cmd
+
+[11-8 16:58:1 318] [I] tp send HID cmd
+
+[11-8 16:58:1 318] [I] send cmd id: 0x3b
+
+[11-8 16:58:1 319] [I] tp send HID cmd
+
+[11-8 16:58:1 319] [E] i2c wirte fail, status:0x8000002, len:2
+
+[11-8 16:58:1 319] [I] send cmd id: 0x3b
+
+[11-8 16:58:2 320] [I] tp send HID cmd
+
+[11-8 16:58:2 320] [I] send cmd id: 0x2
+
+[11-8 16:58:2 321] [I] send cmd id: 0x3
+
+[11-8 16:58:2 322] [I] send cmd id: 0x20
+
+[11-8 16:58:2 322] [I] send cmd id: 0x22
+
+[11-8 16:58:2 323] [I] tp id info: 0x32-0xb6-0x35
+
+[11-8 16:58:2 326] [I] send cmd id: 0x4
+
+[11-8 16:58:2 326] [I] tp upgrade file: /res/TP/xinli_tp.bin
+
+[11-8 16:58:2 326] [I] tp upgrade file is not exist!
+
+[11-8 16:58:2 326] [I] status: 2, tp fw load from file fail!
+
+[11-8 16:58:2 326] [I] tp no need upgrade
+
+[11-8 16:58:2 326] [I] tp info deinit!
+
+[11-8 16:58:2 326] [I] [r_xfer_thread] Enter.
+
+[11-8 16:58:2 328] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[11-8 16:58:2 328] [I] mible token read. len = 44
+
+[11-8 16:58:2 328] [I] Token match. continue..
+
+[11-8 16:58:2 328] [I] retrive token, ba cd 99 0e 46 35 12 41 0f 41
+
+[11-8 16:58:4 508] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[11-8 16:58:4 531] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 531] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 531] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 532] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 532] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 532] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 541] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-8 16:58:4 542] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-8 16:58:4 542] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-8 16:58:4 542] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-8 16:58:4 542] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-8 16:58:4 546] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-8 16:58:4 549] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-8 16:58:4 549] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-8 16:58:4 549] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-8 16:58:4 551] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[31m[1957727] E/cmb: 
+[0m[31m[1957727] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[1957727] E/cmb: Fault on thread heyUI
+[0m[31m[1957727] E/cmb: ===== Thread stack information =====
+[0m[31m[1957727] E/cmb: ====================================
+[0m[31m[1957727] E/cmb: =================== Registers information ====================
+[0m[31m[1957727] E/cmb:   R0 : 00000002  R1 : 00000001  R2 : 00000000  R3 : 00000002
+[0m[31m[1957727] E/cmb:   R12: 10060108  LR : 000c9343  PC : 000fbe4c  PSR: 21000000
+[0m[31m[1957727] E/cmb: ==============================================================
+[0m[31m[1957727] E/cmb: Bus fault is caused by precise data access violation
+[0m[31m[1957727] E/cmb: The bus fault occurred address is 00000012
+[0m[31m[1957727] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 000fbe4c 000c9342 000bb552 000bb2d6 00094cca 000c948e 000adca2 000adca2 000adc16 000a902c 000bb552 000bb2d6 00094cca 000c948e 000adc16 000adca2 000a902c 000bb552 00094cca 000c948e 000adc16 00094cca 000bb552 000c948e 000a902c 000bb552 000adca2 000adca2 000adca2 000adc16 000adca2 000adc16 000a902c 000bb552 000bb2d6 00094cca 000c948e 0009297c 00092930 00092a0c 0009297c 000928c8 00092bae 000cdf06 00092bae 0009297c 00092
+[0m[31m[1957727] E/cmb: Current system tick: 1957727
+[0m[11-8 16:58:4 565] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[11-8 16:58:4 565] [I] [sport_record_dump] total_cnt:0
+
+[11-8 16:58:4 568] [I] [step]0, id:11, t:1636344000, para:0, step:0, total:0, today:1
+
+[11-8 16:58:4 568] [I] [step]1, id:12, t:1636347600, para:1, step:0, total:0, today:1
+
+[11-8 16:58:4 568] [I] [step]2, id:13, t:1636351200, para:2, step:0, total:0, today:1
+
+[11-8 16:58:4 568] [I] [step]3, id:14, t:1636354800, para:3, step:0, total:0, today:1
+
+[11-8 16:58:4 568] [I] [step]4, id:15, t:1636358400, para:4, step:0, total:0, today:1
+
+[11-8 16:58:4 572] [I] [offline_data] file_hexstr, lengh:0, contents:
+
+
+lines:1
+
+[11-8 16:58:4 572] [I] [sleep_summary] start:, end:, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[11-8 16:58:4 572] [I] [health_rec_health_evt]: sleep update ui
+
+[11-8 16:58:4 576] [I] [service_sport] Init done
+
+[11-8 16:58:4 577] [I] load notify 0
+
+[11-8 16:58:4 577] [E] [svc weather] init OK
+
+[11-8 16:58:4 577] [I] oops sta 0
+
+[11-8 16:58:4 577] [I] ram:[60600, 973184], b:95, s:0
+
+[11-8 16:58:5 635] [I] [anim_nand] ver.3
+
+[11-8 16:58:5 642] [I] XINLI driver
+
+[11-8 16:58:5 677] [I] [wrkt] drink reset
+
+[11-8 16:58:6 705] [I] [awtk_oom] hook initialized!
+
+[11-8 16:58:6 705] [I] [heyos_page_root_enter] brightness_set 40
+
+[11-8 16:58:6 706] [I] oops sta 0
+
+[11-8 16:58:6 757] [I] [lang module] language 1:zh-CN
+
+[11-8 16:58:6 760] [I] language change
+
+[11-8 16:58:6 761] [I] [lang change] startup, ignore.
+
+[11-8 16:58:6 761] [I] oops sta 0
+
+[11-8 16:58:6 761] [I] [m_face] preview cnt:6 
+
+[11-8 16:58:6 761] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[11-8 16:58:6 761] [I] [m_face] uid:2, preview image:watchface_2/preview/dev 
+
+[11-8 16:58:6 761] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[11-8 16:58:6 761] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[11-8 16:58:6 761] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[11-8 16:58:6 761] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[11-8 16:58:7 793] [I] alarm evt 0x10
+
+[11-8 16:58:7 793] [I] recent timer is null
+
+[11-8 16:58:7 793] [I] [get_alarm] fail
+
+[11-8 16:58:9 1043] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:121
+
+[11-8 16:58:11 1209] [I] [ss_batt_restore] stored_batt_percent_last:95%
+
+[11-8 16:58:11 1209] [I] [ss_batt_restore] restore percent 95%
+
+[11-8 16:58:14 1554] [I] [page_refresh_sport_infor] get sport num:10
+
+[11-8 16:58:14 1554] [I] [sport checksum] 0x85230488
+
+[11-8 16:58:14 1588] [E] weatehr future is invalid
+
+[11-8 16:58:15 1642] [I] cache begin: checksum=0x20210228 
+
+[11-8 16:58:15 1642] [I] [crt]:9, 0xe3a0000
+
+[11-8 16:58:15 1642] [I] [cache]5, 0xe3a0000, len:329728, w:368, h:448
+
+[11-8 16:58:15 1657] [I] creat id 9, end addr 0xe400000
+
+[11-8 16:58:17 1809] [E] [sleep] no data, skip
+
+[11-8 16:58:22 2343] [I] cache begin: checksum=0x22b002b9 
+
+[11-8 16:58:22 2343] [I] [crt]:12, 0xe4c0000
+
+[11-8 16:58:22 2343] [I] [cache]20, 0xe4c0000, len:329728, w:368, h:448
+
+[11-8 16:58:22 2358] [I] creat id 12, end addr 0xe560000
+
+[11-8 16:58:24 2568] [I] cache begin: checksum=0x20210028 
+
+[11-8 16:58:24 2568] [I] [crt]:13, 0xe560000
+
+[11-8 16:58:24 2568] [I] [cache]6, 0xe560000, len:329728, w:368, h:448
+
+[11-8 16:58:24 2584] [I] creat id 13, end addr 0xe5c0000
+
+[11-8 16:58:27 2886] [I] [setting checksum] 0x101
+
+[11-8 16:58:29 3037] [I] [setting checksum] 0x107
+
+[11-8 16:58:32 3339] [I] [setting checksum] 0x15f
+
+[11-8 16:58:32 3356] [I] [set subpage]refres page setting_battery
+
+[11-8 16:58:32 3356] [I] [setting checksum] 0x15f
+
+[11-8 16:58:33 3398] [I] cache begin: checksum=0x0000015f 
+
+[11-8 16:58:33 3398] [I] [crt]:18, 0xe780000
+
+[11-8 16:58:33 3398] [I] [cache]29, 0xe780000, len:329728, w:368, h:448
+
+[11-8 16:58:33 3414] [I] creat id 18, end addr 0xe7e0000
+
+[11-8 16:58:34 3565] [I] [setting checksum] 0x100
+
+[11-8 16:58:36 3716] [I] [setting checksum] 0x100
+
+[11-8 16:58:36 3716] [I] [end_init_refresh] snapshot refresh finish.
+
+[11-8 16:58:37 3817] [I] Dev bond, enter home page
+
+[11-8 16:58:37 3817] [I] [home] begin
+
+[11-8 16:58:37 3847] [E] [m_face] loader oom
+
+[11-8 16:58:37 3847] [I] dynamic name :earth.am, anim id 21
+
+[11-8 16:58:37 3847] [I] [surface_item_lang_change][850] item text ready to reset default
+
+[11-8 16:58:37 3855] [I] dynamic name :earth.am, anim id 21
+
+[11-8 16:58:37 3856] [I] [surface_item_lang_change][850] item text ready to reset default
+
+[11-8 16:58:37 3856] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3860] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3860] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:37 3860] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3865] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3869] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3869] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3869] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3870] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:37 3870] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3870] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:37 3870] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3870] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:37 3870] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3870] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:37 3870] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3870] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:37 3871] [I] [update_system_bar] batt_level = 95
+[11-8 16:58:37 3877] [I] cq_blt_skip
+
+[11-8 16:58:39 4025] [I] right_activity_page start
+
+[11-8 16:58:39 4056] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[11-8 16:58:39 4056] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[11-8 16:58:40 4105] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[11-8 16:58:40 4105] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[11-8 16:58:40 4105] [E] weatehr future is invalid
+
+[11-8 16:58:40 4127] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[11-8 16:58:40 4143] [I] menu_cnt = 15, child_cnt = 1
+
+[11-8 16:58:42 4331] [I] [Wechat] DM_CONN_OPEN_IND, wechat_connHandle = 1
+
+[11-8 16:58:42 4331] [I] [service_ryeex_gap_callback] Connected. 
+
+[11-8 16:58:42 4331] [I] [update_system_bar] batt_level = 95
+[11-8 16:58:42 4332] [E] weatehr future is invalid
+
+[11-8 16:58:44 4514] [I] oops sta 0
+
+[11-8 16:58:44 4521] [I] oops sta 0
+
+[11-8 16:58:44 4557] [I] oops sta 0
+
+[11-8 16:58:44 4574] [I] [mible] status:0,len:4,0xCD43BC01
+
+[11-8 16:58:45 4607] [I] oops sta 0
+
+[11-8 16:58:45 4630] [I] oops sta 0
+
+[11-8 16:58:45 4637] [I] PHONE type: 1
+
+[11-8 16:58:45 4656] [I] oops sta 0
+
+[11-8 16:58:45 4681] [I] oops sta 0
+
+[11-8 16:58:45 4689] [I] [dip]24h :1
+
+[11-8 16:58:46 4707] [I] oops sta 0
+
+[11-8 16:58:46 4715] [I] [get_property] ID:6000
+
+[11-8 16:58:46 4733] [I] oops sta 0
+
+[11-8 16:58:46 4741] [I] [[time]]utc:1636361926, devi:28800, 2021-11-08 16:58:46 | msg:1, 1636361927, deviat:28800], setDevi:28800
+
+[11-8 16:58:47 4741] [I] alarm evt 0x20
+
+[11-8 16:58:47 4741] [I] recent timer is null
+
+[11-8 16:58:47 4741] [I] [get_alarm] fail
+
+[11-8 16:58:47 4741] [I] [[time]]utc:1636361926, devi:28800, 2021-11-08 16:58:47
+
+[11-8 16:58:47 4756] [I] oops sta 0
+
+[11-8 16:58:47 4762] [E] [display_te] te0 timeout
+
+[11-8 16:58:52 5248] [I] tp_power_off
+
+[11-8 16:58:59 5976] [I] XINLI driver
+
+[11-8 16:58:59 5981] [I] oops sta 0
+
+[11-8 16:58:59 5986] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:59 5986] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:59 5986] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:59 5987] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:58:59 5987] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:59 5987] [I] [plugin init] plugin type invalid
+
+[11-8 16:58:59 5992] [I] tp_power_on
+
+[11-8 16:58:59 5996] [I] tp reset
+
+[11-8 16:59:0 6098] [I] ram:[57240, 171476], b:95, s:0
+
+[11-8 16:59:0 6104] [I] [plugin init] plugin type invalid
+
+[11-8 16:59:0 6105] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:59:0 6105] [I] [plugin init] plugin type invalid
+
+[11-8 16:59:0 6106] [E] [on_user_group_update][312] widget is null
+
+[11-8 16:59:2 6291] [I] oops sta 0
+
+[11-8 16:59:2 6315] [E] [display_te] te0 timeout
+
+[11-8 16:59:7 6801] [I] tp_power_off
+
+[11-8 16:59:8 6942] [I] oops sta 0
+
+[11-8 16:59:9 6951] [I] [oom] psram mid: request size:20600, left size:25168
+
+[11-8 16:59:9 6951] [I] ## s=20600,t=svc_ryeex ##
+
+[11-8 16:59:9 7038] [I] [oom] retry:0, result:0x56647dd8
+
+[11-8 16:59:10 7098] [I] oops sta 0
+
+[11-8 16:59:11 7161] [I] oops sta 0
+
+[11-8 16:59:11 7226] [I] oops sta 0
+
+[11-8 16:59:12 7290] [I] oops sta 0
+
+[11-8 16:59:13 7353] [I] oops sta 0
+
+[11-8 16:59:13 7416] [I] oops sta 0
+
+[11-8 16:59:14 7479] [I] oops sta 0
+
+[11-8 16:59:15 7544] [I] oops sta 0
+
+[11-8 16:59:15 7608] [I] oops sta 0
+
+[11-8 16:59:16 7671] [I] oops sta 0
+
+[11-8 16:59:16 7734] [I] oops sta 0
+
+[11-8 16:59:17 7799] [I] oops sta 0
+
+[11-8 16:59:18 7861] [I] oops sta 0
+
+[11-8 16:59:18 7924] [I] oops sta 0
+
+[11-8 16:59:19 7996] [I] oops sta 0
+
+[11-8 16:59:20 8061] [I] oops sta 0
+
+[11-8 16:59:20 8125] [I] oops sta 0
+
+[

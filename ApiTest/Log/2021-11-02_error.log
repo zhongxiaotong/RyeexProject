@@ -1,0 +1,5 @@
+[ERROR 2021-11-02 18:32:09]验证失败：当前page_name为home_page，view_name为home_id_surface；预期page_name为hrm,view_name为view_unwear
+[ERROR 2021-11-02 18:32:09]Process-1心率在第N次运行失败：26
+[ERROR 2021-11-02 21:25:56]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-11-02 21:25:56]Process-1心率在第N次运行失败：455
+[ERROR 2021-11-02 21:26:36]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_connect_status']

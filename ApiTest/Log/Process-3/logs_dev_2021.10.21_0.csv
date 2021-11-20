@@ -1,0 +1,3598 @@
+[6-10 11:47:0 23490399] [I] ram:[24480, 1024392], b:100, s:0
+
+[6-10 11:48:1 23496454] [I] ram:[24480, 1024112], b:100, s:0
+
+[6-10 11:48:44 23500738] [I] [hrm]unweared:3252
+
+[6-10 11:49:0 23502408] [I] ram:[24480, 1023716], b:100, s:0
+
+[6-10 11:50:1 23508464] [I] ram:[24480, 1023140], b:100, s:0
+
+[6-10 11:51:1 23514417] [I] ram:[24480, 1022552], b:100, s:0
+
+[6-10 11:52:0 23520384] [I] ram:[24388, 1022552], b:100, s:0
+
+[6-10 11:52:0 23520399] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5760616], wrist:6, cal:0, dist:0, a:[1, 0, 349, 11961, 106]
+
+[6-10 11:53:1 23526439] [I] ram:[24480, 1022172], b:100, s:0
+
+[6-10 11:53:44 23530738] [I] [hrm]unweared:3253
+
+[6-10 11:54:1 23532393] [I] ram:[24480, 1021776], b:100, s:0
+
+[6-10 11:55:0 23538369] [I] ram:[24480, 1021776], b:100, s:0
+
+[6-10 11:55:45 23542874] [I] enter SLP_SUSPECT
+
+[6-10 11:55:47 23543039] [I] [hrm]unweared:3254
+
+[6-10 11:55:49 23543273] [I] [sleep_wake_up] from no weared, mode:0, sleep_now:1, sleep_last:0, sstd:126
+
+[6-10 11:56:0 23544335] [I] ram:[24480, 1021776], b:100, s:0
+
+[6-10 11:57:1 23550405] [I] ram:[24480, 1021776], b:100, s:0
+
+[6-10 11:58:1 23556372] [I] ram:[24480, 1021776], b:100, s:0
+
+[6-10 11:58:44 23560737] [I] [hrm]unweared:3255
+
+[6-10 11:59:0 23562288] [I] [wrkt] drink drink
+
+[6-10 11:59:0 23562288] [I] ignore remind 0
+
+[6-10 11:59:0 23562288] [I] ram:[24380, 1021776], b:100, s:0
+
+[6-10 11:59:1 23562400] [I] XINSHIJIE driver
+
+[6-10 11:59:1 23562422] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 11:59:5 23562855] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 12:0:0 23568331] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 12:0:0 23568331] [I] ram:[24124, 1019216], b:100, s:0
+
+[6-10 12:1:1 23574403] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:2:1 23580370] [I] ram:[24388, 1019216], b:100, s:0
+
+[6-10 12:2:1 23580383] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5790618], wrist:6, cal:0, dist:0, a:[0, 0, 349, 405, 101]
+
+[6-10 12:3:1 23586347] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:3:44 23590738] [I] [hrm]unweared:3256
+
+[6-10 12:4:0 23592323] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:5:0 23598291] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:6:1 23604358] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:7:1 23610325] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:8:0 23616292] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:8:45 23620738] [I] [hrm]unweared:3257
+
+[6-10 12:9:0 23622268] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:10:1 23628335] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:10:1 23628372] [I] [system_profile_do_update] update succ. timestamp:1276143001 
+
+[6-10 12:11:1 23634326] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:12:1 23640293] [I] ram:[24388, 1019216], b:100, s:0
+
+[6-10 12:12:1 23640307] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5810620], wrist:6, cal:0, dist:0, a:[0, 0, 349, 475, 101]
+
+[6-10 12:13:0 23646270] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:13:45 23650738] [I] [hrm]unweared:3258
+
+[6-10 12:14:0 23652242] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:15:0 23658218] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:16:1 23664285] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:17:1 23670252] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:18:0 23676220] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:18:45 23680738] [I] [hrm]unweared:3259
+
+[6-10 12:19:1 23682287] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:20:1 23688254] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:21:0 23694222] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:22:0 23700189] [I] ram:[24388, 1019216], b:100, s:0
+
+[6-10 12:22:0 23700203] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5830622], wrist:6, cal:0, dist:0, a:[0, 0, 349, 436, 104]
+
+[6-10 12:23:1 23706267] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:23:46 23710738] [I] [hrm]unweared:3260
+
+[6-10 12:24:1 23712234] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:25:0 23718203] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:26:0 23724163] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:27:1 23730230] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:28:1 23736197] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:28:46 23740738] [I] [hrm]unweared:3261
+
+[6-10 12:29:0 23742165] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:30:1 23748232] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:31:1 23754199] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:32:0 23760166] [I] ram:[24388, 1019216], b:100, s:0
+
+[6-10 12:32:1 23760180] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5850624], wrist:6, cal:0, dist:0, a:[0, 0, 349, 367, 105]
+
+[6-10 12:33:0 23766143] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:33:46 23770738] [I] [hrm]unweared:3262
+
+[6-10 12:34:0 23772112] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:35:1 23778179] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:36:1 23784155] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:37:0 23790122] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:38:0 23796090] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:38:47 23800738] [I] [hrm]unweared:3263
+
+[6-10 12:39:1 23802158] [I] ram:[24480, 1019216], b:100, s:0
+
+[6-10 12:40:1 23808128] [I] ram:[24336, 998260], b:100, s:0
+
+6:31 21458702] [I] [page home] MODULE_SYSTEM_EVENT_SLEEP_UPDATE
+
+[6-10 6:6:31 21458702] [E] [sleep] no data, skip
+
+[6-10 6:6:31 21458702] [I] [health_rec_health_evt]: sleep update done
+
+[6-10 6:6:51 21460737] [I] [hrm]unweared:3234
+
+[6-10 6:7:0 21461638] [I] ram:[24516, 1211856], b:47, s:0
+
+[6-10 6:8:1 21467694] [I] ram:[24516, 1211480], b:47, s:0
+
+[6-10 6:9:1 21473649] [I] ram:[24516, 1211100], b:47, s:0
+
+[6-10 6:10:0 21479604] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:11:0 21485554] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5580548], wrist:1, cal:0, dist:0, a:[0, 0, 349, 193, 102]
+
+[6-10 6:11:1 21485672] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:11:52 21490738] [I] [hrm]unweared:3235
+
+[6-10 6:12:1 21491642] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:13:0 21497612] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:14:0 21503580] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:15:1 21509656] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:16:1 21515623] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:16:52 21520738] [I] [hrm]unweared:3236
+
+[6-10 6:17:0 21521591] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:18:0 21527560] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:19:1 21533627] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:20:1 21539595] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:21:0 21545565] [I] ram:[24428, 1210704], b:47, s:0
+
+[6-10 6:21:1 21545578] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5600550], wrist:1, cal:0, dist:0, a:[0, 0, 349, 236, 105]
+
+[6-10 6:21:52 21550738] [I] [hrm]unweared:3237
+
+[6-10 6:22:0 21551543] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:23:1 21557612] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:24:1 21563588] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:25:1 21569555] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:26:0 21575523] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:26:52 21580738] [I] [hrm]unweared:3238
+
+[6-10 6:27:1 21581591] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:28:1 21587561] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:29:1 21593529] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:30:0 21599496] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:31:0 21605454] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5620552], wrist:1, cal:0, dist:0, a:[0, 0, 349, 216, 102]
+
+[6-10 6:31:1 21605563] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:31:53 21610738] [I] [hrm]unweared:3239
+
+[6-10 6:32:1 21611531] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:33:0 21617501] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:34:0 21623469] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:35:1 21629536] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:36:1 21635506] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:36:53 21640738] [I] [hrm]unweared:3240
+
+[6-10 6:37:0 21641474] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:38:0 21647442] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:39:1 21653512] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:40:1 21659479] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:41:0 21665455] [I] ram:[24428, 1210704], b:47, s:0
+
+[6-10 6:41:1 21665468] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5640554], wrist:1, cal:0, dist:0, a:[0, 0, 349, 428, 108]
+
+[6-10 6:41:53 21670738] [I] [hrm]unweared:3241
+
+[6-10 6:42:0 21671433] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:43:0 21677410] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:44:1 21683478] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:45:1 21689446] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:46:0 21695413] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:46:54 21700738] [I] [hrm]unweared:3242
+
+[6-10 6:47:1 21701480] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:48:1 21707448] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:49:0 21713416] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:50:0 21719384] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:51:0 21725354] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5660556], wrist:1, cal:0, dist:0, a:[0, 0, 349, 148, 105]
+
+[6-10 6:51:1 21725453] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:51:54 21730738] [I] [hrm]unweared:3243
+
+[6-10 6:52:1 21731420] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:53:0 21737388] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:54:0 21743356] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:55:1 21749424] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:56:1 21755391] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:56:54 21760738] [I] [hrm]unweared:3244
+
+[6-10 6:57:0 21761358] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:58:0 21767326] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 6:59:1 21773394] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:0:0 21779307] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 7:0:0 21779307] [I] ram:[24164, 1210704], b:47, s:0
+
+[6-10 7:1:1 21785384] [I] ram:[24428, 1210704], b:47, s:0
+
+[6-10 7:1:1 21785397] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5680558], wrist:1, cal:0, dist:0, a:[0, 0, 349, 225, 100]
+
+[6-10 7:1:54 21790738] [I] [hrm]unweared:3245
+
+[6-10 7:2:1 21791361] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:3:0 21797330] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:4:0 21803307] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:5:1 21809375] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:6:1 21815343] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:6:55 21820738] [I] [hrm]unweared:3246
+
+[6-10 7:7:0 21821313] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:8:0 21827280] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:9:1 21833347] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:10:1 21839315] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:11:0 21845282] [I] ram:[24428, 1210704], b:47, s:0
+
+[6-10 7:11:1 21845296] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5700560], wrist:1, cal:0, dist:0, a:[0, 0, 349, 245, 101]
+
+[6-10 7:11:55 21850738] [I] [hrm]unweared:3247
+
+[6-10 7:12:0 21851260] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:13:1 21857328] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:14:1 21863295] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:15:0 21869262] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:16:0 21875230] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:16:55 21880738] [I] [hrm]unweared:3248
+
+[6-10 7:17:1 21881307] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:18:1 21887278] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:19:0 21893247] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:20:0 21899216] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:21:0 21905154] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5720562], wrist:1, cal:0, dist:0, a:[0, 0, 349, 297, 106]
+
+[6-10 7:21:1 21905287] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:21:56 21910738] [I] [hrm]unweared:3249
+
+[6-10 7:22:1 21911255] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:23:0 21917223] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:24:0 21923190] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:25:1 21929258] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:26:1 21935225] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:26:56 21940738] [I] [hrm]unweared:3250
+
+[6-10 7:27:0 21941195] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:28:0 21947171] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:29:1 21953238] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:30:1 21959209] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:31:0 21965179] [I] ram:[24428, 1210704], b:47, s:0
+
+[6-10 7:31:1 21965193] [I] [h_log]m:0, step:0, hm:[0, 0, 1, 300, 5740564], wrist:1, cal:0, dist:0, a:[0, 0, 349, 301, 104]
+
+[6-10 7:31:56 21970738] [I] [hrm]unweared:3251
+
+[6-10 7:32:0 21971157] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:32:27 21973861] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:1224
+
+[6-10 7:32:32 21974284] [I] oops sta 0
+
+[6-10 7:32:32 21974291] [I] XINSHIJIE driver
+
+[6-10 7:32:32 21974291] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 7:32:32 21974339] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 7:32:34 21974535] [I] touch wakeup lcd
+
+[6-10 7:32:34 21974542] [I] XINSHIJIE driver
+
+[6-10 7:32:34 21974554] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 7:32:34 21974554] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 7:32:35 21974590] [I] oops sta 0
+
+[6-10 7:32:35 21974635] [I] touch wakeup lcd
+
+[6-10 7:32:35 21974642] [I] XINSHIJIE driver
+
+[6-10 7:32:35 21974642] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 7:32:35 21974655] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 7:33:0 21977145] [I] ram:[24516, 1210704], b:47, s:0
+
+[6-10 7:33:5 21977672] [I] XINSHIJIE driver
+
+[6-10 7:33:5 21977672] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 7:33:6 21977720] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 7:33:6 21977737] [I] [charger] disable wdt 05h 0x0
+
+[6-10 7:33:6 21977737] [I] [ss_bat] send EVT charger ERROR
+
+[6-10 7:33:6 21977764] [I] [charger_ppm_disable] Before set REG07 = 0x79
+
+[6-10 7:33:6 21977766] [I] [charger_ppm_disable] After set REG07 = 0x79
+
+[6-10 7:33:6 21977766] [I] [ss_bat] send EVT charger in, disable ppm
+
+[6-10 7:33:7 21977788] [I] [battery] 1 1004b7f4
+
+[6-10 7:33:9 21978001] [I] [charger] disable wdt 05h 0x0
+
+[6-10 7:33:9 21978001] [I] [ss_bat] send EVT charger ERROR
+
+[6-10 7:33:9 21978001] [I] touch wakeup lcd
+
+[6-10 7:33:9 21978008] [I] XINSHIJIE driver
+
+[6-10 7:33:9 21978020] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 7:33:9 21978028] [I] [charger_ppm_disable] Before set REG07 = 0x79
+
+[6-10 7:33:9 21978030] [I] [charger_ppm_disable] After set REG07 = 0x79
+
+[6-10 7:33:9 21978030] [I] [ss_bat] send EVT charger in, disable ppm
+
+[6-10 7:33:9 21978041] [E] [heyos_page_battery_enter] can't open page
+
+[6-10 7:34:0 21983091] [I] ram:[23944, 1197752], b:47, s:0
+
+[6-10 7:35:0 21989107] [I] ram:[23944, 1197752], b:47, s:0
+
+[6-10 7:36:0 21995131] [I] ram:[23944, 1196180], b:47, s:0
+
+[6-10 7:37:0 22001153] [I] ram:[23944, 1195032], b:47, s:0
+
+[6-10 7:38:0 22007064] [I] ram:[23944, 1195032], b:47, s:0
+
+[6-10 7:39:0 22013081] [I] ram:[23944, 1193892], b:47, s:0
+
+[6-10 7:40:0 22019095] [I] ram:[23944, 1192776], b:47, s:0
+
+[6-10 7:40:1 22019133] [I] [system_profile_do_update] update succ. timestamp:1276126800 
+
+[6-10 7:40:38 22022843] [I] [ss_batt_do_sample] percent:48%, volt_mv:4065mv
+
+[6-10 7:40:38 22022858] [I] [system_profile_do_update] update succ. timestamp:1276126838 
+
+[6-10 7:40:59 22024931] [I] [ss_batt_do_sample] percent:49%, volt_mv:4071mv
+
+[6-10 7:41:0 22025036] [I] ram:[23944, 1100392], b:49, s:0
+
+[6-10 7:41:19 22027004] [I] [ss_batt_do_sample] percent:50%, volt_mv:4077mv
+
+[6-10 7:41:40 22029077] [I] [ss_batt_do_sample] percent:51%, volt_mv:4083mv
+
+[6-10 7:42:0 22031055] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750567], wrist:4, cal:0, dist:0, a:[0, 0, 349, 12352, 105]
+
+[6-10 7:42:0 22031075] [I] ram:[23992, 1098532], b:51, s:0
+
+[6-10 7:42:1 22031150] [I] [ss_batt_do_sample] percent:52%, volt_mv:4088mv
+
+[6-10 7:42:22 22033223] [I] [ss_batt_do_sample] percent:53%, volt_mv:4093mv
+
+[6-10 7:42:22 22033238] [I] [system_profile_do_update] update succ. timestamp:1276126942 
+
+[6-10 7:43:0 22037076] [I] ram:[23944, 1096480], b:53, s:0
+
+[6-10 7:43:3 22037342] [I] [ss_batt_do_sample] percent:54%, volt_mv:4101mv
+
+[6-10 7:43:24 22039415] [I] [ss_batt_do_sample] percent:55%, volt_mv:4106mv
+
+[6-10 7:43:45 22041488] [I] [ss_batt_do_sample] percent:56%, volt_mv:4111mv
+
+[6-10 7:44:0 22042990] [I] ram:[23944, 1096048], b:56, s:0
+
+[6-10 7:44:5 22043561] [I] [ss_batt_do_sample] percent:57%, volt_mv:4115mv
+
+[6-10 7:44:46 22047665] [I] [ss_batt_do_sample] percent:58%, volt_mv:4123mv
+
+[6-10 7:44:47 22047680] [I] [system_profile_do_update] update succ. timestamp:1276127086 
+
+[6-10 7:45:0 22049013] [I] ram:[23944, 1095612], b:58, s:0
+
+[6-10 7:45:48 22053815] [I] [ss_batt_do_sample] percent:59%, volt_mv:4134mv
+
+[6-10 7:46:0 22055034] [I] ram:[23944, 1095612], b:59, s:0
+
+[6-10 7:46:29 22057919] [I] [ss_batt_do_sample] percent:60%, volt_mv:4143mv
+
+[6-10 7:46:50 22059992] [I] [ss_batt_do_sample] percent:61%, volt_mv:4149mv
+
+[6-10 7:47:0 22060952] [I] ram:[23944, 1095612], b:61, s:0
+
+[6-10 7:47:31 22064096] [I] [ss_batt_do_sample] percent:62%, volt_mv:4158mv
+
+[6-10 7:48:0 22066966] [I] ram:[23944, 1095612], b:62, s:0
+
+[6-10 7:48:12 22068200] [I] [ss_batt_do_sample] percent:63%, volt_mv:4167mv
+
+[6-10 7:48:12 22068215] [I] [system_profile_do_update] update succ. timestamp:1276127292 
+
+[6-10 7:48:54 22072319] [I] [ss_batt_do_sample] percent:64%, volt_mv:4177mv
+
+[6-10 7:49:0 22072982] [I] ram:[23944, 1095612], b:64, s:0
+
+[6-10 7:49:35 22076423] [I] [ss_batt_do_sample] percent:65%, volt_mv:4187mv
+
+[6-10 7:50:0 22078996] [I] ram:[23944, 1095612], b:65, s:0
+
+[6-10 7:50:16 22080527] [I] [ss_batt_do_sample] percent:66%, volt_mv:4198mv
+
+[6-10 7:50:36 22082600] [I] [ss_batt_do_sample] percent:67%, volt_mv:4205mv
+
+[6-10 7:51:0 22084912] [I] ram:[23944, 1095612], b:67, s:0
+
+[6-10 7:51:18 22086704] [I] [ss_batt_do_sample] percent:68%, volt_mv:4215mv
+
+[6-10 7:51:18 22086719] [I] [system_profile_do_update] update succ. timestamp:1276127478 
+
+[6-10 7:51:59 22090823] [I] [ss_batt_do_sample] percent:69%, volt_mv:4227mv
+
+[6-10 7:52:0 22090926] [I] ram:[23944, 1095612], b:69, s:0
+
+[6-10 7:52:0 22090959] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750569], wrist:4, cal:0, dist:0, a:[0, 0, 349, 294, 113]
+
+[6-10 7:52:20 22092896] [I] [ss_batt_do_sample] percent:70%, volt_mv:4234mv
+
+[6-10 7:53:0 22096955] [I] ram:[23980, 1095612], b:70, s:0
+
+[6-10 7:53:1 22097000] [I] [ss_batt_do_sample] percent:71%, volt_mv:4246mv
+
+[6-10 7:53:42 22101104] [I] [ss_batt_do_sample] percent:72%, volt_mv:4257mv
+
+[6-10 7:54:0 22102956] [I] ram:[23944, 1095612], b:72, s:0
+
+[6-10 7:54:3 22103177] [I] [ss_batt_do_sample] percent:73%, volt_mv:4265mv
+
+[6-10 7:54:3 22103192] [I] [system_profile_do_update] update succ. timestamp:1276127643 
+
+[6-10 7:54:44 22107296] [I] [ss_batt_do_sample] percent:74%, volt_mv:4277mv
+
+[6-10 7:55:0 22108872] [I] ram:[23944, 1095612], b:74, s:0
+
+[6-10 7:55:4 22109338] [I] [charger_ppm_enable] Before set REG07 = 0x79
+
+[6-10 7:55:4 22109340] [I] [charger_ppm_enable] After set REG07 = 0x39
+
+[6-10 7:55:4 22109340] [I] [ss_batt_thread] soc > 74, charger_ppm_enable
+
+[6-10 7:55:25 22111402] [I] [ss_batt_do_sample] percent:75%, volt_mv:4290mv
+
+[6-10 7:56:0 22114886] [I] ram:[23944, 1095612], b:75, s:0
+
+[6-10 7:57:0 22120910] [I] ram:[23944, 1095612], b:75, s:0
+
+[6-10 7:57:27 22123630] [I] [batt_c] batt force up 1% 75
+
+[6-10 7:57:27 22123630] [I] [ss_batt_do_sample] percent:76%, volt_mv:4324mv
+
+[6-10 7:58:0 22126924] [I] ram:[23944, 1095612], b:76, s:0
+
+[6-10 7:59:0 22132840] [I] ram:[23944, 1095612], b:76, s:0
+
+[6-10 7:59:30 22135858] [I] [batt_c] batt force up 1% 76
+
+[6-10 7:59:30 22135858] [I] [ss_batt_do_sample] percent:77%, volt_mv:4348mv
+
+[6-10 8:0:0 22138857] [I] ram:[23944, 1095612], b:77, s:0
+
+[6-10 8:1:0 22144871] [I] ram:[23944, 1095612], b:77, s:0
+
+[6-10 8:1:32 22148086] [I] [batt_c] batt force up 1% 77
+
+[6-10 8:1:32 22148086] [I] [ss_batt_do_sample] percent:78%, volt_mv:4357mv
+
+[6-10 8:1:33 22148101] [I] [system_profile_do_update] update succ. timestamp:1276128092 
+
+[6-10 8:2:0 22150809] [I] ram:[23944, 1095612], b:78, s:0
+
+[6-10 8:2:0 22150855] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750571], wrist:4, cal:0, dist:0, a:[0, 0, 349, 718, 109]
+
+[6-10 8:3:0 22156833] [I] ram:[23992, 1095612], b:78, s:0
+
+[6-10 8:3:35 22160329] [I] [batt_c] batt force up 1% 78
+
+[6-10 8:3:35 22160329] [I] [ss_batt_do_sample] percent:79%, volt_mv:4360mv
+
+[6-10 8:4:0 22162841] [I] ram:[23944, 1095612], b:79, s:0
+
+[6-10 8:5:0 22168860] [I] ram:[23944, 1095612], b:79, s:0
+
+[6-10 8:5:37 22172557] [I] [batt_c] batt force up 1% 79
+
+[6-10 8:5:37 22172557] [I] [ss_batt_do_sample] percent:80%, volt_mv:4362mv
+
+[6-10 8:6:0 22174790] [I] ram:[23992, 1095612], b:80, s:0
+
+[6-10 8:7:0 22180806] [I] ram:[23992, 1095612], b:80, s:0
+
+[6-10 8:7:40 22184785] [I] [batt_c] batt force up 1% 80
+
+[6-10 8:7:40 22184785] [I] [ss_batt_do_sample] percent:81%, volt_mv:4363mv
+
+[6-10 8:8:0 22186807] [I] ram:[23944, 1095612], b:81, s:0
+
+[6-10 8:9:0 22192846] [I] ram:[24148, 1095612], b:81, s:0
+
+[6-10 8:9:42 22197013] [I] [batt_c] batt force up 1% 81
+
+[6-10 8:9:42 22197013] [I] [ss_batt_do_sample] percent:82%, volt_mv:4363mv
+
+[6-10 8:10:1 22198847] [I] ram:[23944, 1095612], b:82, s:0
+
+[6-10 8:10:1 22198883] [I] [system_profile_do_update] update succ. timestamp:1276128601 
+
+[6-10 8:11:0 22204784] [I] ram:[23944, 1095612], b:82, s:0
+
+[6-10 8:11:45 22209241] [I] [batt_c] batt force up 1% 82
+
+[6-10 8:11:45 22209241] [I] [ss_batt_do_sample] percent:83%, volt_mv:4363mv
+
+[6-10 8:11:45 22209256] [I] [system_profile_do_update] update succ. timestamp:1276128705 
+
+[6-10 8:12:0 22210755] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750573], wrist:4, cal:0, dist:0, a:[0, 0, 349, 647, 107]
+
+[6-10 8:12:1 22210805] [I] ram:[23944, 1095612], b:83, s:0
+
+[6-10 8:13:0 22216716] [I] ram:[23944, 1095612], b:83, s:0
+
+[6-10 8:13:47 22221484] [I] [batt_c] batt force up 1% 83
+
+[6-10 8:13:47 22221484] [I] [ss_batt_do_sample] percent:84%, volt_mv:4363mv
+
+[6-10 8:14:0 22222730] [I] ram:[23944, 1095612], b:84, s:0
+
+[6-10 8:15:0 22228757] [I] ram:[23980, 1095612], b:84, s:0
+
+[6-10 8:15:50 22233712] [I] [batt_c] batt force up 1% 84
+
+[6-10 8:15:50 22233712] [I] [ss_batt_do_sample] percent:85%, volt_mv:4364mv
+
+[6-10 8:16:0 22234758] [I] ram:[23944, 1095612], b:85, s:0
+
+[6-10 8:17:1 22240796] [I] ram:[24148, 1095612], b:85, s:0
+
+[6-10 8:17:52 22245940] [I] [batt_c] batt force up 1% 85
+
+[6-10 8:17:52 22245940] [I] [ss_batt_do_sample] percent:86%, volt_mv:4363mv
+
+[6-10 8:18:0 22246697] [I] ram:[23944, 1095612], b:86, s:0
+
+[6-10 8:19:0 22252711] [I] ram:[23944, 1095612], b:86, s:0
+
+[6-10 8:19:55 22258168] [I] [batt_c] batt force up 1% 86
+
+[6-10 8:19:55 22258168] [I] [ss_batt_do_sample] percent:87%, volt_mv:4363mv
+
+[6-10 8:20:0 22258725] [I] ram:[23944, 1095612], b:87, s:0
+
+[6-10 8:21:0 22264739] [I] ram:[23944, 1095612], b:87, s:0
+
+[6-10 8:21:57 22270396] [I] [batt_c] batt force up 1% 87
+
+[6-10 8:21:57 22270396] [I] [ss_batt_do_sample] percent:88%, volt_mv:4363mv
+
+[6-10 8:21:57 22270411] [I] [system_profile_do_update] update succ. timestamp:1276129317 
+
+[6-10 8:22:0 22270655] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750575], wrist:4, cal:0, dist:0, a:[0, 0, 349, 423, 109]
+
+[6-10 8:22:0 22270668] [I] ram:[23980, 1095612], b:88, s:0
+
+[6-10 8:23:0 22276669] [I] ram:[23944, 1095612], b:88, s:0
+
+[6-10 8:24:0 22282639] [I] [batt_c] batt force up 1% 88
+
+[6-10 8:24:0 22282639] [I] [ss_batt_do_sample] percent:89%, volt_mv:4364mv
+
+[6-10 8:24:0 22282698] [I] ram:[23992, 1095612], b:89, s:0
+
+[6-10 8:25:1 22288716] [I] ram:[23992, 1095612], b:89, s:0
+
+[6-10 8:26:0 22294617] [I] ram:[23944, 1095612], b:89, s:0
+
+[6-10 8:26:2 22294867] [I] [batt_c] batt force up 1% 89
+
+[6-10 8:26:2 22294867] [I] [ss_batt_do_sample] percent:90%, volt_mv:4364mv
+
+[6-10 8:27:0 22300631] [I] ram:[23944, 1095612], b:90, s:0
+
+[6-10 8:28:0 22306647] [I] ram:[23944, 1095612], b:90, s:0
+
+[6-10 8:28:5 22307095] [I] [batt_c] batt force up 1% 90
+
+[6-10 8:28:5 22307095] [I] [ss_batt_do_sample] percent:91%, volt_mv:4363mv
+
+[6-10 8:29:0 22312669] [I] [wrkt] drink drink
+
+[6-10 8:29:0 22312669] [I] ignore remind 0
+
+[6-10 8:29:0 22312669] [I] ram:[23844, 1095612], b:91, s:0
+
+[6-10 8:30:0 22318670] [I] ram:[23944, 1095612], b:91, s:0
+
+[6-10 8:30:7 22319323] [I] [batt_c] batt force up 1% 91
+
+[6-10 8:30:7 22319323] [I] [ss_batt_do_sample] percent:92%, volt_mv:4364mv
+
+[6-10 8:31:0 22324586] [I] ram:[23944, 1095612], b:92, s:0
+
+[6-10 8:32:0 22330617] [I] ram:[23992, 1095612], b:92, s:0
+
+[6-10 8:32:0 22330655] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750577], wrist:4, cal:0, dist:0, a:[0, 0, 349, 291, 104]
+
+[6-10 8:32:9 22331551] [I] [batt_c] batt force up 1% 92
+
+[6-10 8:32:9 22331551] [I] [ss_batt_do_sample] percent:93%, volt_mv:4364mv
+
+[6-10 8:32:10 22331566] [I] [system_profile_do_update] update succ. timestamp:1276129929 
+
+[6-10 8:33:0 22336618] [I] ram:[23944, 1095612], b:93, s:0
+
+[6-10 8:34:0 22342641] [I] ram:[23944, 1095612], b:93, s:0
+
+[6-10 8:34:12 22343794] [I] [batt_c] batt force up 1% 93
+
+[6-10 8:34:12 22343794] [I] [ss_batt_do_sample] percent:94%, volt_mv:4364mv
+
+[6-10 8:35:0 22348558] [I] ram:[23944, 1095612], b:94, s:0
+
+[6-10 8:36:0 22354572] [I] ram:[23944, 1095612], b:94, s:0
+
+[6-10 8:36:14 22356022] [I] [batt_c] batt force up 1% 94
+
+[6-10 8:36:14 22356022] [I] [ss_batt_do_sample] percent:95%, volt_mv:4364mv
+
+[6-10 8:37:0 22360588] [I] ram:[23944, 1095612], b:95, s:0
+
+[6-10 8:38:0 22366602] [I] ram:[23944, 1095612], b:95, s:0
+
+[6-10 8:38:17 22368250] [I] [batt_c] batt force up 1% 95
+
+[6-10 8:38:17 22368250] [I] [ss_batt_do_sample] percent:96%, volt_mv:4364mv
+
+[6-10 8:39:0 22372525] [I] ram:[23944, 1095612], b:96, s:0
+
+[6-10 8:40:0 22378554] [I] ram:[23980, 1095612], b:96, s:0
+
+[6-10 8:40:0 22378578] [I] [system_profile_do_update] update succ. timestamp:1276130400 
+
+[6-10 8:40:19 22380478] [I] [batt_c] batt force up 1% 96
+
+[6-10 8:40:19 22380478] [I] [ss_batt_do_sample] percent:97%, volt_mv:4364mv
+
+[6-10 8:41:0 22384580] [I] ram:[23944, 1095612], b:97, s:0
+
+[6-10 8:42:0 22390494] [I] ram:[23944, 1095612], b:97, s:0
+
+[6-10 8:42:0 22390555] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750578], wrist:4, cal:0, dist:0, a:[0, 0, 349, 1290, 108]
+
+[6-10 8:42:22 22392706] [I] [batt_c] batt force up 1% 97
+
+[6-10 8:42:22 22392706] [I] [ss_batt_do_sample] percent:98%, volt_mv:4364mv
+
+[6-10 8:42:22 22392721] [I] [system_profile_do_update] update succ. timestamp:1276130542 
+
+[6-10 8:43:0 22396524] [I] ram:[23944, 1095612], b:98, s:0
+
+[6-10 8:44:0 22402538] [I] ram:[23944, 1095612], b:98, s:0
+
+[6-10 8:44:24 22404949] [I] [batt_c] batt force up 1% 98
+
+[6-10 8:44:24 22404949] [I] [ss_batt_do_sample] percent:99%, volt_mv:4364mv
+
+[6-10 8:44:25 22404960] [I] battery was charger done
+
+[6-10 8:44:25 22404975] [I] [system_profile_do_update] update succ. timestamp:1276130665 
+
+[6-10 8:44:25 22405028] [I] battery was charger done
+
+[6-10 8:44:26 22405043] [I] [system_profile_do_update] update succ. timestamp:1276130665 
+
+[6-10 8:44:46 22407085] [I] battery was charger done
+
+[6-10 8:44:46 22407100] [I] [system_profile_do_update] update succ. timestamp:1276130686 
+
+[6-10 8:45:0 22408478] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:45:7 22409142] [I] battery was charger done
+
+[6-10 8:45:7 22409157] [I] [system_profile_do_update] update succ. timestamp:1276130707 
+
+[6-10 8:45:28 22411199] [I] battery was charger done
+
+[6-10 8:45:28 22411214] [I] [system_profile_do_update] update succ. timestamp:1276130728 
+
+[6-10 8:45:48 22413256] [I] battery was charger done
+
+[6-10 8:45:49 22413271] [I] [system_profile_do_update] update succ. timestamp:1276130748 
+
+[6-10 8:46:0 22414409] [I] ram:[23992, 1095612], b:99, s:0
+
+[6-10 8:46:9 22415313] [I] battery was charger done
+
+[6-10 8:46:11 22415419] [I] [system_profile_do_update] update succ. timestamp:1276130769 
+
+[6-10 8:46:32 22417461] [I] battery was charger done
+
+[6-10 8:46:32 22417476] [I] [system_profile_do_update] update succ. timestamp:1276130792 
+
+[6-10 8:46:52 22419518] [I] battery was charger done
+
+[6-10 8:46:53 22419533] [I] [system_profile_do_update] update succ. timestamp:1276130812 
+
+[6-10 8:47:0 22420235] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:47:13 22421575] [I] battery was charger done
+
+[6-10 8:47:13 22421590] [I] [system_profile_do_update] update succ. timestamp:1276130833 
+
+[6-10 8:47:34 22423632] [I] battery was charger done
+
+[6-10 8:47:34 22423647] [I] [system_profile_do_update] update succ. timestamp:1276130854 
+
+[6-10 8:47:55 22425689] [I] battery was charger done
+
+[6-10 8:47:55 22425704] [I] [system_profile_do_update] update succ. timestamp:1276130875 
+
+[6-10 8:48:0 22426158] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:48:15 22427746] [I] battery was charger done
+
+[6-10 8:48:16 22427761] [I] [system_profile_do_update] update succ. timestamp:1276130895 
+
+[6-10 8:48:36 22429803] [I] battery was charger done
+
+[6-10 8:48:36 22429818] [I] [system_profile_do_update] update succ. timestamp:1276130916 
+
+[6-10 8:48:57 22431860] [I] battery was charger done
+
+[6-10 8:48:57 22431875] [I] [system_profile_do_update] update succ. timestamp:1276130937 
+
+[6-10 8:49:0 22432196] [I] ram:[23992, 1095612], b:99, s:0
+
+[6-10 8:49:18 22433917] [I] battery was charger done
+
+[6-10 8:49:18 22433932] [I] [system_profile_do_update] update succ. timestamp:1276130958 
+
+[6-10 8:49:38 22435974] [I] battery was charger done
+
+[6-10 8:49:39 22435989] [I] [system_profile_do_update] update succ. timestamp:1276130978 
+
+[6-10 8:49:59 22438031] [I] battery was charger done
+
+[6-10 8:49:59 22438046] [I] [system_profile_do_update] update succ. timestamp:1276130999 
+
+[6-10 8:50:0 22438097] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:50:20 22440088] [I] battery was charger done
+
+[6-10 8:50:20 22440103] [I] [system_profile_do_update] update succ. timestamp:1276131020 
+
+[6-10 8:50:41 22442145] [I] battery was charger done
+
+[6-10 8:50:41 22442160] [I] [system_profile_do_update] update succ. timestamp:1276131041 
+
+[6-10 8:51:1 22444116] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:51:1 22444202] [I] battery was charger done
+
+[6-10 8:51:2 22444217] [I] [system_profile_do_update] update succ. timestamp:1276131061 
+
+[6-10 8:51:22 22446259] [I] battery was charger done
+
+[6-10 8:51:22 22446274] [I] [system_profile_do_update] update succ. timestamp:1276131082 
+
+[6-10 8:51:43 22448316] [I] battery was charger done
+
+[6-10 8:51:43 22448331] [I] [system_profile_do_update] update succ. timestamp:1276131103 
+
+[6-10 8:52:0 22450032] [I] ram:[23944, 1095612], b:99, s:0
+
+[6-10 8:52:0 22450056] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750580], wrist:4, cal:0, dist:0, a:[0, 0, 349, 196, 108]
+
+[6-10 8:52:4 22450373] [I] battery was charger done
+
+[6-10 8:52:4 22450391] [I] [system_profile_do_update] update succ. timestamp:1276131124 
+
+[6-10 8:52:24 22452433] [I] battery was charger done
+
+[6-10 8:52:25 22452448] [I] [system_profile_do_update] update succ. timestamp:1276131144 
+
+[6-10 8:52:45 22454479] [I] [batt_c] force up to 100
+
+[6-10 8:52:45 22454479] [I] [ss_batt_do_sample] percent:100%, volt_mv:4364mv
+
+[6-10 8:52:45 22454490] [I] battery was charger done
+
+[6-10 8:52:45 22454505] [I] [system_profile_do_update] update succ. timestamp:1276131165 
+
+[6-10 8:52:46 22454514] [I] XINSHIJIE driver
+
+[6-10 8:52:46 22454529] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 8:52:46 22454558] [I] battery was charger done
+
+[6-10 8:52:46 22454573] [I] [system_profile_do_update] update succ. timestamp:1276131166 
+
+[6-10 8:53:0 22455965] [I] ram:[23884, 1095612], b:100, s:0
+
+[6-10 8:53:7 22456615] [I] battery was charger done
+
+[6-10 8:53:7 22456630] [I] [system_profile_do_update] update succ. timestamp:1276131187 
+
+[6-10 8:53:27 22458672] [I] battery was charger done
+
+[6-10 8:53:28 22458687] [I] [system_profile_do_update] update succ. timestamp:1276131207 
+
+[6-10 8:53:48 22460729] [I] battery was charger done
+
+[6-10 8:53:48 22460744] [I] [system_profile_do_update] update succ. timestamp:1276131228 
+
+[6-10 8:54:0 22461888] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 8:54:9 22462786] [I] battery was charger done
+
+[6-10 8:54:9 22462801] [I] [system_profile_do_update] update succ. timestamp:1276131249 
+
+[6-10 8:54:30 22464843] [I] battery was charger done
+
+[6-10 8:54:30 22464858] [I] [system_profile_do_update] update succ. timestamp:1276131270 
+
+[6-10 8:54:50 22466900] [I] battery was charger done
+
+[6-10 8:54:51 22466915] [I] [system_profile_do_update] update succ. timestamp:1276131290 
+
+[6-10 8:55:0 22467816] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 8:55:11 22468957] [I] battery was charger done
+
+[6-10 8:55:11 22468972] [I] [system_profile_do_update] update succ. timestamp:1276131311 
+
+[6-10 8:55:32 22471014] [I] battery was charger done
+
+[6-10 8:55:32 22471029] [I] [system_profile_do_update] update succ. timestamp:1276131332 
+
+[6-10 8:55:53 22473071] [I] battery was charger done
+
+[6-10 8:55:53 22473086] [I] [system_profile_do_update] update succ. timestamp:1276131353 
+
+[6-10 8:56:0 22473836] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 8:56:13 22475128] [I] battery was charger done
+
+[6-10 8:56:14 22475143] [I] [system_profile_do_update] update succ. timestamp:1276131373 
+
+[6-10 8:56:34 22477185] [I] battery was charger done
+
+[6-10 8:56:34 22477200] [I] [system_profile_do_update] update succ. timestamp:1276131394 
+
+[6-10 8:56:55 22479242] [I] battery was charger done
+
+[6-10 8:56:55 22479257] [I] [system_profile_do_update] update succ. timestamp:1276131415 
+
+[6-10 8:57:0 22479759] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 8:57:16 22481299] [I] battery was charger done
+
+[6-10 8:57:16 22481314] [I] [system_profile_do_update] update succ. timestamp:1276131436 
+
+[6-10 8:57:36 22483356] [I] battery was charger done
+
+[6-10 8:57:37 22483371] [I] [system_profile_do_update] update succ. timestamp:1276131456 
+
+[6-10 8:57:57 22485413] [I] battery was charger done
+
+[6-10 8:57:57 22485428] [I] [system_profile_do_update] update succ. timestamp:1276131477 
+
+[6-10 8:58:0 22485673] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 8:58:18 22487470] [I] battery was charger done
+
+[6-10 8:58:18 22487485] [I] [system_profile_do_update] update succ. timestamp:1276131498 
+
+[6-10 8:58:39 22489527] [I] battery was charger done
+
+[6-10 8:58:39 22489542] [I] [system_profile_do_update] update succ. timestamp:1276131519 
+
+[6-10 8:58:59 22491584] [I] battery was charger done
+
+[6-10 8:59:0 22491599] [I] [system_profile_do_update] update succ. timestamp:1276131539 
+
+[6-10 8:59:0 22491599] [I] [wrkt] drink drink
+
+[6-10 8:59:0 22491599] [I] ignore remind 0
+
+[6-10 8:59:0 22491599] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 8:59:20 22493641] [I] battery was charger done
+
+[6-10 8:59:20 22493656] [I] [system_profile_do_update] update succ. timestamp:1276131560 
+
+[6-10 8:59:41 22495698] [I] battery was charger done
+
+[6-10 8:59:41 22495713] [I] [system_profile_do_update] update succ. timestamp:1276131581 
+
+[6-10 9:0:0 22497614] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:0:1 22497657] [I] find first record_time: 1276121191, 2010-06-10 06:06:31
+
+[6-10 9:0:1 22497657] [I] [r_slp]record_time: 2010-06-10 06:06:31
+
+[6-10 9:0:1 22497657] [I] [r_slp]last_r_time: 2010-06-08 08:08:32
+
+[6-10 9:0:1 22497657] [I] [r_slp]record:0, id:0, valid:1, durationMin:0, 0, sleepType:1, deltaUtc:10410, slpDeltaTotal:0, SlpFromBegin:0,endT:06:06
+
+[6-10 9:0:1 22497657] [I] [r_slp]record_time: 2010-06-10 06:06:31
+
+[6-10 9:0:1 22497657] [I] [r_slp]last_r_time: 2010-06-10 06:06:31
+
+[6-10 9:0:1 22497657] [I] [r_slp]record:1, id:1, valid:1, durationMin:0, 1, sleepType:2, deltaUtc:10410, slpDeltaTotal:0, SlpFromBegin:0,endT:06:06
+
+[6-10 9:0:1 22497657] [I] [offline_data] file_hexstr, lengh:48, contents:
+
+"060000006710104C00000000008A0D4C0100000000000000060000006710104C010000006710104C0200000000000000"
+lines:1
+
+[6-10 9:0:1 22497657] [I] [sleep_summary] start:06:06, end:06:06, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[6-10 9:0:2 22497755] [I] battery was charger done
+
+[6-10 9:0:2 22497770] [I] [system_profile_do_update] update succ. timestamp:1276131602 
+
+[6-10 9:0:22 22499812] [I] battery was charger done
+
+[6-10 9:0:24 22499918] [I] [system_profile_do_update] update succ. timestamp:1276131622 
+
+[6-10 9:0:45 22501960] [I] battery was charger done
+
+[6-10 9:0:45 22501975] [I] [system_profile_do_update] update succ. timestamp:1276131645 
+
+[6-10 9:1:0 22503420] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:1:6 22504017] [I] battery was charger done
+
+[6-10 9:1:6 22504032] [I] [system_profile_do_update] update succ. timestamp:1276131666 
+
+[6-10 9:1:26 22506074] [I] battery was charger done
+
+[6-10 9:1:27 22506089] [I] [system_profile_do_update] update succ. timestamp:1276131686 
+
+[6-10 9:1:47 22508131] [I] battery was charger done
+
+[6-10 9:1:47 22508146] [I] [system_profile_do_update] update succ. timestamp:1276131707 
+
+[6-10 9:2:0 22509447] [I] ram:[23852, 1095612], b:100, s:0
+
+[6-10 9:2:1 22509469] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750582], wrist:4, cal:0, dist:0, a:[0, 0, 349, 332, 106]
+
+[6-10 9:2:8 22510188] [I] battery was charger done
+
+[6-10 9:2:8 22510203] [I] [system_profile_do_update] update succ. timestamp:1276131728 
+
+[6-10 9:2:29 22512245] [I] battery was charger done
+
+[6-10 9:2:29 22512260] [I] [system_profile_do_update] update succ. timestamp:1276131749 
+
+[6-10 9:2:49 22514302] [I] battery was charger done
+
+[6-10 9:2:50 22514317] [I] [system_profile_do_update] update succ. timestamp:1276131769 
+
+[6-10 9:3:0 22515363] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:3:10 22516359] [I] battery was charger done
+
+[6-10 9:3:10 22516374] [I] [system_profile_do_update] update succ. timestamp:1276131790 
+
+[6-10 9:3:31 22518416] [I] battery was charger done
+
+[6-10 9:3:31 22518431] [I] [system_profile_do_update] update succ. timestamp:1276131811 
+
+[6-10 9:3:52 22520473] [I] battery was charger done
+
+[6-10 9:3:52 22520488] [I] [system_profile_do_update] update succ. timestamp:1276131832 
+
+[6-10 9:4:0 22521290] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:4:12 22522530] [I] battery was charger done
+
+[6-10 9:4:13 22522545] [I] [system_profile_do_update] update succ. timestamp:1276131852 
+
+[6-10 9:4:33 22524587] [I] battery was charger done
+
+[6-10 9:4:33 22524602] [I] [system_profile_do_update] update succ. timestamp:1276131873 
+
+[6-10 9:4:54 22526644] [I] battery was charger done
+
+[6-10 9:4:54 22526659] [I] [system_profile_do_update] update succ. timestamp:1276131894 
+
+[6-10 9:5:0 22527213] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:5:14 22528701] [I] battery was charger done
+
+[6-10 9:5:15 22528716] [I] [system_profile_do_update] update succ. timestamp:1276131914 
+
+[6-10 9:5:35 22530758] [I] battery was charger done
+
+[6-10 9:5:36 22530773] [I] [system_profile_do_update] update succ. timestamp:1276131935 
+
+[6-10 9:5:56 22532815] [I] battery was charger done
+
+[6-10 9:5:56 22532830] [I] [system_profile_do_update] update succ. timestamp:1276131956 
+
+[6-10 9:6:0 22533231] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:6:17 22534872] [I] battery was charger done
+
+[6-10 9:6:17 22534890] [I] [system_profile_do_update] update succ. timestamp:1276131977 
+
+[6-10 9:6:38 22536932] [I] battery was charger done
+
+[6-10 9:6:38 22536947] [I] [system_profile_do_update] update succ. timestamp:1276131998 
+
+[6-10 9:6:58 22538989] [I] battery was charger done
+
+[6-10 9:6:59 22539004] [I] [system_profile_do_update] update succ. timestamp:1276132018 
+
+[6-10 9:7:0 22539167] [I] ram:[23992, 1095612], b:100, s:0
+
+[6-10 9:7:19 22541046] [I] battery was charger done
+
+[6-10 9:7:19 22541061] [I] [system_profile_do_update] update succ. timestamp:1276132039 
+
+[6-10 9:7:40 22543103] [I] battery was charger done
+
+[6-10 9:7:40 22543118] [I] [system_profile_do_update] update succ. timestamp:1276132060 
+
+[6-10 9:8:0 22545070] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:8:1 22545160] [I] battery was charger done
+
+[6-10 9:8:1 22545175] [I] [system_profile_do_update] update succ. timestamp:1276132081 
+
+[6-10 9:8:21 22547217] [I] battery was charger done
+
+[6-10 9:8:22 22547232] [I] [system_profile_do_update] update succ. timestamp:1276132101 
+
+[6-10 9:8:42 22549274] [I] battery was charger done
+
+[6-10 9:8:42 22549289] [I] [system_profile_do_update] update succ. timestamp:1276132122 
+
+[6-10 9:9:0 22551090] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:9:3 22551331] [I] battery was charger done
+
+[6-10 9:9:3 22551346] [I] [system_profile_do_update] update succ. timestamp:1276132143 
+
+[6-10 9:9:23 22553388] [I] battery was charger done
+
+[6-10 9:9:24 22553403] [I] [system_profile_do_update] update succ. timestamp:1276132163 
+
+[6-10 9:9:44 22555445] [I] battery was charger done
+
+[6-10 9:9:45 22555460] [I] [system_profile_do_update] update succ. timestamp:1276132184 
+
+[6-10 9:10:0 22557005] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:10:5 22557502] [I] battery was charger done
+
+[6-10 9:10:5 22557517] [I] [system_profile_do_update] update succ. timestamp:1276132205 
+
+[6-10 9:10:26 22559559] [I] battery was charger done
+
+[6-10 9:10:26 22559574] [I] [system_profile_do_update] update succ. timestamp:1276132226 
+
+[6-10 9:10:46 22561616] [I] battery was charger done
+
+[6-10 9:10:47 22561631] [I] [system_profile_do_update] update succ. timestamp:1276132246 
+
+[6-10 9:11:0 22562933] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:11:7 22563673] [I] battery was charger done
+
+[6-10 9:11:8 22563688] [I] [system_profile_do_update] update succ. timestamp:1276132267 
+
+[6-10 9:11:28 22565730] [I] battery was charger done
+
+[6-10 9:11:28 22565745] [I] [system_profile_do_update] update succ. timestamp:1276132288 
+
+[6-10 9:11:49 22567787] [I] battery was charger done
+
+[6-10 9:11:49 22567802] [I] [system_profile_do_update] update succ. timestamp:1276132309 
+
+[6-10 9:12:0 22568856] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:12:1 22568955] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750584], wrist:4, cal:0, dist:0, a:[0, 0, 349, 356, 108]
+
+[6-10 9:12:9 22569844] [I] battery was charger done
+
+[6-10 9:12:10 22569859] [I] [system_profile_do_update] update succ. timestamp:1276132329 
+
+[6-10 9:12:30 22571901] [I] battery was charger done
+
+[6-10 9:12:30 22571916] [I] [system_profile_do_update] update succ. timestamp:1276132350 
+
+[6-10 9:12:51 22573958] [I] battery was charger done
+
+[6-10 9:12:51 22573973] [I] [system_profile_do_update] update succ. timestamp:1276132371 
+
+[6-10 9:13:0 22574874] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:13:12 22576015] [I] battery was charger done
+
+[6-10 9:13:12 22576030] [I] [system_profile_do_update] update succ. timestamp:1276132392 
+
+[6-10 9:13:32 22578072] [I] battery was charger done
+
+[6-10 9:13:33 22578087] [I] [system_profile_do_update] update succ. timestamp:1276132412 
+
+[6-10 9:13:53 22580129] [I] battery was charger done
+
+[6-10 9:13:53 22580144] [I] [system_profile_do_update] update succ. timestamp:1276132433 
+
+[6-10 9:14:0 22580789] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:14:14 22582186] [I] battery was charger done
+
+[6-10 9:14:14 22582201] [I] [system_profile_do_update] update succ. timestamp:1276132454 
+
+[6-10 9:14:35 22584243] [I] battery was charger done
+
+[6-10 9:14:35 22584258] [I] [system_profile_do_update] update succ. timestamp:1276132475 
+
+[6-10 9:14:55 22586300] [I] battery was charger done
+
+[6-10 9:14:58 22586406] [I] [system_profile_do_update] update succ. timestamp:1276132495 
+
+[6-10 9:15:0 22586608] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:15:18 22588448] [I] battery was charger done
+
+[6-10 9:15:18 22588463] [I] [system_profile_do_update] update succ. timestamp:1276132518 
+
+[6-10 9:15:39 22590505] [I] battery was charger done
+
+[6-10 9:15:39 22590520] [I] [system_profile_do_update] update succ. timestamp:1276132539 
+
+[6-10 9:15:59 22592562] [I] battery was charger done
+
+[6-10 9:16:0 22592577] [I] [system_profile_do_update] update succ. timestamp:1276132559 
+
+[6-10 9:16:0 22592624] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:16:20 22594619] [I] battery was charger done
+
+[6-10 9:16:20 22594634] [I] [system_profile_do_update] update succ. timestamp:1276132580 
+
+[6-10 9:16:41 22596676] [I] battery was charger done
+
+[6-10 9:16:41 22596691] [I] [system_profile_do_update] update succ. timestamp:1276132601 
+
+[6-10 9:17:0 22598538] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:17:2 22598733] [I] battery was charger done
+
+[6-10 9:17:2 22598748] [I] [system_profile_do_update] update succ. timestamp:1276132622 
+
+[6-10 9:17:22 22600790] [I] battery was charger done
+
+[6-10 9:17:23 22600805] [I] [system_profile_do_update] update succ. timestamp:1276132642 
+
+[6-10 9:17:43 22602847] [I] battery was charger done
+
+[6-10 9:17:43 22602862] [I] [system_profile_do_update] update succ. timestamp:1276132663 
+
+[6-10 9:18:0 22604563] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:18:4 22604904] [I] battery was charger done
+
+[6-10 9:18:4 22604919] [I] [system_profile_do_update] update succ. timestamp:1276132684 
+
+[6-10 9:18:25 22606961] [I] battery was charger done
+
+[6-10 9:18:25 22606976] [I] [system_profile_do_update] update succ. timestamp:1276132705 
+
+[6-10 9:18:45 22609018] [I] battery was charger done
+
+[6-10 9:18:46 22609033] [I] [system_profile_do_update] update succ. timestamp:1276132725 
+
+[6-10 9:19:0 22610479] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:19:6 22611075] [I] battery was charger done
+
+[6-10 9:19:6 22611090] [I] [system_profile_do_update] update succ. timestamp:1276132746 
+
+[6-10 9:19:27 22613132] [I] battery was charger done
+
+[6-10 9:19:27 22613147] [I] [system_profile_do_update] update succ. timestamp:1276132767 
+
+[6-10 9:19:48 22615189] [I] battery was charger done
+
+[6-10 9:19:48 22615204] [I] [system_profile_do_update] update succ. timestamp:1276132788 
+
+[6-10 9:20:0 22616406] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:20:8 22617246] [I] battery was charger done
+
+[6-10 9:20:9 22617261] [I] [system_profile_do_update] update succ. timestamp:1276132808 
+
+[6-10 9:20:29 22619303] [I] battery was charger done
+
+[6-10 9:20:29 22619318] [I] [system_profile_do_update] update succ. timestamp:1276132829 
+
+[6-10 9:20:50 22621360] [I] battery was charger done
+
+[6-10 9:20:50 22621378] [I] [system_profile_do_update] update succ. timestamp:1276132850 
+
+[6-10 9:21:0 22622333] [I] ram:[23980, 1095612], b:100, s:0
+
+[6-10 9:21:11 22623420] [I] battery was charger done
+
+[6-10 9:21:11 22623435] [I] [system_profile_do_update] update succ. timestamp:1276132871 
+
+[6-10 9:21:31 22625477] [I] battery was charger done
+
+[6-10 9:21:32 22625492] [I] [system_profile_do_update] update succ. timestamp:1276132891 
+
+[6-10 9:21:52 22627534] [I] battery was charger done
+
+[6-10 9:21:52 22627549] [I] [system_profile_do_update] update succ. timestamp:1276132912 
+
+[6-10 9:22:0 22628350] [I] ram:[23852, 1095612], b:100, s:0
+
+[6-10 9:22:1 22628373] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750586], wrist:4, cal:0, dist:0, a:[0, 0, 349, 157, 107]
+
+[6-10 9:22:13 22629591] [I] battery was charger done
+
+[6-10 9:22:13 22629606] [I] [system_profile_do_update] update succ. timestamp:1276132933 
+
+[6-10 9:22:34 22631648] [I] battery was charger done
+
+[6-10 9:22:34 22631663] [I] [system_profile_do_update] update succ. timestamp:1276132954 
+
+[6-10 9:22:54 22633705] [I] battery was charger done
+
+[6-10 9:22:55 22633720] [I] [system_profile_do_update] update succ. timestamp:1276132974 
+
+[6-10 9:23:0 22634286] [I] ram:[23992, 1095612], b:100, s:0
+
+[6-10 9:23:15 22635762] [I] battery was charger done
+
+[6-10 9:23:15 22635777] [I] [system_profile_do_update] update succ. timestamp:1276132995 
+
+[6-10 9:23:36 22637819] [I] battery was charger done
+
+[6-10 9:23:36 22637834] [I] [system_profile_do_update] update succ. timestamp:1276133016 
+
+[6-10 9:23:57 22639876] [I] battery was charger done
+
+[6-10 9:23:57 22639891] [I] [system_profile_do_update] update succ. timestamp:1276133037 
+
+[6-10 9:24:0 22640192] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:24:17 22641933] [I] battery was charger done
+
+[6-10 9:24:18 22641948] [I] [system_profile_do_update] update succ. timestamp:1276133057 
+
+[6-10 9:24:38 22643990] [I] battery was charger done
+
+[6-10 9:24:38 22644005] [I] [system_profile_do_update] update succ. timestamp:1276133078 
+
+[6-10 9:24:59 22646047] [I] battery was charger done
+
+[6-10 9:24:59 22646062] [I] [system_profile_do_update] update succ. timestamp:1276133099 
+
+[6-10 9:25:0 22646106] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:25:20 22648104] [I] battery was charger done
+
+[6-10 9:25:20 22648119] [I] [system_profile_do_update] update succ. timestamp:1276133120 
+
+[6-10 9:25:40 22650161] [I] battery was charger done
+
+[6-10 9:25:41 22650176] [I] [system_profile_do_update] update succ. timestamp:1276133140 
+
+[6-10 9:26:0 22652120] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:26:1 22652218] [I] battery was charger done
+
+[6-10 9:26:1 22652233] [I] [system_profile_do_update] update succ. timestamp:1276133161 
+
+[6-10 9:26:22 22654275] [I] battery was charger done
+
+[6-10 9:26:22 22654290] [I] [system_profile_do_update] update succ. timestamp:1276133182 
+
+[6-10 9:26:43 22656332] [I] battery was charger done
+
+[6-10 9:26:43 22656347] [I] [system_profile_do_update] update succ. timestamp:1276133203 
+
+[6-10 9:27:0 22658049] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:27:3 22658389] [I] battery was charger done
+
+[6-10 9:27:4 22658404] [I] [system_profile_do_update] update succ. timestamp:1276133223 
+
+[6-10 9:27:24 22660446] [I] battery was charger done
+
+[6-10 9:27:24 22660461] [I] [system_profile_do_update] update succ. timestamp:1276133244 
+
+[6-10 9:27:45 22662503] [I] battery was charger done
+
+[6-10 9:27:45 22662518] [I] [system_profile_do_update] update succ. timestamp:1276133265 
+
+[6-10 9:28:0 22663965] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:28:6 22664560] [I] battery was charger done
+
+[6-10 9:28:6 22664575] [I] [system_profile_do_update] update succ. timestamp:1276133286 
+
+[6-10 9:28:26 22666617] [I] battery was charger done
+
+[6-10 9:28:27 22666632] [I] [system_profile_do_update] update succ. timestamp:1276133306 
+
+[6-10 9:28:47 22668674] [I] battery was charger done
+
+[6-10 9:28:47 22668689] [I] [system_profile_do_update] update succ. timestamp:1276133327 
+
+[6-10 9:29:0 22669989] [I] [wrkt] drink drink
+
+[6-10 9:29:0 22669989] [I] ignore remind 0
+
+[6-10 9:29:0 22669989] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 9:29:8 22670731] [I] battery was charger done
+
+[6-10 9:29:8 22670746] [I] [system_profile_do_update] update succ. timestamp:1276133348 
+
+[6-10 9:29:29 22672788] [I] battery was charger done
+
+[6-10 9:29:31 22672894] [I] [system_profile_do_update] update succ. timestamp:1276133369 
+
+[6-10 9:29:51 22674936] [I] battery was charger done
+
+[6-10 9:29:51 22674951] [I] [system_profile_do_update] update succ. timestamp:1276133391 
+
+[6-10 9:30:0 22675796] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:30:12 22676993] [I] battery was charger done
+
+[6-10 9:30:12 22677008] [I] [system_profile_do_update] update succ. timestamp:1276133412 
+
+[6-10 9:30:33 22679050] [I] battery was charger done
+
+[6-10 9:30:33 22679065] [I] [system_profile_do_update] update succ. timestamp:1276133433 
+
+[6-10 9:30:53 22681107] [I] battery was charger done
+
+[6-10 9:30:54 22681122] [I] [system_profile_do_update] update succ. timestamp:1276133453 
+
+[6-10 9:31:0 22681724] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:31:14 22683164] [I] battery was charger done
+
+[6-10 9:31:14 22683179] [I] [system_profile_do_update] update succ. timestamp:1276133474 
+
+[6-10 9:31:35 22685221] [I] battery was charger done
+
+[6-10 9:31:35 22685236] [I] [system_profile_do_update] update succ. timestamp:1276133495 
+
+[6-10 9:31:56 22687278] [I] battery was charger done
+
+[6-10 9:31:56 22687293] [I] [system_profile_do_update] update succ. timestamp:1276133516 
+
+[6-10 9:32:0 22687739] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:32:1 22687763] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750588], wrist:4, cal:0, dist:0, a:[0, 0, 349, 182, 107]
+
+[6-10 9:32:16 22689335] [I] battery was charger done
+
+[6-10 9:32:17 22689350] [I] [system_profile_do_update] update succ. timestamp:1276133536 
+
+[6-10 9:32:37 22691392] [I] battery was charger done
+
+[6-10 9:32:37 22691407] [I] [system_profile_do_update] update succ. timestamp:1276133557 
+
+[6-10 9:32:58 22693449] [I] battery was charger done
+
+[6-10 9:32:58 22693464] [I] [system_profile_do_update] update succ. timestamp:1276133578 
+
+[6-10 9:33:0 22693665] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:33:19 22695506] [I] battery was charger done
+
+[6-10 9:33:19 22695521] [I] [system_profile_do_update] update succ. timestamp:1276133599 
+
+[6-10 9:33:39 22697563] [I] battery was charger done
+
+[6-10 9:33:40 22697578] [I] [system_profile_do_update] update succ. timestamp:1276133619 
+
+[6-10 9:34:0 22699580] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:34:0 22699620] [I] battery was charger done
+
+[6-10 9:34:0 22699635] [I] [system_profile_do_update] update succ. timestamp:1276133640 
+
+[6-10 9:34:21 22701677] [I] battery was charger done
+
+[6-10 9:34:21 22701692] [I] [system_profile_do_update] update succ. timestamp:1276133661 
+
+[6-10 9:34:42 22703734] [I] battery was charger done
+
+[6-10 9:34:42 22703749] [I] [system_profile_do_update] update succ. timestamp:1276133682 
+
+[6-10 9:35:0 22705596] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:35:2 22705791] [I] battery was charger done
+
+[6-10 9:35:3 22705806] [I] [system_profile_do_update] update succ. timestamp:1276133702 
+
+[6-10 9:35:23 22707848] [I] battery was charger done
+
+[6-10 9:35:23 22707866] [I] [system_profile_do_update] update succ. timestamp:1276133723 
+
+[6-10 9:35:44 22709908] [I] battery was charger done
+
+[6-10 9:35:44 22709923] [I] [system_profile_do_update] update succ. timestamp:1276133744 
+
+[6-10 9:36:0 22711524] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:36:5 22711965] [I] battery was charger done
+
+[6-10 9:36:5 22711980] [I] [system_profile_do_update] update succ. timestamp:1276133765 
+
+[6-10 9:36:25 22714022] [I] battery was charger done
+
+[6-10 9:36:26 22714037] [I] [system_profile_do_update] update succ. timestamp:1276133785 
+
+[6-10 9:36:46 22716079] [I] battery was charger done
+
+[6-10 9:36:46 22716094] [I] [system_profile_do_update] update succ. timestamp:1276133806 
+
+[6-10 9:37:0 22717440] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:37:7 22718136] [I] battery was charger done
+
+[6-10 9:37:7 22718151] [I] [system_profile_do_update] update succ. timestamp:1276133827 
+
+[6-10 9:37:28 22720193] [I] battery was charger done
+
+[6-10 9:37:28 22720208] [I] [system_profile_do_update] update succ. timestamp:1276133848 
+
+[6-10 9:37:48 22722250] [I] battery was charger done
+
+[6-10 9:37:49 22722265] [I] [system_profile_do_update] update succ. timestamp:1276133868 
+
+[6-10 9:38:0 22723367] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:38:9 22724307] [I] battery was charger done
+
+[6-10 9:38:9 22724322] [I] [system_profile_do_update] update succ. timestamp:1276133889 
+
+[6-10 9:38:30 22726364] [I] battery was charger done
+
+[6-10 9:38:30 22726379] [I] [system_profile_do_update] update succ. timestamp:1276133910 
+
+[6-10 9:38:50 22728421] [I] battery was charger done
+
+[6-10 9:38:51 22728436] [I] [system_profile_do_update] update succ. timestamp:1276133930 
+
+[6-10 9:39:0 22729381] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:39:11 22730478] [I] battery was charger done
+
+[6-10 9:39:12 22730493] [I] [system_profile_do_update] update succ. timestamp:1276133951 
+
+[6-10 9:39:32 22732535] [I] battery was charger done
+
+[6-10 9:39:32 22732550] [I] [system_profile_do_update] update succ. timestamp:1276133972 
+
+[6-10 9:39:53 22734592] [I] battery was charger done
+
+[6-10 9:39:53 22734607] [I] [system_profile_do_update] update succ. timestamp:1276133993 
+
+[6-10 9:40:0 22735308] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:40:13 22736649] [I] battery was charger done
+
+[6-10 9:40:14 22736664] [I] [system_profile_do_update] update succ. timestamp:1276134013 
+
+[6-10 9:40:34 22738706] [I] battery was charger done
+
+[6-10 9:40:35 22738721] [I] [system_profile_do_update] update succ. timestamp:1276134034 
+
+[6-10 9:40:55 22740763] [I] battery was charger done
+
+[6-10 9:40:55 22740778] [I] [system_profile_do_update] update succ. timestamp:1276134055 
+
+[6-10 9:41:0 22741224] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:41:16 22742820] [I] battery was charger done
+
+[6-10 9:41:16 22742835] [I] [system_profile_do_update] update succ. timestamp:1276134076 
+
+[6-10 9:41:36 22744877] [I] battery was charger done
+
+[6-10 9:41:37 22744892] [I] [system_profile_do_update] update succ. timestamp:1276134096 
+
+[6-10 9:41:57 22746934] [I] battery was charger done
+
+[6-10 9:41:57 22746949] [I] [system_profile_do_update] update succ. timestamp:1276134117 
+
+[6-10 9:42:0 22747151] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:42:1 22747255] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750590], wrist:4, cal:0, dist:0, a:[0, 0, 349, 157, 106]
+
+[6-10 9:42:18 22748991] [I] battery was charger done
+
+[6-10 9:42:18 22749006] [I] [system_profile_do_update] update succ. timestamp:1276134138 
+
+[6-10 9:42:39 22751048] [I] battery was charger done
+
+[6-10 9:42:39 22751063] [I] [system_profile_do_update] update succ. timestamp:1276134159 
+
+[6-10 9:42:59 22753105] [I] battery was charger done
+
+[6-10 9:43:0 22753120] [I] [system_profile_do_update] update succ. timestamp:1276134179 
+
+[6-10 9:43:0 22753165] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:43:20 22755162] [I] battery was charger done
+
+[6-10 9:43:20 22755177] [I] [system_profile_do_update] update succ. timestamp:1276134200 
+
+[6-10 9:43:41 22757219] [I] battery was charger donee
+
+[6-10 9:43:41 22757234] [I] [system_profile_do_update] update succ. timestamp:1276134221 
+
+[6-10 9:44:0 22759088] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:44:2 22759276] [I] battery was charger done
+
+[6-10 9:44:4 22759382] [I] [system_profile_do_update] update succ. timestamp:1276134242 
+
+[6-10 9:44:24 22761424] [I] battery was charger done
+
+[6-10 9:44:25 22761439] [I] [system_profile_do_update] update succ. timestamp:1276134264 
+
+[6-10 9:44:45 22763481] [I] battery was charger done
+
+[6-10 9:44:45 22763496] [I] [system_profile_do_update] update succ. timestamp:1276134285 
+
+[6-10 9:45:0 22764997] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:45:6 22765538] [I] battery was charger done
+
+[6-10 9:45:6 22765553] [I] [system_profile_do_update] update succ. timestamp:1276134306 
+
+[6-10 9:45:26 22767595] [I] battery was charger done
+
+[6-10 9:45:27 22767610] [I] [system_profile_do_update] update succ. timestamp:1276134326 
+
+[6-10 9:45:47 22769652] [I] battery was charger done
+
+[6-10 9:45:48 22769667] [I] [system_profile_do_update] update succ. timestamp:1276134347 
+
+[6-10 9:46:0 22770911] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:46:8 22771709] [I] battery was charger done
+
+[6-10 9:46:8 22771724] [I] [system_profile_do_update] update succ. timestamp:1276134368 
+
+[6-10 9:46:29 22773766] [I] battery was charger done
+
+[6-10 9:46:29 22773781] [I] [system_profile_do_update] update succ. timestamp:1276134389 
+
+[6-10 9:46:49 22775823] [I] battery was charger done
+
+[6-10 9:46:50 22775838] [I] [system_profile_do_update] update succ. timestamp:1276134409 
+
+[6-10 9:47:0 22776840] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:47:10 22777880] [I] battery was charger done
+
+[6-10 9:47:10 22777895] [I] [system_profile_do_update] update succ. timestamp:1276134430 
+
+[6-10 9:47:31 22779937] [I] battery was charger done
+
+[6-10 9:47:31 22779952] [I] [system_profile_do_update] update succ. timestamp:1276134451 
+
+[6-10 9:47:52 22781994] [I] battery was charger done
+
+[6-10 9:47:52 22782009] [I] [system_profile_do_update] update succ. timestamp:1276134472 
+
+[6-10 9:48:0 22782763] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:48:12 22784051] [I] battery was charger done
+
+[6-10 9:48:13 22784066] [I] [system_profile_do_update] update succ. timestamp:1276134492 
+
+[6-10 9:48:33 22786108] [I] battery was charger done
+
+[6-10 9:48:33 22786123] [I] [system_profile_do_update] update succ. timestamp:1276134513 
+
+[6-10 9:48:54 22788165] [I] battery was charger done
+
+[6-10 9:48:54 22788180] [I] [system_profile_do_update] update succ. timestamp:1276134534 
+
+[6-10 9:49:0 22788781] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:49:15 22790222] [I] battery was charger done
+
+[6-10 9:49:15 22790237] [I] [system_profile_do_update] update succ. timestamp:1276134555 
+
+[6-10 9:49:35 22792279] [I] battery was charger done
+
+[6-10 9:49:36 22792294] [I] [system_profile_do_update] update succ. timestamp:1276134575 
+
+[6-10 9:49:56 22794336] [I] battery was charger done
+
+[6-10 9:49:56 22794354] [I] [system_profile_do_update] update succ. timestamp:1276134596 
+
+[6-10 9:50:0 22794696] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:50:17 22796396] [I] battery was charger done
+
+[6-10 9:50:17 22796411] [I] [system_profile_do_update] update succ. timestamp:1276134617 
+
+[6-10 9:50:38 22798453] [I] battery was charger done
+
+[6-10 9:50:38 22798468] [I] [system_profile_do_update] update succ. timestamp:1276134638 
+
+[6-10 9:50:58 22800510] [I] battery was charger done
+
+[6-10 9:50:59 22800525] [I] [system_profile_do_update] update succ. timestamp:1276134658 
+
+[6-10 9:51:0 22800627] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:51:19 22802567] [I] battery was charger done
+
+[6-10 9:51:19 22802582] [I] [system_profile_do_update] update succ. timestamp:1276134679 
+
+[6-10 9:51:40 22804624] [I] battery was charger done
+
+[6-10 9:51:40 22804639] [I] [system_profile_do_update] update succ. timestamp:1276134700 
+
+[6-10 9:52:0 22806659] [I] ram:[23900, 1095612], b:100, s:0
+
+[6-10 9:52:1 22806681] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750592], wrist:4, cal:0, dist:0, a:[0, 0, 349, 153, 109]
+
+[6-10 9:52:1 22806692] [I] battery was charger done
+
+[6-10 9:52:1 22806707] [I] [system_profile_do_update] update succ. timestamp:1276134721 
+
+[6-10 9:52:22 22808749] [I] battery was charger done
+
+[6-10 9:52:22 22808764] [I] [system_profile_do_update] update succ. timestamp:1276134742 
+
+[6-10 9:52:42 22810806] [I] battery was charger done
+
+[6-10 9:52:43 22810821] [I] [system_profile_do_update] update succ. timestamp:1276134762 
+
+[6-10 9:53:0 22812565] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:53:3 22812863] [I] battery was charger done
+
+[6-10 9:53:3 22812878] [I] [system_profile_do_update] update succ. timestamp:1276134783 
+
+[6-10 9:53:24 22814920] [I] battery was charger done
+
+[6-10 9:53:24 22814935] [I] [system_profile_do_update] update succ. timestamp:1276134804 
+
+[6-10 9:53:44 22816977] [I] battery was charger done
+
+[6-10 9:53:45 22816992] [I] [system_profile_do_update] update succ. timestamp:1276134824 
+
+[6-10 9:54:0 22818493] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:54:5 22819034] [I] battery was charger done
+
+[6-10 9:54:6 22819049] [I] [system_profile_do_update] update succ. timestamp:1276134845 
+
+[6-10 9:54:26 22821091] [I] battery was charger done
+
+[6-10 9:54:26 22821106] [I] [system_profile_do_update] update succ. timestamp:1276134866 
+
+[6-10 9:54:47 22823148] [I] battery was charger done
+
+[6-10 9:54:47 22823163] [I] [system_profile_do_update] update succ. timestamp:1276134887 
+
+[6-10 9:55:1 22824512] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:55:7 22825205] [I] battery was charger done
+
+[6-10 9:55:8 22825220] [I] [system_profile_do_update] update succ. timestamp:1276134907 
+
+[6-10 9:55:28 22827262] [I] battery was charger done
+
+[6-10 9:55:29 22827277] [I] [system_profile_do_update] update succ. timestamp:1276134928 
+
+[6-10 9:55:49 22829319] [I] battery was charger done
+
+[6-10 9:55:49 22829334] [I] [system_profile_do_update] update succ. timestamp:1276134949 
+
+[6-10 9:56:0 22830435] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:56:10 22831376] [I] battery was charger done
+
+[6-10 9:56:10 22831391] [I] [system_profile_do_update] update succ. timestamp:1276134970 
+
+[6-10 9:56:30 22833433] [I] battery was charger done
+
+[6-10 9:56:31 22833448] [I] [system_profile_do_update] update succ. timestamp:1276134990 
+
+[6-10 9:56:51 22835490] [I] battery was charger done
+
+[6-10 9:56:51 22835505] [I] [system_profile_do_update] update succ. timestamp:1276135011 
+
+[6-10 9:57:0 22836351] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:57:12 22837547] [I] battery was charger done
+
+[6-10 9:57:12 22837562] [I] [system_profile_do_update] update succ. timestamp:1276135032 
+
+[6-10 9:57:33 22839604] [I] battery was charger done
+
+[6-10 9:57:33 22839619] [I] [system_profile_do_update] update succ. timestamp:1276135053 
+
+[6-10 9:57:53 22841661] [I] battery was charger done
+
+[6-10 9:57:54 22841676] [I] [system_profile_do_update] update succ. timestamp:1276135073 
+
+[6-10 9:58:0 22842277] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 9:58:14 22843718] [I] battery was charger done
+
+[6-10 9:58:14 22843733] [I] [system_profile_do_update] update succ. timestamp:1276135094 
+
+[6-10 9:58:35 22845775] [I] battery was charger done
+
+[6-10 9:58:37 22845881] [I] [system_profile_do_update] update succ. timestamp:1276135115 
+
+[6-10 9:58:57 22847923] [I] battery was charger done
+
+[6-10 9:58:58 22847938] [I] [system_profile_do_update] update succ. timestamp:1276135137 
+
+[6-10 9:59:0 22848182] [I] [wrkt] drink drink
+
+[6-10 9:59:0 22848182] [I] ignore remind 0
+
+[6-10 9:59:0 22848182] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 9:59:18 22849980] [I] battery was charger done
+
+[6-10 9:59:19 22849995] [I] [system_profile_do_update] update succ. timestamp:1276135158 
+
+[6-10 9:59:39 22852037] [I] battery was charger done
+
+[6-10 9:59:39 22852052] [I] [system_profile_do_update] update succ. timestamp:1276135179 
+
+[6-10 10:0:0 22854094] [I] battery was charger done
+
+[6-10 10:0:0 22854109] [I] [system_profile_do_update] update succ. timestamp:1276135200 
+
+[6-10 10:0:0 22854110] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:0:20 22856151] [I] battery was charger done
+
+[6-10 10:0:21 22856166] [I] [system_profile_do_update] update succ. timestamp:1276135220 
+
+[6-10 10:0:41 22858208] [I] battery was charger done
+
+[6-10 10:0:41 22858223] [I] [system_profile_do_update] update succ. timestamp:1276135241 
+
+[6-10 10:1:0 22860025] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:1:2 22860265] [I] battery was charger done
+
+[6-10 10:1:2 22860280] [I] [system_profile_do_update] update succ. timestamp:1276135262 
+
+[6-10 10:1:23 22862322] [I] battery was charger done
+
+[6-10 10:1:23 22862337] [I] [system_profile_do_update] update succ. timestamp:1276135283 
+
+[6-10 10:1:43 22864379] [I] battery was charger done
+
+[6-10 10:1:44 22864394] [I] [system_profile_do_update] update succ. timestamp:1276135303 
+
+[6-10 10:2:0 22866043] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:2:0 22866064] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750594], wrist:4, cal:0, dist:0, a:[0, 0, 349, 151, 103]
+
+[6-10 10:2:4 22866436] [I] battery was charger done
+
+[6-10 10:2:4 22866451] [I] [system_profile_do_update] update succ. timestamp:1276135324 
+
+[6-10 10:2:25 22868493] [I] battery was charger done
+
+[6-10 10:2:25 22868508] [I] [system_profile_do_update] update succ. timestamp:1276135345 
+
+[6-10 10:2:46 22870550] [I] battery was charger done
+
+[6-10 10:2:46 22870565] [I] [system_profile_do_update] update succ. timestamp:1276135366 
+
+[6-10 10:3:0 22871966] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:3:6 22872607] [I] battery was charger done
+
+[6-10 10:3:7 22872622] [I] [system_profile_do_update] update succ. timestamp:1276135386 
+
+[6-10 10:3:27 22874664] [I] battery was charger done
+
+[6-10 10:3:27 22874679] [I] [system_profile_do_update] update succ. timestamp:1276135407 
+
+[6-10 10:3:48 22876721] [I] battery was charger done
+
+[6-10 10:3:48 22876736] [I] [system_profile_do_update] update succ. timestamp:1276135428 
+
+[6-10 10:4:0 22877881] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:4:9 22878778] [I] battery was charger done
+
+[6-10 10:4:9 22878793] [I] [system_profile_do_update] update succ. timestamp:1276135449 
+
+[6-10 10:4:29 22880835] [I] battery was charger done
+
+[6-10 10:4:30 22880853] [I] [system_profile_do_update] update succ. timestamp:1276135469 
+
+[6-10 10:4:50 22882895] [I] battery was charger done
+
+[6-10 10:4:50 22882910] [I] [system_profile_do_update] update succ. timestamp:1276135490 
+
+[6-10 10:5:1 22883912] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:5:11 22884952] [I] battery was charger done
+
+[6-10 10:5:11 22884967] [I] [system_profile_do_update] update succ. timestamp:1276135511 
+
+[6-10 10:5:32 22887009] [I] battery was charger done
+
+[6-10 10:5:32 22887024] [I] [system_profile_do_update] update succ. timestamp:1276135532 
+
+[6-10 10:5:52 22889066] [I] battery was charger done
+
+[6-10 10:5:53 22889081] [I] [system_profile_do_update] update succ. timestamp:1276135552 
+
+[6-10 10:6:0 22889828] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:6:13 22891123] [I] battery was charger done
+
+[6-10 10:6:13 22891138] [I] [system_profile_do_update] update succ. timestamp:1276135573 
+
+[6-10 10:6:34 22893180] [I] battery was charger done
+
+[6-10 10:6:34 22893195] [I] [system_profile_do_update] update succ. timestamp:1276135594 
+
+[6-10 10:6:55 22895237] [I] battery was charger done
+
+[6-10 10:6:55 22895252] [I] [system_profile_do_update] update succ. timestamp:1276135615 
+
+[6-10 10:7:0 22895753] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:7:15 22897294] [I] battery was charger done
+
+[6-10 10:7:16 22897309] [I] [system_profile_do_update] update succ. timestamp:1276135635 
+
+[6-10 10:7:36 22899351] [I] battery was charger done
+
+[6-10 10:7:36 22899366] [I] [system_profile_do_update] update succ. timestamp:1276135656 
+
+[6-10 10:7:57 22901408] [I] battery was charger done
+
+[6-10 10:7:57 22901423] [I] [system_profile_do_update] update succ. timestamp:1276135677 
+
+[6-10 10:8:0 22901668] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:8:18 22903465] [I] battery was charger done
+
+[6-10 10:8:18 22903480] [I] [system_profile_do_update] update succ. timestamp:1276135698 
+
+[6-10 10:8:38 22905522] [I] battery was charger done
+
+[6-10 10:8:39 22905537] [I] [system_profile_do_update] update succ. timestamp:1276135718 
+
+[6-10 10:8:59 22907579] [I] battery was charger done
+
+[6-10 10:8:59 22907594] [I] [system_profile_do_update] update succ. timestamp:1276135739 
+
+[6-10 10:9:0 22907696] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:9:20 22909636] [I] battery was charger done
+
+[6-10 10:9:20 22909651] [I] [system_profile_do_update] update succ. timestamp:1276135760 
+
+[6-10 10:9:41 22911693] [I] battery was charger done
+
+[6-10 10:9:41 22911708] [I] [system_profile_do_update] update succ. timestamp:1276135781 
+
+[6-10 10:10:0 22913612] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:10:1 22913750] [I] battery was charger done
+
+[6-10 10:10:2 22913765] [I] [system_profile_do_update] update succ. timestamp:1276135801 
+
+[6-10 10:10:22 22915807] [I] battery was charger done
+
+[6-10 10:10:22 22915822] [I] [system_profile_do_update] update succ. timestamp:1276135822 
+
+[6-10 10:10:43 22917864] [I] battery was charger done
+
+[6-10 10:10:43 22917879] [I] [system_profile_do_update] update succ. timestamp:1276135843 
+
+[6-10 10:11:0 22919535] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:11:4 22919921] [I] battery was charger done
+
+[6-10 10:11:4 22919936] [I] [system_profile_do_update] update succ. timestamp:1276135864 
+
+[6-10 10:11:24 22921978] [I] battery was charger done
+
+[6-10 10:11:25 22921993] [I] [system_profile_do_update] update succ. timestamp:1276135884 
+
+[6-10 10:11:45 22924035] [I] battery was charger done
+
+[6-10 10:11:45 22924050] [I] [system_profile_do_update] update succ. timestamp:1276135905 
+
+[6-10 10:12:0 22925555] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750596], wrist:4, cal:0, dist:0, a:[0, 0, 349, 163, 104]
+
+[6-10 10:12:0 22925559] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:12:6 22926092] [I] battery was charger done
+
+[6-10 10:12:6 22926107] [I] [system_profile_do_update] update succ. timestamp:1276135926 
+
+[6-10 10:12:27 22928149] [I] battery was charger done
+
+[6-10 10:12:27 22928164] [I] [system_profile_do_update] update succ. timestamp:1276135947 
+
+[6-10 10:12:47 22930206] [I] battery was charger done
+
+[6-10 10:12:48 22930221] [I] [system_profile_do_update] update succ. timestamp:1276135967 
+
+[6-10 10:13:0 22931473] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:13:8 22932263] [I] battery was charger done
+
+[6-10 10:13:10 22932369] [I] [system_profile_do_update] update succ. timestamp:1276135988 
+
+[6-10 10:13:31 22934411] [I] battery was charger done
+
+[6-10 10:13:31 22934426] [I] [system_profile_do_update] update succ. timestamp:1276136011 
+
+[6-10 10:13:51 22936468] [I] battery was charger done
+
+[6-10 10:13:52 22936483] [I] [system_profile_do_update] update succ. timestamp:1276136031 
+
+[6-10 10:14:0 22937284] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:14:12 22938525] [I] battery was charger done
+
+[6-10 10:14:12 22938540] [I] [system_profile_do_update] update succ. timestamp:1276136052 
+
+[6-10 10:14:33 22940582] [I] battery was charger done
+
+[6-10 10:14:33 22940597] [I] [system_profile_do_update] update succ. timestamp:1276136073 
+
+[6-10 10:14:54 22942639] [I] battery was charger done
+
+[6-10 10:14:54 22942654] [I] [system_profile_do_update] update succ. timestamp:1276136094 
+
+[6-10 10:15:0 22943300] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:15:14 22944696] [I] battery was charger done
+
+[6-10 10:15:15 22944711] [I] [system_profile_do_update] update succ. timestamp:1276136114 
+
+[6-10 10:15:35 22946753] [I] battery was charger done
+
+[6-10 10:15:35 22946768] [I] [system_profile_do_update] update succ. timestamp:1276136135 
+
+[6-10 10:15:56 22948810] [I] battery was charger done
+
+[6-10 10:15:56 22948825] [I] [system_profile_do_update] update succ. timestamp:1276136156 
+
+[6-10 10:16:0 22949227] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:16:17 22950867] [I] battery was charger done
+
+[6-10 10:16:17 22950882] [I] [system_profile_do_update] update succ. timestamp:1276136177 
+
+[6-10 10:16:37 22952924] [I] battery was charger done
+
+[6-10 10:16:38 22952939] [I] [system_profile_do_update] update succ. timestamp:1276136197 
+
+[6-10 10:16:58 22954981] [I] battery was charger done
+
+[6-10 10:16:58 22954996] [I] [system_profile_do_update] update succ. timestamp:1276136218 
+
+[6-10 10:17:0 22955150] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:17:19 22957038] [I] battery was charger done
+
+[6-10 10:17:19 22957053] [I] [system_profile_do_update] update succ. timestamp:1276136239 
+
+[6-10 10:17:40 22959095] [I] battery was charger done
+
+[6-10 10:17:40 22959110] [I] [system_profile_do_update] update succ. timestamp:1276136260 
+
+[6-10 10:18:0 22961152] [I] battery was charger done
+
+[6-10 10:18:1 22961167] [I] [system_profile_do_update] update succ. timestamp:1276136280 
+
+[6-10 10:18:1 22961168] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:18:21 22963209] [I] battery was charger done
+
+[6-10 10:18:21 22963224] [I] [system_profile_do_update] update succ. timestamp:1276136301 
+
+[6-10 10:18:42 22965266] [I] battery was charger done
+
+[6-10 10:18:42 22965281] [I] [system_profile_do_update] update succ. timestamp:1276136322 
+
+[6-10 10:19:0 22967083] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:19:2 22967323] [I] battery was charger done
+
+[6-10 10:19:3 22967341] [I] [system_profile_do_update] update succ. timestamp:1276136342 
+
+[6-10 10:19:23 22969383] [I] battery was charger done
+
+[6-10 10:19:24 22969398] [I] [system_profile_do_update] update succ. timestamp:1276136363 
+
+[6-10 10:19:44 22971440] [I] battery was charger done
+
+[6-10 10:19:44 22971455] [I] [system_profile_do_update] update succ. timestamp:1276136384 
+
+[6-10 10:20:0 22972999] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:20:5 22973497] [I] battery was charger done
+
+[6-10 10:20:5 22973512] [I] [system_profile_do_update] update succ. timestamp:1276136405 
+
+[6-10 10:20:26 22975554] [I] battery was charger done
+
+[6-10 10:20:26 22975569] [I] [system_profile_do_update] update succ. timestamp:1276136426 
+
+[6-10 10:20:46 22977611] [I] battery was charger done
+
+[6-10 10:20:47 22977626] [I] [system_profile_do_update] update succ. timestamp:1276136446 
+
+[6-10 10:21:0 22978927] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:21:7 22979668] [I] battery was charger done
+
+[6-10 10:21:7 22979683] [I] [system_profile_do_update] update succ. timestamp:1276136467 
+
+[6-10 10:21:28 22981725] [I] battery was charger done
+
+[6-10 10:21:28 22981740] [I] [system_profile_do_update] update succ. timestamp:1276136488 
+
+[6-10 10:21:49 22983782] [I] battery was charger done
+
+[6-10 10:21:49 22983797] [I] [system_profile_do_update] update succ. timestamp:1276136509 
+
+[6-10 10:22:0 22984958] [I] ram:[23900, 1095612], b:100, s:0
+
+[6-10 10:22:1 22984965] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750598], wrist:4, cal:0, dist:0, a:[0, 0, 349, 230, 107]
+
+[6-10 10:22:9 22985839] [I] battery was charger done
+
+[6-10 10:22:10 22985854] [I] [system_profile_do_update] update succ. timestamp:1276136529 
+
+[6-10 10:22:30 22987896] [I] battery was charger done
+
+[6-10 10:22:30 22987911] [I] [system_profile_do_update] update succ. timestamp:1276136550 
+
+[6-10 10:22:51 22989953] [I] battery was charger done
+
+[6-10 10:22:51 22989968] [I] [system_profile_do_update] update succ. timestamp:1276136571 
+
+[6-10 10:23:0 22990870] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:23:11 22992010] [I] battery was charger done
+
+[6-10 10:23:12 22992025] [I] [system_profile_do_update] update succ. timestamp:1276136591 
+
+[6-10 10:23:32 22994067] [I] battery was charger done
+
+[6-10 10:23:33 22994082] [I] [system_profile_do_update] update succ. timestamp:1276136612 
+
+[6-10 10:23:53 22996124] [I] battery was charger done
+
+[6-10 10:23:53 22996139] [I] [system_profile_do_update] update succ. timestamp:1276136633 
+
+[6-10 10:24:0 22996784] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:24:14 22998181] [I] battery was charger done
+
+[6-10 10:24:14 22998196] [I] [system_profile_do_update] update succ. timestamp:1276136654 
+
+[6-10 10:24:34 23000238] [I] battery was charger done
+
+[6-10 10:24:35 23000253] [I] [system_profile_do_update] update succ. timestamp:1276136674 
+
+[6-10 10:24:55 23002295] [I] battery was charger done
+
+[6-10 10:24:56 23002310] [I] [system_profile_do_update] update succ. timestamp:1276136695 
+
+[6-10 10:25:0 23002711] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:25:16 23004352] [I] battery was charger done
+
+[6-10 10:25:16 23004367] [I] [system_profile_do_update] update succ. timestamp:1276136716 
+
+[6-10 10:25:37 23006409] [I] battery was charger done
+
+[6-10 10:25:37 23006424] [I] [system_profile_do_update] update succ. timestamp:1276136737 
+
+[6-10 10:25:57 23008466] [I] battery was charger done
+
+[6-10 10:25:58 23008481] [I] [system_profile_do_update] update succ. timestamp:1276136757 
+
+[6-10 10:26:0 23008732] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:26:18 23010523] [I] battery was charger done
+
+[6-10 10:26:18 23010538] [I] [system_profile_do_update] update succ. timestamp:1276136778 
+
+[6-10 10:26:39 23012580] [I] battery was charger done
+
+[6-10 10:26:39 23012595] [I] [system_profile_do_update] update succ. timestamp:1276136799 
+
+[6-10 10:27:0 23014637] [I] battery was charger done
+
+[6-10 10:27:0 23014652] [I] [system_profile_do_update] update succ. timestamp:1276136820 
+
+[6-10 10:27:0 23014654] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:27:20 23016694] [I] battery was charger done
+
+[6-10 10:27:21 23016709] [I] [system_profile_do_update] update succ. timestamp:1276136840 
+
+[6-10 10:27:41 23018751] [I] battery was charger done
+
+[6-10 10:27:43 23018857] [I] [system_profile_do_update] update succ. timestamp:1276136861 
+
+[6-10 10:28:0 23020559] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:28:4 23020899] [I] battery was charger done
+
+[6-10 10:28:4 23020914] [I] [system_profile_do_update] update succ. timestamp:1276136884 
+
+[6-10 10:28:24 23022956] [I] battery was charger done
+
+[6-10 10:28:25 23022971] [I] [system_profile_do_update] update succ. timestamp:1276136904 
+
+[6-10 10:28:45 23025013] [I] battery was charger done
+
+[6-10 10:28:46 23025028] [I] [system_profile_do_update] update succ. timestamp:1276136925 
+
+[6-10 10:29:0 23026472] [I] [wrkt] drink drink
+
+[6-10 10:29:0 23026472] [I] ignore remind 0
+
+[6-10 10:29:0 23026472] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 10:29:6 23027070] [I] battery was charger done
+
+[6-10 10:29:6 23027085] [I] [system_profile_do_update] update succ. timestamp:1276136946 
+
+[6-10 10:29:27 23029127] [I] battery was charger done
+
+[6-10 10:29:27 23029142] [I] [system_profile_do_update] update succ. timestamp:1276136967 
+
+[6-10 10:29:47 23031184] [I] battery was charger done
+
+[6-10 10:29:48 23031199] [I] [system_profile_do_update] update succ. timestamp:1276136987 
+
+[6-10 10:30:0 23032400] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:30:8 23033241] [I] battery was charger done
+
+[6-10 10:30:8 23033256] [I] [system_profile_do_update] update succ. timestamp:1276137008 
+
+[6-10 10:30:29 23035298] [I] battery was charger done
+
+[6-10 10:30:29 23035313] [I] [system_profile_do_update] update succ. timestamp:1276137029 
+
+[6-10 10:30:50 23037355] [I] battery was charger done
+
+[6-10 10:30:50 23037370] [I] [system_profile_do_update] update succ. timestamp:1276137050 
+
+[6-10 10:31:0 23038323] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:31:10 23039412] [I] battery was charger done
+
+[6-10 10:31:11 23039427] [I] [system_profile_do_update] update succ. timestamp:1276137070 
+
+[6-10 10:31:31 23041469] [I] battery was charger done
+
+[6-10 10:31:31 23041484] [I] [system_profile_do_update] update succ. timestamp:1276137091 
+
+[6-10 10:31:52 23043526] [I] battery was charger done
+
+[6-10 10:31:52 23043541] [I] [system_profile_do_update] update succ. timestamp:1276137112 
+
+[6-10 10:32:0 23044342] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:32:0 23044368] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750600], wrist:4, cal:0, dist:0, a:[0, 0, 349, 285, 110]
+
+[6-10 10:32:13 23045583] [I] battery was charger done
+
+[6-10 10:32:13 23045598] [I] [system_profile_do_update] update succ. timestamp:1276137133 
+
+[6-10 10:32:33 23047640] [I] battery was charger done
+
+[6-10 10:32:34 23047655] [I] [system_profile_do_update] update succ. timestamp:1276137153 
+
+[6-10 10:32:54 23049697] [I] battery was charger done
+
+[6-10 10:32:54 23049712] [I] [system_profile_do_update] update succ. timestamp:1276137174 
+
+[6-10 10:33:0 23050263] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:33:15 23051754] [I] battery was charger done
+
+[6-10 10:33:15 23051769] [I] [system_profile_do_update] update succ. timestamp:1276137195 
+
+[6-10 10:33:36 23053811] [I] battery was charger done
+
+[6-10 10:33:36 23053829] [I] [system_profile_do_update] update succ. timestamp:1276137216 
+
+[6-10 10:33:56 23055871] [I] battery was charger done
+
+[6-10 10:33:57 23055886] [I] [system_profile_do_update] update succ. timestamp:1276137236 
+
+[6-10 10:34:0 23056187] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:34:17 23057928] [I] battery was charger done
+
+[6-10 10:34:17 23057943] [I] [system_profile_do_update] update succ. timestamp:1276137257 
+
+[6-10 10:34:38 23059985] [I] battery was charger done
+
+[6-10 10:34:38 23060000] [I] [system_profile_do_update] update succ. timestamp:1276137278 
+
+[6-10 10:34:59 23062042] [I] battery was charger done
+
+[6-10 10:34:59 23062057] [I] [system_profile_do_update] update succ. timestamp:1276137299 
+
+[6-10 10:35:0 23062210] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:35:19 23064099] [I] battery was charger done
+
+[6-10 10:35:20 23064114] [I] [system_profile_do_update] update succ. timestamp:1276137319 
+
+[6-10 10:35:40 23066156] [I] battery was charger done
+
+[6-10 10:35:40 23066171] [I] [system_profile_do_update] update succ. timestamp:1276137340 
+
+[6-10 10:36:0 23068124] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:36:1 23068213] [I] battery was charger done
+
+[6-10 10:36:1 23068228] [I] [system_profile_do_update] update succ. timestamp:1276137361 
+
+[6-10 10:36:22 23070270] [I] battery was charger done
+
+[6-10 10:36:22 23070285] [I] [system_profile_do_update] update succ. timestamp:1276137382 
+
+[6-10 10:36:42 23072327] [I] battery was charger done
+
+[6-10 10:36:43 23072342] [I] [system_profile_do_update] update succ. timestamp:1276137402 
+
+[6-10 10:37:0 23074043] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:37:3 23074384] [I] battery was charger done
+
+[6-10 10:37:3 23074399] [I] [system_profile_do_update] update succ. timestamp:1276137423 
+
+[6-10 10:37:24 23076441] [I] battery was charger done
+
+[6-10 10:37:24 23076456] [I] [system_profile_do_update] update succ. timestamp:1276137444 
+
+[6-10 10:37:45 23078498] [I] battery was charger done
+
+[6-10 10:37:45 23078513] [I] [system_profile_do_update] update succ. timestamp:1276137465 
+
+[6-10 10:38:0 23080066] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:38:5 23080555] [I] battery was charger done
+
+[6-10 10:38:6 23080570] [I] [system_profile_do_update] update succ. timestamp:1276137485 
+
+[6-10 10:38:26 23082612] [I] battery was charger done
+
+[6-10 10:38:26 23082627] [I] [system_profile_do_update] update succ. timestamp:1276137506 
+
+[6-10 10:38:47 23084669] [I] battery was charger done
+
+[6-10 10:38:47 23084684] [I] [system_profile_do_update] update succ. timestamp:1276137527 
+
+[6-10 10:39:0 23085985] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:39:8 23086726] [I] battery was charger done
+
+[6-10 10:39:8 23086741] [I] [system_profile_do_update] update succ. timestamp:1276137548 
+
+[6-10 10:39:28 23088783] [I] battery was charger done
+
+[6-10 10:39:29 23088798] [I] [system_profile_do_update] update succ. timestamp:1276137568 
+
+[6-10 10:39:49 23090840] [I] battery was charger done
+
+[6-10 10:39:49 23090855] [I] [system_profile_do_update] update succ. timestamp:1276137589 
+
+[6-10 10:40:0 23091901] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:40:10 23092897] [I] battery was charger done
+
+[6-10 10:40:10 23092912] [I] [system_profile_do_update] update succ. timestamp:1276137610 
+
+[6-10 10:40:31 23094954] [I] battery was charger done
+
+[6-10 10:40:31 23094969] [I] [system_profile_do_update] update succ. timestamp:1276137631 
+
+[6-10 10:40:51 23097011] [I] battery was charger done
+
+[6-10 10:40:52 23097026] [I] [system_profile_do_update] update succ. timestamp:1276137651 
+
+[6-10 10:41:0 23097828] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:41:12 23099068] [I] battery was charger done
+
+[6-10 10:41:12 23099083] [I] [system_profile_do_update] update succ. timestamp:1276137672 
+
+[6-10 10:41:33 23101125] [I] battery was charger done
+
+[6-10 10:41:33 23101140] [I] [system_profile_do_update] update succ. timestamp:1276137693 
+
+[6-10 10:41:54 23103182] [I] battery was charger done
+
+[6-10 10:41:54 23103197] [I] [system_profile_do_update] update succ. timestamp:1276137714 
+
+[6-10 10:42:0 23103851] [I] ram:[23852, 1095612], b:100, s:0
+
+[6-10 10:42:1 23103873] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750602], wrist:4, cal:0, dist:0, a:[0, 0, 349, 218, 108]
+
+[6-10 10:42:14 23105239] [I] battery was charger done
+
+[6-10 10:42:16 23105345] [I] [system_profile_do_update] update succ. timestamp:1276137734 
+
+[6-10 10:42:37 23107387] [I] battery was charger done
+
+[6-10 10:42:37 23107402] [I] [system_profile_do_update] update succ. timestamp:1276137757 
+
+[6-10 10:42:58 23109444] [I] battery was charger done
+
+[6-10 10:42:58 23109459] [I] [system_profile_do_update] update succ. timestamp:1276137778 
+
+[6-10 10:43:0 23109661] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:43:18 23111501] [I] battery was charger done
+
+[6-10 10:43:19 23111516] [I] [system_profile_do_update] update succ. timestamp:1276137798 
+
+[6-10 10:43:39 23113558] [I] battery was charger done
+
+[6-10 10:43:39 23113573] [I] [system_profile_do_update] update succ. timestamp:1276137819 
+
+[6-10 10:44:0 23115615] [I] battery was charger done
+
+[6-10 10:44:0 23115630] [I] [system_profile_do_update] update succ. timestamp:1276137840 
+
+[6-10 10:44:1 23115675] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:44:21 23117672] [I] battery was charger done
+
+[6-10 10:44:21 23117687] [I] [system_profile_do_update] update succ. timestamp:1276137861 
+
+[6-10 10:44:41 23119729] [I] battery was charger done
+
+[6-10 10:44:42 23119744] [I] [system_profile_do_update] update succ. timestamp:1276137881 
+
+[6-10 10:45:0 23121589] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:45:2 23121786] [I] battery was charger done
+
+[6-10 10:45:2 23121801] [I] [system_profile_do_update] update succ. timestamp:1276137902 
+
+[6-10 10:45:23 23123843] [I] battery was charger done
+
+[6-10 10:45:23 23123858] [I] [system_profile_do_update] update succ. timestamp:1276137923 
+
+[6-10 10:45:44 23125900] [I] battery was charger done
+
+[6-10 10:45:44 23125915] [I] [system_profile_do_update] update succ. timestamp:1276137944 
+
+[6-10 10:46:0 23127517] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:46:4 23127957] [I] battery was charger done
+
+[6-10 10:46:5 23127972] [I] [system_profile_do_update] update succ. timestamp:1276137964 
+
+[6-10 10:46:25 23130014] [I] battery was charger done
+
+[6-10 10:46:25 23130029] [I] [system_profile_do_update] update succ. timestamp:1276137985 
+
+[6-10 10:46:46 23132071] [I] battery was charger done
+
+[6-10 10:46:46 23132086] [I] [system_profile_do_update] update succ. timestamp:1276138006 
+
+[6-10 10:47:0 23133433] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:47:7 23134128] [I] battery was charger done
+
+[6-10 10:47:7 23134143] [I] [system_profile_do_update] update succ. timestamp:1276138027 
+
+[6-10 10:47:27 23136185] [I] battery was charger done
+
+[6-10 10:47:28 23136200] [I] [system_profile_do_update] update succ. timestamp:1276138047 
+
+[6-10 10:47:48 23138242] [I] battery was charger done
+
+[6-10 10:47:48 23138257] [I] [system_profile_do_update] update succ. timestamp:1276138068 
+
+[6-10 10:48:0 23139458] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:48:9 23140299] [I] battery was charger done
+
+[6-10 10:48:9 23140317] [I] [system_profile_do_update] update succ. timestamp:1276138089 
+
+[6-10 10:48:30 23142359] [I] battery was charger done
+
+[6-10 10:48:30 23142374] [I] [system_profile_do_update] update succ. timestamp:1276138110 
+
+[6-10 10:48:50 23144416] [I] battery was charger done
+
+[6-10 10:48:51 23144431] [I] [system_profile_do_update] update succ. timestamp:1276138130 
+
+[6-10 10:49:0 23145376] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:49:11 23146473] [I] battery was charger done
+
+[6-10 10:49:11 23146488] [I] [system_profile_do_update] update succ. timestamp:1276138151 
+
+[6-10 10:49:32 23148530] [I] battery was charger done
+
+[6-10 10:49:32 23148545] [I] [system_profile_do_update] update succ. timestamp:1276138172 
+
+[6-10 10:49:53 23150587] [I] battery was charger done
+
+[6-10 10:49:53 23150602] [I] [system_profile_do_update] update succ. timestamp:1276138193 
+
+[6-10 10:50:0 23151304] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:50:13 23152644] [I] battery was charger done
+
+[6-10 10:50:14 23152659] [I] [system_profile_do_update] update succ. timestamp:1276138213 
+
+[6-10 10:50:34 23154701] [I] battery was charger done
+
+[6-10 10:50:34 23154716] [I] [system_profile_do_update] update succ. timestamp:1276138234 
+
+[6-10 10:50:55 23156758] [I] battery was charger done
+
+[6-10 10:50:55 23156773] [I] [system_profile_do_update] update succ. timestamp:1276138255 
+
+[6-10 10:51:0 23157220] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:51:16 23158815] [I] battery was charger done
+
+[6-10 10:51:16 23158830] [I] [system_profile_do_update] update succ. timestamp:1276138276 
+
+[6-10 10:51:36 23160872] [I] battery was charger done
+
+[6-10 10:51:37 23160887] [I] [system_profile_do_update] update succ. timestamp:1276138296 
+
+[6-10 10:51:57 23162929] [I] battery was charger done
+
+[6-10 10:51:57 23162944] [I] [system_profile_do_update] update succ. timestamp:1276138317 
+
+[6-10 10:52:0 23163245] [I] ram:[23852, 1095612], b:100, s:0
+
+[6-10 10:52:0 23163260] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750604], wrist:4, cal:0, dist:0, a:[0, 0, 349, 185, 110]
+
+[6-10 10:52:18 23164986] [I] battery was charger done
+
+[6-10 10:52:18 23165001] [I] [system_profile_do_update] update succ. timestamp:1276138338 
+
+[6-10 10:52:38 23167043] [I] battery was charger done
+
+[6-10 10:52:39 23167058] [I] [system_profile_do_update] update succ. timestamp:1276138358 
+
+[6-10 10:52:59 23169100] [I] battery was charger done
+
+[6-10 10:53:0 23169115] [I] [system_profile_do_update] update succ. timestamp:1276138379 
+
+[6-10 10:53:0 23169168] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:53:20 23171157] [I] battery was charger done
+
+[6-10 10:53:20 23171172] [I] [system_profile_do_update] update succ. timestamp:1276138400 
+
+[6-10 10:53:41 23173214] [I] battery was charger done
+
+[6-10 10:53:41 23173229] [I] [system_profile_do_update] update succ. timestamp:1276138421 
+
+[6-10 10:54:0 23175084] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:54:1 23175271] [I] battery was charger done
+
+[6-10 10:54:2 23175286] [I] [system_profile_do_update] update succ. timestamp:1276138441 
+
+[6-10 10:54:22 23177328] [I] battery was charger done
+
+[6-10 10:54:23 23177343] [I] [system_profile_do_update] update succ. timestamp:1276138462 
+
+[6-10 10:54:43 23179385] [I] battery was charger done
+
+[6-10 10:54:43 23179400] [I] [system_profile_do_update] update succ. timestamp:1276138483 
+
+[6-10 10:55:0 23181101] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:55:4 23181442] [I] battery was charger done
+
+[6-10 10:55:4 23181457] [I] [system_profile_do_update] update succ. timestamp:1276138504 
+
+[6-10 10:55:24 23183499] [I] battery was charger done
+
+[6-10 10:55:25 23183514] [I] [system_profile_do_update] update succ. timestamp:1276138524 
+
+[6-10 10:55:45 23185556] [I] battery was charger done
+
+[6-10 10:55:45 23185571] [I] [system_profile_do_update] update succ. timestamp:1276138545 
+
+[6-10 10:56:0 23187030] [I] ram:[23992, 1095612], b:100, s:0
+
+[6-10 10:56:6 23187613] [I] battery was charger done
+
+[6-10 10:56:6 23187628] [I] [system_profile_do_update] update succ. timestamp:1276138566 
+
+[6-10 10:56:27 23189670] [I] battery was charger done
+
+[6-10 10:56:27 23189685] [I] [system_profile_do_update] update succ. timestamp:1276138587 
+
+[6-10 10:56:47 23191727] [I] battery was charger done
+
+[6-10 10:56:50 23191833] [I] [system_profile_do_update] update succ. timestamp:1276138607 
+
+[6-10 10:57:0 23192835] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:57:10 23193875] [I] battery was charger done
+
+[6-10 10:57:10 23193890] [I] [system_profile_do_update] update succ. timestamp:1276138630 
+
+[6-10 10:57:31 23195932] [I] battery was charger done
+
+[6-10 10:57:31 23195947] [I] [system_profile_do_update] update succ. timestamp:1276138651 
+
+[6-10 10:57:51 23197989] [I] battery was charger done
+
+[6-10 10:57:52 23198004] [I] [system_profile_do_update] update succ. timestamp:1276138671 
+
+[6-10 10:58:0 23198858] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 10:58:12 23200046] [I] battery was charger done
+
+[6-10 10:58:13 23200061] [I] [system_profile_do_update] update succ. timestamp:1276138692 
+
+[6-10 10:58:33 23202103] [I] battery was charger done
+
+[6-10 10:58:33 23202118] [I] [system_profile_do_update] update succ. timestamp:1276138713 
+
+[6-10 10:58:54 23204160] [I] battery was charger done
+
+[6-10 10:58:54 23204175] [I] [system_profile_do_update] update succ. timestamp:1276138734 
+
+[6-10 10:59:0 23204775] [I] [wrkt] drink drink
+
+[6-10 10:59:0 23204775] [I] ignore remind 0
+
+[6-10 10:59:0 23204775] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 10:59:14 23206217] [I] battery was charger done
+
+[6-10 10:59:15 23206232] [I] [system_profile_do_update] update succ. timestamp:1276138754 
+
+[6-10 10:59:35 23208274] [I] battery was charger done
+
+[6-10 10:59:35 23208289] [I] [system_profile_do_update] update succ. timestamp:1276138775 
+
+[6-10 10:59:56 23210331] [I] battery was charger done
+
+[6-10 10:59:56 23210346] [I] [system_profile_do_update] update succ. timestamp:1276138796 
+
+[6-10 11:0:0 23210690] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:0:0 23210757] [I] find first record_time: 1276121191, 2010-06-10 06:06:31
+
+[6-10 11:0:0 23210757] [I] [r_slp]record_time: 2010-06-10 06:06:31
+
+[6-10 11:0:0 23210757] [I] [r_slp]last_r_time: 2010-06-08 08:08:32
+
+[6-10 11:0:0 23210757] [I] [r_slp]record:0, id:0, valid:1, durationMin:0, 0, sleepType:1, deltaUtc:17609, slpDeltaTotal:0, SlpFromBegin:0,endT:06:06
+
+[6-10 11:0:0 23210757] [I] [r_slp]record_time: 2010-06-10 06:06:31
+
+[6-10 11:0:0 23210757] [I] [r_slp]last_r_time: 2010-06-10 06:06:31
+
+[6-10 11:0:0 23210757] [I] [r_slp]record:1, id:1, valid:1, durationMin:0, 1, sleepType:2, deltaUtc:17609, slpDeltaTotal:0, SlpFromBegin:0,endT:06:06
+
+[6-10 11:0:0 23210757] [I] [offline_data] file_hexstr, lengh:48, contents:
+
+"060000006710104C00000000008A0D4C0100000000000000060000006710104C010000006710104C0200000000000000"
+lines:1
+
+[6-10 11:0:0 23210757] [I] [sleep_summary] start:06:06, end:06:06, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[6-10 11:0:17 23212388] [I] battery was charger done
+
+[6-10 11:0:17 23212403] [I] [system_profile_do_update] update succ. timestamp:1276138817 
+
+[6-10 11:0:37 23214445] [I] battery was charger done
+
+[6-10 11:0:38 23214460] [I] [system_profile_do_update] update succ. timestamp:1276138837 
+
+[6-10 11:0:58 23216502] [I] battery was charger done
+
+[6-10 11:0:58 23216517] [I] [system_profile_do_update] update succ. timestamp:1276138858 
+
+[6-10 11:1:0 23216718] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:1:19 23218559] [I] battery was charger done
+
+[6-10 11:1:19 23218574] [I] [system_profile_do_update] update succ. timestamp:1276138879 
+
+[6-10 11:1:40 23220616] [I] battery was charger done
+
+[6-10 11:1:40 23220631] [I] [system_profile_do_update] update succ. timestamp:1276138900 
+
+[6-10 11:2:0 23222632] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:2:0 23222673] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750606], wrist:4, cal:0, dist:0, a:[0, 0, 349, 297, 103]
+
+[6-10 11:2:0 23222684] [I] battery was charger done
+
+[6-10 11:2:1 23222699] [I] [system_profile_do_update] update succ. timestamp:1276138920 
+
+[6-10 11:2:21 23224741] [I] battery was charger done
+
+[6-10 11:2:22 23224756] [I] [system_profile_do_update] update succ. timestamp:1276138941 
+
+[6-10 11:2:42 23226798] [I] battery was charger done
+
+[6-10 11:2:42 23226816] [I] [system_profile_do_update] update succ. timestamp:1276138962 
+
+[6-10 11:3:0 23228558] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:3:3 23228858] [I] battery was charger done
+
+[6-10 11:3:3 23228873] [I] [system_profile_do_update] update succ. timestamp:1276138983 
+
+[6-10 11:3:24 23230915] [I] battery was charger done
+
+[6-10 11:3:24 23230930] [I] [system_profile_do_update] update succ. timestamp:1276139004 
+
+[6-10 11:3:44 23232972] [I] battery was charger done
+
+[6-10 11:3:45 23232987] [I] [system_profile_do_update] update succ. timestamp:1276139024 
+
+[6-10 11:4:0 23234489] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:4:5 23235029] [I] battery was charger done
+
+[6-10 11:4:5 23235044] [I] [system_profile_do_update] update succ. timestamp:1276139045 
+
+[6-10 11:4:26 23237086] [I] battery was charger done
+
+[6-10 11:4:26 23237101] [I] [system_profile_do_update] update succ. timestamp:1276139066 
+
+[6-10 11:4:47 23239143] [I] battery was charger done
+
+[6-10 11:4:47 23239158] [I] [system_profile_do_update] update succ. timestamp:1276139087 
+
+[6-10 11:5:0 23240503] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:5:7 23241200] [I] battery was charger done
+
+[6-10 11:5:8 23241215] [I] [system_profile_do_update] update succ. timestamp:1276139107 
+
+[6-10 11:5:28 23243257] [I] battery was charger done
+
+[6-10 11:5:28 23243272] [I] [system_profile_do_update] update succ. timestamp:1276139128 
+
+[6-10 11:5:49 23245314] [I] battery was charger done
+
+[6-10 11:5:49 23245329] [I] [system_profile_do_update] update succ. timestamp:1276139149 
+
+[6-10 11:6:0 23246430] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:6:9 23247371] [I] battery was charger done
+
+[6-10 11:6:10 23247386] [I] [system_profile_do_update] update succ. timestamp:1276139169 
+
+[6-10 11:6:30 23249428] [I] battery was charger done
+
+[6-10 11:6:31 23249443] [I] [system_profile_do_update] update succ. timestamp:1276139190 
+
+[6-10 11:6:51 23251485] [I] battery was charger done
+
+[6-10 11:6:51 23251500] [I] [system_profile_do_update] update succ. timestamp:1276139211 
+
+[6-10 11:7:0 23252345] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:7:12 23253542] [I] battery was charger done
+
+[6-10 11:7:12 23253557] [I] [system_profile_do_update] update succ. timestamp:1276139232 
+
+[6-10 11:7:32 23255599] [I] battery was charger done
+
+[6-10 11:7:33 23255614] [I] [system_profile_do_update] update succ. timestamp:1276139252 
+
+[6-10 11:7:53 23257656] [I] battery was charger done
+
+[6-10 11:7:54 23257671] [I] [system_profile_do_update] update succ. timestamp:1276139273 
+
+[6-10 11:8:0 23258273] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:8:14 23259713] [I] battery was charger done
+
+[6-10 11:8:14 23259728] [I] [system_profile_do_update] update succ. timestamp:1276139294 
+
+[6-10 11:8:35 23261770] [I] battery was charger done
+
+[6-10 11:8:35 23261785] [I] [system_profile_do_update] update succ. timestamp:1276139315 
+
+[6-10 11:8:55 23263827] [I] battery was charger done
+
+[6-10 11:8:56 23263842] [I] [system_profile_do_update] update succ. timestamp:1276139335 
+
+[6-10 11:9:0 23264287] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:9:16 23265884] [I] battery was charger done
+
+[6-10 11:9:16 23265899] [I] [system_profile_do_update] update succ. timestamp:1276139356 
+
+[6-10 11:9:37 23267941] [I] battery was charger done
+
+[6-10 11:9:37 23267956] [I] [system_profile_do_update] update succ. timestamp:1276139377 
+
+[6-10 11:9:58 23269998] [I] battery was charger done
+
+[6-10 11:9:58 23270013] [I] [system_profile_do_update] update succ. timestamp:1276139398 
+
+[6-10 11:10:0 23270214] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:10:18 23272055] [I] battery was charger done
+
+[6-10 11:10:19 23272070] [I] [system_profile_do_update] update succ. timestamp:1276139418 
+
+[6-10 11:10:39 23274112] [I] battery was charger done
+
+[6-10 11:10:39 23274127] [I] [system_profile_do_update] update succ. timestamp:1276139439 
+
+[6-10 11:11:0 23276169] [I] battery was charger done
+
+[6-10 11:11:0 23276184] [I] [system_profile_do_update] update succ. timestamp:1276139460 
+
+[6-10 11:11:1 23276228] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:11:21 23278226] [I] battery was charger done
+
+[6-10 11:11:23 23278332] [I] [system_profile_do_update] update succ. timestamp:1276139481 
+
+[6-10 11:11:43 23280374] [I] battery was charger done
+
+[6-10 11:11:44 23280389] [I] [system_profile_do_update] update succ. timestamp:1276139503 
+
+[6-10 11:12:0 23282049] [I] ram:[23892, 1095612], b:100, s:0
+
+[6-10 11:12:0 23282060] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750608], wrist:4, cal:0, dist:0, a:[0, 0, 349, 236, 110]
+
+[6-10 11:12:4 23282431] [I] battery was charger done
+
+[6-10 11:12:4 23282446] [I] [system_profile_do_update] update succ. timestamp:1276139524 
+
+[6-10 11:12:25 23284488] [I] battery was charger done
+
+[6-10 11:12:25 23284503] [I] [system_profile_do_update] update succ. timestamp:1276139545 
+
+[6-10 11:12:45 23286545] [I] battery was charger done
+
+[6-10 11:12:46 23286560] [I] [system_profile_do_update] update succ. timestamp:1276139565 
+
+[6-10 11:13:0 23287961] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:13:6 23288602] [I] battery was charger done
+
+[6-10 11:13:6 23288617] [I] [system_profile_do_update] update succ. timestamp:1276139586 
+
+[6-10 11:13:27 23290659] [I] battery was charger done
+
+[6-10 11:13:27 23290674] [I] [system_profile_do_update] update succ. timestamp:1276139607 
+
+[6-10 11:13:48 23292716] [I] battery was charger done
+
+[6-10 11:13:48 23292731] [I] [system_profile_do_update] update succ. timestamp:1276139628 
+
+[6-10 11:14:0 23293977] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:14:8 23294773] [I] battery was charger done
+
+[6-10 11:14:9 23294788] [I] [system_profile_do_update] update succ. timestamp:1276139648 
+
+[6-10 11:14:29 23296830] [I] battery was charger done
+
+[6-10 11:14:29 23296845] [I] [system_profile_do_update] update succ. timestamp:1276139669 
+
+[6-10 11:14:50 23298887] [I] battery was charger done
+
+[6-10 11:14:50 23298902] [I] [system_profile_do_update] update succ. timestamp:1276139690 
+
+[6-10 11:15:0 23299904] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:15:11 23300944] [I] battery was charger done
+
+[6-10 11:15:11 23300959] [I] [system_profile_do_update] update succ. timestamp:1276139711 
+
+[6-10 11:15:31 23303001] [I] battery was charger done
+
+[6-10 11:15:32 23303016] [I] [system_profile_do_update] update succ. timestamp:1276139731 
+
+[6-10 11:15:52 23305058] [I] battery was charger done
+
+[6-10 11:15:52 23305073] [I] [system_profile_do_update] update succ. timestamp:1276139752 
+
+[6-10 11:16:0 23305820] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:16:13 23307115] [I] battery was charger done
+
+[6-10 11:16:13 23307130] [I] [system_profile_do_update] update succ. timestamp:1276139773 
+
+[6-10 11:16:34 23309172] [I] battery was charger done
+
+[6-10 11:16:34 23309187] [I] [system_profile_do_update] update succ. timestamp:1276139794 
+
+[6-10 11:16:54 23311229] [I] battery was charger done
+
+[6-10 11:16:55 23311244] [I] [system_profile_do_update] update succ. timestamp:1276139814 
+
+[6-10 11:17:0 23311745] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:17:15 23313286] [I] battery was charger done
+
+[6-10 11:17:15 23313304] [I] [system_profile_do_update] update succ. timestamp:1276139835 
+
+[6-10 11:17:36 23315346] [I] battery was charger done
+
+[6-10 11:17:36 23315361] [I] [system_profile_do_update] update succ. timestamp:1276139856 
+
+[6-10 11:17:57 23317403] [I] battery was charger done
+
+[6-10 11:17:57 23317418] [I] [system_profile_do_update] update succ. timestamp:1276139877 
+
+[6-10 11:18:0 23317763] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:18:17 23319460] [I] battery was charger done
+
+[6-10 11:18:18 23319475] [I] [system_profile_do_update] update succ. timestamp:1276139897 
+
+[6-10 11:18:38 23321517] [I] battery was charger done
+
+[6-10 11:18:38 23321532] [I] [system_profile_do_update] update succ. timestamp:1276139918 
+
+[6-10 11:18:59 23323574] [I] battery was charger done
+
+[6-10 11:18:59 23323589] [I] [system_profile_do_update] update succ. timestamp:1276139939 
+
+[6-10 11:19:0 23323691] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:19:20 23325631] [I] battery was charger done
+
+[6-10 11:19:20 23325646] [I] [system_profile_do_update] update succ. timestamp:1276139960 
+
+[6-10 11:19:40 23327688] [I] battery was charger done
+
+[6-10 11:19:41 23327703] [I] [system_profile_do_update] update succ. timestamp:1276139980 
+
+[6-10 11:20:0 23329607] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:20:1 23329745] [I] battery was charger done
+
+[6-10 11:20:1 23329760] [I] [system_profile_do_update] update succ. timestamp:1276140001 
+
+[6-10 11:20:22 23331802] [I] battery was charger done
+
+[6-10 11:20:22 23331817] [I] [system_profile_do_update] update succ. timestamp:1276140022 
+
+[6-10 11:20:43 23333859] [I] battery was charger done
+
+[6-10 11:20:43 23333874] [I] [system_profile_do_update] update succ. timestamp:1276140043 
+
+[6-10 11:21:0 23335621] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:21:3 23335916] [I] battery was charger done
+
+[6-10 11:21:4 23335931] [I] [system_profile_do_update] update succ. timestamp:1276140063 
+
+[6-10 11:21:24 23337973] [I] battery was charger done
+
+[6-10 11:21:24 23337988] [I] [system_profile_do_update] update succ. timestamp:1276140084 
+
+[6-10 11:21:45 23340030] [I] battery was charger done
+
+[6-10 11:21:45 23340045] [I] [system_profile_do_update] update succ. timestamp:1276140105 
+
+[6-10 11:22:0 23341547] [I] ram:[23852, 1095612], b:100, s:0
+
+[6-10 11:22:0 23341563] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750610], wrist:4, cal:0, dist:0, a:[0, 0, 349, 218, 106]
+
+[6-10 11:22:6 23342087] [I] battery was charger done
+
+[6-10 11:22:6 23342102] [I] [system_profile_do_update] update succ. timestamp:1276140126 
+
+[6-10 11:22:26 23344144] [I] battery was charger done
+
+[6-10 11:22:27 23344159] [I] [system_profile_do_update] update succ. timestamp:1276140146 
+
+[6-10 11:22:47 23346201] [I] battery was charger done
+
+[6-10 11:22:47 23346216] [I] [system_profile_do_update] update succ. timestamp:1276140167 
+
+[6-10 11:23:0 23347486] [I] ram:[23992, 1095612], b:100, s:0
+
+[6-10 11:23:8 23348258] [I] battery was charger done
+
+[6-10 11:23:8 23348273] [I] [system_profile_do_update] update succ. timestamp:1276140188 
+
+[6-10 11:23:29 23350315] [I] battery was charger done
+
+[6-10 11:23:29 23350330] [I] [system_profile_do_update] update succ. timestamp:1276140209 
+
+[6-10 11:23:49 23352372] [I] battery was charger done
+
+[6-10 11:23:50 23352387] [I] [system_profile_do_update] update succ. timestamp:1276140229 
+
+[6-10 11:24:0 23353388] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:24:10 23354429] [I] battery was charger done
+
+[6-10 11:24:10 23354444] [I] [system_profile_do_update] update succ. timestamp:1276140250 
+
+[6-10 11:24:31 23356486] [I] battery was charger done
+
+[6-10 11:24:31 23356501] [I] [system_profile_do_update] update succ. timestamp:1276140271 
+
+[6-10 11:24:52 23358543] [I] battery was charger done
+
+[6-10 11:24:52 23358558] [I] [system_profile_do_update] update succ. timestamp:1276140292 
+
+[6-10 11:25:0 23359409] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:25:12 23360600] [I] battery was charger done
+
+[6-10 11:25:13 23360615] [I] [system_profile_do_update] update succ. timestamp:1276140312 
+
+[6-10 11:25:33 23362657] [I] battery was charger done
+
+[6-10 11:25:33 23362672] [I] [system_profile_do_update] update succ. timestamp:1276140333 
+
+[6-10 11:25:54 23364714] [I] battery was charger done
+
+[6-10 11:25:56 23364820] [I] [system_profile_do_update] update succ. timestamp:1276140354 
+
+[6-10 11:26:0 23365222] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:26:16 23366862] [I] battery was charger done
+
+[6-10 11:26:17 23366877] [I] [system_profile_do_update] update succ. timestamp:1276140376 
+
+[6-10 11:26:37 23368919] [I] battery was charger done
+
+[6-10 11:26:37 23368934] [I] [system_profile_do_update] update succ. timestamp:1276140397 
+
+[6-10 11:26:58 23370976] [I] battery was charger done
+
+[6-10 11:26:58 23370991] [I] [system_profile_do_update] update succ. timestamp:1276140418 
+
+[6-10 11:27:0 23371138] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:27:19 23373033] [I] battery was charger done
+
+[6-10 11:27:19 23373048] [I] [system_profile_do_update] update succ. timestamp:1276140439 
+
+[6-10 11:27:39 23375090] [I] battery was charger done
+
+[6-10 11:27:40 23375105] [I] [system_profile_do_update] update succ. timestamp:1276140459 
+
+[6-10 11:28:0 23377147] [I] battery was charger done
+
+[6-10 11:28:0 23377162] [I] [system_profile_do_update] update succ. timestamp:1276140480 
+
+[6-10 11:28:0 23377164] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:28:21 23379204] [I] battery was charger done
+
+[6-10 11:28:21 23379219] [I] [system_profile_do_update] update succ. timestamp:1276140501 
+
+[6-10 11:28:42 23381261] [I] battery was charger done
+
+[6-10 11:28:42 23381276] [I] [system_profile_do_update] update succ. timestamp:1276140522 
+
+[6-10 11:29:0 23383077] [I] [wrkt] drink drink
+
+[6-10 11:29:0 23383077] [I] ignore remind 0
+
+[6-10 11:29:0 23383077] [I] ram:[23844, 1095612], b:100, s:0
+
+[6-10 11:29:2 23383318] [I] battery was charger done
+
+[6-10 11:29:3 23383333] [I] [system_profile_do_update] update succ. timestamp:1276140542 
+
+[6-10 11:29:23 23385375] [I] battery was charger done
+
+[6-10 11:29:23 23385390] [I] [system_profile_do_update] update succ. timestamp:1276140563 
+
+[6-10 11:29:44 23387432] [I] battery was charger done
+
+[6-10 11:29:44 23387447] [I] [system_profile_do_update] update succ. timestamp:1276140584 
+
+[6-10 11:30:0 23388992] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:30:5 23389489] [I] battery was charger done
+
+[6-10 11:30:5 23389504] [I] [system_profile_do_update] update succ. timestamp:1276140605 
+
+[6-10 11:30:25 23391546] [I] battery was charger done
+
+[6-10 11:30:26 23391561] [I] [system_profile_do_update] update succ. timestamp:1276140625 
+
+[6-10 11:30:46 23393603] [I] battery was charger done
+
+[6-10 11:30:46 23393618] [I] [system_profile_do_update] update succ. timestamp:1276140646 
+
+[6-10 11:31:0 23395020] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:31:7 23395660] [I] battery was charger done
+
+[6-10 11:31:7 23395675] [I] [system_profile_do_update] update succ. timestamp:1276140667 
+
+[6-10 11:31:27 23397717] [I] battery was charger done
+
+[6-10 11:31:28 23397732] [I] [system_profile_do_update] update succ. timestamp:1276140687 
+
+[6-10 11:31:48 23399774] [I] battery was charger done
+
+[6-10 11:31:49 23399792] [I] [system_profile_do_update] update succ. timestamp:1276140708 
+
+[6-10 11:32:0 23400934] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:32:0 23400958] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750612], wrist:4, cal:0, dist:0, a:[0, 0, 349, 421, 108]
+
+[6-10 11:32:9 23401834] [I] battery was charger done
+
+[6-10 11:32:9 23401849] [I] [system_profile_do_update] update succ. timestamp:1276140729 
+
+[6-10 11:32:30 23403891] [I] battery was charger done
+
+[6-10 11:32:30 23403906] [I] [system_profile_do_update] update succ. timestamp:1276140750 
+
+[6-10 11:32:51 23405948] [I] battery was charger done
+
+[6-10 11:32:51 23405963] [I] [system_profile_do_update] update succ. timestamp:1276140771 
+
+[6-10 11:33:0 23406864] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:33:11 23408005] [I] battery was charger done
+
+[6-10 11:33:12 23408020] [I] [system_profile_do_update] update succ. timestamp:1276140791 
+
+[6-10 11:33:32 23410062] [I] battery was charger done
+
+[6-10 11:33:32 23410077] [I] [system_profile_do_update] update succ. timestamp:1276140812 
+
+[6-10 11:33:53 23412119] [I] battery was charger done
+
+[6-10 11:33:53 23412134] [I] [system_profile_do_update] update succ. timestamp:1276140833 
+
+[6-10 11:34:0 23412779] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:34:13 23414176] [I] battery was charger done
+
+[6-10 11:34:14 23414191] [I] [system_profile_do_update] update succ. timestamp:1276140853 
+
+[6-10 11:34:34 23416233] [I] battery was charger done
+
+[6-10 11:34:35 23416248] [I] [system_profile_do_update] update succ. timestamp:1276140874 
+
+[6-10 11:34:55 23418290] [I] battery was charger done
+
+[6-10 11:34:55 23418305] [I] [system_profile_do_update] update succ. timestamp:1276140895 
+
+[6-10 11:35:0 23418807] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:35:16 23420347] [I] battery was charger done
+
+[6-10 11:35:16 23420362] [I] [system_profile_do_update] update succ. timestamp:1276140916 
+
+[6-10 11:35:36 23422404] [I] battery was charger done
+
+[6-10 11:35:37 23422419] [I] [system_profile_do_update] update succ. timestamp:1276140936 
+
+[6-10 11:35:57 23424461] [I] battery was charger done
+
+[6-10 11:35:58 23424476] [I] [system_profile_do_update] update succ. timestamp:1276140957 
+
+[6-10 11:36:0 23424721] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:36:18 23426518] [I] battery was charger done
+
+[6-10 11:36:18 23426533] [I] [system_profile_do_update] update succ. timestamp:1276140978 
+
+[6-10 11:36:39 23428575] [I] battery was charger done
+
+[6-10 11:36:39 23428590] [I] [system_profile_do_update] update succ. timestamp:1276140999 
+
+[6-10 11:36:59 23430632] [I] battery was charger done
+
+[6-10 11:37:0 23430647] [I] [system_profile_do_update] update succ. timestamp:1276141019 
+
+[6-10 11:37:0 23430648] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:37:20 23432689] [I] battery was charger done
+
+[6-10 11:37:21 23432704] [I] [system_profile_do_update] update succ. timestamp:1276141040 
+
+[6-10 11:37:41 23434746] [I] battery was charger done
+
+[6-10 11:37:41 23434761] [I] [system_profile_do_update] update succ. timestamp:1276141061 
+
+[6-10 11:38:0 23436663] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:38:2 23436803] [I] battery was charger done
+
+[6-10 11:38:2 23436818] [I] [system_profile_do_update] update succ. timestamp:1276141082 
+
+[6-10 11:38:22 23438860] [I] battery was charger done
+
+[6-10 11:38:23 23438875] [I] [system_profile_do_update] update succ. timestamp:1276141102 
+
+[6-10 11:38:43 23440917] [I] battery was charger done
+
+[6-10 11:38:43 23440932] [I] [system_profile_do_update] update succ. timestamp:1276141123 
+
+[6-10 11:39:0 23442579] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:39:4 23442974] [I] battery was charger done
+
+[6-10 11:39:4 23442989] [I] [system_profile_do_update] update succ. timestamp:1276141144 
+
+[6-10 11:39:25 23445031] [I] battery was charger done
+
+[6-10 11:39:25 23445046] [I] [system_profile_do_update] update succ. timestamp:1276141165 
+
+[6-10 11:39:45 23447088] [I] battery was charger done
+
+[6-10 11:39:46 23447103] [I] [system_profile_do_update] update succ. timestamp:1276141185 
+
+[6-10 11:40:0 23448504] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:40:6 23449145] [I] battery was charger done
+
+[6-10 11:40:6 23449160] [I] [system_profile_do_update] update succ. timestamp:1276141206 
+
+[6-10 11:40:27 23451202] [I] battery was charger done
+
+[6-10 11:40:29 23451308] [I] [system_profile_do_update] update succ. timestamp:1276141227 
+
+[6-10 11:40:49 23453350] [I] battery was charger done
+
+[6-10 11:40:50 23453365] [I] [system_profile_do_update] update succ. timestamp:1276141249 
+
+[6-10 11:41:0 23454410] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:41:10 23455407] [I] battery was charger done
+
+[6-10 11:41:11 23455422] [I] [system_profile_do_update] update succ. timestamp:1276141270 
+
+[6-10 11:41:31 23457464] [I] battery was charger done
+
+[6-10 11:41:31 23457479] [I] [system_profile_do_update] update succ. timestamp:1276141291 
+
+[6-10 11:41:52 23459521] [I] battery was charger done
+
+[6-10 11:41:52 23459536] [I] [system_profile_do_update] update succ. timestamp:1276141312 
+
+[6-10 11:42:0 23460337] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:42:0 23460361] [I] [h_log]m:0, step:0, hm:[0, 0, 0, 300, 5750614], wrist:4, cal:0, dist:0, a:[0, 0, 349, 192, 108]
+
+[6-10 11:42:12 23461578] [I] battery was charger done
+
+[6-10 11:42:13 23461593] [I] [system_profile_do_update] update succ. timestamp:1276141332 
+
+[6-10 11:42:33 23463635] [I] battery was charger done
+
+[6-10 11:42:33 23463650] [I] [system_profile_do_update] update succ. timestamp:1276141353 
+
+[6-10 11:42:54 23465692] [I] battery was charger done
+
+[6-10 11:42:54 23465707] [I] [system_profile_do_update] update succ. timestamp:1276141374 
+
+[6-10 11:43:0 23466253] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:43:15 23467749] [I] battery was charger done
+
+[6-10 11:43:15 23467764] [I] [system_profile_do_update] update succ. timestamp:1276141395 
+
+[6-10 11:43:35 23469806] [I] battery was charger done
+
+[6-10 11:43:36 23469821] [I] [system_profile_do_update] update succ. timestamp:1276141415 
+
+[6-10 11:43:56 23471863] [I] battery was charger done
+
+[6-10 11:43:56 23471878] [I] [system_profile_do_update] update succ. timestamp:1276141436 
+
+[6-10 11:44:0 23472280] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:44:17 23473920] [I] battery was charger done
+
+[6-10 11:44:17 23473935] [I] [system_profile_do_update] update succ. timestamp:1276141457 
+
+[6-10 11:44:38 23475977] [I] battery was charger done
+
+[6-10 11:44:38 23475992] [I] [system_profile_do_update] update succ. timestamp:1276141478 
+
+[6-10 11:44:58 23478034] [I] battery was charger done
+
+[6-10 11:44:59 23478049] [I] [system_profile_do_update] update succ. timestamp:1276141498 
+
+[6-10 11:45:0 23478196] [I] ram:[23944, 1095612], b:100, s:0
+
+[6-10 11:45:19 23480091] [I] battery was charger done
+
+[6-10 11:45:19 23480106] [I] [system_profile_do_update] update succ. timestamp:1276141519 
+
+[6-10 11:45:40 23482148] [I] battery was charger done
+
+[6-10 11:45:40 23482163] [I] [system_profile_do_update] update succ. timestamp:1276141540 
+
+[6-10 11:45:53 23483445] [I] [service_ryeex_gap_callback] Connected. 
+
+[6-10 11:45:53 23483452] [E] weather sync time is invalid
+
+[6-10 11:45:53 23483461] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[6-10 11:45:53 23483461] [E] right music recv wrong play state = 0
+
+[6-10 11:45:55 23483616] [I] oops sta 0
+
+[6-10 11:45:55 23483672] [I] [mible] status:0,len:4,0xCD43BC01
+
+[6-10 11:45:56 23483729] [I] PHONE type: 1
+
+[6-10 11:45:56 23483775] [I] [dip]24h :1
+
+[6-10 11:45:57 23483831] [I] [[time]]utc:1276141557, devi:28800, 2010-06-10 11:45:57 | msg:1, 1276141555, deviat:28800], setDevi:28800
+
+[6-10 11:45:55 23483831] [I] alarm evt 0x20
+
+[6-10 11:45:55 23483831] [I] recent timer is null
+
+[6-10 11:45:55 23483831] [I] [get_alarm] fail
+
+[6-10 11:45:55 23483854] [I] [[time]]utc:1276141555, devi:28800, 2010-06-10 11:45:55
+
+[6-10 11:45:55 23483866] [I] [step]0, id:16, t:1275897600, para:103, step:0, total:0, today:0
+
+[6-10 11:45:55 23483866] [I] [step]1, id:17, t:1275901200, para:104, step:0, total:0, today:0
+
+[6-10 11:45:55 23483866] [I] [step]2, id:18, t:1275904800, para:105, step:0, total:0, today:0
+
+[6-10 11:45:55 23483866] [I] [step]3, id:19, t:1275908400, para:0, step:0, total:0, today:0
+
+[6-10 11:45:55 23483866] [I] [step]4, id:20, t:1275912000, para:1, step:0, total:0, today:0
+
+[6-10 11:45:55 23483866] [I] [step]5, id:21, t:1275915600, para:2, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]6, id:22, t:1275919200, para:3, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]7, id:23, t:1275922800, para:4, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]8, id:0, t:1275926400, para:5, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]9, id:1, t:1275930000, para:6, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]10, id:2, t:1275933600, para:7, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]11, id:3, t:1275937200, para:8, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]12, id:4, t:1275940800, para:9, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]13, id:5, t:1275944400, para:10, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]14, id:6, t:1275948000, para:11, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]15, id:7, t:1275951600, para:12, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]16, id:8, t:1275955200, para:13, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]17, id:9, t:1275958800, para:14, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]18, id:10, t:1275962401, para:15, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]19, id:11, t:1275966001, para:16, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]20, id:12, t:1275969600, para:17, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]21, id:13, t:1275973200, para:18, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]22, id:14, t:1275976802, para:19, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]23, id:15, t:1275980400, para:20, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]24, id:16, t:1275984001, para:21, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]25, id:17, t:1275987600, para:22, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]26, id:18, t:1275991202, para:23, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]27, id:19, t:1275994801, para:24, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]28, id:20, t:1275998400, para:25, step:0, total:0, today:0
+
+[6-10 11:45:55 23483867] [I] [step]29, id:21, t:1276002001, para:26, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]30, id:22, t:1276005601, para:27, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]31, id:23, t:1276009200, para:28, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]32, id:0, t:1276012802, para:29, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]33, id:1, t:1276016400, para:30, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]34, id:2, t:1276020001, para:31, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]35, id:3, t:1276023600, para:32, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]36, id:4, t:1276027200, para:33, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]37, id:5, t:1276030800, para:34, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]38, id:6, t:1276034400, para:35, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]39, id:7, t:1276038000, para:36, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]40, id:8, t:1276041600, para:37, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]41, id:9, t:1276045200, para:38, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]42, id:10, t:1276048801, para:39, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]43, id:11, t:1276052400, para:40, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]44, id:12, t:1276056000, para:41, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]45, id:13, t:1276059600, para:42, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]46, id:14, t:1276063200, para:43, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]47, id:15, t:1276066801, para:44, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]48, id:16, t:1276070400, para:45, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]49, id:17, t:1276074000, para:46, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]50, id:18, t:1276077600, para:47, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]51, id:19, t:1276081200, para:48, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]52, id:20, t:1276084800, para:49, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]53, id:21, t:1276088401, para:50, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]54, id:22, t:1276092000, para:51, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]55, id:23, t:1276095600, para:52, step:0, total:0, today:0
+
+[6-10 11:45:55 23483868] [I] [step]56, id:0, t:1276099201, para:53, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]57, id:1, t:1276102800, para:54, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]58, id:2, t:1276106401, para:55, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]59, id:3, t:1276110000, para:56, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]60, id:4, t:1276113600, para:57, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]61, id:5, t:1276117200, para:58, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]62, id:6, t:1276120800, para:59, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]63, id:7, t:1276124401, para:60, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]64, id:8, t:1276128000, para:61, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]65, id:9, t:1276131600, para:62, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]66, id:10, t:1276135200, para:63, step:0, total:0, today:1
+
+[6-10 11:45:55 23483869] [I] [step]67, id:11, t:1276138800, para:64, step:0, total:0, today:1
+
+[6-10 11:45:57 23484109] [I] [charger] disable wdt 05h 0x0
+
+[6-10 11:45:57 23484119] [I] [ss_bat] send EVT charger out
+
+[6-10 11:45:57 23484129] [I] [battery] 2
+
+[6-10 11:45:58 23484151] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:7087
+
+[6-10 11:45:58 23484212] [I] XINSHIJIE driver
+
+[6-10 11:45:58 23484212] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:45:58 23484228] [E] [psram mid] no mem. available:468200, request:659488
+
+[6-10 11:46:0 23484340] [I] touch wakeup lcd
+
+[6-10 11:46:0 23484342] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:0 23484397] [I] ram:[24440, 1258908], b:100, s:0
+
+[6-10 11:46:0 23484400] [I] XINSHIJIE driver
+
+[6-10 11:46:1 23484492] [I] oops sta 0
+
+[6-10 11:46:1 23484502] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:2 23484542] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 11:46:2 23484543] [I] oops sta 0
+
+[6-10 11:46:2 23484561] [I] XINSHIJIE driver
+
+[6-10 11:46:2 23484561] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:2 23484597] [I] touch wakeup lcd
+
+[6-10 11:46:2 23484609] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 11:46:7 23485036] [I] oops sta 0
+
+[6-10 11:46:7 23485043] [I] XINSHIJIE driver
+
+[6-10 11:46:7 23485043] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:7 23485091] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+
+[6-10 11:46:10 23485401] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:11 23485458] [I] XINSHIJIE driver
+
+[6-10 11:46:11 23485458] [I] [on_user_hour_update] hour widget x y w h = 0 0 368 448
+
+[6-10 11:46:11 23485506] [I] [heyos_display_write_rect_awtk] display_set_brightness 40
+

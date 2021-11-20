@@ -772,6 +772,12 @@ class App(object):
         # self.device_clickDID()
         # self.log.debug(u'向右滑动成功')
 
+    def get_back(self):
+        self.device_upslide()
+        self.device_home()
+
+
+
 
     @allure.step("点击HOME")
     def device_home(self):
@@ -1218,7 +1224,7 @@ class App(object):
         self.device_rightslide()
         self.assert_getdevicepagename("home_page", "home_id_left")
         self.log.debug(info + '设备初始化-向右滑动')
-        self.saturn_inputclick("200", "270", "200", "270")
+        self.saturn_inputclick("300", "270", "300", "270")
         self.log.debug(info + '点击设置')
         self.assert_getdevicepagename("setting_page", "list_view")
         self.log.debug(info + '设备初始化-点击设置')
@@ -1563,7 +1569,10 @@ class App(object):
     @allure.step("固件升级")
     def tv_ota(self, value):
         self.input_data(value)
+        print("现在到了固件升级这一步")
+        # time.sleep(10)
         self.find_elementby(By.XPATH, '//*[@class="android.widget.TextView" and @text="固件升级"]').click()
+        print("点击了固件升级按钮")
         # self.assert_notin_text()
         # self.clear_text()
 

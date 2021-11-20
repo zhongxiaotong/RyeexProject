@@ -1,0 +1,4892 @@
+ timestamp:1636018800 
+
+[11-4 17:40:9 11268627] [I] oops sta 0
+
+[11-4 17:40:9 11268637] [I] [page_home] use default home click hook
+
+[11-4 17:40:19 11269598] [I] tp_power_off
+
+[11-4 17:40:20 11269728] [I] menu click enter 24
+
+[11-4 17:40:20 11269731] [I] action_hrm_init
+
+[11-4 17:40:20 11269734] [I] XINLI driver
+
+[11-4 17:40:20 11269750] [I] tp_power_on
+
+[11-4 17:40:21 11269754] [I] tp reset
+
+[11-4 17:40:22 11269897] [I] [hrm]unweared:3756
+
+[11-4 17:40:23 11269961] [I] action_hrm_measure_timeout
+
+[11-4 17:40:23 11269961] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:40:23 11270043] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:40:37 11271413] [I] oops sta 0
+
+[11-4 17:40:37 11271423] [I] [page_home] use default home click hook
+
+[11-4 17:40:47 11272384] [I] tp_power_off
+
+[11-4 17:40:47 11272440] [I] menu click enter 24
+
+[11-4 17:40:47 11272443] [I] action_hrm_init
+
+[11-4 17:40:47 11272446] [I] XINLI driver
+
+[11-4 17:40:48 11272463] [I] tp_power_on
+
+[11-4 17:40:48 11272467] [I] tp reset
+
+[11-4 17:40:49 11272609] [I] [hrm]unweared:3757
+
+[11-4 17:40:50 11272661] [I] action_hrm_measure_timeout
+
+[11-4 17:40:50 11272661] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:40:50 11272755] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:41:0 11273720] [I] ram:[61432, 596200], b:46, s:0
+
+[11-4 17:41:3 11274030] [I] oops sta 0
+
+[11-4 17:41:3 11274040] [I] [page_home] use default home click hook
+
+[11-4 17:41:13 11275001] [I] tp_power_off
+
+[11-4 17:41:14 11275111] [I] menu click enter 24
+
+[11-4 17:41:14 11275114] [I] action_hrm_init
+
+[11-4 17:41:14 11275117] [I] XINLI driver
+
+[11-4 17:41:14 11275133] [I] tp_power_on
+
+[11-4 17:41:14 11275138] [I] tp reset
+
+[11-4 17:41:16 11275280] [I] [hrm]unweared:3758
+
+[11-4 17:41:16 11275361] [I] action_hrm_measure_timeout
+
+[11-4 17:41:16 11275361] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:41:17 11275426] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:41:30 11276747] [I] oops sta 0
+
+[11-4 17:41:30 11276757] [I] [page_home] use default home click hook
+
+[11-4 17:41:40 11277718] [I] tp_power_off
+
+[11-4 17:41:41 11277866] [I] menu click enter 24
+
+[11-4 17:41:42 11277869] [I] action_hrm_init
+
+[11-4 17:41:42 11277872] [I] XINLI driver
+
+[11-4 17:41:42 11277888] [I] tp_power_on
+
+[11-4 17:41:42 11277893] [I] tp reset
+
+[11-4 17:41:43 11278035] [I] [hrm]unweared:3759
+
+[11-4 17:41:43 11278061] [I] action_hrm_measure_timeout
+
+[11-4 17:41:43 11278061] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:41:45 11278181] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:41:58 11279518] [I] oops sta 0
+
+[11-4 17:41:58 11279528] [I] [page_home] use default home click hook
+
+[11-4 17:42:0 11279721] [I] ram:[61432, 601476], b:46, s:0
+
+[11-4 17:42:8 11280489] [I] tp_power_off
+
+[11-4 17:42:9 11280630] [I] menu click enter 24
+
+[11-4 17:42:9 11280633] [I] action_hrm_init
+
+[11-4 17:42:9 11280636] [I] XINLI driver
+
+[11-4 17:42:9 11280652] [I] tp_power_on
+
+[11-4 17:42:9 11280656] [I] tp reset
+
+[11-4 17:42:11 11280799] [I] [hrm]unweared:3760
+
+[11-4 17:42:11 11280861] [I] action_hrm_measure_timeout
+
+[11-4 17:42:11 11280861] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:42:12 11280945] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:42:25 11282224] [I] oops sta 0
+
+[11-4 17:42:25 11282234] [I] [page_home] use default home click hook
+
+[11-4 17:42:35 11283195] [I] tp_power_off
+
+[11-4 17:42:37 11283420] [I] menu click enter 24
+
+[11-4 17:42:37 11283423] [I] action_hrm_init
+
+[11-4 17:42:37 11283426] [I] XINLI driver
+
+[11-4 17:42:37 11283442] [I] tp_power_on
+
+[11-4 17:42:37 11283447] [I] tp reset
+
+[11-4 17:42:39 11283589] [I] [hrm]unweared:3761
+
+[11-4 17:42:39 11283661] [I] action_hrm_measure_timeout
+
+[11-4 17:42:39 11283661] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:42:40 11283735] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:42:52 11284944] [I] oops sta 0
+
+[11-4 17:42:52 11284954] [I] [page_home] use default home click hook
+
+[11-4 17:43:0 11285724] [I] ram:[61432, 601096], b:46, s:0
+
+[11-4 17:43:2 11285915] [I] tp_power_off
+
+[11-4 17:43:3 11286029] [I] menu click enter 24
+
+[11-4 17:43:3 11286032] [I] action_hrm_init
+
+[11-4 17:43:3 11286035] [I] XINLI driver
+
+[11-4 17:43:3 11286051] [I] tp_power_on
+
+[11-4 17:43:3 11286056] [I] tp reset
+
+[11-4 17:43:5 11286198] [I] [hrm]unweared:3762
+
+[11-4 17:43:5 11286261] [I] action_hrm_measure_timeout
+
+[11-4 17:43:5 11286261] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:43:6 11286344] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:43:18 11287568] [I] oops sta 0
+
+[11-4 17:43:18 11287578] [I] [page_home] use default home click hook
+
+[11-4 17:43:28 11288539] [I] tp_power_off
+
+[11-4 17:43:29 11288616] [I] menu click enter 24
+
+[11-4 17:43:29 11288619] [I] action_hrm_init
+
+[11-4 17:43:29 11288622] [I] XINLI driver
+
+[11-4 17:43:29 11288638] [I] tp_power_on
+
+[11-4 17:43:29 11288642] [I] tp reset
+
+[11-4 17:43:30 11288785] [I] [hrm]unweared:3763
+
+[11-4 17:43:31 11288861] [I] action_hrm_measure_timeout
+
+[11-4 17:43:31 11288861] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:43:32 11288931] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:43:45 11290274] [I] oops sta 0
+
+[11-4 17:43:45 11290284] [I] [page_home] use default home click hook
+
+[11-4 17:43:55 11291245] [I] tp_power_off
+
+[11-4 17:43:56 11291371] [I] menu click enter 24
+
+[11-4 17:43:56 11291374] [I] action_hrm_init
+
+[11-4 17:43:56 11291377] [I] XINLI driver
+
+[11-4 17:43:57 11291394] [I] tp_power_on
+
+[11-4 17:43:57 11291398] [I] tp reset
+
+[11-4 17:43:58 11291540] [I] [hrm]unweared:3764
+
+[11-4 17:43:58 11291561] [I] action_hrm_measure_timeout
+
+[11-4 17:43:58 11291561] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:43:59 11291686] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:44:0 11291726] [I] ram:[61432, 595788], b:46, s:0
+
+[11-4 17:44:12 11292931] [I] oops sta 0
+
+[11-4 17:44:12 11292941] [I] [page_home] use default home click hook
+
+[11-4 17:44:22 11293902] [I] tp_power_off
+
+[11-4 17:44:22 11293976] [I] menu click enter 24
+
+[11-4 17:44:22 11293979] [I] action_hrm_init
+
+[11-4 17:44:22 11293982] [I] XINLI driver
+
+[11-4 17:44:22 11293998] [I] tp_power_on
+
+[11-4 17:44:23 11294002] [I] tp reset
+
+[11-4 17:44:24 11294145] [I] [hrm]unweared:3765
+
+[11-4 17:44:24 11294161] [I] action_hrm_measure_timeout
+
+[11-4 17:44:24 11294161] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:44:25 11294291] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:44:38 11295599] [I] oops sta 0
+
+[11-4 17:44:39 11295609] [I] [page_home] use default home click hook
+
+[11-4 17:44:48 11296570] [I] tp_power_off
+
+[11-4 17:44:49 11296636] [I] menu click enter 24
+
+[11-4 17:44:49 11296639] [I] action_hrm_init
+
+[11-4 17:44:49 11296642] [I] XINLI driver
+
+[11-4 17:44:49 11296658] [I] tp_power_on
+
+[11-4 17:44:49 11296663] [I] tp reset
+
+[11-4 17:44:50 11296805] [I] [hrm]unweared:3766
+
+[11-4 17:44:51 11296861] [I] action_hrm_measure_timeout
+
+[11-4 17:44:51 11296861] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:44:52 11296951] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:45:0 11297726] [I] ram:[61432, 595788], b:46, s:0
+
+[11-4 17:45:4 11298195] [I] oops sta 0
+
+[11-4 17:45:4 11298205] [I] [page_home] use default home click hook
+
+[11-4 17:45:14 11299166] [I] tp_power_off
+
+[11-4 17:45:15 11299292] [I] menu click enter 24
+
+[11-4 17:45:15 11299295] [I] action_hrm_init
+
+[11-4 17:45:15 11299298] [I] XINLI driver
+
+[11-4 17:45:16 11299315] [I] tp_power_on
+
+[11-4 17:45:16 11299319] [I] tp reset
+
+[11-4 17:45:17 11299461] [I] [hrm]unweared:3767
+
+[11-4 17:45:17 11299461] [I] action_hrm_measure_timeout
+
+[11-4 17:45:17 11299461] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:45:18 11299607] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:45:30 11300808] [I] oops sta 0
+
+[11-4 17:45:31 11300818] [I] [page_home] use default home click hook
+
+[11-4 17:45:38 11301557] [I] enter SLP_SUSPECT
+
+[11-4 17:45:40 11301722] [I] [hrm]unweared:3768
+
+[11-4 17:45:40 11301779] [I] tp_power_off
+
+[11-4 17:45:42 11301936] [I] menu click enter 24
+
+[11-4 17:45:42 11301939] [I] action_hrm_init
+
+[11-4 17:45:42 11301942] [I] XINLI driver
+
+[11-4 17:45:42 11301958] [I] tp_power_on
+
+[11-4 17:45:42 11301963] [I] tp reset
+
+[11-4 17:45:42 11301966] [I] [sleep_wake_up] from no weared, mode:0, sleep_now:1, sleep_last:0, sstd:108
+
+[11-4 17:45:43 11302105] [I] [hrm]unweared:3769
+
+[11-4 17:45:44 11302161] [I] action_hrm_measure_timeout
+
+[11-4 17:45:44 11302161] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:45:45 11302251] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:45:57 11303464] [I] oops sta 0
+
+[11-4 17:45:57 11303486] [I] [ss_batt_do_sample] percent:45%, volt_mv:3816mv
+
+[11-4 17:45:57 11303496] [I] [page_home] use default home click hook
+
+[11-4 17:45:57 11303502] [I] [system_profile_do_update] update succ. timestamp:1636019157 
+
+[11-4 17:45:57 11303502] [I] [update_system_bar] batt_level = 45
+[11-4 17:46:0 11303726] [I] ram:[61432, 507200], b:45, s:0
+
+[11-4 17:46:7 11304463] [I] tp_power_off
+
+[11-4 17:46:7 11304504] [I] menu click enter 24
+
+[11-4 17:46:8 11304508] [I] action_hrm_init
+
+[11-4 17:46:8 11304510] [I] XINLI driver
+
+[11-4 17:46:8 11304526] [I] tp_power_on
+
+[11-4 17:46:8 11304530] [I] tp reset
+
+[11-4 17:46:9 11304673] [I] [hrm]unweared:3770
+
+[11-4 17:46:10 11304761] [I] action_hrm_measure_timeout
+
+[11-4 17:46:10 11304761] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:46:11 11304819] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:46:23 11306091] [I] oops sta 0
+
+[11-4 17:46:23 11306101] [I] [page_home] use default home click hook
+
+[11-4 17:46:33 11307062] [I] tp_power_off
+
+[11-4 17:46:35 11307232] [I] menu click enter 24
+
+[11-4 17:46:35 11307236] [I] action_hrm_init
+
+[11-4 17:46:35 11307238] [I] XINLI driver
+
+[11-4 17:46:35 11307255] [I] tp_power_on
+
+[11-4 17:46:35 11307259] [I] tp reset
+
+[11-4 17:46:36 11307401] [I] [hrm]unweared:3771
+
+[11-4 17:46:37 11307461] [I] action_hrm_measure_timeout
+
+[11-4 17:46:37 11307461] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:46:38 11307547] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:46:51 11308835] [I] oops sta 0
+
+[11-4 17:46:51 11308845] [I] [page_home] use default home click hook
+
+[11-4 17:47:0 11309731] [I] ram:[61432, 507200], b:45, s:0
+
+[11-4 17:47:0 11309806] [I] tp_power_off
+
+[11-4 17:47:2 11309940] [I] menu click enter 24
+
+[11-4 17:47:2 11309945] [I] action_hrm_init
+
+[11-4 17:47:2 11309948] [I] XINLI driver
+
+[11-4 17:47:2 11309963] [I] tp_power_on
+
+[11-4 17:47:2 11309968] [I] tp reset
+
+[11-4 17:47:3 11310110] [I] [hrm]unweared:3772
+
+[11-4 17:47:4 11310161] [I] action_hrm_measure_timeout
+
+[11-4 17:47:4 11310161] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:47:4 11310166] [E] [awtk] oom times:3,size:184
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:4 11310167] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310278] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310279] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310280] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310281] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310281] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:5 11310282] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310360] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310361] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310362] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:208
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310363] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:6 11310364] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310501] [E] [awtk] oom times:3,size:184
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310502] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310503] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:7 11310503] [E] [awtk] out of memory
+
+[11-4 17:47:7 11310503] [E] [awtk] out of memory
+
+[11-4 17:47:9 11310648] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:47:14 11311128] [I] tp_power_off
+
+[11-4 17:47:14 11311214] [I] XINLI driver
+
+[11-4 17:47:15 11311229] [I] tp_power_on
+
+[11-4 17:47:15 11311233] [I] tp reset
+
+[11-4 17:47:17 11311464] [I] oops sta 0
+
+[11-4 17:47:17 11311474] [I] [page_home] use default home click hook
+
+[11-4 17:47:27 11312435] [I] tp_power_off
+
+[11-4 17:47:30 11312728] [I] menu click enter 24
+
+[11-4 17:47:30 11312731] [I] action_hrm_init
+
+[11-4 17:47:30 11312734] [I] XINLI driver
+
+[11-4 17:47:30 11312750] [I] tp_power_on
+
+[11-4 17:47:30 11312754] [I] tp reset
+
+[11-4 17:47:31 11312897] [I] [hrm]unweared:3773
+
+[11-4 17:47:32 11312961] [I] action_hrm_measure_timeout
+
+[11-4 17:47:32 11312961] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:47:33 11313043] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:47:46 11314366] [I] oops sta 0
+
+[11-4 17:47:46 11314376] [I] [page_home] use default home click hook
+
+[11-4 17:47:56 11315337] [I] tp_power_off
+
+[11-4 17:47:57 11315426] [I] menu click enter 24
+
+[11-4 17:47:57 11315430] [I] action_hrm_init
+
+[11-4 17:47:57 11315432] [I] XINLI driver
+
+[11-4 17:47:57 11315448] [I] tp_power_on
+
+[11-4 17:47:57 11315452] [I] tp reset
+
+[11-4 17:47:58 11315595] [I] [hrm]unweared:3774
+
+[11-4 17:47:59 11315661] [I] action_hrm_measure_timeout
+
+[11-4 17:47:59 11315661] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:47:59 11315666] [E] [awtk] oom times:3,size:184
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315666] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315666] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] oom times:3,size:160
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:47:59 11315667] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315739] [I] ram:[64012, 675176], b:45, s:0
+
+[11-4 17:48:0 11315743] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:48:0 11315797] [E] [awtk] oom times:3,size:184
+
+[11-4 17:48:0 11315797] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315797] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315797] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315797] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315797] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:0 11315798] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316394] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316396] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316397] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316398] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316399] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316399] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316400] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316401] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316402] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316403] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316404] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316404] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316405] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316406] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316407] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316408] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316409] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316409] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316410] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316410] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316411] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316411] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316412] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316413] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316414] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316414] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:6 11316414] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316508] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316509] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316510] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316511] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316512] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316512] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316513] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316513] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316514] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316514] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316515] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316515] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316516] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316517] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316518] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316519] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316520] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316520] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316521] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316522] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316523] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316524] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316524] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316525] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] oom times:3,size:208
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316526] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316527] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:7 11316527] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:7 11316528] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316528] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316528] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316529] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316529] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316530] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316531] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316532] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316533] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316534] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316535] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316536] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316537] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316538] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316539] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316540] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316541] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316542] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316543] [E] [awtk] oom times:3,size:104
+
+[11-4 17:48:8 11316543] [E] [awtk] out of memory
+
+[11-4 17:48:8 11316543] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316863] [E] [awtk] oom times:3,size:184
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] oom times:3,size:160
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:11 11316864] [E] [awtk] out of memory
+
+[11-4 17:48:13 11317031] [I] oops sta 0
+
+[11-4 17:48:13 11317041] [I] [page_home] use default home click hook
+
+[11-4 17:48:22 11318002] [I] tp_power_off
+
+[11-4 17:48:23 11318075] [I] menu click enter 24
+
+[11-4 17:48:23 11318078] [I] action_hrm_init
+
+[11-4 17:48:23 11318081] [I] XINLI driver
+
+[11-4 17:48:23 11318097] [I] tp_power_on
+
+[11-4 17:48:23 11318101] [I] tp reset
+
+[11-4 17:48:25 11318244] [I] [hrm]unweared:3775
+
+[11-4 17:48:25 11318261] [I] action_hrm_measure_timeout
+
+[11-4 17:48:25 11318262] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:48:26 11318390] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:48:40 11319765] [I] oops sta 0
+
+[11-4 17:48:40 11319792] [I] [page_home] use default home click hook
+
+[11-4 17:48:50 11320753] [I] tp_power_off
+
+[11-4 17:48:50 11320830] [I] menu click enter 24
+
+[11-4 17:48:50 11320833] [I] action_hrm_init
+
+[11-4 17:48:50 11320836] [I] XINLI driver
+
+[11-4 17:48:51 11320852] [I] tp_power_on
+
+[11-4 17:48:51 11320856] [I] tp reset
+
+[11-4 17:48:52 11320999] [I] [hrm]unweared:3776
+
+[11-4 17:48:53 11321061] [I] action_hrm_measure_timeout
+
+[11-4 17:48:53 11321061] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:48:54 11321145] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:49:0 11321757] [I] ram:[64336, 633280], b:45, s:0
+
+[11-4 17:49:0 11321761] [I] [h_log]m:0, step:0, hm:[1, 0, 1, 600, 290013], wrist:3, cal:0, dist:0, a:[0, 0, 0, 1452, 100]
+
+[11-4 17:49:6 11322364] [I] oops sta 0
+
+[11-4 17:49:6 11322374] [I] [page_home] use default home click hook
+
+[11-4 17:49:15 11323335] [I] tp_power_off
+
+[11-4 17:49:16 11323380] [I] menu click enter 24
+
+[11-4 17:49:16 11323383] [I] action_hrm_init
+
+[11-4 17:49:16 11323386] [I] XINLI driver
+
+[11-4 17:49:16 11323402] [I] tp_power_on
+
+[11-4 17:49:16 11323406] [I] tp reset
+
+[11-4 17:49:18 11323549] [I] [hrm]unweared:3777
+
+[11-4 17:49:18 11323561] [I] action_hrm_measure_timeout
+
+[11-4 17:49:18 11323561] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:49:19 11323695] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:49:31 11324902] [I] oops sta 0
+
+[11-4 17:49:31 11324912] [I] [page_home] use default home click hook
+
+[11-4 17:49:41 11325873] [I] tp_power_off
+
+[11-4 17:49:42 11325958] [I] menu click enter 24
+
+[11-4 17:49:42 11325961] [I] action_hrm_init
+
+[11-4 17:49:42 11325964] [I] XINLI driver
+
+[11-4 17:49:42 11325980] [I] tp_power_on
+
+[11-4 17:49:42 11325985] [I] tp reset
+
+[11-4 17:49:43 11326127] [I] [hrm]unweared:3778
+
+[11-4 17:49:44 11326161] [I] action_hrm_measure_timeout
+
+[11-4 17:49:44 11326161] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:49:45 11326273] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:49:58 11327564] [I] oops sta 0
+
+[11-4 17:49:58 11327574] [I] [page_home] use default home click hook
+
+[11-4 17:50:0 11327757] [I] ram:[61432, 603444], b:45, s:0
+
+[11-4 17:50:7 11328535] [I] tp_power_off
+
+[11-4 17:50:9 11328694] [I] menu click enter 24
+
+[11-4 17:50:9 11328697] [I] action_hrm_init
+
+[11-4 17:50:9 11328700] [I] XINLI driver
+
+[11-4 17:50:9 11328716] [I] tp_power_on
+
+[11-4 17:50:9 11328721] [I] tp reset
+
+[11-4 17:50:11 11328863] [I] [hrm]unweared:3779
+
+[11-4 17:50:12 11328961] [I] action_hrm_measure_timeout
+
+[11-4 17:50:12 11328961] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:50:12 11329009] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:50:24 11330226] [I] oops sta 0
+
+[11-4 17:50:24 11330236] [I] [page_home] use default home click hook
+
+[11-4 17:50:34 11331197] [I] tp_power_off
+
+[11-4 17:50:35 11331294] [I] menu click enter 24
+
+[11-4 17:50:35 11331297] [I] action_hrm_init
+
+[11-4 17:50:35 11331300] [I] XINLI driver
+
+[11-4 17:50:35 11331316] [I] tp_power_on
+
+[11-4 17:50:35 11331320] [I] tp reset
+
+[11-4 17:50:37 11331463] [I] [hrm]unweared:3780
+
+[11-4 17:50:38 11331561] [I] action_hrm_measure_timeout
+
+[11-4 17:50:38 11331561] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:50:38 11331609] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:50:52 11332968] [I] oops sta 0
+
+[11-4 17:50:52 11332978] [I] [page_home] use default home click hook
+
+[11-4 17:51:0 11333857] [I] ram:[61432, 602640], b:45, s:0
+
+[11-4 17:51:1 11333939] [I] tp_power_off
+
+[11-4 17:51:3 11334117] [I] menu click enter 24
+
+[11-4 17:51:3 11334120] [I] action_hrm_init
+
+[11-4 17:51:3 11334123] [I] XINLI driver
+
+[11-4 17:51:3 11334139] [I] tp_power_on
+
+[11-4 17:51:3 11334144] [I] tp reset
+
+[11-4 17:51:5 11334286] [I] [hrm]unweared:3781
+
+[11-4 17:51:5 11334362] [E] [awtk] oom times:3,size:208
+
+[11-4 17:51:5 11334363] [E] [awtk] out of memory
+
+[11-4 17:51:5 11334363] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334363] [E] [awtk] oom times:3,size:208
+
+[11-4 17:51:6 11334363] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334363] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334440] [E] [awtk] oom times:3,size:208
+
+[11-4 17:51:6 11334441] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334441] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334442] [E] [awtk] oom times:3,size:208
+
+[11-4 17:51:6 11334442] [E] [awtk] out of memory
+
+[11-4 17:51:6 11334442] [E] [awtk] out of memory
+
+[11-4 17:51:7 11334560] [I] action_hrm_measure_timeout
+
+[11-4 17:51:7 11334561] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:51:8 11334572] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:51:19 11335764] [I] tp_power_off
+
+[11-4 17:52:0 11339857] [I] ram:[64336, 627376], b:45, s:0
+
+[11-4 17:52:6 11340393] [E] [awtk] oom times:3,size:208
+
+[11-4 17:52:6 11340394] [E] [awtk] out of memory
+
+[11-4 17:52:6 11340394] [E] [awtk] out of memory
+
+[11-4 17:52:6 11340395] [E] [awtk] oom times:3,size:208
+
+[11-4 17:52:6 11340395] [E] [awtk] out of memory
+
+[11-4 17:52:6 11340395] [E] [awtk] out of memory
+
+[11-4 17:52:7 11340500] [E] [awtk] oom times:3,size:208
+
+[11-4 17:52:7 11340501] [E] [awtk] out of memory
+
+[11-4 17:52:7 11340501] [E] [awtk] out of memory
+
+[11-4 17:52:7 11340502] [E] [awtk] oom times:3,size:208
+
+[11-4 17:52:7 11340502] [E] [awtk] out of memory
+
+[11-4 17:52:7 11340502] [E] [awtk] out of memory
+
+[11-4 17:52:7 11340524] [I] XINLI driver
+
+[11-4 17:52:7 11340539] [I] tp_power_on
+
+[11-4 17:52:7 11340543] [I] tp reset
+
+[11-4 17:52:8 11340657] [I] oops sta 0
+
+[11-4 17:52:9 11340667] [I] [page_home] use default home click hook
+
+[11-4 17:52:10 11340833] [I] oops sta 0
+
+[11-4 17:52:11 11340874] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:11 11340879] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:52:11 11340879] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:11 11340879] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:52:11 11340879] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:11 11340880] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:12 11340995] [I] oops sta 0
+
+[11-4 17:52:12 11341019] [E] [display_te] te0 timeout
+
+[11-4 17:52:14 11341212] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:14 11341212] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:52:14 11341212] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:14 11341213] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:52:14 11341213] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:14 11341213] [I] [plugin init] plugin type invalid
+
+[11-4 17:52:24 11342216] [I] tp_power_off
+
+[11-4 17:52:25 11342290] [I] menu click enter 24
+
+[11-4 17:52:25 11342293] [E] [awtk] oom times:3,size:144
+
+[11-4 17:52:25 11342296] [I] action_hrm_init
+
+[11-4 17:52:25 11342298] [I] XINLI driver
+
+[11-4 17:52:25 11342314] [I] tp_power_on
+
+[11-4 17:52:25 11342318] [I] tp reset
+
+[11-4 17:52:26 11342461] [I] [hrm]unweared:3782
+
+[11-4 17:52:26 11342461] [I] action_hrm_measure_timeout
+
+[11-4 17:52:26 11342462] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:52:27 11342513] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342514] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:27 11342514] [E] [awtk] out of memory
+
+[11-4 17:52:27 11342515] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342609] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:52:28 11342663] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:28 11342663] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342663] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342663] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:28 11342663] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342663] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:28 11342664] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343814] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:184
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343815] [E] [awtk] oom times:3,size:160
+
+[11-4 17:52:40 11343815] [E] [awtk] out of memory
+
+[11-4 17:52:40 11343816] [E] [awtk] out of memory
+
+[11-4 17:52:42 11343994] [I] oops sta 0
+
+[11-4 17:52:42 11344004] [I] [page_home] use default home click hook
+
+[11-4 17:52:51 11344965] [I] tp_power_off
+
+[11-4 17:52:52 11345067] [I] menu click enter 24
+
+[11-4 17:52:52 11345070] [I] action_hrm_init
+
+[11-4 17:52:53 11345074] [I] XINLI driver
+
+[11-4 17:52:53 11345089] [I] tp_power_on
+
+[11-4 17:52:53 11345093] [I] tp reset
+
+[11-4 17:52:54 11345236] [I] [hrm]unweared:3783
+
+[11-4 17:52:54 11345261] [I] action_hrm_measure_timeout
+
+[11-4 17:52:54 11345262] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:52:56 11345382] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:53:0 11345866] [I] ram:[64336, 633244], b:45, s:0
+
+[11-4 17:53:6 11346431] [E] [awtk] oom times:3,size:208
+
+[11-4 17:53:6 11346432] [E] [awtk] out of memory
+
+[11-4 17:53:6 11346432] [E] [awtk] out of memory
+
+[11-4 17:53:6 11346433] [E] [awtk] oom times:3,size:208
+
+[11-4 17:53:6 11346433] [E] [awtk] out of memory
+
+[11-4 17:53:6 11346433] [E] [awtk] out of memory
+
+[11-4 17:53:7 11346538] [E] [awtk] oom times:3,size:208
+
+[11-4 17:53:7 11346538] [E] [awtk] out of memory
+
+[11-4 17:53:7 11346538] [E] [awtk] out of memory
+
+[11-4 17:53:7 11346539] [E] [awtk] oom times:3,size:208
+
+[11-4 17:53:7 11346539] [E] [awtk] out of memory
+
+[11-4 17:53:7 11346540] [E] [awtk] out of memory
+
+[11-4 17:53:7 11346572] [I] tp_power_off
+
+[11-4 17:53:8 11346619] [I] XINLI driver
+
+[11-4 17:53:8 11346633] [I] tp_power_on
+
+[11-4 17:53:8 11346637] [I] tp reset
+
+[11-4 17:53:9 11346718] [E] [display_te] te0 timeout
+
+[11-4 17:53:9 11346722] [I] oops sta 0
+
+[11-4 17:53:9 11346732] [I] [page_home] use default home click hook
+
+[11-4 17:53:11 11346898] [E] [display_te] te0 timeout
+
+[11-4 17:53:19 11347693] [I] tp_power_off
+
+[11-4 17:53:20 11347778] [I] menu click enter 24
+
+[11-4 17:53:20 11347782] [I] action_hrm_init
+
+[11-4 17:53:20 11347783] [E] [awtk] oom times:3,size:96
+
+[11-4 17:53:20 11347786] [I] XINLI driver
+
+[11-4 17:53:20 11347802] [I] tp_power_on
+
+[11-4 17:53:20 11347806] [I] tp reset
+
+[11-4 17:53:21 11347949] [I] [hrm]unweared:3784
+
+[11-4 17:53:21 11347961] [I] action_hrm_measure_timeout
+
+[11-4 17:53:21 11347962] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:53:22 11348013] [E] [awtk] oom times:3,size:184
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348014] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348014] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] oom times:3,size:104
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:22 11348015] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348095] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:53:23 11348149] [E] [awtk] oom times:3,size:184
+
+[11-4 17:53:23 11348149] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348149] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:23 11348150] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:184
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349300] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349301] [E] [awtk] oom times:3,size:160
+
+[11-4 17:53:35 11349301] [E] [awtk] out of memory
+
+[11-4 17:53:35 11349301] [E] [awtk] out of memory
+
+[11-4 17:53:37 11349554] [I] oops sta 0
+
+[11-4 17:53:37 11349564] [I] [page_home] use default home click hook
+
+[11-4 17:53:47 11350525] [I] tp_power_off
+
+[11-4 17:53:48 11350651] [I] menu click enter 24
+
+[11-4 17:53:48 11350654] [I] action_hrm_init
+
+[11-4 17:53:48 11350657] [I] XINLI driver
+
+[11-4 17:53:48 11350673] [I] tp_power_on
+
+[11-4 17:53:48 11350677] [I] tp reset
+
+[11-4 17:53:50 11350820] [I] [hrm]unweared:3785
+
+[11-4 17:53:50 11350861] [I] action_hrm_measure_timeout
+
+[11-4 17:53:50 11350862] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:53:51 11350966] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:54:0 11351877] [I] ram:[64336, 633412], b:45, s:0
+
+[11-4 17:54:4 11352245] [I] oops sta 0
+
+[11-4 17:54:4 11352272] [I] [page_home] use default home click hook
+
+[11-4 17:54:14 11353233] [I] tp_power_off
+
+[11-4 17:54:15 11353306] [I] menu click enter 24
+
+[11-4 17:54:15 11353310] [I] action_hrm_init
+
+[11-4 17:54:15 11353312] [I] XINLI driver
+
+[11-4 17:54:15 11353328] [I] tp_power_on
+
+[11-4 17:54:15 11353332] [I] tp reset
+
+[11-4 17:54:16 11353475] [I] [hrm]unweared:3786
+
+[11-4 17:54:17 11353561] [I] action_hrm_measure_timeout
+
+[11-4 17:54:17 11353561] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:54:18 11353621] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:54:30 11354862] [I] oops sta 0
+
+[11-4 17:54:30 11354872] [I] [page_home] use default home click hook
+
+[11-4 17:54:40 11355833] [I] tp_power_off
+
+[11-4 17:54:41 11355958] [I] menu click enter 24
+
+[11-4 17:54:41 11355962] [I] action_hrm_init
+
+[11-4 17:54:41 11355964] [I] XINLI driver
+
+[11-4 17:54:41 11355981] [I] tp_power_on
+
+[11-4 17:54:41 11355985] [I] tp reset
+
+[11-4 17:54:43 11356127] [I] [hrm]unweared:3787
+
+[11-4 17:54:43 11356161] [I] action_hrm_measure_timeout
+
+[11-4 17:54:43 11356161] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:54:44 11356273] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:54:57 11357498] [I] oops sta 0
+
+[11-4 17:54:57 11357508] [I] [page_home] use default home click hook
+
+[11-4 17:55:0 11357888] [I] ram:[61432, 603904], b:45, s:0
+
+[11-4 17:55:6 11358469] [I] tp_power_off
+
+[11-4 17:55:7 11358577] [I] menu click enter 24
+
+[11-4 17:55:7 11358581] [I] action_hrm_init
+
+[11-4 17:55:7 11358583] [I] XINLI driver
+
+[11-4 17:55:8 11358599] [I] tp_power_on
+
+[11-4 17:55:8 11358604] [I] tp reset
+
+[11-4 17:55:9 11358746] [I] [hrm]unweared:3788
+
+[11-4 17:55:9 11358761] [I] action_hrm_measure_timeout
+
+[11-4 17:55:9 11358761] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:55:10 11358892] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:55:23 11360153] [I] oops sta 0
+
+[11-4 17:55:23 11360163] [I] [page_home] use default home click hook
+
+[11-4 17:55:33 11361124] [I] tp_power_off
+
+[11-4 17:55:34 11361255] [I] menu click enter 24
+
+[11-4 17:55:34 11361259] [I] action_hrm_init
+
+[11-4 17:55:34 11361261] [I] XINLI driver
+
+[11-4 17:55:34 11361277] [I] tp_power_on
+
+[11-4 17:55:34 11361281] [I] tp reset
+
+[11-4 17:55:36 11361424] [I] [hrm]unweared:3789
+
+[11-4 17:55:36 11361461] [I] action_hrm_measure_timeout
+
+[11-4 17:55:36 11361461] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:55:37 11361570] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:55:51 11362924] [I] oops sta 0
+
+[11-4 17:55:51 11362934] [I] [page_home] use default home click hook
+
+[11-4 17:56:0 11363888] [I] ram:[61432, 603904], b:45, s:0
+
+[11-4 17:56:0 11363895] [I] tp_power_off
+
+[11-4 17:56:2 11364029] [I] menu click enter 24
+
+[11-4 17:56:2 11364032] [I] action_hrm_init
+
+[11-4 17:56:2 11364036] [I] XINLI driver
+
+[11-4 17:56:2 11364051] [I] tp_power_on
+
+[11-4 17:56:2 11364056] [I] tp reset
+
+[11-4 17:56:2 11364089] [E] [awtk] oom times:3,size:272
+
+[11-4 17:56:2 11364090] [E] [awtk] out of memory
+
+[11-4 17:56:2 11364090] [E] [awtk] out of memory
+
+[11-4 17:56:3 11364198] [I] [hrm]unweared:3790
+
+[11-4 17:56:4 11364261] [I] action_hrm_measure_timeout
+
+[11-4 17:56:4 11364262] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:56:5 11364342] [E] [awtk] oom times:3,size:184
+
+[11-4 17:56:5 11364342] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364342] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364342] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364342] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364342] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364342] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [EE] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364343] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] oom times:3,size:104
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364344] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364391] [E] [awtk] oom times:3,size:272
+
+[11-4 17:56:5 11364391] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364391] [E] [awtk] out of memory
+
+[11-4 17:56:5 11364402] [I] HRM_MANUAL, sstd:0, sport:0, min:0, max:0, output:0
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:184
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364506] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364507] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364507] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:6 11364507] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365394] [E] [awtk] oom times:3,size:184
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] oom times:3,size:160
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:15 11365395] [E] [awtk] out of memory
+
+[11-4 17:56:17 11365586] [I] oops sta 0
+
+[11-4 17:56:17 11365596] [I] [page_home] use default home click hook
+
+[11-4 17:56:27 11366557] [I] tp_power_off
+
+[11-4 17:56:29 11366757] [I] menu click enter 24
+
+[11-4 17:56:29 11366760] [E] [awtk] oom times:3,size:144
+
+[11-4 17:56:29 11366761] [E] [awtk] out of memory
+
+[11-4 17:56:29 11366761] [E] [awtk] out of memory
+
+[11-4 17:56:29 11366761] [E] [awtk] oom times:3,size:128
+
+[11-4 17:56:29 11366761] [E] [awtk] out of memory
+
+[11-4 17:56:29 11366761] [E] [awtk] out of memory
+
+[11-4 17:56:29 11366762] [E] [heyos_page_hrm_enter] lookup error, widget not exist, i = 9
+
+[11-4 17:56:29 11366762] [I] action_hrm_init
+
+[11-4 17:56:30 0] [I] HEYOS build/* Nov  2 2021 *\ 
+
+[11-4 17:56:30 0] [I] health info check:440, sum:440, pass:1
+
+[11-4 17:56:30 0] [I] weather info check:709, sum:709, pass:1
+
+[11-4 17:56:30 0] [I] SW Power-On reset or AIRCR reset!
+
+[11-4 17:56:30 0] [I] [no_init] abnormal reset
+
+[11-4 17:56:30 0] [I] soft_reset:1, sHalResetStatus:0x8
+
+[11-4 17:56:30 0] [I] [no_init] oops st:0, rebootTimes:2, last_sync_utc:1546300800, step:0, calorie:0, distance:0
+
+[11-4 17:56:32 200] [I] [charger_input_set_to_4V52] Before set REG00 = 0x8f
+
+[11-4 17:56:32 202] [I] [charger_input_set_to_4V52] After set REG00 = 0x8f
+
+[11-4 17:56:32 202] [I] [mp2662_dev_init]mp2662 reg07 set = 0x79
+
+[11-4 17:56:32 202] [I] [charger] Before NTC_DISABLE REG06 = 0x4e
+
+[11-4 17:56:32 204] [I] [charger] After NTC_DISABLE REG06 = 0x4e
+
+[11-4 17:56:32 204] [I] [charger] charger internal NTC disable successfully
+
+[11-4 17:56:32 205] [I] 2Gb Nand init
+
+[11-4 17:56:32 207] [I] [DHARA] capacity: 45040
+
+[11-4 17:56:32 207] [I] [DHARA] allocated: 14627
+
+[11-4 17:56:32 207] [I] [service_device_profile_init] Device Profile Init Done.
+
+[11-4 17:56:32 208] [I] =============General Profile V2 ===========
+
+[11-4 17:56:32 208] [I] model: ryeex.watch.baileys.v1
+
+[11-4 17:56:32 208] [I] did: 1515022
+
+[11-4 17:56:32 208] [I] mac: 2c:aa:8e:09:d3:30
+
+[11-4 17:56:32 208] [I] sn: D1D1000761
+
+[11-4 17:56:32 208] [I] product id: 6
+
+[11-4 17:56:32 208] [I] =======================================
+
+
+[11-4 17:56:32 208] [I] =============Usr Profile===========
+
+[11-4 17:56:32 208] [I] version: 3
+
+[11-4 17:56:32 208] [I] gender: 1
+
+[11-4 17:56:32 208] [I] id: 0
+
+[11-4 17:56:32 208] [I] nickname: 
+
+[11-4 17:56:32 208] [I] birthday: 1995.01.01
+
+[11-4 17:56:32 208] [I] age: 25
+
+[11-4 17:56:32 208] [I] height: 175
+
+[11-4 17:56:32 208] [I] weight: 130
+
+[11-4 17:56:32 208] [I] wear_hand: 1
+
+[11-4 17:56:32 208] [I] sport_list_count:           10
+sport_num: [1, 2, 4, 5, 3, 6, 7, 21, 15, 23]
+
+[11-4 17:56:32 208] [I] app_list_count:             15
+
+[11-4 17:56:32 208] [I] app_num: [0] = 19
+
+[11-4 17:56:32 208] [I] app_num: [1] = 3
+
+[11-4 17:56:32 208] [I] app_num: [2] = 4
+
+[11-4 17:56:32 208] [I] app_num: [3] = 18
+
+[11-4 17:56:32 208] [I] app_num: [4] = 2
+
+[11-4 17:56:32 208] [I] app_num: [5] = 20
+
+[11-4 17:56:32 208] [I] app_num: [6] = 21
+
+[11-4 17:56:32 208] [I] app_num: [7] = 8
+
+[11-4 17:56:32 208] [I] app_num: [8] = 5
+
+[11-4 17:56:32 208] [I] app_num: [9] = 25
+
+[11-4 17:56:32 208] [I] app_num: [10] = 9
+
+[11-4 17:56:32 208] [I] app_num: [11] = 23
+
+[11-4 17:56:32 208] [I] app_num: [12] = 24
+
+[11-4 17:56:32 208] [I] app_num: [13] = 12
+
+[11-4 17:56:32 208] [I] app_num: [14] = 7
+
+[11-4 17:56:32 208] [I] =======================================
+
+
+[11-4 17:56:32 208] [I] [binding_profile_init] Profile load.
+
+[11-4 17:56:32 208] [I] [binding profile] Load from backup-for trace.
+
+[11-4 17:56:32 208] [I] backup bind_status: 1
+
+[11-4 17:56:32 208] [I] backup device_sn:   1
+
+[11-4 17:56:32 208] [I] backup server_sn:   0
+
+[11-4 17:56:32 208] [I] backup profile_ver: 1
+
+[11-4 17:56:32 208] [I] backup token: 9e ad fc 16 79 53 a2 3b 41 34
+
+[11-4 17:56:32 208] [I] =============Binding Profile===========
+
+[11-4 17:56:32 208] [I] version: 1
+
+[11-4 17:56:32 208] [I] bind_status: 1
+
+[11-4 17:56:32 208] [I] device_sn: 1
+
+[11-4 17:56:32 208] [I] server_sn: 0
+
+[11-4 17:56:32 208] [I] =======================================
+
+
+[11-4 17:56:32 208] [I] [regulation_profile_init] Profile load.
+
+[11-4 17:56:32 208] [I] =============Regular Profile===========
+
+[11-4 17:56:32 208] [I] magic: 0x20210115
+
+[11-4 17:56:32 208] [I] info_count: 20
+
+[11-4 17:56:32 208] [I] key: BIS, value: XXX-XXX-XXX
+
+[11-4 17:56:32 208] [I] key: NCC, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: SDPPI, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: PLG, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: NTC, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: SIRIM, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: IMDA, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: RCM, value: 
+
+[11-4 17:56:32 209] [I] key: CE, value: 
+
+[11-4 17:56:32 209] [I] key: WEEE, value: 
+
+[11-4 17:56:32 209] [I] key: EAC, value: 
+
+[11-4 17:56:32 209] [I] key: TEC, value: 
+
+[11-4 17:56:32 209] [I] key: CMIM, value: 
+
+[11-4 17:56:32 209] [I] key: NOM, value: 
+
+[11-4 17:56:32 209] [I] key: FCC, value: 
+
+[11-4 17:56:32 209] [I] key: SRRC, value: 
+
+[11-4 17:56:32 209] [I] key: MIC, value: 
+
+[11-4 17:56:32 209] [I] key: KC, value: 
+
+[11-4 17:56:32 209] [I] key: ANATEL, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] key: IFT, value: XXX-XXX-XXX
+
+[11-4 17:56:32 209] [I] =======================================
+
+
+[11-4 17:56:32 209] [I] =============System Profile===========
+
+[11-4 17:56:32 209] [I] hw version:                 2.0
+
+[11-4 17:56:32 209] [I] fw version:                 0.1.34.11102
+
+[11-4 17:56:32 209] [I] language:                   Simplified Chinese
+
+[11-4 17:56:32 209] [I] dual_time_zone_mode:        0
+
+[11-4 17:56:32 209] [I] system_timezone:            CST
+
+[11-4 17:56:32 209] [I] system_timezone_deviation:  28800
+
+[11-4 17:56:32 209] [I] second_timezone:            
+
+[11-4 17:56:32 209] [I] second_timezone_deviation:  0
+
+[11-4 17:56:32 209] [I] battery:                    45
+
+[11-4 17:56:32 209] [I] last_charge_time:           0
+
+[11-4 17:56:32 209] [I] lcd_id:                     00000000
+
+[11-4 17:56:32 209] [I] oops status:                0
+
+[11-4 17:56:32 209] [I] dnd_mode:                   0
+
+[11-4 17:56:32 209] [I] dnd_smart_mode:             0
+
+[11-4 17:56:32 209] [I] dnd_schedule_mode:          0
+start_time:1320 stop_time:          420
+
+[11-4 17:56:32 209] [I] bright_level:               40
+
+[11-4 17:56:32 209] [I] debug_mode:                 0
+
+[11-4 17:56:32 209] [I] raise_to_wake_mode:         1
+
+[11-4 17:56:32 209] [I] status_bar_battery:         0
+
+[11-4 17:56:32 209] [I] status_bar_connecting:      0
+
+[11-4 17:56:32 209] [I] night_mode:                 0
+
+[11-4 17:56:32 209] [I] night_mode_start_time:      0
+
+[11-4 17:56:32 209] [I] night_mode_stop_time:       0
+
+[11-4 17:56:32 209] [I] longsit_mode:1 freq_time:  60
+start_time:480 stop_time:       1140
+
+[11-4 17:56:32 209] [I] longsit_noon_mode:          1
+start_time:720 stop_time:      840
+
+[11-4 17:56:32 209] [I] drink_mode:1 freq_time:    90
+start_time:480 stop_time:     1140
+
+[11-4 17:56:32 209] [I] drink_noon_mode:            1
+start_time:720 stop_time:    840
+
+[11-4 17:56:32 209] [I] notification_mode:          0
+
+[11-4 17:56:32 209] [I] step_goal_achieve_mode:     1
+
+[11-4 17:56:32 209] [I] step_goal:                  8000
+
+[11-4 17:56:32 209] [I] unlock_mode:                0
+
+[11-4 17:56:32 209] [I] app_view:                   0
+
+[11-4 17:56:32 209] [I] peer_mobile_type:           1
+
+[11-4 17:56:32 209] [I] target_calories_goal:       300
+
+[11-4 17:56:32 209] [I] sports_duration_goal:       30
+
+[11-4 17:56:32 209] [I] screen_always_on_enable:    0
+
+[11-4 17:56:32 209] [I] screen_always_on_mode:      0
+
+[11-4 17:56:32 209] [I] screen_always_on_start_time:480
+
+[11-4 17:56:32 209] [I] screen_always_on_end_time:  1200
+
+[11-4 17:56:32 209] [I] =======================================
+
+
+[11-4 17:56:33 314] [I] tp_power_on
+
+[11-4 17:56:33 318] [I] tp reset
+
+[11-4 17:56:33 318] [I] tp info init
+
+[11-4 17:56:33 318] [I] tp send HID cmd
+
+[11-4 17:56:33 318] [I] tp send HID cmd
+
+[11-4 17:56:33 318] [I] send cmd id: 0x3b
+
+[11-4 17:56:33 319] [I] tp send HID cmd
+
+[11-4 17:56:33 319] [E] i2c wirte fail, status:0x8000002, len:2
+
+[11-4 17:56:33 319] [I] send cmd id: 0x3b
+
+[11-4 17:56:33 320] [I] tp send HID cmd
+
+[11-4 17:56:33 320] [I] send cmd id: 0x2
+
+[11-4 17:56:33 321] [I] send cmd id: 0x3
+
+[11-4 17:56:33 322] [I] send cmd id: 0x20
+
+[11-4 17:56:33 322] [I] send cmd id: 0x22
+
+[11-4 17:56:33 323] [I] tp id info: 0x32-0xb6-0x35
+
+[11-4 17:56:33 326] [I] send cmd id: 0x4
+
+[11-4 17:56:33 326] [I] tp upgrade file: /res/TP/xinli_tp.bin
+
+[11-4 17:56:33 326] [I] tp upgrade file is not exist!
+
+[11-4 17:56:33 326] [I] status: 2, tp fw load from file fail!
+
+[11-4 17:56:33 326] [I] tp no need upgrade
+
+[11-4 17:56:33 326] [I] tp info deinit!
+
+[11-4 17:56:33 326] [I] [r_xfer_thread] Enter.
+
+[11-4 17:56:34 328] [I] retrive token, 00 00 00 00 00 00 00 00 00 00
+
+[11-4 17:56:34 328] [I] mible token read. len = 44
+
+[11-4 17:56:34 328] [I] Token match. continue..
+
+[11-4 17:56:34 328] [I] retrive token, 9e ad fc 16 79 53 a2 3b 41 34
+
+[11-4 17:56:35 510] [I] [service_ryeex_gap_callback] Ble init Done. 
+
+[11-4 17:56:36 536] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 536] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 537] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 537] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 537] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 538] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 547] [E] [normal_item_parse 1130] Invalid data_type. 0!!
+
+[11-4 17:56:36 547] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-4 17:56:36 548] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-4 17:56:36 548] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-4 17:56:36 548] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-4 17:56:36 552] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[11-4 17:56:36 555] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-4 17:56:36 555] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-4 17:56:36 555] [E] [circle_item_parse 485] circle center x parse failed!!!
+
+[11-4 17:56:36 558] [E] [image_item_parse 169] img bgcolor parse failed!!!
+
+[31m[11366762] E/cmb: 
+[0m[31m[11366762] E/cmb: Firmware name: baileys, hardware version: 1.0, software version: 1.0
+[0m[31m[11366762] E/cmb: Fault on thread heyUI
+[0m[31m[11366762] E/cmb: ===== Thread stack information =====
+[0m[31m[11366762] E/cmb: ====================================
+[0m[31m[11366762] E/cmb: =================== Registers information ====================
+[0m[31m[11366762] E/cmb:   R0 : 00000000  R1 : 00000000  R2 : 000001d4  R3 : 00000000
+[0m[31m[11366762] E/cmb:   R12: 00000184  LR : 0009e2c5  PC : 0008f5ca  PSR: 61000000
+[0m[31m[11366762] E/cmb: ==============================================================
+[0m[31m[11366762] E/cmb: Bus fault is caused by precise data access violation
+[0m[31m[11366762] E/cmb: The bus fault occurred address is 00000024
+[0m[31m[11366762] E/cmb: Show more call stack info by run: addr2line -e baileys.axf -a -f 0008f5ca 0009e2c4 0007290c 000919d2 000d1d64 000b5b14 000cd124 000a8b04 000b277a 000e184e 000b275c 0011959a 001196ba 0011961c 00119572 0011963c 0011967e 000a51d6 0011961c 00098068 00119572 0011963c 0011967e 000a1d9e 0011961c 000868a0 00119f7c 00119572 0011963c 0011967e 0008691c 0011961c 00119572 0011963c 0011967e 0011961c 00119572 0011963c 0011967e 00119572 0011963c 0011967e 000b0a36 000b0bb4 00119572 000dddea 0011
+[0m[31m[11366762] E/cmb: Current system tick: 11366762
+[0m[11-4 17:56:36 574] [I] hrm_curve, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+[11-4 17:56:36 574] [I] [sport_record_dump] total_cnt:0
+
+[11-4 17:56:36 577] [I] [step]0, id:0, t:1635958800, para:14, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]1, id:1, t:1635962400, para:15, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]2, id:2, t:1635966001, para:16, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]3, id:3, t:1635969600, para:17, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]4, id:4, t:1635973201, para:18, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]5, id:5, t:1635976800, para:19, step:0, total:0, today:1
+
+[11-4 17:56:36 577] [I] [step]6, id:6, t:1635980400, para:20, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]7, id:7, t:1635984000, para:21, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]8, id:8, t:1635987600, para:22, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]9, id:9, t:1635991200, para:23, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]10, id:10, t:1635994800, para:24, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]11, id:11, t:1635998400, para:25, step:0, total:0, today:1
+
+[11-4 17:56:36 578] [I] [step]12, id:12, t:1636002000, para:26, step:0, total:0, today:1
+
+[11-4 17:56:36 579] [I] [step]13, id:13, t:1636005600, para:27, step:0, total:0, today:1
+
+[11-4 17:56:36 579] [I] [step]14, id:14, t:1636009200, para:28, step:0, total:0, today:1
+
+[11-4 17:56:36 579] [I] [step]15, id:15, t:1636012800, para:29, step:0, total:0, today:1
+
+[11-4 17:56:36 579] [I] [step]16, id:16, t:1636016400, para:30, step:0, total:0, today:1
+
+[11-4 17:56:36 582] [I] [offline_data] file_hexstr, lengh:0, contents:
+
+
+lines:1
+
+[11-4 17:56:36 582] [I] [sleep_summary] start:rd/sleep.data, end:.data, total:0, awake:0, light:0, deep:0, rem:0, cnt:0
+
+[11-4 17:56:36 582] [I] [health_rec_health_evt]: sleep update ui
+
+[11-4 17:56:36 585] [I] [service_sport] Init done
+
+[11-4 17:56:36 586] [I] load notify 0
+
+[11-4 17:56:36 586] [E] [svc weather] init OK
+
+[11-4 17:56:36 586] [I] oops sta 0
+
+[11-4 17:56:36 586] [I] ram:[64720, 973184], b:45, s:0
+
+[11-4 17:56:37 644] [I] [anim_nand] ver.3
+
+[11-4 17:56:37 651] [I] XINLI driver
+
+[11-4 17:56:37 686] [I] [wrkt] drink reset
+
+[11-4 17:56:37 707] [I] [awtk_oom] hook initialized!
+
+[11-4 17:56:37 707] [I] [heyos_page_root_enter] brightness_set 40
+
+[11-4 17:56:37 708] [I] oops sta 0
+
+[11-4 17:56:38 759] [I] [lang module] language 0:zh-CN
+
+[11-4 17:56:38 764] [I] language change
+
+[11-4 17:56:38 764] [I] [lang change] startup, ignore.
+
+[11-4 17:56:38 764] [I] oops sta 0
+
+[11-4 17:56:38 764] [I] [m_face] preview cnt:6 
+
+[11-4 17:56:38 764] [I] [m_face] uid:1, preview image:watchface_1/preview/dev 
+
+[11-4 17:56:38 764] [I] [m_face] uid:2, preview image:watchface_2/preview/dev 
+
+[11-4 17:56:38 764] [I] [m_face] uid:3, preview image:watchface_3/preview/dev 
+
+[11-4 17:56:38 764] [I] [m_face] uid:4, preview image:watchface_4/preview/dev 
+
+[11-4 17:56:38 764] [I] [m_face] uid:5, preview image:watchface_5/preview/dev 
+
+[11-4 17:56:38 764] [I] [m_face] uid:6, preview image:watchface_6/preview/dev 
+
+[11-4 17:56:38 799] [I] alarm evt 0x10
+
+[11-4 17:56:38 799] [I] recent timer is null
+
+[11-4 17:56:38 799] [I] [get_alarm] fail
+
+[11-4 17:56:41 1042] [I] [slp] sleep_enable:1, mode:0, sleep_now:0, sleep_last:0, sstd:108
+
+[11-4 17:56:42 1209] [I] [ss_batt_restore] stored_batt_percent_last:45%
+
+[11-4 17:56:42 1209] [I] [ss_batt_restore] restore percent 45%
+
+[11-4 17:56:46 1557] [I] [page_refresh_sport_infor] get sport num:10
+
+[11-4 17:56:46 1557] [I] [sport checksum] 0x1e8648e7
+
+[11-4 17:56:46 1590] [E] weatehr future is invalid
+
+[11-4 17:56:46 1590] [E] [sleep] no data, skip
+
+[11-4 17:56:47 1673] [I] cache begin: checksum=0x22b003b9 
+
+[11-4 17:56:47 1673] [I] [crt]:14, 0xe5e0000
+
+[11-4 17:56:47 1673] [I] [cache]20, 0xe5e0000, len:329728, w:368, h:448
+
+[11-4 17:56:47 1688] [I] creat id 14, end addr 0xe680000
+
+[11-4 17:56:52 2142] [I] [setting checksum] 0x1
+
+[11-4 17:56:53 2293] [I] [setting checksum] 0x7
+
+[11-4 17:56:56 2595] [I] [setting checksum] 0x2d
+
+[11-4 17:56:56 2612] [I] [set subpage]refres page setting_battery
+
+[11-4 17:56:56 2612] [I] [setting checksum] 0x2d
+
+[11-4 17:56:57 2651] [I] cache begin: checksum=0x0000002d 
+
+[11-4 17:56:57 2651] [I] [crt]:20, 0xe8a0000
+
+[11-4 17:56:57 2651] [I] [cache]29, 0xe8a0000, len:329728, w:368, h:448
+
+[11-4 17:56:57 2667] [I] creat id 20, end addr 0xe900000
+
+[11-4 17:56:58 2818] [I] [setting checksum] 0x0
+
+[11-4 17:57:0 2969] [I] [setting checksum] 0x0
+
+[11-4 17:57:0 2969] [I] [end_init_refresh] snapshot refresh finish.
+
+[11-4 17:57:0 2993] [I] ram:[62184, 557384], b:45, s:0
+
+[11-4 17:57:1 3070] [I] Dev bond, enter home page
+
+[11-4 17:57:1 3070] [I] [home] begin
+
+[11-4 17:57:1 3103] [E] [m_face] loader oom
+
+[11-4 17:57:1 3103] [I] dynamic name :earth.am, anim id 21
+
+[11-4 17:57:1 3104] [I] [surface_item_lang_change][849] item text ready to reset default
+
+[11-4 17:57:1 3112] [I] dynamic name :earth.am, anim id 21
+
+[11-4 17:57:1 3112] [I] [surface_item_lang_change][849] item text ready to reset default
+
+[11-4 17:57:1 3112] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3116] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3116] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:1 3116] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3120] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3124] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:1 3124] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3125] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:1 3125] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3125] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:1 3125] [I] [update_system_bar] batt_level = 45
+[11-4 17:57:1 3130] [I] cq_blt_skip
+
+[11-4 17:57:3 3263] [I] right_activity_page start
+
+[11-4 17:57:3 3293] [E] [do_update:204] +++++++++++++++ is_weare = 0
+
+[11-4 17:57:3 3293] [I] [hrm] update hrm_value=0,max=0,min=255,wear=0
+
+[11-4 17:57:4 3339] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 4
+
+[11-4 17:57:4 3339] [E] [heyos_page_right_weather_enter] lookup error, widget not exist, i = 5
+
+[11-4 17:57:4 3339] [E] weatehr future is invalid
+
+[11-4 17:57:4 3365] [I] [module_system_music_control_get] phone_type = 1, music_switch=0
+
+[11-4 17:57:4 3382] [I] menu_cnt = 15, child_cnt = 1
+
+[11-4 17:57:9 3920] [I] [Wechat] DM_CONN_OPEN_IND, wechat_connHandle = 1
+
+[11-4 17:57:9 3920] [I] [service_ryeex_gap_callback] Connected. 
+
+[11-4 17:57:9 3926] [I] [update_system_bar] batt_level = 45
+[11-4 17:57:9 3927] [E] weatehr future is invalid
+
+[11-4 17:57:10 4023] [E] [display_te] te0 timeout
+
+[11-4 17:57:11 4117] [I] oops sta 0
+
+[11-4 17:57:11 4118] [I] oops sta 0
+
+[11-4 17:57:12 4151] [I] oops sta 0
+
+[11-4 17:57:12 4173] [I] [mible] status:0,len:4,0xCD43BC01
+
+[11-4 17:57:12 4203] [I] oops sta 0
+
+[11-4 17:57:12 4215] [I] oops sta 0
+
+[11-4 17:57:12 4216] [I] PHONE type: 1
+
+[11-4 17:57:12 4227] [I] oops sta 0
+
+[11-4 17:57:13 4243] [I] oops sta 0
+
+[11-4 17:57:13 4243] [I] [dip]24h :1
+
+[11-4 17:57:13 4259] [I] oops sta 0
+
+[11-4 17:57:13 4260] [I] [get_property] ID:6000
+
+[11-4 17:57:13 4274] [I] oops sta 0
+
+[11-4 17:57:13 4275] [I] [[time]]utc:1636019833, devi:28800, 2021-11-04 17:57:13 | msg:1, 1636019834, deviat:28800], setDevi:28800
+
+[11-4 17:57:14 4275] [I] alarm evt 0x20
+
+[11-4 17:57:14 4275] [I] recent timer is null
+
+[11-4 17:57:14 4275] [I] [get_alarm] fail
+
+[11-4 17:57:14 4276] [I] [[time]]utc:1636019834, devi:28800, 2021-11-04 17:57:14
+
+[11-4 17:57:14 4294] [I] oops sta 0
+
+[11-4 17:57:16 4509] [I] tp_power_off
+
+[11-4 17:57:35 6391] [I] XINLI driver
+
+[11-4 17:57:35 6395] [I] oops sta 0
+
+[11-4 17:57:35 6401] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:35 6401] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:35 6401] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:35 6402] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:35 6402] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:35 6402] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:35 6405] [I] tp_power_on
+
+[11-4 17:57:35 6409] [I] tp reset
+
+[11-4 17:57:38 6768] [I] oops sta 0
+
+[11-4 17:57:39 6792] [E] [display_te] te0 timeout
+
+[11-4 17:57:41 6995] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:41 6995] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:41 6995] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:41 6996] [E] [on_user_group_update][273] widget is null
+
+[11-4 17:57:41 6996] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:41 6996] [I] [plugin init] plugin type invalid
+
+[11-4 17:57:51 7999] [I] tp_power_off
+
+[11-4 17:57:51 8035] [I] oops sta 0
+
+[11-4 17:57:52 8106] [I] oops sta 0
+
+[11-4 17:57:52 8169] [I] oops sta 0
+
+[11-4 17:57:53 8233] [I] oops sta 0
+
+[11-4 17:57:54 8296] [I] oops sta 0
+
+[11-4 17:57:54 8359] [I] oops sta 0
+
+[11-4 17:57:55 8422] [I] oops sta 0
+
+[11-4 17:57:56 8487] [I] oops sta 0
+
+[11-4 17:57:56 8551] [I] oops sta 0
+
+[11-4 17:57:57 8618] [I] oops sta 0
+
+[11-4 17:57:58 8683] [I] oops sta 0
+
+[11-4 17:57:58 8749] [I] oops sta 0
+
+[11-4 17:57:59 8813] [I] oops sta 0
+
+[11-4 17:58:0 8878] [I] oops sta 0
+
+[11-4 17:58:0 8902] [I] ram:[61420, 193868], b:45, s:0
+
+[11-4 17:58:0 8942] [I] oops sta 0
+
+[11-4 17:58:1 9008] [I] oops sta 0
+
+[11-4 17:58:1 9073] [I] oops sta 0
+
+[11-4 17:58:2 9139] [I] oops sta 0
+
