@@ -1,0 +1,37 @@
+[DEBUG 2021-11-13 01:08:06]解压zip包并且重命名
+[DEBUG 2021-11-13 01:08:10]获取差分资源包
+[DEBUG 2021-11-13 01:08:10]唤醒解锁屏幕
+[DEBUG 2021-11-13 01:08:12]下发固件/资源到手机
+[DEBUG 2021-11-13 01:08:12]每次保存最新的资源包到Recent_res
+[INFO 2021-11-13 01:08:12]********TEST START** ******
+[DEBUG 2021-11-13 01:08:20]初始化测试数据
+[DEBUG 2021-11-13 01:15:30]初始化测试数据
+[DEBUG 2021-11-13 01:36:46]初始化测试数据
+[DEBUG 2021-11-13 01:41:17]初始化测试数据
+[DEBUG 2021-11-13 01:42:56]初始化测试数据
+[DEBUG 2021-11-13 01:44:54]初始化测试数据
+[DEBUG 2021-11-13 01:46:10]初始化测试数据
+[DEBUG 2021-11-13 01:47:33]初始化测试数据
+[DEBUG 2021-11-13 01:49:54]初始化测试数据
+[DEBUG 2021-11-13 01:50:52]初始化测试数据
+[DEBUG 2021-11-13 01:51:46]初始化测试数据
+[DEBUG 2021-11-13 01:54:09]初始化测试数据
+[DEBUG 2021-11-13 01:56:12]初始化测试数据
+[DEBUG 2021-11-13 01:57:37]初始化测试数据
+[DEBUG 2021-11-13 02:02:19]初始化测试数据
+[DEBUG 2021-11-13 02:04:25]初始化测试数据
+[DEBUG 2021-11-13 02:06:19]初始化测试数据
+[DEBUG 2021-11-13 02:19:19]初始化测试数据
+[DEBUG 2021-11-13 02:20:36]初始化测试数据
+[ERROR 2021-11-13 02:22:16]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[DEBUG 2021-11-13 02:22:18]初始化测试数据
+[ERROR 2021-11-13 02:22:59]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[DEBUG 2021-11-13 02:23:01]初始化测试数据
+[ERROR 2021-11-13 02:23:30]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[DEBUG 2021-11-13 02:23:32]初始化测试数据
+[DEBUG 2021-11-13 02:24:15]初始化测试数据
+[ERROR 2021-11-13 02:25:19]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[DEBUG 2021-11-13 02:25:21]初始化测试数据
+[DEBUG 2021-11-13 02:26:37]初始化测试数据
+[ERROR 2021-11-13 02:27:07]测试用例执行失败，请检查
+[INFO 2021-11-13 02:27:07]*********TEST END*********

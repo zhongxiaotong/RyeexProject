@@ -46,6 +46,7 @@ class Testsmoke:
         self.mac13 = '9C:F6:DD:39:29:D6'
         self.mac14 = '9C:F6:DD:39:29:D6'
         self.mac15 = '9C:F6:DD:39:29:D6'
+
     def smoke1(self):
         info = "Process-1"
         self.port = self.init_port

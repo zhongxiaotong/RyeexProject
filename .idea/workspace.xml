@@ -7,39 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1117f99-b9f2-41eb-ae73-ab344177186e" name="Default" comment="master">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Common/Feishu.py" afterPath="$PROJECT_DIR$/ApiTest/Common/Feishu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Common/File.py" afterPath="$PROJECT_DIR$/ApiTest/Common/File.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Common/Firmware.py" afterPath="$PROJECT_DIR$/ApiTest/Common/Firmware.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Common/appcommon.py" afterPath="$PROJECT_DIR$/ApiTest/Common/appcommon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Log/2021-11-02.log" afterPath="$PROJECT_DIR$/ApiTest/Log/2021-11-02.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Log/2021-11-02_error.log" afterPath="$PROJECT_DIR$/ApiTest/Log/2021-11-02_error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Run.py" afterPath="$PROJECT_DIR$/ApiTest/Run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BloodOxygen.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BloodOxygen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BluetoothSwitch.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BluetoothSwitch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_DoNotDisturb.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_DoNotDisturb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_PowerSaveMode.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_PowerSaveMode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Setting.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Setting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CountDown.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CountDown.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_GoalReminder.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_GoalReminder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_HeartRate.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_HeartRate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_MessageNotification.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_MessageNotification.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Reset.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Reset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Restart.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Restart.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_Brightness.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_Brightness.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_SwitchFace.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_SwitchFace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_StopWatch.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_StopWatch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_SwitchFace.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_SwitchFace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_TodayActivity.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_TodayActivity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Weather.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Weather.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZGetDevicesLog.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZGetDevicesLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZUnbind.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZUnbind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/OTA.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/OTA.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testdata/app.yaml" afterPath="$PROJECT_DIR$/ApiTest/Testdata/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" afterPath="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" />
     </list>
     <ignored path="Project-Pycharm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,110 +29,129 @@
     <favorites_list name="Project-Pycharm" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-              <folding>
-                <element signature="e#89#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_CallReminder_Mute_HangUp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CallReminder_Mute_HangUp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Controlpanel_DoNotDisturb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_DoNotDisturb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_FirmwareUpdateADiff.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateADiff.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_FirmwareUpdateAll.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateAll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.868009">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_AlarmClock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_BloodOxygen.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BloodOxygen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_BluetoothSwitch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BluetoothSwitch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Controlpanel_Brightness.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appcommon.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiTest/Common/appcommon.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1485" column="58" selection-start-line="1485" selection-start-column="51" selection-end-line="1485" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Run.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Run.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.1568627">
+                  <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_InstallFace.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_Controlpanel_PowerSaveMode.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_PowerSaveMode.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_Setting_DrinkWaterRemind.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Saturn_Smoke.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_BloodOxygen.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BloodOxygen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_AlarmClock.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_BluetoothSwitch.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BluetoothSwitch.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_Controlpanel_Brightness.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Saturn_Smoke.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="989" column="22" selection-start-line="989" selection-start-column="22" selection-end-line="989" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#44528#47147#0" expanded="false" />
+                    <element signature="e#47180#49415#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="appcommon.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ApiTest/Common/appcommon.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="2.254902">
+                  <caret line="1127" column="42" selection-start-line="1127" selection-start-column="39" selection-end-line="1127" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -207,7 +196,6 @@
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_TodayActivity.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZGetDevicesLog.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_ZUnbind.py" />
-        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Reset.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_BloodOxygen.py" />
@@ -217,7 +205,6 @@
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CountDown.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_GoalReminder.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_MessageNotification.py" />
-        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_SwitchFace.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_StopWatch.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Weather.py" />
@@ -227,6 +214,9 @@
         <option value="$PROJECT_DIR$/ApiTest/Run.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_SwitchFace.py" />
         <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_DoNotDisturb.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py" />
+        <option value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py" />
       </list>
     </option>
   </component>
@@ -285,6 +275,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project-Pycharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project-Pycharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Testdata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +377,7 @@
       <recent name="C:\Test_Script\Project-Pycharm\ApiTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in Test_Controlpanel_DoNotDisturb.py">
+  <component name="RunManager" selected="Python tests.py.test in TestClass and test_drinkwaterremind">
     <configuration default="false" name="File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -402,30 +410,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ApiTest/Run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in TestClass and test_stopwatch" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project-Pycharm" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_StopWatch.py" />
-      <option name="keywords" value="TestClass and test_stopwatch" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Firmware" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -467,6 +451,30 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in TestClass and test_drinkwaterremind" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Project-Pycharm" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py" />
+      <option name="keywords" value="TestClass and test_drinkwaterremind" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -594,17 +602,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.File" />
       <item index="1" class="java.lang.String" itemvalue="Python.Run" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestClass and test_stopwatch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Firmware" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Test_Controlpanel_DoNotDisturb.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Firmware" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in Test_Controlpanel_DoNotDisturb.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestClass and test_drinkwaterremind" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Test_Controlpanel_DoNotDisturb.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Run" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Firmware" />
-        <item index="3" class="java.lang.String" itemvalue="Python.File" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestClass and test_stopwatch" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in TestClass and test_drinkwaterremind" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Test_Controlpanel_DoNotDisturb.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Run" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Firmware" />
+        <item index="4" class="java.lang.String" itemvalue="Python.File" />
       </list>
     </recent_temporary>
   </component>
@@ -622,18 +630,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 33m 47s.xml">
-      <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 35m 36s.xml">
-      <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 36m 52s.xml">
-      <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 38m 13s.xml">
-      <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 39m 45s.xml">
       <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
     </history-entry>
@@ -646,6 +642,18 @@
     <history-entry file="py_test_in_TestClass_and_test_alarmclock - 2021.11.04 at 11h 44m 12s.xml">
       <configuration name="py.test in TestClass and test_alarmclock" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_TestClass_and_test_drinkwaterremind - 2021.11.18 at 11h 28m 06s.xml">
+      <configuration name="py.test in TestClass and test_drinkwaterremind" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestClass_and_test_drinkwaterremind - 2021.11.18 at 11h 36m 05s.xml">
+      <configuration name="py.test in TestClass and test_drinkwaterremind" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestClass_and_test_drinkwaterremind - 2021.11.18 at 11h 50m 05s.xml">
+      <configuration name="py.test in TestClass and test_drinkwaterremind" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestClass_and_test_drinkwaterremind - 2021.11.18 at 14h 47m 06s.xml">
+      <configuration name="py.test in TestClass and test_drinkwaterremind" configurationId="tests" />
+    </history-entry>
     <history-entry file="py_test_in_TestClass_and_test_stopwatch - 2021.11.04 at 17h 11m 03s.xml">
       <configuration name="py.test in TestClass and test_stopwatch" configurationId="tests" />
     </history-entry>
@@ -655,26 +663,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34994584" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15384616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36078006" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3629469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36105034" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3629469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -754,19 +762,11 @@
           <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="85" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApiTest/Common/appcommon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -831,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_PowerSaveMode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -857,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -893,13 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -965,7 +943,7 @@
         <state vertical-scroll-proportion="0.6420582">
           <caret line="55" column="99" selection-start-line="55" selection-start-column="99" selection-end-line="55" selection-end-column="99" />
           <folding>
-            <element signature="e#109#123#0" expanded="true" />
+            <element signature="e#109#123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,13 +1032,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Run.py">
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateADiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.606264">
+          <caret line="70" column="81" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.606264">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/Saturn_Smoke.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-          <folding>
-            <element signature="e#89#111#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Setting_DrinkWaterRemind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,14 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1091,47 +1083,63 @@
     <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_Brightness.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CallReminder_Mute_HangUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApiTest/Common/appcommon.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.254902">
+          <caret line="1127" column="42" selection-start-line="1127" selection-start-column="39" selection-end-line="1127" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_PowerSaveMode.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1485" column="58" selection-start-line="1485" selection-start-column="51" selection-end-line="1485" selection-end-column="58" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_Controlpanel_DoNotDisturb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.13725491">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateADiff.py">
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_CallReminder_Mute_HangUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.09803922">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_FirmwareUpdateAll.py">
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_InstallFace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.868009">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Testcase/AppUiTestcase/BaileysTestCase/Test_AlarmClock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiTest/Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1568627">
+          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -53,7 +53,7 @@ class TestClass:
     @allure.title("安装表盘")
     @allure.story("正常流程")
     @allure.severity('blocker')
-    # @pytest.mark.baileys
+    @pytest.mark.baileys
     def test_unbind(self):
         self.driver = self.app.open_application(self.init_port)
         self.app.devices_bind(self.mac, self.fuction, self.info)
@@ -66,8 +66,8 @@ class TestClass:
         self.app.click_prompt_box()
         self.app.click_prompt_box()
         self.app.click_prompt_box()
-        self.app.devices_installsurface(9568)
-        self.app.tv_deleteSurface(9568)
+        self.app.devices_installsurface(str(9568)+",STATIC")
+        self.app.tv_deleteSurface(str(9568)+",STATIC")
 
 if __name__ == '__main__':
      pytest.main()

@@ -1,0 +1,6 @@
+[ERROR 2021-11-20 01:56:56]页面未能找到该元素//*[@resource-id='com.ryeex.sdk.demo:id/tv_result']
+[ERROR 2021-11-20 02:23:09]验证失败：当前page_name为home_page，view_name为home_id_down；预期page_name为home_page,view_name为home_id_surface
+[ERROR 2021-11-20 02:23:49]验证失败：当前page_name为music，view_name为online_music；预期page_name为appctr_stopwatch,view_name为view_start
+[ERROR 2021-11-20 02:24:19]验证失败：当前page_name为music，view_name为offline_music；预期page_name为face_pick_page,view_name为slide_view_view
+[ERROR 2021-11-20 02:26:09]验证失败：当前page_name为music，view_name为online_music；预期page_name为weather,view_name为online_weather
+[ERROR 2021-11-20 02:28:01]测试用例执行失败，请检查

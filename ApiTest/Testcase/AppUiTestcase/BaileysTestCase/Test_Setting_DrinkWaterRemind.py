@@ -56,13 +56,13 @@ class TestClass:
     @pytest.mark.baileys
     def test_drinkwaterremind(self):
         self.driver = self.app.open_application(self.init_port)
-        self.app.devices_bind(self.mac, self.fuction, self.info)
+        # self.app.devices_bind(self.mac, self.fuction, self.info)
 
-        # self.app.devices_click('SATURN_设备')
-        # time.sleep(15)
-        # self.app.device_home()
-        # self.app.device_home()
-        # self.app.device_home()
+        self.app.devices_click('SATURN_设备')
+        time.sleep(15)
+        self.app.device_home()
+        self.app.device_home()
+        self.app.device_home()
 
         self.driver.keyevent(4)
         self.app.devices_click('SATURN_APP')
